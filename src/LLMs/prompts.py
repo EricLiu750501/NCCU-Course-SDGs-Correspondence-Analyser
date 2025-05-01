@@ -27,7 +27,7 @@ Provide a reason for the score.'''
         self.dashes = "\n\n---\n\n"
 
         self.response = \
-        '''Respond in JSON format， structured as follows: {
+        '''Respond in JSON format, structured as follows: {
     "Domain Name 1": {
         "reason": "reason"，
         "score": number
@@ -35,7 +35,7 @@ Provide a reason for the score.'''
     ...
 }
         '''
-
+ 
     def title_author(self, title:str, author:dict):
         author_str = json.dumps(author, indent=4, ensure_ascii=False)
         s = self.illustrate_title_author + self.dashes+\

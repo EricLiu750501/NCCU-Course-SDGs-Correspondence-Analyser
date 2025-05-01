@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
-import time
+import time, random
 import os
 import json
 from typing import Any, Dict
@@ -11,16 +11,51 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from urllib.parse import urljoin
 from selenium.common.exceptions import TimeoutException, ElementClickInterceptedException, StaleElementReferenceException, ElementNotInteractableException
+import re
 
 # 從每一個 Scholar 的網址中提取資料
+# 3h 20m 19s : 500 urls
+
+def parse_expertise(raw: str) -> list[str]:
+    """
+    將專長欄位字串轉換為乾淨的 list。
+    支援中英文，處理常見分隔符：頓號、逗號，並進一步處理中文專長中間的空格。
+    """
+    if not raw:
+        return []
+
+    # 初步用常見分隔符切開
+    primary_separators = r"[、,，]+"
+    items = re.split(primary_separators, raw)
+    
+    result = []
+    for item in items:
+        item = item.strip()
+        if not item:
+            continue
+        # 如果是「中文字 空格 中文字」，則進一步切開
+        if re.search(r"[\u4e00-\u9fff]+\s+[\u4e00-\u9fff]+", item):
+            result.extend([s.strip() for s in item.split() if s.strip()])
+        else:
+            result.append(item)
+
+    return result
+
 
 def get_scholar_info(url):
+    user_agents = [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36",
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+    ]
     try:
         # 設置 Chrome 選項
         chrome_options = Options()
-        # chrome_options.add_argument("--headless")  # 可選：無頭模式
+        chrome_options.add_argument("--headless")  # 可背景執行
+        chrome_options.add_argument(f"user-agent={random.choice(user_agents)}")
         chrome_options.add_argument("--disable-gpu")
-        
+        chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+
         # 指定 ChromeDriver 路徑
         chromedriver_path = './chromedriver-mac-arm64/chromedriver'
         if not os.path.exists(chromedriver_path):
@@ -44,7 +79,7 @@ def get_scholar_info(url):
                 
         # 診斷
         tables = soup.find_all('table', class_='scholar-id')
-        print(f"{url} 中找到 {len(tables)} 個 <table class='scholar-id'>")
+        # print(f"{url} 中找到 {len(tables)} 個 <table class='scholar-id'>")
         
         # 提取基本資料（第一個 table）
         if tables:
@@ -66,22 +101,7 @@ def get_scholar_info(url):
                     elif 'Research Expertise' in key:
                         expertise_list = []
                         value = value.strip()
-                        if value:
-                            # 檢查是否有英文逗號（英文版）
-                            if ',' in value:
-                                expertise_list = [item.strip() for item in value.split(',') if item.strip()]
-                            # 檢查是否有中文頓號或小頓號（中文版）
-                            elif '、' in value or '﹑' in value:
-                                value = value.replace('、', ',').replace('﹑', ',')
-                                expertise_list = [item.strip() for item in value.split(',') if item.strip()]
-                            # 檢查是否有空格（中文版常見）
-                            elif ' ' in value:
-                                expertise_list = [item.strip() for item in value.split(' ') if item.strip()]
-                            # 無分隔符號，作為單一項目
-                            else:
-                                expertise_list = [value]
-                        info['expertise'] = expertise_list
-                    
+                        info['expertise'] = parse_expertise(value)
                     
         # 導航到 Periodical Articles 頁面
         publications = []
@@ -109,13 +129,13 @@ def get_scholar_info(url):
                                 title_link = cols[1].find('a')
                                 pub['title'] = title_link.text.strip() if title_link else ''
                                 pub['type'] = cols[2].text.strip()
-                                publications.append(pub)
+                                publications.append(pub['title'])
                     
                     # 檢查是否有下一頁
                     try:
                         # 使用 CSS 選擇器定位包含 <span class="next"> 的 <a> 標籤
                         next_button = WebDriverWait(driver, 15).until(
-                            EC.element_to_be_clickable((By.CSS_SELECTOR, 'ul.pagination li a:has(span.next)'))
+                           EC.element_to_be_clickable((By.CSS_SELECTOR, 'ul.pagination li a:has(span.next)'))
                         )
                         print("找到下一頁按鈕，嘗試點擊")
                         # 確保按鈕可見
@@ -148,7 +168,7 @@ def get_scholar_info(url):
                 print(f"{url} 未找到 Periodical Articles 連結")
         except Exception as e:
             print(f"無法爬取 {url} 的出版物: {e}")
-        
+
         driver.quit()
         
         # 將出版物加入資訊
@@ -162,9 +182,8 @@ def get_scholar_info(url):
         print(f"無法處理 {url}: {e}")
         return None
 
-def restructure_data(scholars:list):
+def restructure_data(scholars:list) -> dict:
     result = {}
-    
     for scholar in scholars:
         college = scholar['college']
         department = scholar['department']
@@ -192,35 +211,64 @@ def restructure_data(scholars:list):
 
 
 if __name__ == "__main__":
+    n = int(input("Please input file number:"))
     # 讀取 URL
     try:
-        with open("./scholars_url.txt", 'r') as f:
+        with open(f"./scholars_url_{n}.txt", 'r') as f:
             urls = [line.strip() for line in f if line.strip()]
     except FileNotFoundError:
-        print("錯誤：找不到 scholars_url.txt")
+        print(f"錯誤：找不到 scholars_url{n}.txt")
         exit()
     
     scholars_data = []
     cnt = 0
-    
-    # 只處理前 5 個 URL
-    for url in urls:
-        cnt += 1
-        if cnt > 50:
-            break
-        print(f"\n正在處理: {url}")
-        info = get_scholar_info(url)
+
+    print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+
+    url_len = len(urls)
+    cnt = 0
+    error_times = 0
+    error_urls = []
+    while cnt < url_len:
+        if cnt % 30 == 0 and cnt != 0:  # 每爬 30 頁
+            print(f"已處理 {cnt} 個學者資料，暫停中")
+            time.sleep(random.uniform(10, 20))
+        elif cnt % 300 == 0 and cnt != 0:  # 每爬 300 頁
+            print(f"已處理 {cnt} 個學者資料，暫停中")
+            time.sleep(random.uniform(40, 50))
+        else:
+            time.sleep(random.uniform(0.5, 1.5))
+
+
+        print(f"\n正在處理({cnt})({time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())}): {urls[cnt]}")
+        info = get_scholar_info(urls[cnt])
         if info:
             scholars_data.append(info)
+            cnt += 1
+            error_times = 0
+        else:
+            if error_times >= 3:
+                print(f"無法處理 {urls[cnt]}，跳過")
+                cnt += 1
+                error_times = 0
+                error_urls.append(urls[cnt])
+            print(f"無法處理 {urls[cnt]}，等待重新處理")
+            time.sleep(random.uniform(40, 45))
+            error_times += 1
 
-    # info = get_scholar_info("https://ah.lib.nccu.edu.tw/scholar?id=9794&locale=en&locale=en")
-    # if info:
-    #     scholars_data.append(info)
 
-    scholars_data = restructure_data(scholars_data)
+
+
+
+    restructure_scholars_data = restructure_data(scholars_data)
     
     # 儲存結果為 JSON
-    with open("./scholars_info.json", 'w', encoding='utf-8') as f:
-        json.dump(scholars_data, f, ensure_ascii=False, indent=4)
+    with open(f"./scholars_info_{n}.json", 'w', encoding='utf-8') as f:
+        json.dump(restructure_scholars_data, f, ensure_ascii=False, indent=4)
     
-    print("\n資訊已儲存到 scholars_info.json")
+    print(f"\n資訊已儲存到 scholars_info_{n}.json")
+    
+    with open(f"./scholars_info_{n}_error_urls.txt", 'w', encoding='utf-8') as f: 
+        for url in error_urls:
+            f.write(f"錯誤網址: {url}\n")
+

@@ -38,7 +38,7 @@ def main():
 
     with open("./scholars_url.txt", 'w') as f:
         for url in scholar_urls:
-            f.write(f"{url}&locale=en\n")
+            f.write(f"{url}\n")
 
 
 if __name__ == "__main__":
