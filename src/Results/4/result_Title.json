@@ -1,0 +1,69 @@
+[
+  {
+    "url": "https://ah.lib.nccu.edu.tw/scholar?id=6942&locale=en&locale=en",
+    "college": "College of Informatics",
+    "department": "Department of Computer Science",
+    "expertise": [
+      "人工智慧",
+      "演算法",
+      "數位典藏",
+      "地理資訊系統"
+    ],
+    "title": "Robust refinement methods for camera calibration and 3D reconstruction from multiple images"
+  },
+  "",
+  {
+    "General Computer Science": {
+      "reason": "The paper deals with fundamental algorithms and techniques used in computer science, particularly related to data processing and optimization. The term 'robust' also implies algorithmic stability, a general CS concern.",
+      "score": 3
+    },
+    "Computer Science (miscellaneous)": {
+      "reason": "This is a broad category that can encompass aspects of the paper that don't neatly fit into other specific domains. The combination of camera calibration and 3D reconstruction is a specific application area.",
+      "score": 1
+    },
+    "Artificial Intelligence": {
+      "reason": "While not explicitly AI, 3D reconstruction and camera calibration are often components of AI systems that perceive and interact with the physical world (e.g., robotics, autonomous driving).",
+      "score": 2
+    },
+    "Computational Theory and Mathematics": {
+      "reason": "The 'refinement methods' likely involve mathematical optimization techniques and potentially statistical analysis to achieve robustness. Camera calibration relies heavily on mathematical models.",
+      "score": 4
+    },
+    "Computer Graphics and Computer-Aided Design": {
+      "reason": "3D reconstruction is a core component of computer graphics. The results of the reconstruction can be used in CAD applications.",
+      "score": 5
+    },
+    "Computer Networks and Communications": {
+      "reason": "Unlikely to be a major focus, unless the multiple images are being transmitted over a network. This is not explicitly mentioned.",
+      "score": 0.001
+    },
+    "Computer Science Applications": {
+      "reason": "The paper describes methods directly applicable to various fields that rely on 3D scene understanding, such as robotics, augmented reality, and surveying.",
+      "score": 6
+    },
+    "Computer Vision and Pattern Recognition": {
+      "reason": "This is the most relevant domain. Camera calibration and 3D reconstruction are fundamental problems in computer vision. 'Robust refinement methods' directly addresses challenges in this field.",
+      "score": 10
+    },
+    "Hardware and Architecture": {
+      "reason": "The paper's focus is on algorithms and methods, not on specific hardware implementations. While the algorithms will eventually run on hardware, it's not the primary concern.",
+      "score": 0.01
+    },
+    "Human-Computer Interaction": {
+      "reason": "Indirectly relevant if the 3D reconstruction is used in an HCI system, but not a primary focus.",
+      "score": 0.1
+    },
+    "Information Systems": {
+      "reason": "Not directly relevant. The paper doesn't focus on managing or processing information in a database or large-scale system.",
+      "score": 0.001
+    },
+    "Signal Processing": {
+      "reason": "Image processing, a subfield of signal processing, is involved in processing the multiple images. However, the core focus is on the geometric aspects of calibration and reconstruction.",
+      "score": 3
+    },
+    "Software": {
+      "reason": "The methods described in the paper will likely be implemented as software. The 'refinement methods' suggest a focus on software implementation and optimization.",
+      "score": 2
+    }
+  }
+]

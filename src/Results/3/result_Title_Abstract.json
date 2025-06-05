@@ -1,0 +1,71 @@
+[
+  {
+    "url": "https://ah.lib.nccu.edu.tw/scholar?id=718&locale=en&locale=en",
+    "college": "College of Informatics",
+    "department": "Department of Computer Science",
+    "expertise": [
+      "人工智慧",
+      "機器人學",
+      "計算語言學",
+      "社會網絡分析",
+      "數位人文",
+      "數位圖書館"
+    ],
+    "title": "Coordination of Multiple Agents for Production Scheduling"
+  },
+  "The new challenges of “Agile Manufacturing” and distributed decision making entailed by decentralized organizations led to our interest in the study of computational cooperative problem solving models and coordination techniques for distributed production management. The goal of our research is to address the technical need of distributed production management and develop appropriate computational approaches to support adaptive, cost-effective responsiveness. In particular, we focus on the challenging problem of job shop scheduling, which has been one of the primary foci of production scheduling research. This paper presents a multi-agent problem solving model and an effective coordination technique for job shop scheduling. The model involves a group of agents; each agent is associated with either a job or a resource. A solution to a production scheduling problem is the result of coordinated conflict resolution in the iterative and asynchronous multi-agent decision making process. It is well known in distributed systems research that for tightly interacting, non-decomposable problems, such as job shop scheduling, the need for communicating partial solution results among parts of the system rapidly degrades system performance. On the other hand, limiting communication degrades solution quality. One can limit communication by employing shared memory, but this has the drawback that the shared memory becomes a bottleneck and, in addition, using shared memory limits decentralization. In our approach, we judiciously balance the above concerns. We limit interagent communication through a scheme that employs efficient, small and distributed shared memories, each of which is associated with and shared by a limited number of agents. We also exploit problem characteristics (e.g. disparity among subproblems) to design an effective coordination technique for the job shop scheduling problem. We have evaluated the utility of our approach through extensive experimentation on a variety of job shop constraint satisfaction and optimization problems with different optimization objectives. Our results show that our approach outperforms or gives comparative results with other state-of-the-art scheduling techniques on benchmark problems.\n\n",
+  {
+    "General Computer Science": {
+      "reason": "The paper deals with fundamental concepts in computer science, such as distributed systems, algorithms, and problem-solving models.",
+      "score": 6
+    },
+    "Computer Science (miscellaneous)": {
+      "reason": "This category serves as a general umbrella for aspects of the paper that don't neatly fit into other, more specific categories. The overall approach to problem-solving and system design falls under this.",
+      "score": 3
+    },
+    "Artificial Intelligence": {
+      "reason": "The paper explicitly uses multi-agent systems, a core AI technique, for solving the production scheduling problem. The coordination techniques also fall under AI.",
+      "score": 9
+    },
+    "Computational Theory and Mathematics": {
+      "reason": "The paper touches upon optimization and constraint satisfaction problems, which are rooted in computational theory and mathematics. The analysis of algorithm performance also relates to this domain.",
+      "score": 5
+    },
+    "Computer Graphics and Computer-Aided Design": {
+      "reason": "While production scheduling can be related to CAD/CAM, this paper doesn't explicitly focus on graphical aspects or design tools. The connection is indirect.",
+      "score": 0.1
+    },
+    "Computer Networks and Communications": {
+      "reason": "The paper discusses inter-agent communication, but the focus is on the coordination strategy within the multi-agent system rather than the underlying network protocols or communication infrastructure. The communication is more about information exchange for problem-solving than network communication.",
+      "score": 2
+    },
+    "Computer Science Applications": {
+      "reason": "The paper directly addresses a real-world application: production scheduling. The entire research is motivated by the need to improve efficiency and responsiveness in manufacturing.",
+      "score": 10
+    },
+    "Computer Vision and Pattern Recognition": {
+      "reason": "There is no mention or relevance to computer vision or pattern recognition.",
+      "score": 0.001
+    },
+    "Hardware and Architecture": {
+      "reason": "The paper does not delve into the specifics of hardware or computer architecture. The focus is on the software and algorithmic aspects of the multi-agent system.",
+      "score": 0.001
+    },
+    "Human-Computer Interaction": {
+      "reason": "The paper does not discuss user interfaces or interaction with human users. The focus is on the interaction between agents within the system.",
+      "score": 0.001
+    },
+    "Information Systems": {
+      "reason": "Production scheduling is a key component of information systems in manufacturing. The paper aims to improve the efficiency and effectiveness of these systems.",
+      "score": 7
+    },
+    "Signal Processing": {
+      "reason": "There is no mention or relevance to signal processing.",
+      "score": 0.001
+    },
+    "Software": {
+      "reason": "The multi-agent system and coordination techniques are implemented in software. The paper discusses the design and evaluation of these software components.",
+      "score": 8
+    }
+  }
+]

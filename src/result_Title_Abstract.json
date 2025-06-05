@@ -1,0 +1,71 @@
+{
+  "Mode": "Title_Abstract",
+  "Info": {
+    "url": "https://ah.lib.nccu.edu.tw/scholar?id=1842&locale=en&locale=en",
+    "college": "College of Informatics",
+    "department": "Department of Computer Science",
+    "expertise": [
+      "Multimedia systems",
+      "data mining",
+      "database systems",
+      "bioinformatics"
+    ],
+    "title": "選擇性接合資料庫中表現序列跳接的容錯樣式探勘"
+  },
+  "Abstract": "Before RNA sequences are translated into proteins, eukaryotes may produce different functional proteins from the same RNA sequences. It is due to influence of environment, second structure, specific substring pattern, etc. This mechanism is named alternative splicing. At present, there are still not enough research to judge causes and critical information of alternative splicing. We try to develop suitable data mining technologies to analyze large number of RNA sequences, and find out possible patterns affecting alternative splicing.\nBasically, there are seven possible types of alternative splicing. We focus on “exon skipping” type. According to the analysis of exon skipping data, we propose two fault-tolerant data mining methods and procedures: “Full Sequence Pattern Mining (FSPM)” and “Inverted Repeat Pattern Mining (IRPM).” Full sequence pattern mining method can be applied to mine all fault-tolerant frequent substrings in the whole intron sequences, and then get consensus sequential patterns using ApproxMap method proposed by Kum[18].\nInverted repeat pattern mining method can be used to look for consenesus patterns with structure of inverted repeat. Because inverted repeat patterns are often appeared in biological sequences and such structural patterns may result in exon skipping. We could discover some important patterns by this method.\nFinally, we mined patterns from two alternative splicing databsets “Avatar-120” and “ISIS-54”by above two proposed methods. The support and average fault number of mined patterns were discussed. These patterns were also used global alignment method as compared with two patterns (C / G-rich) discovered by Miriami[24]. Novel patterns measured by discrimination were reported.\n",
+  "Keywords": "",
+  "Result": {
+    "General Computer Science": {
+      "reason": "The paper deals with data mining algorithms and their application, which falls under the general umbrella of computer science.",
+      "score": 6
+    },
+    "Computer Science (miscellaneous)": {
+      "reason": "While the paper fits into specific areas, it also has elements that might not be perfectly categorized, justifying a small score.",
+      "score": 1
+    },
+    "Artificial Intelligence": {
+      "reason": "Data mining is a subfield of AI, and the paper focuses on developing data mining techniques.",
+      "score": 7
+    },
+    "Computational Theory and Mathematics": {
+      "reason": "The development of new data mining methods involves computational theory and mathematical principles.",
+      "score": 4
+    },
+    "Computer Graphics and Computer-Aided Design": {
+      "reason": "This domain is not relevant to the paper's content.",
+      "score": 0.001
+    },
+    "Computer Networks and Communications": {
+      "reason": "This domain is not relevant to the paper's content.",
+      "score": 0.001
+    },
+    "Computer Science Applications": {
+      "reason": "The paper applies data mining techniques to a specific problem in bioinformatics (alternative splicing), making this domain highly relevant.",
+      "score": 9
+    },
+    "Computer Vision and Pattern Recognition": {
+      "reason": "The paper focuses on pattern mining in sequences, which is related to pattern recognition, but the focus is on sequential data rather than visual data.",
+      "score": 3
+    },
+    "Hardware and Architecture": {
+      "reason": "This domain is not relevant to the paper's content.",
+      "score": 0.001
+    },
+    "Human-Computer Interaction": {
+      "reason": "This domain is not relevant to the paper's content.",
+      "score": 0.001
+    },
+    "Information Systems": {
+      "reason": "The paper deals with analyzing and extracting information from biological sequence databases, which is related to information systems.",
+      "score": 5
+    },
+    "Signal Processing": {
+      "reason": "While sequence analysis can be viewed as a form of signal processing, the paper doesn't explicitly focus on signal processing techniques.",
+      "score": 2
+    },
+    "Software": {
+      "reason": "The development of data mining methods and their implementation involves software development.",
+      "score": 4
+    }
+  }
+}

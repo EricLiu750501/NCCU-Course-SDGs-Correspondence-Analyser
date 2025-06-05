@@ -1,0 +1,70 @@
+{
+  "Mode": "Abstract_Keywords",
+  "Info": {
+    "url": "https://ah.lib.nccu.edu.tw/scholar?id=716&locale=en&locale=en",
+    "college": "College of Informatics",
+    "department": "Department of Computer Science",
+    "expertise": [
+      "電腦圖學",
+      "資訊視覺化",
+      "風格化成像技術"
+    ],
+    "title": "Generating Ambiguous Figure-Ground Images"
+  },
+  "Abstract": "Ambiguous figure-ground images, mostly represented as binary images, are fascinating as they present viewers a visual phenomena of perceiving multiple interpretations from a single image. In one possible interpretation, the white region is seen as a foreground figure while the black region is treated as shapeless background. Such perception can reverse instantly at any moment. In this paper, we investigate the theory behind this ambiguous perception and present an automatic algorithm to generate such images. We model the problem as a binary image composition using two object contours and approach it through a three-stage pipeline. The algorithm first performs a partial shape matching to find a good partial contour matching between objects. This matching is based on a content-aware shape matching metric, which captures features of ambiguous figure-ground images. Then we combine matched contours into a compound contour using an adaptive contour deformation, followed by computing an optimal cropping window and image binarization for the compound contour that maximize the completeness of object contours in the final composition. We have tested our system using a wide range of input objects and generated a large number of convincing examples with or without user guidance. The efficiency of our system and quality of results are verified through an extensive experimental study. © 2016 IEEE.\n",
+  "Keywords": "curve deformation; Figure-ground perception; image binarization; image cropping; partial shape matching\n",
+  "Result": {
+    "Computer Vision and Pattern Recognition": {
+      "reason": "The core of the paper deals with image analysis, shape matching, and image generation, all central to computer vision. The keywords 'Figure-ground perception,' 'image binarization,' 'image cropping,' and 'partial shape matching' are directly related to computer vision tasks.",
+      "score": 9.5
+    },
+    "Artificial Intelligence": {
+      "reason": "The paper presents an 'automatic algorithm' for generating ambiguous images, which falls under the umbrella of AI, specifically in the area of automated image creation and understanding visual perception.",
+      "score": 7.0
+    },
+    "Computer Graphics and Computer-Aided Design": {
+      "reason": "The paper involves generating images and manipulating shapes ('curve deformation'). The creation of visual content aligns with computer graphics principles.",
+      "score": 6.0
+    },
+    "Human-Computer Interaction": {
+      "reason": "The paper touches upon how humans perceive images ('ambiguous figure-ground images') and mentions 'user guidance,' suggesting a potential interaction aspect in the image generation process.",
+      "score": 4.0
+    },
+    "Signal Processing": {
+      "reason": "Image binarization and cropping can be considered signal processing techniques applied to images.",
+      "score": 3.0
+    },
+    "Computational Theory and Mathematics": {
+      "reason": "Shape matching and contour deformation likely involve mathematical models and algorithms. The 'content-aware shape matching metric' suggests a mathematical formulation.",
+      "score": 3.0
+    },
+    "Computer Science Applications": {
+      "reason": "The algorithm developed has potential applications in areas where generating visually ambiguous images is useful (e.g., art, psychology research).",
+      "score": 2.0
+    },
+    "General Computer Science": {
+      "reason": "The paper describes an algorithm and its implementation, which are fundamental concepts in computer science.",
+      "score": 2.0
+    },
+    "Software": {
+      "reason": "The algorithm would need to be implemented as software.",
+      "score": 1.5
+    },
+    "Computer Science (miscellaneous)": {
+      "reason": "This is a broad category, and the paper fits within the general scope of computer science research.",
+      "score": 1.0
+    },
+    "Information Systems": {
+      "reason": "Not directly relevant, but image databases could be used to store and retrieve the generated images.",
+      "score": 0.01
+    },
+    "Computer Networks and Communications": {
+      "reason": "Not directly relevant.",
+      "score": 0.001
+    },
+    "Hardware and Architecture": {
+      "reason": "Not directly relevant.",
+      "score": 0.001
+    }
+  }
+}

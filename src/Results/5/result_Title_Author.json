@@ -1,0 +1,72 @@
+{
+  "Mode": "Title_Author",
+  "Info": {
+    "url": "https://ah.lib.nccu.edu.tw/scholar?id=6867&locale=en&locale=en",
+    "college": "College of Informatics",
+    "department": "Department of Computer Science",
+    "expertise": [
+      "Wireless networks",
+      "mobile communications",
+      "mobile computing",
+      "the Internet of Things",
+      "artificial intelligence"
+    ],
+    "title": "Urban Traffic Flow Prediction Using LSTM and GRU"
+  },
+  "Abstract": "",
+  "Keywords": "",
+  "Result": {
+    "General Computer Science": {
+      "reason": "This is a broad category that encompasses many aspects of the paper, including the use of algorithms and data structures. It serves as a foundational domain.",
+      "score": 3
+    },
+    "Computer Science (miscellaneous)": {
+      "reason": "This is a catch-all category for aspects of the paper that don't fit neatly into other specific domains. It's relevant but not central.",
+      "score": 1
+    },
+    "Artificial Intelligence": {
+      "reason": "The paper explicitly uses LSTM and GRU, which are recurrent neural network architectures and core components of AI, specifically deep learning. The author's expertise also includes AI.",
+      "score": 9
+    },
+    "Computational Theory and Mathematics": {
+      "reason": "LSTM and GRU are based on mathematical principles and computational theory. Understanding the underlying mathematics is crucial for effective implementation and optimization.",
+      "score": 4
+    },
+    "Computer Graphics and Computer-Aided Design": {
+      "reason": "This domain is not directly relevant to the paper's focus on traffic flow prediction.",
+      "score": 0.001
+    },
+    "Computer Networks and Communications": {
+      "reason": "Traffic flow prediction is inherently related to the flow of data within transportation networks. The author's expertise in wireless networks, mobile communications, and the Internet of Things further strengthens this connection, as these technologies are often used to collect and transmit traffic data.",
+      "score": 7
+    },
+    "Computer Science Applications": {
+      "reason": "The paper directly addresses a real-world application: urban traffic flow prediction. This is a clear application of computer science techniques.",
+      "score": 8
+    },
+    "Computer Vision and Pattern Recognition": {
+      "reason": "While not explicitly stated, traffic flow prediction can involve analyzing video feeds or sensor data to recognize patterns in traffic behavior. This is a less direct but still relevant connection.",
+      "score": 2
+    },
+    "Hardware and Architecture": {
+      "reason": "The paper doesn't focus on specific hardware or architectural considerations, although the implementation of the models will run on some hardware.",
+      "score": 0.1
+    },
+    "Human-Computer Interaction": {
+      "reason": "While the results of traffic flow prediction might be used in systems that interact with humans (e.g., navigation apps), the paper itself doesn't focus on HCI aspects.",
+      "score": 0.5
+    },
+    "Information Systems": {
+      "reason": "Traffic flow prediction is often part of a larger information system for transportation management. The paper contributes to the data processing and analysis components of such systems.",
+      "score": 6
+    },
+    "Signal Processing": {
+      "reason": "Traffic data can be considered a time-series signal, and signal processing techniques might be used for preprocessing or feature extraction.",
+      "score": 3
+    },
+    "Software": {
+      "reason": "The implementation of LSTM and GRU models requires software development. The paper implicitly involves software engineering aspects.",
+      "score": 5
+    }
+  }
+}

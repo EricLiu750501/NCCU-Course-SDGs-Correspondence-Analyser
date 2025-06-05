@@ -1,0 +1,70 @@
+{
+  "Mode": "Abstract_Author",
+  "Info": {
+    "url": "https://ah.lib.nccu.edu.tw/scholar?id=716&locale=en&locale=en",
+    "college": "College of Informatics",
+    "department": "Department of Computer Science",
+    "expertise": [
+      "電腦圖學",
+      "資訊視覺化",
+      "風格化成像技術"
+    ],
+    "title": "Generating Ambiguous Figure-Ground Images"
+  },
+  "Abstract": "Ambiguous figure-ground images, mostly represented as binary images, are fascinating as they present viewers a visual phenomena of perceiving multiple interpretations from a single image. In one possible interpretation, the white region is seen as a foreground figure while the black region is treated as shapeless background. Such perception can reverse instantly at any moment. In this paper, we investigate the theory behind this ambiguous perception and present an automatic algorithm to generate such images. We model the problem as a binary image composition using two object contours and approach it through a three-stage pipeline. The algorithm first performs a partial shape matching to find a good partial contour matching between objects. This matching is based on a content-aware shape matching metric, which captures features of ambiguous figure-ground images. Then we combine matched contours into a compound contour using an adaptive contour deformation, followed by computing an optimal cropping window and image binarization for the compound contour that maximize the completeness of object contours in the final composition. We have tested our system using a wide range of input objects and generated a large number of convincing examples with or without user guidance. The efficiency of our system and quality of results are verified through an extensive experimental study. © 2016 IEEE.\n",
+  "Keywords": "",
+  "Result": {
+    "General Computer Science": {
+      "reason": "The paper presents an algorithm and system, which falls under the general scope of computer science.",
+      "score": 6
+    },
+    "Computer Science (miscellaneous)": {
+      "reason": "While the paper focuses on a specific area, some aspects might not fit neatly into other defined subfields.",
+      "score": 2
+    },
+    "Artificial Intelligence": {
+      "reason": "The algorithm aims to mimic human visual perception, which is a topic related to AI.",
+      "score": 4
+    },
+    "Computational Theory and Mathematics": {
+      "reason": "The shape matching and contour deformation likely involve mathematical models and computational geometry.",
+      "score": 3
+    },
+    "Computer Graphics and Computer-Aided Design": {
+      "reason": "The paper deals with image generation and manipulation, which are core topics in computer graphics. The author's expertise also aligns with this domain.",
+      "score": 9
+    },
+    "Computer Networks and Communications": {
+      "reason": "The paper does not discuss any networking or communication aspects.",
+      "score": 0.001
+    },
+    "Computer Science Applications": {
+      "reason": "The algorithm can be applied to various image processing and design tasks.",
+      "score": 5
+    },
+    "Computer Vision and Pattern Recognition": {
+      "reason": "The paper addresses the problem of ambiguous figure-ground perception, which is a fundamental problem in computer vision. The shape matching aspect also falls under pattern recognition.",
+      "score": 8
+    },
+    "Hardware and Architecture": {
+      "reason": "The paper does not discuss any hardware or architectural aspects.",
+      "score": 0.001
+    },
+    "Human-Computer Interaction": {
+      "reason": "The paper mentions user guidance, suggesting some interaction with the system, and the topic of visual perception is relevant to HCI.",
+      "score": 4
+    },
+    "Information Systems": {
+      "reason": "The paper does not directly address information systems, although the generated images could be used in such systems.",
+      "score": 1
+    },
+    "Signal Processing": {
+      "reason": "Image binarization and contour deformation can be considered as signal processing techniques.",
+      "score": 3
+    },
+    "Software": {
+      "reason": "The algorithm is implemented as a software system.",
+      "score": 6
+    }
+  }
+}

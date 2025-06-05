@@ -1,0 +1,69 @@
+[
+  {
+    "url": "https://ah.lib.nccu.edu.tw/scholar?id=6942&locale=en&locale=en",
+    "college": "College of Informatics",
+    "department": "Department of Computer Science",
+    "expertise": [
+      "人工智慧",
+      "演算法",
+      "數位典藏",
+      "地理資訊系統"
+    ],
+    "title": "Robust refinement methods for camera calibration and 3D reconstruction from multiple images"
+  },
+  "This paper proposes robust refinement methods to improve the popular patch multi-view 3D reconstruction algorithm by Furukawa and Ponce (2008). Specifically, a new method is proposed to improve the robustness by removing outliers based on a filtering approach. In addition, this work also proposes a method to divide the 3D points in to several buckets for applying the sparse bundle adjustment algorithm (SBA) individually, removing the outliers and finally merging them. The residuals are used to filter potential outliers to reduce the re-projection error used as the performance evaluation of refinement. In our experiments, the original mean re-projection error is about 47.6. After applying the proposed methods, the mean error is reduced to 2.13. © 2011 Elsevier B.V. All rights reserved.\n\n",
+  {
+    "General Computer Science": {
+      "reason": "The paper deals with fundamental algorithms and techniques used in computer science, particularly in the context of 3D reconstruction and optimization. It touches upon general principles of algorithm design and performance improvement.",
+      "score": 4
+    },
+    "Computer Science (miscellaneous)": {
+      "reason": "This category serves as a catch-all for aspects of the paper that don't neatly fit into more specific domains. The overall problem of improving 3D reconstruction algorithms falls under this umbrella to some extent.",
+      "score": 2
+    },
+    "Artificial Intelligence": {
+      "reason": "While not explicitly AI, 3D reconstruction and robust algorithms are often components of AI systems, especially those dealing with perception and robotics. The outlier removal aspect can be seen as a form of robust estimation, which is relevant to AI.",
+      "score": 3
+    },
+    "Computational Theory and Mathematics": {
+      "reason": "The paper implicitly relies on mathematical principles related to optimization (bundle adjustment), linear algebra (camera calibration), and statistics (outlier detection). The re-projection error metric is also mathematically defined.",
+      "score": 4
+    },
+    "Computer Graphics and Computer-Aided Design": {
+      "reason": "3D reconstruction is a core component of computer graphics and CAD. The paper's focus on improving the accuracy and robustness of 3D models directly benefits these fields.",
+      "score": 7
+    },
+    "Computer Networks and Communications": {
+      "reason": "This domain is not directly relevant to the paper's content.",
+      "score": 0.001
+    },
+    "Computer Science Applications": {
+      "reason": "The paper presents a method to improve 3D reconstruction, which has numerous applications in fields like robotics, augmented reality, and virtual reality.",
+      "score": 6
+    },
+    "Computer Vision and Pattern Recognition": {
+      "reason": "This is the most relevant domain. The paper directly addresses camera calibration and 3D reconstruction, which are fundamental problems in computer vision. The outlier removal and refinement techniques are also core to robust pattern recognition.",
+      "score": 10
+    },
+    "Hardware and Architecture": {
+      "reason": "The paper does not focus on hardware or architectural considerations.",
+      "score": 0.001
+    },
+    "Human-Computer Interaction": {
+      "reason": "While improved 3D reconstruction can benefit HCI applications (e.g., creating more realistic virtual environments), the paper itself doesn't directly address HCI principles or concerns.",
+      "score": 1
+    },
+    "Information Systems": {
+      "reason": "The paper doesn't directly deal with information systems, data management, or related topics.",
+      "score": 0.001
+    },
+    "Signal Processing": {
+      "reason": "While image processing is related to signal processing, the paper's focus is on higher-level 3D reconstruction and not on low-level signal processing techniques.",
+      "score": 2
+    },
+    "Software": {
+      "reason": "The proposed methods would be implemented as software. The design and implementation of the algorithms are relevant to software engineering principles.",
+      "score": 3
+    }
+  }
+]

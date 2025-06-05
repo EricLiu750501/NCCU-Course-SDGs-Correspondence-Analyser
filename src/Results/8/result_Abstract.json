@@ -1,0 +1,70 @@
+{
+  "Mode": "Abstract",
+  "Info": {
+    "url": "https://ah.lib.nccu.edu.tw/scholar?id=716&locale=en&locale=en",
+    "college": "College of Informatics",
+    "department": "Department of Computer Science",
+    "expertise": [
+      "電腦圖學",
+      "資訊視覺化",
+      "風格化成像技術"
+    ],
+    "title": "Generating Ambiguous Figure-Ground Images"
+  },
+  "Abstract": "Ambiguous figure-ground images, mostly represented as binary images, are fascinating as they present viewers a visual phenomena of perceiving multiple interpretations from a single image. In one possible interpretation, the white region is seen as a foreground figure while the black region is treated as shapeless background. Such perception can reverse instantly at any moment. In this paper, we investigate the theory behind this ambiguous perception and present an automatic algorithm to generate such images. We model the problem as a binary image composition using two object contours and approach it through a three-stage pipeline. The algorithm first performs a partial shape matching to find a good partial contour matching between objects. This matching is based on a content-aware shape matching metric, which captures features of ambiguous figure-ground images. Then we combine matched contours into a compound contour using an adaptive contour deformation, followed by computing an optimal cropping window and image binarization for the compound contour that maximize the completeness of object contours in the final composition. We have tested our system using a wide range of input objects and generated a large number of convincing examples with or without user guidance. The efficiency of our system and quality of results are verified through an extensive experimental study. © 2016 IEEE.\n",
+  "Keywords": "",
+  "Result": {
+    "Computer Vision and Pattern Recognition": {
+      "reason": "The core of the paper deals with image analysis, shape matching, and image generation, all central to computer vision. The algorithm aims to create images with specific perceptual properties, which falls under pattern recognition.",
+      "score": 9.5
+    },
+    "Artificial Intelligence": {
+      "reason": "The paper aims to automate the generation of ambiguous images, which can be seen as a form of AI that mimics or understands human perception. The algorithm's design and optimization also involve AI principles.",
+      "score": 7.0
+    },
+    "Computer Graphics and Computer-Aided Design": {
+      "reason": "The paper involves image generation and manipulation, specifically creating binary images with specific visual properties. This relates to the creation and design of visual content.",
+      "score": 6.0
+    },
+    "Human-Computer Interaction": {
+      "reason": "The paper touches on how humans perceive ambiguous images. The goal is to create images that elicit a specific perceptual response, which is relevant to HCI as it explores the interaction between humans and visual information. The mention of user guidance also points to HCI.",
+      "score": 5.0
+    },
+    "General Computer Science": {
+      "reason": "The paper presents an algorithm and system for image generation, which is a general computer science topic.",
+      "score": 4.0
+    },
+    "Computer Science Applications": {
+      "reason": "The algorithm developed has potential applications in areas where ambiguous images or visual illusions are used, such as art, design, or even security.",
+      "score": 3.0
+    },
+    "Computational Theory and Mathematics": {
+      "reason": "The shape matching metric and contour deformation likely involve mathematical models and optimization techniques.",
+      "score": 2.0
+    },
+    "Signal Processing": {
+      "reason": "Image binarization and contour processing can be considered as signal processing techniques applied to visual data.",
+      "score": 1.5
+    },
+    "Software": {
+      "reason": "The algorithm is implemented as a software system, but the focus is more on the algorithm itself than on software engineering aspects.",
+      "score": 1.0
+    },
+    "Computer Science (miscellaneous)": {
+      "reason": "This is a broad category, and while the paper fits into more specific domains, it can also be generally categorized here.",
+      "score": 0.5
+    },
+    "Computer Networks and Communications": {
+      "reason": "The paper does not directly address networking or communication aspects.",
+      "score": 0.001
+    },
+    "Hardware and Architecture": {
+      "reason": "The paper does not discuss hardware or architectural considerations.",
+      "score": 0.001
+    },
+    "Information Systems": {
+      "reason": "The paper does not focus on information storage, retrieval, or management.",
+      "score": 0.001
+    }
+  }
+}

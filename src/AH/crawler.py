@@ -235,7 +235,7 @@ if __name__ == "__main__":
             time.sleep(random.uniform(10, 20))
         elif cnt % 300 == 0 and cnt != 0:  # 每爬 300 頁
             print(f"已處理 {cnt} 個學者資料，暫停中")
-            time.sleep(random.uniform(40, 50))
+            time.sleep(random.uniform(20, 30))
         else:
             time.sleep(random.uniform(0.5, 1.5))
 
@@ -253,7 +253,7 @@ if __name__ == "__main__":
                 error_times = 0
                 error_urls.append(urls[cnt])
             print(f"無法處理 {urls[cnt]}，等待重新處理")
-            time.sleep(random.uniform(40, 45))
+            time.sleep(random.uniform(20, 24))
             error_times += 1
 
 

@@ -1,0 +1,70 @@
+{
+  "Mode": "Abstract",
+  "Info": {
+    "url": "https://ah.lib.nccu.edu.tw/scholar?id=10537&locale=en&locale=en",
+    "college": "College of Informatics",
+    "department": "Department of Computer Science",
+    "expertise": [
+      "多媒體資訊系統",
+      "資料探勘",
+      "串流資料管理"
+    ],
+    "title": "Maintaining Moving Sums over Data Streams"
+  },
+  "Abstract": "Given a data stream of numerical data elements generated from multiple sources, we consider the problem of maintaining the sum of the elements for each data source over a sliding window of the data stream. The difficulties of the problem come from two parts. One is the number of data sources and the other is the number of elements in the sliding window. For massive data sources, we need a significant number of counters to maintain the sum for each data source, while for a large number of data elements in the sliding window, we need a huge space to keep all of them. We propose two methods, which shares the counters efficiently and merge the data elements systematically so that we are able to estimate the sums using a concise data structure. Two parameters, ε and δ, are needed to construct the data structure. ε controls the bounds of the estimate and δ represents the confidence level that the estimate is within the bounds. The estimates of both methods are proven to be bounded within a factor of ε at 1-δ probability.\n\n\n",
+  "Keywords": "",
+  "Result": {
+    "General Computer Science": {
+      "reason": "This is a fundamental computer science problem dealing with data structures and algorithms for efficient data processing.",
+      "score": 8.0
+    },
+    "Computer Science (miscellaneous)": {
+      "reason": "While the problem is well-defined, it doesn't neatly fit into a specific subfield like AI or networking, making this a relevant catch-all category.",
+      "score": 3.0
+    },
+    "Artificial Intelligence": {
+      "reason": "While the techniques could be used in AI systems for data stream processing, the abstract doesn't explicitly mention AI applications or techniques.",
+      "score": 1.0
+    },
+    "Computational Theory and Mathematics": {
+      "reason": "The abstract mentions probabilistic guarantees (1-δ probability) and error bounds (ε), indicating a theoretical foundation and mathematical analysis of the proposed methods.",
+      "score": 6.0
+    },
+    "Computer Graphics and Computer-Aided Design": {
+      "reason": "There is no mention of graphics or CAD in the abstract.",
+      "score": 0.001
+    },
+    "Computer Networks and Communications": {
+      "reason": "The abstract mentions data streams from multiple sources, which could be related to network data. However, the focus is on data processing rather than network protocols or communication aspects.",
+      "score": 2.0
+    },
+    "Computer Science Applications": {
+      "reason": "The techniques described could be applied to various applications that involve processing data streams, such as network monitoring, financial analysis, or sensor data analysis.",
+      "score": 5.0
+    },
+    "Computer Vision and Pattern Recognition": {
+      "reason": "There is no mention of images, videos, or pattern recognition in the abstract.",
+      "score": 0.001
+    },
+    "Hardware and Architecture": {
+      "reason": "The abstract focuses on algorithmic efficiency and data structures, not on hardware-level optimizations or architectural considerations.",
+      "score": 0.5
+    },
+    "Human-Computer Interaction": {
+      "reason": "There is no mention of user interfaces or human interaction in the abstract.",
+      "score": 0.001
+    },
+    "Information Systems": {
+      "reason": "The problem of maintaining sums over sliding windows is relevant to information systems that need to track aggregate statistics over time.",
+      "score": 4.0
+    },
+    "Signal Processing": {
+      "reason": "While data streams can be considered signals, the abstract doesn't mention signal processing techniques or applications.",
+      "score": 1.5
+    },
+    "Software": {
+      "reason": "The proposed methods would need to be implemented in software. The design of data structures and algorithms is a core part of software development.",
+      "score": 7.0
+    }
+  }
+}

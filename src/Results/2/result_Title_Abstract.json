@@ -1,0 +1,68 @@
+[
+  {
+    "url": "https://ah.lib.nccu.edu.tw/scholar?id=7305&locale=en&locale=en",
+    "college": "College of Informatics",
+    "department": "Department of Computer Science",
+    "expertise": [
+      "Bioinformatics",
+      "algorithms",
+      "machine learning"
+    ],
+    "title": "HiCmapTools: a tool to access HiC contact maps"
+  },
+  "Background\nWith the development of HiC technology, more and more HiC sequencing data have been produced. Although there are dozens of packages that can turn sequencing data into contact maps, there is no appropriate tool to query contact maps in order to extract biological information from HiC datasets.\n\nResults\nWe present HiCmapTools, a tool for biologists to efficiently calculate and analyze HiC maps. The complete program provides multi-query modes and analysis tools. We have validated its utility on two real biological questions: TAD loop and TAD intra-density.\n\nConclusions\nHiCmapTools supports seven access options so that biologists can quantify contact frequency of the interest sites. The tool has been implemented in C++ and R and is freely available at https://github.com/changlabtw/hicmaptools and documented at https://hicmaptools.readthedocs.io/.\n\n",
+  {
+    "General Computer Science": {
+      "reason": "The paper describes a software tool, which falls under the general umbrella of computer science.",
+      "score": 6
+    },
+    "Computer Science (miscellaneous)": {
+      "reason": "This is a broad category that can encompass aspects of the tool that don't fit neatly into other specific subfields.",
+      "score": 2
+    },
+    "Artificial Intelligence": {
+      "reason": "While the tool aids in biological data analysis, it doesn't explicitly employ AI or machine learning techniques.",
+      "score": 0.01
+    },
+    "Computational Theory and Mathematics": {
+      "reason": "The tool likely uses some underlying mathematical principles for calculations and analysis of HiC data, but it's not a primary focus.",
+      "score": 1
+    },
+    "Computer Graphics and Computer-Aided Design": {
+      "reason": "The paper mentions HiC maps, which are visual representations of data. However, the focus is on data access and analysis, not advanced graphics or CAD.",
+      "score": 0.5
+    },
+    "Computer Networks and Communications": {
+      "reason": "The tool is available online, implying some network usage for download and potentially data access, but this is not a core aspect.",
+      "score": 0.1
+    },
+    "Computer Science Applications": {
+      "reason": "The tool is specifically designed for a biological application (HiC data analysis), making this a relevant domain.",
+      "score": 8
+    },
+    "Computer Vision and Pattern Recognition": {
+      "reason": "While HiC maps are visual, the tool's primary function is not to analyze them using computer vision techniques.",
+      "score": 0.01
+    },
+    "Hardware and Architecture": {
+      "reason": "The paper doesn't discuss specific hardware or architectural considerations.",
+      "score": 0.001
+    },
+    "Human-Computer Interaction": {
+      "reason": "The tool is designed for biologists to use, so usability is a factor, but it's not a central theme of the paper.",
+      "score": 1
+    },
+    "Information Systems": {
+      "reason": "The tool manages and provides access to HiC data, which can be considered an information system function.",
+      "score": 4
+    },
+    "Signal Processing": {
+      "reason": "Signal processing is not explicitly mentioned or implied in the abstract or title.",
+      "score": 0.001
+    },
+    "Software": {
+      "reason": "The paper describes a software tool, its implementation (C++ and R), and its availability, making this a highly relevant domain.",
+      "score": 9
+    }
+  }
+]

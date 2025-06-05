@@ -83,22 +83,47 @@ class Gemini:
     gemini_api_key = os.getenv("GEMINI_API_KEY")
     self.client = genai.Client(api_key=gemini_api_key)
 
+  
   def ask(self, prompt:str, temperature:int=0):
-    response = self.client.models.generate_content(
-      model="gemini-2.0-flash",
-      contents=prompt,
-      config = types.GenerateContentConfig(
-        temperature=temperature,
-      )
-    )
-    if response.text:
-      return response.text
-    else:
-      return "None"
+    while True:
+      try:
+        response = self.client.models.generate_content(
+          model="gemini-2.0-flash",
+          contents=prompt,
+          config = types.GenerateContentConfig(
+            temperature=temperature,
+          )
+        )
+        if response.text:
+          return response.text
+        else:
+          return "None"
+      except Exception as e:
+        print(f"\n\nError calling Gemini API: {str(e)}")
+        print("The service is currently unavailable or experiencing issues.")
+        print("Type 'restart' to try again or press Ctrl+C to exit.")
+        
+        user_input = input(">> ")
+        if user_input.lower() == 'restart':
+          print("Retrying API call...")
+          continue
+        else:
+          print("Invalid input. Type 'restart' to try again.")
+          # Keep waiting for valid input
+
 
 
   
 
 if __name__ == "__main__":
-  test()
+  # test()
+
+  g = Gemini()
+
+  prompt = ""
+  with open("tempPrompt.txt", "r", encoding="utf-8") as f:
+      prompt = f.read() 
+  print(prompt)
+  print(g.ask(prompt))
+  
 

@@ -1,0 +1,70 @@
+{
+  "Mode": "Abstract_Keywords",
+  "Info": {
+    "url": "https://ah.lib.nccu.edu.tw/scholar?id=10537&locale=en&locale=en",
+    "college": "College of Informatics",
+    "department": "Department of Computer Science",
+    "expertise": [
+      "多媒體資訊系統",
+      "資料探勘",
+      "串流資料管理"
+    ],
+    "title": "Maintaining Moving Sums over Data Streams"
+  },
+  "Abstract": "Given a data stream of numerical data elements generated from multiple sources, we consider the problem of maintaining the sum of the elements for each data source over a sliding window of the data stream. The difficulties of the problem come from two parts. One is the number of data sources and the other is the number of elements in the sliding window. For massive data sources, we need a significant number of counters to maintain the sum for each data source, while for a large number of data elements in the sliding window, we need a huge space to keep all of them. We propose two methods, which shares the counters efficiently and merge the data elements systematically so that we are able to estimate the sums using a concise data structure. Two parameters, ε and δ, are needed to construct the data structure. ε controls the bounds of the estimate and δ represents the confidence level that the estimate is within the bounds. The estimates of both methods are proven to be bounded within a factor of ε at 1-δ probability.\n\n\n",
+  "Keywords": "Data Stream\nHash Function\nData Element\nDiscrete Method\nContinuous Method\n",
+  "Result": {
+    "General Computer Science": {
+      "reason": "This is a fundamental computer science problem dealing with data structures and algorithms for efficient data processing.",
+      "score": 8.0
+    },
+    "Computer Science (miscellaneous)": {
+      "reason": "While fitting into general CS, the specific problem and techniques don't neatly fall into other more specific categories.",
+      "score": 3.0
+    },
+    "Artificial Intelligence": {
+      "reason": "While not directly AI, data stream processing is often a component of AI systems that need to process real-time data.",
+      "score": 2.0
+    },
+    "Computational Theory and Mathematics": {
+      "reason": "The abstract mentions probabilistic bounds (ε and δ) and efficient data structures, indicating a theoretical foundation.",
+      "score": 6.0
+    },
+    "Computer Graphics and Computer-Aided Design": {
+      "reason": "Not directly related.",
+      "score": 0.001
+    },
+    "Computer Networks and Communications": {
+      "reason": "Data streams often originate from networked sources, but the focus is on processing the data, not the network itself.",
+      "score": 1.0
+    },
+    "Computer Science Applications": {
+      "reason": "Data stream processing has numerous applications in areas like network monitoring, financial analysis, and sensor data analysis.",
+      "score": 7.0
+    },
+    "Computer Vision and Pattern Recognition": {
+      "reason": "Not directly related, although data streams could be used in video processing.",
+      "score": 0.5
+    },
+    "Hardware and Architecture": {
+      "reason": "The abstract doesn't explicitly mention hardware, but efficient data structures are often designed with hardware limitations in mind.",
+      "score": 1.0
+    },
+    "Human-Computer Interaction": {
+      "reason": "Not directly related.",
+      "score": 0.001
+    },
+    "Information Systems": {
+      "reason": "Data stream processing is a key component of many information systems that need to handle real-time data.",
+      "score": 7.0
+    },
+    "Signal Processing": {
+      "reason": "Data streams can represent signals, and the techniques could be applicable to signal processing tasks.",
+      "score": 2.0
+    },
+    "Software": {
+      "reason": "The proposed methods would be implemented in software.",
+      "score": 5.0
+    }
+  }
+}
