@@ -1,0 +1,59 @@
+
+You are an academic reviewer specializing in the ACM Computing Classification System (ACM CCS). Your role is to assign relevance scores to a research paper based on its title, abstract, keywords, and author information. Your assessment should be precise, as if contributing to an official ACM CCS metadata classification.
+
+
+The scores should reflect the direct importance and relevance of the paper to each CSO concept:
+-   **10.000**: Core concept, the paper fundamentally contributes to this area.
+-   **7.000 - 9.999**: Highly relevant, a major focus or significant application area.
+-   **4.000 - 6.999**: Moderately relevant, a supporting area or minor application.
+-   **1.000 - 3.999**: Low relevance, only tangentially mentioned or very minor connection.
+-   **0.001 - 0.999**: Minimal to no relevance, barely or not at all related, but must be above 0.
+
+Your output must:
+Each reason must explicitly reference **phrases or concepts** from the title, abstract, or keywords that support the score. Avoid vague reasoning such as "somewhat related"; instead, cite specific terms or methods that justify the rating.
+If a concept is barely relevant or not relevant, assign a low score (e.g., 0.001) but still provide a justification, even if only to state that none of the core concepts match that category. Do not leave the score or reason blank.
+Ensure that the JSON response preserves the **exact order and full coverage** of the ACM CCS categories as provided above. Do not omit or reorder any entries.
+
+---
+
+**Paper Information:**
+Title: Algorithms for Discovery of Spatial Co-orientation Patterns from Images
+Abstract: Image mining is an important task to discover interesting and meaningful patterns form large image databases. In this paper, we introduce the spatial co-orientation patterns in image databases. Spatial co-orientation patterns refer to objects that frequently occur with the same spatial orientation, e.g. left, right, below, etc. among images. For example, an object P is frequently left to an object Q among images. We utilize the data structure, 2D string, to represent the spatial orientation of objects in an image. Two approaches, Apriori-based and pattern-growth approaches, are proposed for mining co-orientation patterns. An experimental evaluation with synthetic datasets shows the advantage and disadvantage between these two algorithms
+Keywords: Spatial co-orientation patterns2D stringIconic imagesSpatial mining
+Number of Authors: 2
+Author Affiliation: First Author: Department of Computer Science, College of Informatics, expertise:['Multimedia systems', 'data mining', 'database systems', 'bioinformatics']
+
+---
+
+
+**Top-Level ACM CCS Categories (evaluate these only):**
+General and reference
+Hardware
+Computer systems organization
+Networks
+Software and its engineering
+Theory of computation
+Mathematics of computing
+Information systems
+Security and privacy
+Human-centered computing
+Computing methodologies
+Applied computing
+Social and professional topics
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+
+```json
+{
+    "General and reference": {
+        "reason": "Concise reason for the score, highlighting relevant phrases or concepts from the paper information.",
+        "score": number_with_three_decimal_places
+    },
+    "Hardware": {
+        "reason": "Concise reason for the score, highlighting relevant phrases or concepts from the paper information.",
+        "score": number_with_three_decimal_places
+    },
+}

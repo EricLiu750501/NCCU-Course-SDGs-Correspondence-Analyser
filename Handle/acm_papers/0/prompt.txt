@@ -1,0 +1,63 @@
+
+You are an academic reviewer specializing in the ACM Computing Classification System (ACM CCS). Your role is to assign relevance scores to a research paper based on its title, abstract, keywords, and author information. Your assessment should be precise, as if contributing to an official ACM CCS metadata classification.
+
+
+The scores should reflect the direct importance and relevance of the paper to each CSO concept:
+-   **10.000**: Core concept, the paper fundamentally contributes to this area.
+-   **7.000 - 9.999**: Highly relevant, a major focus or significant application area.
+-   **4.000 - 6.999**: Moderately relevant, a supporting area or minor application.
+-   **1.000 - 3.999**: Low relevance, only tangentially mentioned or very minor connection.
+-   **0.001 - 0.999**: Minimal to no relevance, barely or not at all related, but must be above 0.
+
+Your output must:
+Each reason must explicitly reference **phrases or concepts** from the title, abstract, or keywords that support the score. Avoid vague reasoning such as "somewhat related"; instead, cite specific terms or methods that justify the rating.
+If a concept is barely relevant or not relevant, assign a low score (e.g., 0.001) but still provide a justification, even if only to state that none of the core concepts match that category. Do not leave the score or reason blank.
+Ensure that the JSON response preserves the **exact order and full coverage** of the ACM CCS categories as provided above. Do not omit or reorder any entries.
+
+---
+
+**Paper Information:**
+Title: Using Instruction-Tuned LMs for Scalable Use Case-Based Shopping - Where Customers Meet Their Needs
+Abstract: Products on e-commerce platforms are usually organized based on seller-provided product attributes. Customers looking for a product typically have certain needs or use cases in mind, such as headphones for gym classes, or a printer for school projects. However, they often struggle to map these use cases to product attributes, thereby failing to find the product they need. To help customers shop online confidently, we propose a Use case-Based Shopping (UBS) system that facilitates customer experiences based on use cases (Fig. 1). UBS consists of three steps: 1) use case phrase extraction from product reviews, 2) clustering the extracted use case phrases to identify the dominant ones, and 3) mapping products in a given category to one or more of these dominant use cases. In this work, we utilize instruction-tuned LMs to primarily focus on the first two steps. However, the way we design them also helps us to seamlessly solve the third step to complete the design of our proposed system. First, we define the novel task of joint Use Uase, Uentiment Uxtraction (UCSE) from product reviews which can be used for both steps 1 and 3. We harness the task adaptation capability of instruction-tuned FLAN-T5 models and gradually improve their zero-shot UCSE performance through instruction tuning, multi-task training, and few-shot iterative re-training for new categories, achieving around ~90% reduction in annotation bandwidth. We then employ Anthropic's Claude 2 LLM to propose an unsupervised approach for hierarchical use case phrase clustering that demonstrates better clustering and cluster naming capabilities when compared to K-Means and LDA. In an online experiment targeting the top 7 product categories, UBS recommendations on search, browse, and product pages resulted in a revenue lift of 0.77%, 0.94%, and 0.44% respectively, and an average click rate lift of 0.15%.
+Keywords: 
+Number of Authors: 3
+Author Affiliation: 
+First Author : Indian Institute of Technology, Kharagpur, India
+Second Author : Amazon, Bengaluru, India
+Third Author : Amazon, Bengaluru, India
+
+
+---
+
+
+**Top-Level ACM CCS Categories (evaluate these only):**
+General and reference
+Hardware
+Computer systems organization
+Networks
+Software and its engineering
+Theory of computation
+Mathematics of computing
+Information systems
+Security and privacy
+Human-centered computing
+Computing methodologies
+Applied computing
+Social and professional topics
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+
+```json
+{
+    "General and reference": {
+        "reason": "Concise reason for the score, highlighting relevant phrases or concepts from the paper information.",
+        "score": number_with_three_decimal_places
+    },
+    "Hardware": {
+        "reason": "Concise reason for the score, highlighting relevant phrases or concepts from the paper information.",
+        "score": number_with_three_decimal_places
+    },
+}

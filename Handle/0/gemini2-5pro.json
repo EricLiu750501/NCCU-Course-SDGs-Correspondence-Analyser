@@ -1,0 +1,85 @@
+{
+  "Broad Domain": "Computer Science, Engineering",
+  "CSO Concepts": {
+    "artificial intelligence": {
+      "reason": "The paper does not mention artificial intelligence, machine learning, or any related concepts. Its focus is on system architecture and performance.",
+      "score": 0.001
+    },
+    "bioinformatics": {
+      "reason": "The research is unrelated to bioinformatics; it does not involve biological data or computational biology techniques.",
+      "score": 0.001
+    },
+    "computer aided design": {
+      "reason": "The paper discusses 'data architecture' design, but not in the context of CAD software or methodologies.",
+      "score": 0.001
+    },
+    "computer hardware": {
+      "reason": "The paper is moderately relevant to hardware because it investigates performance and mentions 'storage', which are directly influenced by the underlying hardware. However, the primary focus is on the software-level data architecture, not the hardware itself.",
+      "score": 4.500
+    },
+    "computer imaging and vision": {
+      "reason": "The research does not involve computer imaging, vision, or the processing of visual data.",
+      "score": 0.001
+    },
+    "computer networks": {
+      "reason": "Kubernetes orchestrates 'distributed applications', which rely heavily on computer networks for communication. Performance evaluation in such an environment inherently involves network metrics, making this a highly relevant area.",
+      "score": 7.500
+    },
+    "computer programming": {
+      "reason": "While the research aims to help 'developers' and deals with 'applications', it does not focus on programming languages, paradigms, or the act of coding itself, but rather the infrastructure the code runs on.",
+      "score": 2.500
+    },
+    "computer security": {
+      "reason": "The paper focuses on performance and does not mention any aspect of computer security, such as access control, encryption, or vulnerability analysis.",
+      "score": 0.001
+    },
+    "computer systems": {
+      "reason": "The paper's core topic is the performance of a 'Kubernetes' cluster, a 'container orchestration platform' for 'distributed applications'. This is a fundamental investigation into the architecture and performance of modern 'cloud native systems'.",
+      "score": 10.000
+    },
+    "data mining": {
+      "reason": "The paper mentions 'data architecture' but does not involve data mining techniques for discovering patterns in data.",
+      "score": 0.001
+    },
+    "human computer interaction": {
+      "reason": "The research does not investigate user interfaces, user experience, or any other aspect of human-computer interaction.",
+      "score": 0.001
+    },
+    "information retrieval": {
+      "reason": "The paper does not deal with the search and retrieval of information from data stores.",
+      "score": 0.001
+    },
+    "information technology": {
+      "reason": "The research is highly relevant to IT as it directly addresses the management and optimization of IT infrastructure ('Kubernetes', 'data architecture') for 'system administrators', which is a core function within the IT field.",
+      "score": 8.000
+    },
+    "internet": {
+      "reason": "Kubernetes and 'cloud native systems' are foundational technologies for modern internet applications and services. The context of the paper is implicitly the deployment of applications in cloud/internet environments.",
+      "score": 5.500
+    },
+    "operating systems": {
+      "reason": "'Container orchestration' platforms like Kubernetes can be viewed as a distributed operating system for a cluster, managing resources and processes (containers). This is a significant topic in modern OS research.",
+      "score": 9.000
+    },
+    "pattern matching": {
+      "reason": "The paper does not involve pattern matching algorithms or techniques.",
+      "score": 0.001
+    },
+    "robotics": {
+      "reason": "The research is entirely unrelated to robotics.",
+      "score": 0.001
+    },
+    "software": {
+      "reason": "The paper investigates the performance of 'Kubernetes-based applications' and the configuration of software systems (Kubernetes, data architecture). The entire study is centered on software performance and design.",
+      "score": 8.500
+    },
+    "software engineering": {
+      "reason": "The research directly addresses the 'design', 'deployment', and 'optimizing' of applications. It aims to empower 'developers' with 'informed decisions', which is a key goal of software engineering, particularly in areas like DevOps and system architecture.",
+      "score": 9.500
+    },
+    "theoretical computer science": {
+      "reason": "The paper is applied research, relying on 'experiments and performance evaluations' rather than theoretical analysis, formalism, or proofs.",
+      "score": 0.001
+    }
+  }
+}

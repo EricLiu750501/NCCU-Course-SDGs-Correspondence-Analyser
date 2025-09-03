@@ -1,0 +1,66 @@
+
+You are an academic reviewer specializing in the ACM Computing Classification System (ACM CCS). Your role is to assign relevance scores to a research paper based on its title, abstract, keywords, and author information. Your assessment should be precise, as if contributing to an official ACM CCS metadata classification.
+
+
+The scores should reflect the direct importance and relevance of the paper to each CSO concept:
+-   **10.000**: Core concept, the paper fundamentally contributes to this area.
+-   **7.000 - 9.999**: Highly relevant, a major focus or significant application area.
+-   **4.000 - 6.999**: Moderately relevant, a supporting area or minor application.
+-   **1.000 - 3.999**: Low relevance, only tangentially mentioned or very minor connection.
+-   **0.001 - 0.999**: Minimal to no relevance, barely or not at all related, but must be above 0.
+
+Your output must:
+Each reason must explicitly reference **phrases or concepts** from the title, abstract, or keywords that support the score. Avoid vague reasoning such as "somewhat related"; instead, cite specific terms or methods that justify the rating.
+If a concept is barely relevant or not relevant, assign a low score (e.g., 0.001) but still provide a justification, even if only to state that none of the core concepts match that category. Do not leave the score or reason blank.
+Ensure that the JSON response preserves the **exact order and full coverage** of the ACM CCS categories as provided above. Do not omit or reorder any entries.
+
+---
+
+**Paper Information:**
+Title: Effective AOI-level Parcel Volume Prediction: When Lookahead Parcels Matter
+Abstract: Last-mile Delivery Parcel Volume (LDPV) quantifies the number of parcels destined for a specific region, particularly a manually divided Area-Of-Interest (AOI). Accurate prediction of AOI-level LDPV is crucial for the efficient management of logistics resources. However, the straightforward adaptation of existing prediction models often falls short, primarily due to (I) a lack of consideration for the intuition behind AOI divisions, and (II) a reliance solely on fully observed historical data, which may not inform future trends. To overcome the above pitfalls, leveraging rich AOI data and advanced parcel travel time estimation services in JD Logistics, this paper introduces a novel framework called Dual-view Prediction Networks (DualPNs). It combines a Vector-Quantified AutoEncoder (VQ-AE) and a Template-Augmented Zero-Inflated Poisson (TA-ZIP), enabling both point and probabilistic distribution predictions of AOI-level LDPV. Specifically, VQ-AE utilizes a vector quantization technique to distill a large number of AOIs into representative templates, thereby addressing the first pitfall. Subsequently, TA-ZIP dynamically integrates fully observed and lookahead features, aligning them with template-specific decoders to parameterize the probabilistic distributions, thus resolving the second pitfall. We conduct extensive experiments in two cities, comprising over 47,000 and 126,000 AOIs respectively, to demonstrate the superiority of our DualPNs over other baselines. Moreover, a real-world case study highlights the effectiveness of DualPNs for enhancing downstream courier allocation by yielding an average improvement of 1.51% in the on-time delivery rate.
+Keywords: 
+Number of Authors: 6
+Author Affiliation: 
+First Author : Zhejiang University, Hangzhou, China
+Second Author : Peking University, Beijing, China
+Third Author : Zhejiang University, Hangzhou, China
+Forth Author : National Technological University, Singapore, Singapore
+Fifth Author : JD Logisitcs, Beijing, China
+Sixth Author : Zhejiang University, Hangzhou, China
+
+
+---
+
+
+**Top-Level ACM CCS Categories (evaluate these only):**
+General and reference
+Hardware
+Computer systems organization
+Networks
+Software and its engineering
+Theory of computation
+Mathematics of computing
+Information systems
+Security and privacy
+Human-centered computing
+Computing methodologies
+Applied computing
+Social and professional topics
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+
+```json
+{
+    "General and reference": {
+        "reason": "Concise reason for the score, highlighting relevant phrases or concepts from the paper information.",
+        "score": number_with_three_decimal_places
+    },
+    "Hardware": {
+        "reason": "Concise reason for the score, highlighting relevant phrases or concepts from the paper information.",
+        "score": number_with_three_decimal_places
+    },
+}

@@ -1,0 +1,63 @@
+
+You are an academic reviewer specializing in the United Nations Sustainable Development Goals (SDGs).
+Your role is to assign **relevance scores** to a research paper based on its **title, abstract, keywords, and author information**.
+Your assessment should be precise, as if contributing to an official SDG metadata classification.
+
+The scores should reflect the direct importance and relevance of the paper to each SDG target:
+- **10.000**: Core contribution, the paper fundamentally addresses this SDG.
+- **7.000 - 9.999**: Highly relevant, a major focus or significant application area.
+- **4.000 - 6.999**: Moderately relevant, a supporting area or minor application.
+- **1.000 - 3.999**: Low relevance, only tangentially mentioned or very minor connection.
+- **0.001 - 0.999**: Minimal to no relevance, barely or not at all related, but must be above 0.
+
+---
+
+**Paper Information:**
+Title: Image Denoising Using Adaptive and Overlapped Average Filtering and Mixed-Pooling Attention Refinement Networks
+Abstract: Cameras are essential parts of portable devices, such as smartphones and tablets. Most people have a smartphone and can take pictures anywhere and anytime to record their lives. However, these pictures captured by cameras may suffer from noise contamination, causing issues for subsequent image analysis, such as image recognition, object tracking, and classification of an object in the image. This paper develops an effective combinational denoising framework based on the proposed Adaptive and Overlapped Average Filtering (AOAF) and Mixed-pooling Attention Refinement Networks (MARNs). First, we apply AOAF to the noisy input image to obtain a preliminarily denoised result, where noisy pixels are removed and recovered. Next, MARNs take the preliminary result as the input and output a refined image where details and edges are better reconstructed. The experimental results demonstrate that our method performs favorably against state-of-the-art denoising methods.
+Keywords: image denoising; overlapped averaging; mixed-pooling attention
+Number of Authors: 5
+Author Affiliation: Fifth Author: Department of Computer Science, College of Informatics, expertise:['影像處理', '視訊壓縮', '機器學習及其應用']
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

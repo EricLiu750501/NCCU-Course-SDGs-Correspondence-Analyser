@@ -1,0 +1,59 @@
+
+You are an academic reviewer specializing in the ACM Computing Classification System (ACM CCS). Your role is to assign relevance scores to a research paper based on its title, abstract, keywords, and author information. Your assessment should be precise, as if contributing to an official ACM CCS metadata classification.
+
+
+The scores should reflect the direct importance and relevance of the paper to each CSO concept:
+-   **10.000**: Core concept, the paper fundamentally contributes to this area.
+-   **7.000 - 9.999**: Highly relevant, a major focus or significant application area.
+-   **4.000 - 6.999**: Moderately relevant, a supporting area or minor application.
+-   **1.000 - 3.999**: Low relevance, only tangentially mentioned or very minor connection.
+-   **0.001 - 0.999**: Minimal to no relevance, barely or not at all related, but must be above 0.
+
+Your output must:
+Each reason must explicitly reference **phrases or concepts** from the title, abstract, or keywords that support the score. Avoid vague reasoning such as "somewhat related"; instead, cite specific terms or methods that justify the rating.
+If a concept is barely relevant or not relevant, assign a low score (e.g., 0.001) but still provide a justification, even if only to state that none of the core concepts match that category. Do not leave the score or reason blank.
+Ensure that the JSON response preserves the **exact order and full coverage** of the ACM CCS categories as provided above. Do not omit or reorder any entries.
+
+---
+
+**Paper Information:**
+Title: Message Propagation in DTN Based on Virtual Contact of Behavior Model
+Abstract: Delay Tolerant Network (DTN) is a kind of network structured to deliver message intermittently. Network connections are not persistent between nodes, instead they must rely on nodes making geographic location movements to incur contact with other nodes and establish intermittent communication sessions to allow messages delivery. We will refer to encounters via geographic location movements as “physical contact.” Many DTN researches mainly focus on message delivery via physical contact. However, this paper believes that in a realistic environment, encounters between nodes not only happen geographically in nature, but also occur virtually in cyberspace. When both nodes go online on the same social media platform, it is an encounter we refer as virtual contact. How messages deliver for virtual contact is store-post-and-forward, just like what happens in a DTN, but it is no longer restrained by geographical locations. This paper considers a scenario in which nodes make virtual contact in cyberspace and incur message delivery based on their own behavior patterns. The verifying experiment is conducted using both survey and simulation. First of all, we handed out questionnaires for students to fill out. The questionnaire inquired them to rank their most frequent activities performed on social media platforms. According to the responses, we conclude the top 3 frequent activities when the students use social media platforms and classify them into 3 groups according to a weighted behavior pattern scheme. The classification includes Social Group, Read-Only Group and Interest Group. It does not matter which group a student is assigned to. In the simulation, he or she will get to decide whether to deliver/receive messages or not based on a randomized selection on 3 behavior pattern. Finally, we analyze the simulation result to determine how messages propagated in different behavior pattern groups. It is derived from the simulation that to quicken message propagation, directing messages to one of the behavior groups yields the maximize benefits. This provides the basis for further researches on collecting data of desired scenarios to establish respective propagation models.
+Keywords: Delay Tolerant Network, physical contact, virtual contact, behavior pattern
+Number of Authors: 2
+Author Affiliation: Second Author: Department of Computer Science, College of Informatics, expertise:['Computer network', 'mobile computing', 'wireless network', 'digital content']
+
+---
+
+
+**Top-Level ACM CCS Categories (evaluate these only):**
+General and reference
+Hardware
+Computer systems organization
+Networks
+Software and its engineering
+Theory of computation
+Mathematics of computing
+Information systems
+Security and privacy
+Human-centered computing
+Computing methodologies
+Applied computing
+Social and professional topics
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+
+```json
+{
+    "General and reference": {
+        "reason": "Concise reason for the score, highlighting relevant phrases or concepts from the paper information.",
+        "score": number_with_three_decimal_places
+    },
+    "Hardware": {
+        "reason": "Concise reason for the score, highlighting relevant phrases or concepts from the paper information.",
+        "score": number_with_three_decimal_places
+    },
+}

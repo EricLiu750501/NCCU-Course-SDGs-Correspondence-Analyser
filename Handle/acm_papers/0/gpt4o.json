@@ -1,0 +1,56 @@
+
+{
+    "General and reference": {
+        "reason": "The paper touches on general reference concepts like performance evaluation ('revenue lift', 'click rate lift'), but these are secondary outcomes rather than a focus of the research.",
+        "score": 2.500
+    },
+    "Hardware": {
+        "reason": "There is no mention or implication of hardware design, components, architecture, or performance in this work.",
+        "score": 0.001
+    },
+    "Computer systems organization": {
+        "reason": "The system-level integration of components like instruction-tuned models and clustering pipelines contributes modestly to systems-level thinking, though not in hardware or distributed system architecture terms.",
+        "score": 4.000
+    },
+    "Networks": {
+        "reason": "No content in the paper addresses network protocols, network architectures, or data transmission—networking is not involved.",
+        "score": 0.001
+    },
+    "Software and its engineering": {
+        "reason": "There is indirect relevance through the construction of the UBS system and the application of LMs and clustering algorithms, but the paper does not focus on software engineering principles, design patterns, or formal methods.",
+        "score": 3.000
+    },
+    "Theory of computation": {
+        "reason": "The paper does not address formal models, complexity, automata, or other foundational theoretical aspects of computation.",
+        "score": 0.001
+    },
+    "Mathematics of computing": {
+        "reason": "While clustering methods are discussed (e.g., K-Means, LDA, hierarchical clustering), the focus is on application and empirical evaluation, not mathematical modeling or algorithmic development.",
+        "score": 3.000
+    },
+    "Information systems": {
+        "reason": "The core contribution involves organizing and retrieving product information based on use cases and user intent, aligning closely with 'information retrieval' and 'database applications' within information systems.",
+        "score": 9.000
+    },
+    "Security and privacy": {
+        "reason": "There is no mention or consideration of user data privacy, security models, or protection mechanisms in the system.",
+        "score": 0.001
+    },
+    "Human-centered computing": {
+        "reason": "The paper explicitly addresses improving user interaction with e-commerce platforms by aligning product discovery with human intent ('customer needs', 'use cases', 'UX improvement via UBS').",
+        "score": 8.000
+    },
+    "Computing methodologies": {
+        "reason": "This is a primary area of contribution: the paper uses instruction-tuned language models (FLAN-T5), defines a novel extraction task (UCSE), applies multi-task learning, and explores clustering methods—all within machine learning and NLP.",
+        "score": 10.000
+    },
+    "Applied computing": {
+        "reason": "The paper focuses on practical applications in e-commerce platforms and demonstrates real-world performance improvements in commercial contexts ('Amazon', 'revenue lift'), which directly places it in applied computing.",
+        "score": 8.500
+    },
+    "Social and professional topics": {
+        "reason": "There is no discussion of professional ethics, education, policy, or broader societal impact beyond narrow commercial UX improvements.",
+        "score": 0.500
+    }
+}
+

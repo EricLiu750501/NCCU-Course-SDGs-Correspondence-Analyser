@@ -1,0 +1,54 @@
+{
+  "General and reference": {
+    "reason": "This category broadly covers foundational aspects and general topics in computing. While the paper itself is applied, the fundamental work on 'instruction-tuned LMs' and 'LLM's for 'task adaptation' and 'zero-shot' learning contributes to the general knowledge base within AI and NLP, making it somewhat relevant as a reference for these advanced techniques.",
+    "score": 4.500
+  },
+  "Hardware": {
+    "reason": "The paper makes no mention of hardware design, specific hardware components, or their performance. The focus is entirely on software systems and computational methods.",
+    "score": 0.001
+  },
+  "Computer systems organization": {
+    "reason": "The paper focuses on the logical organization and functionality of a 'Use case-Based Shopping (UBS) system' and its components, particularly how 'instruction-tuned LMs' and 'LLM's are integrated and interact. While it doesn't delve into low-level architectural details, it discusses system design and workflow.",
+    "score": 4.000
+  },
+  "Networks": {
+    "reason": "The paper describes an 'online experiment' and 'e-commerce platforms', implying the use of networks for connectivity. However, it does not discuss network protocols, network architecture, or network performance as a core research topic.",
+    "score": 1.500
+  },
+  "Software and its engineering": {
+    "reason": "The paper proposes a 'Use case-Based Shopping (UBS) system' and details its 'design', 'three steps' (extraction, clustering, mapping), and the 'task of joint Use Case, Sentiment Extraction (UCSE)'. It discusses 'instruction tuning', 'multi-task training', and 'iterative re-training', all of which are core concepts in software engineering and development.",
+    "score": 9.000
+  },
+  "Theory of computation": {
+    "reason": "While the paper utilizes advanced computational models ('instruction-tuned LMs', 'FLAN-T5 models', 'Anthropic's Claude 2 LLM') and discusses 'unsupervised approach for hierarchical use case phrase clustering', it does not delve into the theoretical underpinnings of computability, complexity classes, or formal language theory.",
+    "score": 2.000
+  },
+  "Mathematics of computing": {
+    "reason": "The paper mentions 'clustering' and compares its approach to 'K-Means and LDA', which are mathematical algorithms. It also refers to 'statistical performance' in terms of 'reduction in annotation bandwidth' and 'revenue lift'/'click rate lift'. However, the paper does not focus on novel mathematical theories or complex numerical methods.",
+    "score": 4.000
+  },
+  "Information systems": {
+    "reason": "The entire paper revolves around an 'e-commerce platforms' and a 'Use case-Based Shopping (UBS) system' designed to help 'customers shop online confidently'. This directly pertains to information systems that manage and process data for specific organizational or user needs, such as customer support and product recommendations.",
+    "score": 10.000
+  },
+  "Security and privacy": {
+    "reason": "The paper focuses on improving shopping experiences and product recommendations. It does not discuss security vulnerabilities, data privacy concerns, encryption, or access control mechanisms in the context of the proposed system or the e-commerce platform.",
+    "score": 0.001
+  },
+  "Human-centered computing": {
+    "reason": "The paper aims to improve 'customer experiences' by addressing how 'customers looking for a product typically have certain needs or use cases in mind' and 'struggle to map these use cases to product attributes'. The goal is to 'help customers shop online confidently', indicating a strong focus on user needs and improving human-computer interaction in an e-commerce context.",
+    "score": 8.500
+  },
+  "Computing methodologies": {
+    "reason": "The paper extensively describes the 'methodology' behind the UBS system, including 'use case phrase extraction', 'clustering', and 'mapping products'. It details the application of 'instruction-tuned LMs', 'FLAN-T5 models', 'instruction tuning', 'multi-task training', 'few-shot iterative re-training', and an 'unsupervised approach for hierarchical use case phrase clustering' using 'Anthropic's Claude 2 LLM'. This category encompasses machine learning, natural language processing, and artificial intelligence, all of which are central to this research.",
+    "score": 10.000
+  },
+  "Applied computing": {
+    "reason": "The paper presents a practical application of computing techniques to solve a real-world problem: improving 'e-commerce platforms' by enabling 'Use case-Based Shopping'. The 'online experiment' and the reported 'revenue lift' and 'click rate lift' clearly demonstrate the application of computational methods to a business domain.",
+    "score": 10.000
+  },
+  "Social and professional topics": {
+    "reason": "The paper's focus is on improving e-commerce shopping experiences and has implications for business and consumer behavior. While it addresses a societal need (easier online shopping), it does not delve into ethical considerations, societal impacts of AI, professional practices, or regulatory aspects of computing.",
+    "score": 2.500
+  }
+}

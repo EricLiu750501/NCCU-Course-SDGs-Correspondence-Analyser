@@ -70,5 +70,8 @@ if __name__ == "__main__":
     r = reader()
     # for ele in r.scholars_infos():
     #     print(ele)
-    print(r.colleges())
-    print(r.scholars_with_college("College of Informatics"))
+    # print(r.colleges())
+    cs = r.scholars_with_college("College of Informatics")
+    with open("temp.json", "w", encoding='utf-8') as f:
+        
+        f.write(json.dumps(cs, indent=4, ensure_ascii=False))

@@ -1,0 +1,96 @@
+
+You are an expert in academic research classification. Your first task is to determine the primary broad academic domain(s) of the given research paper. Then, if the paper is identified as primarily belonging to "Computer Science", proceed to analyze it further using the Computer Science Ontology (CSO) concepts.
+
+The scores should reflect the direct importance and relevance of the paper to each CSO concept:
+-   **10.000**: Core concept, the paper fundamentally contributes to this area.
+-   **7.000 - 9.999**: Highly relevant, a major focus or significant application area.
+-   **4.000 - 6.999**: Moderately relevant, a supporting area or minor application.
+-   **1.000 - 3.999**: Low relevance, only tangentially mentioned or very minor connection.
+-   **0.001 - 0.999**: Minimal to no relevance, barely or not at all related, but must be above 0.
+
+---
+
+**Paper Information:**
+Title: Analyzing Personal Happiness from Global Survey and Weather Data: A Geospatial Approach
+Abstract: Past studies have shown that personal subjective happiness is associated with various macro- and micro-level background factors, including environmental conditions, such as weather and the economic situation, and personal health behaviors, such as smoking and exercise. We contribute to this literature of happiness studies by using a geospatial approach to examine both macro and micro links to personal happiness. Our geospatial approach incorporates two major global datasets: representative national survey data from the International Social Survey Program (ISSP) and corresponding world weather data from the National Oceanic and Atmospheric Administration (NOAA). After processing and filtering 55,081 records of ISSP 2011 survey data from 32 countries, we extracted 5,420 records from China and 25,441 records from 28 other countries. Sensitivity analyses of different intervals for average weather variables showed that macro-level conditions, including temperature, wind speed, elevation, and GDP, are positively correlated with happiness. To distinguish the effects of weather conditions on happiness in different seasons, we also adopted climate zone and seasonal variables. The micro-level analysis indicated that better health status and eating more vegetables or fruits are highly associated with happiness. Never engaging in physical activity appears to make people less happy. The findings suggest that weather conditions, economic situations, and personal health behaviors are all correlated with levels of happiness.
+Keywords: 
+Number of Authors: 6
+Author Affiliation: Fifth Author: Department of Computer Science, College of Informatics, expertise:['人工智慧', '演算法', '數位典藏', '地理資訊系統']
+
+---
+
+**Broad Academic Domains (Identify all relevant ASJC codes and their corresponding names):**
+
+    1000	Multidisciplinary	
+    1100	Agricultural and Biological Sciences	
+    1200	Arts and Humanities 	
+    1300	Biochemistry, Genetics and Molecular Biology 	
+    1400	Business, Management, and Accounting 	
+    1500	Chemical Engineering 	
+    1600	Chemistry 	
+    1700	Computer Science 	
+    1800	Decision Sciences 	
+    1900	Earth and Planetary Sciences 	
+    2000	Economics, Econometrics and Finance 	
+    2100	Energy 	
+    2200	Engineering 	
+    2300	Environmental Science 	
+    2400	Immunology and Microbiology 	
+    2500	Materials Science 	
+    2600	Mathematics 	
+    2700	Medicine 	
+    2800	Neuroscience 	
+    2900	Nursing 	
+    3000	Pharmacology, Toxicology, and Pharmaceutics 	
+    3100	Physics and Astronomy 	
+    3200	Psychology 	
+    3300	Social Sciences 	
+    3400	Veterinary 	
+    3500	Dentistry 	
+    3600	Health Professions 	
+    
+---
+
+**Target CSO Concepts (ONLY if primary domain is Computer Science, AND **MAINTAIN THE EXACT ORDER PROVIDED**):**
+
+    01. artificial intelligence
+    02. bioinformatics
+    03. computer aided design
+    04. computer hardware
+    05. computer imaging and vision
+    06. computer networks
+    07. computer programming
+    08. computer security
+    09. computer systems
+    10. data mining
+    11. human computer interaction
+    12. information retrieval
+    13. information technology
+    14. internet
+    15. operating systems
+    16. pattern matching
+    17. robotics
+    18. software
+    19. software engineering
+    20. theoretical computer science
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "Broad Domain": "Computer Science, Social Sciences", // List all relevant broad domains here, comma-separated, or just "Computer Science"
+    "CSO Concepts": {
+        // The concepts in this object MUST appear in the exact order as provided in the "Target CSO Concepts" list above.
+        "CSO Concept Name 1": {
+            "reason": "Concise reason for the score, highlighting relevant phrases or concepts from the paper information.",
+            "score": number_with_three_decimal_places
+        },
+        "CSO Concept Name 2": { // Example to show the next concept in order
+            "reason": "Concise reason for the score, highlighting relevant phrases or concepts from the paper information.",
+            "score": number_with_three_decimal_places
+        },
+        // ... include all target CSO concepts with their scores and reasons, following the exact input order.
+    }
+}

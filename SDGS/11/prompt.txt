@@ -1,0 +1,63 @@
+
+You are an academic reviewer specializing in the United Nations Sustainable Development Goals (SDGs).
+Your role is to assign **relevance scores** to a research paper based on its **title, abstract, keywords, and author information**.
+Your assessment should be precise, as if contributing to an official SDG metadata classification.
+
+The scores should reflect the direct importance and relevance of the paper to each SDG target:
+- **10.000**: Core contribution, the paper fundamentally addresses this SDG.
+- **7.000 - 9.999**: Highly relevant, a major focus or significant application area.
+- **4.000 - 6.999**: Moderately relevant, a supporting area or minor application.
+- **1.000 - 3.999**: Low relevance, only tangentially mentioned or very minor connection.
+- **0.001 - 0.999**: Minimal to no relevance, barely or not at all related, but must be above 0.
+
+---
+
+**Paper Information:**
+Title: Substantia nigra nigrosome-1 imaging correlates with the severity of motor symptoms in Parkinson's disease
+Abstract: Background:Nigrosome-1 imaging has been used for assisting the diagnosis of Parkinson's disease (PD). We aimed to examine the diagnostic performance of loss of nigrosome-1 in PD and the correlation between the size of the nigrosome-1 and motor severity of PD. Methods:We included 237 patients with PD and 165 controls. The motor severity of PD was assessed with the Unified Parkinson's Disease Rating Scale (UPDRS) part III score and Hoehn-Yahr staging. The 3 or 1.5 Tesla susceptibility-weighted imaging combined with a deep-learning algorithm was applied for detecting the loss and the size of nigrosome-1. Clinical correlations and diagnostic performance of size of nigrosome-1 were also investigated. Results:The mean nigrosome-1 size was significantly smaller in PD patients than in controls (0.06 ± 0.07 cm2 vs. 0.20 ± 0.05 cm2, P < 0.001). The area under the receiver operating characteristic curve (AUC) of the established model showed 0.94 accuracy (95% confidence interval [CI]: 0.87, 1.01, P < 0.01) in differentiating between the PD and control groups. Moreover, the partial loss of nigrosome-1 detected with SWI had an AUC of 0.96 in discriminating early-stage PD from controls (95% CI: 0.88, 1.02, P < 0.001). After adjusting for age, sex, disease duration, and levodopa equivalent daily dose, the estimated size of nigrosome-1 was negatively associated with the UPDRS part III motor score (ρ = −0.433, P < 0.001), but not with Mini-Mental State Examination scores (ρ = 0.006, P = 0.894). Conclusions:The extent of loss and the size of nigrosome-1 may potentially assist in the diagnosis of PD. Nigrosome-1 size reflects the motor severity of PD.
+Keywords: 
+Number of Authors: 8
+Author Affiliation: Seventh Author: Department of Computer Science, College of Informatics, expertise:['醫療資訊', '資料探勘', '文字探勘', '機器學習']
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

@@ -1,0 +1,66 @@
+
+You are an academic reviewer specializing in the United Nations Sustainable Development Goals (SDGs).
+Your role is to assign **relevance scores** to a research paper based on its **title, abstract, keywords, and author information**.
+Your assessment should be precise, as if contributing to an official SDG metadata classification.
+
+The scores should reflect the direct importance and relevance of the paper to each SDG target:
+- **10.000**: Core contribution, the paper fundamentally addresses this SDG.
+- **7.000 - 9.999**: Highly relevant, a major focus or significant application area.
+- **4.000 - 6.999**: Moderately relevant, a supporting area or minor application.
+- **1.000 - 3.999**: Low relevance, only tangentially mentioned or very minor connection.
+- **0.001 - 0.999**: Minimal to no relevance, barely or not at all related, but must be above 0.
+
+---
+
+**Course Informations:**
+Course Description:
+本課程之開設目的在於提供跨科系同學認識地方創生當中關於鄉村地區規劃的運作，並學習田野調查與GIS運用之技能，並於課程結束之際能夠提出樣區規劃之初步構想。此課程也充當本校未來地方創生相關課程系列之起始，並將整合入學校相關窗口。
+
+本課程內容以簡化與輕量的鄉村地區整體規劃做為設計基礎，希望能夠在相對輕鬆的方式與節奏下，帶領跨科系同學了解規劃作業的大要，並了解空間課題分析的技巧。至於課題的解決方案，礙於課程使用的時間與難度的控制，暫不要求精準、可行之方案。
+
+Course Objectives & Learning Outcomes:
+引導學生了解地方創生視角下，鄉村地區整體空間問題的分析、理解與處理可能性，俾以建立參與同學對於地方創生做為空間議題的面向，得以掌握其基礎與關鍵知識工具。
+
+至於學習成效方面，本課程設計為學期課，前半學期偏重於基礎方法的練習(田調與基礎資訊的蒐集)，並能夠將樣區基礎資料是當消化後，轉換成為空間課題的圖資予以展現；後半學期則偏重地方創生中經濟產業的面向，初步建立同學掌握經濟產業課題的能力。
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

@@ -1,0 +1,54 @@
+{
+  "General and reference": {
+    "reason": "This category is broad and typically covers survey papers, handbooks, or general topics. The paper is a specific research contribution on a MAC protocol, not a general reference work. Therefore, its relevance is minimal.",
+    "score": 0.001
+  },
+  "Hardware": {
+    "reason": "The abstract mentions a 'prototype implementation in USRP N200', which is a hardware platform. However, the paper's core focus is on a MAC protocol and user matching, not on hardware design or fundamental hardware-level contributions. The hardware is a tool for implementation, not the subject of research.",
+    "score": 4.000
+  },
+  "Computer systems organization": {
+    "reason": "The paper discusses 'MU-MIMO MAC protocols' and how 'clients to contend for concurrent transmission opportunities'. While MAC protocols operate within computer systems, the paper's focus is on the networking aspect (resource allocation, contention) rather than the internal organization of computer systems themselves or topics like embedded systems, parallel architectures, or distributed systems as core contributions.",
+    "score": 4.500
+  },
+  "Networks": {
+    "reason": "The title 'Leader-Contention-Based User Matching for 802.11 Multiuser MIMO Networks' explicitly mentions '802.11 Multiuser MIMO Networks'. The abstract discusses 'MU-MIMO LANs', 'MU-MIMO MAC protocols', 'concurrent transmission opportunities', 'channel time', and 'channel characteristics'. These are all core concepts in networking, specifically wireless networks and MAC layer design.",
+    "score": 10.000
+  },
+  "Software and its engineering": {
+    "reason": "The paper introduces 'MIMOMate, a leader-contention-based MU-MIMO MAC protocol'. A protocol is a form of software logic. While the paper doesn't focus on software engineering methodologies, the development and implementation of a new MAC protocol inherently involve software design and implementation. The mention of 'prototype implementation' further supports this, as software is a key component of such an implementation.",
+    "score": 5.500
+  },
+  "Theory of computation": {
+    "reason": "The paper focuses on practical protocol design, performance evaluation, and implementation in wireless networks. It does not delve into theoretical computer science concepts such as algorithms complexity, logic, automata theory, or formal languages. The algorithms mentioned (e.g., for user matching) are applied, not theoretically analyzed for fundamental properties.",
+    "score": 0.001
+  },
+  "Mathematics of computing": {
+    "reason": "The abstract mentions 'channel characteristics' and 'throughput gain', which might involve mathematical modeling or analysis. However, the paper's primary contribution is in protocol design and empirical evaluation, not in developing new mathematical models or computational techniques. The mathematical aspects are applied within the networking context, not as a core research area in mathematics of computing.",
+    "score": 2.000
+  },
+  "Information systems": {
+    "reason": "The paper focuses on network protocols and performance in wireless LANs. This area is distinct from typical information systems topics such as database management, information retrieval, data mining, or enterprise systems. There is no mention of data management, information processing, or systems for specific applications beyond network communication.",
+    "score": 0.001
+  },
+  "Security and privacy": {
+    "reason": "The paper's focus is on improving throughput and fairness in MU-MIMO networks through a new MAC protocol. It does not address security vulnerabilities, privacy concerns, encryption, access control, or any other topics related to protecting information or systems.",
+    "score": 0.001
+  },
+  "Human-centered computing": {
+    "reason": "The paper is about network protocols and performance, not about human-computer interaction, user interfaces, accessibility, or the social aspects of computing. While the protocol aims to improve user experience through better throughput and fairness, the research itself is not centered on human factors or user studies.",
+    "score": 0.001
+  },
+  "Computing methodologies": {
+    "reason": "The paper uses simulation and prototyping ('prototype implementation in USRP N200') as methodologies to evaluate the proposed protocol. The core of the paper is the design of a 'leader-contention-based MU-MIMO MAC protocol'. While it employs methodologies, the paper is not about developing new methodologies themselves, such as artificial intelligence techniques, machine learning algorithms, or graphics and visualization methods.",
+    "score": 1.500
+  },
+  "Applied computing": {
+    "reason": "The paper is an applied research piece, focusing on a specific problem in wireless networking ('MU-MIMO LANs') and proposing a practical solution ('MIMOMate'). The 'prototype implementation in USRP N200' and the measurement of 'throughput gain' demonstrate its applied nature. However, it doesn't fit into typical sub-categories of applied computing like education, commerce, or arts.",
+    "score": 4.000
+  },
+  "Social and professional topics": {
+    "reason": "The paper is a technical research paper on network protocols and does not discuss social impacts, professional ethics, computing education, or economic aspects of computing. Its focus is purely on the technical performance of a networking system.",
+    "score": 0.001
+  }
+}

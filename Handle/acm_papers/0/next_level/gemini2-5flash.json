@@ -1,0 +1,98 @@
+{
+  "Data management systems": {
+    "reason": "The abstract mentions \"organize based on seller-provided product attributes\" and the process of \"mapping products in a given category to one or more of these dominant use cases,\" which implies underlying data management for product information and use case associations. However, the core focus is on NLP and AI techniques rather than the systems themselves.",
+    "score": 4.500
+  },
+  "Information storage systems": {
+    "reason": "While the paper deals with e-commerce product data, the focus is on processing and organizing this data for retrieval, not on the underlying storage mechanisms or technologies. The paper does not discuss storage system design or implementation.",
+    "score": 0.001
+  },
+  "Information systems applications": {
+    "reason": "The paper proposes a \"Use case-Based Shopping (UBS) system\" to facilitate customer experiences on \"e-commerce platforms,\" directly addressing an application within information systems to improve customer interaction and product discovery. The goal of 'helping customers shop online confidently' points to a direct application.",
+    "score": 8.000
+  },
+  "World Wide Web": {
+    "reason": "The paper explicitly states its context as \"e-commerce platforms\" and discusses \"online experiment targeting the top 7 product categories,\" with recommendations on \"search, browse, and product pages,\" all of which are integral parts of the World Wide Web and online shopping experiences.",
+    "score": 7.500
+  },
+  "Information retrieval": {
+    "reason": "The core problem addressed is helping customers \"find the product they need\" by mapping use cases to products, which is a fundamental aspect of information retrieval. The system aims to improve \"UBS recommendations on search, browse, and product pages,\" directly impacting how users retrieve relevant information (products).",
+    "score": 9.000
+  },
+  "Symbolic and algebraic manipulation": {
+    "reason": "The paper focuses on natural language processing techniques, clustering, and machine learning models (LMs, LLMs, K-Means, LDA). There is no mention or implication of symbolic reasoning or algebraic manipulation as a core component of the proposed system or methodology.",
+    "score": 0.001
+  },
+  "Parallel computing methodologies": {
+    "reason": "The paper discusses using large language models (LMs, FLAN-T5, Claude 2 LLM) which often leverage parallel computing for training and inference. However, the paper does not elaborate on or contribute to parallel computing methodologies themselves; it rather utilizes existing parallelized models.",
+    "score": 1.500
+  },
+  "Artificial intelligence": {
+    "reason": "The paper heavily relies on \"instruction-tuned LMs,\" \"instruction-tuned FLAN-T5 models,\" and \"Anthropic's Claude 2 LLM\" for tasks like \"use case phrase extraction\" and \"hierarchical use case phrase clustering.\" These are core concepts and techniques within artificial intelligence.",
+    "score": 10.000
+  },
+  "Machine learning": {
+    "reason": "The paper's methodology is deeply rooted in machine learning, specifically mentioning \"instruction-tuned LMs,\" \"FLAN-T5 models,\" \"instruction tuning,\" \"multi-task training,\" \"few-shot iterative re-training,\" and comparing clustering approaches with \"K-Means and LDA.\" These are all fundamental machine learning concepts and techniques.",
+    "score": 10.000
+  },
+  "Modeling and simulation": {
+    "reason": "While the paper evaluates its system with an \"online experiment,\" the primary focus is on developing and applying NLP and ML models for use case-based shopping, not on the general principles or techniques of modeling complex systems or running simulations.",
+    "score": 2.000
+  },
+  "Computer graphics": {
+    "reason": "The paper does not involve any aspect of computer graphics, such as image processing, rendering, or visualization techniques. The mention of 'Fig. 1' is a diagrammatic representation, not a core graphical contribution.",
+    "score": 0.001
+  },
+  "Distributed computing methodologies": {
+    "reason": "The use of large language models (LMs, LLMs) often implies distributed computing for their operation and training, but the paper does not discuss or contribute to distributed computing methodologies. The focus is on the application of these models.",
+    "score": 1.500
+  },
+  "Concurrent computing methodologies": {
+    "reason": "The paper does not discuss or contribute to concurrent computing methodologies. The focus is on the application of language models for a specific problem in e-commerce, not on parallel or concurrent execution strategies.",
+    "score": 0.001
+  },
+  "Electronic commerce": {
+    "reason": "The entire paper is centered around improving the customer experience on \"e-commerce platforms\" through a \"Use case-Based Shopping (UBS) system.\" The stated goal is to \"help customers shop online confidently\" and the results measure \"revenue lift\" and \"average click rate lift\" in an online shopping context.",
+    "score": 10.000
+  },
+  "Enterprise computing": {
+    "reason": "The application of the UBS system is within \"e-commerce platforms,\" particularly mentioning Amazon as an author affiliation. This suggests deployment within a large-scale enterprise environment to handle customer interactions and product management. The focus is on a specific business problem within an enterprise context.",
+    "score": 6.000
+  },
+  "Physical sciences and engineering": {
+    "reason": "The paper's content is entirely focused on computer science, natural language processing, and e-commerce, with no connection to physical sciences or engineering disciplines.",
+    "score": 0.001
+  },
+  "Life and medical sciences": {
+    "reason": "The paper's subject matter is e-commerce and natural language processing, with no relevance to life or medical sciences.",
+    "score": 0.001
+  },
+  "Law, social and behavioral sciences": {
+    "reason": "The paper addresses customer behavior in online shopping and aims to improve their experience. While this has a social aspect (understanding user needs), the primary contribution is technological. The impact on customer behavior is an outcome measured, but not the focus of the research method.",
+    "score": 3.000
+  },
+  "Computer forensics": {
+    "reason": "The paper has no relevance to computer forensics, which deals with investigation and analysis of digital evidence.",
+    "score": 0.001
+  },
+  "Arts and humanities": {
+    "reason": "The paper's technical nature and focus on e-commerce and AI have no direct connection to arts and humanities.",
+    "score": 0.001
+  },
+  "Computers in other domains": {
+    "reason": "The paper specifically applies computing (AI, ML, NLP) to the domain of \"e-commerce,\" which is a direct and explicit domain. This category would be more relevant if the application was less clearly defined within the ACM CCS.",
+    "score": 0.001
+  },
+  "Operations research": {
+    "reason": "While the paper aims to optimize customer experience and business outcomes (revenue lift), its methodology is grounded in AI/ML for language processing and clustering, not in traditional operations research techniques like optimization algorithms, queuing theory, or supply chain management.",
+    "score": 1.000
+  },
+  "Education": {
+    "reason": "The paper's subject matter is e-commerce and natural language processing, with no relevance to educational technologies or pedagogical methods.",
+    "score": 0.001
+  },
+  "Document management and text processing": {
+    "reason": "The paper explicitly states its first step as \"use case phrase extraction from product reviews\" and defines a \"novel task of joint Use Uase, Uentiment Uxtraction (UCSE) from product reviews.\" This directly involves processing and managing text from product reviews.",
+    "score": 9.500
+  }
+}

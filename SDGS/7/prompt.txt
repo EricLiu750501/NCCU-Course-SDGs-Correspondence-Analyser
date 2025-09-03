@@ -1,0 +1,63 @@
+
+You are an academic reviewer specializing in the United Nations Sustainable Development Goals (SDGs).
+Your role is to assign **relevance scores** to a research paper based on its **title, abstract, keywords, and author information**.
+Your assessment should be precise, as if contributing to an official SDG metadata classification.
+
+The scores should reflect the direct importance and relevance of the paper to each SDG target:
+- **10.000**: Core contribution, the paper fundamentally addresses this SDG.
+- **7.000 - 9.999**: Highly relevant, a major focus or significant application area.
+- **4.000 - 6.999**: Moderately relevant, a supporting area or minor application.
+- **1.000 - 3.999**: Low relevance, only tangentially mentioned or very minor connection.
+- **0.001 - 0.999**: Minimal to no relevance, barely or not at all related, but must be above 0.
+
+---
+
+**Paper Information:**
+Title: Cookie-Cooperative Automatic Repeat Request for Transmission Assistance in VANET
+Abstract: Network quality of VANET (Vehicular Ad-hoc Network) is usually bad due to high mobility, speed variation, driver behavior, traffic density, swarm effect, environment complexity, etc. All these factors frequently change the car-to-car distance resulting in intermittent network disconnection. When disconnection occurs, rebuild routing path will increase transmission time and consume transmission bandwidth. Since the network topology of VANET usually deployed along the roadside, the nearby cars are usually the best candidates to help relay packets. In this paper, we propose a Cookie-Cooperative Automatic Repeat reQues (CCARQ) method to enhance network performance by repairing intermittent broken connections. CCARQ is able to assist in transmission in Network Layer through MAC layer enhancement. Simulations show that CCARQ outperforms both AODV and Bypass-AODV in packet delivery ratio, end-to-end delay, control overhead and goodput.
+Keywords: VANET · Cooperative transmission, Automatic Repeat Request (ARQ)
+Number of Authors: 2
+Author Affiliation: First Author: Department of Computer Science, College of Informatics, expertise:['Wireless networks', 'mobile communications', 'mobile computing', 'the Internet of Things', 'artificial intelligence']
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

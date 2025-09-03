@@ -1,0 +1,1021 @@
+<!DOCTYPE html><html lang="zh-Hant-TW" class="k-webkit k-webkit116 csstransforms csstransforms3d csstransitions"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="政大教學大綱">
+    <meta name="author" content="政大電算中心">
+    <meta name="copyright" content="國立政治大學">
+    <link rel="publisher" href="https://www.nccu.edu.tw">
+    <meta name="keywords" content="政治大學,教師系統,課程大綱,教學大綱">
+
+    <meta itemprop="name" content="政大教學大綱">
+    <meta itemprop="image" content="">
+    <meta itemprop="description" content="本系統提供學生檢視課程大綱、每周授課進度。">
+
+    <meta property="og:title" content="政大教學大綱">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="本系統提供學生檢視課程大綱、每周授課進度。">
+
+    <title>政大教學大綱</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="https://newdoc.nccu.edu.tw/teaContent/js/jquery-2.1.1.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.1-beta.2/Chart.min.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://newdoc.nccu.edu.tw/teaContent/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://newdoc.nccu.edu.tw/teaContent/css/animate.css">
+    
+    <link rel="stylesheet" href="https://webapp.nccu.edu.tw/css/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://newdoc.nccu.edu.tw/teaContent/css/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="https://newdoc.nccu.edu.tw/teaContent/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://newdoc.nccu.edu.tw/teaContent/css/demo.css">
+    <link rel="stylesheet" type="text/css" href="https://newdoc.nccu.edu.tw/teaContent/css/set1.css">
+    <link rel="stylesheet" type="text/css" href="https://newdoc.nccu.edu.tw/teaContent/css/bootstrap-print.min.css"><!--2017.6.21-->
+    <link rel="stylesheet" type="text/css" href="https://newdoc.nccu.edu.tw/teaContent/css/bootstrap-print-lg.min.css"><!--2017.6.21-->
+    <link href="https://newdoc.nccu.edu.tw/teaContent/css/overwrite.css" rel="stylesheet">
+    
+
+    <link rel="stylesheet" type="text/css" href="https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.common-material.min.css">
+    <link rel="stylesheet" type="text/css" href="https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.material.min.css">
+    <link rel="stylesheet" type="text/css" href="https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.material.mobile.min.css">
+    <script type="text/javascript" src="https://kendo.cdn.telerik.com/2017.2.621/js/kendo.all.min.js"></script>
+
+    <!-- =======================================================
+        Theme Name: eNno
+        Theme URL: https://bootstrapmade.com/enno-free-simple-bootstrap-template/
+        Author: BootstrapMade
+        Author URL: https://bootstrapmade.com
+    ======================================================= -->
+    <!-- Custom Fonts -->
+    
+    <link rel="stylesheet" href="https://webapp.nccu.edu.tw/css/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script>
+        // Picture element HTML5 shiv
+        document.createElement("picture");
+    </script>
+    <script async="" src="https://newdoc.nccu.edu.tw/teaContent/js/picturefill.min.js"></script>
+    <!-- Retina.js !-->
+    <script async="" src="https://newdoc.nccu.edu.tw/teaContent/js/retina.min.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top hidden-print" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html"><span><span style="font-size:70%;">國立政治大學校務行政系統  </span>教學大綱 Syllabus</span></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <div class="menu">
+                    <ul class="nav nav-tabs" role="tablist"></ul>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="visible-print text-center">
+                <h1>教學大綱 Syllabus</h1>
+            </div>
+            <div class="col-sm-12">
+                
+                <h2><span class="visible-print visible-print-inline">科目名稱：</span><span class="Zh" id="CourseName">總體經濟學                                                  </span></h2><!--2017.05.03-->
+                <h5><span class="visible-print visible-print-inline">Course Name: </span><span class="En" id="CourseNameEn">Macroeconomics</span></h5><!--2017.05.03-->
+                <input type="hidden" name="courseUrl" id="courseUrl" value="3257366B2F41364D322B58736D593570686D2F477261526C4A7A4235444B64565731425845466C39463462527861746C7541656E3258347A6273765277686C502F61454661473630716470612B62624B4D302F414654674B51764B69766D742F66343755656257456F2B747A39394470634B306948517767336448582F76307275464A3743375A48524B792F72563735684646643941434768754565543468304739577368495254773431646C5251366D306E7334704C6D377357747956574B58445841516E7570342F784562746F5244426239727A69546D33304E76394A375A7972664C71636D466F683766716774756D50786F513367697478515041534E344E4B69696E5964486145586C596A5A6A324B56784C43616F315532666A6B6E72576167657A4B2B4456493D">
+            </div>
+        </div><!--/.row!-->
+        <div class="row">
+            <div class="col-sm-5 col-p-6">
+                <!--2017.6.21-->
+                <ul class="nav nav-tabs">
+                    <li class="sylview-textS">
+                        <i class="fa fa-calendar"></i> <span class="Zh">學年學期：114-1</span>
+                        <span class="En">
+
+                            Fall Semester, 2025
+                        </span>
+                    </li>
+                    <li class="sylview-textS">
+                        <i class="fa fa-bookmark-o"></i> <span class="Zh">科目代碼：000218001</span>
+                        <span class="En">Course No.000218001</span>
+                    </li>
+                </ul>
+                <div class="row text-center sylview--mtop">
+                    <div class="clearfix"></div>
+                    <div class="col-xs-offset-1 col-xs-3">
+                        <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.1s">
+                            <div class="icon">
+                                <i class="fa fa-cubes fa-3x"></i>
+                            </div>
+                            <h4>修別：必</h4>
+                            <p>Type of Credit: Required            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4">
+                        <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.4s">
+                            <div class="icon">
+                                <i class="sylview-icontext sylview-icontextB">3.0</i>
+                            </div>
+                            <h4>學分數</h4>
+                            <p>Credit(s)</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.5s">
+                            <div class="icon">
+                                <i class="sylview-icontext sylview-icontextB">150</i>
+                            </div>
+                            
+                            
+                            <h4>預收人數</h4>                            
+                            <p>Number of Students</p>
+                        </div>
+                    </div>
+                </div><!--/.row!-->
+                <div class="row">
+                    <div class="col-sm-11">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <span class="Zh">課程資料</span><span class="En">Course Details</span>
+                            </div>
+                            <div class="panel-body">
+                                <ul class="nav nav-divider">
+                                    <li><span class="Zh">開課單位：經濟系                                                                                                 </span><span class="En">Course Department:Economics </span></li>
+                                    <li><span class="Zh">授課老師：莊奕琦                                                                                                 </span><span class="En">Instructor: CHUANG YIH-CHYI                                                                                                                                                                                         </span></li>
+                                    <li><span class="Zh">先修科目：[ 經濟學(全學年)(修習且及格)]</span><span class="En">Prerequisite([])</span></li>
+                                    <li><span class="Zh">上課時間：五234         </span><span class="En">Session: fri09-12</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.row!-->
+            </div><!--/.col-sm-5!-->
+
+            <div class="col-sm-7 sylview--mtop col-p-6">
+                <!--2017.6.21-->
+                <div class="clearfix"></div>
+                <h2 class="text-primary"><span class="Zh">課程簡介</span><span class="En">Course Description</span></h2>
+                <div style="margin-left:0.38in"><span style="font-size:26.0pt"><span style="font-size:65%"><span style="color:#00ccff"><span style="font-family:Wingdings">n</span></span></span></span><span style="font-size:24px"><span style="font-family:Tahoma">Macroeconomics is a year-long course (3 credits for each semester). The goal of the course is to introduce student modern macroeconomics and related theories and empirical data under a consistent analytical framework from the short-run, the medium run,&nbsp;to the long-run. </span></span></div>
+
+<p style="margin-left:0.38in"><span style="font-size:24px">Course outline includes:&nbsp;<br>
+ A tour of the world and Taiwan&nbsp;<br>
+ What is Macroeconomics?&nbsp;<br>
+ Indices of macroeconomic variable.&nbsp;<br>
+ Goods market (simple Keynesian model)&nbsp;<br>
+ Financial market&nbsp;<br>
+ IS-LM model (complete Keynesian model)&nbsp;<br>
+ Labor market&nbsp;<br>
+ AD-AS model&nbsp;<br>
+ Open economy&nbsp;<br>
+ Expectations&nbsp;<br>
+ Facts and Big Questions of Economic Growth&nbsp;<br>
+ Technological progress and Growth&nbsp;<br>
+ Monetary and fiscal policies</span></p>
+
+<p>&nbsp;</p>
+<gdiv></gdiv>
+                <div class="row sylview-mtop fa-border">
+                    <div class="col-md-6">
+                        <h3 class="text-primary">
+                            <span class="Zh">核心能力分析圖</span>
+                            <span class="En">Core Competence Analysis Chart</span>
+                        </h3>
+                        <div id="chart" align="left" data-role="chart" class=" k-chart" style="position: relative;"><svg style="width: 100%; height: 100%; overflow: hidden; left: -0.15625px; top: -0.6875px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><defs><clipPath id="kdef1"><path d="M5 5 L 38.402 5 38.402 395 5 395Z" stroke="#000" stroke-linejoin="miter" fill="none"></path></clipPath></defs><g><path d="M0 0 L 247 0 247 400 0 400Z" stroke="none" fill="#fff"></path><path d="M40.55 119.55 L 206.45 119.55 206.45 202.5 40.55 202.5Z" stroke="none" fill="#fff" fill-opacity="0"></path><g><g><path d="M123.5 202.5 L 182.155 143.845" stroke="#dfdfdf" stroke-width="1" fill="none"></path><path d="M123.5 202.5 L 206.45 202.5" stroke="#dfdfdf" stroke-width="1" fill="none"></path><path d="M123.5 202.5 L 182.155 261.155" stroke="#dfdfdf" stroke-width="1" fill="none"></path><path d="M123.5 202.5 L 123.5 285.45" stroke="#dfdfdf" stroke-width="1" fill="none"></path><path d="M123.5 202.5 L 64.845 261.155" stroke="#dfdfdf" stroke-width="1" fill="none"></path><path d="M123.5 202.5 L 40.55 202.5" stroke="#dfdfdf" stroke-width="1" fill="none"></path><path d="M123.5 202.5 L 64.845 143.845" stroke="#dfdfdf" stroke-width="1" fill="none"></path></g><g><path d="M123.5 185.91 L 135.231 190.769 140.09 202.5 135.231 214.231 123.5 219.09 111.769 214.231 106.91 202.5 111.769 190.769Z" stroke="#dfdfdf" stroke-width="1" fill="none"></path><path d="M123.5 169.32 L 146.962 179.038 156.68 202.5 146.962 225.962 123.5 235.68 100.038 225.962 90.32 202.5 100.038 179.038Z" stroke="#dfdfdf" stroke-width="1" fill="none"></path><path d="M123.5 152.73 L 158.693 167.307 173.27 202.5 158.693 237.693 123.5 252.27 88.307 237.693 73.73 202.5 88.307 167.307Z" stroke="#dfdfdf" stroke-width="1" fill="none"></path><path d="M123.5 136.14 L 170.424 155.576 189.86 202.5 170.424 249.424 123.5 268.86 76.576 249.424 57.14 202.5 76.576 155.576Z" stroke="#dfdfdf" stroke-width="1" fill="none"></path><path d="M123.5 119.55 L 182.155 143.845 206.45 202.5 182.155 261.155 123.5 285.45 64.845 261.155 40.55 202.5 64.845 143.845Z" stroke="#dfdfdf" stroke-width="1" fill="none"></path></g><g></g><g><g><path d="M123.5 120.5 L 123.5 203.5" stroke="#8e8e8e" stroke-width="1" fill="none"></path><path d="M119.5 203.5 L 123.5 203.5" stroke="#8e8e8e" stroke-width="1" fill="none"></path><path d="M119.5 186.5 L 123.5 186.5" stroke="#8e8e8e" stroke-width="1" fill="none"></path><path d="M119.5 169.5 L 123.5 169.5" stroke="#8e8e8e" stroke-width="1" fill="none"></path><path d="M119.5 153.5 L 123.5 153.5" stroke="#8e8e8e" stroke-width="1" fill="none"></path><path d="M119.5 136.5 L 123.5 136.5" stroke="#8e8e8e" stroke-width="1" fill="none"></path><path d="M119.5 120.5 L 123.5 120.5" stroke="#8e8e8e" stroke-width="1" fill="none"></path></g></g><g><text style="font:12px Arial, Helvetica, sans-serif;" x="107.49999999999999" y="206.5" stroke="none" fill="#232323" fill-opacity="1">0</text></g><g><text style="font:12px Arial, Helvetica, sans-serif;" x="107.49999999999999" y="189.91" stroke="none" fill="#232323" fill-opacity="1">1</text></g><g><text style="font:12px Arial, Helvetica, sans-serif;" x="107.49999999999999" y="173.32" stroke="none" fill="#232323" fill-opacity="1">2</text></g><g><text style="font:12px Arial, Helvetica, sans-serif;" x="107.49999999999999" y="156.73" stroke="none" fill="#232323" fill-opacity="1">3</text></g><g><text style="font:12px Arial, Helvetica, sans-serif;" x="107.49999999999999" y="140.14" stroke="none" fill="#232323" fill-opacity="1">4</text></g><g><text style="font:12px Arial, Helvetica, sans-serif;" x="107.49999999999999" y="123.55" stroke="none" fill="#232323" fill-opacity="1">5</text></g><g></g><g><g></g></g><g><g clip-path="url(#kdef1)"><path d="M123.5 136.14 L 170.424 155.576 189.86 202.5 170.424 249.424 123.5 252.27 88.307 237.693 73.73 202.5 76.576 155.576Z" stroke="#ff6800" stroke-width="2" fill="none"></path><path d="M123.5 202.5 L 123.5 202.5 123.5 202.5 123.5 202.5 123.5 202.5 123.5 202.5 123.5 202.5 123.5 202.5Z" stroke="#a0a700" stroke-width="2" fill="none"></path></g></g><g><text style="font:12px Arial, Helvetica, sans-serif;" x="119.5" y="106.55" stroke="none" fill="#232323" fill-opacity="1">A</text></g><g><text style="font:12px Arial, Helvetica, sans-serif;" x="192.155" y="130.845" stroke="none" fill="#232323" fill-opacity="1">B</text></g><g><text style="font:12px Arial, Helvetica, sans-serif;" x="216.45" y="206.5" stroke="none" fill="#232323" fill-opacity="1">C</text></g><g><text style="font:12px Arial, Helvetica, sans-serif;" x="192.155" y="282.155" stroke="none" fill="#232323" fill-opacity="1">D</text></g><g><text style="font:12px Arial, Helvetica, sans-serif;" x="119.5" y="306.45" stroke="none" fill="#232323" fill-opacity="1">E</text></g><g><text style="font:12px Arial, Helvetica, sans-serif;" x="47.845" y="282.155" stroke="none" fill="#232323" fill-opacity="1">F</text></g><g><text style="font:12px Arial, Helvetica, sans-serif;" x="21.549999999999997" y="206.5" stroke="none" fill="#232323" fill-opacity="1">G</text></g><g><text style="font:12px Arial, Helvetica, sans-serif;" x="45.845" y="130.845" stroke="none" fill="#232323" fill-opacity="1">H</text></g></g><g><g><text style="font:16px Arial, Helvetica, sans-serif;" x="99.5" y="32" stroke="none" fill="#8e8e8e" fill-opacity="1">雷達圖</text></g></g><g></g><g><g><g transform="matrix(1,0,0,1,75.5,368)"><path d="M0 7 L 15 7 15 10 0 10Z" stroke="#ff6800" stroke-width="0" fill="#ff6800"></path><g><text style="font:12px Arial, Helvetica, sans-serif;" x="21" y="13" stroke="none" fill="#232323" fill-opacity="1">老師</text></g><path style="cursor:pointer;" d="M0 0 L 45 0 45 17 0 17Z" stroke="none" fill="#fff" fill-opacity="0"></path></g><g transform="matrix(1,0,0,1,126.5,368)"><path d="M0 7 L 15 7 15 10 0 10Z" stroke="#a0a700" stroke-width="0" fill="#a0a700"></path><g><text style="font:12px Arial, Helvetica, sans-serif;" x="21" y="13" stroke="none" fill="#232323" fill-opacity="1">學生</text></g><path style="cursor:pointer;" d="M0 0 L 45 0 45 17 0 17Z" stroke="none" fill="#fff" fill-opacity="0"></path></g></g></g><g></g></g></svg></div>
+                        <div id="noChart" style="display:none">
+                            「無核心能力」
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <!--2018.4.12新增能力項目說明p,ul-->
+                        <p class="text-info sylview-mtop"><b>能力項目說明</b></p>
+                        <ul id="listUnstyled" class="list-unstyled small"><li>A. 具備人文社會科學基礎與專業知能(Have a foundation of humanities and social sciences and professional knowledge)</li><li>B. 具備獨立思考與研究能力 (Possess independent thinking and research capabilities)</li><li>C. 具備反省、批判、溝通之能力  (Ability to reflect, criticize and communicate)</li><li>D. 具備發現、分析、解決問題之能力 (Ability to discover, analyze and solve problems)</li><li>E. 具備人文社會關懷與民主法治素養 (Possess the ability to use  social care, democracy, and the rule of law in the humanities)</li><li>F. 增進社會參與及社會服務之實踐能力 (Improve the practical ability of social participation and  service)</li><li>G. 具備領導能力與團隊精神 (Have leadership skills  and team spirit)</li><li>H. 提升國際視野與外語能力 (Improve international perspective and foreign language ability)</li></ul>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div><!--/.container-->
+    <hr class="sylview--mbottom">
+    <div class="container sylview-section">
+        <div class="row">
+            <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
+                <h2 class="text-primary text-center col-p-4"><span class="Zh">課程目標與學習成效</span><span class="En">Course Objectives &amp; Learning Outcomes </span></h2><!--2017.6.21-->
+                <div class="col-p-8">
+                    <!--2017.6.21-->
+                    <ul>
+	<li><span style="font-size:26.0pt"><span style="font-family:Tahoma">Macroeconomics is the study of aggregate behavior of a country or an economy. Topics include theory of determination of national income, employment, prices, and interest rates; monetary and fiscal policy; related issues of economic growth, fluctuations, inflation and unemployment; exchange rate and international trade.</span></span></li>
+	<li><span style="font-size:26.0pt"><span style="font-family:Tahoma">The goal of the course is to equip students with knowledge of modern macroeconomic theories and&nbsp;how to&nbsp;apply the theory to the real world &nbsp;using quantitative data. &nbsp;&nbsp;</span></span></li>
+</ul>
+<gdiv></gdiv>
+                </div><!--2017.6.21-->
+            </div>
+        </div><!--/.row-->
+    </div><!--/.container-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+            </div>
+            <div class="col-md-7">
+            </div>
+        </div><!--/.row!-->
+    </div><!--/.container!-->
+    <div class="container-fluid bg-info sylview-section sylview-mtop">
+        <div class="row" id="objectives">
+            <div class="col-md-offset-2 col-md-8">
+                <h2 class="text-primary text-center"><span class="Zh">每周課程進度與作業要求</span><span class="En"> Course Schedule &amp; Requirements</span></h2>                
+                <table cellspacing="0" class="Table" style="border-collapse:collapse; border:none; margin-left:-5.4pt">
+	<tbody>
+		<tr>
+			<td rowspan="2" style="width:46.0pt">
+			<p><strong><span style="font-size:16.0pt"><span style="color:#262626">週次</span></span></strong></p>
+
+			<p><strong><span style="font-size:13.0pt"><span style="font-family:OpenSans-Bold"><span style="color:#535353">Week</span></span></span></strong></p>
+			</td>
+			<td rowspan="2" style="width:174.4pt">
+			<p><strong><span style="font-size:16.0pt"><span style="color:#262626">課程主題</span></span></strong></p>
+
+			<p><strong><span style="font-size:13.0pt"><span style="font-family:OpenSans-Bold"><span style="color:#535353">Course Theme</span></span></span></strong></p>
+			</td>
+			<td rowspan="2" style="width:193.95pt">
+			<p><strong><span style="font-size:16.0pt"><span style="color:#262626">課程內容與指定閱讀</span></span></strong></p>
+
+			<p><strong><span style="font-size:13.0pt"><span style="font-family:OpenSans-Bold"><span style="color:#535353">Content and Reading Assignment</span></span></span></strong></p>
+			</td>
+			<td rowspan="2" style="width:153.0pt">
+			<p><strong><span style="font-size:16.0pt"><span style="color:#262626">教學活動與作業</span></span></strong></p>
+
+			<p><strong><span style="font-size:13.0pt"><span style="font-family:OpenSans-Bold"><span style="color:#535353">Activity and Homework</span></span></span></strong></p>
+			</td>
+			<td colspan="2" style="width:127.25pt">
+			<p style="text-align:center"><strong><span style="font-size:16.0pt"><span style="color:#262626">學習投入時數</span></span></strong></p>
+
+			<p style="text-align:center"><strong><span style="font-size:13.0pt"><span style="font-family:OpenSans-Bold"><span style="color:#535353">Estimated time devoted to coursework per week</span></span></span></strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:49.45pt">
+			<p style="text-align:center"><strong><span style="color:#262626">課堂講授</span></strong></p>
+
+			<p style="text-align:center"><strong><span style="font-size:13.0pt"><span style="font-family:OpenSans-Bold"><span style="color:#535353">Lecture Hours</span></span></span></strong></p>
+			</td>
+			<td style="width:77.75pt">
+			<p style="text-align:center"><strong><span style="color:#262626">課程前後</span></strong></p>
+
+			<p style="text-align:center"><strong><span style="font-size:13.0pt"><span style="font-family:OpenSans-Bold"><span style="color:#535353">Preparation Time</span></span></span></strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#f7f7f7; width:46.0pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">1</span></span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:174.4pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626"> A tour of the world and Taiwan</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:193.95pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">see suggested text book's corresponding chapters</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:153.0pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">lectures, class discussion &amp; TA session</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:49.45pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">3.0</span></span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:77.75pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">4.5</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:46.0pt">
+			<p style="text-align:center"><span style="color:#262626; font-family:OpenSans-Light"><span style="caret-color:#262626; font-size:21.333334px">2</span></span></p>
+			</td>
+			<td style="width:174.4pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">What is Macroeconomics?Indices of macroeconomic variable. </span></span></p>
+			</td>
+			<td style="width:193.95pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">see suggested text book's corresponding chapters</span></span></p>
+			</td>
+			<td style="width:153.0pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">lectures, class discussion &amp; TA session</span></span></p>
+			</td>
+			<td style="width:49.45pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">3.0</span></span></span></p>
+			</td>
+			<td style="width:77.75pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">4.5</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#f7f7f7; width:46.0pt">
+			<p style="text-align:center"><span style="color:#262626; font-family:OpenSans-Light"><span style="caret-color:#262626; font-size:21.333334px">3</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:174.4pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">Goods market (simple Keynesian model) </span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:193.95pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">see suggested text book's corresponding chapters</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:153.0pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">lectures, class discussion &amp; TA session</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:49.45pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">3.0</span></span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:77.75pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">4.5</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:46.0pt">
+			<p style="text-align:center"><span style="color:#262626; font-family:OpenSans-Light"><span style="caret-color:#262626; font-size:21.333334px">4</span></span></p>
+			</td>
+			<td style="width:174.4pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">Goods market (simple Keynesian model) </span></span></p>
+			</td>
+			<td style="width:193.95pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">see suggested text book's corresponding chapters</span></span></p>
+			</td>
+			<td style="width:153.0pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">lectures, class discussion &amp; TA session</span></span></p>
+			</td>
+			<td style="width:49.45pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">3.0</span></span></span></p>
+			</td>
+			<td style="width:77.75pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">4.5</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#f7f7f7; width:46.0pt">
+			<p style="text-align:center"><span style="color:#262626; font-family:OpenSans-Light"><span style="caret-color:#262626; font-size:21.333334px">5</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:174.4pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">Financial market </span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:193.95pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">see suggested text book's corresponding chapters</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:153.0pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">lectures, class discussion &amp; TA session</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:49.45pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">3.0</span></span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:77.75pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">4.5</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:46.0pt">
+			<p style="text-align:center"><span style="color:#262626; font-family:OpenSans-Light"><span style="caret-color:#262626; font-size:21.333334px">6</span></span></p>
+			</td>
+			<td style="width:174.4pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">Money market and LM curve</span></span></p>
+			</td>
+			<td style="width:193.95pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">see suggested text book's corresponding chapters</span></span></p>
+			</td>
+			<td style="width:153.0pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">lectures, class discussion &amp; TA session</span></span></p>
+			</td>
+			<td style="width:49.45pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">3.0</span></span></span></p>
+			</td>
+			<td style="width:77.75pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">4.5</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#f7f7f7; width:46.0pt">
+			<p style="text-align:center"><span style="color:#262626; font-family:OpenSans-Light"><span style="caret-color:#262626; font-size:21.333334px">7</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:174.4pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">Goods and Financial markets </span></span></p>
+
+			<p><span style="font-size:16.0pt"><span style="color:#262626">IS-LM model (complete Keynesian model)</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:193.95pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">see suggested text book's corresponding chapters</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:153.0pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">lectures, class discussion &amp; TA session</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:49.45pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">3.0</span></span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:77.75pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">4.5</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:46.0pt">
+			<p style="text-align:center"><span style="color:#262626; font-family:OpenSans-Light"><span style="caret-color:#262626; font-size:21.333334px">8</span></span></p>
+			</td>
+			<td style="width:174.4pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">Goods and Financial markets </span></span></p>
+
+			<p><span style="font-size:16.0pt"><span style="color:#262626">IS-LM model (complete Keynesian model)</span></span></p>
+
+			<p>&nbsp;</p>
+			</td>
+			<td style="width:193.95pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">see suggested text book's corresponding chapters</span></span></p>
+			</td>
+			<td style="width:153.0pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">lectures, class discussion &amp; TA session</span></span></p>
+			</td>
+			<td style="width:49.45pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">3.0</span></span></span></p>
+			</td>
+			<td style="width:77.75pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">4.5</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#f7f7f7; width:46.0pt">
+			<p style="text-align:center"><span style="color:#262626; font-family:OpenSans-Light"><span style="caret-color:#262626; font-size:21.333334px">9</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:174.4pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">Mid-term Exam</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:193.95pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">corresponding chapters</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:153.0pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">written exam</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:49.45pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">3.0</span></span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:77.75pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">4.5</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:46.0pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">10</span></span></span></p>
+			</td>
+			<td style="width:174.4pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">Labor market </span></span></p>
+			</td>
+			<td style="width:193.95pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">see suggested text book's corresponding chapters</span></span></p>
+			</td>
+			<td style="width:153.0pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">lectures, class discussion &amp; TA session</span></span></p>
+			</td>
+			<td style="width:49.45pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">3.0</span></span></span></p>
+			</td>
+			<td style="width:77.75pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">4.5</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#f7f7f7; width:46.0pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">11</span></span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:174.4pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">Labor market</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:193.95pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">see suggested text book's corresponding chapters</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:153.0pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">lectures, class discussion &amp; TA session</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:49.45pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">3.0</span></span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:77.75pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">4.5</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:46.0pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">12</span></span></span></p>
+			</td>
+			<td style="width:174.4pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">IS-LM model and Aggregate demand curve</span></span></p>
+			</td>
+			<td style="width:193.95pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">see suggested text book's corresponding chapters</span></span></p>
+			</td>
+			<td style="width:153.0pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">lectures, class discussion &amp; TA session</span></span></p>
+			</td>
+			<td style="width:49.45pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">3.0</span></span></span></p>
+			</td>
+			<td style="width:77.75pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">4.5</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#f7f7f7; width:46.0pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">13</span></span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:174.4pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">Labor market and Aggregate Supply curve</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:193.95pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">see suggested text book's corresponding chapters</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:153.0pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">lectures, class discussion &amp; TA session</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:49.45pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">3.0</span></span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:77.75pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">4.5</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:46.0pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">14</span></span></span></p>
+			</td>
+			<td style="width:174.4pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626"> AD-AS model </span></span></p>
+			</td>
+			<td style="width:193.95pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">see suggested text book's corresponding chapters</span></span></p>
+			</td>
+			<td style="width:153.0pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">lectures, class discussion &amp; TA session</span></span></p>
+			</td>
+			<td style="width:49.45pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">3.0</span></span></span></p>
+			</td>
+			<td style="width:77.75pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">4.5</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#f7f7f7; width:46.0pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">15</span></span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:174.4pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">Policy analysis</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:193.95pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">see suggested text book's corresponding chapters</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:153.0pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">lectures, class discussion &amp; TA session</span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:49.45pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">3.0</span></span></span></p>
+			</td>
+			<td style="background-color:#f7f7f7; width:77.75pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">4.5</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#f2f2f2; width:46.0pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">16</span></span></span></p>
+			</td>
+			<td style="background-color:#f2f2f2; width:174.4pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">Final Exam</span></span></p>
+			</td>
+			<td style="background-color:#f2f2f2; width:193.95pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">Chapters after mid-term exam</span></span></p>
+			</td>
+			<td style="background-color:#f2f2f2; width:153.0pt">
+			<p><span style="font-size:16.0pt"><span style="color:#262626">writing exam</span></span></p>
+			</td>
+			<td style="background-color:#f2f2f2; width:49.45pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">3.0</span></span></span></p>
+			</td>
+			<td style="background-color:#f2f2f2; width:77.75pt">
+			<p style="text-align:center"><span style="font-size:16.0pt"><span style="font-family:OpenSans-Light"><span style="color:#262626">4.5</span></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<gdiv></gdiv>            </div>
+        </div><!--/.row!-->
+    </div><!--/.container!-->
+    <div class="container-fluid sylview-section">
+        <div class="row">
+            <h2 class="text-primary text-center sylview--mbottom col-p-4"><span class="Zh">授課方式</span><span class="En">Teaching Approach</span></h2><!--2017.6.21-->
+            <div class="col-sm-offset-2 col-sm-8 col-p-8 col-p-offset-0">
+                <!--2017.6.21-->
+                <div class="col-sm-offset-1 col-sm-2 col-xs-4 text-center col-p-2 col-p-offset-0">
+                    <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.1s">
+                        <div class="icon">
+                            <i class="sylview-icontext">
+                                60%
+                            </i>
+                        </div>
+                        <h4>
+                            <span class="Zh">講述</span>
+                            <span class="En">Lecture</span>
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-xs-4 text-center col-p-2">
+                    <!--2017.6.21-->
+                    <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.4s">
+                        <div class="icon">
+                            <i class="sylview-icontext">20%</i>
+                        </div>
+                        <h4>
+                            <span class="Zh">討論</span>
+                            <span class="En">Discussion</span>
+                        </h4>
+                    </div>
+                </div>
+                <div class=" col-sm-2 col-xs-4 text-center col-p-2">
+                    <!--2017.6.21-->
+                    <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.2s">
+                        <div class="icon">
+                            <i class="sylview-icontext">0%</i>
+                        </div>
+                        <h4>
+                            <span class="Zh">小組活動</span>
+                            <span class="En">Group activity</span>
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-sm-offset-0 col-sm-2 col-xs-offset-2 col-xs-4 text-center col-p-2 col-p-offset-0">
+                    <!--2017.6.21-->
+                    <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.6s">
+                        <div class="icon">
+                            <i class="sylview-icontext">20%</i>
+                        </div>
+                        <h4>
+                            <span class="Zh">數位學習</span>
+                            <span class="En">E-learning</span>
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-xs-4 text-center col-p-2">
+                    <!--2017.6.21-->
+                    <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.5s">
+                        <div class="icon">
+                            <i class="sylview-icontext">0%</i>
+                        </div>
+                        <h4>
+                            <span class="Zh">其他：</span>
+                            <span class="En">Others:</span>
+                            <span></span>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div><!--/.row!-->
+    </div><!--/.container-f!-->
+    <div class="container-fluid bg-info sylview-section">
+        <div class="row">
+            <div class="col-md-offset-3 col-md-6 col-sm-offset-1 col-sm-10 col-p-offset-0">
+                <!--2017.04.27--><!--2017.6.21-->
+                <h2 class="text-primary text-center col-p-4"><span class="Zh">評量工具與策略、評分標準成效</span><span class="En">Evaluation Criteria</span></h2><!--2017.6.21-->
+                <div class="col-p-8">
+                    <!--2017.6.21-->
+                    <div style="margin-left:0.38in"><span style="font-size:32.0pt"><span style="font-size:65%"><span style="color:#00ccff"><span style="font-family:Wingdings">n</span></span></span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">No prerequisite is required for the course. </span></span></div>
+
+<div style="margin-left:0.38in"><span style="font-size:32.0pt"><span style="font-size:65%"><span style="font-family:Wingdings">n</span></span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">There will be midterm and final exams. A number of problem sets and quizs&nbsp;will also be assigned during the term. </span></span></div>
+
+<div style="margin-left:0.38in"><span style="font-size:32.0pt"><span style="font-size:65%"><span style="font-family:Wingdings">n</span></span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">Semester grades are determined by in-class presentation and problem sets </span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">(30</span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">%), the midterm </span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">(35</span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">%), </span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">and the final </span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">(35</span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">%).</span></span></div>
+
+<div style="margin-left:0.38in"><span style="font-size:32.0pt"><span style="font-size:65%"><span style="font-family:Wingdings">n</span></span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">Extra bonus for creative class discussion and corresponding penalty for skipping classes.</span></span></div>
+<gdiv></gdiv>
+                </div>
+            </div>
+        </div><!--/.row!-->
+    </div><!--/.container-f!-->  
+    <div class="container-fluid sylview-section">
+        <div class="row">
+            <div class="col-md-offset-3 col-md-6 col-sm-offset-1 col-sm-10 col-p-offset-0">
+                <!--2017.6.21-->
+                <h2 class="text-primary text-center sylview--mbottom col-p-4"><span class="Zh">指定/參考書目</span><span class="En">Textbook &amp; References</span></h2><!--2017.6.21-->
+                
+                <div class="col-p-8">
+                    <!--2017.6.21-->
+                    <div style="margin-left:0.38in"><span style="font-size:32.0pt"><span style="font-size:65%"><span style="font-family:Wingdings">n</span></span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">Macroeconomics, Olivier Blanchard, 8</span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">th</span></span> <span style="font-size:32.0pt"><span style="font-family:Tahoma">ed., Prentice-Hall, </span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">2021.</span></span></div>
+
+<div style="margin-left:0.38in"><span style="font-size:32.0pt"><span style="font-size:65%"><span style="font-family:Wingdings">n</span></span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">Supplementary books:</span></span></div>
+
+<div style="margin-left:0.38in"><span style="font-size:32.0pt"><span style="font-size:65%"><span style="font-family:Wingdings">n</span></span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">Macroeconomics: A Modern Approach, Robert </span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">Barro</span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">, 2008.</span></span></div>
+
+<div style="margin-left:0.38in"><span style="font-size:32.0pt"><span style="font-size:65%"><span style="font-family:Wingdings">n</span></span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">Macroeconomics, Robert Hall and David </span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">Rapell</span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">, 6th ed., Norton, 2005.</span></span></div>
+
+<div style="margin-left:0.38in"><span style="font-size:32.0pt"><span style="font-size:65%"><span style="font-family:Wingdings">n</span></span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">Macroeconomics, Gregory </span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">Mankiew</span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">, 3th ed., Worth, 2002.</span></span></div>
+
+<div style="margin-left:0.38in"><span style="font-size:32.0pt"><span style="font-size:65%"><span style="color:#00ccff"><span style="font-family:Wingdings">n</span></span></span></span><span style="font-size:32.0pt"><span style="font-family:Tahoma">Macroeconomics, Robert Gordon, 9th ed., Addison-Wesley, 2003.</span></span></div>
+
+<ul>
+	<li><span style="font-size:36px">莊奕琦，『總體經濟學』，智勝文化事業有限公司，2000。</span></li>
+</ul>
+
+<div style="margin-left:0.38in">&nbsp;</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<gdiv></gdiv>
+                </div>
+                <div class="col-p-8 sylview-mtop">
+                    <!--2017.7.19 div-->
+                    <h4 class="text-info">
+                        已申請之圖書館指定參考書目
+                        <span class="pull-right small hidden-print">
+                        
+                        <a href="https://nccu.primo.exlibrisgroup.com/discovery/search?tab=CourseReserves&amp;search_scope=CourseReserves&amp;vid=886NCCU_INST:886NCCU_INST&amp;lang=zh-tw&amp;offset=0" target="_blank">
+                                圖書館指定參考書查詢</a> |<a href="https://www.lib.nccu.edu.tw/zh_tw/6/604/UsingReservedBooks" target="_blank">相關處理要點</a></span>
+                    </h4>
+                </div>
+
+                <div class="alert text-center text-danger sylview-circle hidden-print">                
+                    <!--2017.6.21-->
+                    <h3><i class="fa fa-book fa-2x text-danger"></i></h3>
+                    <span class="Zh">維護智慧財產權，務必使用正版書籍。</span>
+                    <span class="En">Respect Copyright.</span>
+                </div>
+            </div>
+        </div><!--/.row!-->
+    </div><!--/.container-f!-->
+    <!--2024.11.05-->
+
+        <div class="container-fluid bg-info sylview-section">
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6 col-sm-offset-1 col-sm-10 col-p-offset-0">                  
+                    <h2 class="text-primary text-center col-p-4"><span class="Zh">本課程可否使用生成式AI工具</span><span class="En">Course Policies on the Use of Generative AI Tools</span></h2>
+                    <div class="col-p-4">                       
+                            <span class="Zh form-inline">禁止使用:本課程為專業基礎課程，學生需培養不需AI工具下具備獨立思考的專業基礎能力</span>
+                            <span class="En">Prohibited Uses</span>
+                    </div>
+                </div>
+            </div><!--/.row!-->
+        </div><!--/.container-f!-->
+    <div class="container-fluid bg-gray sylview-section">
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3">
+                <h3 class="text-center text-info hidden-print"><i class="fa fa-link fa-2x"></i></h3><!--2017.6.21-->
+                <h3 class="text-center text-info"><span class="Zh">課程相關連結</span><span class="En">Course Related Links</span></h3>
+            </div>
+            <div class="col-md-4">
+                <pre>Moodle E-learning website</pre>
+            </div>
+        </div><!--/row-->
+        <hr class="sylview-hr-gray hidden-print"><!--2017.6.21-->
+        <div class="row">
+            <div class="col-md-2 col-md-offset-3 col-p-4">
+                <!--2017.6.21-->
+                <h3 class="text-center text-info"><i class="fa fa-file-o fa-2x"></i></h3>
+                <h3 class="text-center text-info"><span class="Zh">課程附件</span><span class="En">Course Attachments</span></h3><!--2017.6.21-->
+            </div>
+            <div class="col-md-4 col-p-6">
+                <!--2017.6.21-->
+                <ul class="list-group">
+                </ul>
+            </div>
+        </div><!--/row-->
+    </div><!--/container-->
+    <div class="container-fluid sylview-section bg-black">
+        <div class="row">
+            <div class="col-sm-offset-3 col-sm-1 hidden-xs text-right sylview--mbottom hidden-print">
+                <!--2017.6.21-->
+                <h2><i class="fa fa-mobile-phone fa-4x wow tada" data-wow-offset="0" data-wow-delay="1s" data-wow-duration="1s"></i></h2>
+            </div>
+            <div class="col-sm-6 col-p-12">           
+                <!--2017.6.21-->
+                <h3 class="col-p-4">
+                    <span class="Zh">課程進行中，使用智慧型手機、平板等隨身設備</span><!--2017.6.21-->
+                    <span class="En">To Use Smart Devices During the Class</span>
+                </h3>
+                <div class="col-p-8">
+                        <span class="Zh">
+                            需經教師同意始得使用
+                        </span>
+                        <span class="En">Approval</span>
+                </div>
+            </div>
+        </div><!--/.row!-->
+    </div><!--/.container-f!-->
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-p-12">
+                    <!--2017.6.21-->
+                    <h3 class="text-primary col-p-4"><span class="Zh">授課教師Office Hours及地點</span><span class="En">Office Hours &amp; Office Location</span></h3><!--2017.6.21-->
+                    <div class="col-p-8">
+                        <!--2017.6.21-->
+                        <p style="margin-left:0in"><span style="font-size:20.0pt"><span style="font-family:Tahoma">Office hours: </span></span></p>
+
+<p style="margin-left:0in"><span style="font-size:20.0pt"><span style="font-family:Tahoma">Thursday 16:10-17:00</span></span></p>
+
+<p style="margin-left:0in"><span style="font-size:20.0pt"><span style="font-family:Tahoma">Rm. 271666, </span></span><span style="font-size:20.0pt"><span style="font-family:Tahoma">South</span></span> <span style="font-size:20.0pt"><span style="font-family:Tahoma">Wing,</span></span> <span style="font-size:20.0pt"><span style="font-family:Tahoma">General </span></span><span style="font-size:20.0pt"><span style="font-family:Tahoma">Building of Colleges</span></span></p>
+
+<p style="margin-left:0in"><span style="font-size:20.0pt"><span style="font-family:Tahoma">Phone: 2938-7630; 29393091 ext. 51666</span></span></p>
+
+<p style="margin-left:0in"><span style="font-size:20.0pt"><span style="font-family:Tahoma">E-mail: </span></span><span style="font-size:20.0pt"><span style="font-family:Tahoma">ycchuang03@gmail.com</span></span></p>
+<gdiv></gdiv>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-p-12">
+                    <!--2017.6.21-->
+                    <h3 class="text-primary col-p-4"><span class="Zh">教學助理基本資料</span><span class="En">Teaching Assistant Information</span></h3><!--2017.6.21-->
+                    <div class="col-p-8">
+                        <!--2017.6.21-->
+                        <p>The course will assign&nbsp;a&nbsp;teaching assistant to help students in regular basis.</p>
+<gdiv></gdiv>
+                    </div>
+                </div>
+
+                
+                <div class="col-xs-12 col-sm-4 hidden-print">
+                    <!--2017.6.21-->
+                    
+                    <p></p>
+                    <p class="powerby">Powered by NCCU Computer Center</p>
+                </div>
+            </div><!--/.row!-->
+        </div>
+    </footer>
+    <a href="#" class="hidden-print text-primary">
+        <!--2017.10.12-->
+        <div class="goprint">
+            <i class="fa fa-print fa-2x"></i><br><span class="small">列印</span>
+        </div>
+    </a>
+    <a href="#" class="hidden-print">
+        <div class="gototop">
+            <h3><span class="glyphicon glyphicon-chevron-up"></span></h3>
+        </div>
+    </a>
+    <a href="#">
+        <div class="gototop">
+            <h3><span class="glyphicon glyphicon-chevron-up"></span></h3>
+        </div>
+    </a>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="https://newdoc.nccu.edu.tw/teaContent/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://newdoc.nccu.edu.tw/teaContent/js/wow.min.js"></script>
+    <script type="text/javascript" src="https://newdoc.nccu.edu.tw/teaContent/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="https://newdoc.nccu.edu.tw/teaContent/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="https://newdoc.nccu.edu.tw/teaContent/js/jquery.bxslider.min.js"></script>
+    
+    
+
+    <link type="text/css" href="https://newdoc.nccu.edu.tw/teaContent/css/style.css" rel="stylesheet">
+    
+    <script type="text/javascript">
+        /*2017.05.03 科目名稱到navbar*/
+       /* $(window).scroll(moveTitle);*/
+        $(window).on("scroll", moveTitle);
+        function moveTitle() {
+            
+            var yScroll = window.pageYOffset;
+            var scrollPos = 150;
+            var newTitle = $("#CourseName").html();
+            var newTitleEn = $("#CourseNameEn").html();
+            //var oTitle = '教學大綱維護 Syllabus';
+            var oTitle = '<span style="font-size:70%;">國立政治大學校務行政系統  </span>' + '教學大綱維護 Syllabus';
+            if (yScroll > scrollPos) {
+                $(".navbar-brand span").html(newTitle);
+                $(".navbar-brand span").append(" ");
+                $(".navbar-brand span").append(newTitleEn);
+            } else {
+                $(".navbar-brand span").html(oTitle);
+            }
+        };
+    </script>
+
+    <script type="text/javascript">
+        //$(function () {
+        $('.goprint').on("click", function () { 
+                window.print();
+            });
+            var stuData = [], teaData = [], labelData = [], kerlData = [];
+            $.ajax({
+                url: "https://webapp.nccu.edu.tw/syllabus/api/syllabus/Radar",  
+                //url: "https://mvctest.nccu.edu.tw/syllabus/api/syllabus/Radar",  
+                crossDomain: true,
+                dataType: 'json',
+                data: { courUrl: $("#courseUrl").val() },
+                success: function (data) {
+                    console.log(data);
+                    
+                    if (data.length == 0) {
+                        $("#noChart").show();
+                        $("#chart").hide();
+                    }
+                    else {
+                        var j = 0;
+                        $.each(data, function () {
+                            teaData.push(this.LevNum);
+                            stuData.push(this.LevNumAvg);
+                            $('#listUnstyled').append('<li>' + String.fromCharCode(65 + j) + ". " + this.KerlNam + '</li>');
+                            kerlData.push(this.KerlNam);
+                            j++;
+                        });
+                        for (i = 0; i < teaData.length; i++) {
+                            labelData.push(String.fromCharCode(65 + i));
+                        }
+
+                        $("#chart").kendoChart({
+                            title: {
+                                text: "雷達圖"
+                            },
+                            legend: {
+                                position: "bottom"
+                            },
+                            seriesDefaults: {
+                                type: "radarLine"
+                            },
+                            series: [{
+                                name: "老師",
+                                data: teaData
+                            }, {
+                                name: "學生",
+                                data: stuData
+
+                            }],
+                            categoryAxis: {
+                                categories: labelData
+                            },
+                            valueAxis: {
+                                labels: {
+                                    format: "{0}"
+                                },
+                                max: 5,
+                                min: 0
+                            },
+                            tooltip: {
+                                visible: true,
+                                format: "{0}"
+                            }
+                        });
+                    }
+                }
+            });
+
+        //})
+    </script>
+    <script type="text/javascript">
+        function ShowFile(num) {
+         
+            var fileIdName = "FileIdName_" + num;
+            var tmpFile = $("#" + fileIdName);
+            var fileUrlStr = "FileUrlStr_" + num;
+            var tmpUrl = $("#" + fileUrlStr);           
+            var fileName = tmpFile[0].defaultValue;
+            var urlStr = tmpUrl[0].defaultValue;    
+            var fileUrl = urlStr + fileName;
+
+            var fileId = "showFileNum_" + num;
+            var fileHtml = "<br><a><div><iframe src='" + fileUrl + "' width='525' height=300 scrolling='yes' frameborder='0'></iframe></div></a>";
+            $("#" + fileId)[0].innerHTML = fileHtml;
+
+            var closefileId = "CloseFileId_" + num;
+            $("#" + closefileId).show();            
+        }
+        
+        function CloseFile(num) {
+            var fileId = "showFileNum_" + num;
+            $("#" + fileId)[0].innerHTML = '';
+
+            var closefileId = "CloseFileId_" + num;
+            $("#" + closefileId).hide();
+        }
+
+        //function downloadFile(obj, num) {
+        //    var fileName = obj.innerText;
+        //    var fileNum = num;
+        //    var fileId = "prtFile_" + fileNum;
+        //    var w_width = 1418;                                                                            //設定開啟視窗的寬度1050*1.3=1365 1050*1.35=1418
+        //    var w_height = 810;                                                                            //設定開啟視窗的高度600*1.3=780 600*1.35=810
+        //    var x = (screen.width - w_width) / 2;                                                          //計算螢幕與開啟視窗的寬度
+        //    var y = (screen.height - w_height) / 8;                                                        //計算螢幕與開啟視窗的高度
+        //    //var fileUrl = "teasyllabus/1091032001061/" + fileName;
+        //    //var openUrl = window.open(fileUrl, fileName, 'height=' + w_height + ',width=' + w_width + ',top=' + y + ',left=' + x +',toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,status=no');
+        //    var openUrl = window.open('', fileName, 'height=' + w_height + ',width=' + w_width + ',top=' + y + ',left=' + x);
+        //    var printingPage = document.getElementById(fileId);
+        //    var str = "<HTML><BODY>" + printingPage.outerHTML + "</BODY></HTML>";
+        //    openUrl.document.write(str);
+        //    openUrl.document.title = fileName;
+        //    var test = openUrl.document.textContent;
+        //    debugger;
+        //}
+</script>
+        
+</body></html>

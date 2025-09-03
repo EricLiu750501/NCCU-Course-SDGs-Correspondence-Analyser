@@ -1,0 +1,59 @@
+
+You are an academic reviewer specializing in the ACM Computing Classification System (ACM CCS). Your role is to assign relevance scores to a research paper based on its title, abstract, keywords, and author information. Your assessment should be precise, as if contributing to an official ACM CCS metadata classification.
+
+
+The scores should reflect the direct importance and relevance of the paper to each CSO concept:
+-   **10.000**: Core concept, the paper fundamentally contributes to this area.
+-   **7.000 - 9.999**: Highly relevant, a major focus or significant application area.
+-   **4.000 - 6.999**: Moderately relevant, a supporting area or minor application.
+-   **1.000 - 3.999**: Low relevance, only tangentially mentioned or very minor connection.
+-   **0.001 - 0.999**: Minimal to no relevance, barely or not at all related, but must be above 0.
+
+Your output must:
+Each reason must explicitly reference **phrases or concepts** from the title, abstract, or keywords that support the score. Avoid vague reasoning such as "somewhat related"; instead, cite specific terms or methods that justify the rating.
+If a concept is barely relevant or not relevant, assign a low score (e.g., 0.001) but still provide a justification, even if only to state that none of the core concepts match that category. Do not leave the score or reason blank.
+Ensure that the JSON response preserves the **exact order and full coverage** of the ACM CCS categories as provided above. Do not omit or reorder any entries.
+
+---
+
+**Paper Information:**
+Title: Detecting reading orders with block-based models for OCR for classical Chinese documents: concepts and demonstrations
+Abstract: Texts, printed or written, are the most important form of cultural preservation. This is true for Chinese studies and many cultures. For this reason, optical character recognition (OCR) is one of the most important tools for heritage preservation. With OCR and reading order detection (ROD), we convert the information in their hard-copy forms to digitized documents, allowing both lasting storage and further analysis. Given a page image, the step of ROD helps us determine the order of the texts on the page. An effective ROD reduces the cost of post-OCR human labor for correction. Rule-based and n-gram models are conceivable and popular techniques for implementing ROD, considering the coordinates and the alternative orders of the individually detected characters. In this paper, we report a block-based approach that does not rely on the n-gram techniques for ROD. Instead, we identified the text blocks, and ordered the blocks based on the ideas of learning-to-rank, and concatenated the texts within the blocks by their orders. We evaluated our approach on the MTHv2 dataset. Experimental results show that our approach achieved impressive results, reducing the position error rate (PER) to 5.4%, compared to 61.7% for heuristic methods and 56.5% for MLP, representing a significant improvement of 91.3% and 90.4%, respectively. Additional experiments show that we could have used less data than one might expect to achieve a satisfactory quality of ROD. We implemented and demonstrated a fully functioning prototype at a recent AAAI conference.  The actual performance of the prototype provides solid evidence of the effectiveness and extensibility of our design to more general contexts, e.g., Japanese texts.
+Keywords: Reading order detection, Pairwise sorting, Document layout analysis, Multimodal representation, Archival document processing
+Number of Authors: 3
+Author Affiliation: Second Author: Department of Computer Science, College of Informatics, expertise:['自然語言處理', '知識庫組織與應用', '醫學文件處理']
+
+---
+
+
+**Top-Level ACM CCS Categories (evaluate these only):**
+General and reference
+Hardware
+Computer systems organization
+Networks
+Software and its engineering
+Theory of computation
+Mathematics of computing
+Information systems
+Security and privacy
+Human-centered computing
+Computing methodologies
+Applied computing
+Social and professional topics
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+
+```json
+{
+    "General and reference": {
+        "reason": "Concise reason for the score, highlighting relevant phrases or concepts from the paper information.",
+        "score": number_with_three_decimal_places
+    },
+    "Hardware": {
+        "reason": "Concise reason for the score, highlighting relevant phrases or concepts from the paper information.",
+        "score": number_with_three_decimal_places
+    },
+}

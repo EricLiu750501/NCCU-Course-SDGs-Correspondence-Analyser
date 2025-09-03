@@ -1,0 +1,85 @@
+{
+ "Broad Domain": "Computer Science",
+ "CSO Concepts": {
+  "artificial intelligence": {
+   "reason": "The paper focuses on performance evaluation of Kubernetes-based applications and data architecture, with no mention of AI concepts or applications.",
+   "score": 0.001
+  },
+  "bioinformatics": {
+   "reason": "The paper is about container orchestration and data architecture in cloud systems, completely unrelated to bioinformatics.",
+   "score": 0.001
+  },
+  "computer aided design": {
+   "reason": "The paper does not involve computer-aided design principles or applications.",
+   "score": 0.001
+  },
+  "computer hardware": {
+   "reason": "While Kubernetes runs on hardware, the paper's focus is on software and data architecture within the Kubernetes environment, not the underlying hardware itself. There's an indirect connection through performance implications on hardware, but it's not a core focus.",
+   "score": 1.500
+  },
+  "computer imaging and vision": {
+   "reason": "The paper is not concerned with computer imaging or vision.",
+   "score": 0.001
+  },
+  "computer networks": {
+   "reason": "Kubernetes and distributed applications inherently rely on computer networks for communication between containers and services. Data architecture design within a distributed system heavily impacts network traffic and performance.",
+   "score": 7.500
+  },
+  "computer programming": {
+   "reason": "The paper discusses the design and optimization for developers and system administrators, implying knowledge of programming concepts for application development and configuration within Kubernetes.",
+   "score": 4.000
+  },
+  "computer security": {
+   "reason": "The paper focuses on performance and scalability, not security aspects of Kubernetes or data architecture.",
+   "score": 0.001
+  },
+  "computer systems": {
+   "reason": "The entire paper revolves around Kubernetes, a complex computer system for container orchestration, and the influence of data architecture on its performance. This is a core concept.",
+   "score": 10.000
+  },
+  "data mining": {
+   "reason": "The paper involves analyzing data architecture and performance metrics, but it does not describe techniques or applications related to data mining.",
+   "score": 0.001
+  },
+  "human computer interaction": {
+   "reason": "The paper does not deal with user interfaces or human-computer interaction research.",
+   "score": 0.001
+  },
+  "information retrieval": {
+   "reason": "The paper's focus is on data architecture and performance, not on retrieving information from large datasets or search systems.",
+   "score": 0.001
+  },
+  "information technology": {
+   "reason": "Kubernetes, container orchestration, and cloud-native systems are all fundamental aspects of modern information technology infrastructure. The paper contributes directly to best practices within IT.",
+   "score": 9.000
+  },
+  "internet": {
+   "reason": "Kubernetes and cloud-native applications are often deployed over the internet or in internet-connected cloud environments. The 'distributed applications' and 'cloud native systems' keywords connect to the internet's role as an underlying infrastructure.",
+   "score": 4.500
+  },
+  "operating systems": {
+   "reason": "Containers leverage operating system functionalities, and Kubernetes interacts closely with the underlying operating system to manage resources. The paper implicitly deals with how applications perform on top of and interact with OS features through containerization.",
+   "score": 5.500
+  },
+  "pattern matching": {
+   "reason": "The paper involves analyzing performance data, but it does not specify or focus on pattern matching algorithms or techniques.",
+   "score": 0.001
+  },
+  "robotics": {
+   "reason": "The paper has no connection to robotics.",
+   "score": 0.001
+  },
+  "software": {
+   "reason": "Kubernetes is a software platform, and the paper investigates the performance of 'Kubernetes-based applications,' which are also software. 'Container orchestration' is a software concept. This is a core concept.",
+   "score": 10.000
+  },
+  "software engineering": {
+   "reason": "The research aims to 'empower developers and system administrators to make informed decisions when optimizing and designing data architecture for their applications,' directly contributing to best practices in software design, development, and system optimization, which are key aspects of software engineering.",
+   "score": 9.500
+  },
+  "theoretical computer science": {
+   "reason": "The paper is an experimental and empirical investigation into performance, not theoretical foundations of computing.",
+   "score": 0.001
+  }
+ }
+}

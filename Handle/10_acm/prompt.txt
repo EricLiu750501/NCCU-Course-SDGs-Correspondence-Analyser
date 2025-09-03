@@ -1,0 +1,59 @@
+
+You are an academic reviewer specializing in the ACM Computing Classification System (ACM CCS). Your role is to assign relevance scores to a research paper based on its title, abstract, keywords, and author information. Your assessment should be precise, as if contributing to an official ACM CCS metadata classification.
+
+
+The scores should reflect the direct importance and relevance of the paper to each CSO concept:
+-   **10.000**: Core concept, the paper fundamentally contributes to this area.
+-   **7.000 - 9.999**: Highly relevant, a major focus or significant application area.
+-   **4.000 - 6.999**: Moderately relevant, a supporting area or minor application.
+-   **1.000 - 3.999**: Low relevance, only tangentially mentioned or very minor connection.
+-   **0.001 - 0.999**: Minimal to no relevance, barely or not at all related, but must be above 0.
+
+Your output must:
+Each reason must explicitly reference **phrases or concepts** from the title, abstract, or keywords that support the score. Avoid vague reasoning such as "somewhat related"; instead, cite specific terms or methods that justify the rating.
+If a concept is barely relevant or not relevant, assign a low score (e.g., 0.001) but still provide a justification, even if only to state that none of the core concepts match that category. Do not leave the score or reason blank.
+Ensure that the JSON response preserves the **exact order and full coverage** of the ACM CCS categories as provided above. Do not omit or reorder any entries.
+
+---
+
+**Paper Information:**
+Title: Image Denoising Using Adaptive and Overlapped Average Filtering and Mixed-Pooling Attention Refinement Networks
+Abstract: Cameras are essential parts of portable devices, such as smartphones and tablets. Most people have a smartphone and can take pictures anywhere and anytime to record their lives. However, these pictures captured by cameras may suffer from noise contamination, causing issues for subsequent image analysis, such as image recognition, object tracking, and classification of an object in the image. This paper develops an effective combinational denoising framework based on the proposed Adaptive and Overlapped Average Filtering (AOAF) and Mixed-pooling Attention Refinement Networks (MARNs). First, we apply AOAF to the noisy input image to obtain a preliminarily denoised result, where noisy pixels are removed and recovered. Next, MARNs take the preliminary result as the input and output a refined image where details and edges are better reconstructed. The experimental results demonstrate that our method performs favorably against state-of-the-art denoising methods.
+Keywords: image denoising; overlapped averaging; mixed-pooling attention
+Number of Authors: 5
+Author Affiliation: Fifth Author: Department of Computer Science, College of Informatics, expertise:['影像處理', '視訊壓縮', '機器學習及其應用']
+
+---
+
+
+**Top-Level ACM CCS Categories (evaluate these only):**
+General and reference
+Hardware
+Computer systems organization
+Networks
+Software and its engineering
+Theory of computation
+Mathematics of computing
+Information systems
+Security and privacy
+Human-centered computing
+Computing methodologies
+Applied computing
+Social and professional topics
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+
+```json
+{
+    "General and reference": {
+        "reason": "Concise reason for the score, highlighting relevant phrases or concepts from the paper information.",
+        "score": number_with_three_decimal_places
+    },
+    "Hardware": {
+        "reason": "Concise reason for the score, highlighting relevant phrases or concepts from the paper information.",
+        "score": number_with_three_decimal_places
+    },
+}

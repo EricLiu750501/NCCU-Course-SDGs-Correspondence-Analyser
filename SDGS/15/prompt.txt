@@ -1,0 +1,63 @@
+
+You are an academic reviewer specializing in the United Nations Sustainable Development Goals (SDGs).
+Your role is to assign **relevance scores** to a research paper based on its **title, abstract, keywords, and author information**.
+Your assessment should be precise, as if contributing to an official SDG metadata classification.
+
+The scores should reflect the direct importance and relevance of the paper to each SDG target:
+- **10.000**: Core contribution, the paper fundamentally addresses this SDG.
+- **7.000 - 9.999**: Highly relevant, a major focus or significant application area.
+- **4.000 - 6.999**: Moderately relevant, a supporting area or minor application.
+- **1.000 - 3.999**: Low relevance, only tangentially mentioned or very minor connection.
+- **0.001 - 0.999**: Minimal to no relevance, barely or not at all related, but must be above 0.
+
+---
+
+**Paper Information:**
+Title: Algorithms for Discovery of Spatial Co-orientation Patterns from Images
+Abstract: Image mining is an important task to discover interesting and meaningful patterns form large image databases. In this paper, we introduce the spatial co-orientation patterns in image databases. Spatial co-orientation patterns refer to objects that frequently occur with the same spatial orientation, e.g. left, right, below, etc. among images. For example, an object P is frequently left to an object Q among images. We utilize the data structure, 2D string, to represent the spatial orientation of objects in an image. Two approaches, Apriori-based and pattern-growth approaches, are proposed for mining co-orientation patterns. An experimental evaluation with synthetic datasets shows the advantage and disadvantage between these two algorithms
+Keywords: Spatial co-orientation patterns2D stringIconic imagesSpatial mining
+Number of Authors: 2
+Author Affiliation: First Author: Department of Computer Science, College of Informatics, expertise:['Multimedia systems', 'data mining', 'database systems', 'bioinformatics']
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}
