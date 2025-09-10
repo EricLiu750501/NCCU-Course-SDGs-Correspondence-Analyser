@@ -1,0 +1,99 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：臨床心理學全職實習（一）
+#####  Course Name: Internship of Clinical Psychology (I)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：752619001 Course No.752619001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：心理博一、心理碩二 Course Department:Psychology/G/1&2 
+  * 授課老師：楊建銘 Instructor: YANG CHIEN-MING 
+  * 先修科目：[ 心理病理學(單學期)(修習且及格)] 及 [ 臨床心理衡鑑（一）(單學期)(修習且及格) 或 臨床心理衡鑑（二）(單學期)(修習且及格)] 及 [ 心理治療總論(單學期)(修習且及格)]Prerequisite([] AND [ or] AND [])
+  * 上課時間： Session: 
+##  課程簡介Course Description
+本課程為維期一年的全職臨床實習的一學期，為心理學系碩士班臨床心理學組的必修課程，亦為臨床心理師執照考試的必要條件，透過二學期一整年的全職實習，學習將課堂的理淪與技術運用到臨床場域。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEFGH雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 心理學專業能力 Professional competence in psychology
+  * B. 研究能力 Research ability
+  * C. 人際互動能力 Social skills
+  * D. 多元文化關懷 Multiculturalism
+  * E. 心理學專業能力 Professional competence in psychology
+  * F. 研究能力 Research ability
+  * G. 人際互動與領導能力 Social skills and leadership
+  * H. 多元文化關懷 Multiculturalism
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程旨在透過完整之臨床心理實務訓練，使實習生能在專業督導之下，整合學理與臨床技能，發展出獨立實務工作所需之核心能力，並深化對人性與人際關係的理解與關懷。具體目標如下：
+  1. 培養臨床心理評估與診斷能力： 學習運用臨床訪談、心理測驗與觀察技巧，對個案進行整合性評估，並做出心理診斷與個案概念化。
+  2. 培養心理治療與介入技巧： 熟悉各種心理治療取向與技術，能依個案需求進行適切之心理介入，並尊重個體獨特性與心理歷程。
+  3. 建立專業倫理與法規敏感度： 理解並遵守臨床心理相關之倫理原則與法規，具備處理倫理困境的判斷能力，並在專業實務中展現尊重、保密與關懷的態度。
+  4. 強化臨床書寫與溝通能力： 能撰寫臨床心理專業之心理評估報告與治療紀錄，並以清晰、尊重的方式與個案、家屬及跨專業團隊溝通。
+  5. 發展自我覺察與專業態度： 透過督導、團體討論與自我反思，提升對自我角色、反移情與心理負荷的覺察，並培養謙遜、真誠、持續學習與服務社會的專業態度。
+  6. 培養人文關懷與文化敏感度： 在臨床實務中學習以關懷的視角看待個案生命處境，尊重其文化、信念與價值觀，發展以人為本的臨床敏感度與同理心。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+學生需從7/1-12/31半年的期間，依據臨床實習場域的時間規定，至臨床場域進行全職的實習。
+####  其他： Others: 實習 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

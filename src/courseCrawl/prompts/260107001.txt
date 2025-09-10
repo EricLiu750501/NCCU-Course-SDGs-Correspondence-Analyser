@@ -1,0 +1,91 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：兩岸關係專題
+#####  Course Name: Seminar on Cross-strait Relations
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：260107001 Course No.260107001
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：東亞博一 Course Department:East Asian Studies/D/1 
+  * 授課老師：王信賢 Instructor: WANG HSIN-HSIEN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四567 Session: thu14-17
+##  課程簡介Course Description
+兩岸關係對我國國家安全、經濟發展、外交與內政皆具有關鍵性的影響，其變化甚至會牽動東亞局勢與國際關係的穩定。「雙層博弈」（two-level game）強調國內因素與國際因素的互動向來是國際關係研究的重點，特別是隨著習近平上台以及美中戰略競爭的開啟，從北京的角度來看，台灣問題已經不是單純的兩岸關係，而是鑲嵌進其兩個大局，一是「中華民族偉大復興」的國家發展戰略大局，另一則是「美中戰略競爭」的國際大局。就實務而言，兩岸關係不只於彼此內部結構與國際體系，也是雙方領導人的意向展現，因此，吾人必須從更全面的角度徹底解析兩岸關係的發展，而理論的功能便在此。本課程也將從此觀察兩岸關係的發展。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCD雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備資料統整與分析的知能
+  * B. 具備專業學術與比較研究的知能
+  * C. 具備政策規劃與比較的知能
+  * D. 具備國際觀點與公民價值知能
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程為學術與政策的結合，理論與實務的對話。學習成效參見「核心能力」。
+2016年我國再次政黨輪替後，蔡總統的就職演說，北京方面以「未完成答卷」予以回應，經過五年多的發展，兩岸關係是已然從「冷和」邁向「熱對抗」，特別是隨著美中戰略競爭開啟，兩岸關係成為美中對抗的一環，更加凸顯「外部因素」對兩岸關係的影響，而「新冠疫情」爆發後，兩岸間的互信更顯螺旋下降。在中共對台政策方面，習近平於2019年一月二日《告台灣同胞書》四十週年紀念會的講話，以及在「第三次歷史決議案」所首次提出的「新時代黨解決台灣問題的總體方略」，更讓中共對台是否具「統一時間表」再度搬上檯面。近年來，國際與國內一再出現「台灣是地球上最危險的地區」、「今日烏克蘭明日台灣」或「中共即將武力攻台」的說法，再加上美中科技戰中半導體成為重中之重，都使得「台灣」的安全問題成為國際關注的焦點。
+「中國研究」與「兩岸關係研究」往往具有兩種張力，一是區域與學科，另一則是學術與政策，本課程主要集中在後者。在台灣，兩岸關係研究存在兩個社群，一是集中在政策建言與新聞熱點議題，另一則是擅長學術與理論研究，兩者間對話的機會並不多，確實有必要進一步「橋接」（bridging）其中的差距，因為，兩岸關係不僅是學術，更是政策議題，不僅是理論研究，更是台灣未來生死攸關的議題。就此而言，本課程的目的將會有三：一是從歷史與現勢觀察兩岸彼此間的政策發展，二是探討各種理論（包括行為者、國內政經發展、兩岸互動與國際環境等），三則是以議題為核心探討最近的政策議題，以廓清各種錯綜複雜的現象。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+如所附教學大綱
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

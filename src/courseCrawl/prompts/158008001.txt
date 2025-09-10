@@ -1,0 +1,103 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：史學理論與方法 
+#####  Course Name: Theories and Methodology of History
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：158008001 Course No.158008001
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：台史碩二 Course Department:Graduate Institute of Taiwan History/M/2 
+  * 授課老師：鄭麗榕 Instructor: CHENG LI-JUNG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二234 Session: tue09-12
+##  課程簡介Course Description
+介紹百年來史學發展主要趨勢的流變，比較分析相關臺灣史著作與範例，了解目前史學與臺灣社會各方面的互動與應用，幫助學生檢證自我的研究方向，思考台灣史的各種發展可能。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+1、掌握史學專業的特色，明白史學趨勢轉變與時代的關係。
+2、從觀摩、研讀臺灣史研究的經典範例，了解其與史學趨勢的關係。
+3、從具體應用看史學和社會的關係。
+4、利用史學理論與方法，實際操作專題論文寫作。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+（課程內容與指定閱讀、活動與作業均詳見課上講義。每週學習投入時數為3+6小時）
+第一週 導言 課程簡介
+第二週 傳統史學與「新」史學
+第三週 社會科學與歷史學（一）
+第四週 社會科學與歷史學（二）
+第五週 社會經濟史（一）
+第六週 社會經濟史（二）
+第七週 文化史（三）
+第八週 文化史（四）
+第九週 空間的歷史
+第十週 底層社會史（一）
+第十一週 底層社會史（二）
+第十二週 影視史學
+第十三週 公共歷史學（一）
+第十四週 公共歷史學（二）
+第十五週 學期報告（一）
+第十六週 學期報告（二）
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

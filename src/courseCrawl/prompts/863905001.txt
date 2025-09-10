@@ -1,0 +1,121 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：日本科技與產業發展
+#####  Course Name: Japanese Science, Technology and Industry Development
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：863905001 Course No.863905001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：日學博一、日學博二 Course Department:Doctoral Program in Japan Studies/D/1&2 
+  * 授課老師：李世暉 Instructor: LI SHUI-HUI 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三234 Session: wed09-12
+##  課程簡介Course Description
+本課程以政治經濟學的研究途徑，分析當代日本科技與產業發展之間的關聯與特色。在課程中將依序討論政府、企業、大學、民間研究機構等行為者的角色，以及其在相關科技產業的合作模式。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 專題研究
+  * B. 日本政治法律
+  * C. 日本經濟社會
+  * D. 日本外交安全
+  * E. 日本歷史文化
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+第一、理解明治維新後日本科技政策決策機制的發展與變遷。
+第二、明確日本科技政策與科研體制的制度關聯，以及政府、企業、大學、民間研究機構的行為模式。
+第三、解析科研體制與決策機制的發展對當代日本產業的影響。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+第一週 導論
+蒐集過去一年的日本科技與產業相關報導。
+第二週 日本現代技術的發端
+中岡哲郎（2013）『近代技術の日本的展開：蘭癖大名から豊田喜一郎まで』（東京：朝日新聞出版）。第二章、第三章。
+第三週 戰爭與日本科技
+中岡哲郎（2013）『近代技術の日本的展開：蘭癖大名から豊田喜一郎まで』（東京：朝日新聞出版）。第四章、第五章、第六章。
+第四週 戰後日本的研究開發體制
+沢井実（2012））『近代日本の研究開発体制』（名古屋：名古屋大学出版会）。第十五章。
+第五週 日本科技政策的決策機制
+竹岡まりこ（2015）「科学技術政策の新たな推進体制」『立法と調査』 No. 371。
+第六週 日本科技產業發展的政策基礎
+後藤晃、小田切宏之編（2003））『日本の産業システム：サイエンス型産業』（東京：NTT出版）。第六章。
+第七週 日本科技發展的大學角色
+馬場靖憲、後藤晃編（2007））『産学連携の実証研究』（東京：東京大学出版会）。第一章，第二章。
+第八週 企業參訪1
+第九週 期中報告
+第十週 日本的產學合作
+玉井克哉、宮田由紀夫（2007）『日本の産学連携』（東京：玉井大学出版部）。第一章，第二章。
+第十一週 日本企業的技術合作
+岡室博之（2009））『技術連携の経済分析』（東京：同友館）。第二章，第五章。
+第十二週 日本的科技前瞻與「社會5.0」
+『第五期 科学技術基本計画』
+第十三週 日本的未來科技與產業1：新能源
+小宮山宏、山田興一（2017）『新ビジョン2050』（東京：日経BP）。第二章、第三章、第四章。
+第十四週 日本的未來科技與產業2：人工智慧
+日経コンピュータ（2017）『人工知能最前線』（東京：日経BP）。第一章、第四章、第五章。  
+第十五週 日本的未來科技與產業3：機器人
+日経産業新聞編（2016）『ロボティクス最前線』（東京：日本経済新聞出版社）。
+第十六週 日本的未來科技與產業4：VR、AR
+野村総合研究所（2017）『ITロードマップ』（東京：東洋経済）。第二章。
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

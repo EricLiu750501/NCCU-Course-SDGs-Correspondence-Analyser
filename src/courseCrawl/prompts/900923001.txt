@@ -1,0 +1,111 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：國際大型評量資料於教育研究之應用
+#####  Course Name: Utilization of International Large-scale Assessment Data for Education Research
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：900923001 Course No.900923001
+#### 修別：選
+Type of Credit: Elective 
+_1.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：教院博士、教院碩士 Course Department:Education/G/0 
+  * 授課老師：陳榮政 Instructor: CHEN JUNG-CHENG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間： Session: 
+##  課程簡介Course Description
+The course will enable students to develop an understanding of survey research methods and quantitative methods for analyzing international large-scale assessment (ILSA) data. Moreover, the goals of this course are to provide students with the skill sets needed to pose researchable educational questions, locate existing large-scale datasets to answer the questions, understand the data documentation, analyze the existing data appropriately, and communicate the findings in a manner consistent with the standards of the education research community. This course will use the Trends in International Mathematics and Science Study (TIMSS) and the Programme for International Student Assessment (PISA) as a demonstration. TIMSS provides rich information about the 4th and 8th graders’ mathematics and science achievement achievement and contextual factors, while PISA assesses science, mathematics, and reading literacy with a focus on the particular year.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCD雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 學生能以教育領域為核心，連結相關領域知能，進行獨立思考與教育專業判斷Students will practice independent thinking skills and professional judgment of education with the education field as the core to connect related fields of knowledge.
+  * B. 學生能創新教育觀點或知識，並結合行動測試、反思判斷和有效溝通表達Students will innovate educational view or knowledge combining with action testing, reflective judgment and effective communication.
+  * C. 學生能關懷教育發展與社會環境的關係，透過社群合作發展公民社會Students will innovate educational view or knowledge combining with action testing, reflective judgment and effective communication.
+  * D. 學生能透過教育實踐歷程發揮影響力，拓展世界觀，並奠定終身學習的基礎Students will exert influence through the course of educational practice, expand the world view, and lay the foundation for lifelong learning.
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+Through participating in the course, students will be able to:  
+- understand what ILSAs represent and their trends  
+- comprehend how ILSAs are developed, how are being used, and their limitations is important for understanding educational evaluation and the possibilities and restrictions for educational policy  
+- identify suitable statistical methods for given research questions.  
+- utilize SPSS and IDB Analyzer for statistical computations.  
+- demonstrate sufficient statistical knowledge to conduct educational research based on individual research interests.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+The teaching and learning processes are listed as follows.  
+- reading required course materials  
+- listening to the contents delivered by the instructor  
+- practicing how to get statistical outputs by using SPSS  
+- finishing assignments independently  
+- delivering presentations to enhance communication skills and knowledge synthesis  
+- listening to the contents delivered by the instructor and assimilating insights from peer presentations
+Course content
+- Introduction to ILSA data  
+- Introduction to survey design of ILSAs (e.g., sampling weight, sampling errors)  
+- Introduction to measurement issues (e.g., plausible values) of ILSAs  
+- Basic statistics (e.g., descriptive statistics, multiple regression)  
+- The SPSS and IDB Analyzer environment and application  
+- The use of ILSAs data to inform educational policy
+Requirements
+It is strongly recommended that students have basic knowledge about statistics and students should also have access to the Statistical Package for the Social Sciences (SPSS) during the course.
+Note. If students are interested in Mplus, the instructor will also provide extra materials to these students with advanced knowledge in the field.
+[本課程為國際課程採密集授課形式，故無16週課程進度安排。上課時間8/14-8/16，合併共計18小時。上課地點：韓國高麗大學。授課教師：Pey-Yan Liou。學生另須修習先修課程(Pre-study)及參與AELC Forum]
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

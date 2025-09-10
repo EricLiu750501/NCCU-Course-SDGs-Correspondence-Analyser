@@ -1,0 +1,107 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：課程發展與設計 
+#####  Course Name: Curriculum Development and Design
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：109016001 Course No.109016001
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：師資培一、師資培二、師資培三 Course Department:Center for Teacher Education/B/1&2&3 
+  * 授課老師：黃譯瑩 Instructor: HUANG YI-YING 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三D56 Session: wed13-16
+##  課程簡介Course Description
+【課程概述】  
+「課程」是教育的內容 (content)，是學習的所有機會 (opportunities)。教學是方法 (method)，但沒有內容或內容錯誤，方法形同空殼；身為教師應具備課程意識、掌握課程決定與課程設計原則、在課程發展歷程中專業成長。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+【科目目標】  
+「課程發展與設計」這門課旨在協助未來教師於：（1）在認知面向，瞭解課程、課程設計、課程發展的相關概念、迷思、以及統整課程系統的圖像與可能性；（2）在實踐面向，透過個人與團隊、針對現有教材或自訂主題，實際分析案例並進行跨領域課程設計；（3）在情意方面，經由前述探究與行動，體驗課程設計與發展過程中的慎思熟慮、協商衝突與團隊創意。另外，本科目也將針對實驗教育法通過之後的教育場域以及體制內教育的課程設計安排專題演講，以協助未來教師擴展課程視野、重新檢視自己的教育定位。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+【課程重點與科目進度】
+課程VS教學：意義與關係；捕鼠器；課綱說明 (開始個人1)
+課程意識覺醒1：課綱不等同課程；辨識明顯/潛在/懸缺 (分組)
+課程意識覺醒2：教科書不等同課程；教科書的過去現在未來
+課程意識覺醒3：教案不等於課程設計；被低估的緣起與意義
+課程設計原則1：解構當然；課程設計原則2：尺度變動 (以捕鼠器、用膝蓋跳舞的女孩為例)
+課程設計原則3：建立(知-知/知-己/己-我/我-世)連結 (以機率為例)
+期中考週 (停課；初探團隊設計主題心得＋評析課程設計的優缺；完成個人2)
+評析課程設計的優缺：判準與更多案例
+課程設計原則4：更新視界 (從木偶皮諾丘到男孩皮諾丘)
+課設實務專題演講 (體制外課程)
+撰寫與選擇：宗旨/認知.情意.技能目標/多元評量/活動方式
+團隊課程設計文本架構；AI的能與不能
+團隊課程設計研討1 (黃老師參與1、2組)
+團隊課程設計研討2 (黃老師參與3、4組)
+團隊設計作品成果發表：1、2組 (每組50分鐘；組員各至少邀請1位國高中教師線上參與並惠予建議)
+團隊設計作品成果發表：3、4組 (每組50分鐘；組員各至少邀請1位國高中教師線上參與並惠予建議)
+回饋意見檢討VS課程設計調整 (完成個人1)
+期末考週 (停課；回顧與反思；分工協作完成期末成果彙整；繳交小組1)
+【教學方式與學習成果】 ：講授、小組討論、隨堂演練、教學影片評析、專題演講；
+每週學習記錄、閱讀文獻、活動設計、個人或團隊試教。
+【課前後學習投入時數】 ：課堂前至少一小時、課程後至少一小時。
+####  其他： Others: 專題講座 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

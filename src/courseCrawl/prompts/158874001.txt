@@ -1,0 +1,103 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：台灣民族主義發展史
+#####  Course Name: The History of Formosa Nationalism
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：158874001 Course No.158874001
+#### 修別：選
+Type of Credit: Elective 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：台史碩一、台史博一、台史碩二、台史博二 Course Department:Graduate Institute of Taiwan History/G/1&2 
+  * 授課老師：陳儀深 Instructor: CHEN YI-SHEN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三56 Session: wed14-16
+##  課程簡介Course Description
+Benedict Anderson說，「民族與民族主義」的問題造成二十世紀兩個重要思潮—馬克思主義與自由主義—理論的共同挫敗，又說幾乎所有民族主義的現象都同時涉及了歷史縱深以及跨國因素，所以歷史社會學和比較方法是研究民族主義最不可或缺的途徑之一。台灣的政治發展經驗，恰是活生生的例子，戰後的國民黨統治不只是威權的，更是「中國的」，而反對運動不只從民主自由的普世價值找到依據，也有美、日等國際因素的影響，合而言之是「台灣人出頭天」的型塑主體過程。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+引導學生從縱向的荷西、明鄭、清治、日治、戰後台灣史尋找台灣民族主義的正反因素，並且從橫向的國際環境因素來理解台灣政治發展的一個重要面向。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+【課程大綱】
+一、史明的「台灣民族主義」概說
+二、從東亞朝貢體系到近代民族國家
+1.朝鮮例（esp.從殖民地到獨立的過程）
+2.琉球例（esp.戰後經託管而後歸屬日本的過程）
+三、漢人在台灣的第一個政治體系
+1.明鄭王國與清帝國之間的和與戰（郭廷以，《台灣史事概說》）
+2.明鄭的成敗因素
+四、清治時期的台灣
+1.三年一小反、五年一大亂的背後
+2.牡丹社事件的重要意義（愛德華．豪士，《征臺紀事：牡丹社事件始末》）
+五、日治時期的台灣
+1.一八九五「台灣民主國」釋義（黃昭堂，《台灣民主國之研究》）
+2.結束分類械鬥、產生本島人意識的過程
+3.殖民統治的現代性
+六、二戰後的發展
+1.影響重大的二二八事件
+2.從開羅會議公報到舊金山和約（王景弘，《強權政治與台灣：從開羅會議到舊金山和約》；王景弘，《台灣會生存下去》）
+3.冷戰結構下的黨化與中國化
+4.曲折的路徑：民主化與台灣化，「已經獨立」的虛實
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

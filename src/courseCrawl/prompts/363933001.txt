@@ -1,0 +1,90 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：企業專案研討（Ｃ）
+#####  Course Name: Seminar in Business Project (C)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：363933001 Course No.363933001
+#### 修別：選
+Type of Credit: Elective 
+_1.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：企研碩一、企研碩二 Course Department:Master of Business Administration Program/M/1&2 
+  * 授課老師：詳備註 Instructor: Ref. Note 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間： Session: 
+##  課程簡介Course Description
+為增進學生實務經驗並結合在校所學之理論，透過實際參與企業活動，培養學術及實務經驗兼備之人才
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 習得相關進階專業知識（Students will acquire and apply expertise in their respective fields.）
+  * B. 理解與辨別商業環境中道德、社會責任與永續議題（Students will understand and be able to identify the ethics, social responsibility, and sustainability considerations of business situations.）
+  * C. 創新方法、創業態度與面對變革的能力（Students can demonstrate innovative, entrepreneurial approaches to manage change.）
+  * D. 發現問題、解決問題與決策能力（Students will identify problems, develop and evaluate possible alternatives and make decisions.）
+  * E. 團隊合作與領導能力（Students will be able to work effectively in teams as well as develop leadership skills.）
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+搭配課堂所學之理論與相關實務操作，向企業提出具體改善方案，協助企業解決問題
+##  每周課程進度與作業要求 Course Schedule & Requirements
+企業實務專案主題不限，需有合作企業及商學院內具實務經驗的老師，並由企業、指導老師及學生簽訂三方的學習契約書，明訂專案內容，並於專案結束後繳交專案報告及評量表。
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

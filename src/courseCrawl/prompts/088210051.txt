@@ -1,0 +1,106 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：華語－密集班口說課程（一）
+#####  Course Name: Mandarin Course - Intensive Speaking (1)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：088210051 Course No.088210051
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：華語文中心 Course Department:Chinese Language Center 
+  * 授課老師：簡汎霓 Instructor: Chien FanNi 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二567 Session: tue14-17
+##  課程簡介Course Description
+本課程係為國際交換學生所設計，適合中高級華語程度欲提升至高級程度者選修。由於此課程實質上為各項語言技能之綜合授課，因此學習者必須同時選修此程度之聽說讀寫四項技能之課程。
+This course is designed for international exchange students who aim to advance their Chinese proficiency from an intermediate high to an advanced level. Given that the course inherently integrates various language skills, learners are required to concurrently enroll in courses covering the four essential language skills of listening, speaking, reading, and writing at this proficiency level.
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程教學目標為提升中高級華語之深度與廣度，協助學生從句子發展成段落的能力。除了教授語言本體的知識，也關注更寬廣的領域，例如台灣的社會、文化、歷史等知識，並透過實際生活的應用，如校外教學等活動，讓學生能將課堂上之所學實踐於生活中，使其在目標語環境中與他人溝通時，在聽說讀寫方面均能更擴展其所欲表達的思想與意見。
+The instructional objective of this course is to enhance the depth and breadth of intermediate high Chinese language proficiency, facilitating students' ability to develop sentences into cohesive paragraphs. In addition to imparting knowledge of the language itself, the course also addresses a broader range of topics, such as Taiwanese society, culture, and history. Through practical application in real-life contexts, such as field trips, students are encouraged to implement their classroom learning into their daily lives. This approach aims to expand their ability to express thoughts and opinions in listening, speaking, reading, and writing within the target language environment, thus improving their communication with others.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+※The course schedule will be finalized upon the completion of the placement test.
+Week 1 |  Sep 1-4 |  Book 4 Lesson 1  
+---|---|---  
+Week 2 |  Sep 8-11 |  Book 4 Lesson 1-2  
+Week 3 |  Sep 15-18 |  Book 4 Lesson 2  
+Week 4 |  Sep 22-25 |  Book 4 Lesson 3  
+Week 5 |  Sep 29 |  教師節補假 make-up day for Teacher's Day ( Holiday )  
+Sep 30- Oct 2 |  Book 4 Lesson 3-4  
+Week 6 |  Oct 6 |  中秋節 Mid-Autumn Festival  
+( Holiday )  
+Oct 7-9 |  Book 4 Lesson 4-5  
+Week 7 |  Oct 13-16 |  Book 4 Lesson 5  
+Week 8 |  Oct 20-23 |  Midterm Exam (Lesson 1-5)   
+Week 9 |  Oct 27-30 |  Book 4 Lesson 6  
+Week 10 |  Nov 3-6 |  Book 4 Lesson 6-7  
+Week 11 |  Nov 10-13 |  Book 4 Lesson 7  
+Week 12 |  Nov 17-20 |  Book 4 Lesson 8  
+Week 13 |  Nov 24-27 |  Book 4 Lesson 8-9  
+Week 14 |  Dec 1-4 |  Book 4 Lesson 9-10  
+Week 15 |  Dec 8-11 |  Book 4 Lesson 10  
+Week 16 |  Dec 15-18 |  Final Exam (Lesson 1-10)  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

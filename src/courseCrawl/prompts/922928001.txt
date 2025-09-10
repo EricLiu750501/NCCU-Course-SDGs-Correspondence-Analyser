@@ -1,0 +1,101 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：發展中國家國際關係研究 
+#####  Course Name: Seminar on International Relations of the Developing Nations
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：922928001 Course No.922928001
+#### 修別：選
+Type of Credit: Elective 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：外戰略一、外戰略二 Course Department:Master Program in Strategic and International Studies/M/1&2 
+  * 授課老師：邱稔壤 Instructor: CHYOU REN-RANG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：六D5 Session: sat13-15
+##  課程簡介Course Description
+本課程旨在介紹發展中國家國際關係研究，重大國際事件之發生經過和影響，課程並主要以大師級相關中文譯作作為課堂討論內容，以期培養同學對國際安全與國際政治經濟問題之獨立思考、分析能力。
+同學修習本課程之預期收穫為：國際關係如何運作、政治與經濟如何交互作用、國際關係各種成員之間又如何互動及影響、以及我們應如何養成正確的國際觀，進而思考如何維護我國的外交與戰略利益，都是本課程所要探討的主題。
+以課程講授為主，並隨堂抽問同學指定網站中外文資料及個人意見，此外亦要求同學在期中考週交付學期報告綱要，期末報告請於期末考週交付。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+發展中國家或譯為開發中國家，泛指南方國家和第三世界國家。就地理範圍而言，開發中國家一般包括亞洲、非洲和拉丁美洲的大部份國家。本課程亦以此項分類方式為準，分別說明相關區域的重大議題。不過發展中國家成員眾多，而且個別國家差異性極大，大國如巴西者，國土面積比美國本土(不包括阿拉斯加)還大，小國如亞太地區的海島國家，即使在地圖上也不容易尋找。有鑑於此，本課程將先從拉丁美洲國家和亞太國家切入，並對與我有邦交國家，作進一步的說明，俾使同學對相關發展中友邦有進一步的認識。此外本課程亦以美國著名政治學者杭廷頓(Samuel P. Hungtington)第三波民主化、文明衝突、誰是美國人，以及弗里曼(Thomas L. Friedman)世界是平的、世界又平又熱又擠、我們曾經輝煌等中譯出版品作為主要參考教材，以期同學從大師級著作中，擷取智慧的精華，從而形塑自己的世界觀。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+第一次：課程簡介
+第二次：巴西如斯壯麗
+第三次：南錐禿鷹行動
+第四次：課堂討論
+第五次：第三波民主化
+第六次：課堂討論
+第七次：世界是平的
+第八次：課堂討論並決定期末報告方向
+第九次：文明衝突
+第十次：世界又平又熱又擠
+第十一次：課堂討論
+第十二次：誰是美國人
+第十三次：我們曾經輝煌
+第十四次：課堂討論
+第十五次：期末口頭報告
+第十六次：期末口頭報告並交付紙本
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

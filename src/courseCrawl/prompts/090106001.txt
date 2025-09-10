@@ -1,0 +1,103 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：健康與生活
+#####  Course Name: Health and Life
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：090106001 Course No.090106001
+#### 修別：群
+Type of Credit: Partially Required 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：教務處通識教育中心 Course Department:Center of General Education 
+  * 授課老師：黃遵誠 Instructor: HUANG TSUN-CHENG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四78 Session: thu16-18
+##  課程簡介Course Description
+本課程旨在介紹健康與生活息息相關的議題，內容包括牙齒保健、營養、菸酒毒癮防治、保健食品、心理健康、運動休閒等主題，期使學生瞭解健康與生活的緊密關係，在年輕時即養成良好的生活習慣，負起健康責任，做好自我健康管理，方能達到預防疾病、促進健康目的，成就幸福人生。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+1.教學的內容兼具抽象理論、經驗研究和實務應用，讓學生更了解健康的議題。
+2.學生選擇課堂中有興趣的單一層面或主題，作為期末分組報告的深入探討的基礎，培養獨立自主學習和團體合作的能力。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 Week |  課程主題 Topic |  課程內容與指定閱讀 Content and Reading Assignment |  教學活動與作業 Teaching Activities and Homework |  學習投入時間 Student workload expectation  
+---|---|---|---|---  
+課堂講授 In-class Hours |  課程前後 Outside-of-class Hours  
+1 |  黃遵誠 |  課程介紹 |  |  2 |  3  
+2 |  黃遵誠 |  認識健康(一) |  課堂講授 |  2 |  3  
+3 | 王國守 | 癌症防治 |  課堂講授 |  2 |  3   
+4 | 梁雅惠 | 藥要怎麼吃 |  課堂講授 |  2 |  3  
+5 |  邱榮鵬 |  中醫與生活 |  課堂講授 |  2 |  3  
+6 | 周千欽 | 飲食營養面面觀 |  課堂講授 |  2 |  3  
+7 | 黃遵誠 | 健康識能 | 課堂講授 |  |   
+8 |  期中考週 |  期中考週 |  |  |   
+9 |  林柏傑 | 心理健康與生活 |  課堂講授 |  2 |  3  
+10 |  黃遵誠 |  分組報告(一) |  分組簡報與討論 | 2 | 3  
+11 |  林柏傑 |  心理資源第一次使用就上手 |  課堂講授 |  2 |  3  
+12 |  黃遵誠 |  分組報告(二) |  分組簡報與討論 |  2 |  3  
+13 | 劉建良 | 失智症照護 | 課堂講授 |  2 |  3  
+14 |  黃遵誠 |  分組報告(三) |  分組簡報與討論 |  2 |  3  
+15 | 黃少甫 |  為愛我們超前佈署~為愛自主ACP | 課堂講授 |  2 |  3  
+16 | 期末考週 |  |  |  |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

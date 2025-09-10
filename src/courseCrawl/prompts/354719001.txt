@@ -1,0 +1,97 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：研究方法（一） 
+#####  Course Name: Research Methods(I)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：354719001 Course No.354719001
+#### 修別：選
+Type of Credit: Elective 
+_1.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：統計碩一 Course Department:Statistics/M/1 
+  * 授課老師：周珮婷 Instructor: CHOU PEI-TING 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：一D Session: mon13-14
+##  課程簡介Course Description
+本課程旨在拓展研究生對統計學各領域前沿議題的理解與視野，透過邀請國內外學者蒞校進行學術演講，讓學生有機會接觸不同領域的研究方法與應用，並從中培養學術思辨能力與研究興趣。同時鼓勵學生主動提問、與講者互動，提升其參與學術社群的能力。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備進階統計方法理論推導之能力、規劃設計實驗與調查、熟悉統計計算與資料分析之能力、熟悉進階統計方法之應用及實務、解決統計相關問題 (To equip with the ability of theoretical derivation for advanced statistical methods, to plan and design experiments and surveys, to equip with statistical computing and data analysis abilities, to be familiar with the application and practices of advanced statistical methods, and to solve problems related to statistics)
+  * B. 具備專業倫理之知能 (To equip with knowledge of professional ethics)
+  * C. 運用研究方法增進知識、具備綜合判斷及決策之能力 (To apply research methods to enhance knowledge, and to equip with comprehensive ability of judgment and decision making)
+  * D. 具備溝通技巧 (To equip with communication skills)
+  * E. 具備團隊合作與領導能力 (To equip with teamwork and leadership ability)
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+修習本課程後，學生預期可達成以下學習成果：
+  1. 瞭解統計學各子領域之研究現況與發展趨勢。
+  2. 增進對統計理論與應用整合能力，培養跨領域思考視野。
+  3. 熟悉學術演講場合之參與禮儀與提問技巧，提升學術交流能力。
+  4. 透過聽講與反思，激發研究問題意識與生涯規劃靈感。
+  5. 培養定期學習與思考的習慣，強化研究倫理與專業素養。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+1. 我們預計邀請至少七位演講者至本系演講。學術演講行事曆會透過Moodle課程網頁公告。
+2. (50%) 每次演講將登記個人出席紀錄。
+3. (50%) 請挑選5次演講，於每次演講後24小時內上傳至少100字心得摘要。
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

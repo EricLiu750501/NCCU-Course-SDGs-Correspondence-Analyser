@@ -1,0 +1,127 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：永續發展與企業社會責任
+#####  Course Name: Sustainable Development and Corporate Social Responsibility
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：205850001 Course No.205850001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：財政三甲、財政三乙、財政四甲、財政四乙 Course Department:Public Finance/B/3&4 
+  * 授課老師：周麗芳 Instructor: CHOU LI-FANG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二EFG Session: tue18-21
+##  課程簡介Course Description
+  1. 未來社會的可能樣貌
+  2. 從GDP到超越GDP (Beyond GDP)
+  3. 從快速成長到包容性成長 (Inclusive Growth)
+  4. 氣候變遷與永續發展
+  5. 聯合國永續發展目標（SDGs）
+  6. 綠色國民所得
+  7. 循環經濟
+  8. 綠色經濟
+  9. 城市發展與環境共榮
+  10. 大學治理與區域創新
+  11. 企業管理與社會關懷
+  12. 企業社會責任（CSR）
+  13. 城市永續發展
+  14. 大學永續發展
+  15. 企業永續發展
+  16. 永續城市個案討論
+  17. 永續大學個案討論
+  18. 永續企業個案討論
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 財經基礎知識
+  * B. 財稅專業知識
+  * C. 協調與溝通能力
+  * D. 分析與解決問題的能力
+  * E. 財稅民商法律素養
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+1.界定當前重要永續發展議題，並導引學生共同探索未來可能發展  
+2.運用財經分析工具，對永續發展與企業社會責任議題提出專業觀點與策略  
+3.解析永續發展政策的建構原則  
+4.釐清企業社會責任的角色與任務
+##  每周課程進度與作業要求 Course Schedule & Requirements
+  1. 未來社會的可能樣貌
+  2. 從GDP到超越GDP (Beyond GDP)
+  3. 從快速成長到包容性成長 (Inclusive Growth)
+  4. 氣候變遷與永續發展
+  5. 聯合國永續發展目標（SDGs）
+  6. 綠色國民所得
+  7. 循環經濟
+  8. 綠色經濟
+  9. 城市發展與環境共榮
+  10. 大學治理與區域創新
+  11. 企業管理與社會關懷
+  12. 企業社會責任（CSR）
+  13. 城市永續發展
+  14. 大學永續發展
+  15. 企業永續發展
+  16. 永續城市個案
+  17. 永續大學個案
+  18. 永續企業個案
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

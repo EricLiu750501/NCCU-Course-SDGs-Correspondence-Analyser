@@ -1,0 +1,113 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：體育[女]—女體適能
+#####  Course Name: Physical Education [female]--Health Fitness
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：002112001 Course No.002112001
+#### 修別：必
+Type of Credit: Required 
+_1.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：體育 Course Department:Physical Education Office 
+  * 授課老師：林文乙 Instructor: LIN WEN-I 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：五12 Session: fri08-10
+##  課程簡介Course Description
+一.有氧運動之項目介紹及認知  
+二.肌力與肌耐力之提昇要領  
+三.柔軟度實施要領  
+四.綜合體適能之實施  
+五.利用政大特有的步道實施有氧運動  
+六.腹背肌群認識與實施要領  
+七.核心肌群認識與實施要領  
+八.運動傷害的預防與保健  
+九.測驗
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+一.透過有氧運動.建立良好的心肺適能  
+二.增強肌力與肌耐力.維技較佳的健康體育  
+三.增進柔軟度.避免運動傷害.維持較佳的健康適能  
+四.維持較優良健康適能提升生活品質
+##  每周課程進度與作業要求 Course Schedule & Requirements
+第一週：1.介紹相關簡單生理知識.營養與運動關係及個人健康體能的評   
+估實施。   
+第二週：1.熱身操。2.有氧運動<小坑溪步道生態解說>。   
+第三週：1.熱身操。2.有氧運動<螢火蟲步道生態解說>。   
+第四週：1.熱身操。2.有氧運動<環山土地公步道解說>。   
+第五週：1.熱身操。2.有氧運動<網球場行健步道解說>。   
+第六週：1.熱身操。2.有氧運動<水岸步道生態解說>。   
+第七週：1.熱身操。2.有氧運動<樟山寺飛龍步道解說>。   
+第八週：1.單人伸展操之操作。2.雙人伸展操之操作。3.基本肌力測試。   
+第九週：校園環山健走測驗。   
+第十週：1.伸展操<單雙人>。2.重量訓練教室器材之介紹與練習。   
+第十一週：1.伸展操<單雙人>。2.地板肌力練習<腹背肌群介紹與實施>。   
+第十二週：1.伸展操<單雙人>。2.循環訓練之介紹與操作<重訓器材>。   
+第十三週：綜合練習<慢跑，循環訓練，腹背肌群>。   
+第十四週：1.伸展操<單雙人>。2.靜性核心肌群之介紹與操作。   
+第十五週：1.伸展操<單雙人>。2.動性核心肌群之介紹與操作。   
+第十六週：綜合練習<循環訓練，腹背肌肌群，核心肌群>。   
+第十七週：1.總複習2.學習心得分享。   
+第十八週:補測驗
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

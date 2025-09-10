@@ -1,0 +1,109 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：土地重劃 
+#####  Course Name: Land Consolidation
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：207761001 Course No.207761001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：地二土管、地二土資 Course Department:Land Economics/B/2 
+  * 授課老師：丁秀吟 Instructor: DING HSIU-YIN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四234 Session: thu09-12
+##  課程簡介Course Description
+本課程介紹台灣土地重劃的相關制度內容，以市地重劃為主、輔以農地重劃及農村社區土地重劃之介紹。
+透過土地整合及重劃之理念與目的，對於市地重劃、農地重劃及農村社區土地重劃的目的、內容及實施方式進行講解；針對台灣的三種重劃制度進行說明及於現行社會的應用與問題。討論市地重劃於都市發展的角色及影響，亦探討台灣現行農地利用與農地重劃之關係，以及農村與農村社區土地重劃之間的關聯性。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEF雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備地政相關專業知能
+  * B. 具備地政相關專業知能
+  * C. 具備地政相關實務應用與創新之能力
+  * D. 具備地政相關實務應用與創新之能力
+  * E. 具備領導與團隊合作並進之精神與國際觀
+  * F. 具備領導與團隊合作並進之精神與國際觀
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程主要學習土地重劃制度的基本理念，瞭解土地重劃制度之目的、內容、執行與檢討。  
+探討其他國家實施土地重劃之經驗，與台灣實施土地重劃互相比較與學習，分析動態社會變遷下土地重劃之制度變遷、制度內涵之改變及對土地市場與土地利用之影響。讓同學具備土地重劃的基本制度與運作。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次／上課主題／課程內容與指定閱讀／教學活動與作業／學習投入時間：上課＋預複習
+Week01／課程介紹;土地重劃是什麼？／課程介紹／上課／3+2
+Week02／土地重劃之制度架構與實施主體／制度解說、補充資料閱讀／3+4
+Week03／臺灣的市地重劃、農地重劃與農村社區土地重劃／重劃之決定、補充資料閱讀／3+5
+Week04／市地重劃與都市發展／重劃在都市發展之角色與功能、補充資料閱讀／3+5
+Week05／臺灣市地重劃之制度建立／補充資料閱讀／3+4
+Week06／臺灣市地重劃之執行／補充資料閱讀／3+4
+Week07／臺灣市地重劃之負擔與分配機制／補充資料閱讀／3+4
+Week08／期中考
+Week09／國際經驗：其他國家的市地重劃／補充資料閱讀／3+4
+Week10／同學報告：臺灣六都的市地重劃發展歷程與成果／小組報告／3+5
+Week11／市地重劃與區段徵收／補充資料閱讀／3+4
+Week12／市地重劃的爭議與問題／補充資料閱讀／3+4
+Week13／農地重劃制度內容、發展及現況／農地重劃資料閱讀／3+4
+Week14／農地社區土地重劃制度內容、發展及現況／農村社區土地重劃與農村再生資料閱讀／3+4
+Week15／農地利用與重劃重劃問題討論／農地利用與農舍等相關議題資料／3+3
+Week16／期末報告／小組報告／3+5
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

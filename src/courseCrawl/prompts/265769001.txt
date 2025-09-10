@@ -1,0 +1,168 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：社會科學研究方法概論
+#####  Course Name: A Survey of Social Science Research Methods
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：265769001 Course No.265769001
+#### 修別：選
+Type of Credit: Elective 
+_1.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：亞太博一、亞太博二 Course Department:International Doctoral Program in Asia-Pacific Studies/D/1&2 
+  * 授課老師：杜福童 Instructor: Reidhead Jacob 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二567 Session: tue14-17
+##  課程簡介Course Description
+Content
+Analysts and academics will encounter a broad range of methods throughout their careers. The more methods they are familiar with, the better they will understand and evaluate others’ work, and the more tools they may apply to their own research. This 1-credit seminar will review four categories of research methods: 
+  * experiments, statistics, historical comparative analysis, ethnography
+We will also discuss applications of these methods which are popular in dissertation research:
+  * conjoint experiments, opinion surveys, media and social media analysis, socioeconomic and political statistics, historical and comparative case studies, interviews
+Audience
+This course was created with IDAS students in mind. PhD and MA students from other graduate programs are welcome to join.
+Pre-requisites
+No prerequisites and no prior coding experience are required.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCD雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備卓越專業知識
+  * B. 具備學術發表能力
+  * C. 具備獨立研究能力
+  * D. 具備國際參與能力
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+This 1-credit seminar will review four categories of research methods: 
+  * experiments, statistics, historical comparative analysis, ethnography
+We will also discuss applications of these methods which are popular in dissertation research:
+  * conjoint experiments, opinion surveys, media and social media analysis, socioeconomic and political statistics, historical and comparative case studies, interviews
+##  每周課程進度與作業要求 Course Schedule & Requirements
+# Schedule
+Seminar |  Methods |  Applications  
+---|---|---  
+Experiments Week 1 Tues Oct 28 | 
+  * Experimental Logic & Natural Sciences
+  * Manipulation & Measurement
+  * Internal & External Validity
+  * Randomization & Controls
+  * Within Subjects & Between Subjects Experiment Designs
+  * Non-Randomized, Non-Controlled Experiments: Quasi Experiments, Field Experiments, Natural Experiments
+| 
+  * Survey Experiments
+  * Conjoint Experiments
+  * Policy Experiments
+  * Field Experiments
+Statistics 1: Variables Week 2 Tues Nov 4 | 
+  * Concepts, Variables, Measures
+  * Categorical & Continuous Variables
+  * Variable Distributions: Normal, Uniform, Poisson, Binomial, etc.
+  * Univariate Bar Plots & Histograms
+  * Table of Summary Statistics
+  * Point Estimates
+  * Confidence Intervals
+| 
+  * Opinion/Attitude Surveys
+  * News Media Analysis
+  * Social Media Analysis
+  * Socioeconomic and Political Statistics
+Statistics 2: Inference Week 3 Tues Nov 11 | 
+  * Bivariate Tables & Plots
+  * Pearson Correlation & Rank Correlation
+  * Variable Transformations & Indexes
+  * Two-Sample T-Test of Means
+  * Two-Sample Z-Test of Proportions
+Statistics 3: Regression Week 4 Tues Nov 18 | 
+  * Linear and Logistic Regression
+  * Variable Coefficients and P-Values
+  * Diagnostics of Model Fit
+  * Interaction Effects
+  * Predicted Probabilities & Profile Plots
+Historical Comparative Analysis Week 5 Tues Nov 25 | 
+  * Mill’s Method of Similarities & Method of Differences
+  * Ideal Types
+  * Research Designs
+  * Process Tracing
+  * Types of Evidence in HCA
+| 
+  * 2-Case Comparison
+  * 2x2 Factorial Design
+  * 2-Period Comparison
+  * Single Case Study
+Ethnography Week 6 Tues Dec 2 | 
+  * Interpretivist vs Positivist Perspectives
+  * Profiles & Profile Analysis
+  * Experience Map / Empathy Map
+  * Interview Skills
+  * Ethical Dilemmas of Ethnography
+  * Digital Methods & Online Communities
+| 
+  * Interviews
+  * Micro-Community Participant Observation
+  * On-The-Job Participant Observation
+  * Digital Ethnography
+  * Online Community Study
+####  其他： Others:
+## Grades
+Assessment |  Details |  Points  
+---|---|---  
+Attendance |  6 seminars x 10 points |  60  
+Tasks |  4 tasks x 10 points |  40  
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

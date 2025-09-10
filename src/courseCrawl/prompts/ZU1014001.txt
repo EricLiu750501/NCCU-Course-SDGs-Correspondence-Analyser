@@ -1,0 +1,111 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：統計學（一）
+#####  Course Name: Statistics(Ⅰ)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：ZU1014001 Course No.ZU1014001
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：創國學一 Course Department:Global Studies/B/1 
+  * 授課老師：關秉寅 Instructor: KUAN PING-YIN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二567 Session: tue14-17
+##  課程簡介Course Description
+This course introduces undergraduates to the fundamental terminology, concepts, interpretation, and communication of the descriptive and inferential statistics most commonly encountered in scientific research. Learning statistics is like learning an everyday language that is widely used in the scientific community. For example, many researchers use surveys, public opinion polls, censuses, and other quantitative data sources to document, describe, and explain a wide range of social phenomena. To join the conversations being conducted in this realm of research, you must be literate in the vocabulary of research, data analysis, and scientific thinking. Knowledge of statistics will enable you to understand professional research literature, communicate with experienced social scientists, conduct quantitative research, and help you access the growing body of social science knowledge. Additionally, the course will enable students to learn how to utilize data from international data archive projects, such as the World Value Survey, the International Social Survey Program or the Asian Barometer, to explore significant social or political issues in the region.  
+---  
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 全球及區域研究之基礎智識
+  * B. 跨領域學習及研發之基礎知能
+  * C. 公民權利與基本權利之素養
+  * D. 全球及區域永續發展之專業
+  * E. 應用知識、有效溝通及參與審議之能力
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+This course is a required foundational course for all students at the International College of Innovation. It introduces students to the essential statistics tools and shows how they are used to analyze quantitative data. A fundamental understanding of these tools is a critical foundation for scientific research. The course covers descriptive statistics, inference from samples, hypothesis testing, and various basic statistical analyses. The course will also introduce R, a free software for statistical computing and graphics. You will need to bring a laptop or notebook to the class to use R.  We will have practice time to use R almost every week. Upon successful completion of this course, you will be able to complete the following tasks: 1. Explain basic concepts of statistics (e.g., population vs. sample, sampling distribution). 2. Summarize numeric data by computing descriptive statistics (e.g., mean, variance) and creating tables and graphs. For each procedure, you will learn a hand calculation method (using calculators) and a computer method (using software such as R). 3. Compute various inferential statistics (e.g., t-score) using hand calculation and computer methods. 4. Apply probability theory to test research hypotheses. 5. Explain the differences among various statistical techniques and identify an appropriate method for a given set of variables and research questions.  
+---  
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Week |  Topic |  Content and Reading Assignment |  Teaching Activities and Homework  
+---|---|---|---  
+1 |  Course Introduction |  |  Lecture  
+2 |  Statistics and Social Research |  Ch. 1 |  Lecture; In-class discussion; R practice; Homework   
+3 |  Basic Descriptive Statistics I |  Ch. 2 |  Lecture; In-class discussion; R practice; Homework  
+4 |  Descriptive Statistics: Measures of Central Tendency |  Ch. 3 |  Lecture; In-class discussion; R practice; Homework  
+5 |  Descriptive Statistics: Measures of Dispersion |  Ch. 4 |  Lecture; In-class discussion; R practice; Homework  
+6 |  The Normal Curve |  Ch. 5 |  Lecture; In-class discussion; R practice; Homework  
+7 | Introduction to R: The 1st Lesson |  |  Lecture; In-class discussion; R practice  
+8 |  The 1st Quiz and Review |  |  Review  
+9 |  Introduction to Inferential Statistics: Sampling and the Sampling Distribution |  Ch. 6 |  Lecture; In-class discussion; R practice; Homework  
+10 |  R: The 2nd Lesson |  |  R practice  
+11 |  Estimation Process |  Ch. 7 |  Lecture; In-class discussion; Homework  
+12 |  Hypothesis Testing I: The One-Sample Case |  Ch. 8 |  Lecture; In-class discussion; Homework  
+13 |  Hypothesis Testing I: The One-Sample Case (continues) |  Ch. 8 |  Lecture; In-class discussion; Homework  
+14 |  Hypothesis Testing II: The Two-Sample Case |  Ch. 9 |  Lecture; In-class discussion; Homework  
+15 |  R project |  |  Group project activity  
+16 |  Final Exam  |  |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+書名 Book Title |  作者 Author |  出版年 Publish Year |  出版者 Publisher |  ISBN  |  館藏來源* |  備註 Note  
+---|---|---|---|---|---|---  
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

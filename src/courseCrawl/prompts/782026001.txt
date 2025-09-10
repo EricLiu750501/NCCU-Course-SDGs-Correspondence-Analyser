@@ -1,0 +1,118 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：專題研究（二）
+#####  Course Name: Special Topics(II)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：782026001 Course No.782026001
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：電物學程 Course Department:Electrophysics/B/4 
+  * 授課老師：宋皇志、林瑜琤、許琇娟、陸行、彭彥璁、楊志開、蔡尚岳、蕭又新 Instructor: SUNG HUANG-CHIH/LIN YU-CHENG/HSU HSIU-CHUAN/LUH HSING/PENG YAN TSUNG/YANG CHIH-KAI/TSAI SHANG-YUEH/SHIAU YUO-HSIEN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間： Session: 
+##  課程簡介Course Description
+本設於應物所之專題研究課程由應用物理所、應用數學系、資訊科學系、科技管理與智慧財產所教師聯合開設，並獲中研院物理所之校外專家支援。  
+研究專題包含：量子啟發演算法及量子計算應用、量子物質的模擬、訊號處理、影像處理、統計及複雜系統模型、深度學習演算法及實務應用、永續科學、半導體元件專利分析與技術預測。  
+授課教師將個別指導修課學生執行一件學期計畫。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 基本科學知識與技術
+  * B. 電子物理必備知識
+  * C. 數理解析及計算能力
+  * D. 從事科學研究之能力
+  * E. 瞭解相關科技發展趨勢
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+每位修課學生將在授課教師指導下完成一件專題研究，達理論與實務結合的學習成效。
+• 修課學生應在第一週上課前，洽詢專題指導教師；獲同意指導後，於上課第一週至應物所所辦完成登記。  
+• 有意由校外專家(中研院合聘教師)指導者，請先向應物所所辦登記，由應物所聯繫校外指導教師。  
+• 每週進度由專題指導教師指定。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+• 修課學生應在第一週上課前，洽詢專題指導教師；獲同意指導後，於上課第一週至應物所所辦完成登記。  
+• 有意由校外專家(中研院合聘教師)指導者，請先向應物所所辦登記，由應物所聯繫校外指導教師。  
+• 每週進度由專題指導教師指定。  
+以下為授課教師、支援教師及專家個別提供之專題：
+應物所：  
+林瑜琤 - 量子啟發演算法、量子磁性物質模擬、高效能計算求解統計物理模型  
+許琇娟 - 量子傳輸模擬、材料信息學  
+楊志開 - 固態物理及奈米材料電子結構計算  
+蕭又新 - 以非線性、複雜系統理論與人工智慧方法分析生醫訊號，及探索社會與經濟永續性  
+蔡尚岳 - 生醫影像與訊號處理  
+李傳睿 - 天文物理的影像與數據分析
+科智所：  
+宋皇志 - 2奈米半導體製程之專利分析與技術預測
+應數系：  
+陸行 - 隨機模型及應用
+資科系：  
+彭彥璁 - Self-supervised Image Restoration Methods.
+中研院物理所（固態物理實驗）：  
+李尚凡 - 奈米結構中的量子現象、二維材料  
+柯忠廷 - 強關聯系統、拓樸超導元件、低溫量子傳輸、量子位元  
+歐敏男 - 固態物理實驗  
+林宮玄 - 光電物理、雷射光譜、超快光學、雷射顯微術
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+### 請個別與專題指導教師約定
+個別指導教師聯路訊息，請參閱附檔
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

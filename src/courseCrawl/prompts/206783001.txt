@@ -1,0 +1,116 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：全球衛生治理
+#####  Course Name: Global Health Governance
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：206783001 Course No.206783001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：公行三、公行四 Course Department:Public Administration/B/3&4 
+  * 授課老師：杜文苓、劉汗曦 Instructor: TU WEN-LING/LIU HAN-HSI 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：五234 Session: fri09-12 
+##  課程簡介Course Description
+As the world becomes increasingly interconnected, complex health issues—including pandemics, climate-driven health crises, chronic diseases, and digital health innovations—transcend national boundaries, demanding integrated, multidisciplinary, and global solutions. This course is designed to equip future global health policymakers and practitioners with the analytical skills, evaluative insights, and creative strategies essential for effective health governance in a rapidly evolving global landscape.
+Throughout the semester, students will critically examine pressing global health governance issues, including infectious diseases, mental health, NCDs, equitable medicine access, digital health data privacy, health system strengthening, primary healthcare strategies, and the role of international health organizations. Each session, led by expert instructors and guest speakers, encourages students to actively analyze complex scenarios, evaluate diverse perspectives, and propose innovative policy solutions.
+In the final weeks, students will actively participate in a World Health Organization (WHO) simulation exercise. This highly interactive simulation challenges students to synthesize knowledge and apply their analytical and creative problem-solving skills in realistic, high-stakes public health emergencies. Students will represent various countries and stakeholder roles, collaborating with invited external experts, civil society representatives, and media professionals. Through this experiential learning approach, students will cultivate competencies essential for addressing complex global health governance challenges in real-world contexts.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABC雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 公共行政與政策的基礎理論Basic theories of public administration and policy
+  * B. 公共行政與政策的管理知能Management knowledge for public administration and policy
+  * C. 公共事務關懷與價值Concern and values for public affairs
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+  1. Knowing the current global health issues and risks, such as emerging infectious diseases, non-communicable diseases, climate change, and accidents. 
+  2. Understanding how global health governance works, its strengths and weaknesses in addressing global health issues. 
+  3. Developing student’s ability for participating in international conferences, oral presentations, and group collaboration. 
+  4. Building students’ capabilities in conducting research via specific media, literature, and databases, having frontline experience of health policy-makers through WHO simulation. 
+  5. Broadening the horizons beyond students’ current disciplines and professions, increasing the understanding of public health, biomedicine, and international relationship. 
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Date & Title  
+---  
+9/5 (Week 1) Class Introduction: Overview of the Class, Group Activity, Student Team Arrangement, Brief of WHO Simulation, Midterm Project   
+9/12 (Week 2) Global Health Burden 1: Infectious Diseases Infectious Diseases and Emerging Diseases  
+9/19 (Week 3)Global Health Burdens 2:Mental Health Mental Health Issues and Public Health Measures   
+9/26 (Week 4)Global Health Project 1: Interview /_No Class_ Interview and Group Discussion 
+  * Students shall meet for discussion of midterm group project.
+  * Students shall conduct their interview with people from the designed country for first-hand information
+10/3 (Week 5) Global Health Project 1: Oral Presentation
+  * Each student group presents its midterm report about the current major health risk and problem in their assigned country. 
+  * Each group has 10 mins for presentation and 5 mins for Q&A. 
+  * Each group shall submit a written report within 1,500 words before 11/17. 
+10/10 (Week 6) National Holiday/No Class  
+10/17 (Week 7)Global Health Burden 3: NCDs Non-Communicable Diseases (NCDs)  
+10/24 (Week 8)National Holiday/No Class  
+10/31 (Week 9)Global Health Burden 4: Environment and Global Health   
+11/7 (Week 10)Global Health Topic 1: Digital Health, Medical AI, and Global Health  
+11/14 (Week 11) Global Health Topic 1: Field Trip  
+11/21 (Week 12)Global Health Topic 2: ODA, NGOs, and Supragovernment Agencies  
+11/22 Saturday (Week 13)Global Health Topic 3: Vulnerable Groups, Refugees and Humanitarian Aid  
+12/5 (Week 14)WHO Simulation: Introduction and Document Drafting   
+12/12 (Week 15)WHO Simulation: Simulation Drill  
+12/19 (Week 16)WHO Simulation: Formal WHO Simulation   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

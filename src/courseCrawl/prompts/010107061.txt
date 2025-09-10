@@ -1,0 +1,112 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：日文寫作 
+#####  Course Name: Japanese Composition
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：010107061 Course No.010107061
+#### 修別：必
+Type of Credit: Required 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：日文系 Course Department:Japanese Language and Culture 
+  * 授課老師：坂井郁子 Instructor: SAKAI IKUKO 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：五56 Session: fri14-16
+##  課程簡介Course Description
+本講義は初中級の文法を基礎に、専門的な文章を書く為に必要な表現や文法や作文の基礎知識と共に学び、日本語の作文能力の向上を図ることを目的とする。
+母語である中国語の干渉を排し、自分の考えを適切に表現できる語彙選択や構文使用の訓練を通じて、文章によるコミュニケーション能力、発信力を養成する。
+2023年は生成AI元年とも言われ、これらの技術の急速な発展により言語学習をめぐる環境も急激に変化しました。その為、今年度から若干シラバスの内容を変更する事に致しました。
+１文章作成に必要な基本事項を学習し、作文展開のパターンに即した練習をする。
+２テーマについて討論して意見を出し合った後で、そのテーマについての作文を書く。添削して返却、書き直し。（作文のテーマは当日に発表し、AI等を使用しないでその場で作文を書く）
+３完成した作文を口頭発表してもらう（学期中１，２回程度）。
+４原稿用紙は自分で用意すること。添削の関係でB４で印刷するのが好ましい。
+５学習対象：日本語を母語としない人
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+日本語でまとまった文が書けるようになる。
+１日本語の原稿用紙の書き方、文体など基本的な決まりを理解する。
+２既習文法を応用した作文ができるようになる。  
+３一定の時間内に特定のテーマにもとづいた内容の作文が書けるようになる。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 | 課程主題 | 課程內容與指定閱讀 | 教學活動與作業  
+---|---|---|---  
+1 | 上課方法 | P6-7 | 作文用紙の使い方  
+2 | 第1課 自己紹介 | P8-13  | 作文  
+3 | 第2課 私の家族 | P14-19 | 作文、前回の作文返却及び訂正  
+4 | 第3課 私の仕事 | P20-25 | 作文、前回の作文返却及び訂正  
+5 | 第4課 私の趣味 | P26-31 | 作文、前回の作文返却及び訂正  
+6 | 国慶節（停課） |  |   
+7 | 第5課 私の国 | P32-37 | 作文、前回の作文返却及び訂正  
+8 | 補假日(停課) |  |   
+9 | 中間テスト | テスト（作文及び筆記試験） |   
+10 | 第6課 私の友達 | P38-43 | 作文、前回の作文返却及び訂正  
+11 | 第7課 私の故郷 | P44-49  | 作文、前回の作文返却及び訂正  
+12 | 第8課 子供の頃の夢 | P50-55 | 作文、前回の作文返却及び訂正  
+13 | 第9課 忘れられない思い出 | P56-61 | 作文、前回の作文返却及び訂正  
+14 | 発表会 | 発表準備 | 鑑賞及び批評  
+15 | 発表会 | 発表準備 | 鑑賞及び批評  
+16 | 期末テスト | テスト（作文及び筆記試験） |   
+便宜上このような計画表を書きましたが、作文のテーマは当日発表します。
+####  其他： Others: 課堂寫作練習 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

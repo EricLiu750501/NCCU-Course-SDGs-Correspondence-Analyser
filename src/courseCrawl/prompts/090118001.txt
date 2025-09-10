@@ -1,0 +1,105 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：幸福學
+#####  Course Name: Happiness
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：090118001 Course No.090118001
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：教務處通識教育中心 Course Department:Center of General Education 
+  * 授課老師：那原道 Instructor: Nadeau Randall Laird 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四78E Session: thu16-19
+##  課程簡介Course Description
+This course examines the nature of happiness from sociological, psychological, and philosophical points of view. Based on research in happiness measures of the Organization for Economic Cooperation and Development (OECD) and the United Nations, the course looks at the relationship between happiness and health, happiness and economic prosperity, happiness and social structures of the family and community, as well as reflections on the philosophy of happiness: What is happiness? How can happiness be measured? Should nations be ranked according to happiness rather than material wealth, and what social policies and social institutions can increase happiness for the greatest number of people?
+本課程探討幸福的本質從社會學，心理學，和哲學的要點。根據經濟合作與發展組織（OECD）和聯合國的幸福措施研究，該課程著眼 幸福和身體健康，幸福和經濟繁榮，幸福與家庭和社會結構之間的關係，以及幸福的哲學思考：什麼是幸福？怎樣來衡量幸福？應根據幸福，而不是物質財富，的排名各國？什麼樣的社會政策和社會制度可以增加最多人數的幸福？
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+Classroom behavior
+My philosophy of education is the teacher-student / student-teacher model: teachers are students, and students are teachers. So, all members of the classroom community are responsible for the success of the class: attendance is expected, verbal participation is encouraged, and student-teachers demonstrate respect for one another. 
+課堂規則
+我的教育理念是 “老師是學生/學生是老師” 的模式。因此，課堂班級的所有成員負責課程的成功. 預計上課，鼓勵口服參與，並老師學生演示對彼此的尊重。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Week |  Topic |  Content and Reading Assignment |  Teaching Activities and Homework  
+---|---|---|---  
+1 |  Introductions |  Introduction |  Introduction  
+2 |  Defining “Happiness” |  Orientations: Why “Happiness”? Reading: “Satisfaction with Life Scale” |  Exercise 1: Special Times and Places  
+3 |  Happiness and Mental Health |  Impacts of Depression and Anxiety Reading: “Prevalence of Mental Health Issues Around the World” |  Exercise 2: Overcoming Negative Habits  
+4 |  Happiness and Physical Health |  Healthy body, Healthy mind Reading: “Happiness on health and longevity” |  Exercise 3: Daily Record of Healthy Behaviors  
+5 |  Happiness and Mindfulness |  Religious and Philosophical Perspectives Principles of Mindfulness |  Exercise 4: Contemplative Practice Project Part I  
+6 |  Mindfulness and “Flow” |  Cultivating “Small Happiness” |  Contemplative Practice Project Part II  
+7 |  Discussion |  |   
+8 |  Exam week  |  |   
+9 |  Gratitude and Mental Well-Being |  Share what you care: Someone you admire Reading: Robert Emmons, “Why Gratitude is Good” |  Exercise 7: Three Good Things  
+10 |  Happiness and Material Wealth |  Understanding Happiness Reading: “Unfettered Capitalism” |  Exercise 3: Sources of happiness other than material wealth  
+11 |  Birthrates and Employment |  Happiness Impacts on Income and Productivity Employment of College Graduates in the Era of Universal Higher Education |  Exercise 6: Developing Personal Skills  
+12 |  Family and Social Support |  Impacts of Happiness for Individual and Social Behavior Volunteering Scavenger Hunt (group video) |  Exercise 4: Pro-Social Behavior   
+13 |  Marriage and Sexuality |  Gender and Happiness, Marriage and Divorce Reading: “Love in Japan and Taiwan: Youth Perspectives on Marriage” |  Essay 5: “Flight from Marriage”  
+14 |  Experiencing Happiness |  Film, Discussion, and Essay: “Shall We Dance” (1996) |  Essay 8: What are the lessons of this film?  
+15 |  Discovering Another Culture |  Lessons in Cross-Cultural Communication and Understanding |  Seeing, Thinking, Feeling Exercise  
+16 |  Exam |  |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

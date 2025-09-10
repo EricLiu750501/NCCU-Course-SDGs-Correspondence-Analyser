@@ -1,0 +1,99 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：中國哲學史（一）
+#####  Course Name: History of Chinese Philosophy (I)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：104006001 Course No.104006001
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：哲學二 Course Department:Philosophy/B/2 
+  * 授課老師：馬愷之 Instructor: MARCHAL KAI 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二234 Session: tue09-12
+##  課程簡介Course Description
+本課程將概述中國哲學史，從周朝開始到公元三世紀期為止。我們將學習主要主題，探索中國古典文明中的文化、宗教和哲學取向。主要課題包括孔子的歷史角色、他的思想遺產、儒家學派、道家學派和墨家學派。此外，我們也會探討較不知名的思想家，並介紹最重要的典籍。我們會密切注意哲學思想的內在邏輯，也會反思思想與社會、哲學與歷史之間的相互影響。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程的主要目標包括：學習中國哲學思想的基本語言、術語和問題；學習閱讀和分析主要文本；學習理解不同哲學流派之間的差異和共性；獲得關於中國哲學不同方法的方法論意識；學習歷史化中國思想家，同時也意識到哲學意義可以超越歷史時代。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+第一週：導覽；  
+第二週： 早期中國文明的基本主題；  
+第三週： 孔子與儒家思想 (1)；  
+第四週： 孔子與儒家思想 (2)；  
+第五週： 墨家；  
+第六週： 道家 (1)；  
+第七週： 道家 (2)；  
+第八週： 孟子；  
+第九週： 揚家及其他思想家；  
+第十週： 荀子；  
+第十一週： 韓非子；書法展演；  
+第十二週： 司馬遷與漢初哲學；  
+第十三週： 淮南子；  
+第十四週：《易經》；  
+第十五週：東漢哲學；  
+第十六週：王弼；
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

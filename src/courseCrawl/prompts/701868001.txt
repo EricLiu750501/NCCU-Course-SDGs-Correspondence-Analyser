@@ -1,0 +1,118 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：矩陣理論（一）
+#####  Course Name: Matrix Theory(I)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：701868001 Course No.701868001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：應數三、應數四 Course Department:Mathematical Sciences/B/3&4 
+  * 授課老師：郭岳承 Instructor: KUO YUEH-CHENG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四234 Session: thu09-12
+##  課程簡介Course Description
+線性代數是各數學領域的最重要工具，亦已廣泛應用至社會及自然科學，資訊科學，及統計學裡。本課程旨在建立學生對矩陣與線性代數核心概念的紮實理解，並培養其在數學分析與應用問題中熟練操作線性代數工具的能力。課程內容涵蓋向量空間的結構、線性轉換的性質、解線性方程組的方法、行列式的幾何與代數意義，以及矩陣對角化在理論與實務中的應用。
+矩陣理論(一) 會先快速複習『線性代數』的課程內容及補充一些想法，這些預備工作可以幫助學生更容易了解矩陣的性質及理論，包括symmetric matrices, normal matrices, positive definite matrices 的性質及 Jordan canonical forms. 
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCD雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 培養基礎數學與邏輯推理之能力
+  * B. 培養建立數學模型，解決問題之能力
+  * C. 資料蒐集與分析數據之基礎能力
+  * D. 培養數理資訊與科學計算之能力
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+教學目標：
+1. 掌握向量空間與子空間（如行空間、列空間、零空間）的基本性質。
+2.掌握線性轉換與其對應矩陣之間的對應關係與結構分析。
+3.熟悉高斯消去法與其在解線性系統中的應用，並掌握行列式的性質與計算技巧。
+4. 學習特徵值與特徵向量的理論，並應用於矩陣對角化與相似性轉換。
+學習成效：
+  1. 對於 向量空間、子空間、基底、維度、線性獨立性等基本概念，並能正確判別實例是否符合其定義。
+  2. 理解 線性轉換的性質及結構，並能運用矩陣表示轉換。
+  3. 能操作與解釋 線性方程組，計算 行列式，解釋其代數與幾何意義。
+  4. 能對線性轉換做對角線化，並計算其特徵值與特徵向量。
+學生學完這門課對於矩陣有較深入的認識，並具備研讀矩陣理論的知識。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 內容  
+1 Vector spaces and subspaces  
+2 Linear dependence and linear independence  
+3 Bases and dimension  
+4 Linear transformations  
+5 Matrix representation of linear transformation  
+6 Matrix multiplication   
+7 Invertibility and the change of coordinate matrix 
+8 測驗(期中考)   
+9 Elementary matrices and the rank of matrix  
+10 Systems of linear equations  
+11 Systems of linear equations and determinants  
+13 Determinants  
+14 Eigenvalues and eigenvectors  
+15 Diagonalization  
+16 測驗(期末考)  
+學生學習投入時間:   
+每週課堂教學時數: 3小時   
+每週預習/複習時數: 5小時
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

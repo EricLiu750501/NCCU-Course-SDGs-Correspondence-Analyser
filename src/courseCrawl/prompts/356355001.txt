@@ -1,0 +1,110 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：物聯網資訊安全技術與實務
+#####  Course Name: IoT Cybersecurity Technology and Practical Experience
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：356355001 Course No.356355001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：資管碩一、資管碩二 Course Department:Management Information Systems/M/1&2 
+  * 授課老師：洪光鈞、張凱棊 Instructor: HUNG KUANG-CHUN/CHANG KAI-CHI 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三EFG Session: wed18-21 
+##  課程簡介Course Description
+由於消費市場需求帶動之下全球物聯網(IoT)價值正在加速中，根據多個研究機構的預測，IoT設備連接數量在2030年將達到數百億台，其產值更可創造5.5兆至12.6兆美元的價值，因此物聯網設備已成為駭客鎖定的攻擊目標，對物聯網的生態發展造成影響。本課程教學重點將涉及：物聯網資安趨勢簡介、國際資安法規與標準簡介、軟體供應鏈資安議題、開源軟體資安議題、建議管理措施等內容，希望藉 此能協助學生瞭解對此相關議題的因應策略，並提供物聯網 資安產業實務上的管理與技術連結。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 資訊科技之整用與經營管理創新能力(Ability to integrate information technology and innovate operations management)
+  * B. 企業社會責任(Social responsibility)
+  * C. 資訊科技相關問題分析、解決與決策能力( IT-related problem analysis, solving, and decision-making ability)
+  * D. 國際化溝通協調能力(International communication and coordination abilities) 
+  * E. 團隊合作能力(Teamwork ability)
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+預期學員經過課程後，將會對下面項目有些基礎認知  
+1. 國際物聯網資安法規  
+2. 物聯網產品衍生之資安威脅  
+3. 物聯網產品之資安檢測,網路攻擊及防禦技術
+##  每周課程進度與作業要求 Course Schedule & Requirements
+W1:物聯網資安風險與趨勢  
+W2:物聯網資安標準  
+W3:物聯網資安軟體安全開發  
+W4:物聯網資安軟體安全開發實作  
+W5:物聯網資安風險評估(含專題演講)  
+W6:物聯網資安檢測技術  
+W7:物聯網資安檢測技術實作  
+彈性補充教學：完成指定作業  
+W8:期中評量  
+W9:物聯網資安事件分析  
+W10:物聯網資安事件分析實作(一)  
+W11:物聯網資安事件分析實作(二)  
+W12:物聯網資安管理與防護  
+W13:物聯網資安管理與防護(含專題演講)  
+W14:物聯網資安攻防實作(一)  
+W15:物聯網資安攻防實作(二)  
+彈性補充教學：完成指定作業  
+W16:期末評量
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

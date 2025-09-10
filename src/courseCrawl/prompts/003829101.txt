@@ -1,0 +1,105 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：全民國防教育軍事訓練—防衛動員
+#####  Course Name: All-out Defense Education Military Training - Defense Mobilization
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：003829101 Course No.003829101
+#### 修別：選
+Type of Credit: Elective 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：外交系 Course Department:Diplomacy 
+  * 授課老師：馮永志 Instructor: FENG YUNG-CHIH 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二56 Session: tue14-16
+##  課程簡介Course Description
+戰爭動員模式是一國如何將其人力物力及財力等綜合力量動員以支援軍隊作戰的過程。本課程主要描述中國歷史上及西方國家軍事動員模式變遷的過程，並介紹解釋此一變遷過程的理論。西方國家在近代主要經歷兩次軍事動員模式的變遷，第一次是在十八世紀末期，由貴族式軍隊轉變成大規模徵兵制軍隊；第二次是從二十世紀中後期開始由大規模徵兵制軍隊轉變為小規模專業軍隊。並說明現行我國動員體制與美國、以色列動員體制之比較。另從近期俄烏戰爭及以巴衝突中了解到近代戰爭難以速戰速決，吾人均不可天真以為現有資源足以維繫現代戰爭所需，亦須於國家承平之時不斷累積及訓練，方能在戰時發揮功效。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+一、學生修習全民國防教育軍事訓練課程且成績合格者，應分別按各學制，以每八堂課折算一日，折減常備兵役現役役期或軍事訓練期間；其得折減之現役役期，不得逾三十日，得折減之軍事訓練時數，不得逾十五日。
+二、同等學制修習之全民國防教育軍事訓練課程折減常備兵役現役或軍事訓練，以一次為限，因故重（復）修或留級再修者，不得重複折減。
+三、因應未來國軍義務役役期延長至一年所辦理之義務役預備軍官、士官考試進行輔導
+四、基於天然災害頻仍，併同講授災害防救知能與技能，並配合國家防災日演練及安排基本救命術操作及演練。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+第一週 防衛動員課程說明及校園安全週宣導(配合學務處學安組)
+第二週 中國歷史上有關戰爭動員的論述及措施
+第三週 魯登道夫總體戰與現代戰爭動員
+第四週 以色列兵役及後備役制度、美國國民兵制度
+第五週 中華民國兵役制度及後備動員體制
+第六週 台澎防衛作戰之任務想定演練及動員分工(兼論民防體制)
+第七週 中華民國災害防救與後備動員體制(平戰合一)
+第八週 期中考(課程相關影片)
+第九週 台灣重大災害歷史回顧(兼論921大地震救災紀實)
+第十週 災害防救、災防整備及防衛動員模擬演練(配合防災演練)
+第十一週 重大交通事故之救災動員模式
+第十二週 心肺復甦術(反詐騙及交通安全宣導)
+第十三週 應對新安全情勢強化動員機制
+第十四週 精神動員與心防措施
+第十五週 我國全民防衛動員準備機制及動員制度現況(期末考及預官考試複
+習)
+第十六週 期末考(筆試25題單選)
+####  其他： Others: 基本救命術操作 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+書名 Book Title |  作者 Author |  出版年 Publish Year |  出版者 Publisher |  ISBN  |  館藏來源* |  備註 Note  
+---|---|---|---|---|---|---  
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

@@ -1,0 +1,105 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：英國文學：1600以前
+#####  Course Name: English Literature Before 1600
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：501062001 Course No.501062001
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：英文二甲、英文二乙 Course Department:English/B/2 
+  * 授課老師：施堂模 Instructor: SELLARI THOMAS-JOHN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：一D56 Session: mon13-16
+##  課程簡介Course Description
+This course introduces major works of English literature up to 1600.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEF雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 掌握西方文學與文化發展的歷史文化脈絡，以熟悉不同文化觀點(To trace the historical and cultural transformations in Western literature in order to understand different cultural perspectives)
+  * B. 具備西方文學與文化研究之相關知能以培養獨立思考與批判之能力(To acquire the knowledge and skills necessary for doing research on Western literature and culture in order to develop independent and critical judgment.)
+  * C. 具備語言學的基礎專業知識，以培養觀察分析及推理能力(To acquire a basic knowledge of linguistics in order to foster the ability to make logical conclusions through observation and analysis)
+  * D. 具備應用語言學及英語教學的基礎專業知識及實務應用能力 (To acquire knowledge of applied linguistics in order to make practical applications to methods of teaching English.)
+  * E. 理解、分析及整合英文訊息並以口說英文充分表達自我與協調溝通 (To understand, analyze, and synthesize information in English and to fully express oneself and to communicate with others clearly in oral English.)
+  * F. 解讀、分析及整合英文篇章並書寫不同主題及目的英文文章以表達自我並呈現個人思維邏輯(To understand, analyze, and synthesize articles in English and to write English papers on different topics and for different purposes to fully express oneself and to reason in written English.)
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+The main objective of the course is to familiarize students with some of the major works of English literature up to 1600. Reading the assigned works and doing the additional exercises should improve students' ability to read the English of earlier periods and develop a familiarity with the generic and rhetorical tendencies of the literature of the periods covered (the Medieval and Renaissance periods).
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Students are expected to attend every class session, read all the assigned works, hand in several short worksheets, and take a midterm and final exams. The workload will most likely vary from five to ten hours per week, depending on the reading level of the student.
+class 1: introduction; history and language
+class2: _Beowulf_ , lines 1--85, 491--835, 1251--1650, 2999--3182
+class 3: _Sir Gawain and the Green Knight_ I.130--490, IV.2239--end; Geoffrey Chaucer, _The Canterbury Tales_ , General Prologue 1--50, 447--478
+class 4: Geoffrey Chaucer, "The Wife of Bath's Prologue and Tale" (handout)
+class 5: Geoffrey Chaucer, "The Wife of Bath's Prologue and Tale" (cont'd)
+class 6: MIDTERM EXAM; Thomas More, Utopia; Thomas Wyatt, "Whoso List to Hunt'' and "I Find No Peace'': pp. 80-103, 123-124
+class 7: William Tyndale, Thomas More, Roger Ascham, Thomas Hoby, Elizabeth I: pp. 80-103, 123-124, 172-175, 178-192, 235-238, 241, 244-245
+class 8: Edmund Spenser, _Amoretti_ 1, 37, 54, 65, 75, 79; _The Faerie Queene_ Book I, Cantos 2, 6
+class 9: John Lyly, _Euphues_ ; Philip Sidney, _Defense of Poesy_ , _Astrophil and Stella_ 1, 5, 41, 52, 71: pp. 511-513, 525-537
+class 10: Christopher Marlowe, _Dr. Faustus_ , scenes 1, 5, 12, 13
+class 11: William Shakespeare, sonnets 3, 20, 73, 94, 106, 116, 130, 138, 144, 147
+class 12: William Shakespeare, _The Tempest_ , Acts I-II
+class 13: William Shakespeare, _The Tempest_ , Acts III-V
+class 14: FINAL EXAM
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

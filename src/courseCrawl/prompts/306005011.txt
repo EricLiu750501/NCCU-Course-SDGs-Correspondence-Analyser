@@ -1,0 +1,125 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：計算機概論 
+#####  Course Name: Introduction to Computer Science
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：306005011 Course No.306005011
+#### 修別：必
+Type of Credit: Required 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：資管一甲、資管一乙 Course Department:Management Information Systems/B/1 
+  * 授課老師：簡士鎰 Instructor: CHIEN SHIH-YI 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：五D5 Session: fri13-15
+##  課程簡介Course Description
+This course covers the history, conceptual structure, and computer organizations of computer science. The basic programming languages (e.g., HTML, CSS and JavaScript) will be introduced, which are designed to help students with little or no programming experience. In addition, the students will be asked to explore the principles, concepts and methodologies of the emerging technologies (such as humanoid robots) and present these topics in the final project presentation.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 資訊科技專業與商學經營創新知能(Profession of information technology and knowledge of business innovation)
+  * B. 社會責任與倫理(Social responsibility and ethics)
+  * C. 溝通協調與國際化能力(Communication, coordination abilities and international capabilities)
+  * D. 資訊系統管理與整合知能(Ability to manage and integrate information system)
+  * E. 團隊合作與領導能力(Teamwork and leadership abilities)
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+The purpose of this course is to provide the basic knowledge of computer science. Upon successful completion, students will:
+1. learn history and fundamental knowledge of computer science
+2. understand the principles and gain experience in programming languages
+3. understand the innovative features of intelligent systems and computer applications
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Week |  Topic |  Lab (TA) |  Assignment (Student)  
+---|---|---|---  
+1  |  Impact of digital technology  |  Brief Intro  
+2  |  Computer Hardware  |  Demo Hardware  
+3 |  Operating System I |  1. GitHub Setup 2. Provide a website template file |  1. Access GitHub  2. Upload the website template file to GitHub  
+4 |  Operating System II |  [Video] 1. Intro Midjourney 2. Practice Prompt |  1. Create figures 2. Revise figures  on Midjourney 3. Upload the files to GitHub (2%)  
+5 |  Internet & Network I |  [Video] MS Excel I |  Excel VBA (3%)  
+6 |  Internet & Network II |  [Video] MS Excel II  
+7 |  Digital Security and Privacy |  Final Project Topic (propose 3 topics) & Team Members (up to 5 students)  
+8 |  Midterm(30%) |   
+9 |  Programming Language: HTML  |  HTML I |  HW1 (5%) + Lab (2%) HTML Exercise  
+10 |  Programming Language: CSS  |  CSS I |  HW2 (5%) + Lab (2%) CSS Exercise  
+11 |  Final Project Discussion I |  Discussion sheet  
+12 |  Final Project Discussion II  
+13 |  Programming Language: HTML+CSS & JavaScript I |  JavaScript I |  HW3 (5%) + Lab (2%) JS Exercise  
+14 |  Programming Language: JavaScript II |  JavaScript II |  HW4 (5%) + Lab (2%) JS Exercise  
+15 |  Programming Language: JavaScript III |  JavaScript III |  HW5 (5%) + Lab (2%) JS Exercise  
+16 |  Demo Day- Final Project Presentation(30%) *Bonus:(5%) |  |   
+*加簽說明*
+Q1. 這門課是否開放加簽?  
+> 會開放加簽，但有人數限制，不保證一定能加簽上
+Q2. 是否有加簽的順序?  
+> 有，加簽將根據下方順序，並以高年級為優先  
+>> 1. 資管系同學  
+>> 2. 目前正在雙主修、輔系、學程的同學  
+>> 3. 商學院同學   
+>> 4. 其他學院系所，或是欲轉系、雙主修、輔系、學程的同學
+Q3. 目前有選上，但可以改加簽另一門中文/英文課嗎?  
+> 不行，除非有特殊的原因  
+>> 請不要用不習慣英文授課，或是跟通識衝堂的理由 
+Q4. 如何加簽，加簽方式是什麼?  
+> 想要加簽的同學，請先參加第一次上課課程 (@逸仙5樓資管電腦教室)  
+>> 根據上面的加簽順序，我們會登記要加簽同學們的資料，再一起交給資管系助教
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

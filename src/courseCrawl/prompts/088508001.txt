@@ -1,0 +1,100 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：議題討論與口語表達
+#####  Course Name: Discussion of Social Issues and Oral Expression
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：088508001 Course No.088508001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：華語文中心 Course Department:Chinese Language Center 
+  * 授課老師：許宇萱 Instructor: Hsu YuHsuan 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四78E Session: thu16-19
+##  課程簡介Course Description
+This course emphasizes oral expression during class sessions; however, students are also expected to possess adequate reading skills. Each week, students are required to read one to two articles related to the weekly topic _before class_. These readings aim to help students acquire relevant vocabulary, deepen their understanding of the issues, and develop the ability to express insightful and well-structured opinions.
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+After completing this course, students will be able to express their opinions on various topics in Chinese and provide in-depth commentary. They will also develop skills in oral expression and reading comprehension.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Week 1 |  Sep 04 |  Placement Test  
+---|---|---  
+Week 2 |  Sep 11 |  語言與認同 Language and Identity  
+Week 3 |  Sep 18 |  臺灣認同 Taiwanese Identity  
+Week 4 |  Sep 25 |  臺灣文化：傳統禮俗—婚禮 Taiwanese Culture: Traditional Customs — Weddings  
+Week 5 |  Oct 02 |  動物與人類：從賽鴿談起 Animals and Humans: Starting with Pigeon Racing  
+Week 6 |  Oct 09 |  「美人」經濟 The “Beauty” Economy  
+Week 7 |  Oct 16 |  談戀愛 Romantic Relationships  
+Week 8 |  Oct 23 |  臺灣「乖乖文化」＋期末報告計畫(3分鐘/人) Taiwan’s “Guai Guai” Culture + Final Presentation Plan   
+Week 9 |  Oct 30 |  臺灣文化：鬼月和宗教 Taiwanese Culture: Ghost Month and Religion  
+Week 10 |  Nov 06 |  何為孝順？ What is 孝順?  
+Week 11 |  Nov 13 |  安樂死 Euthanasia  
+Week 12 |  Nov 20 |  言論自由 Freedom of Speech  
+Week 13 |  Nov 27 |  代理孕母 Surrogacy  
+Week 14 |  Dec 04 |  未成年犯罪 Juvenile Delinquency  
+Week 15 |  Dec 11 |  期末報告 Final Presentation  
+Week 16 |  Dec 18  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

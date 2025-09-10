@@ -1,0 +1,108 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：語用學與語言教學
+#####  Course Name: Pragmatics and Language Teaching
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：160712001 Course No.160712001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：華文博一、華文博二 Course Department:Doctor's Program in Teaching Chinese as a Second Language/D/1&2 
+  * 授課老師：張晨恩 Instructor: CHANG CHEN-AN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：一D56 Session: mon13-16 
+##  課程簡介Course Description
+How do we really mean what we say—and how can we teach that to language learners? This course explores the intricate relationship between context and meaning in communication, focusing on how pragmatic concepts can be applied to second language acquisition (SLA) and English language teaching. Students will explore key topics such as speech acts, implicature, presupposition, Grice' s Cooperative Principle, politeness strategies, and information packaging (e.g., topic-focus structure and given-new distinctions). Blending theory with practice, the course equips future language educators with the tools to recognize and teach the often-unspoken rules of real-world language use in diverse classroom settings. 
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+Upon semester completion, students will: 
+  1. explain key concepts in pragmatics, such as speech acts, implicature, presupposition, politeness, and the Cooperative Principle 
+  1. identify how meaning is shaped by context in communication 
+  1. recognize common pragmatic challenges faced by second language learners 
+  1. design and adapt classroom strategies to teach pragmatic features in EFL contexts 
+  1. reflect on the role of pragmatics in real-life language use and classroom interaction 
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Week  |  Topic  |  Content  |  Teaching Activities  |  Homework1   
+---|---|---|---|---  
+1   
+(9/1)  |  Course Overview  |  Course introduction, The language teaching and pragmatics interface  |  Lecture & Discuss  |   
+2  (9/8)  |  Speech Act  |  Part I: Requests  |  Lecture & Discuss  |   
+3  (9/15)  |  Speech Act  |  Part II: Indirect Acts  |  Lecture & Discuss  |   
+4  (9/22)  |  Speech Act  |  Part III: Responding Acts  |  Lecture & Discuss  |  Speech Act assessment   
+5  (9/29)  |  |  教師節補假  |  |   
+6  (10/6)  |  |  中秋節放假  |  |   
+7  (10/13)  |  Speech Act  |  Homework discussion  |  |  Paper presentation   
+8  (10/20)  |  Presentation  |  Speech act & its application  |  |   
+9  (10/27)  |  Cooperative Principle  |  Gricean pragmatics as rational cooperation  |  Lecture & Discuss  |   
+10  (11/3)  |  Implicatures  |  Conversational implicatures  |  Lecture & Discuss  |   
+11  (11/10)  |  Presupposition  |  Inference and presuppoistion  |  Lecture & Discuss  |   
+12   
+(11/17)  |  Imformation packaging  |  Newness, known-ness, definiteness  |  Lecture & Discuss  |  Paper presentation   
+13  (11/24)  |  Presentation  |  CP, implicature, information packaging & its application  |  |   
+14  (12/1)  |  Politeness  |  Theories of politeness  |  Lecture & Discuss  |   
+15  (12/8)  |  Politeness  |  Universality of politeness, social pragmatics and power  |  Lecture & Discuss  |  Paper presentation   
+16  (12/15)  |  Presentation  |  Politeness & its application  Term Paper Due  |  |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

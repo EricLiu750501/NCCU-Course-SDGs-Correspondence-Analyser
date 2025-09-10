@@ -1,0 +1,161 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：選修英文：科技英文
+#####  Course Name: English Elective: English for Information Technology
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：599776001 Course No.599776001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：外文中心 Course Department:Foreign Languages Center/B/0 
+  * 授課老師：余懿珊 Instructor: YU YI-SHAN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三78E Session: wed16-19
+##  課程簡介Course Description
+In today's digital era, where information technology is ever-present and artificial intelligence is advancing rapidly, it is crucial for individuals to possess tech-savviness and stay updated with the latest IT trends. The English for Information Technology course is specifically tailored to introduce cutting-edge topics in information technology that directly align with the needs of the Millennials. 
+This one-semester 3-credit-hour course is designed for high-intermediate/advanced students of English as a foreign language. This is not a course that aims to teach students information technology knowledge. Rather, it is designed to allow students to transform their English language knowledge into the communication skills necessary for careers in the IT field or any profession. In addition, students are encouraged to think about and consider ethical issues and related topics in information technology. Students will also learn how to discover and discuss new and trending information technologies. A considerable emphasis will be put on training students to create an academic research poster on a topic on issues related to information technology. 
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+The primary goal of this course is to allow students to maximize their English listening, speaking, and writing abilities while exploring a wide range of topics in information technology. The course will be conducted entirely in English.
+Learning outcomes:
+Upon completion of the course, students are expected to have:
+  1. broadened their knowledge of trending technologies and their applications,
+  2. possessed an awareness of the global information technology field,
+  3. learned the skills to share expertise and credentials effectively,
+  4. learned the skills to communicate in English in the IT workplace,
+  5. learned how to search and organize information regarding emerging IT,
+  6. learned how to create an academic research poster,
+  7. learned the skills to present research findings/results in speaking and in writing,
+  8. upgraded their English presentation skills.
+By the end of this course, students are expected to be able to demonstrate their knowledge on different topics covered in class by using topic-related vocabulary words and phrases appropriately.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Week |  Topic |  Content and Reading Assignment |  Teaching Activities and Homework  
+---|---|---|---  
+1 |  Course Orientation | 
+  * Introduction to the course
+  * Soft skills for IT professionals 
+| 
+  * Prepare a personal elevator pitch
+2 |  The WWW | 
+  * How technology can enhance our brain (or not?)
+| 
+  * IT news sharing
+3 |  Jobs in IT | 
+  * New technical and non-technical careers in IT 
+| 
+  * A glance at the IT job market
+4 |  Digital Badge | 
+  * Global skills passport
+  * Make the most of your profile
+| 
+  * Assignment 1:
+Create your own LinkedIn profile  
+5 |  Technopreneurship | 
+  * E-commerce and E-business 
+  * Creating and scaling a tech start-up
+| 
+  * Craft an elevator pitch for a product/service
+6 |  IT for Academic | 
+  * How is a GenAI Chatbot trained?
+  * Prompt Engineering
+| 
+  * Create your own Socratic tutor
+7 |  IT Workplace I | 
+  * Communicating in tech
+| 
+  * Assignment 2:
+Write polite responses to client requests and reports  
+8 |  Presentation |  Student presentation |  Presentation 1: Promote your IT product/service  
+9 |  Presentation |  Student presentation |  Presentation 1: Promote your IT product/service  
+10 |  IT Workplace II | 
+  * IT Project management
+  * Scrum for IT
+| 
+  * Give a shout-out to a colleague
+11 |  Trending Technologies | 
+  * Think beyond the trends
+  * Logical fallacies
+| 
+  * Decide an IT research topic
+12 |  Green Technologies | 
+  * Ecological impacts of technology 
+  * Filter bubbles & False news
+| 
+  * Come up with IT research questions and hypotheses
+13 |  Information Literacy I | 
+  * Format of an academic research poster 
+  * How to search effectively
+| 
+  * Web research activity 
+  * Design an academic research poster
+14 |  Information Literacy II | 
+  * Paraphrasing skills
+  * References and citations
+| 
+  * Prepare for the presentation
+15 |  Presentation |  Group presentation |  Presentation 2: Present your academic research poster  
+16 |  Final Exam |  Final Exam |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

@@ -1,0 +1,114 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：運動產業概論
+#####  Course Name: Introduction of Sports Industry and Practice
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：NU1011001 Course No.NU1011001
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：運動學程 Course Department:Sport Industry and Culture/B/4 
+  * 授課老師：孫秉宏 Instructor: SUN PING-HUNG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：五D56 Session: fri13-16
+##  課程簡介Course Description
+  1. 運動產業概論與趨勢分析。
+  2. 運動行銷與品牌管理實務。
+  3. 運動賽事規劃與營運管理。
+  4. 運動創業與職涯規劃實務。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 跨域連結
+  * B. 團隊意識
+  * C. 文化素養
+  * D. 自主實踐
+  * E. 國際視野
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+  1. 認識運動產業的結構與運作模式。
+  2. 聚焦運動品牌行銷策略與操作。
+  3. 培養團隊合作與問題解決能力。
+  4. 習得運動產業實務能力。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+*備註:主題可能因運動產業環境更新而調整
+週次 |  課程主題 |  課程內容 |  教學活動與作業  
+---|---|---|---  
+1 |  課程介紹 |  課程進行方式 運動產業概念建立 |  教師簡介/課程進行方式  
+2 |  運動產業概論1 |  臺灣運動產業現況與挑戰 |  臺灣運動產業現況與挑戰 交流討論/課堂書寫心得  
+3 |  運動產業概論2 |  全球運動產業發展趨勢 |  全球運動產業發展趨勢 交流討論/課堂書寫心得  
+4 |  運動賽事1 |  運動賽事規劃與管理1 |  運動賽事規劃與管理 交流討論/課堂書寫心得  
+5 |  運動賽事2 |  運動賽事規劃與管理2 |  運動賽事規劃與管理 交流討論/課堂書寫心得  
+6 |  運動場館 |  運動場館經營與資源整合 |  運動場館經營與資源整合 交流討論/課堂書寫心得  
+7 |  運動媒體 |  運動媒體與數位內容經營 |  運動媒體與數位內容經營 交流討論/課堂書寫心得  
+8 |  期中回顧 |  期中回顧 |  筆試：1～7週上課內容 （期末專題分組確認）  
+9 |  業師演講1 |  業師分享實務經驗與案例 |  運動行銷實務、交流  
+10 |  運動行銷1 |  運動行銷與品牌經營1 |  運動行銷與品牌經營 交流討論/課堂書寫心得  
+11 |  運動行銷2 |  運動行銷與品牌經營2 |  運動行銷與品牌經營 交流討論/課堂書寫心得  
+12 |  業師演講2 |  業師分享實務經驗與案例 |  運動品牌實務、交流  
+13 |  運動科技 |  當代運動科技與創新應用 |  運動科技案例分享、交流討論  
+14 |  運動經紀 職涯發展 |  運動經紀與職涯發展 |  運動經紀與職涯發展、交流討論  
+15 |  期末報告 |  期末團隊專題成果發表1 |  報告、交流討論、票選最佳組別  
+16 |  期末報告 |  期末團隊專題成果發表2 |  報告、交流討論、票選最佳組別  
+####  其他： Others: 業師講座 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

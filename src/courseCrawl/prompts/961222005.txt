@@ -1,0 +1,95 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：公平交易法原理與案例分析
+#####  Course Name: Principle and Case Analysis of Fair Trade Law
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：961222005 Course No.961222005
+#### 修別：群
+Type of Credit: Partially Required 
+_1.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：法碩專一、法碩專二 Course Department:Executive Master of Laws Program/M/1&2 
+  * 授課老師：王立達 Instructor: WANG LI-DAR 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間： Session: 
+##  課程簡介Course Description
+本課程乃是公平交易法的入門課程，以限制競爭與不公平競爭為其主要內容。
+專班同學擁有業界工作經驗，就這門課而言進入門檻不高，並不需要先修課程，歡迎剛入學尚未曾修習法律課程的一年級同學選修。
+本學期課程大綱
+一、競爭法規範架構介紹
+二、實務案例報告
+三、專家專題講座
+※在總人數未超過60人之限度內，可接受加簽。有意加簽者請於 6/28 第一次上課時親自出席（綜合院館一樓104教室），集中填寫加簽單，完成加簽手續。
+※旁聽政策：須經授課教師同意，並得視修課同學人數是否充足，決定旁聽同學是否必須進行課堂報告。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程以公平交易法為其主要內容，旁及於值得關注的產業管制法課題。
+公平交易法主要區分為兩部分：第二章的限制競爭法，與第三章的不公平競爭法。限制競爭法，通稱為競爭法（competition law，又稱 antitrust law）主要乃在防止市場上可能出現的各種限制競爭行為。它是自由市場經濟的基本規範，也是個別產業管制法如電信法、能源法等之重要基礎。
+不公平競爭法（unfair business practices, unfair competition）在我國由於同樣規定在公平交易法之內，經常被認為屬於競爭法的一部分。事實上兩者雖然關係密切，其實並不相同，屬於兩個彼此獨立的法領域。（限制）競爭法的規範焦點，在於事業透過單獨或集體的市場力量，破壞市場自由競爭機制。不公平競爭法所非難的重點，則非著眼於足以破壞市場機制之事業市場力量，而在於競爭方法本身之惡質性，例如欺瞞、仿冒、榨取他人努力成果等。這兩個法律領域同樣都是本課程的涵蓋範圍。
+本課程的目的，在於透過對於公平交易法的整體介紹、專家講座、案例報告等方式，提供同學對於公平交易法的整體認識，帶領同學領會該法現行規定及其背後的重要規範考量，培養進一步探索經濟事務相關規範領域的學識基礎，並且養成對於經濟管制核心議題的掌握評估與分析能力。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+**每周上課進度，以及本課程上課日期與時間，詳見附檔 。  
+（07/26適逢罷免案投票日，停課一次。課程延後一周，於08/09結束）**
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

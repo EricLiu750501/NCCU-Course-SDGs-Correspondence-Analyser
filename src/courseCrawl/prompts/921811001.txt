@@ -1,0 +1,101 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：跨域治理
+#####  Course Name: Boundary-spanning Governance
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：921811001 Course No.921811001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：行管碩一、行國防一、行管碩二、行國防二 Course Department:Master of Eminent Public Administrators/M/1&2 
+  * 授課老師：陳敦源 Instructor: CHEN DON-YUN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三FGH Session: wed19-22
+##  課程簡介Course Description
+本課程的目的，是希望結合跨域管理理論與本土研究研讀，使同學對於跨域管理的重要性與在地性能有更為深刻的認識。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程前1/3，希望藉由與跨域管理相關理論的引介與討論，讓同學在概念上對於跨域管理的議題能有獨立思考的能力；接著在課程後2/3的實務單元當中，基於理論思考訓練，從「公私協力」、「政治與行政關係」、以及「組織間協調」等三個方面來討論，以收理論與實務結合的果效。本課程以老師授課、學生個案討論、電影欣賞、專題報告、以及綜合討論等多元方法進行，學生的參與是上課成功最關鍵的因素，因此，到校上課是學生最基本的責任，請同學務必珍惜面對面上課的時光，從老師與其他學生的身上，學到課本上未必能夠親身學習到的默會知識(tacit knowledge)。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 |  進 度 內 容 |  閱讀材料編號  
+---|---|---  
+1 |  (9/3) 介紹與理論(I): 民主治理下的跨域管理 |  1-3, 5-6 |  A B-1,B-2  
+2 |  (9/10) 理論(II)：政治/行政二分、責任與回應 |  9,10 |  C  
+3 |  (9/17) 理論(III)：公私部門差異、跨部門治理 |  12,13 |  D-1, D-2  
+4 |  (9/24) 理論(VI)：組織間合作 |  16-19 |  E  
+5 |  (10/1) 理論(V)：網絡治理 |  20-23 |  F  
+6 |  (10/8) 實務-公私協力(I)：社會服務輸送 |  24-26 |  G  
+7 |  (10/15) 實務-公私協力(II)：外包與合約管理 |  27-29 |  H  
+8 |  (10/22) 實務-公私協力(III)：第三部門 |  30-32 |  I  
+9 |  (10/29) 實務-政治與行政關係(I)：府會聯絡 |  33-36 |  J-1, J-2  
+10 |  (11/5) 實務-政治與行政關係(II)：政務/事務關係 |  37-40 |  K-1,K-2  
+11 |  (11/12) 實務-政治與行政關係(III)：中央與地方關係 |  41-44 |  L-1,L-2  
+12 |  (11/19) 實務-組織間協調(I)：危機與災難管理 |  45-47 |  M  
+13 |  (11/26) 實務-組織間協調(II)：領導與團隊建立 |  48-51 |  N-1,N-2  
+14 |  (12/3) 實務-組織間協調(III)：政策網絡管理 |  52-55 |  O-1,O-2  
+15 |  (12/10) 期末課堂報告(一) |  |   
+16 |  (12/17) 期末課堂報告(二) |  |   
+####  其他： Others: 個案教學(包括影片教學) 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

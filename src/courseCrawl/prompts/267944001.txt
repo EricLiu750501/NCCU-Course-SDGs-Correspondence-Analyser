@@ -1,0 +1,107 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：原住民族傳統慣習與國家法制
+#####  Course Name: Indigenous Traditional Customs and National Legal System
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：267944001 Course No.267944001
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：原碩專一、原碩專二、原碩專三、原碩專四 Course Department:Masters Program in Land Policy and Environmental Planning for Indigenous Peoples/M/1&2&3&4 
+  * 授課老師：吳秦雯、陳怡萱 Instructor: WU CHIN-WEN/CHEN YI-SHIUAN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三D56 Session: wed13-16
+##  課程簡介Course Description
+本課程預計從近期憲法解釋與憲法訴訟對於原住民族權利的討論開始，再分成三個單元分別討論原住民族文化權、原住民族土地權及自然資源權利、自治權等主題。每一單元包括專業講師系列講座、判決或文獻討論，透過講座講師的講授、實務判決與文獻的研讀，希冀同學從理論與實務當中，思考原住民族文化與法律語言的鴻溝、原住民族傳統慣習與國家法制的衝突，並思辨溝通及對話的可能。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+了解原住民族之文化權
+了解原住民族傳統慣習與當代權利保護與救濟制度
+了解原住民族主體、自治權之建構與困境
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 |  日期 |  上課主題(暫定) |  授課教師／講座教師  
+---|---|---|---  
+1 |  09/03 |  課程簡介 |  授課教師  
+2 |  09/10 |  重思原住民保留地之集體性 |  怡萱老師  
+3 |  09/17 |  憲法解釋、憲法訴訟與原住民族集體 |  秦雯老師  
+【單元一 原住民族之文化權】  
+4 |  09/24 |  從兩公約論原住民傳統文化習慣之保障(暫定) |  徐揮彥老師（國立東華大學法律學系教授）（暫定）  
+5 |  10/01 |  國際人權法與原住民族狩獵文化權利(暫定) |  鄭川如老師（國立臺北教育大學文教法律研究所副教授）（暫定）  
+6 |  10/08 |  平埔族身分與憲法訴訟 |  吳欣陽老師（執業律師、國立臺北教育大學文教法律研究所兼任助理教授）（暫定）  
+7 |  10/15 |  判決研讀與討論 |  授課教師  
+8 |  10/22 |  文獻研讀與討論 |  授課教師  
+【單元二 原住民族傳統慣習與當代權利保護與救濟制度】  
+9 |  10/29 |  原住民族自然資源利用權與刑事訴訟(暫定) |  范耕维老師（國立中正大學法律學系副教授）（暫定）  
+10 |  11/05 |  原住民保留地爭議與行政訴訟(暫定) |  王韻茹老師（國立東華大學法律學系）  
+11 |  11/12 |  原住民族諮商同意權與行政訴訟(暫定) |  授課教師  
+12 |  11/19 |  判決研讀與討論 |  授課教師  
+13 |  11/26 |  文獻研讀與討論 |  授課教師  
+【單元三 原住民族主體、自治權之建構與困境】  
+14 |  12/03 |  部落公法人的當前進展 |  原住民族委員會官員（暫定）  
+15 |  12/10 |  原住民族傳統智慧創作 |  洪淳琦老師（國立清華大學科技法律研究所副教授）（暫定）  
+16 |  12/17 |  同學報告與討論 |  授課教師  
+|  |  |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

@@ -1,0 +1,210 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：心理與生活
+#####  Course Name: Psychology and Life
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：043031001 Course No.043031001
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：心理系 Course Department:Psychology 
+  * 授課老師：孫蒨如 Instructor: SUN CHIEN-RU 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：一78E Session: mon16-19
+##  課程簡介Course Description
+心理與生活是一門讓學生透過對心理學知識的學習與掌握，能夠更了解自己、了解他人，並能將所學融入及活用於現實生活中的通識課程。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程目標有三: (一)使修課學生能了解心理學的知識範疇；(二)使學生能學到一門優質的通識課程；(三)學生能獲得活用知識的秘訣。本課程的設計突破以往僅以紙筆測驗評分、老師單向對學生講授的課程形式，透過作業設計強化學生以下四項學習能力：(1)從做中學、(2)團隊合作、(3)反思與對話、(4)口語表達與延伸學習。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+| 
+### 週次
+| 
+### 當週主題
+| 
+### 課程內容
+| 
+### 教學活動
+### 作業設計
+| 
+### 學生各週須投入的學習時間）  
+---|---|---|---|---  
+### 第1週
+| 
+### 課程導論
+| 
+### 心理學是什麼？
+| 
+### 課程介紹、TA與學生相見歡
+| 
+### 8  
+### 第2週
+| 
+### 大腦的世紀
+| 
+### 生理心理學
+| 
+### TA討論課程
+| 
+### 8  
+### 第3週
+| 
+### 感覺與知覺
+| 
+### 繽紛多元的感官世界
+| 
+### TA與其負責之小組進行交流（做名牌）
+| 
+### 8  
+### 第4週
+| 
+### 學習與生活
+| 
+### 無處不學習？
+| 
+### TA: 督促進行團體作業
+| 
+### 8  
+### 第5週
+| 
+### 個人發展
+| 
+### 什麼造成了今日之我？
+| 
+### TA討論作業
+| 
+### 8  
+### 第6週
+| 
+### 動機與情緒
+| 
+### 晴時多雲偶陣雨
+| 
+###  TA帶領討論及發想團體作業
+| 
+### 8  
+### 第7週
+| 
+### 期中考
+| 
+### 第一次團體作業發表
+|  | 
+### 10  
+### 第8週
+| 
+### 觀賞影片
+|  | 
+### 影片討論材
+| 
+### 8  
+### 第9週
+| 
+### 常見的心理疾病
+| 
+### 中邪還是生病？
+| 
+### TA簡介校園心理健康
+| 
+### 8  
+### 第10週
+| 
+### 社會影響
+| 
+### 請君入甕，影響於無形？
+| 
+### TA帶領討論
+| 
+###  8  
+### 第11週
+| 
+### 人際吸引力
+| 
+### 友達以上、戀人未滿？
+| 
+### 團體作業討論
+| 
+### 8  
+### 第12週
+| 
+### 期末考
+| 
+### 期末考
+|  | 
+### 8  
+### 第13週
+| 
+### 業師演講
+| 
+### TBD
+|  | 
+### 8  
+### 第14週
+| 
+### 期末團體作業發表會
+|  |  | 
+### 8  
+上述內容均為暫訂，仍在持續修改中  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

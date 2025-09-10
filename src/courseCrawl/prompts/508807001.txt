@@ -1,0 +1,111 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：土耳其不思議
+#####  Course Name: The Wonders of Turkey
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：508807001 Course No.508807001
+#### 修別：選
+Type of Credit: Elective 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：土文二 Course Department:Turkish Language and Culture/B/2 
+  * 授課老師：艾睿哲 Instructor: Altun Abdulrezak 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二56 Session: tue14-16
+##  課程簡介Course Description
+Turkey is a country in the center of the antic World. The country placed between Europe, Asia and Africa continents. As a bridge, Turkey has many historical and cultural sites, which are the best known by the modern civilisations. Most of these heritage, recorded by the UNESCO. The course aimed that regognized of these cultural and historical sites (heritage) of Turkey.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備使用土耳其語文之基本能力Temel düzeyde Türk dilini kullanma yetkinliği
+  * B. 以土耳其語文評估運用資訊Türkçeyle malzeme değerlendirme ve ilgili bilimsel araştırma yapma yetkinliği，並進行學術相關研究之能力
+  * C. 通曉各相關領域之溝通表達能力Çeşitli konular üzerinde gereken anlatım ve iletişim yetkinliği
+  * D. 具備參與國際交流事務之能力Uluslararası işlere katılma yetkinliği
+  * E. 具備以人本精神探索、鑑賞多元文化之能力Çeşitli beşeri kültürleri takdir etme yetkinliği
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+The students will learn that;
+  * A general history of territory which is spaced in today’s modern Turkey.
+  * As a UN institution, how works UNESCO and it’s world heritage list.
+  * Features of 21 sites of Turkey in World Heritage List
+##  每周課程進度與作業要求 Course Schedule & Requirements
+  1. Week Course introduction
+  2. Week Modern Turkey with indicators
+  3. Week An overview of history of Anatolia
+  4. Week UNESCO and its World Heritage Conventions 
+  5. Week Great Mosque and Hospital of Divriği Historic Areas of İstanbul
+  6. Week Göreme National Park and Rock Sites of Cappadocia Hattuşa: The Hittite Capital
+  7. Week Mt. Nemrut Hierapolis - Pamukkale
+  8. Week MIDTERM EXAM
+  9. Week Xhantos –Letoon City of Safranbolu
+  10. Week Archeological site of Troy Selimiye Mosque and its social complex
+  11. Week Neolitic site of Çatalhöyük Bursa and Cumalıkızık: The birth of Ottoman Empire
+  12. Week Pergamon and its multi-layered cultural landscape Diyarbakır fortress and Hevsel Gardens Cultural Landscape
+  13. Week Ephesus Archaeological site of Ani
+  14. Week Aphrodisias Göbeklitepe
+  15. Week Arslantepe Mound Gordion
+  16. Week  FINAL EXAM
+---  
+####  其他： Others:
+### Somuncu, M. & Yiğit, T., “World heritage sites in Turkey: Current status and problems of conservation and management”, Coğrafi Bilimler Dergisi, 8 (1), 1-26 (2010) 
+### Leask, A. & Fyall, A, Managing world heritage sites, Routledge, 2006
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

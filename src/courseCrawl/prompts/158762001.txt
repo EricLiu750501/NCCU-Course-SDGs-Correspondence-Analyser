@@ -1,0 +1,122 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：地方學研究與實務專題
+#####  Course Name: Theory & Practice:Local Historical Studies
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：158762001 Course No.158762001
+#### 修別：選
+Type of Credit: Elective 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：台史碩一、台史博一、台史碩二、台史博二 Course Department:Graduate Institute of Taiwan History/G/1&2 
+  * 授課老師：李明仁 Instructor: LI MING JEN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四34 Session: thu10-12
+##  課程簡介Course Description
+一 本課程特色是以地方研究及實際的操作為主。
+二 本課程以歷史學研究文獻資料為主軸，再配合實際的田野調查為輔。
+三 田野調查除了口訪在地耆老及相關人員外，也須對當地的古蹟、古物、古地契、古文書及古碑銘和族譜的收集。
+四 透過上述的地方文獻資料收集及田野調查後，將取得的資料作解讀、分析與研究，完成書面的報告。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEFGHIJ雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 1、台灣歷史專業知能
+  * B. 2、獨立研究能力
+  * C. 3、國際觀視野
+  * D. 4、跨領域知識
+  * E. 5、語文溝通能力
+  * F. 1、台灣近現代史專業能力
+  * G. 2、經典知識能力
+  * H. 3、原創性的獨立研究能力
+  * I. 4、學術發展能力
+  * J. 5、教學能力
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+一 課程目標是希望學生透過上述的方法與研究之訓練，將來能具備有獨立的地方學研究之能力。
+二 未來能夠承擔地方文史的研究工作。
+三 能具備地方志書或宮廟志等編纂能力。
+四 可以成為地方文史導覽之專才（導遊或精緻導覽）。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+第一階段：課程簡介、研究方法及參考書目。
+1週：課程介紹
+2週：研究方法與參考書介紹 
+3週：地方學研究介紹
+第二階段： 課程相關內容講授。以方志編纂為例
+4週清代方志介紹及比較：《臺灣府志》、《諸羅縣志》
+5週：日治時代相關方志：
+6週：當代方志介紹與比較：《坪林鄉志》、《萬里鄉志》、
+7週：廟宇宮志介紹：《北港朝天宮志》、《新港奉天宮志續修》。
+第三階段：學生預擬階段
+8週：學生擬定研究題目、大綱、研究方法、參考書（一）
+9週：學生擬定研究題目、大綱、研究方法、參考書（二）
+第四階段：相關案例介紹及實務
+10週：資料收集、路線規劃、分組討論 
+11週：以學生所設計地區為實察地點（一） 
+12週：研究與討論 
+13週：以學生所設計地區為實察地點（二） 
+14週：研究與討論
+第五階段：研究成果驗收與討論
+15週：學生專題報告（一）（二）
+16週：期末總檢討
+17-18週：繳交期末報告
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

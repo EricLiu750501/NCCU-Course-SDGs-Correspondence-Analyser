@@ -1,0 +1,103 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：環視全球－挑戰國際視野
+#####  Course Name: Global Vision: Understanding the World that Revolves around you
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：042142001 Course No.042142001
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：國務院 Course Department:International Affairs 
+  * 授課老師：楊文琪 Instructor: YANG WEN-CHI 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二78E Session: tue16-19
+##  課程簡介Course Description
+本課程介紹國際關係之歷史脈動與發展，連結國際關係之基本理論，使同學理解目前的世界格局如何形成。目前世界面臨多重挑戰，大國競爭對國際局勢的影響、科技發展帶來的機會與挑戰，世界各地的武裝衝突以及全球的環境問題等等。本課程藉由提升學生對國際事務的興趣著手，拓展其對國際事務的理解與認識國際事務運作的相關基本理論，進而培養其宏觀的國際視野，以及自我掌握國際脈動的能力，進一步促使同學對全球的重大挑戰提出可能解決方案。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+透過自我自主學習、老師重點提示、及助教帶領討論，修課學生應該能夠具備充分知識，理解當前國際關係之歷史發展、強權政治、全球化帶來的挑戰等國際議題，對國際事務之狀況能夠進行判斷分析、及預期可能之發展。為提高學習成效，本課程運用多種衡量指標：課堂小考、小組報告之多元評量、助教課程等。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 |  日期 |  課程主題 |  課程內容與指定閱讀  
+---|---|---|---  
+1 |  9/2 |  課程介紹與分組 |  介紹課程內容、要求及評分說明；分組  
+2 |  9/9 |  瞭解國際事務 |  你的世界觀如何形成? Goldstein，第1章；Heywood， 第1章  
+3 |  9/16 |  認識世界的方法(1) |  國際關係基本概念 Goldstein，第1章；Heywood， 第1章  
+4 |  9/23 |  認識世界的方法(2) |  國際關係理論簡介  
+5 |  9/30 |  國際關係的分析層次 |  不同的分析層次如何影響我們對世界的理解  
+6 |  10/7 |  大國競爭 |  Nye，第2-4章。  
+7 |  10/14 |  中國崛起與美中關係 |  Allison。  
+8 |  10/21 |  期中報告 |  期中報告建議及回饋  
+9 |  10/28 |  地緣政治競合 |  戰爭與國際格局變動  
+10 |  11/4 |  專題演講 |  邀請中  
+11 |  11/11 |  全球化的過去、現在與未來 |  全球化的挑戰與機會 Held et al, 緒論；Heywood, 第4章  
+12 |  11/18 |  南北差距與世界不平等 |  你同意依賴理論的觀點嗎? Goldstein，第12章  
+13 |  11/25 |  國際貿易與制度 |  自由貿易與區域貿易整合  
+14 |  12/2 |  氣候變遷及永續發展 |  你認為國家間合作的可能性有多高? Giddens，第1章；Heywood，第16章  
+15 |  12/9 |  技術創新與未來發展 |  AI在國際政治、軍事和經濟領域中的應用和潛在風險  
+16 |  12/16 |  期末展演 |  國際的重要挑戰及可能的解決方案  
+17 |  12/25 |  準備書面報告 |   
+18 |  1/7 |  自主學習綜整 |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

@@ -1,0 +1,122 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：大學英文（一） 
+#####  Course Name: College English I
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：032001241 Course No.032001241
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：外文中 Course Department:Foreign Languages Center 
+  * 授課老師：陳彩虹 Instructor: CHEN TSAI-HUNG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：五D56 Session: fri13-16
+##  課程簡介Course Description
+College English I/II is a two-semester course, designed to help students improve their English language proficiency, be prepared for learning in a higher education environment in English, and develop the ability to engage critically with the world. While it is a four-skills (listening, speaking, reading, writing) integrated course, a particular emphasis will be placed on speaking and writing skills freshman students tend to lack most. All College English I/II courses are conducted in English.
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+By the end of the course, students will have improved their English language proficiency, be better prepared for learning other subjects in EMI (English as a medium of instruction) settings, and acquired familiarity with a selection of issues related to cross-cultural communication.
+_Learning outcomes for speaking_
+By the end of the course, students will be able to:
+  * Initiate, continue, and end social and academic conversations
+  * Propose/ask questions appropriately and clearly in formal and academic occasions
+  * Narrate an event and describe objects
+  * Summarize reading and listening content
+  * Express opinions regarding reading and listening materials
+_Learning outcomes for writing_
+By the end of the course, students will be able to:
+  * Write a formal email in the higher education context
+  * Depict an experience and describe objects
+  * Describe statistical data and diagrams
+  * Write a summary of reading and listening content
+  * Write a short composition
+_Learning outcomes related to intercultural awareness_
+By the end of the course, students will have improved their ability to:
+  * Analyze cultural differences using relevant intercultural theories
+  * Identify potential misunderstandings or conflicts in intercultural situations
+  * Gain a better understanding of their own culture
+##  每周課程進度與作業要求 Course Schedule & Requirements
+The following schedule will be adjusted to accommodate the progress of the class.  
+---  
+週次 Week |  課程主題 Topic |  課程內容與指定閱讀 Content and Reading Assignment |  教學活動與作業 Teaching Activities and Homework  
+---|---|---|---  
+1 |  Course Introduction & email Writing |  Syllabus overview and academic email basics |  Writing exercise: Compose an email to a professor  
+2 |  Describing and managing conversations | Conversation phrases handout |  Assigned exercises  
+3 |  Understanding communication styles |  Extracts from a book |  Assigned exercises  
+4 |  Hofstede's cultural dimensions |  Moodle lesson: Videos and articles |  Moodle quizzes  
+5 |  Summary writing |  Sample article for summary writing |  Writing exercise: Write a summary  
+6 | Discussing interpersonal relationships |  Supplementary materials | Group discussion  
+7 | Reading biographies |  A newspaper article | Prepare for the midterm exam  
+8 |  Stereotypes |  Moodle lesson: Videos and articles | Moodle quizzes  
+9 |  Identifying story types |  Useful expressions and sample dialogues |  Assigned exercises  
+10 |  Midterm exam |  N/A |  Exam  
+11 | Retelling stories |  Newspaper articles | Group discussion  
+12 |  Describing statistical data and diagrams |  Data chart examples and model paragraphs |  Writing exercise: A description of visual data  
+13 |  Education |  Moodle Lesson: Videos and articles |  Moodle quizzes  
+14 | Exploring humor across borders |  Extracts from a book | Assigned exercises  
+15 | Delivering jokes |  Sample jokes |  Prepare for the final exam  
+16 |  Final Exam |  N/A |  Exam  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

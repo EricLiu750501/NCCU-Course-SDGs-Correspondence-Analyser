@@ -1,0 +1,123 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：應用個體經濟
+#####  Course Name: Applied Microeconomics
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：261897001 Course No.261897001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：國發碩一、國發博一、國發碩二、國發博二 Course Department:Graduate Institute of Development Studies/G/1&2 
+  * 授課老師：蘇昱璇 Instructor: SU YU-HSUAN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四234 Session: thu09-12 
+##  課程簡介Course Description
+Economics is the social science that analyzes the production, distribution, and consumption of goods and services. Economics provides a highly analytical and scientific framework to study the world. Applied Microeconomics builds on the theories of an introductory course by utilizing mathematics to more precisely model what we see in the world and including more examples related to economic and social development. The skills gained through this course will provide an opportunity to specialize in applied microeconomic fields, such as Development Economics, Pubic Finance, Natural Resource and Environmental Economics, International Trade and many others.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEFGH雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備發展理論基礎與科際整合架構的思考與研究之知能
+  * B. 具備國家發展理論與政策實務分析的判斷與批判之能力
+  * C. 具有人文關懷與多元價值涵養的解決問題與創新之能力
+  * D. 具備國際視野與協調合作思維的溝通與行動之能力
+  * E. 具備發展理論基礎與科際整合架構的思考與研究之知能
+  * F. 具備國家發展理論與政策實務分析的判斷與批判之能力
+  * G. 具有人文關懷與多元價值涵養的解決問題與創新之能力
+  * H. 具備國際視野與協調合作思維的溝通與行動之能力
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+Fundamental Knowledge
+  * Understand and be able to use microeconomic terminology
+  * Understand how individuals and firms make themselves as well off as possible in a world of scarcity
+  * Understand how prices inform the decisions about which goods and services to produce, how to produce them, and who gets them
+  * Understand how government policies affect the allocation of resources in a market economy
+  * Understand how market structure influences the allocation of resources
+Applications
+  * Use microeconomic principles and diagrams to understand and explain economic events and other social phenomena
+  * Use basic calculus to solve optimization problems
+  * Use economic reasoning to explain the strategic choices of individuals or organizations
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Week | Topic | Required Reading | Teaching Activities  
+and Homework |  Student workload expectation  
+(Outside-of-class Hours)  
+---|---|---|---|---  
+1 | Introduction & Math | Chapter 1 | Lecture | 4  
+2 | Supply and Demand | Chapter 2 | Lecture | 4  
+3 | A Consumer's Constrained Choice | Chapter 3 | Lecture & Quiz | 4  
+4 | Demand | Chapter 4 | Lecture & Quiz | 4  
+5 | Holiday |  |  |   
+6 | Consumer Welfare and Policy Analysis | Chapter 5 | Lecture & Quiz | 4  
+7 | Exam 1 | Chapter 1-5 | Written Exam | 16  
+8 | Firms and Production | Chapter 6 | Lecture | 4  
+9 | Costs | Chapter 7 | Lecture & Quiz | 4  
+10 | Competitive Firms and Markets & Applications | Chapter 8 | Lecture & Quiz | 4  
+11 | Properties & applications of the Competitive Model | Chapter 9 | Lecture & Quiz | 4  
+12 | General Equilibrium & Economic Welfare | Chapter 10  | Lecture & Quiz | 4  
+13 | Monopoly | Chapter 11 | Lecture & Quiz | 4  
+14 | Pricing & Advertising & Game Theory | Chapter 12 & 13 | Lecture & Quiz | 4  
+15 | Oligopoly and Monopolistic Competition | Chapter 14 | Lecture & Quiz | 4  
+16 | Exam 2 | Chapter 6-14 | Written Exam | 16  
+17 |  Online learning  | online learning | online learning | 4  
+18 | Online learning homework due |  |  | 4  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

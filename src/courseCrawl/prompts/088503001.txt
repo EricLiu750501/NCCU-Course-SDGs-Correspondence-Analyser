@@ -1,0 +1,101 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：中級商務華語
+#####  Course Name: Intermediate Business Chinese
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：088503001 Course No.088503001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：華語文中心 Course Department:Chinese Language Center 
+  * 授課老師：林佩君 Instructor: Lin PeiChun 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四78E Session: thu16-19
+##  課程簡介Course Description
+本課程針對具備中級華語能力 (TOCFL進階高階級/CEFR B1~B2/HSK5~6級/ACTFL Intermediate~Advanced) 的學生，依據台灣華語文能力基準第四級～第五級(TBCL 4～5)設計教學內容，並專注於職場溝通所需的的專業華語，以增進學習者在商務情境下的華語聽說讀寫能力。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程以商務溝通情境為主題，通過對話、生詞與短語、句型、閱讀理解、情境活動等教學內容，使學習者具備基礎的商務華語溝通能力，並對華人的商務文化建立基本的認識。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Week |  Date |  Weekly Progress (including in-class quizzes and homework)  
+---|---|---  
+1 |  9/4 |  分班測驗  
+2 |  9/11 |  L1抵達台灣  
+3 |  9/18 |  L1抵達台灣  
+4 |  9/25 |  L2拜訪客戶  
+5 |  10/2 |  L2拜訪客戶  
+6 |  10/9 |  L3產品介紹  
+7 |  10/16 |  L3產品介紹  
+8 |  10/23 |  期中考  
+9 |  10/30 |  L4行銷會議  
+10 |  11/6 |  L4行銷會議  
+11 |  11/13 |  L5提高業績  
+12 |  11/20 |  L5提高業績  
+13 |  11/27 |  L6徵才面試  
+14 |  12/4 |  L6徵才面試  
+15 |  12/11 |  L6徵才面試  
+16 |  12/18 |  期末考  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

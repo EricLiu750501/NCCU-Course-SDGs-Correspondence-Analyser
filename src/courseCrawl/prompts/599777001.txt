@@ -1,0 +1,125 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：選修英文：傳播英文
+#####  Course Name: English Elective: English for Mass Communication
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：599777001 Course No.599777001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：外文中心 Course Department:Foreign Languages Center/B/0 
+  * 授課老師：朱容萱 Instructor: CHU RONG-XUAN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三D56 Session: wed13-16
+##  課程簡介Course Description
+_English for Mass Communication_ has been designed with the aim of nurturing students’ expertise in English communication, fostering their ability to think creatively, solve problems, and effectively practice communication. By enrolling in this course, students can anticipate the acquisition of valuable skills that will enhance their prospects for future academic pursuits and employment.
+The course structure revolves around unit themes that focus on the practical application of English communication in diverse contexts. Specific units included in the design encompass a wide range of subjects, including an overview of communication applications, multimedia production of English communication such as podcast creation, video production, script development, and so on.
+Through active participation in this course, students will not only improve their English language proficiency, but also gain hands-on experience in applying their mass communication skills in real-life scenarios. The knowledge and expertise they acquire throughout this course will prove advantageous as they pursue further educational or career opportunities.
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+This course has been carefully designed to offer students the chance to enhance their ability to effectively convey their messages to an audience when communicating in English. Students will receive ongoing support and guidance to address any challenges they encounter throughout the course.
+The objectives & learning outcomes of the course include:
+  1. Enhancing students’ ability to deliver compelling public speeches and presentations.
+  2. Enabling students to identify and overcome their own communication weaknesses.
+  3. Boosting students’ confidence in carrying out practical communication tasks.
+  4. Providing students with opportunities to observe and analyze information and interactions across various communication mediums.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Week |  Topic |  Content and Reading Assignment |  Teaching Activities and Homework  
+---|---|---|---  
+1 |  Course Introduction |  Needs analysis |  Getting to know each other  
+2 |  Media Literacy |  Types of Communication |  Speaking task and group discussion  
+3 |  Managing communication |  Self-media and promotion |  Speaking task and group discussion  
+4 |  Fundamental aspects of verbal communication | 
+  1. Pronunciation and voice production
+  2. Prosody 
+|  Group work: to start a podcast: intro & outro  
+5 |  Effectiveness of self-media |  Public speaking, strategies and rhetorical devices |  Assignment Due  
+6 |  Digital communication and production  |  Reviewing and practicing scripts for a podcast |  Group work: to create a podcast episode  
+7 |  Oral communication skills | 
+  1. Asking for and giving information
+  2. Asking questions and responding politely
+|  Group Presentation I  
+8 |  Exhibition as a communication tool |  Using exhibitions to communicate ideas and concepts |  Group work: introducing an exhibition  
+9 |  Mid-term exam |  Exam |  Exam  
+10 |  News, Discourse and Communication | 
+  * Speech Act Theory
+  * Discourse Analysis
+  * Critical Discourse Analysis
+  * Frame Analysis
+|  Group work: video pre-production   
+11 |  Nonverbal communication | 
+  * Body language and presentation skills
+  * Gestures, posture and manners
+|  Group Presentation II  
+12 |  Video Communication  | 
+  * Metaphorical Framing theory
+  * Conceptual metaphor theory
+|  Group work: Video production and editing   
+13 |  Current issues regarding mass communication |  Reading exercise:  Challenges, trends and future |  Writing task and group discussion  
+14 |  Preparing and presenting persuasive speeches |  Agreeing and disagreeing, expressing opinions and demanding explanations |  Group Presentation III  
+15 |  Culture and media |  Conflict across cultures |  Writing task and group work  
+16 |  Final exam |  Exam |  Exam  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

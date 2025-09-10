@@ -1,0 +1,119 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：國際企業策略與管理
+#####  Course Name: International Business Strategy and Management
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：351028011 Course No.351028011
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：國貿碩一、國貿碩二 Course Department:International Business/M/1&2 
+  * 授課老師：譚丹琪 Instructor: TAN DANCHI 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：一567 Session: mon14-17
+##  課程簡介Course Description
+The objective of the course is to provide students with a comprehensive understanding of international business, and to develop students' abilities to analyze problems in an international business context. In each section of the course, there will be a mix of lecture and discussion. I will provide you a reservoir of conceptual tools and possible approaches for exploring the issues involved in conducting business abroad. 
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 專業知識之理論基礎Theoretical foundations of professional knowledge
+  * B. 理解與辨別道德、社會責任與永續議題To understand and identify ethical, socially responsible, and sustainability issues
+  * C. 問題解決與研究能力Problem solving and research capability
+  * D. 溝通能力Communication skills
+  * E. 團隊合作與領導能力Team work and leadership
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+Students are expected to utilize the theories and approaches learnt in the class to discuss practical problems in a real international business context. 
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Tentative Class Schedule
+Week 1 (Sept 1) Course overview and administration
+International business and globalization: An overview
+Week 2 (Sept 8) National differences in the cultural environment
+Week 3 (Sept 15) National differences in the political environment
+Case: Auchan: International Expansion and Market Exit Dilemma (HBSP)
+Week 4 (Sept 22) Industry globalization
+Case: Global Wine War 2015
+Due: The choice of country for mini presentation
+Week 5 (Sept 29) National holiday: Teacher Day
+Week 6 (Oct 6) National holiday: Mid Autumn Festival 
+Week 7 (Oct 13) Foreign Direct Investments
+International Entry Strategies
+Case: to be added
+Week 8 (Oct 20) Building and Managing Global Strategic Alliances
+Case: Xerox and Fuji Xerox (TM)
+Week 9 (Oct 27) Presentation: Assignments on Culture (I) 
+Due: One-page groupfinalproject proposal
+Week 10 (Nov 4) Strategy and Structure
+Case: to be added
+Week 11 (Nov 11) Knowledge management in MNEs
+Case: to be added
+Week 12 (Nov 17) Managing Global R&D and Manufacturing
+Case: to be added
+Week 13 (Nov 24) Global Human Resource Management
+Case: Assigned Abroad: Worth the Risk? (HBSP)
+Week 14 (Dec 1) Managing Global Marketing
+Case: to be added
+Week 15 (Dec 8) Final exam
+Week 16 (Dec 15) Group project presentation
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

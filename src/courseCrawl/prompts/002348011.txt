@@ -1,0 +1,100 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：體育[男女合班]—跆拳道與防身術初級 
+#####  Course Name: Physical Education [male and female]--Taekwondo and Self Defense Premier
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：002348011 Course No.002348011
+#### 修別：必
+Type of Credit: Required 
+_1.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：體育 Course Department:Physical Education Office 
+  * 授課老師：柯玉貞 Instructor: KO YU-CHEN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：五78 Session: fri16-18
+##  課程簡介Course Description
+本課程以跆拳道為主要的學習內容，課程中以跆拳道手部基本動作、足技與品勢為主要的教材，搭配防身術的教學，來建立正確的自我保護理念，了解防身基本常識及掌握防身基本技能，並將體能訓練與跆拳有氧等融入課程，讓學習者達到自我鍛鍊、增加自信、享受運動樂趣並提高身體素質與實用防身。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+1.養成自主與終身學習的態度與策略
+2.具備於體育活動和健康生活中，發展適切人際互動關係的素養，並展現包容異己、溝通協調及團隊合作的精神與行動。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+第一週 9/1~9/5 課程綱要介紹+暖身伸展操+跳繩
+第二週 9/8~9/12 暖身伸展操+基本體能與馬步正拳攻擊、防禦動作(一)+ 抬腿系列(一)
+第三週 9/15~9/19 基本體能與馬步正拳攻擊、防禦動作(二)+ 抬腿系列(二)
+第四週 9/22~9/26 手技與足技綜合練習、前踢、踢靶練習
+第五週 9/29~10/3 品勢：太極一章1-6、手技與足技綜合練習
+第六週 10/6~10/10 國慶日放假
+第七週 10/13~10/17 品勢：太極一章7-12、踢靶練習+防身術練習
+第八週 10/20~10/24 光復節補假
+第九週 10/27~10/31 品勢：太極一章13-18、動態基本手技足技綜合練習(一)+踢靶
+第十週 11/3~11/7 跆拳有氧與防身術概念 (借視聽教室)
+第十一週 11/10~11/14 跆拳有氧與防身術操作、生活防身術小組討論與分享
+第十二週 11/17~11/21 動態基本手技足技綜合練習(二)、踢靶練習，品勢練習
+第十三週 11/24~11/28 品勢練習+踢靶練習
+第十四週 12/1~12/5 課程總複習：手技、足技、品勢、防身術
+第十五週 12/8~12/12 期末跳繩驗收與課程複習
+第十六週 12/15~12/19 手足技測驗+繳交期末測驗品勢太極一場影片
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

@@ -1,0 +1,106 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：民事法綜合研習
+#####  Course Name: Comprehensive Study on Civil Law
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：601084001 Course No.601084001
+#### 修別：群
+Type of Credit: Partially Required 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：法律四甲、法律四乙、法律四丙 Course Department:Law/B/4 
+  * 授課老師：呂彥彬 Instructor: LU YEN-PIN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：一78 Session: mon16-18 
+##  課程簡介Course Description
+本課程將以請求權基礎的鑑定方式，貫穿民事財產法上之諸多重要問題，授課內容將按契約請求權、類似契約請求權、物上請求權、無因管理請求權、不當得利請求權及侵權行為請求權之順序，並以案例教學方式講授之。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEF雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 專業知識
+  * B. 實務運用
+  * C. 表達溝通
+  * D. 社會參與
+  * E. 人文關懷
+  * F. 國際視野
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程之目的，擬使參與課程的同學將過去橫向或個別學習民法所學到的內容，進一步融會貫通，以期對於民事財產法有更深刻的瞭解，同時也希望能對於即將面對國家考試的同學們有所助益。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+09月01日（第一周） 請求權基礎、國考實例演練
+09月08日（第二周） 契約請求權
+09月15日（第三周） 契約請求權
+09月22日（第四周） 類似契約請求權
+09月29日（第五周） 教師節補假
+10月06日（第六周） 中秋節放假
+10月13日（第七周） 類似契約請求權
+10月20日（第八周） 物上請求權
+10月27日（第九周） 物上請求權（回復請求權人與占有人之關係）
+11月03日（第十周） 無因管理（與委任）
+11月10日（第十一周）無因管理（與委任）
+11月17日（第十二周）不當得利請求權
+11月24日（第十三周） 不當得利請求權
+12月1日（第十四周）侵權行為請求權
+12月8日（第十五周）侵權行為請求權
+12月15日（第十六周）期末考
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

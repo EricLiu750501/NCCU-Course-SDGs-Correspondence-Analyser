@@ -1,0 +1,117 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：民族學 
+#####  Course Name: Ethnology
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：209001001 Course No.209001001
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：民族一 Course Department:Ethnology/B/1 
+  * 授課老師：官大偉 Instructor: KUAN DA-WEI 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四D56 Session: thu13-16
+##  課程簡介Course Description
+本課程旨在提供民族學的基礎知識，包括學科的起源及演變、重要的理論內容，並探討本學科在當代的發展取向。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備民族學基本知識與田野調查能力
+  * B. 具備閱讀、分析與撰寫民族誌之能力
+  * C. 具備閱讀、分析民族史之能力
+  * D. 具備跨領域應用民族學知識之能力
+  * E. 具備跨文化、多語言間的溝通能力
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本學期（上學期）的課程包含三大單元: 單元一:民族學中討論人群社會時常運用的核心觀念(亦即對於人群文化的理解)；單元二：民族學/人類學的起源、分立及其在西方的發展；單元三：民族學與當代世界。
+本學期的課程目標為：使學生能夠瞭解民族學的起源，以及在不同地區、不同時間的演變，並藉由學科演變的回顧和整理，帶入主要的人物與其研究內容，使學生能接觸民族學關注的主要議題及涉及的理論內容，並透過專題演講，使學生了解民族學在當代之社區營造、博物館策展與經營，以及城市行銷的應用。具體學習成效包括：
+1) 記憶：能夠記憶學科發展主要的人物、論述與相關思想的內容
+2) 理解：能夠對學科發展之相關思想背景與內容有進一步的理解和闡述
+3) 應用：能夠運用對於學科發展脈絡的瞭解，思考本學科當前的發展特色與潛力
+##  每周課程進度與作業要求 Course Schedule & Requirements
+第01週 課程介紹
+單元一:民族學中討論人群社會時常運用的核心觀念
+第01週 課程介紹+種族、民族與國族
+第02週 從文化的定義到語言、溝通與文化
+第03週 文化的結構與變遷
+第04週 親屬、繼嗣和社會結構
+第05週 婚姻、家庭與社群
+第06週 環境、生產與經濟
+第07週 組織、權力與政治
+單元二：民族學與當代世界
+第8週 專題演講
+第09週 期中考
+單元三：民族學/人類學的起源、分立及其在西方的發展
+第10週 18世紀末期的歐洲民族學的出現+德國的民族學與人類學 
+第11週 英國的民族學與人類學 
+第12週 法國的民族學與人類學 
+第13週 美國的民族學與人類學 上
+第14週 美國的民族學與人類學 下
+第15週 俄國的民族學與人類學
+第16週 期末考試
+作業要求：
+一、每周繳交當周課程心得
+二、按時準備分組簡報內容
+每週課前課後學習投入時間為4.5-6小時。
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

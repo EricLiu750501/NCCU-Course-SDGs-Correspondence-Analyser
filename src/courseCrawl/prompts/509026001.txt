@@ -1,0 +1,111 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：西班牙文化概論 
+#####  Course Name: Spanish Culture
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：509026001 Course No.509026001
+#### 修別：必
+Type of Credit: Required 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：歐文西二 Course Department:European Languages and Cultures/B/2 
+  * 授課老師：許玉燕 Instructor: HSU YU-YEN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四56 Session: thu14-16
+##  課程簡介Course Description
+本課程主要囊括選定教材之深度閱讀理解，並輔以網路相關資源搭配課堂應用。整體學習歷程分為上、下學期，內容設計以大二西語專業學生為對象，建議學習程度約在CEF A2以上。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備基本語言能力 Basic abilities of language
+  * B. 具備語言教學基本知能 Basic competence of language teaching
+  * C. 具備專業語文研究能力 Abilities of professional research in language
+  * D. 具備國際交流基本知能 Abilities of global mobility
+  * E. 具備語言實務應用能力 Abilities to applicate the language
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+1.本學期課程內容涵蓋地理、歷史、政治、教育、國際關係等主題，期以多元層面的認識與討論，讓學習者建立習得語言國家有關社會文化等各個層面的廣泛性認知，以為更高層階段的深入學習奠定基礎。
+2.透過本課程相關議題之追蹤與評論實作練習，促使修課同學針對文化議題的深度理解與評價，並培養團隊合作之能力。
+3.熟悉AI輔助工具之應用與使用之基本認識。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+*每週課程進度與作業要求(請配合Moodle課程平台進行課程學習)。
+週次 Week |  課程主題 Topic |  課程內容與指定閱讀 Content and reading assignment (Principal) |  課程活動與作業 Teaching activities and homework (Auxiliar) |  學習投入時間 Student workload expectation  
+---|---|---|---|---  
+課堂講授 In-class hours |  課程前後 Outside-of-class hours  
+1 |  |  Introducción de clase |  ----- |  9/4 |  0  
+2 |  Tema I. Geografía |  1.España, la piel de toro |  A.P8-9 B.P6-11 |  9/11 |  2  
+3 |  2. Las comunidades autónomas |  B.P20-41 |  9/18 |  2  
+4 |  Tema II. Historia |  3.Las lenguas de España |  A.P10-11 B.12-17 |  9/25 |  2  
+5 |  4.Historia y la transición |  A.P18-19 B.P52-61 |  10/2 |  2  
+6 |  Tarea 1 |  Propuesta de 6 grupos |  ----- |  10/9 |  4  
+7 |  Tema III. Política |  5.La Constitución española |  A.P20-23 B.62-71 |  10/16 |  2  
+8 |  Examen Parcial |  ----- |  _10/23_ |  2  
+9 |  6.La jefatura del Estado |  A.P28-29 |  10/30 |  2  
+10 |  Tema IV. España en el mundo |  7.España en el mundo |  B.P74-83 |  11/6 |  2  
+11 |  8.España e Iberoamérica |  B.P84-87 B.P100-101 |  11/13 |  2  
+12 |  Tema V. Educación |  9.La educación de España |  A.P50-53 B.P114-117 |  11/20 |  2  
+13 |  Tarea 2 |  Presentación de grupos I, II |  ----- |  11/27 |  4  
+14 |  Presentación de grupos III, IV |  ----- |  12/4 |  4  
+15 |  Presentación de grupos V, VI |  ----- |  12/11 |  4  
+16 |  |  Examen Final |  ----- |  _12/18_ |  -----  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

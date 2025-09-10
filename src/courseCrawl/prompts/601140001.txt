@@ -1,0 +1,91 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：民事訴訟法（一）
+#####  Course Name: Law of Civil Procedure (I)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：601140001 Course No.601140001
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：法律三甲、法律三乙、法律三丙 Course Department:Law/B/3 
+  * 授課老師：許政賢 Instructor: HSU CHENG-HSIEN 
+  * 先修科目：[ 民法債編總論（一）(單學期)(修習且及格)]Prerequisite([])
+  * 上課時間：二234 Session: tue09-12
+##  課程簡介Course Description
+哈佛大學前校長康納特(James Bryant Conant)說：如果我們將學過的東西忘得一乾二淨，最後剩下來的就是教育的本質。李開復也認為：大學的學習目的，最主要是掌握基本的學習工具和方法，將來利用這些工具和方法，再去學習新事物。因此，與其說上大學是為了學一門專業，不如說是為了學會如何學習，讓自己能夠無師自通。基於上述理念，本課程特別強調學習方法論的建立，使學習者不僅習得一門法律學科的技術性知識，更重要的是得以學習自我學習的方法。準此，本課程主要介紹民事訴訟法的基本概念、體系架構及實務運作，融合理論分析與實務現況，使學習者認識我國現行民事訴訟的流程及解決具體問題的方式。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEF雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 專業知識
+  * B. 實務運用
+  * C. 表達溝通
+  * D. 社會參與
+  * E. 人文關懷
+  * F. 國際視野
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+由於民事訴訟具有高度應用性，本課程除闡述民事訴訟的基本原則、理論，使學習者具有反省、批判現制的基本能力以外，將強調在具體實例中應用抽象理論的能力，使學習者不僅記頌訴訟理論，並養成處理訴訟實務的基本能力。此外，本課程將不定時引介學習方法論，鼓勵學習者逐步發展獨立思考、批判的能力，使法律的學習不致淪為背誦抽象理論或實務案例的代名詞。藉由本課程之學習，對於學生應用實體法觀念解決實務問題之能力，及對於學生參加國家考試相關類科之準備，應有相當助益。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+依上課進度而定。
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

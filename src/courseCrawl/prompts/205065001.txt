@@ -1,0 +1,94 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：統計學（一）
+#####  Course Name: Statistics (I)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：205065001 Course No.205065001
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：財政二甲、財政二乙 Course Department:Public Finance/B/2 
+  * 授課老師：羅光達 Instructor: LO KUANG-TA 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：一D56 Session: mon13-16
+##  課程簡介Course Description
+本課程為一學年之必修課程，第一學期由羅光達老師授課，第二學期由胡偉民老師授課（著重於迴歸分析與進階統計）。
+統計學是一門研究如何將蒐集到的資料進行分析，具以獲得推論的方法。換言之，統計學是運用科學的方法，協助我們在龐大的資料中萃取出有用的資訊，以便我們做出有科學依據的正確決策。本課程內容採取理論與實務並重的設計方式，除了對統計方法有重點式的講授外，也介紹統計軟體（Excel）的基本操作，以培養同學對資料分析與解釋的能力。透過本課程的學習，希望同學能夠瞭解應用統計的基本觀念，知道如何進行統計分析，同時也能實際運用統計軟體，並有能力解讀相關的統計數字。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 財經基礎知識
+  * B. 協調與溝通能力
+  * C. 財稅專業知識
+  * D. 分析與解決問題的能力
+  * E. 財稅民商法律素養
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程的教學目標為：  
+1. 認識統計學的基本觀念及原理；  
+2. 將統計分析能力與技巧運用到日常生活中；  
+3. 能夠使用電腦軟體進行資料分析。  
+##  每周課程進度與作業要求 Course Schedule & Requirements
+請參閱課程附件之授課大綱。
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

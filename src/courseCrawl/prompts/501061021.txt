@@ -1,0 +1,120 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：英語口語訓練（三）：口語訓練與閱讀
+#####  Course Name: English Oral Training (III): Oral Training & Reading
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：501061021 Course No.501061021
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：英文二甲、英文二乙 Course Department:English/B/2 
+  * 授課老師：鄭傳傑 Instructor: CHENG CHUAN CHIEH 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三234 Session: wed09-12
+##  課程簡介Course Description
+Brief introduction  
+This is the third semester of the oral training courses that are required for English Majors at NCCU.  
+In this course you will learn how to be more effective communicators in English.  
+This semester will focus on using your communication ability to convince, persuade, and change minds.  
+This course will provide advanced oral training with discussion topics coming from a range of reading material that will be required for the class. Students will improve their ability to do impromptu and formal speeches in front of an audience, think critically and express their viewpoints, lead and participate in group discussions, research and debate controversial issues, understand and communicate multi-culturally.
+In addition, students will be expected to us AI to create their own chatbuddy, in order to independently improve their English proficiency.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEF雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 掌握西方文學與文化發展的歷史文化脈絡，以熟悉不同文化觀點(To trace the historical and cultural transformations in Western literature in order to understand different cultural perspectives)
+  * B. 具備西方文學與文化研究之相關知能以培養獨立思考與批判之能力(To acquire the knowledge and skills necessary for doing research on Western literature and culture in order to develop independent and critical judgment.)
+  * C. 具備語言學的基礎專業知識，以培養觀察分析及推理能力(To acquire a basic knowledge of linguistics in order to foster the ability to make logical conclusions through observation and analysis)
+  * D. 具備應用語言學及英語教學的基礎專業知識及實務應用能力 (To acquire knowledge of applied linguistics in order to make practical applications to methods of teaching English.)
+  * E. 理解、分析及整合英文訊息並以口說英文充分表達自我與協調溝通 (To understand, analyze, and synthesize information in English and to fully express oneself and to communicate with others clearly in oral English.)
+  * F. 解讀、分析及整合英文篇章並書寫不同主題及目的英文文章以表達自我並呈現個人思維邏輯(To understand, analyze, and synthesize articles in English and to write English papers on different topics and for different purposes to fully express oneself and to reason in written English.)
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+Speak confidently and fluently in informal situations  
+Speak with the appropriate register and cultural awareness when interacting in English  
+Be able to prepare and deliver effective formal presentations in English  
+Be able to effective share your thoughts/ideas/opinions/viewpoints when called to do so without any Preparation  
+Understand how to influence and persuade others with your words  
+Be able to persuade/influence/change minds on issues and topics that you are interested in
+##  每周課程進度與作業要求 Course Schedule & Requirements
+_Oral Communication 3_ ( Wed 9-12noon)
+Week |  Date |  Class Activities |  Homework  
+---|---|---|---  
+1 |  Sept 3 |  Class Introduction |   
+2 |  Sept 10 |  Creating an AI Chatbuddy with Dr Phillips’ class |   
+3 |  Sept 17 |  Influence and Persuasion |   
+4 |  Sept 24 |  Influence and Persuasion |   
+5 |  Oct 1 |  Influence and Persuasion Projects |   
+6 |  Oct 8 |  Negotiation |   
+7 |  Oct 15 |  LARP – White Collar Crime |   
+8 |  Oct 22 |  Motivated Sequence Introduction |   
+9 |  Oct 29 |  Motivated Sequence Practice |   
+10 |  Nov 5 |  LARP – Halloween Lies |  Speech video  
+11 |  Nov 12 |  Motivated Sequence Speeches |   
+12 |  Nov 19 |  Motivated Sequence Speeches |   
+13 |  Nov 26 |  Debate |   
+14 |  Dec 3 |  Debate |   
+15 |  Dec 10 |  Debate |   
+16 |  Dec 17 |  LARP / Project Presentations |   
+|  |  |   
+####  其他： Others: LARP, Debate, Presentations 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

@@ -1,0 +1,105 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：統計學（一）
+#####  Course Name: Statistics(I)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：000359211 Course No.000359211
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：統計系 Course Department:Statistics 
+  * 授課老師：陳立榜 Instructor: CHEN LI-PANG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四D56 Session: thu13-16
+##  課程簡介Course Description
+Data science has gained significant popularity in recent years, and statistics serves as a fundamental pillar supporting this field. This course is designed to introduce undergraduate students to the basic concepts of statistics. Students will learn a variety of techniques for data analysis, including data visualization, probability theory, statistical inference, and model building. By the end of the course, students are expected to have a solid understanding of statistical principles and be able to apply them to analyze real-world data.
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+By the end of this course, students should have acquired a basic understanding of statistics, be able to interpret figures and tables, and have developed fundamental skills for data analysis.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Week | Topic  
+---|---  
+1 | Chapter 1: Introduction to Statistics  
+2 | Chapter 2: Descriptive Statistics  
+3 | Chapter 3: Elements of Probability  
+4 | Chapter 3: Elements of Probability  
+5 | Chapter 4: Random Variable, Expectation, and Variance  
+6 | Quiz 1  
+7 | Chapter 5: Some Special Distributions  
+8 | Midterm  
+9 | Chapter 5: Some Special Distributions  
+10 | Chapter 6: Descriptions of Sampling Statistics  
+11 | Chapter 7: Estimation and Confidence Intervals  
+12 | Chapter 7: Estimation and Confidence Intervals  
+13 | Chapter 8: One-Sample Tests of Hypothesis  
+14 | Quiz 2  
+15 | Chapter 8: One-Sample Tests of Hypothesis  
+16 | Final  
+Note: 
+1. Having knowledge of high school mathematics (e.g., permutation, combination) is required. It would be better to have backgroud of Calculus.
+2. Students are expected to workload 3 hours in-class as well as outside-of-class.
+####  其他： Others:
+## Main course materials include the instructor's slides and problem sets
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

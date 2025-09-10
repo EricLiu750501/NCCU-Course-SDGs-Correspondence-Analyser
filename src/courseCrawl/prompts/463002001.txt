@@ -1,0 +1,108 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：傳播理論研究
+#####  Course Name: Advanced Communication Theory
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：463002001 Course No.463002001
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：傳播博一、傳播博二 Course Department:Ph.D Program in Communication/D/1&2 
+  * 授課老師：徐美苓 Instructor: HSU MEI-LING 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二567 Session: tue14-17
+##  課程簡介Course Description
+本課程為傳播學院博士班傳播理論（必修）課程，為進階課程，修習本課博生需修畢碩士班層級的傳播理論課程。本課程之設計，立基於學習者對大學部與碩士班基本傳播理論有相當的熟悉程度，據此剖析當今傳播研究中的重要課題，並進一步審視包括傳播領域在內的社會科學理論發展與建構脈絡。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCD雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 瞭解傳播學理論、文獻與相關學術發展
+  * B. 創新、獨立思辨與探析問題的能力
+  * C. 精研、判讀與充分掌握傳播專業知識
+  * D. 傳播教研與實踐的能力
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+為精準掌握當今國內外傳播研究趨勢與論述的發展，本課程涵蓋範圍包括歐、美、亞洲、華人的傳播理論建構、研究發展情形、以及最新趨勢，希冀藉此培養與啟發學習者獨立思考、評析與批判傳播論述、與理論建構的能力，以奠定從事傳播研究的理論基礎。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+# （以下時程若有調整，將另行公告）
+週次 |  日期 |  單元內容 |  教學活動與作業  
+---|---|---|---  
+1 |  9/2 |  課程介紹 |  老師授課  
+2 |  9/9 |  Conceptualizing and Building Theory-I |  導讀1 （或教師授課）  
+3 |  9/16 |  Conceptualizing and Building Theory-II |  導讀2（或教師授課）  
+4 |  9/23 |  Disciplinary Status of Communication Research-I |  導讀3  
+5 |  9/30 |  Disciplinary Status of Communication Research-II |  導讀4  
+6 |  10/7 |  Reexamining the Effects Research Traditions |  導讀5  
+7 |  10/14 |  Challenges from Psycho-physiological and Neurological Approaches |  導讀6  
+8 |  10/21 |  Rethinking and Reconstructing Research on the Audience  |  導讀7  
+8 |  10/28 |  Rethinking and Reconstructing Research on the ‘Medium’ -- I: Post-human Condition |  客座演講： 世新大學社會心理學系曹家榮副教授  
+10 |  11/4 |  期中專題論文構想分享 |   
+11 |  11/11 |  Rethinking and Reconstructing Research on the ‘Medium’ -- II: Merging of Audience and Data |  導讀8  
+12 |  11/18 |  New Challenges and Approaches in Researching Media ‘Contents’: Framing-  |  導讀9  
+13 |  11/25 |  Practice and Ritualistic Approaches to Researching Media and Communication-I: Media as a Practice |  導讀10  
+14 |  12/2 |  Practice and Ritualistic Approaches to Researching Media and Communication-II: Mediatized Rituals |  導讀11  
+15 |  12/9 |  Rethinking and Reconstructing Research on “Human” Communication: Anthropocene and Media Ecology |  客座演講： 淡江大學資訊傳播學系張惠嵐助理教授  
+16 |  12/16 |  期末口頭報告 |   
+註：本課程另規劃自主學習活動6小時。
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

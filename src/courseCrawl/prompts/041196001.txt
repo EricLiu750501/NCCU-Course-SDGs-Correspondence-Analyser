@@ -1,0 +1,110 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：語言與手勢－比手說話
+#####  Course Name: Language and Gesture
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：041196001 Course No.041196001
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：英文系 Course Department:English 
+  * 授課老師：徐嘉慧 Instructor: CHUI KA-WAI 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：五D56 Session: fri13-16
+##  課程簡介Course Description
+人們說話時往往同時使用手勢表達意義、傳遞訊息；日常溝通的語言與手勢使用反映了人們的內心思維、文化內涵與世界觀。課程討論議題包括語言與手勢特性、類型、意義表達、與功能；語言手勢的共時性；手勢與母語發展、第二語言學習、與語言障礙；語言手勢、認知與大腦等。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+課程目標
+專業能力──課程教授學生有關手勢的基礎知識，有助其瞭解人們的日常溝通除了語言，手勢同樣傳達訊息、表達文化意涵和內心思維。
+博雅精神──手勢與文化的議題培養學生認識手勢使用的文化內涵，發展其開放、多元的溝通觀念；手勢的認知及手勢與大腦是跨領域的議題，促進學生對非語言溝通及認知神經科學之探索。
+思辨與創新能力──課程培養學生分析手勢特性的知能，有助其獨立分析、思考不同語言文化的手勢使用。
+自主發展──課程作業及期末報告促進學生自主擴充課堂外的手勢知能。
+公民素養及社會關懷──手勢與文化的議題培養學生認識手勢使用的認知與文化內涵，發展其開放、多元溝通的觀念。
+溝通及合作──課堂活動可促進學生與他人溝通；課程報告培育學生的組織及陳述能力。
+外語能力──課程指定的閱讀包含外文篇章，促進學生的英語閱讀能力。
+學習成效
+藉由學生的課堂討論、考試與報告促進學生瞭解手勢為日常溝通的基礎知識、手勢使用的文化與認知內涵、並促進學生的溝通、組織及陳述能力。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+2025/9/5 | 課程簡介 |   
+---|---|---  
+2025/9/12 | 語言與手勢特性 | Novack et al. (2016)   
+2025/9/19 | 手勢類型 | Chui (2021), Ch11 (11.1)  
+2025/9/26 | 語言手勢的共時性 | Chui (2021), Ch11 (11.2)  
+2025/10/3 | 語言、手勢與意義 | Kendon (2004), Ch.10  
+2025/10/10 | 國慶日 |   
+2025/10/17 | 語言、手勢與功能 | Goldin-Meadow & Alibali (2013)  
+2025/10/24 | 補假 |   
+2025/10/31 | 期中考 |   
+2025/11/7 | 語言、手勢與文化 | Iverson et al. (2008)  
+2025/11/14 | 手勢與母語發展 | Rowe & Goldin-Meadow (2009)   
+2025/11/21 | 手勢與第二語言學習 | Lopez-Ozieblo, R. (2022)  
+2025/11/28 | 手勢與語言障礙 | Thal & Tobias (1992); So et al. (2015)  
+2025/12/5 | 語言、手勢與認知 | Chui (2021), Ch11 (11.4)  
+2025/12/12 | 語言、手勢與大腦 | Andric et al. (2013); Chui (2021), Ch11 (11.5)  
+2025/12/19 | 期末考 |   
+2025/12/26 | 報告繳交 |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

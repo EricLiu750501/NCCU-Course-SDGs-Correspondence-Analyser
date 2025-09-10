@@ -1,0 +1,106 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：日語會話（一） 
+#####  Course Name: Japanese Conversation（I）
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：010103081 Course No.010103081
+#### 修別：必
+Type of Credit: Required 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：日文系 Course Department:Japanese Language and Culture 
+  * 授課老師：馮秋玉 Instructor: FENG CHIU-YU 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二78 Session: tue16-18
+##  課程簡介Course Description
+本課程對全校開放選修，歡迎對日文有興趣的同學選修。  
+日語會話一是一門日語入門的課程，主要著重於口語對話的練習，藉由同學們在初級日語課程中學習到的句型、文法，做口語上的練習。透過實際演練的方式，幫助同學們把課本上學習到的內容，大方地以口語的方式表現出來。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程目的在訓練同學們的口說能力。從最基礎的日語發音，進入基本句型的練習，再進到實際對話演練。  
+希望透過各種場景的模擬練習，讓同學們能夠勇於以日文表達。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 Week |  課程 主題 Topic |  課程內容與指定閱讀 Content and Reading Assignment |  教學活動與作業 Teaching Activities and Homework |   
+---|---|---|---|---  
+1 |  L1 |  課程説明  
+初めまして |  私の名前・国・仕事 |   
+2 |  L1 |  初めまして |  私の誕生日 |   
+3 |  L1 |  初めまして |  私の趣味 |   
+4 |  L2 |  買い物・食事 |  どこですか |   
+5 |  L2 |  買い物・食事 |  いくらですか |   
+6 |  L2 |  買い物・食事 |  レストラン |   
+7 |  L3 |  スケジュール |  何時までですか  
+|   
+8 |  L3 |  スケジュール |  私のスケジュール |   
+9 |  L3 |  スケジュール |  どんな毎日 |   
+10 |  期中考 |  小組口試 |  小組口試 |   
+11 |  L4 |  私の国・町 |  どこ |   
+12 |  L4 |  私の国・町 |  どんなところ |   
+13 |  L4 |  私の国・町 |  季節・料理 |   
+14 |  L5 |  休みに日 |  週末 |   
+15 |  L5 |  休みに日 |  休みの後で  
+今度の休みに |   
+16 |  期末考 |  小組口試 |  小組口試 |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

@@ -1,0 +1,122 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：中國政治思想主要課題
+#####  Course Name: Major Issues in Chinese Political Thoughts
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：252020001 Course No.252020001
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：政治碩一、政治碩二 Course Department:Political Science/M/1&2 
+  * 授課老師：張其賢 Instructor: CHANG CHI-SHEN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：五234 Session: fri09-12
+##  課程簡介Course Description
+本課程在本學期的主題是孔子政治思想。孔子政治思想是華人文化對人類政治思想的最重要貢獻之一。本課程希望帶領同學一起探討孔子政治思想，並思考孔子政治思想作為政治思想，與西方古典時期的政治思想有何不同。本學期作為對照組的西方古典時期政治思想，是Plato’s _Republic_ 。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEF雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備創新政治知識之能力
+  * B. 具備對政治現象之觀察、分析與獨立思考能力
+  * C. 具備對政治哲學解析、比較與建構之能力
+  * D. 具備國內、外政治制度與運作之相關知識
+  * E. 具備研究設計、分析與詮釋資料之能力
+  * F. 具備尊重人權與關懷社會之能力
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+1. 從政治思想的角度，研究孔子的政治思想。
+2. 認識西方古典時期政治思想的特點。
+3. 經由接觸孔子政治思想的原始資料《論語》，培養閱讀《論語》的專業能力。
+4. 以對於孔子政治思想和Plato政治思想的瞭解為基礎，培養進行比較政治思想研究的能力。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+一、課程主題、課程內容、指定閱讀：
+本課程在本學期會邀請國際知名的馬克思及馬克思主義專家Professor David McLellan進行一場課堂工作坊。因此有一週的進度會有所調整。
+2025/9/5 week 01課程說明
+2025/9/12 week 02 Plato’s place in the history of Western political thought
+Reading: Leo Strauss, What is Political Philosophy?
+2025/9/19 week 03 Introduction to _the Republic_
+Reading: Schofield, ‘Approaching the Republic’
+2025/9/26 week 04 Plato (1)
+Reading: Republic, Book I
+2025/10/3 week 05 Plato (2)
+Reading: Republic, Book II
+2025/10/10 week 06放假
+2025/10/17 week 07 Plato (3)
+Reading: Republic, Book III
+2025/10/24 week 08放假
+2025/10/31 week 09 Plato (4)
+Reading: Republic, Book IV
+2025/11/7 week 10期中考
+2025/11/14 week 11 期中考講解
+2025/11/21 week 12孔子導論
+Reading: 論語
+2025/11/28 week 13孔子(1)
+Reading: 論語
+2025/12/5 week 14孔子(2)
+Reading: 論語
+2025/12/12 week 15問題討論(1)
+2025/12/19 week 16問題討論(2)
+2025/12/26 week 17彈性教學
+2026/1/2 week 18彈性教學
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

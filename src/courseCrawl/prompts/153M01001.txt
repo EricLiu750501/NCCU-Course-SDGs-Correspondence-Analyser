@@ -1,0 +1,99 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：編輯的故事與故事的編輯
+#####  Course Name: Story of Editor and Editing of Story
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：153M01001 Course No.153M01001
+#### 修別：選
+Type of Credit: Elective 
+_0.6_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：歷史碩一、歷史碩二 Course Department:History/M/1&2 
+  * 授課老師：金仕起 Instructor: CHIN SHIH-CHI 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：一234 Session: mon09-12
+##  課程簡介Course Description
+這是一門編輯實務課程，課程的設計係針對所有對編輯、企劃有興趣的同學。課程由歷史學系金仕起開設，並由業師暨本系系友，聯經出版公司人文組副總編輯蕭遠芬女士分享實作經驗。
+一般人對「編輯」的刻板印象，多為單純的文字工作，透過本課程，期望選修課程的學生能了解廣義的編輯工作範圍，並學習可以應用於各種職場的編輯相關技能。
+本課程共計九小時，前兩週分為「編輯的故事」和「故事的編輯」兩部分，第三週則為「實作成果的檢視」。
+第一週「編輯的故事」。說明編輯的定義和工作範疇，以及基本的工作流程。面對產業大環境的變遷與挑戰，需要有別傳統的前期企劃與行銷方案。前期企劃是否具獨特、創新的價值，是能否啟動專案的關鍵，好的企劃、好的商品則需要好的、多元的行銷方案推動。如何多管齊下，讓企劃與行銷相輔相成，是本週課程的重點。
+第二週「故事的編輯」。則是讓同學經由在歷史及相關文本中找尋說故事的題材，透過將故事說好的練習，學習良好的表達能力。表達能力（包括文字、圖表、影像、象徵、美術、版式、口語表達等）不僅是編輯從業人員的重要技能，也有助同學未來職場的增能。如何說個好故事，是本週課程的重點。
+第三週「實作成果的檢視」。由選修同學進行口頭報告，展現修習課程的成果。以主題選擇、表達形式、圖文呈現、口語說明、時間掌握等為檢視項目。成果由教師講評，同學互評、討論，期望培育同學未來職場所需技能。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+一、能認識編輯的工作內容及範疇
+二、能了解企劃的意義與創新的價值
+三、能理解行銷的多方經營及其重要性
+四、能經由說故事，明白敘述、表達的要點
+五、能體會編輯技能在職場的應用
+##  每周課程進度與作業要求 Course Schedule & Requirements
+每週課程內容與授課進度  
+---  
+授課日期 |  課程主題 |  課程內容綱要 |  授課時數  
+第 1 次 9月15日 |  編輯的故事 |  1.編輯的定義和工作範疇 2.書的誕生――編輯流程 3.企劃是成功關鍵 4.企劃力練習 5.最後一哩路――行銷 |  課室3小時、課前後4.5小時  
+第 2 次 10月13日 |  故事的編輯 |  1.找故事的素材 2.什麼是好故事？ 3.說個好故事――表達能力 4.下次報告說明 |  課室3小時、課前後4.5小時  
+第 3 次 10月 27日 |  實作成果的檢視 |  1.分組報告分享 2.講評及組員互評討論 3.總結：編輯技能的應用 |  課室3小時、課前後4.5小時  
+說明：建議學生學習投入時間，為教師授課時間＊1.5小時
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

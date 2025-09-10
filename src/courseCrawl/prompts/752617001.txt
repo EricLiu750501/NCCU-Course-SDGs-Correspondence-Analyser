@@ -1,0 +1,120 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：臨床心理學兼職實習（一）
+#####  Course Name: Practicum of Clinical Psychology (I)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：752617001 Course No.752617001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：心理碩二、心理博二 Course Department:Psychology/G/2 
+  * 授課老師：楊啟正 Instructor: YANG CHI CHENG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間： Session: 
+##  課程簡介Course Description
+藉由初步觀察並參與臨床心理實務工作之進行，讓學生能完整瞭解臨床心理學相關知能之應用
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEFGH雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 心理學專業能力 Professional competence in psychology
+  * B. 研究能力 Research ability
+  * C. 人際互動能力 Social skills
+  * D. 多元文化關懷 Multiculturalism
+  * E. 心理學專業能力 Professional competence in psychology
+  * F. 研究能力 Research ability
+  * G. 人際互動與領導能力 Social skills and leadership
+  * H. 多元文化關懷 Multiculturalism
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+  1. 參與特定臨床場域中臨床心理師之工作內容；
+  2. 充分瞭解特定臨床場域中臨床心理師之工作項目；
+  3. 初步應用臨床心理學相關背景知能於臨床心理工作之場域中。
+  4. 建立未來進入全職臨床心理學實習的良好準備。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+由於不同單位之臨床見習內容相異，因此每週課程 內容視所面對之臨床現象，加以調整。
+第一週 臨床見習討論 閱讀、操作 9小時
+第二週 文獻討論 閱讀、操作 9小時
+第三週 臨床見習討論 閱讀、操作 9小時
+第四週 文獻討論 閱讀、操作 9小時
+第五週 臨床見習討論 閱讀、操作 9小時
+第六週 文獻討論 閱讀、操作 9小時
+第七週 臨床見習討論 閱讀、操作 9小時
+第八週 文獻討論 閱讀、操作 9小時
+第九週 臨床見習討論 閱讀、操作 9小時
+第十週 文獻討論 閱讀、操作 9小時
+第十一週 臨床見習討論 閱讀、操作 9小時
+第十二週 臨床見習討論 閱讀、操作 9小時
+第十三週 臨床見習討論 閱讀、操作 9小時
+第十四週 臨床見習討論 閱讀、操作 9小時
+第十五週 臨床見習討論 閱讀、操作 9小時
+第十六週 臨床見習討論 閱讀、操作 9小時
+第十七週 臨床見習討論 閱讀、操作 9小時
+第十八週 臨床見習討論 閱讀、操作 9小時
+教學大綱會視實際臨床工作狀況而有所調整。
+教學活動/學生學習投入時間 ：
+1. 學生每週至見習單位，進行臨床觀察、心理衡鑑及心理治療
+2. 學生每週與授課老師討論臨床見習之內容
+3. 學生每週撰寫實習日誌
+4. 學生投入時間：每周課堂教學時數6小時；每周預習/複習時數6小時
+####  其他： Others: 實務操作 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

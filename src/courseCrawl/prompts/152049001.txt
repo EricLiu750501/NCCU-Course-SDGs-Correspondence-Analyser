@@ -1,0 +1,108 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：教育行政方法論專題研究
+#####  Course Name: Seminar on Methodology of Educational Administration
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：152049001 Course No.152049001
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：教育博一、教育博二 Course Department:Education/D/1&2 
+  * 授課老師：秦夢群、莊俊儒 Instructor: CHIN MENG-CHUN/GREGORY CHING 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四D56 Session: thu13-16
+##  課程簡介Course Description
+一、介紹教育行政研究方法的基本架構與模式的變遷。
+二、帶領學生討論與反思教育行政研究方法典範的變遷。
+三、閱讀最近一年之主要SSCI相關教育行政期刊（如Educational Administration Quarterly）之最新論文，並對其所使用之研究方法加以分析探討。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+使研究生了解教育行政研究的意義與目的，並能選取適合的典範進行研究。本課程以方法論的角度，分析二十世紀以來教育行政研究在方法上的發展與論辯。盼望學生在閱讀不同研究論文時，能以方法論的觀點，分析其優缺點與特殊之處。
+本課程目標與學習成效為探究與了解以下內涵與知識：  
+（一）理解教育行政之意義與目的  
+（二）瞭解教育行政方法論之變遷  
+（三）評析我國教育行政現況與制度之能力  
+（四）瞭解教育行政方法論之發展與內涵
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 Week |  課程主題 Topic |  課程內容與指定閱讀 Content and Reading Assignment |  教學活動與作業 Teaching Activities and Homework  
+---|---|---|---  
+1 |  課程介紹 |  課程內容介紹 |   
+2 |  典範變遷 |  教育行政方法論典範之變遷概述 |  課前閱讀指定參考書、 課中問答討論  
+3 |  單一典範 |  單一典範時期教育行政方法論之發展 |  課前閱讀指定參考書、 課中問答討論  
+4 |  後實證論 |  後實證論在方法論上之主張 |  課前閱讀指定參考書、 課中問答討論  
+5 |  後實證論 |  後實證論與教育行政研究之變革 |  課前閱讀指定參考書、 課中問答討論  
+6 |  後現代主義 |  後現代主義與教育行政研究(1) |  課前撰寫報告、 課中分組專題報告  
+7 |  後現代主義 |  後現代主義與教育行政研究(2) |  課前閱讀指定參考書、 課中問答討論  
+8 |  方法論 |  教育行政方法論之爭辯與反省 |  課前撰寫報告、 課中分組專題報告  
+9 |  課程總結 |  課程內容總結 |  課前閱讀指定參考書、 課中問答討論  
+10 |  期刊研討 |  國外期刊研究論文之研討(1) |  期中考  
+11 |  期刊研討 |  國外期刊研究論文之研討(2) |  課前撰寫報告、 課中分組專題報告  
+12 |  期刊研討 |  國外期刊研究論文之研討(3) |  課前閱讀指定參考書、 課中問答討論  
+13 |  期刊研討 |  國外期刊研究論文之研討(4) |  課前撰寫報告、 課中分組專題報告  
+14 |  期刊研討 |  國外期刊研究論文之研討(5) |  課前閱讀指定參考書、 課中問答討論  
+15 |  期刊研討 |  國外期刊研究論文之研討(6) |  課前撰寫報告、 課中分組專題報告  
+16 |  期刊研討 |  本學期閱讀之國外期刊期末綜合討論 |  課前閱讀指定參考書、 課中問答討論  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

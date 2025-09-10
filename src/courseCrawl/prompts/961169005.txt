@@ -1,0 +1,110 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：資訊法專題研究
+#####  Course Name: Seminar on Information Law
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：961169005 Course No.961169005
+#### 修別：群
+Type of Credit: Partially Required 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：法碩專一、法碩專二 Course Department:Executive Master of Laws Program/M/1&2 
+  * 授課老師：陳起行、劉定基 Instructor: CHEN CHI-SHING/LIU TING-CHI 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間： Session: 
+##  課程簡介Course Description
+本課程採密集上課，每週上課兩次，每次三小時，共六週；前三週課程由劉定基老師講授，後三週課程由陳起行老師講授。
+網際網路、資訊科技的發展對法學研究及既有法制產生了相當的衝擊，本課程從網路本質、新興資訊科技所引發的典範移轉談起，並進一步聚焦在以下議題：假訊息相關問題、資訊隱私保護的原則與挑戰、AI相關應用與治理議題。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程希望增進修課同學對於資訊科技發展對法學研究與法制衝擊的瞭解，並對於課程所討論的具體問題有初步認識（包括既有法規架構、爭議問題及可能的解決方向），以作為日後進一步探索的基礎。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+本課程自7/14日起每週一、週四晚上上課，共計六週，暫訂上課進度如下：
+第一週 （劉定基老師）
+第一講：假訊息與社群網路的發展與變遷
+第二講：假訊息、深偽的管制（數位中介服務法草案與選罷法相關規定）
+第二週 （劉定基老師）
+第三講：資訊隱私權的概念與個人資料保護原則
+第四講：傳統個人資料保護原則面臨的挑戰與可能因應
+第三週 （劉定基老師）
+第五講：演講（AI與個人資料保護、AI治理）
+第六講：從資料保護走向資料治理
+第四週 （陳起行老師）
+第七講: 課程簡介：趨勢分析
+課程簡介：趨勢分析  
+技術趨勢: algorithm+ big data : 由檢索到mining; 由資訊到知識
+發展模式: 美國: personalized，企業與國家； 歐盟: governance
+社會發展: digital à knowledge divide; 福利國 à 數據國?
+法治發展: 知識取向 (演算法說明義務); 
+規範多元: 法規，倫理，技術規制並重
+協同規制與治理:(大)數據環境: 立法，行政，司法，自律
+第八講： AI與未來司法
+第五週 （陳起行老師）
+第九講 : AI與未來行政
+第十講 ：AI與未來立法
+第六週 （陳起行老師） 
+第十一講: AI 輔助未來智慧城市法律形成
+第十二講：Data & Text Mining, and AI資料與文本挖掘與人工智慧 (演講)
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

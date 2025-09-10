@@ -1,0 +1,108 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：正向心理學
+#####  Course Name: Positive Psychology
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：702894001 Course No.702894001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：心理三 Course Department:Psychology/B/3 
+  * 授課老師：林烘煜 Instructor: LIN HUNG-YU 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四D56 Session: thu13-16
+##  課程簡介Course Description
+本課程針對正向心理學中的相關理論、研究、測量進行介紹，並整合過去有關正向情緒和幸福感的相關研究，加以探討個人的優勢特質與能力(含正向情緒、正向特質以及正向環境 對個人認知、態度及行為的影響（促進與達成正向心理狀態之方法）。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCD雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 心理學專業能力 Professional knowledge of psychology
+  * B. 思考與問題解決能力 Thinking and problem solving skills
+  * C. 人際互動能力 Social skills
+  * D. 多元文化關懷 Multiculturalism
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+介紹正向心理學目前發展的狀況及研究重點，然後說明正向心理學幾個重要主題的理論及研究概況；並請同學運用正向心理學來達成 :
+1). 個人短或中期「成長目標」； 
+2). 與其他同學完成一項團體「助人目標」。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 |  課程主題 |  課程內容與指定閱讀 |  教學活動與作業  
+---|---|---|---  
+1 |  課程介紹與教學計劃討論 |  |   
+2 |  一、正向心理學導論 |  Ch1 進行初步分組 |  (相互認識)  
+3 |  二、東、西方對正向心理學的觀點 |  確定分組 |  (含分組成員工作分配)  
+4 |  三、自我優勢與正向結果之分類 與測量 |  Ch2 自我優勢的測量與認識 |  課後上網填表(3小時)  
+5 |  八、透過自我效能、樂觀與希望 來窺探未來 |  Ch8 (繳交第一次個人作業) 腦力激盪演練 |  繳交分組報告主題與緣由  
+6 |  分組目標設定與執行進程討論 |  腦力激盪演練回饋 |  繳交分組報告計畫書: PPT  
+7 |  分組團體報告計畫與構想分享 |  |  (期中課堂報告)  
+8 |  六、快樂、愉悅與幸福的探索 |  Ch6 個人自我成長計劃 |  繳交確定書  
+9 |  課程回顧與整理 |  正念演練開始 |   
+10 |  十、正念、心流及心盛： 尋找最佳經驗(一) |  Ch10 正念演練 |   
+11 |  十、正念、心流及心盛： 尋找最佳經驗(二) |  Ch10 書寫轉念演練 |   
+12 |  七、情緒經驗分享與 善用情緒經驗(一) 個人報告安排: |  Ch7 繳交團體報告執行狀況報告書 書寫轉念演練 |  (團體報告執行成效先期檢討)  
+13 |  七、情緒經驗分享與 善用情緒經驗(二) 個人報告安排: |  Ch7 (繳交第二次個人作業) |  正念及書寫轉念課後自行演練  
+14 |  九、智慧與勇氣： 智者與勇者的特徵 個人報告安排: |  Ch9 第M組、第N組、與第P組先行Email繳交團體期末報告PPT。 |   
+15 |  分組團體報告: 第M組、第N組、第P組 |  第X組、第Y組、與第Z組先行Email繳交團體期末報告PPT。 |   
+16 |  分組團體報告: 第X組、第Y組、第Z組 |  (繳交第三次個人作業) |  各組繳交團體修改過之結果報告及團體內組員之互評表。  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

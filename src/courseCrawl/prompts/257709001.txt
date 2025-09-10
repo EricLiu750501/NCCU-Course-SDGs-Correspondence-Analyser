@@ -1,0 +1,96 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：土地利用法專題研究
+#####  Course Name: The Research on Land Use Law
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：257709001 Course No.257709001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：地政碩一、地政博一、地政碩二、地政博二 Course Department:Land Economics/G/1&2 
+  * 授課老師：陳立夫 Instructor: CHEN LI-FU 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四234 Session: thu09-12
+##  課程簡介Course Description
+以專題講授、課堂報告與討論之方式，使履修者瞭解現行土地利用（開發與保育）法制（以國土計畫、都市計畫、市地重劃、都市更新等公法領域法規為中心）之相關理論及研究課題。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+以專題講授、課堂報告與討論方式，使履修者瞭解土地利用法制之相關研究議題、理論及研究方法，並分析、闡釋我國現行關於土地利用相關法律之全貌、問題點及學習、研究上應關注之議題，乃至法律立法政策應有之取向等，藉此以培養同學對於相關法律課題之思考與研究分析能力。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+第1週 說明本課程內容及學習、研究上應有之觀念與原則。
+第2週 土地利用與開發行政及救濟。 
+第3週 土地利用管制、財產權保障與損失補償。
+第4週 土地利用計畫行政與正當行政程序。
+第5週 國土計畫法之法律課題。
+第6週 都市計畫與容積移轉之法律課題
+第7-8週 都市計畫爭訟之法律課題
+第9週 市地重劃之法律課題。
+第10週 都市更新之法律課題。
+第11週至第15週 修課同學課堂報告
+第16週 總結研討
+★除每週上課3小時外，同學須依上課進度，蒐集、閱讀上課議題之資料及其他指定資料，每週自行投入至少6小時之課前、課後自我學習。  
+★擬選修本課程同學，學期第1次上課請務必出席（無法出席者，請勿選修本課程）。
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

@@ -1,0 +1,104 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：財務管理
+#####  Course Name: Financial Management
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：000347101 Course No.000347101
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：財管系 Course Department:Finance 
+  * 授課老師：蔡政憲 Instructor: TSAI CHENG-HSIEN 
+  * 先修科目：[ 經濟學(全學年)(修習且及格)] 及 [ 初級會計學（一）(單學期)(修習且及格)] 及 [ 初級會計學（二）(單學期)(修習且及格)]Prerequisite([] AND [] AND [])
+  * 上課時間：四234 Session: thu09-12
+##  課程簡介Course Description
+The course is designed as an introductory course in corporate finance, aka financial management.
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+The chosen textbook covers the theory and practice of corporate finance. The excel workshop will further enhance the students’ abilities in applying theories to practical problems. The application reports will help students apply the knowledge and skills learned in class to their personal financial management.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+|  |   
+---|---|---  
+Date |  Topic |  Assigned Reading  
+9/4 |  Introduction to the course and financial management |  Chapter 1  
+9/11 |  Time Value of Money: An Introduction |  Chapters 3 & 4  
+9/18 |  Interest Rates |  Chapter 5  
+9/25 |  Bonds |  Chapter 6  
+10/2 |  Stock Valuation |  Chapters 7 & 10  
+10/9 |  Investment Decision Rules; 小考 |  Chapter 8  
+10/16 |  Fundamentals of Capital Budgeting |  Chapter 9  
+10/23 |  Risk and Return in Capital Markets |  Chapter 11  
+10/30 |  Systematic Risk and the Equity Risk Premium |  Chapter 12  
+11/6 |  Market (in)efficiency |   
+11/13 |  Midterm Exam  
+11/20 |  Debt Financing |  Chapter 15  
+11/27 |  Capture Structure  |  Chapter 16  
+12/4 |  Payout Policy |  Chapter 17  
+12/11 |  Option Applications and Corporate Finance |  Chapter 21  
+12/18 |  Final Exam  
+[1] Final grades may be normalized whenever deemed necessary.
+[2] The schedule may be changed with prior notification.
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

@@ -1,0 +1,119 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：英語教學 
+#####  Course Name: TESOL
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：551012001 Course No.551012001
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：英文碩一 Course Department:English/M/1 
+  * 授課老師：劉怡君 Instructor: LIU YI-CHUN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四567 Session: thu14-17
+##  課程簡介Course Description
+This course is designed to provide students with professional training encompassing both theoretical principles and practical applications in TESOL.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEFGHIJ雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 建立英語教學、語言習得一般專業知識(To acquire a knowledge of English teaching and language acquisition)
+  * B. 以多元角度思考分析文學文化專業領域中之特定議題(To examine specific issues in literary and cultural studies from different perspectives)
+  * C. 反思社會文化現象並提出個人價值判斷(To reflect on social and cultural phenomena and to make individual value judgments)
+  * D. 將專業知識應用到英語教學之相關實務(To apply professional knowledge in English teaching)
+  * E. 運用語言學與語言教學相關研究議題之知能(To make practical applications of related researches on linguistics and language teaching)
+  * F. 具備深度英語教學相關知識(To gain an in-depth knowledge of English teaching)
+  * G. 具備深度西方具備深度西方文學理論相關知識以詮釋並批判英美文學作品中所展現之各種文化現象(To gain an in-depth knowledge of Western literary theories in order to interpret or develop a critical understanding of the cultural phenomena in English and American literature)
+  * H. 就特定的專業領域進行研究，發表學術論文(To conduct research in specialized fields and to present academic papers)
+  * I. 具備深度英美文學知識，以多元角度思考分析專業領域特定議題 (To gain an in-depth understanding of the development of American and English literature in order to examine specific issues in literary and cultural studies from different perspectives)。 
+  * J. 綜合統整各種議題的相關資料，並提出個人獨特、具明顯貢獻的見解 (To develop original and significant critical comments on cultural issues by integrating existent discussions, theories, and historical sources.)
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+In pursuit of the stated goals, students will cultivate a robust theoretical foundation in key areas, including, but not limited to, Translingualism, World Englishes, Bilingualism, Teaching and Practices in Reading, Writing, Speaking, and Listening, Identity/Language Ownership, Professional Development for Teachers, Assessment and Feedback, Methods and Methodologies, Self-regulated Learning, and the integration of Technology in Teaching/Learning.
+Course Objectives: By the end of the semester, students are expected to 
+  1. Understand both theoretical frameworks and practical methodologies in TEFL.
+  2. be equipped with the knowledge and skills to conduct empirical research and analyze data to reflect upon the applied research framework.
+  3. be enabled to apply the learned knowledge effectively in informing and enriching their language teaching practices.
+  4. development research and pedagogical competence 
+  5. Construct professional identity and English ownership
+  6. promote reflective learning and teaching practices.
+By achieving these objectives, students will be well-prepared to navigate the multifaceted landscape of teaching English as a foreign language, demonstrating a synthesis of theoretical foundations and practical proficiency in their teaching practices.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+WEEK CONTENT ACTIVITIES 
+1 Course orientation
+2 [THEORIES] World Englishes
+3 NES/ESL/EFL taxonomy
+4 LFE Reaction Paper 1
+5 Global Englishes
+6 Pedagogical approaches
+7 CLIL/EMI Reaction Paper 2
+8 [PRACTICE] Teaching writing. Teaching Proposal Due
+9 Teaching Reading
+10 Teaching Listening
+11 Teaching Speaking Reaction Paper 3
+12 CALL
+13 Teachers’ professional development
+14 Identity Reaction Paper 4
+15 Agency
+16 Motivation Final paper
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

@@ -1,0 +1,111 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：智財法學研究方法
+#####  Course Name: Legal Research Methodology for Intellectual Property Law
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：652837001 Course No.652837001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：法科碩一、法科碩二 Course Department:Graduate Institute of Law and Interdisciplinary Studies/M/1&2 
+  * 授課老師：陳秉訓 Instructor: CHEN PING-HSUN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三234 Session: wed09-12
+##  課程簡介Course Description
+本課程以中文授課，主要在提升學生的法學研究與寫作的能力。授課老師會輔導學生獨立完成一篇中文判決評析文章，但學生可選擇撰寫英文文章。
+This course is designed to teach students how to use the Westlaw database efficiently. The framework of the Westlaw database is based on the legal research methodology for American law. So, the basic knowledge of the American legal research methodology will be introduced. Then, a research project related to IP laws will be assigned to each student. Students will polish their research skills by doing.
+The primary language is English, but the secondary language is Mandarin for local or Chinese students.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABC雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 學術知能—整合原有領域與法學之學術知能 Academic knowledge : integration of legal training and students' original professions
+  * B. 就業知能—別於傳統之多元就業知能 Employability skills : diversified employment
+  * C. 公民與價值知能—現代與國際公民之價值 Citizenship and the values : the values of global citizenship within current trends
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+This course is intended to expose students to various research skills for studying IP issues. Primarily, this course teaches how to use the Westlaw database to do IP law research.
+After this course, students will be able to study American law through the Westlaw database for any IP issues.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Week 1-9/3-Introduction/Plagiarism
+Week 2-9/10-(1) U.S. legal system; (2) Case comment assignments
+_Phase I_
+Week 3-9/17-(1) American legal research methodology; (2) In-Class Practice I (group learning): unfamiliar legal topic X writing skill
+Week 4-9/24-(1) Case Law Evolution: Bilski, Mayo, Myriad, and Alice; (2) In-Class Practice II (individual learning): inducement X divided infringement X research planning (secondary sources/case law search)
+Week 5-10/1-(1) Student Presentation: secondary sources; (2) In-Class Practice II (individual learning): outline/argument review 
+Week 6-10/8-Individual Meeting: legal writing review
+Week 7-10/15-(1) Midterm Exam (individual practice) : your advice to An Tso Sun (孫安佐); (2) Phase II explanation
+_Phase II (Individual Learning)_
+Week 8-10/22-Student Presentation: theme X research planning
+Week 9-10/29-Student Presentation: secondary sources X scholarly papers
+Week 10-11/5-Student Presentation: circuit court decisions
+Week 11-11/12-Individual Meeting: outline/arguments 
+Week 12-11/19-Individual Meeting: outline/arguments
+Week 13-11/26-Individual Meeting: draft 1/citation review
+Week 14-12/3-Individual Meeting: draft 2/citation review
+Week 15-12/10-Individual Meeting: draft 3/citation review
+Week 16-12/17-Term paper due
+Teaching Method: This course is a lecture-based course.
+Learning Activity: Each student is required to conduct an in-depth research about an IP issue to gain more research experiences.
+Homework: several.
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

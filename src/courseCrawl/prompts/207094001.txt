@@ -1,0 +1,113 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：土地法（一）
+#####  Course Name: Land Law (Ⅰ)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：207094001 Course No.207094001
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：地二土管、地二土資、地二土測 Course Department:Land Economics/B/2 
+  * 授課老師：戴秀雄 Instructor: TAI HSIU-HSIUNG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三234 Session: wed09-12
+##  課程簡介Course Description
+本課程宗旨在於提升學生對於土地個別課題之深入了解，如土地法第12條、測量、登記等等。透過挑選主題進行討論與報告撰寫，使修課同學能夠再加深對於土地法規法理之掌握外，也能改善問題意識與論文撰寫能力。更重要的是，透過這些課程內容，建立學生對於原住民族在土地法制關聯問題上，建立基本分析與研究能力。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEFGHI雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備地政相關專業知能
+  * B. 具備地政相關專業知能
+  * C. 具備地政相關專業知能
+  * D. 具備地政相關實務應用與創新之能力
+  * E. 具備地政相關實務應用與創新之能力
+  * F. 具備地政相關實務應用與創新之能力
+  * G. 具備領導與團隊合作並進之精神與國際觀
+  * H. 具備領導與團隊合作並進之精神與國際觀
+  * I. 具備領導與團隊合作並進之精神與國際觀
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+1.使同學熟悉土地法規的體系架構與法理
+2.針對土地法規各核心元素，提升學生的理解深度，並明瞭法理與實務上的差異，以及其與原住民族法制間的關聯。
+3.建立學生在法領域能夠自行發展問題意識，以及蒐集、解讀法學文獻的能力。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+日期 | 課程主題 | 課程內容 | 教學活動 | 學習投入時數  
+---|---|---|---|---  
+09/03 | 課程說明 | 課程說明 | 講授 | 4  
+09/10 | 土地與不動產的概念 | 如左 | 講授 | 6  
+09/17 | 財產權制度的影響 | 如左 | 講授 | 6  
+09/24 | 地權(一)所有權 | 如左 | 講授 | 6  
+10/01 | 地權(二)他項物權 | 如左 | 講授 | 6  
+10/08 | 地權(三)共有 | 如左 | 講授 | 6  
+10/15 | 地權(四)土地法第12條 | 如左 | 講授 | 6  
+10/22 | 地籍(一)測繪行為 | 如左 | 講授 | 6  
+10/29 | 地籍(二)地籍測量 | 如左 | 自主學習 | 6  
+11/05 | 地籍(三)測量錯誤處理 | 如左 | 講授 | 6  
+11/12 |  地籍(四)登記制度 | 如左 | 講授 | 6  
+11/19 | 地籍(五)登記之效力 | 如左 | 講授 | 6  
+11/26 | 地籍(六)土地第一次登記 | 如左 | 講授 | 6  
+12/03 | 地籍(七)權利變更登記 | 如左 | 講授 | 6  
+12/10 | 地籍(八)建物登記 | 如左 | 講授 | 6  
+12/17 | 期末考試 | 如左 | 講授 | 6  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

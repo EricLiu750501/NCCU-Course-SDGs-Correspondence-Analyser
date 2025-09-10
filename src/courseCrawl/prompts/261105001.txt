@@ -1,0 +1,111 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：量化研究法
+#####  Course Name: Quantitative Research Methods
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：261105001 Course No.261105001
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：國發碩一、國發碩二 Course Department:Graduate Institute of Development Studies/M/1&2 
+  * 授課老師：蘇昱璇 Instructor: SU YU-HSUAN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二234 Session: tue09-12
+##  課程簡介Course Description
+The goal of the course is to enable students from the interdisciplinary background to read development studies and policy analyses using quantitative research methods. The course will introduce fundamental statistics and develop students’ ability to conduct new quantitative research. Students will learn how to deal with data by using statistical software.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCD雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備發展理論基礎與科際整合架構的思考與研究之知能
+  * B. 具備國家發展理論與政策實務分析的判斷與批判之能力
+  * C. 具有人文關懷與多元價值涵養的解決問題與創新之能力
+  * D. 具備國際視野與協調合作思維的溝通與行動之能力
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+  * Students should know the theoretical background of quantitative research.
+  * Students should be able to read and understand journal articles that make use of the concepts and methods that are introduced in the course.
+  * Students should be able to apply the quantitative methods for their future empirical researches.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次Week |  課程主題Course Theme |  課程內容與指定閱讀Content and Reading Assignment |  教學活動與作業Activity and Homework |  學習投入時數Estimated time devoted to coursework per week  
+---|---|---|---|---  
+課堂講授Lecture Hours |  課程前後Preparation Time  
+1 |  Course Introduction & Ch 1 The Nature of Econometrics and Economic Data |  Course Introduction & Ch 1 |  Course Introduction & Ch 1 |  3.0 |  4.5  
+2 |  Ch 19 Carrying out an Empirical Project & Demo of research tools |  Ch 19 & Demo of research tools |  Ch 19 & Demo of research tools |  3.0 |  4.5  
+3 |  Calculus review & Appendix A Basic Mathematical Tools |  Calculus review & Appendix A |  Calculus review & Appendix A |  3.0 |  4.5  
+4 | Appendix B Fundamentals of Probability | Appendix B | Appendix B | 3.0 | 4.5  
+5 |  Appendix C Fundamentals of Mathematical Statistics |  Appendix C |  Appendix C |  3.0 |  4.5  
+6 |  Ch 2 The Simple Regression Model |  Ch 2 |  Ch 2 |  3.0 |  4.5  
+7 |  Ch 3 Multiple Regression Analysis: Estimation |  Ch 3 |  Ch 3 |  3.0 |  4.5  
+8 |  Ch 4 Multiple Regression Analysis: Inference |  Ch 4 |  Ch 4 |  3.0 |  4.5  
+9 |  Midterm presentation |  Midterm presentation |  Midterm presentation |  3.0 |  4.5  
+10 |  Exam review |  Exam review |  Exam review |  3.0 |  4.5  
+11 |  Midterm Exam |  Midterm Exam |  Midterm Exam |  3.0 |  4.5  
+12 |  Ch 6 Multiple Regression Analysis: Further Issues |  Ch 6 |  Ch 6 |  3.0 |  4.5  
+13 |  Ch 7 Multiple Regression Analysis with Qualitative Information: Binary (or Dummy) Variables; Ch 17 Limited Dependent Variable Models and Sample Selection Corrections |  Ch 7, 17 |  Ch 7, 17 |  3.0 |  4.5  
+14 |  Ch 13, Pooling Cross Sections across Time: Simple Panel Data Methods; Ch 14 Advanced Panel Data Methods; Ch 15 Instrumental Variables Estimation and Two Stage Least Squares |  Ch 13, 14, 15 |  Ch 13, 14, 15 |  3.0 |  4.5  
+15 |  Final presentation I |  Final presentation I |  Final presentation I |  3.0 |  4.5  
+16 |  Final presentation II |  Final presentation II |  Final presentation II |  3.0 |  4.5  
+17 | online learning |  online learning |  online learning |  3.0 |  4.5  
+18 |  Final files due |  Final files due |  Final files due |  3.0 |  4.5  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

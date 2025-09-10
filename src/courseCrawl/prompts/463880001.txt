@@ -1,0 +1,108 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：台灣電視產業發展
+#####  Course Name: TV Industry in Taiwan
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：463880001 Course No.463880001
+#### 修別：選
+Type of Credit: Elective 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：傳播博一、傳播博二 Course Department:Ph.D Program in Communication/D/1&2 
+  * 授課老師：劉昌德 Instructor: LIU CHANG-DE 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四8E Session: thu17-19
+##  課程簡介Course Description
+本課程主要探討電視產業之特性，並以臺灣政治、經濟、文化、科技等環境脈絡中，如何型塑本地電視產業與工作的樣貌發展為探討主題。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCD雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 瞭解傳播學理論、文獻與相關學術發展
+  * B. 創新、獨立思辨與探析問題的能力
+  * C. 精研、判讀與充分掌握傳播專業知識
+  * D. 傳播教研與實踐的能力
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+透過課程讀本與現象討論，希望提供同學關於電視產業之理論與實務的洞察能力；並透過知識的理解，進而培養學術研究與實踐之能力。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+課程進度(按照實際狀況可能有所調整)
+週別 |  課程主題 |  備註  
+---|---|---  
+一 |  課程介紹 |   
+二 |  電視與社會 |   
+三 |  電視產製 |   
+四 |  電視工作者 |   
+五 |  電視廣告：業師 |  作業 1  
+六 |  臺灣電視史：三台時代 |   
+七 |  臺灣電視史：公共電視 |   
+八 |  臺灣電視史：衛星電視 |   
+九 |  臺灣電視史：有線電視 |  作業 2  
+十 |  新科技與電視 |   
+十一 |  數位平台與電視：新聞 |   
+十二 |  串流平台與電視：節目 |  作業 3  
+十三 |  全球化與電視 |   
+十四 |  電視政策：內容 |   
+十五 |  電視政策：結構 |  作業 4  
+十六 |  期末作業繳交 |  期末報告  
+每週讀本清單將於課程進行時發放
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

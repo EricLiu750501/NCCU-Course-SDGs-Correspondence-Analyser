@@ -1,0 +1,110 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：勞動與社會憲法
+#####  Course Name: Constitution on Labor and Social Protection
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：601390001 Course No.601390001
+#### 修別：選
+Type of Credit: Elective 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：法律二甲、法律二乙、法律二丙 Course Department:Law/B/2 
+  * 授課老師：林佳和、張桐銳 Instructor: LIN CHIA-HO/CHANG TUNG-JUI 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四78 Session: thu16-18
+##  課程簡介Course Description
+本課程以理論講授為主，在憲法學理論與實務之貫穿下，延續社會法暨勞動法前階段之學習，進行兩個法領域在憲法視野上之深入研討
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEF雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 專業知識
+  * B. 實務運用
+  * C. 表達溝通
+  * D. 社會參與
+  * E. 人文關懷
+  * F. 國際視野
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+深化修課同學對於社會法與勞動法之理解，培養修課同學從憲法學角度分析社會法與勞動法問題之能力
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 | 課程主題 |  課程內容與 指定閱讀 | 教學活動與作業 | 學習投入時數  
+---|---|---|---|---  
+1 | 勞動法發展史：與國家之邂逅、交集、衝突與合拍 |  |  |   
+2 | 勞動基本權一：原則、消極與積極職業自由權 |  |  |   
+3 | 勞動基本權二：同盟自由權、共同決定權 |  |  |   
+4 | 勞動基本權三：客觀法內容、國家目標與憲法委託 |  |  |   
+5 | 從大法官解釋看問題：373、807 |  |  |   
+6 | 從大法官解釋看問題：578、726 |  |  |   
+7 | 如何將憲法觀點引入適用？個別勞動法篇 |  |  |   
+8 | 如何將憲法觀點引入適用？集體勞動法篇 |  |  |   
+9 | 期中考（勞動法部分） |  |  |   
+10 |  社會國與 資本主義經濟體制 |  |  |   
+11 | 社會國與法律保留 |  |  |   
+12 |  社會國原則與 基本國策條款 |  |  |   
+13 | 社會基本權 |  |  |   
+14 | 平等保障 I |  |  |   
+15 | 平等保障 II |  |  |   
+16 | 財產權保障 |  |  |   
+17 | 職業自由 |  |  |   
+18 | 期末考（社會法部分） |  |  |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

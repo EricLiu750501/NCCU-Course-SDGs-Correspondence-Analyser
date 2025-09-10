@@ -1,0 +1,100 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：由歷史事件看國際關係 
+#####  Course Name: Witness to History: A Perspective of International Relations
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：042103001 Course No.042103001
+#### 修別：群
+Type of Credit: Partially Required 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：外交系 Course Department:Diplomacy 
+  * 授課老師：郭昕光 Instructor: KUO HSIN-KUANG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：一12 Session: mon08-10
+##  課程簡介Course Description
+多國際事件的發生，使二十世紀成為一個重要且動盪的時代。政治的紛擾、戰爭的傷害、經貿的競合、科技的創新，加上文明的衝突與環境的挑戰等等，可說是該世紀的最佳寫照。在各種混亂不安與發展進步交錯之際，進入新世紀後，世人將面對更多的衝突，但也相對地擁有更多的機會。本課程計畫透過生動鮮明的影片（紀錄片、新聞短片或電影）介紹各項重大事件，以協助學習者認識國際關係的變遷。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+鼓勵學習者透過觀察，培養獨立思考的能力，進而擁有更包容與更多元的國際視野。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 課程主題 課程內容與指定閱讀 教學活動與作業 學習投入時數
+第一週 導論 課程概說 無 2小時
+第二週 統一與戰爭 依課程主題閱讀相關資料 小考 2小時
+第三週 第一次世界大戰 依課程主題閱讀相關資料 小考 2小時 
+第四週 威爾遜總統與國際聯盟 依課程主題閱讀相關資料 小考 2小時
+第五週 教師節補假 
+第六週 中秋節放假
+第七週 顧維鈞與巴黎和會 依課程主題閱讀相關資料 小考 2小時
+第八週 南京大屠殺 依課程主題閱讀相關資料 期中心得 2小時
+第九週 第二次大戰--亞洲戰場 依課程主題閱讀相關資料 小考 2小時
+第十週 第二次大戰--歐洲戰場 依課程主題閱讀相關資料 小考 2小時
+第十一週 韓戰 依課程主題閱讀相關資料 小考 2小時
+第十二週 越戰 依課程主題閱讀相關資料 小考 2小時
+第十三週 中東衝突 依課程主題閱讀相關資料 小考 2小時
+第十四週 東歐劇變 依課程主題閱讀相關資料 小考 2小時
+第十五週 戰爭進行式 依課程主題閱讀相關資料 小考 2小時 
+第十六週 回顧與展望 依課程主題閱讀相關資料 期末報告  2小時 
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

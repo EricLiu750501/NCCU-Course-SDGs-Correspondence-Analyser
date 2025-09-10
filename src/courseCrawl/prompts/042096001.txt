@@ -1,0 +1,91 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：歐盟的兩岸政策 
+#####  Course Name: EU's Policy towards Taiwan and China
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：042096001 Course No.042096001
+#### 修別：群
+Type of Credit: Partially Required 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：國關通 Course Department:International Relation(Common Course) 
+  * 授課老師：湯紹成 Instructor: TANG SHAO-CHENG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：一12 Session: mon08-10
+##  課程簡介Course Description
+當前歐盟雖然面臨一些問題，比如英國脫歐，但是歐盟還是世界上整合程度最高的國家聯合體。當今歐盟與大陸已經不只是貿易夥伴，而是共同的發展夥伴，關係甚為密切。況且，北京可以在歐盟國家之間合縱連橫，拉一派打一派，以期擴大其與歐盟之間的合作空間。在台灣的統獨問題上，只要是和平的進行，原則上歐方均將難以置喙，因其影響力有限，並有意支持美國在此方面的主導權，因為美歐在這部分的利益接近。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+分析歐盟的成因與發展
+介紹兩岸關係的重要性
+探討歐盟輛案政策內涵
+##  每周課程進度與作業要求 Course Schedule & Requirements
+1-6週 歐盟的起源 發展 結構 運作 特色
+7-8 週 兩岸關係的產生 內部因素 安全影響
+9 週 期中考
+10-12 週 兩岸關係的 外部因素 發展過程 
+13-15週 歐盟在兩岸關係發展中的角色與功能 歐盟模式 
+16 週 期末考
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

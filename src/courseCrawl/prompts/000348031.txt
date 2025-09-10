@@ -1,0 +1,109 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：管理學 
+#####  Course Name: Management
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：000348031 Course No.000348031
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：企管系 Course Department:Business Administration 
+  * 授課老師：郭曉玲 Instructor: GUO SHIAU-LING 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：五234 Session: fri09-12
+##  課程簡介Course Description
+本課程介紹主要的管理理論與概念，並說明基本的管理功能，包括規劃、組織、領導、控制等四大面向。課程搭配個案討論與課堂中問題討論，以期讓同學更貼進管理的實務。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+1. 了解企業管理的基本理論觀念並能與實務結合。
+2. 藉由實際案例討論增進學生對企業管理基本運作方式的認識。
+3. 培養學生團隊合作能力。
+4. 藉由課堂學習表達與思考能力，增進學生聽、說、讀、想(思考)能力。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+※注意事項 (此課程於10/3後由官函霓老師代課)
+  1. 第一堂課務必出席，無故缺席者視同放棄修課權利；學期間除突發狀況外，無法出席者務必事先請假，公假者請出示公假單。缺席次數超過三次，視為棄修，學期成績以不及格計算。慣性課堂上使用電子智慧型設備者(e.g. 手機、電腦、平板等)，視同缺席。
+  2. 修課學生每周課程準備約6-9小時。
+  3. 教師講授內容為主，輔以相關個案、影片、書籍、電影與重大新聞時事等進行討論，並以分組或個人抽卡片的方式進行互動式教學。
+  4. 課程含分組活動作業，期中、期末將進行組員互評。
+  5. 課程內容與時程依實際上課情況調整。 週次 |  課程主題 |  課程內容與指定閱讀 |  教學活動與作業  
+---|---|---|---  
+1 9/5 |  課程介紹、工作環境中的管理者與你、 |  Ch 1 |  分組、填寫個人資料 討論與活動  
+2 9/12 |  決策制定 |  Ch 2 |  討論與活動  
+3 9/19 |  變革管理與創新 |  Ch 6 |  討論與活動  
+4 9/26 |  規劃、策略規劃 |  Ch 8、9 |  Milestone I: 「期末專案構想」繳交  
+5 10/3 |  社會意識管理 |  Ch 5 |  * 學習單 1  
+6 10/10 |  國慶日放假  
+7 10/17 |  管理者的限制 |  Ch 7 |  討論與活動  
+8 10/24 |  光復節補假  
+9 10/31 |  Milestone II:小組學期專案進度諮詢會議  
+10 11/7 |  組織設計 |  Ch 11 |  * 個案討論 1  
+11 11/14 |  人力資源管理 |  Ch 13 |  討論與活動  
+12 11/21 |  領導 |  Ch 16 |  * 個案討論2  
+13 11/28 |  激勵 |  Ch 17 |  討論與活動  
+14 12/5 |  控制 |  CH18 |  線上課程 * 學習單2  
+15 12/12 |  Milestone III:分組專案報告  
+16 12/19 |  期末考  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

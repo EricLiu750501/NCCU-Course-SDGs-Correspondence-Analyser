@@ -1,0 +1,114 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：投資組合管理 
+#####  Course Name: Portfolio Managements
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：307870001 Course No.307870001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：財管三 Course Department:Finance/B/3 
+  * 授課老師：陳鴻毅 Instructor: CHEN HONG-YI 
+  * 先修科目：[ 投資學(單學期)(修習且及格)]Prerequisite([])
+  * 上課時間：二234 Session: tue09-12
+##  課程簡介Course Description
+This is an advanced course introducing modern investment theory and its application to portfolio management. This course will focus on financial theories and empirical evidence useful for investment decisions. In addition, this intends to provide the theoretical framework for further studies and work in the area.
+The prerequisite course is _Investments_. Much of the material in this class is quantitative and highly analytical. Students should be comfortable with mathematical and statistics concepts.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 溝通能力 Students will acquire practical professional skills – communication
+  * B. 團隊合作與領導能力 Students will be able to work effectively in teams as well as develop leadership skills
+  * C. 解決問題的能力 Students will acquire practical professional skills - problem solving
+  * D. 具備商學基礎知識與能力&財務領域專業知識 Students will gain basic & professional knowledge in financial field
+  * E. 理解與辨別社會責任與企業倫理及永續議題，並在未來工作中運用企業倫理概念的能力 Students will understand and be able to identify ethical/social responsibility/sustainability issues and apply ethics to business decisions
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+The course covers risk and return, efficient market hypothesis, optimal portfolio choice, asset pricing models, investment strategies, and fund performance measurement. Students are exposed to a broad overview of modern finance and gain a deep understanding of certain key theories. Practical issues, such as data collecting, data manipulation, and data analysis, are also introduced. Students are expected to apply empirical techniques learned in class to actual stock price data and replicate selected results from the academic literature discussed in class.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Schedule of the Course:
+Note: I will adjust this schedule to meet the needs of the class. Please refer to the e-Learning (WM5) for scheduling updates.
+週次 | 課程主題 | 課程內容與指定閱讀 | 教學活動與作業 | 學習投入時數 |   
+---|---|---|---|---|---  
+|  |  |  |  |   
+Week  | Course Theme | Content and Reading Assignment | Activity and Homework | Estimated time devoted to coursework per week  
+|  |  |  | 課堂講授  | 課程前後   
+|  |  |  | Lecture Hours | Preparation Time  
+1 | Assets classes and financial instruments and How securities are traded | BKM Chapter 2 and Chapter 3 | Class review & homework | 3 | 6  
+2 | Assets classes and financial instruments and How securities are traded | BKM Chapter 2 and Chapter 3 | Class review & homework / 1st Homework Assignment Due | 3 | 6  
+3 | Risk, return, and the historical record | BKM Chapter 5 | Class review & homework / 2nd Homework Assignment Due | 3 | 6  
+4 | Capital allocation to risky assets | BKM Chapter 6 | Class review & homework / 3rd Homework Assignment Due | 3 | 6  
+5 | Optimal risky portfolios | BKM Chapter 7 |  |  |   
+6 | Guest speach |  | Class review / 4th Homework Assignment Due | 3 | 6  
+7 | Index models and Performance-measure approaches for selecting optimum portfolio | BKM Chapter 8 | Class review & homework  | 3 | 6  
+8 | Capital asset pricing model, arbitrage pricing theory, and multifactor models for risk and return | BKM Chapter 9 and Chapter 10 | Class review & homework / 5th Homework Assignment Due | 3 | 6  
+9 | Midterm exam | Chapters up to Meeting 8 | In-class exam |  |   
+10 | The efficient market hypothesis | BKM Chapter 11 | Class review & homework / 6th Homework Assignment Due | 3 | 6  
+11 | Behavioral finance and technical analysis | BKM Chapter 12 | Class review & homework / 7th Homework Assignment Due | 3 | 6  
+12 | Portfolio performance evaluation  | BKM Chapter 24 | Class review & homework / 8th Homework Assignment Due | 3 | 6  
+13 | Hedge funds | BKM Chapter 26 | Class review & homework / 9th Homework Assignment Due | 3 | 6  
+14 | Option markets: introduction | BKM Chapter 20  | Class review & homework / 10th Homework Assignment Due | 3 | 6  
+15 | Option valuation | BKM Chapter 21 | Class review & homework / 11th Homework Assignment Due | 3 | 6  
+16 | Final Exam |  | In-class exam |  |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

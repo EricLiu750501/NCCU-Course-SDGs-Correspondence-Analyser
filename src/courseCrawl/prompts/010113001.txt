@@ -1,0 +1,107 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：高級日語 
+#####  Course Name: Advanced Japanese
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：010113001 Course No.010113001
+#### 修別：選
+Type of Credit: Elective 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：日文系 Course Department:Japanese Language and Culture 
+  * 授課老師：坂井郁子 Instructor: SAKAI IKUKO 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：五34 Session: fri10-12
+##  課程簡介Course Description
+『會!日本語中階1(できる日本語中級)』はN3後半からN2のレベルである。今まで学んだことを土台として、中級から上級への時期に必要な「話す・聞く」「読む・書く」の総合的な言語能力と自立学習の能力を培う。日本語の運用能力だけでなく、討論したりしながら日本固有の文化や習慣なども理解する。
+学習対象：日本語を母語としない人
+開班人数20人
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+１．自律的に日本語学習をするための能力を身につける。
+２．中～上級の4技能の能力の向上。
+３．中級～上級レベルの文法が理解でき、文が作れる。
+４．人間関係が円滑に構築されるような自然な日本語が話せ、聞き取りもできる。
+５．学習した文法を通じてやや高度な文章を読むことができる。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 | 課程主題 | 課程內容與指定閱讀 | 教學活動與作業  
+---|---|---|---  
+1 | 上課方法 第1課(1)見つけた | P28 |   
+2 | 第1課（２）こんなときどうする | P29-30 | P37小テスト（生字聽寫）  
+3 | 第1課（３）耳でキャッチ | P30-31 | P38小テスト(生字聽寫)   
+4 | 第1課（４）伝えてみよう | P32-33 | P39小テスト（生字聽寫）   
+5 | 第1課（５）知って楽しむ | P34-35 | P40小テスト（生字聽寫）   
+6 | 国慶節 休み |  | P35小テスト（生字聽寫）   
+7 | 第2課（１）耳でキャッチ | P44-45 | P55小テスト（生字聽寫）   
+8 | 補假日 |  |   
+9 | 中間テスト 筆記 | 第1課 | 第1課宿題提出  
+10 | 第2課（２）こんなときどうする？ | P46-47 | P55小テスト（生字聽寫）   
+11 | 第2課（３）見つけた！ | p47 | P56小テスト（生字聽寫）  
+12 | 第2課（４）こんなときどうする？ | p48-49 | P57小テスト（生字聽寫）  
+13 | 第2課（５）伝えよう | P50-51 | P58小テスト（生字聽寫）  
+14 | 第2課（６）知って楽しむ | P52-53 | P53小テスト（生字聽寫）  
+15 | 第3課（１）見つけた | P62-63 | P72小テスト（生字聽寫）  
+16 | 期末テスト 筆試 | 第2課、第3課（１） | 第2課宿題提出  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

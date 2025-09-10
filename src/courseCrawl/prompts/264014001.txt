@@ -1,0 +1,130 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：社會工作研究法
+#####  Course Name: Social Work Research Methods
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：264014001 Course No.264014001
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：社工碩一 Course Department:Graduate Institute of Social Work/M/1 
+  * 授課老師：宋麗玉 Instructor: SONG LI-YU 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：一567 Session: mon14-17
+##  課程簡介Course Description
+本課程全覽社會研究中所使用之基本概念與過程，內容包括如何形成研究問題以及應用適切的研究方法以尋求問題之答案；課程內容裝備學生閱讀與評估社會工作研究成果以及擬訂研究計劃大綱兩方面之能力、以增進社會工作實務者之知能。課程中介紹社會研究之設計、執行、分析與應用。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEF雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 社會工作專業知能與技巧
+  * B. 社會工作倫理與價值
+  * C. 社會政策規劃分析
+  * D. 團隊與網絡合作之能力
+  * E. 研究分析能力
+  * F. 尊重多元文化、人文社會關懷、培力與倡導
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程之設計在協助學生達成下列目的：
+1.瞭解科學方法與社會科學研究之基本概念。
+2.認識研究在社會工作實務之目的和貢獻。
+3.應用理論、研究原則與方法至社會工作研究。
+4. 瞭解適切的研究問題之選擇、假設之發展、研究設計、測量、抽樣、資料蒐集以及分析，其背後的邏輯和原由。
+5.能夠形成一個有意義的研究問題、並設計合宜之方法以進行研究。
+6.瞭解社會科學研究的倫理與兩難。
+7.學習評量與使用社會工作方面既有之研究，並成為懂得分辨的使用者。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+課程主題與預習範圍
+日期 範圍
+9/1 _Introduction to Social Work Research_ Monette: Chapter (Ch.) 1 & 2
+9/8 _Overview of Major Steps in Research Process_ Grinnell: Ch. 1
+9/15 _Problem Formulation - Theory, Questions and Hypotheses_
+Monette: Ch. 4
+Yegidis & Weinbach: Using existing knowledge
+# 討論 Boone article
+9/22 _Research Approaches_ Grinnell: Chs. 3 & 4
+Epistein: Quantitative and qualitative methods
+9/29教師節補假
+10/6中秋節放假
+10/13 _Research Designs_ Monette: Chs. 10, 11 & 12
+# 說 明 Research Guide, Sections I - V
+討論Brannen & Rubin article
+10/20 _Research Designs_ Monette: Chs. 10, 11 & 12 討論Hall et al. article
+10/27 _Sampling Techniques_ Monette: Ch. 6
+11/3 _Sampling Techniques_ Monette: Ch. 6
+# 討論 Timberlake et al. article, Monahan & Hooker article
+* 交期中報告**
+11/10 _Issues of Measurement_ Monette: Ch. 5
+11/17 _Issues of Measurement_ Monette: Ch. 5
+# 討論 宋麗玉(2006)
+ 交測量工具作業
+11/24 _Selection and Development of Research Instruments_ Monette: Ch.13； 宋麗玉(2006)
+12/1 _Selection and Development of Research Instruments_ Monette: Ch.13； 宋麗玉(2006)
+12/8 _Methods of Data Collection_
+Adams & Schvaneveldt: Chs. 10
+# 討論 宋麗玉 照顧負荷研究問卷
+12/15 _Methods of Data Collection_
+Adams & Schvaneveldt: Chs. 11 
+_Ethical Issues Summary_
+12/26 交期末報告
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

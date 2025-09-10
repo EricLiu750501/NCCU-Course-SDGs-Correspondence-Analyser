@@ -1,0 +1,107 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：研究方法與論文寫作
+#####  Course Name: Research Methods and Academic Writing
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：555004001 Course No.555004001
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：語言碩一、語言碩二 Course Department:Institute of Linguistics/M/1&2 
+  * 授課老師：黃瓊之 Instructor: HUANG CHIUNG-CHIH 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：一D56 Session: mon13-16
+##  課程簡介Course Description
+The aim of this course is twofold. First, it introduces students to research methods in linguistics and guides them in applying fundamental principles of research design to their own work. Second, it supports students in developing their academic writing skills. Through hands-on writing practice, students will learn to produce research proposals and papers using appropriate academic style and format.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCD雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 理論語言學Theoretical linguistics
+  * B. 應用語言學Applied linguistics
+  * C. 研究能力Research skills
+  * D. 外語能力Language skills
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+The aim of this course is twofold. First, it introduces students to research methods in linguistics and guides them in applying fundamental principles of research design to their own work. Second, it supports students in developing their academic writing skills. Through hands-on writing practice, students will learn to produce research proposals and papers using appropriate academic style and format.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+# Week
+|  Reading |  Format |  Class time |  Out-of-class time  
+---|---|---|---|---  
+W1 |  Introduction |  Lecture |  3 |  4.5  
+W2 |  Library databases |  Workshop |  3 |  4.5  
+W3 |  Empirical research in linguistics (V & K, Ch. 1) The experimental research report (W & B, Ch. 1) |  Lecture |  3 |  4.5  
+W4 |  Basic research methods for data collection (V & K, Ch. 2) Establishing a context (W & B, Ch. 2) |  Lecture |  3 |  4.5  
+W5 |  Language corpora |  Workshop |  3 |  4.5  
+W6 |  Language documentation and descriptive linguistics (V & K, Ch. 3) Reviewing previous research (W & B, Ch. 3) |  Lecture |  3 |  4.5  
+W7 |  Language typology (V & K, Ch. 4) Reviewing previous research (W & B, Ch. 3) |  Lecture |  3 |  4.5  
+W8 |  EndNote Turnitin |  Workshop |  3 |  4.5  
+W9 |  Corpus linguistics (V & K, Ch. 5) Advancing to present research (W & B, Ch. 4) |  Lecture |  3 |  4.5  
+W10 |  Sociolinguistics and anthropological linguistics (V & K, Ch. 6) Method (W & B, Ch. 5) |  Lecture |  3 |  4.5  
+W11 |  Progress report |  Presentation |  3 |  4.5  
+W12 |  Cognitive linguistics and psycholinguistics (V & K, Ch. 7) Results (W & B, Ch. 7) |  Lecture |  3 |  4.5  
+W13 |  Insights from linguistic research (V & K, Ch. 9) Discussion (W & B, Ch. 8) |  Lecture |  3 |  4.5  
+W14 |  Discussion (W & B, Ch. 8) Abstract (W & B, Ch. 9) |  Lecture |  3 |  4.5  
+W15 |  Project presentation |  Presentation |  3 |  4.5  
+W16 |  Term paper due (by 4:00pm) |  |  |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

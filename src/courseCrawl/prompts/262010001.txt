@@ -1,0 +1,90 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：勞動事務實習：勞動市場（二）
+#####  Course Name: Labour Affair Intern: Labor Market(II)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：262010001 Course No.262010001
+#### 修別：群
+Type of Credit: Partially Required 
+_1.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：勞工碩一、勞工碩二 Course Department:Labor Research/M/1&2 
+  * 授課老師：張其恆 Instructor: CHANG CHYI-HERNG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：五CD Session: fri12-14
+##  課程簡介Course Description
+勞動研究除學理學科整合思考外，實務體驗將有助於學習成效的提昇。本課程規劃於碩一下學期，安排實習準備；碩一與碩二間暑假，安排至少一個月的職場實習體驗；碩二上學期，進行實習體驗之報告與分享。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程主要學習目標有三：
+1. 體驗勞動市場的運作實務：自行申請實習單位與實習準備，體驗求職過程。
+2. 體驗勞動市場實務問題與解決方案：於至少一個月的實習期間，參與職場實際運作，以體驗相關實務問題與解決方案。
+3. 增進職涯發展與裨益問題意識：體驗成果之研討、交流與分享，將有助於未來職涯發展與論文研撰。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+本課程實施彈性授課，包括：
+第一學期實施實習準備，於每月第一週（共計四週）分別就實習課程簡介、實習單位選擇、實習計畫準備、實習單位申請進行學習活動。學習投入時數：課堂時數四小時，課程前後每週平均五小時。
+暑期實習期間由學生按實習計畫於實習單位至少實習一個月期間，實習單位由實習輔導人協助學生完成實習職場體驗，教師不定期隨時暸解學生實習狀況，接受實習學生各種諮詢。學習投入時數：至少一個月期間，每日實習時數八小時，以二十天計共一百六十小時。
+第二學期實施實習反饋，於每月第一週（共計四週）分別就實習單位評分評語、實習報告研撰、口頭報告、經驗交流分享與評量進行學習活動。
+####  其他： Others: 暑期實習 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

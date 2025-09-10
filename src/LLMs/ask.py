@@ -119,11 +119,13 @@ if __name__ == "__main__":
   # test()
 
   g = Gemini()
+  gpt = GPT()
 
   prompt = ""
   with open("tempPrompt.txt", "r", encoding="utf-8") as f:
       prompt = f.read() 
-  print(prompt)
-  print(g.ask(prompt))
+  # print(prompt)
+  # print(g.ask(prompt))
+  print(gpt.ask(prompt))
   
 

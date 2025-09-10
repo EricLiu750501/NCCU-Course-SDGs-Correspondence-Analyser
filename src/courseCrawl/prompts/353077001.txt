@@ -1,0 +1,106 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：會計研究專題：關鍵查核事項與違約風險之研究
+#####  Course Name: Directed Study: Critical Audit Matters and Default Risk
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：353077001 Course No.353077001
+#### 修別：必
+Type of Credit: Required 
+_1.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：會計博一、會計博二 Course Department:Accounting/D/1&2 
+  * 授課老師：張祐慈 Instructor: CHANG YU-TZU 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：一C Session: mon12-13
+##  課程簡介Course Description
+本課程聚焦於關鍵查核事項與公司違約風險之關聯性，探討關鍵查核事項之揭露品質，如何影響投資者與債權人對公司違約風險之判斷。本課程首先回顧關鍵查核事項過往研究，檢視其對資訊價值、投資者行為與審計品質的影響，以往文獻在探討關鍵查核事項的內容時，最初採用「字數」及「項目數」作為主要變數，而後進一步以文字分析工具探討關鍵查核事項揭露之內容，如可讀性與可比較性，最後探討違約風險的衡量，過往研究多以信用違約交換利差或信用評等衡量公司違約風險，然本課程試圖找出關鍵查核事項之揭露內容能否反映公司潛在違約風險，期能補足傳統信用評等模型的不足，亦能作為投資人與債權人在評估企業財務穩健性與違約風險時輔助工具，對於我國學術界及實務界之關鍵查核事項發展，具有前瞻性與重要性。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCD雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 習得高階會計專業知識， 並能在專業領域深入研究 Students will acquire advanced accounting expertise, and can conduct in-depth research in professional fields.
+  * B. 理解與辨別道德、社會責任與永續議題，並將其 應用於學術研究 Students will understand and identify ethical, social and sustainability issues, and apply it to academic research.
+  * C. 發展獨立思考能力， 並能發掘與分析重要的 學術研究議題 Students will develop independent thinking skills, and can discover and analyze the important academic research topics.
+  * D. 培養良好的溝通能力，以及會計核心課程之授課能力 Students will develop good communication skills and the ability to teach core accounting courses.
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+完成相關論文並公開發表，且得以投稿至學術期刊或國際學術性研討會。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 |  內容  
+---|---  
+1 |  09/02 |  課程介紹  
+2 |  09/09 |  文獻研讀(主題一：關鍵查核事項過往研究回顧)  
+3 |  09/16 |  文獻研讀(主題一：關鍵查核事項過往研究回顧)  
+4 |  09/23 |  文獻研讀(主題二：關鍵查核事項文字揭露衡量)  
+5 |  09/30 |  文獻研讀(主題二：關鍵查核事項文字揭露衡量)  
+6 |  10/07 |  文獻研讀(主題三：違約風險之研究)  
+7 |  10/14 |  文獻研讀(主題三：違約風險之研究)  
+8 |  10/21 |  資料蒐集與整理(1)  
+9 |  10/28 |  資料蒐集與整理(2)  
+10 |  11/03 |  實證結果(主要模型)  
+11 |  11/10 |  實證結果(額外測試與敏感性測試)  
+12 |  11/17 |  實證結果(額外測試與敏感性測試)  
+13 |  11/24 |  論文撰寫(1)  
+14 |  12/02 |  論文撰寫(2)  
+15 |  12/09 |  論文撰寫(3)  
+16 |  12/16 |  期末答辯  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

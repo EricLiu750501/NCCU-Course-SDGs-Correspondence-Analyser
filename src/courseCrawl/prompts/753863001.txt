@@ -1,0 +1,261 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：網路搜索與探勘
+#####  Course Name: Web Search and Mining
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：753863001 Course No.753863001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：資科碩一、資碩工一、資碩計一 Course Department:Computer Science/M/1 
+  * 授課老師：蔡銘峰 Instructor: TSAI MING-FENG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三D56 Session: wed13-16
+##  課程簡介Course Description
+This course is designed to teach students the following points: 
+  1. to provide an overview of Web Search and Mining related research; 
+  2. to systematically review the core research topics in the field; 
+  3. to show case the most recent research progress; 
+  4. to give students enough training for doing research in the field and an opportunity to work on a research project.
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+This course includes the following two parts:   
+Part I: Web Search   
+• Evaluation   
+• Retrieval Model   
+• Language Model   
+• Link Analysis   
+• Web Crawling   
+Part II: Web Mining   
+• Classification   
+• Clustering   
+• Learning to Rank   
+• Recommendation
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 | 課程主題 | 課程內容與指定閱讀 | 教學活動與作業 | 學習投入時數  
+---|---|---|---|---  
+課堂講授 | 課程前後  
+1 |  ```
+Course Introduction
+```
+|  ```
+Slides
+```
+|  ```
+Textbook
+```
+|  3.0 |  4.5  
+2 |  ```
+Introduction to Web Search and Mining
+```
+|  ```
+Slides
+```
+|  ```
+Textbook
+```
+|  3.0 |  4.5  
+3 |  ```
+Web Search: Ranking Evaluation
+```
+|  ```
+Slides
+```
+|  ```
+Textbook; Assignment
+```
+|  3.0 |  4.5  
+4 |  ```
+Web Search: Vector Space Model
+```
+|  ```
+Slides
+```
+|  ```
+Textbook; Project
+```
+|  3.0 |  4.5  
+5 |  ```
+Web Search: Probabilistic Information Retrieval
+```
+|  ```
+Slides
+```
+|  ```
+Textbook
+```
+|  3.0 |  4.5  
+6 |  ```
+Web Search: Language Model for IR
+```
+|  ```
+Slides
+```
+|  ```
+Textbook; Assignment
+```
+|  3.0 |  4.5  
+7 |  ```
+Web Search: Text Analytics
+```
+|  ```
+Slides
+```
+|  ```
+Textbook
+```
+|  3.0 |  4.5  
+8 |  ```
+Midterm
+```
+|  ```
+none
+```
+|  ```
+none
+```
+|  none |  none  
+9 |  ```
+Web Mining: Introduction to Machine Learning Techniques
+```
+|  ```
+Slides
+```
+|  ```
+Textbook; Project
+```
+|  3.0 |  4.5  
+10 |  ```
+Web Mining: Classification and Naive Bayes
+```
+|  ```
+Slides
+```
+|  ```
+Textbook; Assignmnet
+```
+|  3.0 |  4.5  
+11 |  ```
+Web Mining: Support Vector Machines (I)
+```
+|  ```
+Slides
+```
+|  ```
+Textbook
+```
+|  3.0 |  4.5  
+12 |  ```
+Web Mining: Support Vector Machines (II)
+```
+|  ```
+Slides
+```
+|  ```
+Textbook; Project
+```
+|  3.0 |  4.5  
+13 |  ```
+Web Mining: Clustering (I)
+```
+|  ```
+Slides
+```
+|  ```
+Textbook
+```
+|  3.0 |  4.5  
+14 |  ```
+Web Mining: Clustering (II)
+```
+|  ```
+Slides
+```
+|  ```
+Textbook
+```
+|  3.0 |  4.5  
+15 |  ```
+Web Mining: Recommender Systems
+```
+|  ```
+Slides
+```
+|  ```
+Textbook
+```
+|  3.0 |  4.5  
+16 |  ```
+Final Project Presenations
+```
+|  ```
+None
+```
+|  ```
+None
+```
+|  0 |  1.5  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

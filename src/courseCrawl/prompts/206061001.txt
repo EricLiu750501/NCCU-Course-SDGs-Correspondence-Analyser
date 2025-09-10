@@ -1,0 +1,109 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：第三部門
+#####  Course Name: The Third Sector
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：206061001 Course No.206061001
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：公行三 Course Department:Public Administration/B/3 
+  * 授課老師：王慧敏 Instructor: WONG WAI MAN NATALIE 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：一D56 Session: mon13-16
+##  課程簡介Course Description
+「第三部門」是甚麼? 在日常生活中常見的組織，如:非營利組織、非政府組織、公益組織、慈善組織、志願服務組織、公民社會組織、草根組織、社會服務組織等伴隨著民主化而來，對政府、公民社會發展扮演重要的角色。
+本課程主要著重在介紹非營利組織的概念和理論，分析其角色功能，探討非營利組織、政府及企業間的關係，並學習各種管理方法在非營利組織中的運用，使學生對不同類型的非營利組織能有基礎認識，奠定其學習基礎。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABC雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 公共行政與政策的基礎理論Basic theories of public administration and policy
+  * B. 公共行政與政策的管理知能Management knowledge for public administration and policy
+  * C. 公共事務關懷與價值Concern and values for public affairs
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+  1. 對非營利組織有基礎的認識與理解。
+  2. 奠定非營利組織的學習基礎，引發未來從事非營利組織的興趣。
+  3. 將共同參與、協力合作建制於團隊互動中。
+  4. 通過課程討論、個人與小組發表，書寫簡潔、清晰的報告，以及有效溝通。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 |  課程主題 |  課堂討論  
+---|---|---  
+1 |  課程簡介及第三部門相關理論 |  -----  
+2 |  非營利組織在台灣的發展特色 |  (一)  
+3 |  非營利組織與政府的關係 |  (二)  
+4 |  非營利組織與企業的關係 |  (三)  
+5 |  教師節 (停課)  |  -----  
+6 |  中秋節 (停課)  |  -----  
+7 |  非營利組織的行銷與募款 |  (四）  
+8 |  非營利組織的志工管理 |  (五)  
+9 |  非營利組織的事業化 |  (六)  
+10 |  社會企業 |  (七)  
+11 |  非營利組織與社區 |  (八)  
+12 |  非營利組織與環境保護 |  (九)  
+13 |  第三部門與公共政策 |  (十)  
+14 |  第三部門的國外案例 |  （十一)  
+15 |  小組報告 (I） |  -----  
+16 |  小組報告 （II） |  -----  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

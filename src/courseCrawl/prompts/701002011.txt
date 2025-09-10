@@ -1,0 +1,119 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：線性代數
+#####  Course Name: Linear Algebra
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：701002011 Course No.701002011
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：應數一 Course Department:Mathematical Sciences/B/1 
+  * 授課老師：符聖珍 Instructor: FU SHENG-CHEN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四D56 Session: thu13-16
+##  課程簡介Course Description
+這門課會帶大家認識線性代數的核心概念，例如：向量空間、線性映射、基底與維度、矩陣、特徵值與特徵向量等等。不只是學怎麼算，更重要的是理解背後的邏輯、結構和證明方法。我們會用比較嚴謹的方式來處理這些內容，幫助你打好必備的理論基礎。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCD雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 培養基礎數學與邏輯推理之能力
+  * B. 資料蒐集與分析數據之基礎能力
+  * C. 培養建立數學模型，解決問題之能力
+  * D. 培養數理資訊與科學計算之能力
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+### 課程目標
+這門課希望讓你：
+  * 搞懂什麼是「向量空間」和「線性映射」，並能清楚說明它們的性質。
+  * 學會怎麼換基底、算維度、看一個線性轉換有哪些本質特性。
+  * 了解特徵值、對角化、甚至 Jordan 標準型這些更進一步的結構。
+  * 培養寫數學證明的能力，養成清楚、嚴謹思考的習慣。
+學習成效
+上完這門課之後，你應該能夠：
+  * 不只是算，還能說明為什麼這樣算是合理的，知道每個定理怎麼來的。
+  * 看懂一個線性代數的證明，甚至自己能寫出來。
+  * 感受到抽象的力量，也能連結到一些實際應用的背景。
+  * 為更進階的數學課程打好底子。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 |  課程主題 |  課程內容與指定閱讀 |  教學活動與作業 |  學習投入時數  
+---|---|---|---|---  
+課堂講授 |  課程前後  
+1 |  introduction, vector spaces |  1.1, 1.2 |  習題1.1, 1.2 |  3 |  6  
+2 |  subspaces |  1.3 |  習題1.3 |  3 |  6  
+3 |  linear combinations |  1.4 |  習題1.4 |  3 |  6  
+4 |  linear dependence and linear independence |  1.5 |  習題1.5 |  3 |  6  
+5 |  bases and dimension |  1.6 |  習題1.6 |  3 |  6  
+6 |  linear transformations, null space, ranges |  2.1 |  習題2.1 |  3 |  6  
+7 |  the matrix representation |  2.2 |  習題2.2 |  3 |  6  
+8 |  期中考 |  |  |  |   
+9 |  composition of linear transformations and matrix multiplication |  2.3 |  習題2.3 |  3 |  6  
+10 |  invertibility and isomorphisms |  2.4 |  習題2.4 |  3 |  6  
+11 |  the change of coordinate matrix |  2.5 |  習題2.5 |  3 |  6  
+12 |  elementary matrix operations and elementary matrices |  3.1 |  習題3.1 |  3 |  6  
+13 |  the rank of a matrix and matrix inverses |  3.2 |  習題3.2 |  3 |  6  
+14 |  systems of linear equations—theoretical aspects |  3.3 |  習題3.3 |  3 |  6  
+15 |  systems of linear equations—computational aspects |  3.4 |  習題3.4 |  3 |  6  
+16 |  期末考 |  |  |  |   
+|  |  |  |  |  |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

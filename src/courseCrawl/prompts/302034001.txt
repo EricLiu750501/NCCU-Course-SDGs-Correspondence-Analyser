@@ -1,0 +1,101 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：貨幣銀行學 
+#####  Course Name: Monetary and Banking
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：302034001 Course No.302034001
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：金融二 Course Department:Money and Banking/B/2 
+  * 授課老師：趙世偉 Instructor: CHAO SHIH-WEI 
+  * 先修科目：[ 經濟學(全學年)(修習且及格)]Prerequisite([])
+  * 上課時間：五234 Session: fri09-12
+##  課程簡介Course Description
+This course studies several issues of money, financial markets, financial intermediaries and the monetary authority. It covers the roles and functions of money, financial intermediaries and financial markets. Students must have solid background of calculus , statistics , microeconomics, macroeconomics, and accounting before taking this course.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 奠定相關基礎專業知識 (Students will acquire and apply expertise in their respective fields.)
+  * B. 問題解決能力 (Students will acquire problem solving skills.)
+  * C. 溝通能力 (Students will acquire professional communication skills.)
+  * D. 理解與辨別道德、社會責任與永續議題 (Students will understand and be able to identify ethics, social responsibility, and sustainability issues.)
+  * E. 團隊合作與領導能力 (Students will be able to work effectively in teams as well as develop leadership skills.)
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+Students should be able to analyze contemporary issues in various aspects of money, banking and financial markets. For example,
+1. What useful information can be inferred from the yield curve?
+2. How do banks manage credit, market, operational and liquidity risks?
+3. How does the central bank create money supply?
+##  每周課程進度與作業要求 Course Schedule & Requirements
+The following schedule is tentative and subject to change.
+Week 1-2: Overview of money, financial markets and intermediaries
+Week 2-5: Interest rates and bond pricing
+Week 6-7: Term structure of interest rates
+Week 8: Midterm
+Week 9-11: Bank management
+Week 12-14: Financial regulations
+Week 14-15: Central bank and money supply
+Week 16: Final exam
+####  其他： Others: Learning Activities 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

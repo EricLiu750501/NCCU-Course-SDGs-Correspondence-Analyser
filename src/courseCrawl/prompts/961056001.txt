@@ -1,0 +1,102 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：國際法專題研究
+#####  Course Name: Seminar on International Law
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：961056001 Course No.961056001
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：法碩專一、法碩專二 Course Department:Executive Master of Laws Program/M/1&2 
+  * 授課老師：陳貞如 Instructor: CHEN CHEN-JU 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三FGH Session: wed19-22
+##  課程簡介Course Description
+順應著全球化以及新時代的發展，本學期國際公法專題研究課程旨在透過檢視國際法基本議題和新興議題，促進同學從基本的國際法認識，進入到更根本核心的國際法形成、解釋、適用與執行，進而研析各論領域的新發展。這些問題的研究是各種國際法爭議的根本和問題的解決之道。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+透過研讀與討論課程所選文獻，促進學員對於相關國際法議題的認識。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+周次 |  日期 |  主題 |  參考文獻  
+---|---|---|---  
+01 |  09/03 |  課程介紹、國際法概念 |  現代國際法，第一章  
+02 |  09/10 |  法源與條約 |  現代國際法，第二章、第四章  
+03 |  09/17 |  國際法與國內法關係 |  現代國際法，第三章  
+04 |  09/24 |  老師請假，演講安排  
+05 |  10/01 |  主體和特殊實體 |  現代國際法，第五章  
+06 |  10/08 |  美中台關係與承認問題 |  現代國際法，第六章  
+& 老師自編簡報  
+07 |  10/15 |  領土與管轄問題 |  現代國際法，第九章、第十一章  
+08 |  10/22 |  國際爭端解決及其新發展 |  開學後公布  
+09 |  10/29 |  國際人權法及其新發展 |  開學後公布  
+10 |  11/05 |  國際海洋法及其新發展 |  開學後公布  
+11 |  11/12 |  國際環境法及其新發展 |  開學後公布  
+12 |  11/19 |  國際經貿法及其新發展 |  開學後公布  
+13 |  11/26 |  國際刑法及其新發展 |  開學後公布  
+14 |  12/03 |  國際太空法及其新發展 |  開學後公布  
+15 |  12/10 |  期末報告I |   
+16 |  12/17 |  期末報告II |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

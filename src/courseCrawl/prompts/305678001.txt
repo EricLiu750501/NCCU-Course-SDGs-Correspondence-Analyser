@@ -1,0 +1,98 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：產業發展與就業規劃
+#####  Course Name: Industrial Development and Career Planning
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：305678001 Course No.305678001
+#### 修別：選
+Type of Credit: Elective 
+_1.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：企管三甲、企管三乙、企管四甲、企管四乙 Course Department:Business Administration/B/3&4 
+  * 授課老師：彭朱如 Instructor: PENG TZU-JU 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：五E Session: fri18-19
+##  課程簡介Course Description
+鑒於企管系大學部同學在未來的就業規劃前能對產業發展有更多認識，本課程以實務為主，目的在連結邀請於不同產業已經工作3~10年的校友，透過介紹不同產業的過去到未來幾年的發展趨勢，並請學長姐分享在該產業的就業經驗，協助學弟妹了解未來就業產業分別的實務運作及發展趨勢，據以協助同學提早啟動就業規劃。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 問題解決技能Students will acquire problem solving skills.
+  * B. 團隊合作與領導能力Students will be able to work effectively in teams as well as develop leadership skills.
+  * C. 理解與辨別道德、社會責任與永續議題Students will understand and be able to identify ethics, social responsibility, and sustainability issues.
+  * D. 奠定相關基礎專業知識Students will acquire and apply expertise in their respective fields.
+  * E. 溝通技能Students will acquire professional communication skills.
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程將邀請不同產業的校友共同參與相關的產業介紹，並針對同學的就業規劃提供意見。期能達到下列學習目標與成效：
+1.針對學生較有興趣的產業發展現況與未來趨勢提供更多相關資訊，讓學生在畢業前對於產業有更多認識與了解。
+2. 透過有經驗的校友及業界資深前輩協助學生提早啟動就業規劃與準備。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 Week |  課程主題 Topic |  課程內容與指定閱讀 Content and Reading Assignment |  教學活動與作業 Teaching Activities and Homework |  學習投入時間 Student workload expectation  
+---|---|---|---|---  
+課堂講授 In-class Hours |  課程前後 Outside-of-class Hours  
+9月5日 19:00- 21:00 |  課程介紹 |  課程介紹 個人職涯與履歷作業說明 校友講座I：103級陳惟邦學長 |  作業說明  |  1 |  6  
+10月3日 18:30-21:00 |  專題講座 |  專題講座I：73級葉素秋 （台灣輝瑞大藥廠總裁） |  專題演講1 _10/3_ 之前繳交個人報告(word格式) |  1.5 |  6  
+10月17日 18:30-21:00 |  專題講座 |  校友講座II： 個人職涯與履歷準備過程 100級李孟璇學姊 100級陳玫如學姊 |  報告與QA |  1.5 |  3  
+暫定 11月2日 9:00-17:10 |  工作坊 |  8:30-9:00報到 9:00~9:20 介紹學長姐 9:20-10:20同學介紹與未來規劃分享 10:20~10:30休息 10:30~12:00校友分享 12:00-13:00午餐 13:00-13:40休息 13:40-15:00 世界咖啡館I 15:00-15:10 休息 15:10-16:30世界咖啡館II 16:30-17:00總結 |  工作坊 100級系友群 |  7.5 |  3  
+####  其他： Others: 就業規劃報告 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

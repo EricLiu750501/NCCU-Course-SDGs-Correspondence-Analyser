@@ -1,0 +1,107 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：韓語口說訓練（一）
+#####  Course Name: Korean Listening and Oral Training (I)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：507046001 Course No.507046001
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：韓文一 Course Department:Korean Language and Culture/B/1 
+  * 授課老師：吳輪貞 Instructor: OH YOONJUNG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二234 Session: tue09-12
+##  課程簡介Course Description
+한국어문학과 1학년 전공생을 위한 교과목이다. 통합 교재를 활용하여 초급 단계의 한국어를 공부한다.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABC雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備基礎語言能力 Basic language skills
+  * B. 具備人文素養及知識 Humanity literacy & science
+  * C. 具備卓越之專業實務能力 Practical ability
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+1. 한글을 읽고 쓸 수 있다. 
+2. 초급 한국어 어휘와 문법을 이해할 수 있다.
+3. 초급 단계의 어휘와 문법을 활용하여 의사소통을 할 수 있다.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Week |  Topic |  Content and Reading Assignment |  Teaching Activities and Homework  
+---|---|---|---  
+1 |  수업 안내 |  수업 안내 |  설문조사 및 면담  
+2 |  0과 |  한글 |  -  
+3 |  1과 |  인사 |  단어 예습  
+4 |  2과 |  일상생활I |  단어 예습  
+5 |  3과 |  일상생활II |  단어 예습  
+6 |  4과 |  장소 |  단어 예습  
+7 |  발표 |  자기소개 |  발표 준비  
+8 |  시험 |  중간시험 |  -  
+9 |  5과 |  물건 사기 |  단어 예습  
+10 |  5, 6과 |  물건 사기 / 하루 일과 |  단어 예습  
+11 |  6과 |  하루 일과 |  단어 예습  
+12 |  7과 |  한국 생활 |  단어 예습  
+13 |  7, 8과 |  한국 생활 / 음식 |  단어 예습  
+14 |  8과 |  음식 |  단어 예습  
+15 |  활동 |  벼룩시장(flea market) |  물건 사고 팔기 활동  
+16 |  시험 |  기말시험 |  -  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

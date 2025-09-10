@@ -1,0 +1,95 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：區域研究—東南亞國際關係
+#####  Course Name: International Relations in Southeast Asia
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：203016001 Course No.203016001
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：外交三 Course Department:Diplomacy/B/3 
+  * 授課老師：黃奎博 Instructor: HUANG KWEI-BO 
+  * 先修科目：[ 國際關係(單學期)(修習且及格)] 及 [ 比較政府與政治(單學期)(修習且及格)]Prerequisite([] AND [])
+  * 上課時間：五D56 Session: fri13-16
+##  課程簡介Course Description
+本課程乃專為外交學系大學部開授之東南亞區域研究，藉歷史、國際關係、比較政治、國際政治經濟學、發展理論等多元角度觀察東南亞區域自二次大戰結束以後的演變，並以冷戰結束迄今之區域國際現勢作為教學與討論的重點。
+本學期中，本課程將涵蓋下列重點：東南亞區域歷史、政治、經濟、軍事、社會、文化概論；東南亞主要國家基本外交政策發展；東南亞國協（Association of South East Asian Nations，簡稱ASEAN）區域安全與經濟發展；域外強權與東南亞區域的互動；我國與東南亞關係。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEF雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 國際關係專業知能
+  * B. 具備區域政經文社整合知識
+  * C. 研究思辨能力
+  * D. 具備反思與克服變遷能力
+  * E. 語言運用能力
+  * F. 國際運籌帷幄能力
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程前半以課堂講授為主，約有一半內容將為該週主題的歷史，目的在協助學生建立東南亞區域的基本觀念。授課時，依內容進度將邀請學生參與討論或回答教師提問，以提升學習、思考與討論能力。
+本課程後半將以課堂講授及學生半自主學習為主。在半自主學習中，教師將事先指定小組擬答，內容為所給予的一個與該週主題相關的情境，該小組應於課前利用預習心得及即時網路資料（含人工智慧協助產生的資訊）提出觀點或政策建議。該小組在課堂進行10分鐘的口頭簡報後，將由另一指定小組以10分鐘以內的時間，針對內容提出詢問，可包括待澄清或可加強之處，或其他適合的評論，而且必須說明為何提出這些詢問或評論。這兩組都需要製作基本的投影片資料，以助其他學生較快進入狀況。之後，再由教師給予綜合評論。
+某些週的最後10分鐘，將由指定的小組進行該週東南亞最重要時事匯報，不一定要製作投影片。
+其他請參見附檔。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+請見附檔
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

@@ -1,0 +1,87 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：近代東亞人權與政治經濟發展研究
+#####  Course Name: Special Topics on The Hummer Rights and Political Economic Developments of Modern East Asia
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：158731001 Course No.158731001
+#### 修別：選
+Type of Credit: Elective 
+_1.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：台史碩一、台史博一、台史碩二、台史博二 Course Department:Graduate Institute of Taiwan History/G/1&2 
+  * 授課老師：前田直樹、鄭麗榕 Instructor: MAEDA NAOKI/CHENG LI-JUNG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間： Session: 
+##  課程簡介Course Description
+＊本選課需灌檔
+1. 以台灣人權歷史及轉型正義問題為主軸，配合境外移地教學，讓修課同學得以接觸及理解台灣與東亞鄰近國家自1945年以來的人權重要問題。
+2. 本課程是政大台史所與日本廣島大學法學部、人間社會科學研究科合開，政⼤、廣大師資協同授課。使用語言：中文，英文。
+3. 請務必參與課程說明會，以及參照另外公佈的「開課說明」及「日程表」。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程係配合於學期前舉行之暑假赴日本廣島大學法學部移地教學短期密集課程，修習同學須於赴廣島大學參加短期密集課程之後，於俟後之學期間修習本課程，藉由比較台灣與東亞地區其他國家之人權歷史及相關議題，思考第二次世界大戰結束以來本區域內之重要人權議題變化情形。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+暑假期間赴日本廣島大學參與短期密集課程（Short Study Program），由台灣及日本教師合作開設之正式課程，內容包含台灣與日本及東亞若干國家之人權相關議題。
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

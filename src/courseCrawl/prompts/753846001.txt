@@ -1,0 +1,149 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：人機互動
+#####  Course Name: Human computer interaction
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：753846001 Course No.753846001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：資碩工一、資碩計一 Course Department:Computer Science/M/1 
+  * 授課老師：廖文宏 Instructor: LIAO WEN-HUNG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四234 Session: thu09-12
+##  課程簡介Course Description
+本課程旨在介紹人機互動之基礎概念，尤其著重於新近發展迅速的非傳統式人機介面，包含觸控、手寫、語音、手勢、肢體、眼動、腦波、行動平台、 擴增實境、虛擬實境、機器人. 穿戴式裝置,AI代理等，藉由模組化的設計，帶領同學認識人機互動領域的相關主題。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程除了介紹人機互動之最新技術發展外，亦將藉由數項人機介面技術之原理簡介與實作演練，強化同學之核心能力，此課程包含四個教學模組:「人機互動基礎概念」、「以視覺為基礎的人機互動」、「實體運算互動系統」、「高階嵌入式平台應用」，其中第一個模組的目標在建立人機互動與使用者體驗的基本概念，並以此為出發點，針對目前業界逐漸導入的互動技術項目進行更深入的探討與研究，以有效縮減理論面與實務面的落差。由於人機互動介面實作部分須具備基礎程式能力，因此本課程需先修課程為程式設計。
+預估之學習成效如下：
+1. 理解人機互動之基本概念  
+2. 熟悉評估人機互動之方法  
+3. 掌握各類型人機互動/介面之運作原理及發展趨勢  
+4. 透過實作，確實演練相關技術  
+5. 探索AI與人機協作發展趨勢
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Week | 主題與課程內容 | 學習投入時數  
+---|---|---  
+Week 1 | Course Overview | 6  
+| The Encyclopedia of Human-Computer Interaction |   
+| Human-Computer Interaction: Present and Future Trends |   
+|  |   
+|  |   
+Week 2 | User-Centered Design | 6  
+| History of HCI |   
+| Human Abilities |   
+| HW#1: Fitts' Law Experiment |   
+Week 3 | Novel User Interfaces | 6  
+| Speech UI |   
+|  |   
+|  |   
+Week 4 |  LLM and Chatbot Design HW#2:Chatbot Design | 6  
+|   
+|   
+|   
+Week 5 |  | Handwriting Recognition  
+---  
+Pen-based UI 6  
+|   
+|   
+Week 6 |  Brain-Computer Interface Vision-based UI: Basic Concepts HW#3: $1 Unistroke Recognizer |   
+|   
+| 6  
+|   
+|   
+Week 7 | OpenCV | 6  
+| Object Detection |   
+| HW#4: Vision-based UI using motion detection |   
+|  |   
+Week 8 |  Gazed-based UI | 6  
+|   
+|   
+|   
+Week 9 |  Gesture Recognition, Mediapipe for UI Design HW#5: Vision-based UI using hand detection |   
+| 6  
+|   
+|   
+Week 10 |  Human AI Interaction 自主學習(Agentic AI: 3 Hours) | 6  
+Week 11 | Midterm | 12  
+|   
+Week 12 | Physical Computing and the Internet of Things | 6  
+| HW#6: Proposal Presentation |   
+|  |   
+|  |   
+Week 13 | Wearable Computing | 6  
+|  |   
+Week 14 | Human-Robot Interaction |   
+| 6  
+|   
+|   
+Week 15 |  | HCI for AR, VR, MR  
+---  
+6  
+| 自主學習(Project Implementation: 3 Hours) |   
+Week 16 | Project Presentation | 12  
+|  |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

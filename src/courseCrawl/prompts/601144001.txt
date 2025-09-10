@@ -1,0 +1,108 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：刑事訴訟法（一）
+#####  Course Name: Law of Criminal Procedure (I)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：601144001 Course No.601144001
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：法律三甲、法律三乙、法律三丙 Course Department:Law/B/3 
+  * 授課老師：王士帆 Instructor: WANG SHIH-FAN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：一D56 Session: mon13-16
+##  課程簡介Course Description
+刑法是規定「犯罪要件及其法律效果」的規範，基於罪刑法定，國家僅能藉由刑法的明文規定而取得刑罰權。如何確定及實現國家對個人之刑罰權，則有賴刑事訴訟法。因此，刑事訴訟法是確定並實現國家於具體刑事個案中對被告刑罰權的程序規範。刑事訴訟目的固然在發現真實，但仍應遵守法治程序，就此而言，刑事訴訟法成為偵查、審判的法律規範，規範個人與國家的權利義務界限。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEF雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 專業知識
+  * B. 實務運用
+  * C. 表達溝通
+  * D. 社會參與
+  * E. 人文關懷
+  * F. 國際視野
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+刑法是規定「犯罪要件及其法律效果」的規範，基於罪刑法定，國家僅能藉由刑法的明文規定而取得刑罰權。如何確定及實現國家對個人之刑罰權，則有賴刑事訴訟法。因此，刑事訴訟法是確定並實現國家於具體刑事個案中對被告刑罰權的程序規範。刑事訴訟目的固然在發現真實，但仍應遵守法治程序，就此而言，刑事訴訟法成為偵查、審判的法律規範，規範個人與國家的權利義務界限。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 |  進度說明 |   
+---|---|---  
+1 |  09.01刑事訴訟基本概念 |   
+2 |  09.08刑事訴訟基礎構造 |   
+3 |  09.15法官、檢察官 |   
+4 |  09.22被告 |   
+5 |  09.29 教師節補假 |   
+6 |  10.06 中秋節 |   
+7 |  10.13 被告 |   
+8 |  10.20 辯護人 |   
+9 |  10.27期中考 |   
+10 |  11.03 強制處分 |   
+11 |  11.10 強制處分 |   
+12 |  11.17 強制處分 |   
+13 |  11.24 證據禁止 |   
+14 |  12.01 傳聞法則 |   
+15 |  12.08期末考 |   
+16 |  12.15檢討試卷及評定學期成績 |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

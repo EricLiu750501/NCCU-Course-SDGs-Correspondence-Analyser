@@ -1,0 +1,92 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：金控全方位人才實務
+#####  Course Name: Practice of All-Round Talents in Financial Holding Company
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：357872001 Course No.357872001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：財管碩一、財管碩二 Course Department:Finance/M/1&2 
+  * 授課老師：陳嬿如 Instructor: CHEN YENN-RU 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四567 Session: thu14-17
+##  課程簡介Course Description
+由國立政治大學財務管理學系與永豐金融控股公司共同攜手開設本課程，透過雙方資源整合及產學合作機制，設計出兼具理論深度與實務廣度的學習內容，致力於培養具備全方位視野與實務操作能力之金融控股專業人才。本課程規劃涵蓋金融控股公司旗下各項事業體，全面提升學員對於金融產業多元領域之整體認知與理解，包含銀行、證券、投信、租賃、私人銀行、創業投資、法令遵循等重要核心業務，幫助學員深入掌握其運作模式、市場發展趨勢及相關管理實務。  
+---  
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 習得相關進階專業知識 Students will acquire advanced professional knowledge in finance
+  * B. 解決財務專業問題能力 Students will acquire financial professional problem solving skills
+  * C. 理解與辨別社會責任、企業倫理與永續議題 Students will understand and be able to identify the ethics, social responsibility, and sustainability considerations of business situations.
+  * D. 團隊合作能力與領導力 Students will be able to work effectively in teams as well as develop leadership skills
+  * E. 培養創新思考、溝通能力和國際視野 Students will develop creativity, communication skills and a global perspective
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+透過安排多元且豐富的主題，透過專題式演講、與演講者之深度互動交流、分組案例研討與團體討論分享、學習歷程反思撰述，以及結合理論與實務之研究專題等多樣化方式，系統性地協助學員全面強化對金融控股產業之理解，並深化其對金融相關各事業單位營運模式、策略發展、風險管理及未來趨勢之認知。此外，藉由實際參與分析金融市場實務操作個案，促進學員理論與實務並重之學習成效，進一步培養其具備跨領域思維、整合資源及解決問題之綜合能力，厚植其在金融控股集團內各事業體發展之競爭力與職場適應力，最終達成培育全方位金控專業人才之核心目標，為台灣乃至國際金融市場未來之永續發展貢獻心力。  
+---  
+##  每周課程進度與作業要求 Course Schedule & Requirements
+See attachment
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

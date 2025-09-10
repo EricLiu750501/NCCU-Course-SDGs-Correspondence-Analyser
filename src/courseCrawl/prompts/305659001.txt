@@ -1,0 +1,105 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：供應鏈管理實務
+#####  Course Name: The Practice of Supply Chain Management
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：305659001 Course No.305659001
+#### 修別：選
+Type of Credit: Elective 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：企管三甲、企管三乙、企管四甲、企管四乙 Course Department:Business Administration/B/3&4 
+  * 授課老師：陳立民 Instructor: CHEN LI-MING 
+  * 先修科目：[ 營運與供應鏈管理(單學期)(修習且及格)]Prerequisite([])
+  * 上課時間：五234 Session: fri09-12
+##  課程簡介Course Description
+This is course that design to highlight the practice in SCM.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 團隊合作與領導能力Students will be able to work effectively in teams as well as develop leadership skills.
+  * B. 理解與辨別道德、社會責任與永續議題Students will understand and be able to identify ethics, social responsibility, and sustainability issues.
+  * C. 溝通技能Students will acquire professional communication skills.
+  * D. 奠定相關基礎專業知識Students will acquire and apply expertise in their respective fields.
+  * E. 問題解決技能Students will acquire problem solving skills.
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+Understand the definition of supply chain management and gain more knowledge.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+|  課程主題 Topic |  課程內容與指定閱讀 Content and Reading Assignment |  教學活動與作業 Teaching Activities and Homework |  學習投入時間 Student workload expectation  
+---|---|---|---|---  
+課堂講授 In-Class Hours |  課程前後 Outside-of-class Hours  
+1(09/05) |  Review: Introduction |  |  |  |   
+2(09/12) |  New product development |  Bike NPD |  In-class discussion |  3 |  3  
+3(09/19) |  Product design OEM vs ODM |  |  Case reading (Collin Co. ) |  3 |  3  
+4(09/26) |  Project Management with probability Waiting time |  |  In-class hw |  |   
+5(10/03) |  (a) Inventory; (b) aggregation planning |  inventory allocation and quantity |  In-class Excel In class discussion Brief group presentation |  3 |  3  
+6(10/10) |  holiday  
+7(10/17) |  Progress of SC structures Online business impact |  Electronic retailing story |  Short case reading (Diamond retailing) In-class discussion |  3 |  3   
+8(10/24) |  holiday |   
+9(10/31) |  Technology discontinuity in SC |  |  Case reading (Zeiss free-form) In-class discussion |  3 |  3  
+10(11/07) |  Role of Intermediary in SC Supply Chain coordination |  TBA |  Brief group presentation In-class Excel Case reading: (3M health care supply chain) |  3 |  3  
+11(11/14) |  Bullwhip effect Beer game |  |  |  |   
+12(11/21) |  Final presentation (before this, group meeting) |  TBA |  Prepare your term presentation |  3 |  12  
+|  |  |  |  |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

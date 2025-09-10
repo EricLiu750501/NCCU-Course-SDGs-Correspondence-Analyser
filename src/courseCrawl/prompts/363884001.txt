@@ -1,0 +1,104 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：智能供應鏈：趨勢與運用
+#####  Course Name: Intelligent Supply Chain: Trends and Applications
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：363884001 Course No.363884001
+#### 修別：選
+Type of Credit: Elective 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：企研碩一、企研碩二 Course Department:Master of Business Administration Program/M/1&2 
+  * 授課老師：羅明琇 Instructor: LO MING-SHIOW 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三567 Session: wed14-17
+##  課程簡介Course Description
+大數據可以為供應商網絡 (Supplier Networks) 提供更好的數據準確性 (Accuracy)、清晰度 (Clarity) 和洞察力 (Insights)，從而在共享的供應網絡中實現更多的情境智能 (Contextual Intelligence)。如今的製造商都立足於在準確性(Accuracy)、速度 (Speed) 和質量 (Quality) 方面展開市場競爭，這一定位迫使企業的供應商網絡必須具備一定程度的情景智能的能力。然而當今大多數企業還沒有將大數據技術引入其供應鏈管理當中，本課程將介紹如何將大數據應用於供應鏈管理之中。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 習得相關進階專業知識（Students will acquire and apply expertise in their respective fields.）
+  * B. 理解與辨別商業環境中道德、社會責任與永續議題（Students will understand and be able to identify the ethics, social responsibility, and sustainability considerations of business situations.）
+  * C. 創新方法、創業態度與面對變革的能力（Students can demonstrate innovative, entrepreneurial approaches to manage change.）
+  * D. 發現問題、解決問題與決策能力（Students will identify problems, develop and evaluate possible alternatives and make decisions.）
+  * E. 團隊合作與領導能力（Students will be able to work effectively in teams as well as develop leadership skills.）
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程目的在針對大數據分析法在供應鏈各個環節中的作用做講述，指出向智能供應鏈轉型的阻礙。從中，學員可習得如何分割和分析顧客，確定每部分競爭優先權，調整功能背後的策略，感知需求，做出更好決策，確定適當的指標來支持以上的行為。透過這些技巧，學員可利用大數據，解決供應鏈中的問題。
+本課程預計以每週三小時，共計十二週，進行授課。授課方式以課堂講授及個案討論為主，並輔以企業參訪、業界人士演講，以及學生心得回饋報告。 
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 Week |  課程主題 Topic |  課程內容與指定閱讀 Content and Reading Assignment |  教學活動與作業 Teaching Activities and Homework |  學習投入時間 Student workload expectation  
+---|---|---|---|---  
+課堂講授 In-class Hours |  課程前後 Outside-of-class Hours  
+1 |  09.03 |  智能供應鏈介紹 |  |  3 |  3  
+2 |  09.10 |  供應鏈策略與取捨 |  |  3 |  3  
+3 |  09.17 |  大數據與產品/服務設計 |  |  3 |  3  
+4 |  09.24 |  大數據與採購 |  (HBS) IKEA |  3 |  3  
+5 |  10.01 |  Beer Game |  |  3 |  3  
+6 |  10.08 |  大數據與製造 (工業4.0) |  Game Theory |  3 |  3  
+7 |  10.15 |  大數據與物流 |  (HBS) Home Depot |  3 |  3  
+8 |  10.22 |  Plant Visiting / Guest Speaker |  |  3 |  3  
+9 |  10.29 |  大數據與銷售 (新零售) |  |  3 |  3  
+10 |  11.05 |  團體專案報告 |  |  3 |  3  
+|  |  |  |  |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

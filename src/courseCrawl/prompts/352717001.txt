@@ -1,0 +1,112 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：銀行經營管理專題研討
+#####  Course Name: Special Topics in Bank Management
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：352717001 Course No.352717001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：金融碩一、金融博一、金融碩二、金融博二 Course Department:Money and Banking/G/1&2 
+  * 授課老師：林士貴、金帛春、羅秉政 Instructor: LIN SHIH-KUEI/KIM BAEK-CHUN/VINCENT KENDRO 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：五78E Session: fri16-19
+##  課程簡介Course Description
+本門課的主旨在藉由量財務會計與統計之量化數據分析、如何影響政府金融政策與金融機構策略管理之瞭解，從財務會計與統計之量化數據分析量化分析角度，如何影響政府之金融政策與金融機構之策略管理。本門課程是碩博士班論文討論課程，大家找論文報告藉由找論文方式互相學習與互相成長。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEFGHI雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 金融理論與實務專業能力 (Students will acquire and apply expertise in financial fields.)
+  * B. 理解與辨別道德、社會責任與永續議題 (Students will understand and be able to identify the ethics, social responsibility, and sustainability considerations of business situations.)
+  * C. 問題解決與研究能力(Students will acquire problem solving and research skills.)
+  * D. 專業溝通技能(Students will acquire professional communication skills.)
+  * E. 團隊合作能力、培養領導技能(Students will be able to work effectively in teams as well as develop leadership skills.)
+  * F. 習得與運用金融及財金相關領域的專業知識(Students will acquire and apply expertise in financial fields.)
+  * G. 理解與辨別商業環境中道德、社會責任與永續議題(Students will understand and be able to identify the ethics, social responsibility, and sustainability considerations of business situations.)
+  * H. 研究與國際水準期刊發表能力(Students will develop the research capabilities)
+  * I. 獲得專業領域深入研究的技能(Students will acquire professional skills.)
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程理論部分將聚焦在探討財務會計報表與統計量化指標，如何影響金融政策，以及如何影響金融機構的策略管理。期望達到利用找論文期刊、學習論文內容結果，探討財務會計報表與統計量化指標，影響金融政策，以及影響金融機構的策略管理。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+周次 Week |  課程主題  
+---|---  
+1. |  迎接亞洲資產管理中心: 金融政策、資產管理與風險管理  
+學生分享新聞與未來研究報告  
+2. |  金融機構集中度與資產報酬率 學生分享新聞與未來研究報告  
+3. |  金融機構併購:理論、實務分析與個案分析 學生分享新聞與未來研究報告  
+4. |  流動性覆蓋比率與淨穩定資金比率 金融機構Basel I、II and III歷史沿革: 量化流動風險之實務與個案分析 學生分享新聞與未來研究報告  
+5. |  資本適足率 學生分享新聞與未來研究報告  
+6. |  國慶日  
+7. |  新國際BIS規範之FRTB:量化因子風險資本計提之實務分析 學生分享新聞與未來研究報告  
+8. |  光復節、行憲紀念日  
+9. |  信用卡詐騙之偵測 學生分享新聞與未來研究報告  
+10. |  期交所之OTC衍生性商品集中結算 學生分享新聞與未來研究報告  
+11. |  國際中央存保公司保險費率計提 學生分享新聞與未來研究報告  
+12. |  學生報告一  
+13. |  學生報告二  
+14. |  學生報告三  
+15. |  學生報告四  
+16. |  學生報告五  
+####  其他： Others: 演講 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

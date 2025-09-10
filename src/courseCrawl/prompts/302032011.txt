@@ -1,0 +1,114 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：金融法規
+#####  Course Name: Financial Regulations
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：302032011 Course No.302032011
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：金融三 Course Department:Money and Banking/B/3 
+  * 授課老師：李桐豪 Instructor: LEE THOMAS 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四D56 Session: thu13-16
+##  課程簡介Course Description
+透過⾦融法規的學習，了解⾦融管理的應注意事項與國際⾦融趨勢，消費者保護的重要、⾦融創新對⾦融法規的衝擊，以及AML與KYC風  
+潮意義。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 奠定相關基礎專業知識 (Students will acquire and apply expertise in their respective fields.)
+  * B. 問題解決能力 (Students will acquire problem solving skills.)
+  * C. 溝通能力 (Students will acquire professional communication skills.)
+  * D. 理解與辨別道德、社會責任與永續議題 (Students will understand and be able to identify ethics, social responsibility, and sustainability issues.)
+  * E. 團隊合作與領導能力 (Students will be able to work effectively in teams as well as develop leadership skills.)
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+1.⾦融管理之概念，以及國際與國內⾦融管理的趨勢  
+2.瞭解國內主要⾦融法規以期未來在職場的⾏為能符合規範  
+3.探討⾦融法規的立法意義與對⾦融機構管理之影響  
+4.⾦融消費者保護問題  
+5.⾦融創新對既有⾦融法規影響  
+6. AML、KYC等法遵對⾦融機構的影響  
+7.了解銀⾏為主體的⾦融法規與證券及保險法規之關係
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 |  課程主題 |  課程內容與指定閱讀  
+---|---|---  
+1 |  課程介紹 |  上課講義  
+2 |  金融產業介紹 |  上課講義  
+3 |  金融監理 |  上課講義  
+4 |  中央銀行法 |  上課指定閱讀  
+5 |  外匯管理條例 |  上課指定閱讀  
+6 |  金控公司法 |  上課指定閱讀  
+7 |  金控公司法 |  上課指定閱讀  
+8 |  期中考 |  筆試  
+9 |  銀行法 |  上 課指定閱讀  
+10 |  銀行法 |  上課指定閱讀  
+11 |  銀行法 |  上課指定閱讀  
+12 |  金融消費者保護 |  上課指定閱讀  
+13 |  金融消費者保護 |  上課指定閱讀  
+14 |  金融創新法規 |  上課指定閱讀  
+15 |  ML&KYC |  上課指定閱讀  
+16 |  期末考 |  筆試  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

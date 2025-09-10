@@ -1,0 +1,109 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：創新經濟與法律
+#####  Course Name: Legal Aspects of Digital Innovation
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：364757001 Course No.364757001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：科智碩1B、科智碩2B Course Department:Graduate Institute of Technology, Innovation and Intellectual Property Management/M/1&2 
+  * 授課老師：鄭菀瓊 Instructor: CHENG WAN-CHIUNG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四D56 Session: thu13-16
+##  課程簡介Course Description
+Over the past decade, technological innovation has greatly impacted the financial services industry, and further innovation and disruption are occurring every day. We are witnessing major global changes in the realms of foreign exchange, payments, insurance, personal and corporate borrowing, consumer financial advice, and wealth management, just to name a few. Sharing economy has a similar taste and texture. To understand these changes, we need to understand both the technological changes and the underlying economics of the financial services and/or other platform industries, along with the role of Private Equity (PE) and/or Venture Capital (VC) firms that are often funding and fostering such changes, and are affected by them in turn.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 習得科管與智財相關進階專業知識 (Students will acquire advanced professional knowledge in Technology, Innovation and Intellectual Property Management)
+  * B. 理解與辨別社會責任與永續議題 (Students will understand and be able to identify social responsibility and sustainability issues)
+  * C. 培養創新思考、分析方法和國際視野 (Students will use innovative thinking skills and analytical methods to enhance professional competence as well as develop a global perspective)
+  * D. 專業溝通技能 (Students are able to communicate professionally)
+  * E. 團隊合作能力、培養領導技能 (Students will be able to work effectively in teams as well as develop leadership skills)
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+In this course, we will study this innovation and entrepreneurship in the Peer-to-Peer (P2P) services industry in general, with a special focus on Financial Technology (FinTech) and sharing economy. We will examine whether and how the creative application of technology can responsibly address market shortcomings and meet consumer needs in the realm of P2P services. The role of law (including, but not limited to regulation and compliance) will be highlighted and examined in details. In addition, personal identifiable information (PII) plays an ambiguous role in the shaping of New Economy (FinTech included). Hence, related PII laws will be examined from both legal and business perspectives.
+We will do so through a combination of cases, lectures, class discussions, and guest speakers, designed to teach students economic principles and put students in the shoes of managers and decision-makers addressing a 'forest' of challenges facing the industry. We will examine innovation in both products and processes in the financial services industry, and explore FinTech or sharing platform as a venue for the application of entrepreneurial thought and venture launch.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Note: This schedule is subject to change. Please re-visit before the semester starts. Thanks.
+Class |  Topic |  Subject Matter  
+---|---|---  
+Week 1 |  Introduction |  Introduction of the Course (scope, topics, grading, etc.)  
+Week 2 |  FinTech (1) |  TBD (e.g. P2P Lending)  
+Week 3 |  FinTech (2) |  TBD (e.g. Mobile Payment)  
+Week 4 |  FinTech (3) |  TBD (e.g. Bit-coin)  
+Week 5 |  Invited Talk |  A 150-word Note is required for reflection  
+Week 6 |  FinTech (4) |  TBD (e.g. Points)  
+Week 7 |  HBS Case | TBD  
+Week 8 |  FinTech (5) | TBD (Your Idea?)  
+Week 9 |  Sharing Economy (1) |  TBD (PII Law-1)  
+Week 10 |  Sharing Economy (2) |  TBD (PII Law-2)  
+Week 11 | HBS Case | TBD  
+Week 12 |  Progress Report |  Mid-semester Progress Report (by group)  
+Week 13 |  Sharing Economy (3) |  (PII Law-3)  
+Week 14 | Invited Talk | TBD  
+Week 15 |  Sharing Economy (4) |  (PII Law-4)  
+Week 16 | Final Project Presentation I | Final Project Presentation (by group)  
+####  其他： Others: 期末專案 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

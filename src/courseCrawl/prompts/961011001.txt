@@ -1,0 +1,106 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：刑法總則 
+#####  Course Name: Criminal Law: General Principles
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：961011001 Course No.961011001
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：法碩專一、法碩專二 Course Department:Executive Master of Laws Program/M/1&2 
+  * 授課老師：李聖傑 Instructor: LEE SHENG-CHIEH 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：五FGH Session: fri19-22
+##  課程簡介Course Description
+認識刑法的規範功能與適用原則
+建構判罪評價與分析能力
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+基礎刑法知識的完整體系學習
+請學生務必在主題進度的教授說明後，回顧主題的重點掌握，並釐清學習問題
+##  每周課程進度與作業要求 Course Schedule & Requirements
+各週上課內容規劃
+上課時間/週次 |  課程內容  
+---|---  
+一 |  課程說明：認識刑法（學習資料、方法）  
+二 |  功能、原則與規範結構  
+三 |  發展沿革、適用範疇與法律效果  
+四 |  犯罪論與刑罰理論關聯  
+五 |  判斷體系建構的要素功能  
+六 |  行為理論（作為ＶＳ不作為）  
+七 |  犯罪類型與構成要件要素說明  
+八 |  結果原因與結果歸責  
+九 |  故意犯之主觀構成要件要素  
+十 |  期中考  
+十一 |  刑事不法與違法性  
+十二 |  阻卻違法事由（正當防衛、緊急避難）  
+十三 |  罪責的角色與要素  
+十四 |  犯罪實行階段  
+十五 |  「錯誤」的評價體系  
+十六 |  犯罪參與  
+十七 |   
+十八 |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

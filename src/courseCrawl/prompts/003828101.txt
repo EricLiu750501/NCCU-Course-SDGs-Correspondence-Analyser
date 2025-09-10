@@ -1,0 +1,106 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：全民國防教育軍事訓練—全民國防
+#####  Course Name: All-out Defense Education Military Training - Civil Defense
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：003828101 Course No.003828101
+#### 修別：選
+Type of Credit: Elective 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：外交系 Course Department:Diplomacy 
+  * 授課老師：董慧明 Instructor: Tung Hui-Ming 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四78 Session: thu16-18
+##  課程簡介Course Description
+第一堂課請務必到課，本課程不參與自動遞補，需要加簽的同學，請在第一堂課到教室向老師登記。
+1、認識全民國防核心理念，深化對國家安全整體概念的體認。
+2、探討國家意識建構、全民防衛動員、全社會防衛韌性、國防經濟安全、文化認同與心理防衛等全民國防多元面向，並結合當前國際戰略環境與區域安全挑戰進行分析。
+3、透過案例研討與實務分析，深入探究全民國防教育軍事訓練課程之核心議題，強化學生國防意識，培養國防素養。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+1、培養學生深度瞭解全民國防之內涵、制度功能與重要意義，建構完整的國家安全認知體系。
+2、引導學生掌握國防經濟、國防文化、心理防衛與軍事安全之現代國防體系多層面關聯性。
+3、深入探討全民國防教育功能，使學生充分認識當代國防是以全民參與、跨域整合、防衛動員為核心，並具備國防政策與實務之分析能力。
+4、強化學生國家安全意識與風險評估能力，凝聚全民國防共識，積極參與國防安全事務。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+自114學年度起實施16週學期週數，課程仍以1學分18小時之課程內容與強度規劃
+第01週：課程簡介、要求與成績評定方式  
+第02週：國家意識與全民國防  
+第03週：全民防衛與全社會防衛韌性  
+第04週：國防與經濟、文化、心理  
+第05週：國軍軍人禮節及警衛勤務  
+第06週：軍紀教育的重要性  
+第07週：軍紀教育（含申訴制度）制度做法  
+第08週：期中考  
+第09週：軍法教育（性別平權、性騷擾防治）
+第10週：軍法教育（陸海空軍刑法、陸海空軍懲罰法與軍中法律服務）  
+第11週：愛國教育（莒光教學專題研討）  
+第12週：愛國教育（莒光教學專題研討）  
+第13週：愛國教育（莒光教學專題研討）  
+第14週：愛國教育（莒光教學專題研討）  
+第15週：結論：全民國防教育議題探討  
+第16週：期末評量
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

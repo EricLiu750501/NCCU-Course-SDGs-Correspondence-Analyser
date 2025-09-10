@@ -1,0 +1,113 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：論文發表演習（二） 
+#####  Course Name: Research Practicum (II)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：752008001 Course No.752008001
+#### 修別：必
+Type of Credit: Required 
+_0.5_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：心理博一 Course Department:Psychology/D/1 
+  * 授課老師：楊立行 Instructor: YANG LEE-XIENG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四56 Session: thu14-16 
+##  課程簡介Course Description
+本課程的主要目的是提供心理系研究生一系列學術論文演講，通過參與不同主題與領域的論文發表，學習心理學研究的理論、發想、實踐及應用，從而培養研究生的專業知能與競爭力。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCD雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 心理學專業能力 Professional competence in psychology
+  * B. 研究能力 Research ability
+  * C. 人際互動與領導能力 Social skills and leadership
+  * D. 多元文化關懷 Multiculturalism
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+課程目標：
+1.認識心理學研究的理論。
+2.如何發展心理學研究的主題。
+3.如何執行心理學研究。
+4.如何應用心理學的研究。
+學習成效：
+1.理解現今心理學研究的發展現況。
+2.培養個人研究的專業知能。
+3.洞察自己未來的心理學相關生涯。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+第1週 課程介紹
+第2週 系務會議（停課）
+第3週 專題演講
+第4週 專題演講
+第5週 專題演講
+第6週 專題演講
+第7週 專題演講
+第8週 系務會議/期中考週（停課）
+第9週 專題演講
+第10週 專題演講
+第11週 專題演講
+第12週 專題演講
+第13週 專題演講
+第14週 博士班研究發表(1)
+第15週 博士班研究發表(2)
+第16週 系務會議/期末考週（停課）
+每週投入時間含上課時間至少需要 6小時
+####  其他： Others: 專題演講 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

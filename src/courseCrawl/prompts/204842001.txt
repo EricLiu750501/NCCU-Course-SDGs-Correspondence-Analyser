@@ -1,0 +1,126 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：應用社會學
+#####  Course Name: Applied Sociology
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：204842001 Course No.204842001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：社會二、社會三、社會四 Course Department:Sociology/B/2&3&4 
+  * 授課老師：胡力中、陳信木 Instructor: HU LI-CHUNG/CHEN HSIN-MU 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：五234 Session: fri09-12
+##  課程簡介Course Description
+這門課主要介紹社會學知識及方法在實際工作場域的應用。透過課程的講授、作業的撰寫及業師的經驗分享，讓同學了解抽象的社會學概念及方法如何應用於實際的工作之中，並在現實社會中發揮影響力。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備專業基礎及理性批判思考
+  * B. 具備處理複雜資料能力
+  * C. 具備語言與溝通能力
+  * D. 具備人文社會關懷
+  * E. 具備職涯規劃能力
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程邀請到多位在不同領域工作的業師，分享社會學相關知識及方法在其職涯發展及工作中所扮演的角色。藉由本課程的學習及業師經驗的分享，預期同學更能連結課堂的學習及現實的社會，並期許能激發同學對社會學及對未來的職涯方向有更多的想像。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+課程進度(暫定)
+課程內容 |  指定閱讀與課前、課後作業 |  學習投入時間  
+---|---|---  
+9/5課程介紹  
+9/12  
+講題：「人生沒有白走的路」：用跨領域經歷如何找到屬於自己的職場位置 ```
+講者：余昕寰(美商達信Associate)
+```
+|  |  3+1  
+9/19  
+講題：企業採購的社會學分析 講者：謝孟庭(台灣美光晶圓科技股份有限公司採購專員) |  |  3+1  
+9/26  
+講題：公門修行中 講者：洪英華(新北市樹林區公所課員) |  |  3+1  
+10/3  
+講題：Market Research 101 講者：帝國菸草股份有限公司（Imperial Brands) (消費者研究副理，Consumer Insight Assistant Manager) |  |  3+1  
+10/10  
+國慶日 |  |  3+1  
+10/17  
+講題： 講者：待邀請 |  |  3+1  
+10/24  
+補假 |  |  3+1  
+10/31  
+講題：博弈工業電腦的世界 講者：毛緯琪 |  |  3+1  
+11/7  
+講題：企業永續發展與社會學 講者：黃軒(華固建設管理部專員) |  |  3+1  
+11/14  
+講題：社會學如何走到企業經營企劃？ 講者：郭雅婷(國泰人壽綜合企劃部營業企劃科副理) |  |  3+1  
+11/21  
+講題：走出吃的世界 講者：裘雁鈴(天帷企管顧問工作室董事/資深顧問) |  |  3+1  
+11/28  
+講題： 講者：待邀請 |  |  3+1  
+12/5  
+講題： 講者：待邀請 |  |  3+1  
+12/12  
+講題： 講者：待邀請 |  |  3+1  
+12/19  
+課程學習心得分享 |  |  3+1  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

@@ -1,0 +1,105 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：進階日語聽力練習
+#####  Course Name: Advanced Japanese Listening
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：010060021 Course No.010060021
+#### 修別：選
+Type of Credit: Elective 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：日文系 Course Department:Japanese Language and Culture 
+  * 授課老師：楊慧芳 Instructor: YANG HUI-YANG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：五56 Session: fri14-16
+##  課程簡介Course Description
+本課程以學過一年日語輔系的學生為主，透過教材CD反覆練習會話發音和聲調，培養學生N4-N3的日語聽說能力。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+1.培養學生具備日語N4-N3左右的聽力。
+2.奠定學生初中級日語的口語文法能力。
+3.學生可具備到日本打工度假或遊學所需要的日語聽說能力。
+4.學生可認識日本的風俗習慣和日式思維。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 Week |  課程主題 Topic |  課程內容與指定閱讀 Content and Reading Assignment |  教學活動與作業 Teaching Activities and Homework  
+---|---|---|---  
+1 |  授課內容和評分方式 のだ、存在文 |  L26 |  聞き取り、文法説明 シャドーイング  
+2 |  可能動詞 辞書形/ない形 |  L27 |  聞き取り シャドーイング  
+3 |  ～ながら て形 |  L28 |  朗読の練習  
+4 |  自動詞＋ている 他動詞＋てある 小考(L26-L28) |  L29 |  聞き取り 文法説明 シャドーイング  
+5 |  動詞＋てしまう 動詞＋ておく |  L30 |  聞き取り 文法説明  
+6 |  國慶日 |  休み |   
+7 |  意向形, ～つもりです。～予定です |  L31 |  聞き取り シャドーイング  
+8 |  期中考 |  L29-L31 |  聞き取りの筆記試験  
+9 |  ～ほうがいいです |  L32 |  聞き取り 文法説明  
+10 |  命令形 |  L33 |  聞き取り シャドーイング  
+11 |  ～て、ないで |  L34 |  聞き取り シャドーイング  
+12 |  ～ば、なら 小考(L32-34) |  L35 |  聞き取り 文法説明  
+13 |  ～ようになる ～ようにする |  L36 |  聞き取り シャドーイング  
+14 |  受身動詞 |  L37 |  聞き取り 文法説明  
+15 |  形式名詞「の」 |  L38 |  聞き取り シャドーイング  
+16 |  期末考 |  L35-38+プリント |  聞き取りの筆記試験  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+## 無
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

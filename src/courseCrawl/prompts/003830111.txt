@@ -1,0 +1,104 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：全民國防教育軍事訓練—國防科技
+#####  Course Name: All-out Defense Education Military Training - Defense Technology
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：003830111 Course No.003830111
+#### 修別：選
+Type of Credit: Elective 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：外交系 Course Department:Diplomacy 
+  * 授課老師：姚宏旻 Instructor: Yau Hon-Min 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三34 Session: wed10-12
+##  課程簡介Course Description
+科技創新自古以來為影響軍事作戰效能之重要分析自變數，而近代多數戰爭勝負除取決於雙方兵力對比，而其中一方是否具備科技優勢便具有重要影響力。
+也因此本課程探討「國防」事務之「科技」因素，就「科技」定義採取廣義的定義。透過回顧戰爭的戰爭的源起、型態演變與歷史發展，探討在這些事件的的科技因素。
+課程聚焦在探討「國防」與「科技」的互動關係，回顧從冷兵器衝突的技術運用，從古典時期、第一次世界大戰、第二次世界大戰、冷戰、後冷戰、反恐戰爭與俄烏衝突等科技運用；並探討人工智慧、無人機以及衛星科技對當代衝突之影響。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程屬「全民國防」五大領域之一，中/小型國家由於自身軍事資源有限，故防衛作戰需仰賴全民上下一心。也因此本課程目標在使參加同學對當代國防科技發展之過去、現在與未來具備基礎的認識。
+美國第32任總統小羅斯福曾說過：「我們唯一要恐懼(fear)的，就是恐懼本身。」就本課程而言，教學成效希望透過課堂講授與討論，深化同學對外部科技威脅(threat)的客觀瞭解，避免因錯誤認知而形成主觀性恐懼(fear)，而在國防科技教育上則更應凸顯如何能協助非傳統軍事強權的我國，透過科技運用與創新獲得可能強化自身防衛能量的國防潛質。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+  1. 第一週：課程簡介與評量說明
+  2. 第二週：戰爭的演進 (第一次世界大戰前)
+  3. 第三週：第一次世界大戰與科技
+  4. 第四週：第二次世界大戰與科技
+  5. 第五週：冷戰與科技
+  6. 第六週：中東戰爭與科技
+  7. 第七週：陸戰與科技
+  8. 第八週：海戰與科技
+  9. 第九週：空戰與科技
+  10. 第十週：彈道飛彈與飛彈科技
+  11. 第十一週：太空科技與國防
+  12. 第十二週：資訊科技與國防
+  13. 第十三週：人工智慧與科技
+  14. 第十四週：近代衝突的科技運用 (一)
+  15. 第十五週：近代衝突的科技運用 (二)
+  16. 第十六週：期末評量
+  17. 第十七週：彈性教學時間 (自主綜整學習)
+  18. 第十八週：彈性教學時間 (自主綜整學習)
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

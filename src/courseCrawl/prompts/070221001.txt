@@ -1,0 +1,113 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：旅行與台灣歷史
+#####  Course Name: Travel and Taiwan's History
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：070221001 Course No.070221001
+#### 修別：選
+Type of Credit: Elective 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：創新創造力研究中心 Course Department:CCIS 
+  * 授課老師：林果顯、廖文宏 Instructor: LIN GUO-SIAN/LIAO WEN-HUNG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：一78 Session: mon16-18
+##  課程簡介Course Description
+※本課程為大學部選修課程！
+※本課程所用數位工具適合一般文科生，不需程式寫作能力。
+本課程為台灣史研究所開設的「臺灣與近代世界」跨領域學程科目之一，亦為一般選修學分。
+本課程同時加入國立政治大人文創新學程 / 創新與創造力學程，與本校資訊科學系廖文宏老師共創課程，在一般歷史課程之外(內容)，加入數位工具的學習與應用課程(數位)，培養歷史與科技之間的跨界運用與反思能力，藉以強化在未來數位時代中的人文素養。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+1、藉由不同時空的旅行，理解臺灣史的各個面向。  
+2、藉由不同旅行的比較，理解背後的文化意涵。  
+3、熟悉數位工具發展趨勢，企畫與批判臺灣史主題的自助旅行計畫。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+※實際進度以第一次上課公布為主。
+1、每週一至二講為原則。以學期初課堂所發大綱為最後確認版本，並視學習情況保留彈性調整空間，。  
+2、各講正課與課外學習時數為2+3小時。
+第一講 課程簡介 【數位課程1】展示與互動科技發展簡介  
+第二講 中國文人縱貫線之旅：郁永河見聞(閱讀1)  
+第三講 歐洲官員的休閒：史溫侯的探險(閱讀2)  
+第四講 深山裡的傳教士：馬偕首次在台之旅(閱讀3)  
+第五講 教師節補假 【數位課程2】彈性授課：歷史場館參訪(作業B)  
+第六講 中秋節(閱讀3)  
+第七講 數位工具簡介與實作(作業B)  
+第八講 期中考/期末專題初階講想(作業C)  
+第九講 帝國軍人的潛行：樺山資紀南澳踏查(閱讀4)  
+第十講 期末專題可行性評估(上臺報告)；帝國力量與近代娛樂Ⅰ：鐵道旅行(閱讀5)  
+第十一講 帝國力量與近代娛樂Ⅱ：鐵道旅行(閱讀5)  
+第十二講 盆地邊緣與國際貿易：木柵的人物旅程(彈性運用)  
+第十三講 人生的第一次：修學旅行1(閱讀6)(作業D：進度報告)  
+第十四講 【數位課程4】Check Point；臺灣人的第一次：林獻堂的環球旅行  
+第十五講 元首旅行：東宮行啟(閱讀7)  
+第十六講 臺灣歷史主題旅行企畫展演/【數位課程5】期末專題驗收(作業E)
+作業要求(暫訂)  
+A 展示科技使用心得  
+B 數位工具選擇與基本操作  
+C 期末專題企劃與分工  
+D 期末專題計畫初稿  
+E 期末專題完稿
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

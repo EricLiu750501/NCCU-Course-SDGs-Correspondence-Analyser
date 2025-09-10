@@ -1,0 +1,104 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：家政群教學實習
+#####  Course Name: Practicum in Home Economics
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：109053001 Course No.109053001
+#### 修別：必
+Type of Credit: Required 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：師資培二、師資培三 Course Department:Center for Teacher Education/B/2&3 
+  * 授課老師：李昭明 Instructor: LEE CHAO-MING 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：五67 Session: fri15-17
+##  課程簡介Course Description
+家政群教材教法/幼保科：針對108新課綱，以家政群幼保科的部定核心課程為主軸，認識幼保科的各項專業科目與課程地圖，並進行特定課程（教學目標、內容、方法及評量）的完整設計、撰寫與現場實際教學。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+  1. 規劃高中職幼保科「嬰幼兒發展照護實務」課程內容並進行教學實習。
+  2. 規劃高中職幼保科「膳食與營養實務」課程內容並進行教學實習。
+  3. 規劃高中職幼保科「幼兒教保活動設計與實務」課程內容並進行教學實習。
+  4. 規劃高中職幼保科係屬幼兒園教保實務相關課程之課程內容並進行教學實習。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 |  課程主題 |  課程內容與指定閱讀 |  教學活動與作業  
+---|---|---|---  
+1 9/5 |  中等教育幼保科的運作 |  中等教育實習的基本認識 |  目前中等教育實習 現況分享 實習生教育實習的圖像討論  
+2 9/12 |  中等教育幼保科的運作 |  中等教育實習的基本認識 |  目前高中/職生的學習現況、班級經營與管理現況  
+3 9/19 |  中等教育幼保科的運作 |  中等教育幼保科專業教室及設備 |  高職實習課的需求 教室設備與課程的關聯  
+4 9/26 |  中等教育幼保科現況 |  高中/職幼保科參訪一 |  高中/職幼保科參訪一  
+5 10/3 |  中等教育幼保科現況 |  參觀心得分享與討論一 |  參觀心得分享與討論一  
+6 10/10 |  |  國慶日放假 |   
+7 10/17 |  中等教育幼保科現況 |  高中/職幼保科參訪二 |  高中/職幼保科參訪二  
+8 10/24 |  |  台灣光復節放假 |   
+9 10/31 |  中等教育幼保科現況 |  參觀心得分享與討論二 |  參觀心得分享與討論二  
+10 11/7 |  幼保科教學演示 |  幼保科教學演示一 |  現場教學  
+11 11/14 |  保科教學演示 |  教學演示紀錄之討論 |  針對教學演示一進行檢討與建議  
+12 11/21 |  保科教學演示 |  幼保科教學演示二 |  現場教學  
+13 11/28 |  保科教學演示 |  教學演示紀錄之討論 |  針對教學演示二進行檢討與建議  
+14 12/5 |  保科教學演示 |  幼保科教學演示三 |  現場教學  
+15 12/12 |  保科教學演示 |  教學演示紀錄之討論 |  針對教學演示三進行檢討與建議  
+16 12/19 |  期末檢討 |  個人學習檔案整理 |  回顧與展望  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

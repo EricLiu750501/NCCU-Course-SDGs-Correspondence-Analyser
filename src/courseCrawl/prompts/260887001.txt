@@ -1,0 +1,110 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：東南亞國際關係專題
+#####  Course Name: Seminar on International Relations of Southeast Asia
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：260887001 Course No.260887001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：東亞碩一、東亞博一 Course Department:East Asian Studies/G/1 
+  * 授課老師：楊昊 Instructor: YANG HAO 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二234 Session: tue09-12
+##  課程簡介Course Description
+本課程主要設計為對東南亞國際關係主要理論與核心議題有深入研究興趣的碩博士班研究生所開設。由於 _東南亞國際關係研究並不只該侷限於外交關係與各國外交政策之解析_ ，本課程內容選擇不採探討個別國家外交政策之傳統研究途徑，但仍將有部分週數討論主要國家的外交政策，最主要將以議題導向針對東南亞國際關係的主要理論及概念，對應當前東南亞最新發展進行參照研究。目的在於提供選修學生最新的東南亞區域研究概念、知識與方法，以及對於東南亞當前國際議題與發展關注的進階知識。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEFGH雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備資料統整與分析的知能
+  * B. 具備國家政策規劃與比較的知能
+  * C. 具備專業學術的基礎與比較的知能
+  * D. 具備國際觀點與公民價值知能
+  * E. 具備資料統整與分析的知能
+  * F. 具備專業學術與比較研究的知能
+  * G. 具備政策規劃與比較的知能
+  * H. 具備國際觀點與公民價值知能
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程專為東亞所碩、博士研究生所設計之選修課程，並且以「 _知識建構_ 」（東南亞國際關係的學理與議題探索）與「 _知識生產_ 」（學術論文的實際操作與撰寫）為兩大目標，授課教師一方面將大量引介當前國際與國內學界探討東南亞國際關係的重要理論與最新研究成果；另一方面， _授課教師將協助修課同學在學期結束後完成一篇以授課內容範圍為主的研究論文，並安排正式學術程序發表_ 。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+課程進度（週二09：00-12：00）
+20250902課程導論
+20250909課程導論
+20250916教師出訪（另安排補課，20251021，課程補課、20251023/24，東南亞年會補課）
+20250923 東南亞國際關係的結構與脈絡
+20250930 東南亞國際關係與大國政治
+20251007智庫高峰會現場實地參與觀察
+20251014 東南亞國際關係與非政府網絡
+20251021 期中考週，補課上課（補課20250916課程）
+20251028 專題演講
+20251104 東協區域主義的發展與現況
+20251111從東協到東亞到印太的地緣政治變局
+20251118 區域合作、共同體與成果
+20251125 專題演講
+20251202教師出訪（另安排補課，20251216，課程補課，20251023/24，東南亞年會補課）
+20251209 區域安全與威脅
+20251216期末考週（課程補課）
+20251221寒假開始，報告繳交
+####  其他： Others: 演講 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

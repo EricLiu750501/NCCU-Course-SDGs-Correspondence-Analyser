@@ -1,0 +1,113 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：日本文學史１
+#####  Course Name: History of Japanese Literature Ⅰ
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：506853001 Course No.506853001
+#### 修別：選
+Type of Credit: Elective 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：日文三 Course Department:Japanese Language and Culture/B/3 
+  * 授課老師：高啓豪 Instructor: KAO CHI-HAO 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四78 Session: thu16-18
+##  課程簡介Course Description
+藉由解說上古至近現代之文學經典作品作家及文學思潮，建構同學對日本文學史脈絡的通盤認識。
+＊ 本課程需研讀日文之原文教科書，建議具備日文基礎以上讀解能力之同學修習。
+＊課程以實體進行，如改為同步遠距授課會以系統群組信告知有在修課名單的同學。
+遠距教學連結： https://meet.google.com/nhu-mjck-you
+＊課程內容及進度將視實際教學狀況適宜調整。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCD雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 培養學生具備日語聽、說、讀、寫、譯等五項在生活、工作所需之語言能力，以及專業競爭力
+  * B. 培養學生具備創新、自主學習及反思能力
+  * C. 培養學生具備人文素養，知曉日本社會與歷史文化
+  * D. 培養學生具備國際觀、國際移動力及跨領域之多元專長
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程以育成下列能力為目標：
+・理解日本文學及其發展的歷史脈絡
+・具備賞析日本文學作品的能力
+・從日本文學文本解讀訓練中養成未來從事研究所需之基礎能力
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 Week |  課程主題 Topic |  課程內容與指定閱讀 Content and Reading Assignment |  教學活動與作業 Teaching Activities and Homework |   
+---|---|---|---|---  
+1 |  ガイダンス |  授業の進め方、日本文学概観 |  日本文学史概要の説明 |   
+2 |  講述 |  上代の文学 神話・伝説 |  上代文学の読解、説明 |   
+3 |  講述 |  上代の文学 説話 |  上代文学の説明、討議 |   
+4 |  講述 |  上代歌謡と万葉集 |  上代文学の読解、説明、討議 |   
+5 |  講述 |  中古の文学 概説 | 中古文学の読解、説明 |   
+6 |  講述 |  中古の文学 漢詩文・和歌と歌謡 |  中古文学の読解、説明 |   
+7 |  講述 |  中古の物語 |  中古文学の読解、説明、討議 |   
+8 |  テスト |  中間テスト |  各自テスト準備 |   
+9 |  講述 |  中古の日記と随筆、説話 |  中古文学の読解、説明、討議 |   
+10 |  講述 |  中世の文学 随筆・日記と紀行 |  中世文学の読解、説明 |   
+11 |  講述 |  中世の物語と説話 |  中世文学の説明、討議 |   
+12 |  講述 |  中世の和歌・連歌、謡曲と狂言 |  中世文学の読解、説明、討議 |   
+13 |  講述 |  近世の文学 俳諧・川柳 |  近世文学の読解、説明 |   
+14 |  講述 |  近世小説 |  近世文学の読解、説明 |   
+15 |  講述 |  近世の舞台芸術・国学と和歌 古典文学の総まとめ |  近世文学の読解、説明、討議 |   
+16 |  テスト |  期末テスト |  テスト準備 |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

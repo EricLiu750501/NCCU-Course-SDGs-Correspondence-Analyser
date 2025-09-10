@@ -1,0 +1,116 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：行政法（一）
+#####  Course Name: Administrative Law (I)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：601131011 Course No.601131011
+#### 修別：群
+Type of Credit: Partially Required 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：法律二甲、法律二乙、法律二丙 Course Department:Law/B/2 
+  * 授課老師：傅玲靜 Instructor: FU LING-CHING 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二56 Session: tue14-16
+##  課程簡介Course Description
+本課程為全年課程，以介紹行政法之基礎知識為重，內容包括行政法之基本原理原則、行政行為等內容之深入講解及行政組織之基本概念說明輔以不同的領域的案例，培養同學對於行政法之基礎觀念，奠定同學回應行政法實際生活案件之基本能力，並作為修習行政法進階課程及各種行政法各論課程之基礎。
+課程中，將配合行政程序、行政執行、行政罰及行政救濟等相關內容，為基本概念的說明，相關法制的深入介紹，則另輔以開設的選修課程，建議同學於大三後選修。
+註：  
+1、授課方式將著重於以案例引導同學認識基本理論的內涵及思考理論的運用。
+2、每週課程進度安排得依實際上課情形進行調整。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEF雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 專業知識
+  * B. 實務運用
+  * C. 表達溝通
+  * D. 社會參與
+  * E. 人文關懷
+  * F. 國際視野
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+1、透過課程教學及閱讀資料，具備瞭解基本行政法理論之能力
+2、透過案例觀察及分析，具備運用基礎理論之能力
+3、透過對於爭議問題之觀察，具備重新思考及檢視現行法制之基礎能力
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次安排：
+9/2 課程導論；行政之意義  
+9/9 行政之種類；公權力行政及私經濟行政  
+9/16 行政法之法源-1  
+9/23 行政法之法源-2  
+9/30 行政法之法源-3  
+10/7 行政法之基本原則-1  
+10/14 行政法之基本原則-2  
+10/21 行政法之基本原則-3  
+10/28 行政之羈束與自由-1—不確定法律概念、判斷餘地理論、裁量  
+11/4 行政之羈束與自由-2—不確定法律概念、判斷餘地理論、裁量（預計公布期中作業題目，在家作答）  
+11/11 行政法律關係—1（預計繳交期中作業）  
+11/18 行政法律關係—2；主觀公權利  
+11/25 行政行為；行政處分1—概念及要件  
+12/2 行政處分2—要件  
+12/9 行政處分3—要件；概念區分  
+12/16 期末考試  
+註：得視課程實際進度調整；繳交期中作業日期亦將視課程進度調整
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+書名 Book Title |  作者 Author |  出版年 Publish Year |  出版者 Publisher |  ISBN  |  館藏來源* |  備註 Note  
+---|---|---|---|---|---|---  
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

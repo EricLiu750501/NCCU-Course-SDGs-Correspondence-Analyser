@@ -1,0 +1,99 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：台灣近代史專題指導
+#####  Course Name: Independent Study for Modern History of Taiwan
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：158706001 Course No.158706001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：台史碩一、台史博一、台史碩二、台史博二 Course Department:Graduate Institute of Taiwan History/G/1&2 
+  * 授課老師：薛化元 Instructor: HSUEH HUA-YUAN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三34C Session: wed10-13
+##  課程簡介Course Description
+臺灣近代史重大問題解析，及針對個案研究進行探討。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+針對臺灣近代史歷史解釋有重大爭議之課題，根據史料、檔案，協助學生養成在歷史時空條件下進行解讀的基本能力。並在檔案、史料的基礎上，參考相關研究成果，進行個別歷史研究主題的論述與討論。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+第一週：課程說明及學生準備工作之要求
+第二週：臺灣近代史爭議事件之探討（政治史1）
+第三週：臺灣近代史爭議事件之探討（政治史2）
+第四週：臺灣近代史爭議事件之探討（政治史3）
+第五週：臺灣近代史爭議事件之探討（經濟史1）
+第六週：臺灣近代史爭議事件之探討（經濟史2）
+第七週：臺灣近代史爭議事件之探討（社會文化史1）
+第八週：臺灣近代史爭議事件之探討（社會文化史2）
+第九週：臺灣近代史課題的現實意義個案分析1
+第十週：臺灣近代史課題的現實意義個案分析2
+第十一週：個案研究討論1
+第十二週：個案研究討論2
+第十三週：個案研究討論3
+第十四週：個案研究討論4
+第十五週：個案研究討論5
+第十六週：個案研究討論6
+####  其他： Others: 史料蒐集報告 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

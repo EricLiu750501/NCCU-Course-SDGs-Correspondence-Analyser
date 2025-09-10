@@ -1,0 +1,101 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：研究方法
+#####  Course Name: Research Methods
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：981008001 Course No.981008001
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：國安碩一 Course Department:Master Program in National Security and Mainland China Studies/M/1 
+  * 授課老師：張文揚 Instructor: CHANG WEN-YANG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：六234 Session: sat09-12
+##  課程簡介Course Description
+本門課程：「研究方法」的開設，除了為國際事務學院國家安全與大陸研究碩士在職專班必修課程以外，主要是介紹同學如何進行研究。這裡所謂的「如何進行研究」，是指如何在國家安全與大陸研究等各個世界政治次學門中選擇題目；如何進行文獻檢閱；如何建構研究設計；如何應用不同的研究方法(methods)蒐集資料及其採用的原因；如何分析材料與數據，以及最後，如何撰寫學期報告，甚至是學術研討會論文與碩士論文大綱與本文。這裡所謂的「研究方法」同時是指質性與量化研究方法，授課老師會介紹如何進行初步的量化研究（以敘述統計學為主）。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+授課老師希望同學們在修完這堂課程以後，同學們也在其他課程上可以知道如何蒐集研究資料、形成問題、檢閱文獻、發展構想、分析與蒐集數據或資訊並完成課堂報告。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+時間 | 內容 | 指定教材 | 學生時間  
+---|---|---|---  
+2025/9/6 | 課程介紹與研究倫理 | 臺灣學術倫理教育資源中心 | 0小時  
+2025/9/13 | 研究問題與定義 | 王雲東與呂傑華 (2021, 第1–3、5章) | 6小時  
+2025/9/20 | 文獻回顧 | Knopf (2006); 王雲東與呂傑華 (2021, 第4章) | 6小時  
+2025/9/27 | 研究設計 | 王雲東與呂傑華 (2021, 第21–22章)； | 6小時  
+2025/10/4 | 依據學校行事曆停課日彈性調整 |  | 0小時  
+2025/10/11 | 依據學校行事曆停課日彈性調整 |  | 0小時  
+2025/10/18 | 質性研究方法 | 鄧建邦 (2017); 王雲東與呂傑華 (2021, 第8、9、13、14章) | 6小時  
+2025/10/25 | 依據學校行事曆停課日 |  | 0小時  
+2025/11/1 | 專題演講 |  | 2小時  
+2025/11/8 | 圖書資源檢索 | 請至達賢圖書館資源檢索教室 | 2小時  
+2025/11/15 | 深度訪談與焦點團體訪談法、參與觀察法 | 王雲東與呂傑華 (2021, 第13–14章)；Alles, Guilbaud and Lagrange (2017); 王雲東與呂傑華 (2021, 第15章) | 6小時  
+2025/11/22 | 計量研究方法 | 龐珣 (2014); 王雲東與呂傑華 (2021, 第9, 18章) | 6小時  
+2025/11/29 | 次級資料分析法、圖表的製作與呈現、結論、進度表與附錄 | 王雲東與呂傑華 (2021, 第19–20章)、Alberto Cairo著，洪夏天譯 (2020); Knaflic (2016)、王雲東與呂傑華 (2021, 第21章) | 6小時  
+2025/12/6 | 期末口頭報告 |  | 6小時  
+2025/12/13 | 期末口頭報告 |  | 6小時  
+2025/12/20 | 期末口頭報告 |  | 6小時  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

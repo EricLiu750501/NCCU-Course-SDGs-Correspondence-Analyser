@@ -1,0 +1,109 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：資訊專題（B） 
+#####  Course Name: Special Topics on Computer Science (B)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：703045031 Course No.703045031
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：資訊四 Course Department:Computer Science/B/4 
+  * 授課老師：張家銘 Instructor: CHANG JIA-MING 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間： Session: 
+##  課程簡介Course Description
+本課程帶領同學將程式設計、資料結構及演算法等基礎能力運用至實際專案中，同學依志願分配，參與不同實驗室之專案，透過實作學習一個專案從零開始，一步步達到可運作系統的過程，養成學生獨立開發的能力。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 培養邏輯推理、獨立思考與創新能力
+  * B. 理解自然科學與數位科技
+  * C. 培養團隊合作的能力
+  * D. 瞭解資訊科技發展趨勢與具備國際視野
+  * E. 具有專業及道德責任的認知
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+  1. 培養同學解決問題的能力
+  2. 培養同學研究與開發能力（包括文獻搜尋、閱讀、討論、分析、報告、設計方法、系統實做等）
+  3. 協助同學探索未來發展之方向
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週數 |  課程主題 |  課程內容與指定閱讀 |  教學活動與作業 |  課堂學習投入時數 |  課程後學習投入時數  
+---|---|---|---|---|---  
+1 |  課程簡介 |  簡介、分組 |  規劃學期報告進度 |  3.0 |  4.5  
+2 |  相關研究報告 |  依主題整理文獻報告 |  文獻搜尋、閱讀、討論 |  3.0 |  4.5  
+3 |  相關研究報告 |  依主題整理文獻報告 |  文獻搜尋、閱讀、討論 |  3.0 |  4.5  
+4 |  研究進度報告 |  程式流程架構 |  報告、討論 |  3.0 |  4.5  
+5 |  程式進度報告 |  程式核心功能分析 |  報告、討論 |  3.0 |  4.5  
+6 |  期中進度報告 |  報告 |  上台報告、討論 |  3.0 |  4.5  
+7 |  程式進度報告 |  程式核心功能分析 |  報告、討論 |  3.0 |  4.5  
+8 |  相關研究報告 |  依主題整理文獻報告 |  文獻分析、報告 |  3.0 |  4.5  
+9 |  相關研究報告 |  依主題整理文獻報告 |  文獻分析、報告 |  3.0 |  4.5  
+10 |  相關研究報告 |  依主題整理文獻報告 |  文獻分析、報告 |  3.0 |  4.5  
+11 |  進度報告 |  程式核心功能細節 |  報告、討論 |  3.0 |  4.5  
+12 |  系統實作 |  無 |  程式撰寫、討論 |  3.0 |  4.5  
+13 |  系統實作 |  無 |  程式撰寫、討論 |  3.0 |  4.5  
+14 |  系統實作 |  無 |  程式撰寫、討論 |  3.0 |  4.5  
+15 |  系統實作 |  無 |  程式撰寫、討論 |  3.0 |  4.5  
+16 |  期末檢討 |  檢討報告內容 |  撰寫檢討期末報告 |  3.0 |  4.5  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

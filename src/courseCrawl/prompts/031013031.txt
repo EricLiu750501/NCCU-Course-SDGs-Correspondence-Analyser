@@ -1,0 +1,112 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：國文－臺灣文學選讀
+#####  Course Name: Readings of Selected Taiwanese Literature
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：031013031 Course No.031013031
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：中文系 Course Department:Chinese Literature 
+  * 授課老師：崔末順 Instructor: CHOI MAL-SOON 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二D56 Session: tue13-16
+##  課程簡介Course Description
+本課程將依時代與主題，介紹臺灣文學的發展歷程，並選讀代表性作品。除了掌握小說的歷時性發展脈絡外，亦將從主題性的角度切入，使學生能聚焦於各時期小說的特徵與其所反映之時代意義。
+  1. 理解臺灣文學的發展過程，掌握重要作家與作品的基本概況。
+  2. 精讀具有代表性的小說文本，深入分析其內容與文學價值。
+  3. 透過閱讀、討論、心得撰寫與寫作練習等課程活動，培養學生的邏輯思辨能力，並有效提升國語文表達能力。
+  4. 理解臺灣文學的發展過程，掌握重要作家與作品的基本概況。
+  5. 精讀具有代表性的小說文本，深入分析其內容與文學價值。
+  6. 透過閱讀、討論、心得撰寫與寫作練習等課程活動，培養學生的邏輯思辨能力，並有效提升國語文表達能力。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+  1. 理解臺灣文學的發展過程，掌握重要作家與作品的基本概況。
+  2. 精讀具有代表性的小說文本，深入分析其內容與文學價值。
+  3. 透過閱讀、討論、心得撰寫與寫作練習等課程活動，培養學生的邏輯思辨能力，並有效提升國語文表達能力。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+第一週 課程概述
+第二週 日據時期台灣文學與小說
+第三週 戰後初期文壇與小說
+第四週 1950-1960年代台灣文學與小說
+第五週 1970-1980年代台灣文學與小說
+第六週 解嚴後的台灣文學與小說
+第七週 台灣文學影片
+第八週 期中考試／繳交作文（1）
+第九週 第一組報告與討論
+文本： 賴和〈豐作〉、楊逵〈送報伕〉、呂赫若〈牛車〉、龍瑛宗〈植有木瓜樹的小鎮〉
+第十週 第二組報告與討論
+文本：朱西寧〈狼〉、林海音〈金鯉魚的百襉裙〉、白先勇〈那片血一般紅的杜鵑花〉
+第十一週 第三組報告與討論
+文本：王文興〈欠缺〉、七等生〈我愛黑眼珠〉、黃春明〈兒子的大玩偶〉
+第十二週 台灣文學影片
+第十三週 第四組報告與討論
+文本：王禎和〈小林來台北〉、陳映真〈夜行貨車〉、李喬〈皇民梅本一夫〉
+第十四週 第五組報告與討論
+文本：鄭淸文〈三腳馬〉、王拓〈金水嬸〉、袁瓊瓊〈自己的天空〉
+第十五週 台灣文學影片
+第十六週 期末考試／繳交作文（2）
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

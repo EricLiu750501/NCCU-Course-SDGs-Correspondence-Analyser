@@ -1,0 +1,110 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：國際財務管理 
+#####  Course Name: International Financial Management
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：301034001 Course No.301034001
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：國貿三甲、國貿三乙、國貿四甲、國貿四乙 Course Department:International Business/B/3&4 
+  * 授課老師：徐政義 Instructor: SHIU CHENG-YI 
+  * 先修科目：[ 財務管理(單學期)(修習且及格)]Prerequisite([ Finanzmanagement])
+  * 上課時間：三234 Session: wed09-12
+##  課程簡介Course Description
+這一門課是大學部的國際財務管理，介紹企業在跨國的環境之下，經營企業所面臨的風險，以及如何管理風險。本課程需要具備財務管理的基礎。
+This course is an undergraduate-level class in Multinational Financial Management. It introduces the risks that firms face when operating in a multinational environment and explores how these risks can be effectively managed. A basic understanding of financial management is required for this course.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 專業知識之理論基礎 (Theoretical foundations of professional knowledge)
+  * B. 理解與辦別道德、社會責任與永續議題To understand and identify ethical, socially responsible, and sustainability issues
+  * C. 溝通能力Communication skills
+  * D. 問題解決能力Problem-solving skills
+  * E. 團隊合作與領導能力Teamwork and leadership skills
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+課程的目標是學生能夠了解跨國企業在財務方面(包含匯率、資本市場、租稅等)所面臨的經營環境，並學習如何進行企業的財務決策，以利達成『培育全方位的專業國際經營與貿易人才』，以及『培養國際企業高階管理者』的教育目標。
+The objective of this course is to enable students to understand the financial environment faced by multinational corporations—covering areas such as exchange rates, capital markets, and taxation—and to learn how to make effective financial decisions within this context. The course is designed to support the broader educational goals of cultivating well-rounded professionals in international business and trade, as well as developing future senior managers for global enterprises.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+|  週次 Week |  課程主題 Topic |  課程內容與指定閱讀 Content and Reading Assignment |  教學活動與作業 Teaching Activities and Homework |  學習投入時間 Student workload expectation  
+---|---|---|---|---  
+課堂講授 In-class Hours |  課程前後 Outside-of-class Hours  
+1 (9/3) |  Introduction |  |  |  3 hrs |   
+2 (9/10) |  |  Multinational Financial Management (Ch 1) |  |  3 hrs |  6 hrs  
+3 (9/17) |  |  The Foreign Exchange Market (Ch 5) |  |  3 hrs |  6 hrs  
+4 (9/24) |  |  International Parity Condition (Ch 6) |  |  3 hrs |  6 hrs  
+5 (10/1) |  |  Foreign Currency Derivatives: Futures and Options (Ch 7) |  |  3 hrs |  6 hrs  
+6 (10/8) |  |  Foreign Currency Derivatives: Futures and Options (Ch 7) |  |  3 hrs |  9 hrs  
+7 (10/15) |  |  Interest Rate Risk and Swaps (Ch 8) |  |  3 hrs |  6 hrs  
+8 (10/22) |  |  Mid-term Exam |  |  |   
+9 (10/29) |  |  Transaction Exposure (Ch 10) |  |  3 hrs |  6 hrs  
+10 (11/5) |  |  Translation Exposure (Ch 11) |  |  3 hrs |  6 hrs  
+11 (11/12) |  |  Operating Exposure (Ch 12) |  |  3 hrs |  6 hrs  
+12 (11/19) |  |  Global Cost and Availability of Capital (Ch 13) |  |  3 hrs |  6 hrs  
+13 (11/26) |  |  Funding the Multinational Firm (Ch 14) |  |  3 hrs |  9 hrs  
+14 (12/3) |  |  Multinational Tax Management  (Ch 15) |  |  3 hrs |  6 hrs  
+15 (12/10) |  |  Foreign Direct Investment and Political Risk (Ch 17) |  |  3 hrs |  6 hrs  
+16 (12/17) |  |  Final Exam |  |  |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

@@ -1,0 +1,124 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：企業資料通訊 
+#####  Course Name: Business Data Communication
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：306007011 Course No.306007011
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：資管三甲、資管三乙 Course Department:Management Information Systems/B/3 
+  * 授課老師：蕭舜文 Instructor: HSIAO SHUN-WEN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三234 Session: wed09-12
+##  課程簡介Course Description
+The latest information is in our class website: https://sites.google.com/view/mikehsiao/teaching/networking-2025
+Business Data Communication is a mandatory course exclusively intended for senior students majoring in Management Information Systems. Only students majoring in MIS, including those with a double major, are eligible to participate in this course. Students from other departments, IMBA students, and exchange students are kindly requested to unregister from this class.
+This course offers an introductory overview of essential principles related to the design and implementation of computer communication networks, protocols, and applications. The topics covered include layered network architecture, the physical layer, data link protocols, network layer design, transport protocols, routing protocols, and network applications. Illustrative examples will be drawn from the Internet TCP/IP protocol suite. Moreover, the course incorporates various programming assignments (previous coding experience is a prerequisite), allowing students to gain practical skills in basic network programming and the development of simple network applications.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 資訊科技專業與商學經營創新知能(Profession of information technology and knowledge of business innovation)
+  * B. 社會責任與倫理(Social responsibility and ethics)
+  * C. 溝通協調與國際化能力(Communication, coordination abilities and international capabilities)
+  * D. 資訊系統管理與整合知能(Ability to manage and integrate information system)
+  * E. 團隊合作與領導能力(Teamwork and leadership abilities)
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+The primary objective encompasses a range of goals, including but not limited to the following:
+  * Gain a comprehensive understanding of networking design principles.
+  * Develop a solid grasp of layered network architecture and the underlying techniques involved.
+  * Acquire the knowledge and skills required to implement basic network-based programs.
+  * Demonstrate the ability to design and evaluate network structures for both home and enterprise environments.
+The desired outcomes for students encompass various goals, including but not limited to the following:
+  * Familiarity with the design of existing computer networks.
+  * The ability to determine suitable hardware and software components for complex computer networks.
+  * Proficiency in analyzing protocol performance, both theoretically and experimentally, and understanding the trade-offs associated with different protocol designs.
+  * Competence in writing socket programs using network libraries.
+  * Experience in working with network devices, utilizing their own personal computers or laptops.
+  * The capability to manage complex enterprise networks effectively.
+  * Proficiency in monitoring network packets and performing thorough analysis.
+  * The ability to identify and address network security issues.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Week | Topics | Contents | Activity and homework | note  
+---|---|---|---|---  
+1 | Computer Network and Internet | What is Internet? What is a protocol? Network edge and the network core. | Lecture. |   
+2 | Computer Network and Internet | Protocol layers and service model. History. | Lecture. |   
+3 | Computer Network and Internet | Principles of network  
+applications. Web and HTTP. | Lecture. HW1 |   
+4 | Application Layer | Electronic mail. DNS.  | Lecture. |   
+5 | Application Layer | P2P applications. Wireshark. | Lecture. |   
+6 | Transport Layer | Transport layer services. Multiplexing and demultiplexing. Connectionless transport: UDP. | Lecture. HW2. |   
+7 | Transport Layer | Principles of reliable data transfer. Connection-oriented transport: TCP. Segment structure. Reliable data transfer. | Lecture. HW3. |   
+8 | Transport Layer | Flow control. Connection management. Principles of congestion control. TCP congestion control. | Lecture. HW4. |   
+9 | Midterm |  |  |   
+10 | Network Layer - Data | Overview of Network layer. Data plane and control plane. What’s inside a router.  | Lecture. |   
+11 | Network Layer - Control | Routing protocols, Link state. Distance vector. Intra-AS routing in the Internet: OSPF. | Lecture. HW5. |   
+12 | Network Layer - Control | Routing among the ISPs: BGP. ICMP: The Internet Control Message Protocol. Network management and SNMP. | Lecture. AS2. |   
+13 | The Link Layer | Error detection, Correction, Multiple access protocols, LANs: addressing, ARP, Ethernet, switches. Ethernet. | Lecture. HW6. |   
+14 | Wireless Network | Wireless network. Wireless links, characteristics. CDMA.  | Lecture. HW7. |   
+15 | Wireless Network + Mobile Network |  IEEE 802.11 wireless LANs, Cellular Internet Access. Mobility. Principles: addressing and routing to mobile users. Mobile IP, Handling mobility in  
+cellular networks, Mobility, and higher-layer protocols. | Lecture. AS3. |   
+16 | Final |  |  |   
+####  其他： Others: 程式專案 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

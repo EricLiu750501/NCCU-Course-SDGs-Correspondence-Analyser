@@ -1,0 +1,111 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：近代初期台灣與東亞海洋史
+#####  Course Name: Early Modern Taiwan and East Asia Sea
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：158766001 Course No.158766001
+#### 修別：選
+Type of Credit: Elective 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：台史碩一、台史博一、台史碩二、台史博二 Course Department:Graduate Institute of Taiwan History/G/1&2 
+  * 授課老師：林逸帆 Instructor: LIN YI-FAN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四78 Session: thu16-18
+##  課程簡介Course Description
+## 本課程以台灣為中心，海洋為媒介，向外與世界聯結，從族群關係與地理環境角度，討論台灣史的連續性與整體性問題，探討近代初期台灣本土歷史發展與世界脈絡。本課程除上課講授外，視情況閱讀文獻，文獻解讀以漢文資料為主，另有日文、西文資料。
+## 本課程有１－２次（視情況修改）的實地考察，考察時間將配合修課同學與老師的時間，考察地點與本課程相關。相關細節將於課堂宣布、討論。 實地考察一次兩小時視同一次課程。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+  1. 培養史學素養
+  2. 培養近代初期台灣史的概念
+  3. 暸解台灣與東亞世界的連結
+  4. 暸解臺灣海洋文化
+  5. 訓練文獻閱讀能力
+  6. 專業歷史論文寫作
+  7. 學期中需導讀指定文章或史料１－２次
+  8. 學期結束需繳交一篇歷史論文（需與教師討論）
+##  每周課程進度與作業要求 Course Schedule & Requirements
+日期 |  講題  
+---|---  
+9月4日 |  課程簡介  
+9月11日 |  近代初期台灣相關史料簡介  
+9月18日 |  16世紀東亞與台灣  
+9月25日 |  16世紀台灣相關史料閱讀  
+10月2日 |  17世紀東亞與台灣  
+10月9日 |  實地考察（暫定）  
+10月16日 |  台灣沿海地名的探討  
+10月23日 |  台灣沿海地名解讀  
+10月30日 |  17世紀初台灣相關史料閱讀  
+11月6日 |  17世紀初台灣相關史料閱讀  
+11月13日 |  數位人文軟體應用  
+11月20日 |  東亞航線與各地港口  
+11月27日 |  物產、商品與各地文化  
+12月4日 |  海賊王們與海商  
+12月11日 |  台灣海洋文化與意象  
+12月18日 |  綜合史料討論與報告  
+預習課堂教師所發文獻、史料，進行報告討論，每週課前預習3小時，複習1小時 
+＊本學期課堂史料閱讀報告預定一人一到兩次，視課程情況調整
+####  其他： Others: 專題報告 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

@@ -1,0 +1,111 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：電動力學 
+#####  Course Name: Electrodynamics
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：755012001 Course No.755012001
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：應物碩一 Course Department:Graduate Institute of Applied Physics/M/1 
+  * 授課老師：許琇娟 Instructor: HSU HSIU-CHUAN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：一D56 Session: mon13-16
+##  課程簡介Course Description
+本課程第一部分幫助學生回顧靜電磁學，並用較高等的數學工具解決靜電磁學問題，第二部分開始討論電磁波，了解電磁波在真空、物質中的傳輸，特殊相對論下的電磁現象及馬克斯威爾方程，課程最後介紹一些應用，如波導、量子霍爾效應、量子傳輸。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABC雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備基礎專業知識與技術
+  * B. 培養獨立分析與解決問題的能力
+  * C. 培養國際視野與合作能力
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+學生將能掌握電磁波的物理與數學工具，並培養數學解析能力。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+靜電磁學部分會較快速進行，將重點放在電磁波與相對論。期末課程內容會涉及介觀結構中的電阻與電容。
+課程進度會依照實際上課狀況做調整。
+每週課程進度與作業要求 CourseSchedule&Requirements
+週次 Week Date |  課程主題 Topic |  課程內容與指定閱讀 Content and ReadingAssignment |  教學活動與作業 Teaching Activities and Homework |  學習投入時 間Student workload expectation  
+---|---|---|---|---  
+課堂講授In-class Hours |  課程前後 Outside-of class Hours  
+1 9/1 |  Introduction, mathematical preliminaries |  基本數學工具、electrostatics  Ch 1,2 |  Reading: App.C |  3 |  5  
+2 9/8 |  靜電學 |  electrostatics Conductors and dielectrics,  Ch.3,5-7 |  |  3 |  5  
+3 9/15 |  靜電學 |  Greens functions Ch.7, 8 |  |  3 |  5  
+4 9/22 |  靜磁學、磁能、磁性物質 |  Ch. 10,12,13 |  |  3 |  5  
+5 9/29 |  教師節放假 |  |  |  3 |  3  
+6 10/6 |  中秋節放假 |  |  |  |  5  
+7 10/13 |  靜磁學 時變場,電磁波 |  Ch. 14,15 |  小考 |  3 |  5  
+8 10/20 |  真空中的波 |  Ch. 16 |  |  3 |  5  
+9 10/27 |  期中考 |  |  |  0 |  8  
+10 11/3 |  物質中的波 |  Ch. 17、18 |  |  3 |  5  
+11 11/10 |  輻射、散射 |  Ch. 20, 21 |  |  3 |  5  
+12 11/17 |  特殊相對論 |  Ch. 22 |  小考 |  3 |  5  
+13 11/24 |  特殊相對論 |  Ch. 22 |  |  3 |  5  
+14 12/1 |  Lagrangian, Hamiltonian |  Ch. 24 |  |  3 |  5  
+15 12/8 |  Applications  |  Wave guide, quantum Hall effect, quantum transport |  |  3 |  5  
+16 12/15 |  期末考 |  |  |  0 |  8  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+書名 Book Title |  作者 Author |  出版年 Publish Year |  出版者 Publisher |  ISBN  |  館藏來源* |  備註 Note  
+---|---|---|---|---|---|---  
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

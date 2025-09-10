@@ -1,0 +1,151 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：韓國文化、社會與政治的理解
+#####  Course Name: Understanding Korean Culture, Society, and Politics
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：507811001 Course No.507811001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：韓文二 Course Department:Korean Language and Culture/B/2 
+  * 授課老師：權景祿 Instructor: KWON KYUNG ROK 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二D56 Session: tue13-16
+##  課程簡介Course Description
+1. Introduce key cultural, social, and political events and phenomena essential to understanding Korea.  
+Representative topics include:
+Culture:
+K-Culture: An integrated understanding of food, historical heritage, and the cultural industry.
+Unique aspects of Korean social culture: age hierarchy, nunchi (reading the room), etc.
+Society:
+Regionalism
+Feminism and meritocracy (especially centered on the MZ generation)
+Chaebols and economic inequality
+Politics:
+Democratization
+Two presidential impeachments
+The conservative shift among the 20s–30s demographic
+2. Beyond fragmentary understanding of individual events and phenomena, students will be introduced to foundational theoretical frameworks for integrated analysis of Korean culture, society, and politics. Key frameworks include:
+Confucian order and its pervasive influence across society
+The modern state and Korea's modernization
+Structural injustice and modern Korea
+3. Students will deepen their understanding by comparing Korea with either the society they belong to or one they are especially interested in. Comparative analysis will follow the course’s method and be covered in more detail in class.
+Example: Choose representative cultural, social, or political phenomena from each country, analyze them through appropriate theoretical frameworks, and illustrate why/how the two countries differ.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABC雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備基礎語言能力 Basic language skills
+  * B. 具備人文素養及知識 Humanity literacy & science
+  * C. 具備卓越之專業實務能力 Practical ability
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+1. A comprehensive understanding of Korean culture, society, and politics.
+2. A theoretical framework to help interpret these aspects in a more coherent and integrated manner.
+3. An opportunity for students to deepen their understanding through comparative analysis with the society they belong to or are most interested in.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Week 1: Course Introduction
+Week 2:Starting from Gyeongbokgung Palace
+  * Yi Sun-sin & King Sejong
+  * BTS x Gucci Gyeongbokgung performance and runway
+  * Korean civil society
+Week 3:Origins and History of K-Culture
+  * Korean desires and vulnerability: a Confucian interpretation
+  * Government, chaebols, civil society, and K-Culture
+Week 4:Age Culture & Nunchi Culture
+  * Why does a one-year age gap matter so much?
+  * Confucianism, the modern state, and colonial legacy
+  * Reproducing hierarchy within the MZ generation
+Week 5:Korean Food: Is Buldak Bokkeum Myeon Korean cuisine?
+  * Origins and authenticity in culture
+  * How Korean corporations "manufactured" Korean food
+Week 6:Regionalism
+  * The 6.3 Presidential Election and regionalism: A vicious circle or a historical legacy?
+  * The May 18 Gwangju Democratization Movement and the roots of regionalism
+  * The history of mobilizing regional identity
+Week 7:Generational Divides, Feminism, and Meritocracy
+  * Focus on the MZ generation
+Week 8: Midterm Exam
+Week 9:Generational Divides & Feminism Continued
+  * Why do Korean men and women hate each other?
+  * Why can't men and women in their 20s understand each other?
+Week 10:Chaebols & Economic Inequality
+  * The "Miracle on the Han River" and its darker side
+  * Meritocracy and the MZ generation
+Week 11:Brief Political History of Korea
+  * A history of humiliation and overcoming
+  * The Korean War, division, and civil conflict
+  * Authoritarianism
+Week 12:Democratization
+  * The 1987 Democratic Movement
+  * How was democratization achieved?
+Week 13:Two Presidential Impeachments
+  * Why were two conservative presidents impeached?
+  * What implications can we gain from the two cases?
+Week 14:Korea’s Geopolitics
+  * The tributary system and sadaejuui (deference to great powers)
+  * Korea’s self-image amidst the U.S., Japan, China, and Russia
+Week 15: Guideline for better comparive stduy
+Week 16: Final Exam
+Each week, questions comparing Korea and students' own society will be assigned; students are required to prepare short insights and responses (2-3 minutes)
+####  其他： Others: presentation 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

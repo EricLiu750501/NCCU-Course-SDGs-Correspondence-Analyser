@@ -1,0 +1,100 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：莎士比亞與英語教學 
+#####  Course Name: Shakespeare and Language Teaching
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：951922001 Course No.951922001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：英教碩一、英教碩二、英教碩三、英教碩四 Course Department:M.A.Program in TESOL for In-Service Teachers/M/1&2&3&4 
+  * 授課老師：施堂模 Instructor: SELLARI THOMAS-JOHN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間： Session: 
+##  課程簡介Course Description
+*PLEASE NOTE that this course is not actually being offered during the fall semester of 2021 (110-1). Due to insufficiencies in the course description platform and/or its utilization, as well as the apparent failure of university regulations to reflect the actual needs of the university's various programs, this summer course is being listed for this fall term even though it is clearly not going to be offered at this time. It is a summer course, and registration for it was closed even before the instructor was forced (by the aforementioned regulations) to input this course description into the system. The instructor apologizes for any inconvenience or misunderstanding that this may cause.*
+The goals of this course all involve giving working teachers an opportunity to investigate the methods and difficulties of using Shakespeare's works—and, by extension, the works of other major authors—in their English language courses. Specifically, these goals include:
+  * familiarizing teachers with relevant literary and historical background to Shakespeare's works
+  * familiarizing teachers with resources such as dictionaries, reference works, films and videos, and web sites for future reference
+  * gaining detailed knowledge of several of Shakespeare's works that would be of especially interest to maturing students
+  * developing the reading and writing skills necessary to classroom flexibility and confidence in dealing with challenging texts
+  * identifying and overcoming textual difficulties
+  * practicing incorporating some of Shakespeare's works into existing curricula
+  * developing classroom activities based on Shakespeare's works
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+*PLEASE NOTE that this course is not actually being offered during the fall semester of 2021 (110-1). Due to insufficiencies in the course description platform and/or its utilization, as well as the apparent failure of university regulations to reflect the actual needs of the university's various programs, this summer course is being listed for this fall term even though it is clearly not going to be offered at this time. It is a summer course, and registration for it was closed even before the instructor was forced (by the aforementioned regulations) to input this course description into the system. The instructor apologizes for any inconvenience or misunderstanding that this may cause.*
+The goals of the course are listed above.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+*PLEASE NOTE that this course is not actually being offered during the fall semester of 2021 (110-1). Due to insufficiencies in the course description platform and/or its utilization, as well as the apparent failure of university regulations to reflect the actual needs of the university's various programs, this summer course is being listed for this fall term even though it is clearly not going to be offered at this time. It is a summer course, and registration for it was closed even before the instructor was forced (by the aforementioned regulations) to input this course description into the system. The instructor apologizes for any inconvenience or misunderstanding that this may cause.*
+first meeting: introduction to course; introduction to Shakespeare; Shakespeare’s sonnets; reference materials
+second and third meeting: _Romeo and Juliet_ Acts I-II; comedy vs. tragedy; verse vs. prose; reading wholes
+fourth and fifth meeting: _Romeo and Juliet_ Acts III-V; reading dialogue; pair work; writing dialogue; themes of race and prejudice
+sixth and seventh meeting: _Twelfth Night_ Acts I-II; analyzing Shakespeare’s language; grammar and relations of ideas
+eighth and ninth meeting:_Twelfth Night_ Acts III-V; rhetorical tropes and schemes; crafting and developing longer pieces
+tenth and eleventh meeting: _Henry IV, Part One_ Acts I-II; public speaking; argumentation and refutation; logic
+twelfth and thirteenth meeting: _Henry IV, Part One_ Acts III-V; history plays; definitions of history; reading motivations
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

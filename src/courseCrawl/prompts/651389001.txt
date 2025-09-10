@@ -1,0 +1,114 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：財產法專題研究（六） 
+#####  Course Name: Property Law Seminar (VI)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：651389001 Course No.651389001
+#### 修別：群
+Type of Credit: Partially Required 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：法律碩一、法律博一、法律碩二、法律博二 Course Department:Law/G/1&2 
+  * 授課老師：向明恩 Instructor: HSIANG MIN-EN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三56 Session: wed14-16
+##  課程簡介Course Description
+一、教學目的：
+財產法專題研究（六）課程以我國民事財產法裁判理論實踐與民事財產法法學發展為核心，其中擇取司法實務之指標判決及學理重要性之觀點為課程素材，全面性與深入性分析實務與學理之互動關係，以培養修課同學提出個人綜合性與延伸性之評析觀點。
+二、教學方式：
+本課程將為探究民事財產法重要判決為重心，並配套以閱讀國內相關論文為主，並輔以比較法上之相關核心文獻，以充實學理上之論證。透過課程前導性判決導讀與學理討論後，由修課同學擇定不同主題進行報告，與學習者進行雙向溝通、對話與討論。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEFGH雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 專業知識與實務運用的能力 Ability to exercise professional skills / knowledge into practice
+  * B. 表達溝通的能力 Ability to develop communication skills
+  * C. 社會參與及人文關懷的能力 Ability to develop social participation and cultivate the spirit of humane care
+  * D. 科際整合與國際視野的能力 Ability of interdisciplinarity and global vision
+  * E. 專業知識與實務運用的能力 Ability to exercise professional skills / knowledge into practice
+  * F. 表達溝通的能力 Ability to develop communication skills
+  * G. 社會參與及人文關懷的能力 Ability to develop social participation and cultivate the spirit of humane care
+  * H. 科際整合與國際視野的能力 Ability of interdisciplinarity and global vision
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程以我國民事財產法裁判理論實踐與民事財產法法學發展為核心，擇取司法實務之指標判決及學理重要性之觀點進行全面性與深入性分析，以培養修課同學提出個人綜合性與延伸性之評析觀點，並也透過學理之探索與研析，拓展修課同學運用比較法文獻之能力。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週數 |  日期 |  課程內容  
+---|---|---  
+第1週 |  9月3日 |  課程介紹  
+第2週 |  9月10日 |  重要民事判決分析與學理研究  
+第3週 |  9月17日 |  重要民事判決分析與學理研究  
+第4週 |  9月24日 |  重要民事判決分析與學理研究  
+第5週 |  10月1日 |  重要民事判決分析與學理研究  
+第6週 |  10月8日 |  重要民事判決分析與學理研究  
+第7週 |  10月15日 |  重要民事判決分析與學理研究  
+第8週 |  10月22日 |  重要民事判決分析與學理研究  
+第9週 |  10月29日 |  重要民事判決分析與學理研究  
+第10週 |  11月5日 |  重要民事判決分析與學理研究  
+第11週 |  11月12日 |  專題報告（一）  
+第12週 |  11月19日 |  專題報告（二）  
+第13週 |  11月26日 |  專題報告（三）  
+第14週 |  12月4日 |  專題報告（四）  
+第15週 |  12月11日 |  專題報告（五）  
+第16週 |  12月18日 |  專題報告（六）  
+---  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

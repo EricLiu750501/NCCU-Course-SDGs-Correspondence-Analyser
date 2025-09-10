@@ -1,0 +1,135 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：選修英文：學術聽說訓練（ETP專班）
+#####  Course Name: English Elective: Academic_Listening_&_Speaking（ETP）
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：070172021 Course No.070172021
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：外文中 Course Department:Foreign Languages Center 
+  * 授課老師：郭曉蓉 Instructor: KUO HSIAO JUNG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三234 Session: wed09-12
+##  課程簡介Course Description
+This course, which is conducted in English, is designed for high-intermediate to advanced English learners. It is based on a content-based syllabus, utilizing lectures on topics from different academic disciplines and related reading materials. The authentic content provides both a context for the practice of important language skills and a basis for the exploration of high-interest topics for learners. The course covers diverse issues and integrates vocabulary, grammar, listening and speaking skills necessary for academic success. Throughout the semester, students are encouraged to improve their academic listening and speaking ability by listening to lectures and participating in discussions, as well as practicing note-taking and summarizing.
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+This course will help students to
+- build discipline- or topic-related vocabulary 
+- improve listening skills both in everyday and academic settings
+- develop learning strategies and study skills for academic success
+- reinforce academic discussion and communicative skills
+- develop effective note-taking and summarizing skills
+- deliver informative talks / presentation in today’s academic and professional world
+- expand critical thinking
+- be aware of cultural differences and similarities
+_Learning Outcomes for Lecture Comprehension and Note-taking_
+By the end of the course, students will be able to:
+- predict lecture content and organization 
+- listen for the lecturer’s main points and for the general organizational framework
+- make guesses when information is missed 
+- evaluate and decide what is and is not important during a lecture
+- note key words, and use abbreviations and symbols
+- organize information and visually represent the relationship between ideas
+- note most numbers and statistics
+_Learning Outcomes for Informative Talks & Presentation_
+By the end of the course, while presenting, students will be able to:
+- consider the audience and have clear objectives
+- have a clear structure and link the parts together
+- address academic issues successfully with a variety of resources
+- consider the timing
+- speak clearly at the right speed
+- use appropriate language
+- maintain eye contact with the audience
+- use body language effectively
+- appear confident and positive
+- make clear visual aids to support messages
+- use the equipment professionally
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 Week |  課程主題 Topic |  課程內容與指定閱讀 Content and Reading Assignment |  教學活動與作業 Teaching Activities and Homework |   
+---|---|---|---|---  
+1 |  Course introduction |  Small talk; Academic skills: presenting effectively |  Warm-up; orientation |   
+2 |  Communication | 
+# How to speak so that people want to listen
+|  Speaking strategies; Note-taking skills  |   
+3 |  Tourism |  Overtourism: How to be a responsible tourist |  Listening and speaking exercises; Preparing for individual presentation |   
+4 |  Public speaking | 
+## TED's secret to great public speaking
+|  Listening and speaking exercises; Preparing for individual presentation; quiz 1 |   
+5 |  Psychology |  How to stay calm when you know you’ll be stressed  |  Listening and speaking exercises; Preparing for individual presentation |   
+6 |  Health |  Why we need mental health days |  Listening and speaking exercises; Preparing for individual presentation; quiz 2 |   
+7 |  Life |  Less stuff, more happiness |  Listening and speaking exercises; Preparing for individual presentation |   
+8 |  Public speaking |  Impromptu speech |  Impromptu speech; quiz 3 |   
+9 |  Midterm presentation 1 |  Individual presentation |  Individual presentation |   
+10 |  Midterm presentation 2 |  Individual presentation |  Individual presentation |   
+11 |  Media Literacy |  The Power (and Responsibility) of Information |  Listening and speaking exercises; Preparing for individual presentation |   
+12 |  Business |  New trend in marketing research |  Listening and speaking exercises; group discussion |   
+13 |  Science |  The placebo effect |  Listening and speaking exercises; Preparing for individual presentation; ; quiz 4 |   
+14 |  Art |  The art of graffiti |  Listening and speaking exercises; Preparing for individual presentation |   
+15 |  Discussion skills |  Discussion skills |  Listening and speaking exercises; group discussion; quiz 5 |   
+16 |  Final presentation |  Peer evaluation; Panel discussion |  Preparing for final project |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

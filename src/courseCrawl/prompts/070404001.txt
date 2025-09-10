@@ -1,0 +1,112 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：雙語影音媒體溝通
+#####  Course Name: Bilingual Media Communication
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：070404001 Course No.070404001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：英文系 Course Department:English 
+  * 授課老師：吳承翰 Instructor: WU CHENG-HAN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三D56 Session: wed13-16
+##  課程簡介Course Description
+In an era bombarded with notifications and overwhelmed by information, the media not only fragments our focus but fundamentally reshapes the way we access knowledge today. Building on the media literacy foundation, this course looks into the mechanism of media outlets, asking these key essential questions: _What is the media?_ _In what way does the media transform our daily interactions, and what do we sacrifice for its convenience and allure?_ From printed words to digital platforms, the dissemination of information has undergone a sea change. Televisions, smartphones, and live-streaming services offer lavish entertainment and immediate connection but often at the expense of enduring attention. This course invites students to critically analyze media contents and engage thought-provoking articles, initiating a meaningful dialogue with authors and peers. Through discussions, students will not only refine their analytical skills but also rethink the role of the media in today’s society.
+N.B. Please note that while the course primarily centers around British and American media culture, students are encouraged to include local examples and incorporate interdisciplinary perspectives into the in-class conversation. 
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+By the end of this course, students will be able to 
+  1. Acquire media literacy skills to spot bias, misinformation, and propaganda in different media outlets.
+  2. Analyze media contents and identify techniques of media manipulation.
+  3. Contribute to ethical and responsible media practices.
+  4. Enhance language proficiency (both English and Chinese) through activities and discussions.
+  5. Realize the influence of the media in today’s society.
+  6. Reflect on our own roles as active participants of the media.
+  7. Understand the socio-cultural, political, and economic factors that shape media production and consumption. 
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Course Schedule
+Week |  Date |  Topic |  Required Reading  
+---|---|---|---  
+1 |  Sept 3 |  Introduction  
+2 |  10 |  Gender and Media (I) —Advertisement Industry |  Kilbourne, _Deadly Persuasion_  
+3 |  17 |  Gender and Media (II)—Visual Arts |  Berger, _Ways of Seeing_  
+4 |  24 |  Media, Exploitation, and Adult Industry |  Dines, _Pornland_  
+5 |  Oct 1 |  Media, Stardom, and the Faustian Pact |  Spears, _The Woman in Me_  
+6 |  8 |  Media, Entertainment, and the Show Business |  Postman,_Amusing Ourselves to Death_  
+7 |  15 |  Screening: _Raise the Red Lantern_  
+8 |  22 |  _Midterm Exam_  
+9 |  29 |  Media, the Internet, and the Paradox of Knowledge |  Carr, _The Shallows_  
+10 |  Nov 5 |  Sensationalism, Celebrity Culture, and the Media’s Role  |  De Botton, _The News_  
+11 |  12 |  Media Narratives, Higher Education, and the (Mis)conception of the Humanities  |  Deresiewicz, _Excellent Sheep_  
+12 |  19 |  Media, Politics, and the American Dream  |  Obama, _Becoming_  
+13 |  26 |  Media, Mental Health, and Well-being  |  Haidt, _The Anxious Generation_  
+14 |  Dec 3 |  Group Supervision with the Instructor  
+15 |  10 |  _Final Presentation_  
+16 |  17 |  Optional Online Meeting |  A link will be provided if online meeting is required  
+  *     * Please note that the above contents may be adjusted based on students’ learning and the instructor’s needs. Major changes will be announced in class. 
+    * A Webex online meeting will be arranged in week 16 should the instructor need to speak with you. 
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

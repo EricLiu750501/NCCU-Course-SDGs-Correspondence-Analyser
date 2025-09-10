@@ -1,0 +1,102 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：全民國防教育軍事訓練—國防科技
+#####  Course Name: All-out Defense Education Military Training - Defense Technology
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：003830101 Course No.003830101
+#### 修別：選
+Type of Credit: Elective 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：外交系 Course Department:Diplomacy 
+  * 授課老師：馮永志 Instructor: FENG YUNG-CHIH 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二78 Session: tue16-18
+##  課程簡介Course Description
+現代高科技已被廣泛應用於軍事領域，「軍事科技」係指在軍事上用來 遂行攻擊或防禦的科學(Science)與技術(Technology)，而「國防科技」則 是國防軍事力量有關的科學與技術均屬之。新一代的戰場是以「遠距導引、 完整指管、高能繫殺、立體機動」為主的作戰模式，我國面對未來戰爭，必 須繼續強化科技先導、資電優勢，及精進戰力整合與聯合作戰效能，方能以 質勝量。以寡擊眾，達到保障國家安全的目標。 國防科技水準與國家的軍事實力、防禦能力密切相關，從兩次、灣戰爭 中不難看出，現代戰爭是以科技為主導的戰爭，所有武器裝備均與高科技相 結合，形成精準強大的打擊力，藉以強化迅速猛烈的作戰效能，摧毀敵人有 形戰力。「無科學即無國防，無國防即無國家」，凸顯攸關國家安危的國防 科技之關鍵性。因此，時至今日「後冷戰」時期，恐怖主義又死灰復燃之際， 各民主國家雖大幅縮減國防經費，但對建軍工作仍不敢掉以輕心。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+一、學生修習全民國防教育軍事訓練課程且成績合格者，應分別按各學制，以每八堂課折算一日，折減常備兵役現役役期或軍事訓練期間；其得折減之現役役期，不得逾三十日，得折減之軍事訓練時數，不得逾十五日。
+二、同等學制修習之全民國防教育軍事訓練課程折減常備兵役現役或軍事訓練，以一次為限，因故重（復）修或留級再修者，不得重複折減。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+第一週 國防科技課程說明及校園安全週宣導(配合學務處學安組)
+第二週 文明、技術與軍事的關係
+第三週 農業、工業以及資訊時代之戰爭科技(三代論與六代論)。
+第四週 現代科技對軍事作戰的影響
+第五週 第一、二次世界大戰影響勝負的關鍵武器
+第六週 軍事事務革新(RMA)之意義與內涵 
+第七週 美軍戰場指揮管制之問題與興革
+第八週 期中考(教學影片收視)
+第九週 精密導引武器與夜戰裝備的發展
+第十週 大空科技之軍事應用
+第十一週 資通訊科技的大幅躍進
+第十二週 情報與電子戰
+第十三週 發展應對指揮與通信系統的攻擊與反制
+第十四週 晶片戰爭
+第十五週 課程結論-我國之軍事革新
+第十六週 期末考(筆試25題選擇單選)
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+書名 Book Title |  作者 Author |  出版年 Publish Year |  出版者 Publisher |  ISBN  |  館藏來源* |  備註 Note  
+---|---|---|---|---|---|---  
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

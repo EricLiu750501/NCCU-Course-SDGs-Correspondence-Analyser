@@ -1,0 +1,106 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：體育[男女合班]—足球初級
+#####  Course Name: Physical Education [male and female]--Soccer Primer
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：002311021 Course No.002311021
+#### 修別：必
+Type of Credit: Required 
+_1.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：體育 Course Department:Physical Education Office 
+  * 授課老師：林貴彬 Instructor: LIN KUEI-PIN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三78 Session: wed16-18
+##  課程簡介Course Description
+（一）了解各種足球基本技能、足球規則及比賽方法。
+（二）學習足球基本技能、體驗足球比賽及促進健康體能。
+（三）享受足球運動的樂趣、並養成規律運動的習慣。
+（四）培養團隊互助合作的運動精神。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+（一）了解各種足球基本技能、足球規則及比賽方法。
+（二）學習足球基本技術、體驗足球比賽及促進健康體能。
+（三）享受足球運動的樂趣，並養成規律運動的習慣。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 |  課程項目 |  預定進度  
+---|---|---  
+一 |  準備週 |  課程簡介，規則介紹(第一周上課地點:體育館前)  
+二 |  球感練習 |  觸球，勾球，挑球，規則介紹  
+三 |  停接球 |  腳內側、腳外側及腳底停球，規則介紹  
+四 |  傳球 |  腳內側、腳外側及腳背傳球，射門  
+五 |  傳接球 |  腳底、腳內側及腳背停球傳球，射門  
+六 |  傳接球 |  腳底、腳內側及腳背停球傳球，射門  
+七 |  複習 |  基本動作複習，射門，比賽  
+八 |  期中測驗 |  兩人對傳  
+九 |  盤運球 |  左腳、右腳及兩腳交互運球，射門，比賽  
+十 |  搶球練習 |  直線運球，搶球練習，比賽  
+十一 |  快速運球 |  快速運球，射門，比賽  
+十二 |  綜合訓練 |  綜合訓練，比賽  
+十三 |  分組訓練 |  小組訓練，比賽  
+十四 |  盤運球 |  S型盤球，快速帶球急停，移動射門，比賽  
+十五 |  分組訓練 |  小組訓練，彈跳球射門，比賽  
+十六 | 期末測驗 | 直線盤帶球  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

@@ -1,0 +1,105 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：語言學概論
+#####  Course Name: Linguistics
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：070378001 Course No.070378001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：華文碩程 Course Department:Master's Program in Teaching Chinese as a Second Language 
+  * 授課老師：杜容玥 Instructor: TU JUNG-YUEH 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二D56 Session: tue13-16
+##  課程簡介Course Description
+語言充斥在我們每天的生活之中。在心理、社會、文化和政治等方面，語言無所不在。本課程會討論語言的複雜性、創造性、習得和作用。語言如同本能一般的存在，而語言的理解與產出是我們日常生活在做的事情，更是人類獨有的資產。本課程將探索語言的奧秘，我們如何在這看似簡單實則複雜的語言溝通過程中，抽絲剝繭，一步步完成使用語言的行為模式。
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+1. 瞭解語言的要素與本質
+2. 掌握語言的語法規則與運作機制
+3. 跨領域角度探討語言現象
+4. 培養對語言行為的觀察與敏銳度
+5. 分析語言與心理、社會和文化層面的關係
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 |  課程主題 |  課程內容與指定閱讀 |  教學活動與作業  
+---|---|---|---  
+1 |  課程簡介 語言學的歷史 |  Yule Ch. 1  Yule Ch. 17 |  講述、討論  
+2 |  語言與思想 |  Pinker Ch. 3 Yule pp. 270-276 |  講述、討論  
+3 |  動物的溝通方式 |  Yule Ch. 2 Pinker Ch. 4 |  講述、討論  
+4 |  語音學(發音與感知) |  Yule Ch. 3  Yule Ch. 4 Carroll, Ch. 4, pp. 68–91 |  講述、討論  
+5 |  構詞學 |  Yule Ch. 5 |  講述、討論  
+6 |  詞彙識別和心理詞庫 |  Yule Ch. 6 |  講述、討論  
+7 |  句法學和語意學 |  Yule Ch. 8 & Ch. 9 |  講述、討論  
+8 |  課程複習 |  期中報告 |  交論文主題與概述  
+9 |  語用學和言談分析 |  Yule Ch. 10 & 11 |  講述、討論  
+10 |  語言與大腦 |  Yule Ch. 12  Pinker Ch. 10 |  講述、討論  
+11 |  第一語言習得 |  Yule Ch. 13 Pinker Ch. 9 |  講述、討論  
+12 |  第二語言習得 |  Yule Ch. 14 |  講述、討論  
+13 |  語言與社會變異 |  Yule Ch.19 |  講述、討論  
+14 |  語言與文化 |  Yule Ch. 20 |  講述、討論  
+15 |  學期論文口頭報告 |  期末報告 |  分組口頭報告  
+16 |  學期論文書面報告 |  分組書面報告 |  交學期論文書面報告  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

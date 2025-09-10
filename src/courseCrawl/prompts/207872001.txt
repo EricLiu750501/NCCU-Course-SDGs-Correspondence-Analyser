@@ -1,0 +1,126 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：日本都市計畫與都市設計實務 
+#####  Course Name: Japanese Urban Planning and Urban Design Practice
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：207872001 Course No.207872001
+#### 修別：選
+Type of Credit: Elective 
+_1.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：地四土資 Course Department:Land Economics/B/4 
+  * 授課老師：白仁德 Instructor: PAI JEN-TE 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間： Session: 
+##  課程簡介Course Description
+本課程為國際合作事務處補助之「鼓勵教師赴國外開設短期學習課程」。課程採密集授課，並需經事先報名才可參加。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABC雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備地政相關專業知能
+  * B. 具備地政相關實務應用與創新之能力
+  * C. 具備領導與團隊合作並進之精神與國際觀
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+國外短期課程，透過與東京大學的學術交流及實地案例參訪，不僅能拓展學生的國際視野，激發其創造力與想像力，更能讓學生親身體驗不同都市規劃與設計案例的獨特之處，並從中分析歸納出與台灣規劃設計思維的差異。整體課程規劃設計，除了專業領域的交流學習外，更提供了與國際知名大學接軌的寶貴機會，在促進國際交流的同時，也能讓學生與相同領域的研究者交換資訊、建立友誼。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+6/29（日）
+【搭乘航班前往日本】
+【實地參訪】
+1. 都市中心區的行人優先空間創設與演變-銀座步行者天國
+2. 創造都市活力之共融設計-銀座SONY PARK
+3. 小型歷史建築的再生與社群營造-奥野大樓
+6/30（一）
+【實地參訪】
+1. 宜居城市之行人網絡與居住環境設計-茨城縣守谷市
+2. 企業社會責任與地域共生型都市發展-朝日啤酒茨城工廠
+7/1（二）
+【實地參訪】
+1. 地方創生與車站周邊再開發-十条駅
+2. 公營機構的都市再生策略-都市開發博物館及赤羽租賃住宅
+7/2（三）
+【實務交流】  
+1. 都市空間規劃與建築設計-株式会社日建設計
+【實地參訪】
+1. 次世代都市基礎設施與國際商業樞紐建構-高輪GATEWAY CITY
+2. 歷史建築群與國際商業據點之調和性都市再生-東京車站、大手町、丸之內
+7/3（四）
+【實地參訪】
+1. 日美文化下的軍事港灣都市發展-橫須賀
+7/4（五）
+【學術交流】
+1. 日本都市計畫學術發展-東京大學工學部都市工學科
+2. 日本國土計畫發展現況-國土計畫協會
+【實地參訪】
+1. 緊湊都市及都市再生-麻布台之丘
+7/5（六）
+【實地參訪】
+1. 公募設置管理制度市之公園創新經營模式-都立明治公園
+2. 交通樞紐整備與步行都市-新宿駅東西口
+3. 都市型生態網絡建構-新宿副都心
+7/6（日）
+【實地參訪】
+1.都市更新與地域價值再造-日本橋及周邊地區
+7/7（一）
+【搭乘航班返回臺灣】
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

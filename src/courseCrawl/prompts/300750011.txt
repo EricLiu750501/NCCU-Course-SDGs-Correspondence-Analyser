@@ -1,0 +1,109 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：商用寫作與口語訓練（一）
+#####  Course Name: Business Writing and Oral Training I
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：300750011 Course No.300750011
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：商院選修 Course Department:Commerce/B/0 
+  * 授課老師：鄺慧琪 Instructor: KWONG WAI-KEI 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三234 Session: wed09-12
+##  課程簡介Course Description
+Business Writing & Oral Training I provides speaking and writing training at the university level for students to develop communication fluency and accuracy using their already well-learned grammar and vocabulary from high school. Through a variety of carefully-designed activities, students will realize for themselves the importance of active listening in achieving effective oral communication. Writing strategies will be introduced for students to apply to their written work so that they can successfully convey their intended message to their readers.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 奠定相關基礎專業知識(Students will acquire and apply expertise in their respective fields.)
+  * B. 理解與辨別道德、社會責任與永續議題(Students will understand and be able to identify ethics, social responsibility, and sustainability issues.)
+  * C. 溝通能力(Students will acquire professional communication skills.)
+  * D. 問題解決能力(Students will acquire problem solving skills.)
+  * E. 團隊合作與領導能力(Students will be able to work effectively in teams as well as develop leadership skills.)
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+Students will have opportunities to work individually to foster learner autonomy and also in groups to develop team spirit. By the end of this course, students will have developed confidence in speaking on a wide range of topics clearly and coherently. Students will also have developed the habit of brainstorming before drafting a piece of writing.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Tentative Schedule: (subject to change according to students' progress/needs)
+週次 Week |  課程主題 Topic |  課程內容與指定閱讀 Content and Reading Assignment |  教學活動與作業 Teaching Activities and Homework |  學習投入時間 Student workload expectation  
+---|---|---|---|---  
+課堂講授 In-class Hours |  課程前後 Outside-of-class Hours  
+1 |  Course Introduction; Self Introduction; Socializing in English |  Course Introduction; Self Introduction; Socializing in English |  What is Business Writing & Oral Training? |  3 |  1  
+2 |  Assertive Communication; Active Listening |  Listening Actively |  Being Assertive; Listening Attentively |  3 |  3  
+3 |  Are You a Procrastinator? |  Quitting Procrastination |  Goal Setting |  3 |  3  
+4 |  The “Preferable” Writing Approach |  Writing Process |  Thinking Before Writing |  3 |  3  
+5 |  Writing Support; ETP Shorts |  Writing Process; Developing Supporting Sentences |  Writing Practice |  3 |  3  
+6 |  Working on Intonation; Grammar Check; ETP Shorts |  Singing Your Sentences |  “Tone” Up Your Speaking |  3 |  3  
+7 |  ETP Let’s Talk #1; Writing Polite Email |  Grammar at Work |  Email Etiquette |  3 |  3  
+8 |  ~ Individual Conference ~ |  Meeting with the Instructor |  Meeting with the Instructor |  3 |  3  
+9 |  Descriptive Writing; Contemporary Topic; ETP Shorts |  Feeling the Chill? |  What Did You See? What Did You Hear? |  3 |  3  
+10 |  ETP Let’s Talk #2; Sensory Language; ETP Shorts |  Stimulating Five Senses  |  Painting with Words |  3 |  3  
+11 |  ETP Let’s Talk #3; Speaking Rhythmically; ETP Shorts |  Speaking to a Beat |  Show, Don’t Tell |  3 |  3  
+12 |  ETP Let’s Talk #4; Writing About Events; ETP Shorts |  Reliving Others’ Experiences |  Dramatize, not Summarize |  3 |  3  
+13 |  ETP Let’s Talk #5; Communicating without Speaking; ETP Shorts |  Being Grateful |  Communicating at the Next Level |  3 |  3  
+14 |  Speaking Naturally; Interjections; ETP Shorts |  No More Raining Cats and Dogs |  Using Natural Expressions |  3 |  3  
+15 |  Difficult English; Making Resolutions; ETP Shorts |  Jingling Away |  English is a Crazy Language |  3 |  3  
+16 |  Speaking English in the Real World |  Committing to Resolutions |  Counting Down To The New Year |  3 |  3  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

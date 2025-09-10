@@ -1,0 +1,105 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：波蘭文（二） 
+#####  Course Name: Polish II
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：504927001 Course No.504927001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：斯語三甲、斯語三乙 Course Department:Slavic Languages and Literatures/B/3 
+  * 授課老師：貝娜煦 Instructor: Bednarz Karolina Aneta 
+  * 先修科目：[ 大學外文（一）：波蘭文(單學期)(修習且及格) 或 大學外文（二）：波蘭文(單學期)(修習且及格) 或 波蘭文（一）(全學年)(修習且及格)]Prerequisite([ or or])
+  * 上課時間：二D56 Session: tue13-16
+##  課程簡介Course Description
+This course is the continuation of the Polish I course. It ensures a solid command of the grammatical structures in a practical communicative context. Students will develop four key linguistic competences: listening, reading, speaking and writing based not only on textbooks but also on authentic materials (e.g. announcements, commercials, excerpts from TV programs, surveys, songs). The contents of the course include subjects related to everyday life situations. The aim of the course is to enable students to communicate in Polish on a variety of practical everyday matters.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCD雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備基本語言能力
+  * B. 具備語言實務應用能力
+  * C. 具備斯拉夫知識基本知能
+  * D. 具備人文素養及國際宏觀視野
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+By the end of the course students will be able to: 
+- understand sentences and frequently used expressions related to areas of most immediate relevance (e.g. very basic personal and family information, shopping, local geography, employment) 
+- communicate in simple and routine tasks requiring a simple and direct exchange of information on familiar and routine matters 
+- describe in simple terms aspects of their background, immediate environment and matters in areas of immediate need.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+WEEK |  TOPIC |  CONTENT  
+---|---|---  
+1 |  _Dlaczego uczysz się polskiego?_ |  review and practice  
+2-3 |  _Co robisz dzisiaj?_ |  talking about daily routines hours, times of day, days of the week conjugation of the verbs: _brać, myć się, spać, iść, chodzić, jechać, jeździć, umieć, wiedzieć, znać, spotykać się, spotykać_ modal verbs: _chceć, musieć, móc_ personal pronoun - Instrumental  
+4-5 |  |  _Co robiłeś wczoraj?_ |   
+---|---  
+talking about free time activities  simple time expressions  ordinal numbers  past tense (imperfective)  
+6-7 |  _Jak dojść do centrum?_ |  asking for and giving directions  verbs: _iść, chodzić, jechać, jeździć_  
+8 |  _Egzamin śródsemestralny_ |  midterm examination  
+9-10 |  _Karton czy pudełko?_ |  quantities and measures  Nominative and Accusative plural (repetition and consolidation)  Genitive plural   
+11-12 |  _Jaka jutro będzie pogoda?_ |  talking about the weather seasons and months of the year celebrations throughout the year and in the family talking about future plans future tense (imperfective aspect)  
+13-14 |  _Co lubisz robić?_ |  expressing preferences  _lubić + infinitivie_ construction  conjucation _–ę –esz_  
+15 |  _Powtórzenie i utrwalenie materiału_ |  repetition and consolidation   
+16 |  _Egzamin_ |  final examination  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

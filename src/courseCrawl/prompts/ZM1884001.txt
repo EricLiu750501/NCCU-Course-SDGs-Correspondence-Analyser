@@ -1,0 +1,113 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：沉浸式實境：擴增、虛擬以及混合實境
+#####  Course Name: Immersive Realities: Augmented, Virtual and Mixed Reality
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：ZM1884001 Course No.ZM1884001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：全創碩一、全創碩二、全創碩三 Course Department:Global Communication and Innovation Technology/M/1&2&3 
+  * 授課老師：張君豪 Instructor: Chang Chun-Hao 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：五234 Session: fri09-12
+##  課程簡介Course Description
+This course delves into the rapidly evolving world of immersive technologies—including Augmented Reality (AR), Virtual Reality (VR), and Mixed Reality (MR)—and their integration into broader platforms. As these technologies transition from speculative futures to practical tools embedded in daily life, it becomes increasingly important to understand their design principles, societal implications, and real-world applications. Students will explore both theoretical frameworks and hands-on approaches, leveraging immersive technologies to address challenges in fields such as marketing, healthcare, education, public engagement, and urban planning. Students will begin with needs analysis to identify and articulate how these technologies can be applied to real-world problems. They will then prototype solutions and conduct evaluations to assess their impact and feasibility. Through collaborative group work, students will gain fluency in both conceptual understanding and practical implementation, preparing them to critically and creatively apply immersive technologies in diverse contexts.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEF雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 跨文化傳播能力 Cross-Cultural Communication 
+  * B. 資訊處理能力 Information Processing
+  * C. 媒介實作能力 Media Practice
+  * D. 敘事能力 Narrative
+  * E. 媒介素養 Media Literary
+  * F. 創新能力 Innovation
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+  * Analyze and critique the societal, psychological, and technical dimensions of immersive technologies.
+  * Understand and articulate the rationale behind the use of AR/VR/MR in diverse fields.
+  * Explore and evaluate current and emerging applications of immersive tech in everyday contexts.
+  * Develop and prototype immersive experiences using common AR/VR/MR tools and platforms.
+  * Collaborate in multidisciplinary teams to address real-world problems through immersive solutions.
+  * Reflect on ethical, accessibility, and user experience considerations in immersive design.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Week |  Topic |  Content and Reading Assignment |  Teaching Activities and Homework  
+---|---|---|---  
+1 |  Orientation |  What is AR/VR/MR |  Lecture/Discussion  
+2 |  Evolution of AR/VR/MR |  Fundamentals of Human Experience & Immersion |  Lecture/ Discussion  
+3 |  Augmented Reality(1) |  AR Showcase /Needs Analysis / AR Design Tools [3-1][3-2] |  Lecture/ Discussion  
+4 |  Augmented Reality(2) |  Assigned Readings & Hands-on Design Exercise [4-1] [4-2][6-1] |  Short Lecture / Group-led Discussions /Hands-On Design Activities  
+5 |  Augmented Reality(3) |  Assigned Readings & Hands-on Design Exercise [5-1][5-2][6-2] |  Short Lecture / Group-led Discussions /Hands-On Design Activities  
+6 |  Double Tenth Day (no class)  
+7 |  Augmented Reality(5) |  Mini Project Presentation |  Short Lecture / Group-led Discussions  
+8 |  Taiwan Restoration Day (no class)  
+9 |  Virtual Reality(1) |  VR Showcase /Needs Analysis / Design Tools [8-1]8-2][9-1] |  Short Lecture / Group-led Discussions /Hands-On Design Activities  
+10 |  Virtual Reality(2) |  Assigned Readings & Hands-on Design Exercise [10-1][10-2][9-2] |  Short Lecture / Group-led Discussions /Hands-On Design Activities  
+11 |  Virtual Reality(3) |  Assigned Readings & Hands-on Design Exercise [11-1][11-2] |  Group-led Discussions /Hands-On Design Activities  
+12 |  Virtual Reality(4) |  Mini Project Presentation |  Group-led Discussions /Hands-On Design Activities  
+13 |  Mixed Reality(1) |  MR Showcase / Needs Analysis / Design Tools [13-1][13-2] |  Group-led Discussions   
+14 |  Invited Talk |  Immersive Applications & Assessment  |   
+15 |  Final Presentation(1) |  Expert Panel Presentation |  Group-based Project Presentation  
+16 |  Final Presentation(2) |  Expert Panel Presentation |  Group-based Project Presentation  
+####  其他： Others: 實作 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

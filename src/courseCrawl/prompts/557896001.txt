@@ -1,0 +1,105 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：韓國學研究課題（語學與教育）─韓語語言學研究
+#####  Course Name: Korean Studies Research Project (Linguistics & Education) — Studies on Korean Linguistics
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：557896001 Course No.557896001
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：韓文碩一、韓文碩二 Course Department:Korean Language and Culture/M/1&2 
+  * 授課老師：慎重珍 Instructor: SHIN JUNG-JIN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四234 Session: thu09-12
+##  課程簡介Course Description
+이과목은한국어학연구와한국어교육이론연구에기초가되는한국어학의전반적전문기초지식함양을목표로한다.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABC雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 1.具備進階語言能力
+  * B. 2.培養尋找問題與解決問題之能力
+  * C. 3.具備卓越之專業研究能力
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+이수업을통해한국어학제분야에대한이해와각분야별연구내용을이해하고, 이지식을바탕으로심도있는한국어학연구와한국어교육연구의전문소양을갖출수있다.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 |  課程主題 |  課程內容與指定閱讀 |  教學活動與作業  
+---|---|---|---  
+1 |  강좌소개 |  학습 내용 확인 |  한국 생활의 비문법적 표현 찾기  
+2 |  단어 |  단어 구성의 기본적 이해1 |  AI 활용한 학습 사례 찾고 토론  
+3 |  단어 |  단어 구성의 기본적 이해2 |  AI 활용한 학습 사례 찾고 토론  
+4 |  단어 |  단어 형성의 유형 |  AI 활용한 학습 사례 찾고 토론  
+5 |  합성어 |  합성어의 특징 |  AI 활용한 학습 사례 찾고 토론  
+6 |  합성어 |  합성어의 유형 |  AI 활용한 학습 사례 찾고 토론  
+7 |  파생어 |  파생어의 특징 |  AI 활용한 학습 사례 찾고 토론  
+8 |  파생어 |  파생어의 유형  |  AI 활용한 학습 사례 찾고 토론  
+9 |  중간고사 |  발표 주제 토론 |  조별 토론  
+10 |  한자어 |  한국 한자어의 이해 |  AI 활용한 학습 사례 찾고 토론  
+11 |  품사 |  명사, 대명사  |  AI 활용한 학습 사례 찾고 토론  
+12 |  품사 |  수사, 동사, 형용사 |  AI 활용한 학습 사례 찾고 토론  
+13 |  품사 |  관형사, 부사 |  AI 활용한 학습 사례 찾고 토론  
+14 |  주제 발표1 |  개인 주제 확인과 보완 |  추가 자료 찾기  
+15 |  주제 발표2 |  개인 주제 확인과 보완 |  추가 자료 찾기  
+16 |  기말고사 |  종합 토론 |  기말보고서 제출  
+####  其他： Others: 보고서 50% 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

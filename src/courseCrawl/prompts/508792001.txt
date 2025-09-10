@@ -1,0 +1,114 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：土耳其的日常生活
+#####  Course Name: Daily Life in Turkey
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：508792001 Course No.508792001
+#### 修別：選
+Type of Credit: Elective 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：土文二 Course Department:Turkish Language and Culture/B/2 
+  * 授課老師：馬仕強 Instructor: YILMAZ OZCAN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：一56 Session: mon14-16
+##  課程簡介Course Description
+本課程旨在透過介紹土耳其人在日常生活中的語言與文化實踐，幫助學生提升土耳其語的聽說讀寫能力。課程內容涵蓋問候、家庭生活、學校與工作、交通、購物、飲食、休閒活動等主題，並透過實際情境模擬與小組討論，讓學生能夠應用所學於真實生活中。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備使用土耳其語文之基本能力Temel düzeyde Türk dilini kullanma yetkinliği
+  * B. 以土耳其語文評估運用資訊Türkçeyle malzeme değerlendirme ve ilgili bilimsel araştırma yapma yetkinliği，並進行學術相關研究之能力
+  * C. 通曉各相關領域之溝通表達能力Çeşitli konular üzerinde gereken anlatım ve iletişim yetkinliği
+  * D. 具備參與國際交流事務之能力Uluslararası işlere katılma yetkinliği
+  * E. 具備以人本精神探索、鑑賞多元文化之能力Çeşitli beşeri kültürleri takdir etme yetkinliği
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+課程目標：  
+1. 增進學生對土耳其日常生活文化的理解。  
+2. 提升學生在日常情境中使用土耳其語的能力。  
+3. 培養學生以土耳其語進行溝通、表達與簡易討論的能力。  
+4. 鼓勵學生透過小組合作與專題報告進行實踐與創作。  
+學習成效：  
+1. 能理解並使用與日常生活相關的土耳其語詞彙與句型。  
+2. 能在模擬情境中進行基本對話與表達。  
+3. 能撰寫簡短的描述性文章或對話稿。  
+4. 能完成小組專題並進行簡報。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+  1. 第1週：課程介紹與自我介紹（土耳其語基本問候語）
+  2. 第2週：家庭生活與家庭成員介紹
+  3. 第3週：學校生活與課程安排
+  4. 第4週：工作與職業介紹
+  5. 第5週：日常作息與時間表
+  6. 第6週：交通工具與方向問路
+  7. 第7週：購物與價格詢問
+  8. 第8週：飲食文化與點餐
+  9. 第9週：期中考試
+  10. 第10週：休閒活動與興趣
+  11. 第11週：健康與看病
+  12. 第12週：土耳其的節慶與傳統
+  13. 第13週：社交場合與禮儀
+  14. 第14週：旅遊與住宿
+  15. 第15週：小組專題報告發表
+  16. 第16週：期末考試與課程總結
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

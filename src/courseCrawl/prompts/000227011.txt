@@ -1,0 +1,103 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：國際關係
+#####  Course Name: International Relations
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：000227011 Course No.000227011
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：外交系 Course Department:Diplomacy 
+  * 授課老師：郭昕光 Instructor: KUO HSIN-KUANG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二234 Session: tue09-12
+##  課程簡介Course Description
+本課程以國際關係為主軸,將國際政治融入其中,期望能帶入更多議題,以拓展學習者之視野.
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程旨在介紹西方國際關係研究途徑與流派,重大國際事件之發生經過和影響,並檢視影響國際事務過程及結果的眾多複雜因素.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 |  課程主題 |  課程內容 |  指定閱讀 |  學習時數  
+---|---|---|---|---  
+01 |  Trend & Transformation in World Politics |  Discovering World Politics |  Chapter 1 |  4-6 hrs  
+02 |  Trend & Transformation in World Politics | Interpreting World Politics Through the Lens of Theory | Chapter 2 | 4-6 hrs  
+03 |  Trend & Transformation in World Politics | Theories of International Relations |  Chapter 3 |  4-6 hrs  
+04 |  The Globe's Actors and their Relationships | Great Power Relations and Rivalries |  Chapter 4 |  4-6 hrs  
+05 |  The Globe's Actors and their Relationships | International Relations and the Global South |  Chapter 5 |  4-6hrs  
+06 | The Globe's Actors and their Relationships | Non-state Actors and Quest for Global Community |  Chapter 6 |  4-6 hrs  
+07 | Confronting Armed Conflict |  The Threat of Armed Conflict in the World |  Chapter 7 |  4-6hrs  
+08 |  Confronting Armed ConflictMid-term Exam | The Pursuit of Power Through Arms and Alliances |  Chapter 8 |  4-6 hrs  
+09 | Mid-term Exam |  |  |   
+10 |  Confronting Armed Conflict | The Quest for Peace Through International Law and Collective Security |  Chapter 9 |  4-6 hrs  
+11 | Human Security, Prosperity, and Responsibility | The Globalization of International Finance |  Chapter 10 |  4-6hrs  
+12 | Human Security, Prosperity, and Responsibility |  International Trade in the Global Marketplace | Chapter 11 | 4-6hrs  
+13 |  Human Security, Prosperity, and Responsibility | The Demographic and Cultural Dimensions of Globalization |  Chapter 12 |  4-6hrs  
+14 | Human Security, Prosperity, and Responsibility | The Promotion of Human Development and Human Rights | Chapter 13 | 4-6hrs  
+15 | Human Security, Prosperity, and Responsibility |  Global Responsibility for the Preservation of the Environment | Chapter 14 | 4-6 hrs  
+16 | Final Exam | Looking Ahead at Global Trends and Transformation |  Chapter 15 |  4-6 hrs  
+|  |  |  |   
+|  |  |  |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

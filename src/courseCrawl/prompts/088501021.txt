@@ -1,0 +1,107 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：華語特別班實用華語
+#####  Course Name: Mandarin Course- Part-time Applied Mandarin
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：088501021 Course No.088501021
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：華語文中心 Course Department:Chinese Language Center 
+  * 授課老師：吳孟盈 Instructor: Wu MengYin 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三78E Session: wed16-19
+##  課程簡介Course Description
+1. 本課程適合具備華語文能力 CEFR A2或ACTFL Intermediate-Low的外籍學生修習。
+2. 本課程使學生能兼顧聽、說、讀、寫四方面的語言能力，並期望學生能透過課程進一步了解華語及臺灣文化。
+This course is suitable for international students with Chinese language proficiency at CEFR A2 or ACTFL Intermediate-Low level.
+This course aims to enhance students' language skills in listening, speaking, reading, and writing, and expects students to gain a deeper understanding of Mandarin Chinese and Taiwanese culture through the course.
+###  核心能力分析圖 Core Competence Analysis Chart
+「無核心能力」 
+能力項目說明
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+##  本課程採用交際式語言教學和任務式學習來提高學習者的漢語能力。  
+利用與真實日常生活情況密切結合的主題，藉此幫助學習者在自然環境中學習。  
+##  每周課程進度與作業要求 Course Schedule & Requirements
+  * 課程內容與進度視教學需求調整。  
+Course content and schedule may be adjusted based on teaching needs.  
+  * Week |  Topic  
+---|---  
+_1_ |  9/3 分班口試 Placement Oral test  
+_2_ |  9/10 第二課 還是坐捷運吧！ Take the MRT Instead!  
+_3_ |  9/17 第二課 還是坐捷運吧！ Take the MRT Instead!  
+_4_ |  9/24 第二課 還是坐捷運吧！ Take the MRT Instead!  
+_5_ |  10/1 第二課 還是坐捷運吧！ Take the MRT Instead! 第三課 你的中文進步了！ Your Chinese Has Improved!  
+_6_ |  10/8 第三課 你的中文進步了！ Your Chinese Has Improved!  
+_7_ |  10/15 第三課 你的中文進步了！ Your Chinese Has Improved!  
+_8_ |  10/22 第三課 你的中文進步了！ Your Chinese Has Improved!  
+_9_ |  10/29 第四課 我打工，我教法文 I Work Part-time. I Teach French.  
+_10_ |  11/5 第四課 我打工，我教法文 I Work Part-time. I Teach French.  
+_11_ |  11/12 第四課 我打工，我教法文 I Work Part-time. I Teach French.  
+_12_ |  11/19 第四課 我打工，我教法文 I Work Part-time. I Teach French. 第五課 吃喜酒 Attending a Wedding Reception  
+_13_ |  11/26 第五課 吃喜酒 Attending a Wedding Reception  
+_14_ |  12/3 第五課 吃喜酒 Attending a Wedding Reception  
+_15_ |  12/10 第五課 吃喜酒 Attending a Wedding Reception  
+_16_ |  12/17 期末考 : 筆試/口試 Final Exam (written and oral)   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

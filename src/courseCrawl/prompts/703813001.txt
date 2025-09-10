@@ -1,0 +1,106 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：社群媒體資料分析與實務應用
+#####  Course Name: Data Analysis and Practice for Social Media
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：703813001 Course No.703813001
+#### 修別：選
+Type of Credit: Elective 
+_1.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：資訊一、資訊二、資訊三、資訊四 Course Department:Computer Science/B/1&2&3&4 
+  * 授課老師：謝佩璇 Instructor: HSIEH PEI-HSUAN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間： Session: 
+##  課程簡介Course Description
+The course begins with an introduction to various social media platforms, the components and structure of social networks, and social network marketing strategies along with their effectiveness . It then covers different types of data and methods for analyzing social network data, including basic statistical techniques and programming tools . Following that, students will learn about database management systems and how businesses use databases to collect and analyze market trends. They will also develop skills in visualizing data analysis results . Then, the course introduces foundational concepts in web design, mobile applications, and software development, enabling students to present their visualizations on self-developed web pages . 
+課程首先介紹不同社群媒體平台與社會網絡組成元素及其結構，並且介紹社群網絡行銷如何進行及其效益)再介紹各種資料類型與採用不同方法來分析社群網絡的資料，包括基礎統計與程式套件，掌握資料庫管理架構以及商業活動如何採用資料庫蒐集數據以分析市場趨勢，同時讓學生獲得數據分析結果視覺化的繪製方法，並且提供網頁設計、行動應用程式以及與軟體開發有關的基礎知識，讓學生能將視覺化結果公開呈現在個人開發的網頁中。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 培養邏輯推理、獨立思考與創新能力
+  * B. 理解自然科學與數位科技
+  * C. 培養團隊合作的能力
+  * D. 瞭解資訊科技發展趨勢與具備國際視野
+  * E. 具有專業及道德責任的認知
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+• Acquire skills in social network data analysis methods (掌握社群網絡資料分析方法)
+• Learn various data collection and analysis techniques (習得各種資料蒐集與分析方法)
+• Increase personal social network connections (增加個人社群網絡的連結數量)
+##  每周課程進度與作業要求 Course Schedule & Requirements
+  * ：Intro. of Social Media, Social Network, and Social Marketing  
+(Borgatti et al., 2024, Ch 1) (R & S, 2023, Ch 3) -3HRS
+  * ：Networking and User Interface Design  
+(RSP, 2023, Ch 1, 2, 3, 5) -3HRS
+  * ：Data Types and Analysis Methods - Statistics/Python  
+(Borgatti et al., 2024, Ch 2,4, 17) (R & S, 2023, Ch 4, 8) -3HRS
+  * ：Business Analytics and Visualization Tools  
+(Borgatti et al., 2024, Ch 7) -3HRS
+  * ：Database Management and Website/App/Software Design  
+(Borgatti et al., 2024, Ch 5) (R & S, 2023, Ch 9) -3HRS
+  * ：Networking and Experiential Design  
+(RSP, 2023, Ch 4, 6, 8, 9, 10) -3HRS
+  * ：Concluding Remarks and Ind. Reflection & Presentation 
+(See “Course Related Links” below) -3HRS
+####  其他： Others: Campus visit and interactive sessions with local faculty members and students 
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

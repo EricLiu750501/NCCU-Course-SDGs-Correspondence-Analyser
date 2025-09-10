@@ -1,0 +1,101 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：社會科學統計方法實習
+#####  Course Name: Statistical Methods in Social Sciences (Lab)
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：252952001 Course No.252952001
+#### 修別：必
+Type of Credit: Required 
+_0.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：政治碩一、政治碩二 Course Department:Political Science/M/1&2 
+  * 授課老師：戴士展 Instructor: DAI SHIH-CHAN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二7 Session: tue16-17
+##  課程簡介Course Description
+The purpose of the lab is to ensure that students can use statistical software to facilitate their data analysis after they have learned relevant concepts in the lectures. The skills of quantitative analysis allow students to observe, describe, and explain political phenomena. Such skills are essential for students to not only complete their final projects but also academic writing. 
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEF雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備創新政治知識之能力
+  * B. 具備對政治現象之觀察、分析與獨立思考能力
+  * C. 具備對政治哲學解析、比較與建構之能力
+  * D. 具備國內、外政治制度與運作之相關知識
+  * E. 具備研究設計、分析與詮釋資料之能力
+  * F. 具備尊重人權與關懷社會之能力
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+The lab is designed to deepen students’ understanding of the statistical concepts and methods they have acquired in the lectures. In the lab, students will have opportunities to carry out quantitative analysis with real-world examples. The learning-by-doing process can familiarize students with the fundamental know-how to master the statistical software of R.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 |  課程主題 |  課程內容與指定閱讀 |  教學活動與作業  
+---|---|---|---  
+1-2 |  Prepping for R |  Agresti, ch1-2 |  Installing R and learn the basics of R coding; random sampling   
+3-4 |  Descriptive Analysis  |  Agresti, ch 3 |  Using statistics and plots to describe data   
+5-6 |  Probability and Sampling Distribution |  Agresti, ch 4 |  Visualize probability and sampling distribution  
+7-8 |  Estimation and Hypothesis Testing  |  Agresti, ch 5-6 |  Constructing confidence intervals and calculating p-values for tests   
+9 |  Midterm |  Midterm exam |  _Midterm exam_  
+10-11 |  Two group comparisons  |  Agresti, ch7 |  Comparing two means, proportions, and variances   
+12-13 |  Relationship between categorical variables |  Agresti, ch 8 |  Contingency table, chi-squared tests   
+14-15 |  Experiment |  Druckman, ch 2-5 |  Analyze experiment data and draw DAGs to describe causal relationships   
+16 |  Final Exam |  Final Exam |  Final Exam  
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

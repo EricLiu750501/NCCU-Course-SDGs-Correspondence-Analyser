@@ -1,0 +1,151 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：資訊視覺化
+#####  Course Name: Information Visualization
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：703842001 Course No.703842001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：資訊三、資訊四 Course Department:Computer Science/B/3&4 
+  * 授課老師：紀明德 Instructor: CHI MING-TE 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：一D56 Session: mon13-16 
+##  課程簡介Course Description
+資訊視覺化的目的在於透過視覺化的方式呈現資料，協助使用者有效地去理解資料的本質與特性。
+本課程採用Visualization Analysis and Design(Tamara Munzner 2014)作為教科書，透過問題導向切入資訊視覺化研究，以What角度思考資料抽象，以Why角度考慮任務抽象，轉化資料的領域知識以視覺化呈現。然後以How的角度選擇最合適的表現方式。最後考量演算法的效率問題並介紹驗證視覺化有效性的方法。輔以近期視覺化論文補充案例分析。
+作業以javascript實作動態視覺化為主。
+期末專題以分組型式實作具代表性的論文。
+第一週有簽到的同學且在遞補名單上，才可以印出加簽單加簽
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 培養邏輯推理、獨立思考與創新能力
+  * B. 理解自然科學與數位科技
+  * C. 培養團隊合作的能力
+  * D. 瞭解資訊科技發展趨勢與具備國際視野
+  * E. 具有專業及道德責任的認知
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+本課程培養運用與開發視覺化工具呈現和分析資料的人材，課程將介紹各種資料特性以及對應的視覺化演算法。並透過作業與期末專案針對實際資料設計視覺化程式。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+每週教學時數3小時、課前課後學生投入時間3小時 
+Week 1: Introduction   
+• What's Vis, and Why Do It?   
+• Why have a Human/Computer in the Loop?   
+• Why focus on Tasks/Effectiveness?   
+課堂講授 
+Week 2: What: Data abstraction   
+• Data type, Attribute type, and Semantics   
+課堂講授、資料收集 
+Week 3: Why: Task abstraction & Analysis: Four level design   
+• Actions: analyze, produce, search, and query   
+• Target 
+• Four level design   
+• Validation approaches   
+課堂講授、題目構思、程式上機-視覺分析 
+Week 4: Marks and Channels   
+• Definition of Marks and Channels   
+• Validation approaches   
+課堂講授、程式上機-Marks 
+Week 5: 教師節放假
+Week 6: 中秋節放假
+Week 7: Arrange Tables & Arrange Spatial Data  
+• Separate, Order, and Align; Spatial Axis Orientation and layout density 
+• Geometry; Scalar field, Vector field, and Tensor field   
+課堂講授 、分組提案報告
+Week 8: Arrange Networks and Trees   
+• Connections   
+• Matrix view   
+課堂講授 
+Week 9: Midterm   
+期中考試
+Week 10: Map Color and Other Channels   
+• Color theory, Color maps, and Other channels   
+課堂講授、程式上機 
+Week 11: Manipulate View   
+• Change view over time   
+• Select elements and navigation   
+課堂講授 
+Week 12: Facet into Multiple Views   
+• Juxtapose and coordinate view   
+• Partition into view   
+課堂講授 
+Week 13: Rules of Thumb   
+• Justification and Alternatives   
+• Memory and attention   
+課堂講授 
+Week 14: Reduce Items and Attributes   
+• Filter and aggregation   
+課堂講授 
+Week 15: Embed: Focus+Context   
+• Focus+Context related paper   
+課堂講授 
+Week 16: Final Project Presentation  
+• 期末分組報告
+Week 17: 自主學習   
+• Selected paper 論文選讀  
+Week 18: 自主學習 
+• Analysis Case Studies 案例介紹 
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

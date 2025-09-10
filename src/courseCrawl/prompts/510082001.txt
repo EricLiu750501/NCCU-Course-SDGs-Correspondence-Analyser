@@ -1,0 +1,146 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：應用泰語
+#####  Course Name: Applied Thai
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：510082001 Course No.510082001
+#### 修別：群
+Type of Credit: Partially Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：東南越二、東南印二 Course Department:Southeast Asian Languages and Cultures/B/2 
+  * 授課老師：李開發 Instructor: Suriya Sriphrom 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四D56 Session: thu13-16
+##  課程簡介Course Description
+This course aims to provide students with basic expressions, vocabulary, and conversational patterns for everyday conversations. Students will also learn how to read basic words and phrases.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCD雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備基本語言及應用能力 To possess basic language proficiency and application skills
+  * B. 具備東南亞研究基礎知識 To obtain fundamental knowledge in Southeast Asian studies
+  * C. 具備人文素養及思辨能力To possess humanistic literacy and critical thinking skills
+  * D. 具備國際宏觀視野 To have an international perspective
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+  * Students should be able to understand simple statements and questions on familiar topics.
+  * Students should be able to interact with others in simple everyday situations using basic phrases and simple sentences.
+  * Students should be able to read short simple messages on familiar everyday topics.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Week |  Date |  Topic |  Note  
+---|---|---|---  
+1 |  September 4 |  Introduction
+  * to introduce the Thai sound system
+  * to introduce the Thai script
+  * to practice pronunciation
+|   
+2 |  September 11 |  Lesson 1: introducing oneself
+  * to ask and answer questions about names
+  * to ask and answer questions about nationalities
+  * to ask and answer questions about languages
+|   
+3 |  September 18 |  Lesson 2: introducing others
+  * to ask and answer questions about family members and strangers
+|  homework #1 (5%)  
+4 |  September 25 |  Lesson 3: expressing likes & dislikes
+  * to ask and answer questions about what someone likes and dislikes
+  * to ask and answer questions about things in a classroom
+|   
+5 |  October 2 |  Lesson 4: expressing desires
+  * to ask and answer questions about what someone wants
+  * to ask and answer questions about what someone wants to do
+|  Quiz 1 (10%)  
+6 |  October 9 |  Lesson 5: home & campus
+  * to ask and answer questions about things in a house
+  * to ask and answer questions about where things are
+|  homework #2 (10%)  
+7 |  October 16 |  Lesson 6: places in a city
+  * to ask and answer questions about places in a city
+|   
+8 |  October 23 |  Midterm Examination |   
+9 |  October 30 |  Lesson 7: talking about past and future
+  * to ask and answer questions about past events
+  * to ask and answer questions about future plans 
+|   
+10 |  November 6 |  Lesson 8: talking about ongoing events
+  * to ask and answer questions about what is happening
+  * to ask and answer questions what people can and cannot do
+|   
+11 |  November 13 |  Lesson 9: describing people & things
+  * to describe people
+  * to describe things
+  * to describe actions
+|  homework #3 (5%)  
+12 |  November 20 |  Lesson 10: occupation
+  * to ask and answer about people’s job
+|  Quiz 2 (10%)  
+13 |  November 27 |  Lesson 11: ordering meals
+  * to learn how to order meals
+  * to ask and answer about quantity
+|  homework #4 (10%)  
+14 |  December 4 |  Lesson 12: specifying things
+  * to learn ways to specify things
+|   
+15 |  December 11 |  Review |   
+16 |  December 18 |  Final Examination |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

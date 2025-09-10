@@ -1,0 +1,103 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：可靠度分析 
+#####  Course Name: Reliability Analysis
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：304910001 Course No.304910001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：統計三、統計四 Course Department:Statistics/B/3&4 
+  * 授課老師：董奕賢 Instructor: DONG YI-SHIAN 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：三D56 Session: wed13-16 
+##  課程簡介Course Description
+Reliability Analysis is one of the core areas of industrial statistics. It focuses on evaluating the uncertainty of product failure times to mitigate potential hazards caused by failures or establish corresponding maintenance strategies. This course will introduce reliability life testing and provide students with statistical methods to analyze diverse types of reliability data, building a foundational understanding of reliability analysis. Students will learn to apply these techniques using the software R, performing comprehensive data analysis on real data presented in the textbook.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備基礎數理能力、 商業分析創新思考能力與熟悉應用具全球視野的統計方法 (To equip with fundamental mathematical abilities, innovation thinking ability in business analytics, and to be familiar with statistical methods of global vision)
+  * B. 具備道德、社會責任與全球永續發展議題之知能 (To equip with knowledge of ethics, social responsibility, and sustainable development goals (SDGs))
+  * C. 具備溝通技巧、闡釋分析結果與進行決策之判斷(To equip with communication skills, explain analysis results and to make judgment on decisions)
+  * D. 熟悉統計方法之應用及實務、統計軟體操作與程式設計與熟悉運用基礎商業管理知識 (To be familiar with application and practices of statistical methods, implementation of statistical software and programming, and fundamental business management knowledge)
+  * E. 具備團隊合作與領導能力 (To equip with teamwork and leadership ability)
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+This course uses concepts from mathematical statistics to build a theoretical framework for reliability inference. With this foundation, students will be able to develop the techniques needed to analyze various types of real data. However, please note that in the second half of the course, hand calculations and derivations will be required. Make sure you have a good understanding of calculus and matrix operations before taking this course.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+Week 1 Reliability concepts and reliability data  
+Week 1-2 Models, censoring and likelihood for failure-time data  
+Week 3-4 Nonparametric estimates to failure-time data  
+Week 4-5 Location-scale-based parametric distributions  
+Week 5-6 Probability Plotting  
+Week 7 Parametric Likelihood Fitting Concepts  
+Week 8 Midterm  
+Week 9-11 Maximum likelihood for log-location-scale distributions  
+Week 12-13 Parametric maximum likelihood: other models  
+Week 14 Failure-time regression analysis  
+Week 15 Accelerated test models  
+Week 16 Final report
+The schedule may be subject to change.
+There will be 3 to 8 quizzes/assignments during the semester, depending on the course schedule. Quizzes will be announced one week in advance.
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

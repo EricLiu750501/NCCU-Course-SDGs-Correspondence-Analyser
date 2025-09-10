@@ -1,0 +1,109 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：生理心理學 
+#####  Course Name: Physiological Psychology
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：702006001 Course No.702006001
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：心理二 Course Department:Psychology/B/2 
+  * 授課老師：顏怡君 Instructor: Yen Yi-Chun 
+  * 先修科目：[ 人體生理學(單學期)(修習且及格) 或 普通心理學(全學年)(修習且及格)]Prerequisite([ or])
+  * 上課時間：五D56 Session: fri13-16
+##  課程簡介Course Description
+生物心理學是運用生物學或生理學的觀點來研究心理歷程及行為，探討心靈活動與肉體結構間相互作用及依存的關係。本課程涉及神經解剖、神經系統的結構、功能、發育、演化、遺傳學、內分泌、生物化學、生理學、藥理學及病理學等跨領域的知識。本課程將帶領學生從大腦結構、神經運作的方式、神經傳導系統，到各種行為心智現象背後的神經生理機制，做全面性的探討。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCD雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 心理學專業能力 Professional knowledge of psychology
+  * B. 思考與問題解決能力 Thinking and problem solving skills
+  * C. 人際互動能力 Social skills
+  * D. 多元文化關懷 Multiculturalism
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+  1. 認識神經系統基本的運作方式
+  2. 學習神經科學的研究方法
+  3. 暸解各種心智行為的生理機制
+  4. 對於最新的生物心理學研究，能有所涉獵。
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 |  課程主題 |  課程內容與指定閱讀 |  教學活動與作業  
+---|---|---|---  
+1 |  The Cellular Foundations of Behavior |  Ch 1 |   
+2 |  Neurophysiology |  Ch 2 |  Video chip (10 min)  
+3 |  Neuroanatomy |  Ch 3 |   
+4 |  Genetics, Development, and Plasticity |  Ch 4 |  Class discussion  
+5 |  Vision |  Ch 5 |   
+6 |  Other Perception |  Ch 6 |   
+7 |  Movement |  Ch 7 |  Video chip (5 min)  
+8 |  Midterm |  |   
+9 |  Wakefulness and Sleep |  Ch 8 |  Video chip (5 min)  
+10 |  Internal Regulation |  Ch 9 |   
+11 |  Reproductive Behaviors |  Ch 10 |  Class discussion  
+12 |  Emotional Behaviors |  Ch 11 |  Video chip (10 min)  
+13 |  Learning and Memory |  Ch 12 |  Video chip (10 min)  
+14 |  Cognitive Functions |  Ch 13 |   
+15 |  Final report |  |  Oral Presentations  
+16 |  Final |  |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

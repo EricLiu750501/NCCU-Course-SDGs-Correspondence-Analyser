@@ -1,0 +1,109 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：中級德文語法 
+#####  Course Name: Intermediate German Grammar
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：509018001 Course No.509018001
+#### 修別：必
+Type of Credit: Required 
+_2.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：歐文德二 Course Department:European Languages and Cultures/B/2 
+  * 授課老師：姚紹基 Instructor: YAO SHAO-JI 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二34 Session: tue10-12
+##  課程簡介Course Description
+本課程主要內容為進階德語語法，先是對句型進行分析與介紹，再讓同學做例句練習。此外配合平行課程「中級德文閱讀」及「中級德文聽力會話」，本學期預計進度是教科書Schritte International neu第三冊一至七課。期中考前一至三課，期中考後四到七課。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 具備基本語言能力 Basic abilities of language
+  * B. 具備專業語文研究能力 Abilities of professional research in language
+  * C. 具備國際交流基本知能 Abilities of global mobility
+  * D. 具備語言實務應用能力 Abilities to applicate the language
+  * E. 具備語言教學基本知能 Basic competence of language teaching
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+進階語法句型分析與例句練習
+複雜句閱讀能力訓練
+寫作能力訓練
+##  每周課程進度與作業要求 Course Schedule & Requirements
+週次 Week |  課程主題 Course Theme |  課程內容與指定閱讀 Content and Reading Assignment |  教學活動與作業 Activity and Homework |   
+---|---|---|---|---  
+|  複習與回顧 課程總攬 |  「初級德文語法」教學內容回顧 |  複習 |   
+|  副句基本概念 |  EM, pp.148-149 |  課本講解與例句練習 |   
+|  因果副句 |  EM, pp.168-169 |  課本講解與例句練習 |   
+|  時間副句 |  EM, pp.161-167 |  課本講解與例句練習 |   
+|  條件副句 |  EM, pp. 170-171; Dreyer/Schmitt, § 28 |  課本講解與例句練習 |   
+|  Konzessiv副句 |  EM, pp. 174-177 |  課本講解與例句練習 |   
+|  Konsekutiv副句 |  EM, pp. 174-177 |  課本講解與例句練習 |   
+|  期中考 |  本學期1-7週授課內容 |  筆試 |   
+|  Modalsätze |  EM, p. 180-181; Dreyer/Schmitt, § 31 |  課本講解與例句練習 |   
+|  Finalsätze (damit … / um … zu) |  EM, pp. 172-173; Dreyer/Schmitt, § 32 |  課本講解與例句練習 |   
+|  Modalsätze (ohne / anstatt … zu …) |  EM, pp. 180, 160; Dreyer/Schmitt, § 33 |  課本講解與例句練習 |   
+|  Relativsatz (I) |  教學網站 |  句型講解與例句練習 |   
+|  Relativsatz (II) |  教學網站 |  句型講解與例句練習 |   
+|  Relativsatz (III) |  教學網站 |  句型講解與例句練習 |   
+|  總複習 |  本學期教學內容回顧 |  複習 |   
+|  期末考 |  本學期1-16週教學內容 |  筆試 |   
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

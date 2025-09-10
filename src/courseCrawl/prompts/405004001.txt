@@ -1,0 +1,113 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：基礎影音製作
+#####  Course Name: Audio-Visual Production Basics
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：405004001 Course No.405004001
+#### 修別：必
+Type of Credit: Required 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：傳院一甲、傳院一乙、傳院一丙、傳院一丁 Course Department:Undeclared Major in College of Communication/B/1 
+  * 授課老師：王亞維 Instructor: WANG YAE-WEI 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四34C Session: thu10-13
+##  課程簡介Course Description
+本課程提供大一學生基礎影音學習，以十二單元傳授影像美學、製作技術與導演等方法，並配合其他觀影與大師講座學習活動，以完成學生理解與實踐影像傳達的基本能力。大一大二不分系中與本課程平行的相關課程，另有靜態像製作、採訪寫作、基礎創意寫作...等課程，請注意開課資訊，完成影像敘事的基本素養。
+*傳院劇場上課，且為傳播學院大一核心必修課程，由系統灌檔。本院輔系、雙主修、轉學、轉系、補修、重修...等同學，請在選課階段自行加選，若未加選成功請於開學第一堂課到課登記加簽。未到課聽取課程說明者，恕不加簽。不分系辦公室將於【加簽及退課】時段分派，學生不得指定班別 。※必修本課程的學生如未選課，可能影響分流評比。
+*本課程未開放外院系選修。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDEFGH雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 資訊處理能力
+  * B. 媒介能力
+  * C. 敘事能力
+  * D. 統合能力
+  * E. 創新能力
+  * F. 倫理能力
+  * G. 溝通能力
+  * H. 實作能力
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+1.具備影音表達、影音敘事之基礎知識 (評量工具:學期測驗)
+2. 具備各單元視覺元素之設計與執行能力 (評量工具:12單元作業練習)
+3. 具備影音綜合表達、完整敘事之實踐能力 (評量工具:期末展演作品)
+4. 具備團隊合作與專業倫理態度 (評量工具:學生互評)
+##  每周課程進度與作業要求 Course Schedule & Requirements
+WEEK 1. (09/04) 課程與平台介紹、作業範例、評分、手機軟體 
+WEEK 2. (09/11) 鏡頭尺寸（Size）、角度 （Angle）、景框(Frame) 
+WEEK 3. (09/18) 空間（Space）、線條（Line）、形狀（Shape） 
+WEEK 4. (09/25) 明暗度（Tone）、基本燈光（Lighting）、燈具與示範 
+WEEK 5.(10/02) 色彩（Color）
+WEEK 6. (10/09) 構圖、故事結構，攝錄原理（Framing & Composition）
+WEEK 7. (10/16) 攝影機運動 (Camera Movement) 
+WEEK 8. (10/23) 蒙太奇與剪輯（Montage and Editing）
+WEEK 9. (10/30) 分鏡技巧與鏡位選擇（Shot Breakdown and Storyboard）
+WEEK 10. (11/06) 走位、場面調度、導演方法（Blocking、Mise-en-scene、Directing）
+WEEK 11. (11/13) 收音與聲音製作 (Sound Recording and Design) 
+WEEK 12. (11/20 ) 視點與觀點（Viewing point & Point of View） 
+WEEK 13. (11/27) 業師作品分享 
+WEEK 14. (12/04) 期末考
+WEEK 15. (12/11) 學期展演I
+WEEK 16. (12/18) 學期展演II
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

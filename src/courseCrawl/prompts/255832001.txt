@@ -1,0 +1,107 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：循環商業模式
+#####  Course Name: Circular Business Models
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：255832001 Course No.255832001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：財政碩一、財政碩二 Course Department:Public Finance/M/1&2 
+  * 授課老師：林其昂 Instructor: LIN CHI-ANG 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：四234 Session: thu09-12
+##  課程簡介Course Description
+The purpose of this course is to help students timely inquire into the significance of circular economy business models in a borderless age of climate change. Numerous studies have pointed out that the nature of climate change is an international and intergenerational externality problem. This human-induced change in the rising global mean temperature is mainly due to the enormous emission of carbon dioxide arising from the combustion of fossil fuels. To date, more than 100 countries have adopted a global warming limit of 2°C or below (relative to pre-industrial times) as a general guideline (IPCC, 2007). That is, the concentration of carbon dioxide should be maintained at a range of 400-450 parts per million (ppm). As a necessary response to the threat of climate change, more and more corporations and governments have taken measures to promote the circular economy. The major topics will at least include: (1) the circular economy, (2) sustainable development, (3) corporate sustainability, (4) business models, (5) circular business models, (6) natural resource management, (7) waste management, (8) industrial ecology, (9) corporate social responsibility, and (10) green taxation. Conceptual and theoretical work will be given equal consideration.
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABC雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 財經專業與政策分析能力
+  * B. 邏輯分析與獨立思考能力
+  * C. 溝通與寫作能力
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+With global progress of the circular economy (or at least "don't waste waste") in mind, students taking this course are required to take the following elements into account when they investigate the circular economy business models:
+1) Vision of a modern corporation or company along with its goals: How does a corporation define sustainability or a sustainable business? What does business innovation mean by the company? 
+2) Measures adopted by the company for fulfilling the goals: Do the measures taken by the company meet the circular economy or zero-waste standard? 
+3) Check the existence of a sustainability branch/sector: A company cannot well design a circular business model without a sustainability branch/sector. 
+4) Do the CSR/Sustainability reports release the tax return principles or tax-related news? If the company cares about the society and is willing to assume corporate social responsibility, the company will at least honestly file the tax returns.
+##  每周課程進度與作業要求 Course Schedule & Requirements
+(Subject to change)
+1. The Circular Economy
+2. Sustainable Development
+3. Corporate Sustainability
+4. Business Models
+5. Circular Business Models 
+6. Natural Resource Management
+7. Waste Management
+8. Industrial Ecology
+9. Corporate Social Responsibility
+10. Green Taxation
+11. Group Presentation A
+12. Group Presentation B
+13. Group Presentation C
+14. Group Presentation D
+15. Final In-Class Meeting
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}

@@ -1,0 +1,97 @@
+
+You are an expert in Sustainable Development Goals (SDGs) classification.  
+Your task is to analyze the following university course and assign relevance scores to each SDG.  
+
+Scoring rules:
+- 10.000: Core concept – the course fundamentally contributes to this SDG.
+- 7.000-9.999: Highly relevant – a major focus or significant application area.
+- 4.000-6.999: Moderately relevant – a supporting area or minor application.
+- 1.000-3.999: Low relevance – only tangentially mentioned.
+- 0.001-0.999: Minimal relevance – barely related.
+---
+
+**Course Information**
+國立政治大學校務行政系統 教學大綱 Syllabus
+# 教學大綱 Syllabus
+##  科目名稱：策略行銷分析
+#####  Course Name: Strategic Marketing Analysis
+  * 學年學期：114-1 Fall Semester, 2025 
+  * 科目代碼：351720001 Course No.351720001
+#### 修別：選
+Type of Credit: Elective 
+_3.0_
+#### 預收人數
+Number of Students
+課程資料Course Details
+  * 開課單位：國貿碩一、國貿碩二 Course Department:International Business/M/1&2 
+  * 授課老師：蘇威傑 Instructor: SU WEI-CHIEH 
+  * 先修科目：無Prerequisite(N/A)
+  * 上課時間：二234 Session: tue09-12
+##  課程簡介Course Description
+本課程的主要目的是運用策略行銷分析框架來分析最新的策略行銷問題，如品牌管理、通路協調、策略定價、網路行銷和全球行銷管理。
+重要注意事項
+  * 本課程的內容是緊密相連，缺課或遲到行為將嚴重影響修課同學對本課程的整體瞭解，無法準時到課的同學，請勿修習此課程，教師非常重視準時到課不缺課的要求，無故缺席者對學期成績會有嚴重影響。
+  * 本課程需常常小組討論與上台報告，不喜歡投入小組合作的同學請勿修習。
+  * 上課前務必已經看完指定閱讀，上課無法回答問題，會影響成績。
+  * 課程進行中，禁止使用耳機，配戴耳機上課者視為缺席。
+###  核心能力分析圖 Core Competence Analysis Chart
+012345ABCDE雷達圖老師學生
+「無核心能力」 
+能力項目說明
+  * A. 專業知識之理論基礎Theoretical foundations of professional knowledge
+  * B. 理解與辨別道德、社會責任與永續議題To understand and identify ethical, socially responsible, and sustainability issues
+  * C. 問題解決與研究能力Problem solving and research capability
+  * D. 溝通能力Communication skills
+  * E. 團隊合作與領導能力Team work and leadership
+##  課程目標與學習成效Course Objectives & Learning Outcomes 
+(1) 瞭解策略行銷的本質，以理解其對於企業經營的影響與重要性
+(2) 瞭解交易成本的來源與其和相關管理、行銷與策略之關係
+(3) 透過個案研討，學習用4C架構思考分析企業的決策與考量
+##  每周課程進度與作業要求 Course Schedule & Requirements
+see attachment
+####  其他： Others:
+####  已申請之圖書館指定參考書目  圖書館指定參考書查詢 |相關處理要點
+維護智慧財產權，務必使用正版書籍。 Respect Copyright.
+
+---
+
+**Target SDGs (MAINTAIN THE EXACT ORDER PROVIDED):**
+
+    1. No Poverty
+    2. Zero Hunger
+    3. Good Health and Well-being
+    4. Quality Education
+    5. Gender Equality
+    6. Clean Water and Sanitation
+    7. Affordable and Clean Energy
+    8. Decent Work and Economic Growth
+    9. Industry, Innovation and Infrastructure
+    10. Reduced Inequalities
+    11. Sustainable Cities and Communities
+    12. Responsible Consumption and Production
+    13. Climate Action
+    14. Life Below Water
+    15. Life on Land
+    16. Peace, Justice and Strong Institutions
+    17. Partnerships for the Goals
+    
+
+---
+
+**Respond in JSON format, structured as follows:**
+```json
+{
+    "No Poverty": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    "Zero Hunger": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    },
+    ...
+    "Partnerships for the Goals": {
+        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
+        "score": number_with_three_decimal_places
+    }
+}
