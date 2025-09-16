@@ -108,6 +108,12 @@ def filter_markdown_content(markdown_text):
 #     # print(filter_markdown_content(md))
 
 
+data = asyncio.run(main("https://www.nccu.edu.tw/p/426-1000-55.php?Lang=zh-tw"))
+print(data)
+exit()
+
+
+
 # 設定顯示選項
 pd.set_option("display.max_rows", None)
 pd.set_option("display.max_columns", None)

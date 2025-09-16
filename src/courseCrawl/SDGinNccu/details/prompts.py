@@ -1,3 +1,5 @@
+# 將 details/ 裡面的所有 md 寫成 prompt 放到 prompts/ 裡面
+
 
 title = ""
 abstract = ""
@@ -38,6 +40,13 @@ Scoring rules:
 - 4.000-6.999: Moderately relevant – a supporting area or minor application.
 - 1.000-3.999: Low relevance – only tangentially mentioned.
 - 0.001-0.999: Minimal relevance – barely related.
+
+Instructions:
+- Always analyze based strictly on the provided course information.  
+- Every SDG must include exactly four fields: "reason", "score", "evidence", "evidence_type".  
+- If no evidence is found in the course description, set "evidence" to [] and "evidence_type" to "none".  
+- Do not invent content beyond the course information.  
+
 ---
 
 **Course Information**
@@ -50,21 +59,27 @@ Scoring rules:
 
 ---
 
-**Respond in JSON format, structured as follows:**
+**Respond ONLY in JSON format, structured exactly as follows:**
 ```json
 {{
     "No Poverty": {{
-        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
-        "score": number_with_three_decimal_places
+        "reason": "Concise reason citing phrases or concepts from the course (or explicit absence).",
+        "score": number_with_three_decimal_places,
+        "evidence": ["Exact phrase(s) from the course or [] if none"],
+        "evidence_type": "direct or none"
     }},
     "Zero Hunger": {{
-        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
-        "score": number_with_three_decimal_places
+        "reason": "...",
+        "score": ...,
+        "evidence": [...],
+        "evidence_type": "direct or none"
     }},
     ...
     "Partnerships for the Goals": {{
-        "reason": "Concise reason citing phrases or concepts from the paper (or explicit absence).",
-        "score": number_with_three_decimal_places
+        "reason": "...",
+        "score": ...,
+        "evidence": [...],
+        "evidence_type": "direct or none"
     }}
 }}
 """
