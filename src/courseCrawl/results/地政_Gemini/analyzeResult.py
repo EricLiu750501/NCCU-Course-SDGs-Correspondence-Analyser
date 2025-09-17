@@ -39,7 +39,6 @@ def extract_reasons(results_dir="./"):
             course_name = json_file.stem
             with open(json_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                course_count += 1
                 
                 # 收集每個SDG的reason和evidence
                 for sdg_name, sdg_info in data.items():
@@ -51,6 +50,8 @@ def extract_reasons(results_dir="./"):
                             "evidence": sdg_info['evidence']
                         }
                         all_reasons[sdg_name].append(reason_entry)
+                course_count += 1
+
                     
         except Exception as e:
             print(f"處理 {json_file} 時出錯: {e}")
@@ -94,7 +95,6 @@ def analyze_json_results(results_dir="./results"):
         try:
             with open(json_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                file_count += 1
                 # 累加每個SDG的分數
                 for sdg_name, sdg_info in data.items():
                     if sdg_name not in sdg_scores:
@@ -102,6 +102,7 @@ def analyze_json_results(results_dir="./results"):
                     
                     # 加入分數到列表中
                     sdg_scores[sdg_name].append(sdg_info['score'])
+                file_count += 1
                     
         except Exception as e:
             print(f"處理 {json_file} 時出錯: {e}")
@@ -145,6 +146,10 @@ def analyze_json_results(results_dir="./results"):
     plt.savefig("sdg_average_scores.png", dpi=300)
     plt.show()
     
+    # 儲存平均分數到JSON檔案
+    with open("avg_score.json", "w", encoding="utf-8") as f:
+        json.dump(sdg_averages, f, ensure_ascii=False, indent=4)
+
     print(f"已分析 {file_count} 個JSON檔案")
     return sdg_averages
 
