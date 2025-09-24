@@ -1,0 +1,453 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "mentions '課稅經濟原則' and '課稅效率', indicating economic aspects of taxation.",
+      "score": 7.5,
+      "evidence": [
+        "課稅經濟原則",
+        "課稅效率",
+        "土地增值與土地國有"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "mentions '稅法原則(一): 公平課稅與量能課稅' indicating fairness in taxation.",
+      "score": 7.5,
+      "evidence": [
+        "稅法原則(一): 公平課稅與量能課稅",
+        "稅法原則(二):實質課稅",
+        "租稅法律關係"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "mentions '土地開發之利益與負擔' and '土地及建物相關稅額計算'.",
+      "score": 5.5,
+      "evidence": [
+        "土地開發之利益與負擔",
+        "土地及建物相關稅額計算"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "inferred from '土地開發之利益與負擔' relating to land use.",
+      "score": 1.5,
+      "evidence": [
+        "土地開發之利益與負擔"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "mentions '稅法原則(一): 公平課稅與量能課稅', '稅法原則(二):實質課稅', and '租稅法律關係' indicating fairness and legal framework.",
+      "score": 7.0,
+      "evidence": [
+        "稅法原則(一): 公平課稅與量能課稅",
+        "稅法原則(二):實質課稅",
+        "租稅法律關係"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "Discusses 'fair taxation and ability-to-pay taxation' and 'land development benefits and burdens,' which can influence wealth distribution and public services to alleviate poverty.",
+      "score": 4.5,
+      "evidence": [
+        "公平課稅與量能課稅",
+        "土地開發之利益與負擔",
+        "農地相關稅賦"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "Mentions 'agricultural land related taxes,' which could indirectly affect agricultural productivity or food prices, but the focus is taxation.",
+      "score": 1.5,
+      "evidence": [
+        "農地相關稅賦"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Explores 'economic principles of taxation,' 'tax efficiency,' and 'land development benefits and burdens,' which are fundamental to economic policy and growth.",
+      "score": 7.5,
+      "evidence": [
+        "經濟觀點",
+        "課稅經濟原則",
+        "課稅效率"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Covers 'land and building taxation' and 'land development benefits and burdens,' which can influence investment in infrastructure and industry.",
+      "score": 4.0,
+      "evidence": [
+        "土地及建物課稅",
+        "土地開發之利益與負擔"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "reason": "Explicitly discusses 'fair taxation and ability-to-pay taxation' and 'differential property tax rates,' key tools for wealth redistribution and reducing inequalities.",
+      "score": 8.0,
+      "evidence": [
+        "公平課稅與量能課稅",
+        "差別稅率財產稅",
+        "稅制爭議與發展"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "Focuses on 'land and building taxation,' 'land value tax,' and 'land development,' core components of urban planning and funding for local services.",
+      "score": 8.5,
+      "evidence": [
+        "土地及建物課稅",
+        "地價稅",
+        "土地開發之利益與負擔"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "Deals with 'land taxation' and 'agricultural land related taxes,' but the focus is fiscal, not biodiversity or ecosystems.",
+      "score": 2.0,
+      "evidence": [
+        "土地稅",
+        "農地相關稅賦"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Introduces 'legal principles of taxation,' 'constitutional tax concepts,' and 'Tax Collection Act,' fundamental for fair legal frameworks and strong institutions.",
+      "score": 9.0,
+      "evidence": [
+        "課稅法律原則",
+        "憲法上稅之觀念",
+        "稅捐稽徵法"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B more accurately maps course content to several SDGs; Model A underestimates tax-policy links to poverty, inequality, urban development, and governance.",
+    "suggested_changes": {
+      "No Poverty": {
+        "new_score": 4.5,
+        "reason": "課稅公平與量能課稅及財富分配影響貧困水平，與減貧目標相關。"
+      },
+      "Sustainable Cities and Communities": {
+        "new_score": 8.5,
+        "reason": "土地開發之利益與負擔、地價稅等財政工具支撐城市發展與公共服務資金。"
+      },
+      "Reduced Inequalities": {
+        "new_score": 8.0,
+        "reason": "提及公平課稅與差別稅率，直接關聯財富再分配與不平等縮減。"
+      },
+      "Life on Land": {
+        "new_score": 2.0,
+        "reason": "稅制對土地使用的影響推測，顯示與生命地球議題的間接連結。"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "new_score": 4.0,
+        "reason": "土地及建物稅制與土地開發影響基礎設施投資，與課程內容相關。"
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B provided more comprehensive and accurate inferences for several SDGs, particularly regarding the indirect impacts of taxation on poverty, hunger, infrastructure, and land use. Its explicit evidence for SDG 10, 11, and 16 was also more robust.",
+    "suggested_changes": {
+      "SDG_1": {
+        "new_score": 4.5,
+        "reason": "Model B's inference linking fair taxation and land development to poverty alleviation is reasonable and well-supported by the text."
+      },
+      "SDG_2": {
+        "new_score": 1.5,
+        "reason": "Model B's inference from '農地相關稅賦' (agricultural land related taxes) provides a weak but plausible link to food systems."
+      },
+      "SDG_9": {
+        "new_score": 4.0,
+        "reason": "Model B correctly infers that land and building taxation and development impact infrastructure and industry investment."
+      },
+      "SDG_10": {
+        "new_score": 8.0,
+        "reason": "Model B's inclusion of '差別稅率財產稅' (differential property tax rates) strengthens the explicit link to reducing inequalities."
+      },
+      "SDG_11": {
+        "new_score": 8.5,
+        "reason": "Model B's higher score is justified as land and building taxation are core to urban planning and funding for sustainable communities."
+      },
+      "SDG_15": {
+        "new_score": 2.0,
+        "reason": "Model B's inclusion of '農地相關稅賦' (agricultural land related taxes) provides a slightly stronger, albeit inferred, link to land use."
+      },
+      "SDG_16": {
+        "new_score": 9.0,
+        "reason": "Model B's evidence, including '課稅法律原則' and '稅捐稽徵法', more directly addresses the legal and institutional aspects of justice."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "winner": "B",
+      "justification": "Model B explicitly links fair taxation (公平課稅與量能課稅) and land development effects to poverty reduction; Model A cites no evidence."
+    },
+    "Zero Hunger": {
+      "winner": "B",
+      "justification": "Model B notes agricultural land taxes (農地相關稅賦) as a channel affecting food systems; Model A has no evidence."
+    },
+    "Good Health and Well-being": {
+      "winner": "Tie",
+      "justification": "Both models report no relevant evidence."
+    },
+    "Quality Education": {
+      "winner": "Tie",
+      "justification": "No model provides evidence related to education."
+    },
+    "Gender Equality": {
+      "winner": "Tie",
+      "justification": "No evidence in either output."
+    },
+    "Clean Water and Sanitation": {
+      "winner": "Tie",
+      "justification": "No evidence in either output."
+    },
+    "Affordable and Clean Energy": {
+      "winner": "Tie",
+      "justification": "No evidence in either output."
+    },
+    "Decent Work and Economic Growth": {
+      "winner": "B",
+      "justification": "Model B explicitly ties economic principles, tax efficiency, and land development to economic growth; Model A covers similar ideas but less explicit."
+    },
+    "Industry, Innovation and Infrastructure": {
+      "winner": "B",
+      "justification": "Model B links land taxes and development to infrastructure investment; Model A lacks explicit evidence."
+    },
+    "Reduced Inequalities": {
+      "winner": "B",
+      "justification": "Model B explicitly discusses differential tax rates and wealth redistribution; Model A mentions fairness but less explicit."
+    },
+    "Sustainable Cities and Communities": {
+      "winner": "B",
+      "justification": "Model B emphasizes land taxation, land value tax, and development as core to urban planning; Model A provides weaker ties."
+    },
+    "Responsible Consumption and Production": {
+      "winner": "Tie",
+      "justification": "No evidence in either output."
+    },
+    "Climate Action": {
+      "winner": "Tie",
+      "justification": "No evidence in either."
+    },
+    "Life Below Water": {
+      "winner": "Tie",
+      "justification": "No evidence in either."
+    },
+    "Life on Land": {
+      "winner": "B",
+      "justification": "Model B cites land taxation and agricultural taxes giving a more concrete basis for land-use links; Model A relies on inference."
+    },
+    "Peace, Justice and Strong Institutions": {
+      "winner": "B",
+      "justification": "Model B cites legal principles and tax law (憲法上稅之觀念、稅捐稽徵法) as institutional strength; Model A cites fairness but less explicit."
+    },
+    "Partnerships for the Goals": {
+      "winner": "Tie",
+      "justification": "No evidence in either output."
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "winner": "B",
+      "justification": "Model B makes a reasonable inference, linking fair taxation and land development benefits/burdens to wealth distribution and public services that can alleviate poverty. Model A's 'no evidence' is too strict."
+    },
+    "Zero Hunger": {
+      "winner": "B",
+      "justification": "Model B's inference from '農地相關稅賦' (agricultural land related taxes) provides a weak but plausible indirect link to food systems. Model A's 'no evidence' is too absolute."
+    },
+    "Good Health and Well-being": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no direct or indirect evidence in the course material."
+    },
+    "Quality Education": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no direct or indirect evidence in the course material."
+    },
+    "Gender Equality": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no direct or indirect evidence in the course material."
+    },
+    "Clean Water and Sanitation": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no direct or indirect evidence in the course material."
+    },
+    "Affordable and Clean Energy": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no direct or indirect evidence in the course material."
+    },
+    "Decent Work and Economic Growth": {
+      "winner": "Tie",
+      "justification": "Both models provide strong, explicit evidence from '課稅經濟原則' and '課稅效率', directly aligning with economic growth aspects of taxation."
+    },
+    "Industry, Innovation and Infrastructure": {
+      "winner": "B",
+      "justification": "Model B makes a reasonable inference that land and building taxation and land development can influence investment in infrastructure and industry. Model A misses this plausible indirect link."
+    },
+    "Reduced Inequalities": {
+      "winner": "B",
+      "justification": "Model B's evidence is more comprehensive, explicitly including '差別稅率財產稅' (differential property tax rates) alongside '公平課稅與量能課稅', which are direct mechanisms for reducing inequalities."
+    },
+    "Sustainable Cities and Communities": {
+      "winner": "B",
+      "justification": "Model B provides more robust explicit evidence, including '地價稅' and '土地及建物課稅', which are core components of urban planning and funding for sustainable communities. Model A's evidence is good but less complete."
+    },
+    "Responsible Consumption and Production": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no direct or indirect evidence in the course material."
+    },
+    "Climate Action": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no direct or indirect evidence in the course material."
+    },
+    "Life Below Water": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no direct or indirect evidence in the course material."
+    },
+    "Life on Land": {
+      "winner": "B",
+      "justification": "Model B's inclusion of '農地相關稅賦' (agricultural land related taxes) provides a slightly stronger, albeit inferred, link to land use and its ecological implications compared to Model A's single piece of evidence."
+    },
+    "Peace, Justice and Strong Institutions": {
+      "winner": "B",
+      "justification": "Model B's evidence is more comprehensive and directly names key legal frameworks like '課稅法律原則', '憲法上稅之觀念', and '稅捐稽徵法', which are fundamental to justice and strong institutions."
+    },
+    "Partnerships for the Goals": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no direct or indirect evidence in the course material."
+    }
+  }
+}

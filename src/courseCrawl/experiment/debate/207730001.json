@@ -1,0 +1,533 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "mentions '能源部門政策與發展' and '工業部門政策與發展'—explicit energy policy relevance",
+      "score": 4.5,
+      "evidence": [
+        "能源部門政策與發展",
+        "工業部門政策與發展",
+        "農業部門政策與發展"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "refers to '實施國土計畫對產業發展的影響' indicating impact on industry development",
+      "score": 7.0,
+      "evidence": [
+        "實施國土計畫對產業發展的影響"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "references '重大部門建設計畫及土地使用規劃' and '國土結構的骨幹—交通部門政策' indicating infrastructure planning",
+      "score": 8.0,
+      "evidence": [
+        "重大部門建設計畫及土地使用規劃",
+        "國土結構的骨幹—交通部門政策",
+        "都會區域計畫"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "includes '原住民族土地權利基礎' and '原住民族傳統領域土地' indicating indigenous rights",
+      "score": 7.0,
+      "evidence": [
+        "原住民族土地權利基礎",
+        "原住民族傳統領域土地"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "shows urban planning elements: '都會區域計畫', '住宅發展與人口分派', and '邁向小尺度多元化的國土管理'",
+      "score": 9.0,
+      "evidence": [
+        "都會區域計畫",
+        "住宅發展與人口分派",
+        "邁向小尺度多元化的國土管理"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "contains '氣候變遷之意涵', '國家氣候變遷政策方針及因應策略', and '氣候調適策略應用於國土計畫'",
+      "score": 9.0,
+      "evidence": [
+        "氣候變遷之意涵",
+        "國家氣候變遷政策方針及因應策略",
+        "氣候調適策略應用於國土計畫"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "includes '原住民族土地權利基礎' and '原住民族傳統領域土地' indicating land-use rights",
+      "score": 7.0,
+      "evidence": [
+        "原住民族土地權利基礎",
+        "原住民族傳統領域土地"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "quotes '國土計畫法自105年1月6日公布後,...國土管理法制' and '理論、法制與實務有基礎性的理解' showing legal framework",
+      "score": 7.0,
+      "evidence": [
+        "國土計畫法自105年1月6日公布後，全新的國土管理法制將取代實施半世紀之久的區域計畫法制，對於土地使用及空間發展等各層面影響甚鉅。",
+        "本課程將全面性的講授國土計畫所涉及的面向與觀念，使同學對國土計畫之理論、法制與實務有基礎性的理解。"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "mentions '跨域治理', '跨域規劃與治理', and '與其他相關法規及制度密切相關'",
+      "score": 7.0,
+      "evidence": [
+        "跨域治理",
+        "跨域規劃與治理",
+        "與其他相關法規及制度密切相關"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "Discusses housing development, population distribution, and industrial policies which can indirectly impact economic opportunities, but does not explicitly address poverty eradication.",
+      "score": 2.5,
+      "evidence": [
+        "住宅發展與人口分派",
+        "產業發展",
+        "農業部門政策與發展"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "The course explicitly covers 'agriculture sector policy and development' within the context of spatial planning, which is directly related to food production and security.",
+      "score": 6.5,
+      "evidence": [
+        "農業部門政策與發展"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "reason": "While disaster management is covered, there is no explicit mention of health services, disease prevention, or promoting general well-being.",
+      "score": 0.5,
+      "evidence": [
+        "災害管理"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "The course explicitly covers 'energy sector policy and development' within spatial planning, directly relating to energy access and sustainability.",
+      "score": 6.8,
+      "evidence": [
+        "能源部門政策與發展"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course examines 'industrial development' and 'major construction projects' within spatial planning, which are key drivers for economic growth and employment.",
+      "score": 7.5,
+      "evidence": [
+        "產業發展",
+        "工業部門政策與發展",
+        "重大部門建設計畫"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course focuses on 'spatial planning' and 'land management,' including 'major sectoral construction projects' and 'transportation sector policy,' core to infrastructure development.",
+      "score": 8.9,
+      "evidence": [
+        "國土計畫",
+        "空間發展",
+        "重大部門建設計畫",
+        "交通部門政策"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "The course dedicates significant content to 'Indigenous Land' and 'Indigenous Peoples and Spatial Planning,' focusing on 'indigenous rights' and promoting 'reconciliation, coexistence, and diversity.'",
+      "score": 9.2,
+      "evidence": [
+        "原住民族土地概論",
+        "原住民族與國土計畫",
+        "國土計畫作為和解共生、多元並存的契機",
+        "國土計畫體系中落實原住民族權利的管道"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "The course is fundamentally about 'spatial planning,' 'land use,' and 'spatial development,' explicitly covering 'metropolitan regional plans' and 'rural area overall planning' for sustainable communities.",
+      "score": 10.0,
+      "evidence": [
+        "國土計畫",
+        "土地使用及空間發展",
+        "都會區域計畫",
+        "鄉村地區整體規劃"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "The course discusses 'land use control' and 'land management,' which can indirectly influence resource use, but does not explicitly address responsible consumption or production patterns.",
+      "score": 3.5,
+      "evidence": [
+        "土地使用管制",
+        "土地管理"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "reason": "The course explicitly integrates 'climate change' as a new planning concept and dedicates a full week to 'Spatial Planning and Climate Change,' including 'national climate change policy' and 'adaptation strategies.'",
+      "score": 9.5,
+      "evidence": [
+        "氣候變遷",
+        "國土計畫與氣候變遷",
+        "國家氣候變遷政策方針及因應策略",
+        "氣候調適策略應用於國土計畫"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "While a river valley case study is mentioned, there is no explicit content on marine ecosystems, oceans, or life below water.",
+      "score": 0.5,
+      "evidence": [
+        "基隆河谷廊帶"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life on Land": {
+      "reason": "The course focuses on 'land use' and 'spatial planning,' explicitly covering 'land restoration and disaster prevention' and 'land restoration promotion areas,' crucial for terrestrial ecosystems.",
+      "score": 9.0,
+      "evidence": [
+        "國土計畫",
+        "土地使用",
+        "國土復育與防災",
+        "國土復育促進地區"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course extensively covers 'national land management legal system' and 'spatial management legal system,' including the 'National Spatial Planning Act' and 'indigenous rights,' fundamental to strong institutions and justice.",
+      "score": 9.3,
+      "evidence": [
+        "國土管理法制",
+        "空間管理法制",
+        "國土計畫法",
+        "原住民族權利",
+        "和解共生"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course mentions 'international conventions' as a planning concept and covers 'cross-domain governance' and 'metropolitan regional plans,' implying multi-stakeholder collaboration.",
+      "score": 6.9,
+      "evidence": [
+        "國際公約",
+        "跨域治理",
+        "都會區域計畫"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B significantly overweights several SDGs relative to the syllabus; adjust SDG_2, SDG_7, SDG_10, SDG_11, SDG_13, SDG_15, SDG_16, and SDG_17 to reflect actual course emphases.",
+    "suggested_changes": {
+      "SDG_2": {
+        "new_score": 6.0,
+        "reason": "Agriculture policy and development in spatial planning directly relates to food production and security."
+      },
+      "SDG_7": {
+        "new_score": 6.8,
+        "reason": "Energy policy content is explicitly covered; strong relevance to energy access and sustainability."
+      },
+      "SDG_10": {
+        "new_score": 9.2,
+        "reason": "Indigenous rights and cross-domain planning explicit within the syllabus reduce inequalities."
+      },
+      "SDG_11": {
+        "new_score": 10.0,
+        "reason": "Metropolitan regional plans and urban planning emphasis justify maximum alignment."
+      },
+      "SDG_13": {
+        "new_score": 9.5,
+        "reason": "Climate policy and adaptation strategies are explicitly integrated."
+      },
+      "SDG_15": {
+        "new_score": 9.0,
+        "reason": "Land restoration and disaster risk reduction content emphasized in course."
+      },
+      "SDG_16": {
+        "new_score": 9.3,
+        "reason": "Strong focus on legal framework and indigenous rights supports governance."
+      },
+      "SDG_17": {
+        "new_score": 7.0,
+        "reason": "Cross-domain governance and international conventions present, but partnerships remain moderate."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B provided a more comprehensive analysis for several SDGs, particularly for those with explicit mentions of indigenous rights, land restoration, and the overarching nature of spatial planning. However, some inferred connections were too weak.",
+    "suggested_changes": {
+      "No Poverty": {
+        "new_score": 0.001,
+        "reason": "Model B's inference is too weak; the course text lacks explicit or strong indirect evidence for poverty eradication."
+      },
+      "Zero Hunger": {
+        "new_score": 6.5,
+        "reason": "Model B correctly identified '農業部門政策與發展' as explicit evidence directly related to food production and security."
+      },
+      "Good Health and Well-being": {
+        "new_score": 0.5,
+        "reason": "Model B's inference from '災害管理' to public health and safety is plausible for a low score."
+      },
+      "Affordable and Clean Energy": {
+        "new_score": 6.8,
+        "reason": "Model B's score is better justified by focusing on the direct mention of '能源部門政策與發展'."
+      },
+      "Decent Work and Economic Growth": {
+        "new_score": 7.5,
+        "reason": "Model B provided more comprehensive explicit evidence ('產業發展', '工業部門政策與發展', '重大部門建設計畫') for economic growth."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "new_score": 8.9,
+        "reason": "Model B's evidence is slightly more encompassing, including '國土計畫' and '空間發展' as core to infrastructure."
+      },
+      "Reduced Inequalities": {
+        "new_score": 9.2,
+        "reason": "Model B's analysis is significantly better, highlighting extensive explicit content on indigenous rights and reconciliation."
+      },
+      "Sustainable Cities and Communities": {
+        "new_score": 10.0,
+        "reason": "Model B correctly identifies the entire course as fundamentally aligned with spatial planning for sustainable communities, including both urban and rural aspects."
+      },
+      "Responsible Consumption and Production": {
+        "new_score": 3.5,
+        "reason": "Model B's inference from '土地使用管制' and '土地管理' to resource use patterns is reasonable for a low score."
+      },
+      "Climate Action": {
+        "new_score": 9.5,
+        "reason": "Model B's slightly higher score is justified by emphasizing climate change as a new planning concept and a dedicated week of study."
+      },
+      "Life Below Water": {
+        "new_score": 0.001,
+        "reason": "Model B's inference from '基隆河谷廊帶' to life below water is too tenuous; the focus is on planning, not aquatic ecosystems."
+      },
+      "Life on Land": {
+        "new_score": 9.0,
+        "reason": "Model B's evidence ('國土復育與防災', '國土復育促進地區') is much more direct and comprehensive for terrestrial ecosystems."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "new_score": 9.3,
+        "reason": "Model B's analysis is better, linking the extensive legal framework to indigenous rights and reconciliation for justice."
+      },
+      "Partnerships for the Goals": {
+        "new_score": 7.0,
+        "reason": "Model A's evidence, including '與其他相關法規及制度密切相關', is a strong and direct indicator of inter-institutional partnerships."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "winner": "B",
+      "justification": "B provides indirect links to poverty reduction via housing, population distribution, and industry policy; A offers no evidence."
+    },
+    "Zero Hunger": {
+      "winner": "B",
+      "justification": "Explicit reference to agricultural sector policy and development ties directly to food security; A has no evidence."
+    },
+    "Good Health and Well-being": {
+      "winner": "B",
+      "justification": "Disaster management content implies health risk mitigation; A provides no health-related evidence."
+    },
+    "Quality Education": {
+      "winner": "Tie",
+      "justification": "Neither model cites evidence connecting course content to education outcomes."
+    },
+    "Gender Equality": {
+      "winner": "Tie",
+      "justification": "No explicit link to gender equality in the course content from either model."
+    },
+    "Clean Water and Sanitation": {
+      "winner": "Tie",
+      "justification": "No evidence from either model."
+    },
+    "Affordable and Clean Energy": {
+      "winner": "B",
+      "justification": "Explicit energy sector policy and development cited; stronger alignment than A."
+    },
+    "Decent Work and Economic Growth": {
+      "winner": "B",
+      "justification": "More explicit evidence on industry development and major policies; B is more robust."
+    },
+    "Industry, Innovation and Infrastructure": {
+      "winner": "B",
+      "justification": "Broader infrastructure-focused evidence (planning, transport, major projects) favors B."
+    },
+    "Reduced Inequalities": {
+      "winner": "B",
+      "justification": "Indigenous rights and cross-domain planning more thoroughly addressed by B."
+    },
+    "Sustainable Cities and Communities": {
+      "winner": "B",
+      "justification": "Comprehensive urban-rural planning alignment; B shows stronger fit."
+    },
+    "Responsible Consumption and Production": {
+      "winner": "B",
+      "justification": "Some inferred link from land use management; B has stronger supported evidence."
+    },
+    "Climate Action": {
+      "winner": "B",
+      "justification": "Climate change is explicitly integrated with dedicated content; B slightly stronger."
+    },
+    "Life Below Water": {
+      "winner": "B",
+      "justification": "River valley corridor mentioned; no explicit aquatic ecosystems; B offers a weak inference vs A's none."
+    },
+    "Life on Land": {
+      "winner": "B",
+      "justification": "Explicit focus on land restoration and disaster prevention; stronger in B."
+    },
+    "Peace, Justice and Strong Institutions": {
+      "winner": "B",
+      "justification": "Stronger emphasis on legal framework and indigenous rights; B more robust."
+    },
+    "Partnerships for the Goals": {
+      "winner": "Tie",
+      "justification": "Both cite cross-domain collaboration and governance; neither dominates."
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "winner": "A",
+      "justification": "The course text lacks explicit or strong indirect evidence for poverty eradication. Model B's inference from housing and industrial policies is too weak."
+    },
+    "Zero Hunger": {
+      "winner": "B",
+      "justification": "Model B correctly identifies '農業部門政策與發展' (agriculture sector policy and development) as explicit evidence directly related to food production and security."
+    },
+    "Good Health and Well-being": {
+      "winner": "B",
+      "justification": "While not explicit, Model B's inference from '災害管理' (disaster management) to public health and safety is plausible for a very low score, as disaster prevention contributes to well-being."
+    },
+    "Quality Education": {
+      "winner": "Tie",
+      "justification": "No evidence found in the course text for Quality Education by either model."
+    },
+    "Gender Equality": {
+      "winner": "Tie",
+      "justification": "No evidence found in the course text for Gender Equality by either model."
+    },
+    "Clean Water and Sanitation": {
+      "winner": "Tie",
+      "justification": "No explicit evidence found in the course text for Clean Water and Sanitation by either model."
+    },
+    "Affordable and Clean Energy": {
+      "winner": "B",
+      "justification": "Model B's score is better justified by focusing on the direct mention of '能源部門政策與發展' (energy sector policy and development), which explicitly links to energy policy and sustainability."
+    },
+    "Decent Work and Economic Growth": {
+      "winner": "B",
+      "justification": "Model B provided more comprehensive explicit evidence ('產業發展', '工業部門政策與發展', '重大部門建設計畫') directly related to economic growth and employment."
+    },
+    "Industry, Innovation and Infrastructure": {
+      "winner": "B",
+      "justification": "Model B's evidence is slightly more encompassing, including '國土計畫' (spatial planning) and '空間發展' (spatial development) as core to infrastructure development, aligning well with the course's fundamental nature."
+    },
+    "Reduced Inequalities": {
+      "winner": "B",
+      "justification": "Model B's analysis is significantly better, highlighting extensive explicit content on indigenous rights, reconciliation ('和解共生'), and diversity, which directly addresses reducing inequalities."
+    },
+    "Sustainable Cities and Communities": {
+      "winner": "B",
+      "justification": "Model B correctly identifies the entire course as fundamentally aligned with spatial planning for sustainable communities, explicitly covering both urban ('都會區域計畫') and rural ('鄉村地區整體規劃') planning aspects."
+    },
+    "Responsible Consumption and Production": {
+      "winner": "B",
+      "justification": "Model B's inference from '土地使用管制' (land use control) and '土地管理' (land management) to influencing resource use patterns is reasonable for a low score, as these are core to managing environmental impact."
+    },
+    "Climate Action": {
+      "winner": "B",
+      "justification": "Model B's slightly higher score is justified by emphasizing climate change as a new planning concept and a dedicated week of study, indicating strong integration within the course."
+    },
+    "Life Below Water": {
+      "winner": "A",
+      "justification": "The mention of '基隆河谷廊帶' (Keelung River Valley Corridor) is a case study for cross-domain governance, not an explicit focus on aquatic ecosystems or life below water. Model B's inference is too tenuous."
+    },
+    "Life on Land": {
+      "winner": "B",
+      "justification": "Model B's evidence ('國土復育與防災' - land restoration and disaster prevention, '國土復育促進地區' - land restoration promotion areas) is much more direct and comprehensive for the conservation and sustainable use of terrestrial ecosystems."
+    },
+    "Peace, Justice and Strong Institutions": {
+      "winner": "B",
+      "justification": "Model B's analysis is better, linking the extensive legal framework and institutional focus to indigenous rights and reconciliation, which directly addresses the justice aspect of SDG 16."
+    },
+    "Partnerships for the Goals": {
+      "winner": "A",
+      "justification": "Model A's evidence, including '與其他相關法規及制度密切相關' (closely related to other relevant laws and systems), is a strong and direct indicator of inter-institutional partnerships and collaboration, which is a core aspect of 'cross-domain governance' mentioned in the syllabus."
+    }
+  }
+}

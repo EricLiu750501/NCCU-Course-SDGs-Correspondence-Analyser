@@ -1,0 +1,468 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "mentions '土地市場供需' and related market concepts",
+      "score": 6.0,
+      "evidence": [
+        "土地市場供需"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "mentions '土地市場供需', 'The Supply of Land for a Particular Use: Speculation and Uncertainty', 'The Supply of Land for a Particular Use: Occupier Preferences and Residential Attachment'",
+      "score": 7.5,
+      "evidence": [
+        "土地市場供需",
+        "The Supply of Land for a Particular Use: Speculation and Uncertainty",
+        "The Supply of Land for a Particular Use: Occupier Preferences and Residential Attachment"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "mentions '土地市場供需', 'Contiguity: Site Assembly Contiguity: Compulsory Purchase and the Scale of Development', 'Zoning and Conservation'",
+      "score": 10.0,
+      "evidence": [
+        "土地市場供需",
+        "Contiguity: Site Assembly Contiguity: Compulsory Purchase and the Scale of Development",
+        "Zoning and Conservation"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "mentions 'Controlling the Density of Development' and 'Zoning and Conservation'",
+      "score": 3.0,
+      "evidence": [
+        "Controlling the Density of Development",
+        "Zoning and Conservation"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "mentions 'The Ownership of Land and Change in its Use' and 'Land Ownership, Politics and Society'",
+      "score": 4.5,
+      "evidence": [
+        "The Ownership of Land and Change in its Use",
+        "Land Ownership, Politics and Society",
+        "The Supply of Land for a Particular Use: Speculation and Uncertainty"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "mentions 'Ownership of Land and Change in its Use' and 'Ownership and Control: Monopoly Ownership and Control: Minimum Rents' and 'Information, Uncertainty and the Property Market'",
+      "score": 7.0,
+      "evidence": [
+        "Ownership of Land and Change in its Use",
+        "Ownership and Control: Monopoly Ownership and Control: Minimum Rents",
+        "Information, Uncertainty and the Property Market"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course analyzes land market operations, property rights, and government interventions, including taxation, which can indirectly influence economic opportunities and poverty.",
+      "score": 2.5,
+      "evidence": [
+        "土地市場運作、產權意涵及調整、以及政府各種干預效果",
+        "Taxing Land and Buildings",
+        "Market Inefficiency"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "The course explicitly covers the 'Farmland Market,' which is directly relevant to food production and security.",
+      "score": 5.5,
+      "evidence": [
+        "Farmland Market"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found regarding health, well-being, or related topics.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "No evidence found regarding the content of quality education or educational systems.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found regarding gender equality or related topics.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found regarding clean water, sanitation, or related infrastructure.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found regarding affordable and clean energy.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course analyzes 'land market operations,' 'government interventions,' and 'property market efficiency,' which are foundational to economic growth and development.",
+      "score": 7.5,
+      "evidence": [
+        "土地市場運作",
+        "政府各種干預效果",
+        "How Efficient is the Property Market"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course covers land assembly, compulsory purchase, and controlling development density, which are crucial for infrastructure and industrial development.",
+      "score": 8.0,
+      "evidence": [
+        "Site Assembly",
+        "Compulsory Purchase and the Scale of Development",
+        "Controlling the Density of Development"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "The course examines property rights, government interventions, land taxation, and market inefficiency, which are all factors influencing economic inequalities.",
+      "score": 6.5,
+      "evidence": [
+        "產權意涵及調整",
+        "政府各種干預效果",
+        "Taxing Land and Buildings",
+        "Market Inefficiency: Causes and Consequences"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "The course directly addresses land market operations, government interventions, zoning, conservation, and controlling development density, which are central to sustainable urban planning.",
+      "score": 9.5,
+      "evidence": [
+        "土地市場運作",
+        "政府各種干預效果",
+        "Zoning and Conservation",
+        "Controlling the Density of Development"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No direct evidence found regarding responsible consumption, production, or resource efficiency.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "While 'Zoning and Conservation' is mentioned, there is no explicit evidence linking the course content to climate action or climate change.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found regarding life below water or marine ecosystems.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "The course explicitly covers 'Zoning and Conservation,' which is directly relevant to the protection of terrestrial ecosystems and biodiversity.",
+      "score": 6.0,
+      "evidence": [
+        "Zoning and Conservation"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course analyzes property rights, government interventions, compulsory purchase, and the political/societal aspects of land ownership, which are key to justice and strong institutions.",
+      "score": 8.5,
+      "evidence": [
+        "產權意涵及調整",
+        "政府各種干預效果",
+        "Compulsory Purchase and the Scale of Development",
+        "Land Ownership, Politics and Society"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found regarding partnerships, international cooperation, or global means of implementation.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B inflates several SDG links (poverty, inequality, land use) beyond explicit course content; align scores with explicit topics such as farmland markets, zoning, and governance.",
+    "suggested_changes": {
+      "No Poverty": {
+        "new_score": 0.001,
+        "reason": "Not explicit in syllabus; poverty linkage is only inferred."
+      },
+      "Zero Hunger": {
+        "new_score": 4.5,
+        "reason": "Farmland Market relates to food production but not explicit hunger."
+      },
+      "Reduced Inequalities": {
+        "new_score": 3.0,
+        "reason": "Indirect link via market inefficiency; no explicit inequality focus."
+      },
+      "Life on Land": {
+        "new_score": 5.0,
+        "reason": "Explicit 'Zoning and Conservation' ties to Life on Land; stronger justification."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "new_score": 8.5,
+        "reason": "Property rights and governance are central; strong alignment with institutions."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B provided more precise evidence and stronger justifications for several SDGs, particularly for indirect links to poverty and inequality, and direct links to farmland and conservation.",
+    "suggested_changes": {
+      "No Poverty": {
+        "new_score": 2.5,
+        "reason": "Land market operations, property rights, and taxation can indirectly influence economic opportunities and poverty."
+      },
+      "Zero Hunger": {
+        "new_score": 5.5,
+        "reason": "The course explicitly covers the 'Farmland Market,' directly relevant to food production and security."
+      },
+      "Decent Work and Economic Growth": {
+        "new_score": 7.5,
+        "reason": "Course analysis of land market operations, government interventions, and market efficiency is foundational to economic growth."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "new_score": 8.0,
+        "reason": "Topics like land assembly, compulsory purchase, and development density are crucial for infrastructure development."
+      },
+      "Reduced Inequalities": {
+        "new_score": 6.5,
+        "reason": "Property rights, government interventions, land taxation, and market inefficiency are factors influencing economic inequalities."
+      },
+      "Sustainable Cities and Communities": {
+        "new_score": 9.5,
+        "reason": "Directly addresses land markets, government interventions, zoning, conservation, and development density, central to sustainable urban planning."
+      },
+      "Climate Action": {
+        "new_score": 0.001,
+        "reason": "While 'Zoning and Conservation' is mentioned, there is no explicit link to climate action or climate change mitigation."
+      },
+      "Life on Land": {
+        "new_score": 6.0,
+        "reason": "The course explicitly covers 'Zoning and Conservation,' directly relevant to terrestrial ecosystems and biodiversity protection."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "new_score": 8.5,
+        "reason": "Analyzes property rights, government interventions, compulsory purchase, and political/societal aspects of land ownership, key to justice."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "winner": "B",
+      "justification": "B provides explicit linkage through land markets, property rights, and taxation; A offers no explicit evidence."
+    },
+    "Zero Hunger": {
+      "winner": "B",
+      "justification": "B explicitly cites Farmland Market relevance; A provides no explicit evidence."
+    },
+    "Good Health and Well-being": {
+      "winner": "Tie",
+      "justification": "Neither model references health/well-being within the course content."
+    },
+    "Quality Education": {
+      "winner": "Tie",
+      "justification": "Neither model cites education-related content from the syllabus."
+    },
+    "Gender Equality": {
+      "winner": "Tie",
+      "justification": "No explicit gender-related content in either model."
+    },
+    "Clean Water and Sanitation": {
+      "winner": "Tie",
+      "justification": "No explicit water/sanitation content in either model."
+    },
+    "Affordable and Clean Energy": {
+      "winner": "Tie",
+      "justification": "No explicit energy content in either model."
+    },
+    "Decent Work and Economic Growth": {
+      "winner": "B",
+      "justification": "B explicitly ties land market operations, interventions, and market efficiency to growth; A is weaker with only indirect mentions."
+    },
+    "Industry, Innovation and Infrastructure": {
+      "winner": "B",
+      "justification": "B cites concrete topics (Site Assembly, Contiguity, Density controls) aligning with infrastructure/governance themes; A is less explicit."
+    },
+    "Reduced Inequalities": {
+      "winner": "B",
+      "justification": "B links property rights, interventions, taxation, and market inefficiency to inequalities; A offers no explicit evidence."
+    },
+    "Sustainable Cities and Communities": {
+      "winner": "Tie",
+      "justification": "Both models reference core topics (land markets, zoning, development density); neither clearly surpasses the other in explicitness."
+    },
+    "Responsible Consumption and Production": {
+      "winner": "Tie",
+      "justification": "No explicit links to consumption/production demonstrated by either model."
+    },
+    "Climate Action": {
+      "winner": "A",
+      "justification": "A connects zoning/density controls to climate-relevant planning; B offers no explicit climate action linkage."
+    },
+    "Life Below Water": {
+      "winner": "Tie",
+      "justification": "No explicit content on aquatic ecosystems in either model."
+    },
+    "Life on Land": {
+      "winner": "B",
+      "justification": "B highlights direct relevance of Zoning and Conservation to land protection; A provides weaker ties."
+    },
+    "Peace, Justice and Strong Institutions": {
+      "winner": "B",
+      "justification": "B emphasizes property rights, governance, and compulsory purchase as central to justice and institutions; A is less explicit."
+    },
+    "Partnerships for the Goals": {
+      "winner": "Tie",
+      "justification": "No explicit discussion of partnerships or international cooperation in either model."
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "winner": "B",
+      "justification": "Model B provides a plausible inferred link, citing land market operations, property rights, and taxation as factors that can indirectly influence economic opportunities and poverty. Model A is too strict with 'No evidence found'."
+    },
+    "Zero Hunger": {
+      "winner": "B",
+      "justification": "Model B explicitly identifies 'Farmland Market' as direct evidence, which is highly relevant to food production and security. Model A completely misses this explicit link."
+    },
+    "Good Health and Well-being": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no direct evidence for this SDG."
+    },
+    "Quality Education": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no direct evidence for this SDG."
+    },
+    "Gender Equality": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no direct evidence for this SDG."
+    },
+    "Clean Water and Sanitation": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no direct evidence for this SDG."
+    },
+    "Affordable and Clean Energy": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no direct evidence for this SDG."
+    },
+    "Decent Work and Economic Growth": {
+      "winner": "B",
+      "justification": "Model B provides more comprehensive evidence ('land market operations,' 'government interventions,' 'property market efficiency') and a clearer justification for its link to economic growth. Model A's evidence is more general."
+    },
+    "Industry, Innovation and Infrastructure": {
+      "winner": "B",
+      "justification": "Model B's evidence ('Site Assembly,' 'Compulsory Purchase,' 'Controlling the Density of Development') is more directly and explicitly related to infrastructure and industrial development than Model A's more general land supply concepts."
+    },
+    "Reduced Inequalities": {
+      "winner": "B",
+      "justification": "Model B makes a reasonable inferred link, explaining how property rights, government interventions, land taxation, and market inefficiency can influence economic inequalities. Model A is too strict."
+    },
+    "Sustainable Cities and Communities": {
+      "winner": "B",
+      "justification": "Both models identify a strong link. Model B's justification is slightly more comprehensive by explicitly including 'government interventions' and 'controlling development density' as central to sustainable urban planning, alongside zoning and conservation."
+    },
+    "Responsible Consumption and Production": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no direct evidence for this SDG."
+    },
+    "Climate Action": {
+      "winner": "B",
+      "justification": "Model B is more accurate in stating that while 'Zoning and Conservation' is mentioned, there's no explicit link to climate action or climate change. Model A's inferred link is weak and more relevant to other SDGs."
+    },
+    "Life Below Water": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no direct evidence for this SDG."
+    },
+    "Life on Land": {
+      "winner": "B",
+      "justification": "Model B provides more direct and explicit evidence with 'Zoning and Conservation,' which is highly relevant to terrestrial ecosystems. Model A's evidence is less direct for this specific SDG."
+    },
+    "Peace, Justice and Strong Institutions": {
+      "winner": "B",
+      "justification": "Model B offers a more comprehensive set of evidence, including 'property rights implications and adjustments,' 'government interventions,' 'compulsory purchase,' and 'Land Ownership, Politics and Society,' which are all strongly linked to justice and strong institutions."
+    },
+    "Partnerships for the Goals": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no direct evidence for this SDG."
+    }
+  }
+}
