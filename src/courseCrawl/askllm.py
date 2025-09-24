@@ -97,14 +97,7 @@ class Gemini:
 
 
 def main():
-    # gg = GPT()
-    # gg.query_json("你好啊")
-
-    # gemini = Gemini()
-    # print(gemini.query_json("你好啊, 隨便輸出一個數"))
-    # exit()
-    
-    prompt_files = getPrompt(course_code_list= "社會課程.json")
+    prompt_files = getPrompt(course_code_list= "地政課程.json")
 
     target_folder = "./prompts"
     result_folder = "./results/社會_Gemini/"
@@ -153,6 +146,65 @@ def main():
     #
     # print(f"已處理 {len(results)} 個檔案，結果已保存到 llm_responses.json")
 
+
+
+
+
+def repeating_experiment(n = 5):
+    # 重複實驗進行五次，嘗試看看結果會不會一樣？
+    prompt_files = getPrompt(course_code_list= "地政課程.json")
+
+    target_folder = "./prompts"
+    result_folder = "./experiment/repeat/地政_GPT_tmp_NaN/"
+
+    # 確認資料夾存在
+    if not os.path.exists(target_folder):
+        print(f"資料夾 {target_folder} 不存在")
+        return
+
+    # 讀取所有檔案
+    GPT_model = GPT()
+    Gemini_model = Gemini()
+
+    processed_count = 0
+
+    for file_path in prompt_files:
+        if processed_count >= 100:
+            break
+        for ni in range(1, n+1):
+            GPT_model = GPT()
+            original_name = file_path.stem  # 取得不含副檔名的檔名
+            result_file_path = os.path.join(result_folder, f"{original_name}_{ni}.json")
+
+            if os.path.exists(result_file_path):
+                print(f"⏭️ 跳過已存在的課程結果: {original_name}")
+                continue
+
+            print(f"處理檔案: {file_path}")
+            print(f"結果檔案: {result_file_path}")
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+
+            # 向LLM發送查詢
+            start_time = time.time()
+            response = GPT_model.query_json(content, temperature=1)
+            # response = Gemini_model.query_json(content, temperature=0.0)
+            end_time = time.time()
+            print(f"API 調用耗時: {end_time - start_time:.2f} 秒")
+            
+            if response:
+                original_name = file_path.stem  # 取得不含副檔名的檔名
+                result_file_path = os.path.join(result_folder, f"{original_name}_{ni}.json")
+                data = json.loads(response)
+                with open(result_file_path, 'w', encoding='utf-8') as f:
+                    json.dump(data, f, ensure_ascii=False, indent=2)
+                print(f"已儲存結果到 {result_file_path}")
+                processed_count += 1
+
+
+
+
 if __name__ == "__main__":
-    main()
+    # main()
+    repeating_experiment(n = 10)
 
