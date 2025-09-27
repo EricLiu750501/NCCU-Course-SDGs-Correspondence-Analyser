@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 from scipy.spatial.distance import cosine
 from scipy.stats import pearsonr
+import matplotlib.pyplot as plt
 
 # 🔹 Kullback–Leibler Divergence
 def kl_divergence(p, q):
@@ -49,6 +50,64 @@ def pearson_corr(p, q):
 # ✅ 範例使用
 # ============================
 
+def visualize_distributions():
+    # Set matplotlib to use a font that supports CJK characters
+    import matplotlib
+    matplotlib.rcParams['font.sans-serif'] = ['Arial Unicode MS', 'SimHei', 'Microsoft YaHei', 'WenQuanYi Micro Hei', 'sans-serif']
+    matplotlib.rcParams['axes.unicode_minus'] = False
+    
+    dept_name = ["地政", "社會", "資訊"]
+    llm_name = ["GPT", "Gemini"]
+    name = "avg_score.json"
+    sdg_goals = [
+        "No Poverty", "Zero Hunger", "Good Health and Well-being", 
+        "Quality Education", "Gender Equality", "Clean Water and Sanitation",
+        "Affordable and Clean Energy", "Decent Work and Economic Growth", 
+        "Industry, Innovation and Infrastructure", "Reduced Inequalities",
+        "Sustainable Cities and Communities", "Responsible Consumption and Production",
+        "Climate Action", "Life Below Water", "Life on Land",
+        "Peace, Justice and Strong Institutions", "Partnerships for the Goals"
+    ]
+    
+    # Generate separate plots for each department
+    for idx, dept in enumerate(dept_name):
+        gpt_file = Path('./').joinpath(dept + "_" + llm_name[0]).joinpath(name)
+        gemini_file = Path('./').joinpath(dept + "_" + llm_name[1]).joinpath(name)
+
+        with open(gpt_file, "r", encoding="utf-8") as f:
+            gpt_data = json.load(f)
+        with open(gemini_file, "r", encoding="utf-8") as f:
+            gemini_data = json.load(f)
+
+        gpt_scores = list(gpt_data.values())
+        gemini_scores = list(gemini_data.values())
+        
+        # Calculate KL divergence
+        kl = kl_divergence(gpt_scores, gemini_scores)
+        
+        # Create individual figure for this department
+        plt.figure(figsize=(14, 8))
+        
+        # Plot bars
+        x = np.arange(len(sdg_goals))
+        width = 0.35
+        
+        plt.bar(x - width/2, gpt_scores, width, label='GPT')
+        plt.bar(x + width/2, gemini_scores, width, label='Gemini')
+        
+        plt.title(f'{dept} SDG Distribution Comparison\nKL={kl:.4f}', fontsize=15)
+        plt.xticks(x, sdg_goals, rotation=45, ha='right', fontsize=9)
+        plt.ylabel('Score', fontsize=12)
+        plt.ylim(0, 10)  # Set y-axis limit from 0 to 10
+        plt.legend(fontsize=12)
+        plt.grid(axis='y', linestyle='--', alpha=0.7)
+        
+        # Adjust layout to make room for the rotated x-axis labels
+        plt.tight_layout()
+        
+        # Save the individual plot
+        plt.savefig(f'sdg_comparison_{dept}.png', dpi=300, bbox_inches='tight')
+        plt.close()
 
 def compare_distributions():
     dept_name = ["地政", "社會", "資訊"]
@@ -127,4 +186,6 @@ if __name__ == "__main__":
     # 假設 GPT 與 Gemini 的 SDG 分數
     # gpt_scores = [0.0, 0.25, 0.06, 7.84, 0.0, 0.12, 0.0, 0.31, 5.72, 0.12, 7.08, 0.10, 1.47, 0.14, 0.69, 4.97, 0.77]
     # gemini_scores = [0.0, 0.19, 0.97, 4.77, 1.41, 0.24, 1.00, 1.58, 2.28, 1.13, 0.69, 1.94, 1.72, 0.19, 0.75, 3.03, 1.91]
-    compare_distributions_class()
+    # compare_distributions()
+    visualize_distributions()
+    # compare_distributions_class()
