@@ -32,7 +32,7 @@ Rules:
         ]
 
 
-critique_system_prompt = [
+critique_system_prompt = [ # TODO: 可能要改一下 SDG_X 不然LLM不懂
     {
         "role": "system",
         "content": """
@@ -201,7 +201,7 @@ def debate_experiment():
 
         course_name = Path(file_path).stem
         course_markdown_file = os.path.join(f"./details/{course_name}.md")
-        save_path = os.path.join(result_folder, f"{course_name}.json")
+        save_path = os.path.join(result_folder, f"{course_name}_2.json")
 
         with open(course_markdown_file, "r", encoding="utf-8") as f:
             course_markdown = f.read()
@@ -242,9 +242,9 @@ Model A Answer:
         gpt_critique = GPT_model.query_json(gpt_critique_prompt, temperature=0)
 
         gemini_critique_prompt = f"""
-You are Model A (GPT). Below is Model B (Gemini)'s analysis.  
+You are Model B (Gemini). Below is Model A (GPT)'s analysis.  
 Compare scores and reasons with your own. Identify disagreements.  
-For each disagreement: defend your score OR explain if Model B is better.  
+For each disagreement: defend your score OR explain if Model A is better.  
 Please read Course Information carefully before critiquing.
 
 Course Information:

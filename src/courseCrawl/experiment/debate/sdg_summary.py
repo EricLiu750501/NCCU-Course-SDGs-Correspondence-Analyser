@@ -196,7 +196,7 @@ def main():
     if len(sys.argv) > 1:
         file_path = sys.argv[1]
     else:
-        file_path = "./207823001.json"
+        file_path = "./923882001_2.json"
     
     data = load_json_data(file_path)
     header, rows, gpt_final_scores, gemini_final_scores = format_summary_table(data)

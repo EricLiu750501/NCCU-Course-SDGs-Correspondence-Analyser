@@ -38,8 +38,102 @@ def js_divergence(p, q):
     m = 0.5 * (p + q)
     return 0.5 * kl_divergence(p, m) + 0.5 * kl_divergence(q, m)
 
+def calculate_divergences(statistics):
+    """Calculate KL and JS divergences between different score distributions"""
+    # Get all SDGs that have scores for all four categories
+    all_sdgs = set()
+    for score_type in statistics.values():
+        all_sdgs.update(score_type.keys())
+    
+    # We need common SDGs across all score types
+    common_sdgs = []
+    for sdg in all_sdgs:
+        if all(sdg in statistics[score_type] for score_type in statistics):
+            common_sdgs.append(sdg)
+    
+    common_sdgs = sorted(common_sdgs,
+                    key=lambda x: int(SDG_MAPPING.get(x, "SDG_99").replace("SDG_", "")) if SDG_MAPPING.get(x) else 99)
+    
+    # Create distribution vectors for each score type
+    distributions = {}
+    for score_type in statistics:
+        distributions[score_type] = [statistics[score_type][sdg]["mean"] for sdg in common_sdgs]
+    
+    # Calculate divergences
+    divergences = {
+        "KL": {},
+        "JS": {}
+    }
+    
+    comparisons = [
+        ("gpt_original", "gemini_original"),
+        ("gpt_judge_final", "gemini_judge_final"),
+        ("gpt_original", "gpt_judge_final"),
+        ("gemini_original", "gemini_judge_final")
+    ]
+    
+    for dist1, dist2 in comparisons:
+        kl_p_q = kl_divergence(distributions[dist1], distributions[dist2])
+        kl_q_p = kl_divergence(distributions[dist2], distributions[dist1])
+        js = js_divergence(distributions[dist1], distributions[dist2])
+        
+        divergences["KL"][(dist1, dist2)] = kl_p_q
+        divergences["KL"][(dist2, dist1)] = kl_q_p
+        divergences["JS"][(dist1, dist2)] = js
+        divergences["JS"][(dist2, dist1)] = js  # JS is symmetric
+    
+    return divergences
 
 
+def plot_divergences(divergences, output_path="sdg_divergences.png"):
+    """Create a bar chart showing KL and JS divergences between distributions"""
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 10))
+    
+    # Define the comparisons to show
+    comparisons = [
+        ("gpt_original", "gemini_original"),
+        ("gpt_judge_final", "gemini_judge_final"),
+        ("gpt_original", "gpt_judge_final"),
+        ("gemini_original", "gemini_judge_final")
+    ]
+    
+    labels = [
+        "GPT vs Gemini (Original)",
+        "GPT vs Gemini (Judge Final)",
+        "GPT: Original vs Judge",
+        "Gemini: Original vs Judge"
+    ]
+    
+    # Plot KL divergences
+    kl_values = [divergences["KL"][(comp[0], comp[1])] for comp in comparisons]
+    kl_values_reverse = [divergences["KL"][(comp[1], comp[0])] for comp in comparisons]
+    
+    x = np.arange(len(labels))
+    width = 0.35
+    
+    ax1.bar(x - width/2, kl_values, width, label='KL(P||Q)')
+    ax1.bar(x + width/2, kl_values_reverse, width, label='KL(Q||P)')
+    
+    ax1.set_title('KL Divergence Between Score Distributions')
+    ax1.set_xticks(x)
+    ax1.set_xticklabels(labels, rotation=45, ha='right')
+    ax1.legend()
+    ax1.grid(True, axis='y', alpha=0.3)
+    
+    # Plot JS divergences
+    js_values = [divergences["JS"][(comp[0], comp[1])] for comp in comparisons]
+    
+    ax2.bar(x, js_values, width=0.6)
+    ax2.set_title('JS Divergence Between Score Distributions')
+    ax2.set_xticks(x)
+    ax2.set_xticklabels(labels, rotation=45, ha='right')
+    ax2.grid(True, axis='y', alpha=0.3)
+    
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    plt.close()
+    
+    print(f"Divergences plot saved to: {output_path}")
 
 def load_all_json_data(directory_path):
     """Load all JSON files in the given directory"""
@@ -259,6 +353,20 @@ def main():
     # Plot the results
     output_path = os.path.join(os.path.abspath(directory_path), "average_sdg_scores.png")
     plot_average_scores(statistics, output_path)
+    
+    # Calculate and print divergences
+    print("\nDistribution Divergences:")
+    print("=" * 80)
+    divergences = calculate_divergences(statistics)
+    
+    for div_type in ["KL", "JS"]:
+        print(f"\n{div_type} Divergence:")
+        for (dist1, dist2), value in divergences[div_type].items():
+            print(f"{dist1} vs {dist2}: {value:.4f}")
+    
+    # Plot divergences
+    div_output_path = os.path.join(os.path.abspath(directory_path), "sdg_divergences.png")
+    plot_divergences(divergences, div_output_path)
 
 if __name__ == "__main__":
     main()

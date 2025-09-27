@@ -190,7 +190,7 @@ def generate_heatmaps(std_df, mean_df):
         plt.title('Mean Score Heatmap by Course and SDG Goal')
         
         plt.tight_layout()
-        plt.savefig('sdg_heatmaps.png', dpi=300, bbox_inches='tight')
+        plt.savefig('sdg_heatmaps_GPT.png', dpi=300, bbox_inches='tight')
         print("Heatmaps saved as 'sdg_heatmaps.png'")
         
     except ImportError:
@@ -201,7 +201,7 @@ def generate_heatmaps(std_df, mean_df):
 
 
 if __name__ == "__main__":
-    results = calculate_course_std_dev(base_path="./地政_Gemini_tmp_0")
+    results = calculate_course_std_dev(base_path="./地政_GPT_tmp_NaN/")
     # results = calculate_course_std_dev(base_path="./地政_GPT_tmp_NaN")
     std_df, mean_df = generate_std_tables(results)
     generate_heatmaps(std_df, mean_df)
