@@ -1,0 +1,482 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "mentions '建築空調系統' and '建築光環境與照明' indicating energy-related design considerations",
+      "score": 4.0,
+      "evidence": [
+        "建築空調系統",
+        "建築光環境與照明"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "explicitly references architectural components '建築光環境與照明', '建築空調系統', '建築材料之運用、燈具與家具設計'",
+      "score": 7.5,
+      "evidence": [
+        "建築光環境與照明",
+        "建築空調系統",
+        "建築材料之運用、燈具與家具設計"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "explicitly references '國土規劃與都市計畫', '建築計畫案例討論，瞭解建築設計與景觀計畫之介面與整合方法。', and '其將來所創造的生活環境將得以兼顧經濟與美學的要求。'",
+      "score": 9.0,
+      "evidence": [
+        "國土規劃與都市計畫",
+        "建築計畫案例討論，瞭解建築設計與景觀計畫之介面與整合方法。",
+        "其將來所創造的生活環境將得以兼顧經濟與美學的要求。"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "mentions '建築材料之運用' indicating material usage",
+      "score": 2.5,
+      "evidence": [
+        "建築材料之運用、燈具與家具設計"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "reason": "references energy-related terms '建築空調系統' and '建築光環境與照明' implying energy-use considerations",
+      "score": 4.5,
+      "evidence": [
+        "建築空調系統",
+        "建築光環境與照明"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "explicitly references land planning and land use management",
+      "score": 8.0,
+      "evidence": [
+        "國土規劃與都市計畫",
+        "一位土地政策的制訂者與土地使用的管理者，在進行國土規劃與都市計畫時，若能適度的考量建築尺度的思維，其將來所創造的生活環境將得以兼顧經濟與美學的要求。",
+        "建構景觀設計計畫的步驟與思維方式。"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course mentions balancing 'economic' requirements in creating living environments, which is a very indirect link to poverty reduction.",
+      "score": 1.5,
+      "evidence": [
+        "兼顧經濟與美學的要求"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "The course covers architectural systems like lighting, air conditioning, and fire safety, which directly contribute to the health and safety of occupants.",
+      "score": 6.5,
+      "evidence": [
+        "建築光環境與照明",
+        "建築空調系統",
+        "建築消防設備"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "While the course provides education, its content does not explicitly focus on the topic of quality education, access, or learning outcomes as an SDG.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "The course mentions '建築消防設備' which may involve water systems, but there is no explicit focus on clean water provision or sanitation.",
+      "score": 1.0,
+      "evidence": [
+        "建築消防設備"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "The course covers '建築光環境與照明' and '建築空調系統', which are key areas for energy consumption in buildings, implying relevance to energy efficiency.",
+      "score": 4.5,
+      "evidence": [
+        "建築光環境與照明",
+        "建築空調系統"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course is offered by '地一土管' (Land Economics) and mentions '經濟與美學的要求' in planning, linking to economic aspects of the built environment.",
+      "score": 3.5,
+      "evidence": [
+        "開課單位：地一土管",
+        "兼顧經濟與美學的要求"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course is an 'Introduction to Architecture', covering '建築結構與造型' and '建築材料之運用', which are fundamental to infrastructure and industry.",
+      "score": 9.0,
+      "evidence": [
+        "建築學概論",
+        "建築結構與造型",
+        "建築材料之運用"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "The course discusses '國土規劃與都市計畫' and creating '生活環境', which can indirectly impact inequalities, but this is not an explicit focus.",
+      "score": 1.5,
+      "evidence": [
+        "國土規劃與都市計畫",
+        "創造的生活環境"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "The course directly addresses '國土規劃與都市計畫' and the creation of '生活環境', which are core components of sustainable urban development.",
+      "score": 10.0,
+      "evidence": [
+        "國土規劃與都市計畫",
+        "創造的生活環境",
+        "建築學概論"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "The course covers '建築材料之運用', which is a key aspect of responsible consumption and production in the construction sector.",
+      "score": 4.0,
+      "evidence": [
+        "建築材料之運用"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "reason": "The course covers '建築光環境與照明' and '建築空調系統', which are major energy consumers and thus relevant to climate change mitigation.",
+      "score": 4.5,
+      "evidence": [
+        "建築光環境與照明",
+        "建築空調系統"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "The course mentions '景觀計畫' and '國土規劃', which can involve land use and ecosystem considerations, but the focus is on the built environment.",
+      "score": 2.5,
+      "evidence": [
+        "景觀計畫",
+        "國土規劃"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course mentions '土地政策的制訂者與土地使用的管理者' and '國土規劃', implying governance, but not directly peace or justice.",
+      "score": 1.0,
+      "evidence": [
+        "土地政策的制訂者與土地使用的管理者",
+        "國土規劃"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course mentions '介面與整合方法' in planning, which implies collaboration, but not global partnerships for the SDGs.",
+      "score": 1.0,
+      "evidence": [
+        "介面與整合方法"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B overweights several SDGs; better alignment with Sustainable Cities (SDG11) and Infrastructure (SDG9) requires adjusting A's scores upward; Life on Land is weaker in this syllabus.",
+    "suggested_changes": {
+      "Affordable and Clean Energy": {
+        "new_score": 4.5,
+        "reason": "Energy-efficient building design topics present (lighting, AC), justify higher score."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "new_score": 9.0,
+        "reason": "Core architecture components and infrastructure relevance were underestimated."
+      },
+      "Sustainable Cities and Communities": {
+        "new_score": 10.0,
+        "reason": "Direct planning content and life environment goals align explicitly with SDG11."
+      },
+      "Life on Land": {
+        "new_score": 2.5,
+        "reason": "Content covers land planning but not biodiversity; primary alignment with SDG11."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A missed several indirect and explicit connections, particularly for health, economic growth, and institutional aspects. Its score for Life on Land is significantly overstated.",
+    "suggested_changes": {
+      "No Poverty": {
+        "new_score": 1.5,
+        "reason": "The course mentions '兼顧經濟與美學的要求' in creating living environments, an indirect link to economic well-being."
+      },
+      "Good Health and Well-being": {
+        "new_score": 6.5,
+        "reason": "Explicit mentions of '建築光環境與照明', '建築空調系統', and '建築消防設備' directly relate to health and safety."
+      },
+      "Clean Water and Sanitation": {
+        "new_score": 1.0,
+        "reason": "The mention of '建築消防設備' implies water systems, providing a minimal, inferred link to water infrastructure."
+      },
+      "Affordable and Clean Energy": {
+        "new_score": 4.5,
+        "reason": "The course covers '建築光環境與照明' and '建築空調系統', key areas for energy efficiency in buildings."
+      },
+      "Decent Work and Economic Growth": {
+        "new_score": 3.5,
+        "reason": "Offered by '地一土管' (Land Economics) and mentioning '經濟與美學的要求' links to economic aspects of the built environment."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "new_score": 9.0,
+        "reason": "As 'Introduction to Architecture', covering '建築結構與造型' and '建築材料之運用' is fundamental to infrastructure."
+      },
+      "Reduced Inequalities": {
+        "new_score": 1.5,
+        "reason": "'國土規劃與都市計畫' and creating '生活環境' can indirectly impact resource distribution and inequalities."
+      },
+      "Sustainable Cities and Communities": {
+        "new_score": 10.0,
+        "reason": "Directly addresses '國土規劃與都市計畫' and creating '生活環境', core to sustainable urban development."
+      },
+      "Responsible Consumption and Production": {
+        "new_score": 4.0,
+        "reason": "The explicit mention of '建築材料之運用' is a direct link to responsible material use in construction."
+      },
+      "Life on Land": {
+        "new_score": 2.5,
+        "reason": "While '國土規劃' and '景觀計畫' are mentioned, the course's focus is on the built environment, not natural ecosystems."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "new_score": 1.0,
+        "reason": "Mentions '土地政策的制訂者與土地使用的管理者' and '國土規劃', implying governance and institutional roles."
+      },
+      "Partnerships for the Goals": {
+        "new_score": 1.0,
+        "reason": "The objective '介面與整合方法' implies collaboration in planning, a very indirect link to partnerships."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "winner": "B",
+      "justification": "Model B provides an indirect but plausible link via economic considerations in the course context; Model A offers essentially no evidence."
+    },
+    "Zero Hunger": {
+      "winner": "Tie",
+      "justification": "Neither model provides evidence connecting to hunger-related outcomes in the course materials."
+    },
+    "Good Health and Well-being": {
+      "winner": "B",
+      "justification": "Model B explicitly connects lighting, air conditioning, and fire safety to health and safety; Model A lacks this health-oriented explicit evidence."
+    },
+    "Quality Education": {
+      "winner": "Tie",
+      "justification": "Neither model links the syllabus to SDG 4 explicitly; both give negligible evidence."
+    },
+    "Gender Equality": {
+      "winner": "Tie",
+      "justification": "No SDG-relevant gender-equality evidence is present in either model."
+    },
+    "Clean Water and Sanitation": {
+      "winner": "B",
+      "justification": "Model B cites potential water system implications via消防設備; Model A has no explicit link."
+    },
+    "Affordable and Clean Energy": {
+      "winner": "B",
+      "justification": "Both infer energy-relevant aspects (lighting, AC), but Model B attributes a slightly higher relevance."
+    },
+    "Decent Work and Economic Growth": {
+      "winner": "B",
+      "justification": "Model B ties the course to economic aspects via the department (地一土管) and economic considerations; Model A offers no comparable connection."
+    },
+    "Industry, Innovation and Infrastructure": {
+      "winner": "B",
+      "justification": "Model B assigns explicit infrastructure relevance with core architecture components at a higher score; Model A is strong but slightly less explicit."
+    },
+    "Reduced Inequalities": {
+      "winner": "B",
+      "justification": "Model B notes indirect inequalities through planning and living environments; Model A does not address this."
+    },
+    "Sustainable Cities and Communities": {
+      "winner": "B",
+      "justification": "Model B directly links national planning and living environments to SDG11; Model A also strong but slightly less explicit."
+    },
+    "Responsible Consumption and Production": {
+      "winner": "B",
+      "justification": "Model B ties material use in construction to responsible consumption; Model A has a weaker link."
+    },
+    "Climate Action": {
+      "winner": "Tie",
+      "justification": "Both models assign similar energy-related relevance (via building energy use) with comparable scores."
+    },
+    "Life Below Water": {
+      "winner": "Tie",
+      "justification": "No model provides explicit content related to SDG 14; both have negligible evidence."
+    },
+    "Life on Land": {
+      "winner": "A",
+      "justification": "Model A emphasizes land planning and landscape-related considerations with explicit references; Model B downplays biodiversity focus."
+    },
+    "Peace, Justice and Strong Institutions": {
+      "winner": "B",
+      "justification": "Model B mentions governance via土地政策與國土規劃; Model A provides no explicit governance link."
+    },
+    "Partnerships for the Goals": {
+      "winner": "B",
+      "justification": "Model B notes interface/integration methods implying collaboration; Model A lacks this explicit linkage."
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "winner": "A",
+      "justification": "Model A correctly identifies no direct evidence. Model B's link to 'economic requirements' is too indirect for this SDG."
+    },
+    "Zero Hunger": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no relevant evidence."
+    },
+    "Good Health and Well-being": {
+      "winner": "B",
+      "justification": "Model B correctly links '建築光環境與照明', '建築空調系統', and '建築消防設備' to health and safety in buildings. Model A missed this explicit connection."
+    },
+    "Quality Education": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify that while the course is education, it does not focus on the *topic* of quality education as an SDG."
+    },
+    "Gender Equality": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no relevant evidence."
+    },
+    "Clean Water and Sanitation": {
+      "winner": "A",
+      "justification": "Model A correctly identifies no direct evidence. Model B's inference from '建築消防設備' to clean water/sanitation is too weak and indirect for the SDG's focus."
+    },
+    "Affordable and Clean Energy": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify '建築光環境與照明' and '建築空調系統' as relevant to energy efficiency in buildings."
+    },
+    "Decent Work and Economic Growth": {
+      "winner": "B",
+      "justification": "Model B makes a reasonable inference from the 'Land Economics' department and '兼顧經濟與美學的要求' to economic aspects of the built environment. Model A's dismissal is too conservative."
+    },
+    "Industry, Innovation and Infrastructure": {
+      "winner": "B",
+      "justification": "Model B provides a more comprehensive link by including '建築結構與造型' and the overall 'Introduction to Architecture' course title, which are fundamental to infrastructure. Model A's score is good but less comprehensive."
+    },
+    "Reduced Inequalities": {
+      "winner": "A",
+      "justification": "Model A correctly identifies no direct evidence. Model B's link from '國土規劃與都市計畫' to reducing inequalities is too indirect and not explicitly stated in the syllabus."
+    },
+    "Sustainable Cities and Communities": {
+      "winner": "B",
+      "justification": "Model B's score of 10.000 is fully justified. The course directly addresses '國土規劃與都市計畫' and creating '生活環境', which are core to this SDG. Model A's score is also high but slightly less emphatic."
+    },
+    "Responsible Consumption and Production": {
+      "winner": "B",
+      "justification": "Model B's higher score is justified as '建築材料之運用' is a direct and explicit link to responsible material use in construction, a key aspect of this SDG."
+    },
+    "Climate Action": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify '建築光環境與照明' and '建築空調系統' as relevant to energy consumption and thus climate action."
+    },
+    "Life Below Water": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no relevant evidence."
+    },
+    "Life on Land": {
+      "winner": "B",
+      "justification": "Model B correctly notes that while '國土規劃' and '景觀計畫' are mentioned, the course's primary focus is on the built environment, not natural ecosystems or biodiversity, which are central to SDG 15. Model A significantly overstates the connection."
+    },
+    "Peace, Justice and Strong Institutions": {
+      "winner": "A",
+      "justification": "Model A correctly identifies no direct evidence. Model B's inference from '土地政策的制訂者與土地使用的管理者' to peace and justice is too indirect for the SDG's specific focus."
+    },
+    "Partnerships for the Goals": {
+      "winner": "A",
+      "justification": "Model A correctly identifies no direct evidence. Model B's inference from '介面與整合方法' to global partnerships is too weak and misinterprets the scope of the SDG."
+    }
+  }
+}

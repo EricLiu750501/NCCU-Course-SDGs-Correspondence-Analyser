@@ -1,0 +1,504 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "mentions '都市経濟' and '全球化與都市競爭' → relevant to Decent Work and Economic Growth",
+      "score": 7.0,
+      "evidence": [
+        "都市經濟",
+        "市場城鎮(Market Town) 產業與都市發展 全球化與都市競爭"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "mentions '都市交通計畫' and '道路與運輸系統' → relevant to Industry, Innovation and Infrastructure",
+      "score": 8.0,
+      "evidence": [
+        "都市交通計畫",
+        "道路與運輸系統",
+        "綠色運輸課題"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "mentions '永續的都市思潮' and '聯合國2030永續發展議程 新都市議程(NUA)' → relevant to SDG 11",
+      "score": 10.0,
+      "evidence": [
+        "永續的都市思潮",
+        "聯合國2030永續發展議程 新都市議程(NUA)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "mentions '都市韌性與防災規劃' and '都市防災 韌性規劃概念' → related to Climate Action",
+      "score": 6.5,
+      "evidence": [
+        "都市韌性與防災規劃",
+        "都市防災 韌性規劃概念"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "mentions '民眾參與' and '誰是空間使用者? 誰決定了空間使用? 參與的實踐' → governance/participation",
+      "score": 7.0,
+      "evidence": [
+        "民眾參與",
+        "誰是空間使用者? 誰決定了空間使用? 參與的實踐"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course discusses 'economic goals' and 'urban economy,' which can indirectly impact poverty alleviation through development and access to services.",
+      "score": 2.5,
+      "evidence": [
+        "經濟、社會、文化和環境目標",
+        "都市經濟",
+        "公共設施規劃"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "The course covers 'urban environment,' 'public facilities planning,' 'pedestrian sidewalk design and barrier-free space,' and 'urban resilience and disaster prevention planning,' all contributing to health and well-being.",
+      "score": 7.5,
+      "evidence": [
+        "都市環境",
+        "公共設施規劃",
+        "人行道設計與無障礙空間",
+        "都市韌性與防災規劃"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "The course itself is an educational offering, but its content does not focus on the SDG's goal of ensuring inclusive and equitable quality education for all.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "No explicit mention of gender or gender equality in the course description.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "'Public facilities planning' and 'urban environment' are broad topics that can encompass water and sanitation infrastructure, but specific mentions are absent.",
+      "score": 2.0,
+      "evidence": [
+        "公共設施規劃",
+        "都市環境"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "The course addresses 'green transportation issues,' which directly relates to clean energy use in urban systems.",
+      "score": 4.5,
+      "evidence": [
+        "綠色運輸課題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course explicitly covers 'economic goals,' 'urban economy,' 'industry and urban development,' and 'globalization and urban competition,' which are central to economic growth.",
+      "score": 8.0,
+      "evidence": [
+        "經濟、社會、文化和環境目標",
+        "都市經濟",
+        "產業與都市發展",
+        "全球化與都市競爭"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Urban planning inherently deals with 'infrastructure' through topics like 'road and transportation systems,' 'public transportation network design,' and 'public facilities planning.' 'Industry and urban development' is also covered.",
+      "score": 9.0,
+      "evidence": [
+        "都市計畫",
+        "道路與運輸系統",
+        "公共設施規劃",
+        "產業與都市發展"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "The course mentions 'public participation' and 'barrier-free space,' which contribute to inclusive urban development and reducing inequalities in access and decision-making.",
+      "score": 5.5,
+      "evidence": [
+        "民眾參與",
+        "人行道設計與無障礙空間",
+        "多元與土地空間的調和"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "This course is fundamentally about 'Urban Planning' and explicitly covers 'Sustainable Cities,' 'UN 2030 Agenda for Sustainable Development,' and the 'New Urban Agenda (NUA).'",
+      "score": 10.0,
+      "evidence": [
+        "都市計畫",
+        "永續都市",
+        "聯合國2030永續發展議程",
+        "新都市議程(NUA)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "The course mentions 'limits to growth and management' in urban environments, which can indirectly relate to resource consumption, but lacks explicit focus on responsible consumption or production patterns.",
+      "score": 2.0,
+      "evidence": [
+        "成長的極限與管理"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "reason": "The course includes 'urban resilience and disaster prevention planning' and 'green transportation issues,' which are key aspects of climate change adaptation and mitigation in urban areas.",
+      "score": 7.0,
+      "evidence": [
+        "都市韌性與防災規劃",
+        "綠色運輸課題",
+        "環境目標"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No explicit mention of marine or aquatic ecosystems, or their protection in the context of urban planning.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "The course discusses 'urban environment,' 'national land planning,' and 'harmony of diversity and land space,' which are relevant to land use, ecosystems, and biodiversity.",
+      "score": 5.0,
+      "evidence": [
+        "都市環境",
+        "國土計畫與都市計畫",
+        "多元與土地空間的調和"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course covers 'urban planning and related policies,' 'urban planning system,' and 'public participation,' which are foundational for effective, inclusive, and just governance.",
+      "score": 6.0,
+      "evidence": [
+        "都市計畫及相關政策",
+        "都市計畫體系",
+        "民眾參與"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course emphasizes 'international planning trends,' 'integration and application of international planning trends,' and explicitly mentions the 'UN 2030 Agenda for Sustainable Development' and 'New Urban Agenda (NUA),' indicating global collaboration.",
+      "score": 6.5,
+      "evidence": [
+        "國際規劃思潮",
+        "國際規劃思潮與本土都市計畫系統的整合與應用",
+        "聯合國2030永續發展議程",
+        "新都市議程(NUA)"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B over-attributes SDGs beyond explicit syllabus (health, governance, inequalities, partnerships) and under-recognizes explicit items (water, consumption); align scores with syllabus content.",
+    "suggested_changes": {
+      "Good Health and Well-being": {
+        "new_score": 5.0,
+        "reason": "Health-relevant planning topics exist (urban environment, pedestrian design, resilience) but explicit health outcomes are not provided."
+      },
+      "Clean Water and Sanitation": {
+        "new_score": 0.001,
+        "reason": "No explicit water/sanitation focus; broad 'public facilities planning' is not specific evidence."
+      },
+      "Reduced Inequalities": {
+        "new_score": 6.0,
+        "reason": "Public participation and barrier-free spaces imply inclusivity not captured by 5.5."
+      },
+      "Life on Land": {
+        "new_score": 4.0,
+        "reason": "Urban land use and diversity harmony mentioned, but biodiversity explicit connections not stated."
+      },
+      "Responsible Consumption and Production": {
+        "new_score": 0.001,
+        "reason": "No explicit focus on consumption/production patterns."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "new_score": 7.0,
+        "reason": "Public participation and space governance components support stronger institutions."
+      },
+      "Partnerships for the Goals": {
+        "new_score": 7.0,
+        "reason": "International planning trends and UN agendas justify higher emphasis."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A frequently overlooks indirect and explicit connections, leading to underestimation for several SDGs. Stronger evidence exists for health, inequalities, and partnerships.",
+    "suggested_changes": {
+      "No Poverty": {
+        "new_score": 2.5,
+        "reason": "Urban planning's focus on economic goals and public facilities indirectly supports poverty alleviation by improving access and opportunities."
+      },
+      "Good Health and Well-being": {
+        "new_score": 7.5,
+        "reason": "Explicit mentions of urban environment, public facilities, barrier-free spaces, and disaster prevention directly contribute to health and well-being."
+      },
+      "Clean Water and Sanitation": {
+        "new_score": 2.0,
+        "reason": "'Public facilities planning' and 'urban environment' broadly encompass water and sanitation infrastructure, warranting an inferred connection."
+      },
+      "Affordable and Clean Energy": {
+        "new_score": 4.5,
+        "reason": "'Green transportation issues' is explicitly mentioned, directly linking to clean energy use in urban systems."
+      },
+      "Decent Work and Economic Growth": {
+        "new_score": 8.0,
+        "reason": "The course explicitly covers 'economic goals,' 'urban economy,' and 'industry and urban development,' providing a stronger link to economic growth."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "new_score": 9.0,
+        "reason": "'Public facilities planning' and 'industry and urban development' further strengthen the explicit connection to infrastructure and industry."
+      },
+      "Reduced Inequalities": {
+        "new_score": 5.5,
+        "reason": "'Public participation,' 'barrier-free space,' and 'harmony of diversity' explicitly address inclusivity and reducing disparities."
+      },
+      "Responsible Consumption and Production": {
+        "new_score": 2.0,
+        "reason": "'Limits to growth and management' in urban environments implies consideration of resource use, linking indirectly to responsible consumption."
+      },
+      "Climate Action": {
+        "new_score": 7.0,
+        "reason": "'Green transportation issues' and 'environmental goals' further strengthen the explicit connection to climate mitigation and adaptation."
+      },
+      "Life on Land": {
+        "new_score": 5.0,
+        "reason": "'Urban environment,' 'national land planning,' and 'harmony of diversity and land space' are explicitly relevant to land use and ecosystems."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "new_score": 6.0,
+        "reason": "While participation is key, the course's focus on 'planning systems' and 'policies' aligns more with strong institutions than direct peace/justice outcomes."
+      },
+      "Partnerships for the Goals": {
+        "new_score": 6.5,
+        "reason": "Explicit mentions of 'international planning trends,' 'UN 2030 Agenda,' and 'New Urban Agenda' clearly indicate global partnerships."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "winner": "B",
+      "justification": "Model B explicitly connects course discussions on economics and urban development to poverty alleviation; Model A provides no direct evidence."
+    },
+    "Zero Hunger": {
+      "winner": "Tie",
+      "justification": "Both models report no evidence linking the syllabus content to Zero Hunger."
+    },
+    "Good Health and Well-being": {
+      "winner": "B",
+      "justification": "Model B cites explicit health-relevant topics in urban planning (urban environment, public facilities, barrier-free design, resilience); Model A lacks explicit health evidence."
+    },
+    "Quality Education": {
+      "winner": "Tie",
+      "justification": "Neither model provides explicit evidence linking to inclusive education outcomes; B notes the course is educational but not SDG-aligned."
+    },
+    "Gender Equality": {
+      "winner": "Tie",
+      "justification": "No explicit gender references in either model's assessment."
+    },
+    "Clean Water and Sanitation": {
+      "winner": "B",
+      "justification": "Model B links public facilities and urban environment to water/sanitation infrastructure; Model A offers no evidence."
+    },
+    "Affordable and Clean Energy": {
+      "winner": "Tie",
+      "justification": "Both models tie to green transportation; explicit evidence present in both (A: '綠色運輸課題'; B: same) hence tied."
+    },
+    "Decent Work and Economic Growth": {
+      "winner": "B",
+      "justification": "Model B provides stronger explicit links to economic goals, urban economy, industry and globalization; A provides weaker/less explicit support."
+    },
+    "Industry, Innovation and Infrastructure": {
+      "winner": "B",
+      "justification": "Model B cites explicit connections to infrastructure via road/transport, public facilities, industry; A's evidence is less explicit."
+    },
+    "Reduced Inequalities": {
+      "winner": "B",
+      "justification": "Model B explicitly cites public participation, barrier-free spaces, and diversity harmony; Model A mentions participation but with less explicit scoring."
+    },
+    "Sustainable Cities and Communities": {
+      "winner": "Tie",
+      "justification": "Both assign 10 and cite sustainability alignment; evidence explicit in both."
+    },
+    "Responsible Consumption and Production": {
+      "winner": "B",
+      "justification": "Model B links 'limits to growth and management' to consumption patterns; A has no explicit link."
+    },
+    "Climate Action": {
+      "winner": "B",
+      "justification": "Model B connects green transportation and resilience to climate action; Model A's link is weaker (resilience) but lower score."
+    },
+    "Life Below Water": {
+      "winner": "Tie",
+      "justification": "Neither model provides explicit link."
+    },
+    "Life on Land": {
+      "winner": "B",
+      "justification": "Model B links urban environment and land use/diversity to land/biodiversity; Model A offers little."
+    },
+    "Peace, Justice and Strong Institutions": {
+      "winner": "A",
+      "justification": "Model A explicitly cites public participation and space governance as governance/participation; Model B scores lower despite mentions of planning systems and participation."
+    },
+    "Partnerships for the Goals": {
+      "winner": "B",
+      "justification": "Model B explicitly mentions international planning trends and UN agendas; Model A has no explicit evidence."
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "winner": "B",
+      "justification": "Model B makes a reasonable inferred connection between urban planning's economic goals and public facilities, and their indirect impact on poverty alleviation. Model A is too strict."
+    },
+    "Zero Hunger": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no direct or strong indirect evidence for this SDG."
+    },
+    "Good Health and Well-being": {
+      "winner": "B",
+      "justification": "Model B provides strong explicit evidence, citing 'urban environment,' 'public facilities planning,' 'pedestrian sidewalk design and barrier-free space,' and 'urban resilience and disaster prevention planning,' all directly contributing to health and well-being. Model A incorrectly found no evidence."
+    },
+    "Quality Education": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify that while the course is educational, its content does not focus on the SDG's goal of ensuring inclusive and equitable quality education for all."
+    },
+    "Gender Equality": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no explicit mention of gender or gender equality."
+    },
+    "Clean Water and Sanitation": {
+      "winner": "B",
+      "justification": "Model B makes a reasonable inferred connection, noting that 'public facilities planning' and 'urban environment' can encompass water and sanitation infrastructure. Model A is too strict."
+    },
+    "Affordable and Clean Energy": {
+      "winner": "B",
+      "justification": "Model B correctly identifies 'green transportation issues' as explicit evidence directly related to clean energy use in urban systems. Model A incorrectly found no evidence."
+    },
+    "Decent Work and Economic Growth": {
+      "winner": "B",
+      "justification": "Both models identify strong explicit evidence. Model B's evidence list is slightly more comprehensive by including 'economic goals' from the course description, leading to a slightly higher score."
+    },
+    "Industry, Innovation and Infrastructure": {
+      "winner": "B",
+      "justification": "Both models identify strong explicit evidence. Model B's evidence is more comprehensive, including 'public facilities planning' and 'industry and urban development,' which are highly relevant to infrastructure and industry."
+    },
+    "Reduced Inequalities": {
+      "winner": "B",
+      "justification": "Model B correctly identifies 'public participation,' 'barrier-free space,' and 'harmony of diversity and land space' as explicit evidence directly relevant to reducing inequalities and promoting inclusivity. Model A incorrectly found no evidence."
+    },
+    "Sustainable Cities and Communities": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify the strong, explicit connection to this SDG, citing 'Sustainable Cities,' 'UN 2030 Agenda for Sustainable Development,' and the 'New Urban Agenda (NUA),' and assign a perfect score."
+    },
+    "Responsible Consumption and Production": {
+      "winner": "B",
+      "justification": "Model B makes a reasonable inferred connection, noting that 'limits to growth and management' in urban environments implies consideration of resource use. Model A is too strict."
+    },
+    "Climate Action": {
+      "winner": "B",
+      "justification": "Both models identify 'urban resilience and disaster prevention planning.' Model B is slightly better by additionally including 'green transportation issues' and 'environmental goals,' which are direct climate mitigation and adaptation strategies."
+    },
+    "Life Below Water": {
+      "winner": "Tie",
+      "justification": "Both models correctly identify no explicit mention of marine or aquatic ecosystems."
+    },
+    "Life on Land": {
+      "winner": "B",
+      "justification": "Model B correctly identifies 'urban environment,' 'national land planning,' and 'harmony of diversity and land space' as explicit evidence relevant to land use, ecosystems, and biodiversity. Model A incorrectly found no evidence."
+    },
+    "Peace, Justice and Strong Institutions": {
+      "winner": "B",
+      "justification": "Both models identify 'public participation.' Model B provides more comprehensive evidence for 'Strong Institutions' by including 'urban planning and related policies' and 'urban planning system,' which are foundational for effective governance."
+    },
+    "Partnerships for the Goals": {
+      "winner": "B",
+      "justification": "Model B provides very strong and explicit evidence, citing 'international planning trends,' 'integration and application of international planning trends,' and the explicit mention of 'UN 2030 Agenda' and 'New Urban Agenda (NUA).' Model A incorrectly found no evidence."
+    }
+  }
+}

@@ -1,0 +1,503 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "mentions 'Learning Outcomes in Sustainability Education' and 'An Introduction to Sustainability Concepts and Principles' – supports Quality Education",
+      "score": 7.5,
+      "evidence": [
+        "Learning Outcomes in Sustainability Education",
+        "An Introduction to Sustainability Concepts and Principles"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "mentions 'Managing Water Resources: The Central Issue for Sustaining Life' – relevant to Clean Water and Sanitation",
+      "score": 9.0,
+      "evidence": [
+        "Managing Water Resources: The Central Issue for Sustaining Life"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "mentions 'green infrastructure (urban ecology and green networks)' and 'new digital technologies' – relates to infrastructure and innovation",
+      "score": 5.0,
+      "evidence": [
+        "green infrastructure (urban ecology and green networks)",
+        "new digital technologies"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "mentions 'enhance equity and justice' and 'city governance' via sharing concepts",
+      "score": 8.0,
+      "evidence": [
+        "design of sharing to enhance equity and justice",
+        "city governance",
+        "enable civic engagement and political activism"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "core emphasis on urban sustainability: 'Understanding Sustainable Cities: Concepts, Cases, and Solutions presents a plethora of subject matters in urban sustainability' and 'The future of humanity is urban'",
+      "score": 9.0,
+      "evidence": [
+        "Understanding Sustainable Cities: Concepts, Cases, and Solutions presents a plethora of subject matters in urban sustainability",
+        "The future of humanity is urban",
+        "Detailed case studies of San Francisco, Seoul, Copenhagen, Medellín, Amsterdam, and Bengaluru (formerly Bangalore) contextualize the authors' discussions of collaborative consumption and production"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "explicit 'collaborative consumption and production' and 'sharing paradigm' and 'sharing economy'",
+      "score": 6.5,
+      "evidence": [
+        "collaborative consumption and production",
+        "sharing paradigm",
+        "sharing economy"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "contains 'Coping with Global Climate Change' and 'climate action planning'",
+      "score": 9.0,
+      "evidence": [
+        "Coping with Global Climate Change",
+        "climate action planning"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "explicit 'Urban Ecology and Green Networks' and 'green infrastructure (urban ecology and green networks)'",
+      "score": 7.5,
+      "evidence": [
+        "Urban Ecology and Green Networks",
+        "green infrastructure (urban ecology and green networks)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "explicit mentions of justice and governance: 'design of sharing to enhance equity and justice' and 'city governance' and 'enable civic engagement and political activism'",
+      "score": 7.5,
+      "evidence": [
+        "design of sharing to enhance equity and justice",
+        "city governance",
+        "enable civic engagement and political activism"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "Discusses 'justice' and 'equity' in sharing cities, and 'Meeting fundamental human needs,' which can indirectly contribute to poverty reduction.",
+      "score": 3.5,
+      "evidence": [
+        "Meeting fundamental human needs",
+        "supports justice, solidarity, and sustainability",
+        "design of sharing to enhance equity and justice"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "Directly addresses food production within urban contexts through 'Sustainable Agricultural Systems for Cities.'",
+      "score": 8.5,
+      "evidence": [
+        "Sustainable Agricultural Systems for Cities"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "reason": "Mentions 'green infrastructure' and 'urban ecology and green networks' which contribute to healthier urban environments and 'Meeting fundamental human needs.'",
+      "score": 4.5,
+      "evidence": [
+        "green infrastructure (urban ecology and green networks)",
+        "Meeting fundamental human needs"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "reason": "The course itself is an educational offering, and 'Learning Outcomes in Sustainability Education' is a direct topic.",
+      "score": 9.0,
+      "evidence": [
+        "Learning Outcomes in Sustainability Education",
+        "Understanding Sustainable Cities: Concepts, Cases, and Solutions provides both instructors and students with in-depth knowledge"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "'Managing Water Resources: The Central Issue for Sustaining Life' directly addresses water management, fundamental to clean water.",
+      "score": 8.5,
+      "evidence": [
+        "Managing Water Resources: The Central Issue for Sustaining Life"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No explicit mention of energy, clean energy, or affordability of energy sources.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Discusses the 'sharing economy' and 'collaborative consumption and production' as economic models, which can influence work and economic activity.",
+      "score": 5.5,
+      "evidence": [
+        "sharing economy",
+        "collaborative consumption and production"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Focuses on 'smart technology,' 'green infrastructure,' 'urban planning and design,' and 'sustainable transportation' related to urban infrastructure and innovation.",
+      "score": 9.0,
+      "evidence": [
+        "smart technology",
+        "green infrastructure",
+        "urban planning and design",
+        "Sustainable Transportation"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "Explicitly focuses on 'justice,' 'equity,' 'solidarity,' and 'Environmental and Social Justice' to address 'competition, enclosure, and division.'",
+      "score": 9.5,
+      "evidence": [
+        "Environmental and Social Justice",
+        "design of sharing to enhance equity and justice",
+        "supports justice, solidarity, and sustainability"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "This is the core theme of the course, explicitly named 'Sustainable and Sharing Cities' and discussed throughout the description and objectives.",
+      "score": 10.0,
+      "evidence": [
+        "Sustainable and Sharing Cities",
+        "urban sustainability",
+        "urban planning and design",
+        "Sharing city case study"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "Discusses 'collaborative consumption and production' and the sharing of 'resources, goods and services,' directly relating to sustainable consumption patterns.",
+      "score": 8.5,
+      "evidence": [
+        "collaborative consumption and production",
+        "sharing -- of resources, goods and services"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "Explicitly mentions 'climate action planning,' 'Coping with Global Climate Change,' and 'The Urban Heat Island Effect.'",
+      "score": 9.0,
+      "evidence": [
+        "climate action planning",
+        "Coping with Global Climate Change",
+        "The Urban Heat Island Effect"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No explicit mention of marine ecosystems, oceans, or aquatic life.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "Mentions 'Urban Ecology and Green Networks' and 'green infrastructure,' which relate to terrestrial ecosystems within urban settings.",
+      "score": 6.5,
+      "evidence": [
+        "Urban Ecology and Green Networks",
+        "green infrastructure"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Emphasizes 'justice,' 'equity,' 'solidarity,' 'public policy and public administration,' 'city governance,' and 'civic engagement.'",
+      "score": 9.0,
+      "evidence": [
+        "justice, solidarity",
+        "public policy and public administration",
+        "city governance",
+        "civic engagement and political activism"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "Promotes 'collaboration' and 'communal' models of sharing, and discusses 'civic engagement,' implying working together for common goals.",
+      "score": 5.0,
+      "evidence": [
+        "communal, encouraging trust and collaboration",
+        "civic engagement"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Disagree with Model B on No Poverty and Good Health; adjust SDG6, SDG16, SDG17 per explicit syllabus mentions.",
+    "suggested_changes": {
+      "No Poverty": {
+        "new_score": 0.001,
+        "reason": "No explicit poverty alleviation focus; only 'meeting fundamental human needs'."
+      },
+      "Good Health and Well-being": {
+        "new_score": 0.001,
+        "reason": "No explicit health content; benefits inferred from green infrastructure."
+      },
+      "Clean Water and Sanitation": {
+        "new_score": 9.0,
+        "reason": "Explicit water resource management present; aligns with SDG6."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "new_score": 9.0,
+        "reason": "Explicit emphasis on justice, governance, and civic engagement."
+      },
+      "Partnerships for the Goals": {
+        "new_score": 2.5,
+        "reason": "Partnership framing is implied (civic engagement) but not explicit as a goal."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A often overlooked indirect connections and explicit mentions, leading to underestimation for several SDGs. Its strict interpretation missed key thematic links, especially for social and economic dimensions of urban sustainability.",
+    "suggested_changes": {
+      "No Poverty": {
+        "new_score": 3.5,
+        "reason": "'Meeting fundamental human needs' and 'justice, equity' in urban contexts indirectly relate to poverty reduction."
+      },
+      "Zero Hunger": {
+        "new_score": 8.5,
+        "reason": "Explicitly mentions 'Sustainable Agricultural Systems for Cities,' a direct link to food security."
+      },
+      "Good Health and Well-being": {
+        "new_score": 4.5,
+        "reason": "'Green infrastructure' and 'meeting fundamental human needs' contribute to healthier urban environments."
+      },
+      "Quality Education": {
+        "new_score": 9.0,
+        "reason": "The course itself is an educational offering, with explicit focus on 'Sustainability Education.'"
+      },
+      "Decent Work and Economic Growth": {
+        "new_score": 5.5,
+        "reason": "'Sharing economy' and 'collaborative consumption and production' are economic models influencing work."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "new_score": 9.0,
+        "reason": "Strong emphasis on 'smart technology,' 'green infrastructure,' 'urban planning,' and 'sustainable transportation.'"
+      },
+      "Reduced Inequalities": {
+        "new_score": 9.5,
+        "reason": "Explicit focus on 'Environmental and Social Justice,' 'equity,' and 'solidarity' directly addresses inequalities."
+      },
+      "Sustainable Cities and Communities": {
+        "new_score": 10.0,
+        "reason": "This SDG is the core theme, explicitly named in the course title and description."
+      },
+      "Responsible Consumption and Production": {
+        "new_score": 8.5,
+        "reason": "Strong emphasis on 'collaborative consumption and production' and sharing 'resources, goods and services.'"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "new_score": 9.0,
+        "reason": "Explicitly covers 'justice,' 'equity,' 'public policy,' 'city governance,' and 'civic engagement.'"
+      },
+      "Partnerships for the Goals": {
+        "new_score": 5.0,
+        "reason": "'Collaboration,' 'communal' models, and 'civic engagement' imply working together for common goals."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "winner": "B",
+      "justification": "Model B links fundamental human needs and equity to poverty reduction; Model A finds no explicit poverty focus in the syllabus."
+    },
+    "Zero Hunger": {
+      "winner": "Tie",
+      "justification": "Both reference 'Sustainable Agricultural Systems for Cities' explicitly; both assign similar explicit support."
+    },
+    "Good Health and Well-being": {
+      "winner": "B",
+      "justification": "B connects health to green infrastructure and basic needs; A offers no explicit health content."
+    },
+    "Quality Education": {
+      "winner": "B",
+      "justification": "B directly cites 'Learning Outcomes in Sustainability Education' and course-related knowledge; A has fewer explicit references."
+    },
+    "Gender Equality": {
+      "winner": "Tie",
+      "justification": "Neither model presents explicit gender-equality evidence in the syllabus."
+    },
+    "Clean Water and Sanitation": {
+      "winner": "A",
+      "justification": "A provides a clear, explicit SDG6-related reference ('Managing Water Resources: The Central Issue for Sustaining Life') with a high score; B also recognizes it but slightly less emphasis."
+    },
+    "Affordable and Clean Energy": {
+      "winner": "Tie",
+      "justification": "No explicit energy content in either model; both treat as negligible."
+    },
+    "Decent Work and Economic Growth": {
+      "winner": "B",
+      "justification": "B references 'sharing economy' and 'collaborative consumption and production' as economic models; A lacks explicit mention."
+    },
+    "Industry, Innovation and Infrastructure": {
+      "winner": "B",
+      "justification": "B provides multiple explicit infra/tech-related elements (smart technology, green infrastructure, planning, transportation); A has weaker alignment."
+    },
+    "Reduced Inequalities": {
+      "winner": "B",
+      "justification": "B explicitly centers on justice, equity, and solidarity; A mentions equity but less directly."
+    },
+    "Sustainable Cities and Communities": {
+      "winner": "B",
+      "justification": "B frames this as core theme with explicit course ties; A also supports it but with slightly less explicit emphasis."
+    },
+    "Responsible Consumption and Production": {
+      "winner": "B",
+      "justification": "B strongly emphasizes collaborative consumption, sharing of resources, and production; A also mentions but less strongly."
+    },
+    "Climate Action": {
+      "winner": "Tie",
+      "justification": "Both cite climate action planning and related topics; B adds Urban Heat Island discussion, but scoring mirrors A."
+    },
+    "Life Below Water": {
+      "winner": "Tie",
+      "justification": "Neither model presents explicit content on oceans or marine life; both score near zero."
+    },
+    "Life on Land": {
+      "winner": "A",
+      "justification": "A explicitly ties to Urban Ecology and Green Networks with green infrastructure; B’s Life on Land rationale is weaker."
+    },
+    "Peace, Justice and Strong Institutions": {
+      "winner": "B",
+      "justification": "B explicitly centers on justice, equity, governance, and civic engagement; A’s justification is less explicit."
+    },
+    "Partnerships for the Goals": {
+      "winner": "B",
+      "justification": "B frames collaboration, communal models, and civic engagement as partnerships; A offers little explicit support for SDG17."
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "winner": "A",
+      "justification": "Model A correctly identified no explicit evidence. Model B's inference from 'fundamental human needs' and 'justice' is too weak and indirect for a meaningful score."
+    },
+    "Zero Hunger": {
+      "winner": "B",
+      "justification": "Model B explicitly identified 'Sustainable Agricultural Systems for Cities' as a direct topic, which Model A completely missed."
+    },
+    "Good Health and Well-being": {
+      "winner": "A",
+      "justification": "Model A correctly identified no explicit evidence. Model B's inference from 'green infrastructure' and 'fundamental human needs' is too weak and indirect."
+    },
+    "Quality Education": {
+      "winner": "B",
+      "justification": "Both models identified explicit evidence, but Model B's reasoning was slightly more comprehensive, noting the course itself is an educational offering."
+    },
+    "Gender Equality": {
+      "winner": "Tie",
+      "justification": "Both models correctly identified no explicit evidence for this SDG."
+    },
+    "Clean Water and Sanitation": {
+      "winner": "A",
+      "justification": "Both models identified the explicit topic 'Managing Water Resources: The Central Issue for Sustaining Life'. Model A's slightly higher score better reflects the directness."
+    },
+    "Affordable and Clean Energy": {
+      "winner": "Tie",
+      "justification": "Both models correctly identified no explicit evidence for this SDG."
+    },
+    "Decent Work and Economic Growth": {
+      "winner": "A",
+      "justification": "Model A correctly identified no explicit evidence. Model B's inference from 'sharing economy' and 'collaborative consumption' is too indirect regarding decent work or economic growth metrics."
+    },
+    "Industry, Innovation and Infrastructure": {
+      "winner": "B",
+      "justification": "Model B provided more comprehensive explicit evidence, including 'smart technology,' 'urban planning and design,' and 'Sustainable Transportation,' which Model A partially missed."
+    },
+    "Reduced Inequalities": {
+      "winner": "B",
+      "justification": "Model B provided more comprehensive explicit evidence, including 'Environmental and Social Justice' as a direct topic, which strongly aligns with this SDG."
+    },
+    "Sustainable Cities and Communities": {
+      "winner": "B",
+      "justification": "This is the core theme of the course, explicitly named in the title. Model B's perfect score of 10.000 is more appropriate for such a direct alignment."
+    },
+    "Responsible Consumption and Production": {
+      "winner": "B",
+      "justification": "Model B provided more comprehensive explicit evidence, including 'sharing -- of resources, goods and services,' which directly relates to consumption patterns."
+    },
+    "Climate Action": {
+      "winner": "B",
+      "justification": "Both models identified strong explicit evidence, but Model B included 'The Urban Heat Island Effect' as an additional relevant topic."
+    },
+    "Life Below Water": {
+      "winner": "Tie",
+      "justification": "Both models correctly identified no explicit evidence for this SDG."
+    },
+    "Life on Land": {
+      "winner": "A",
+      "justification": "Both models identified explicit evidence like 'Urban Ecology and Green Networks.' Model A's slightly higher score better reflects the directness of these topics."
+    },
+    "Peace, Justice and Strong Institutions": {
+      "winner": "B",
+      "justification": "Model B provided more comprehensive explicit evidence, including 'public policy and public administration,' which directly supports the 'Strong Institutions' aspect."
+    },
+    "Partnerships for the Goals": {
+      "winner": "B",
+      "justification": "Model B identified relevant inferred connections like 'collaboration' and 'civic engagement,' which Model A initially missed entirely, even if the score was generous."
+    }
+  }
+}
