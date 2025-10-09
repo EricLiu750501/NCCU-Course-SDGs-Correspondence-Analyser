@@ -35,7 +35,7 @@ Rules:
 {
   "critique": "Overall assessment of differences (≤40 words)",
   "revisions": {
-    "SDG_X (name of the SDGs)": {
+    "EXACT name of the SDGs": {
       "your_original": float,
       "model_b_score": float,
       "your_revised": float,

@@ -1,5 +1,5 @@
 import os
-from openai import OpenAI
+from openai import OpenAI, AsyncOpenAI
 from pathlib import Path
 from google import genai
 from google.genai import types
@@ -9,6 +9,9 @@ import json
 from dotenv import load_dotenv
 import time
 
+import asyncio
+
+
 from system_prompts import crituque_prompt, critique_system_prompt, judge_prompt, judge_system_prompt, system_prompt
 
 
@@ -17,14 +20,14 @@ class GPT:
     def __init__(self):
         load_dotenv()
         openai_api_key = os.getenv("OPENAI_API_KEY")
-        self.client = OpenAI(
+        self.client = AsyncOpenAI(
             api_key=openai_api_key,
         )
         self.messages = system_prompt.copy()
 
-    def query_json(self, prompt:str, temperature:int=0, modelType:str="gpt-5-nano") -> str: #TODO:注意 modelType 被換成 gpt-5-nano
+    async def query_json(self, prompt:str, temperature:int=0, modelType:str="gpt-5-nano") -> str: #TODO:注意 modelType 被換成 gpt-5-nano
         self.messages.append({"role": "user", "content": prompt})
-        responses = self.client.chat.completions.create(
+        responses = await self.client.chat.completions.create(
             model=modelType,
             messages =  self.messages,
             # temperature=temperature,
@@ -55,15 +58,17 @@ class Gemini:
             )
         self.messages = []
 
-    def query_json(self, prompt: str, temperature: float = 0.0):
+    async def query_json(self, prompt: str, temperature: float = 0.0):
         self.messages.append({"role": "user", "content": prompt})
-        response = self.model.generate_content(
-            prompt,
-            generation_config={
-                "temperature": temperature,
-                "response_mime_type": "application/json"
-            }
-        )
+        def sync_call():
+            return self.model.generate_content(
+                prompt,
+                generation_config={
+                    "temperature": temperature,
+                    "response_mime_type": "application/json"
+                }
+            )
+        response = await asyncio.to_thread(sync_call)
 
         if response.text:
             self.messages.append({"role": "model", "content": response.text})
@@ -97,7 +102,7 @@ def getPrompt(prompt_folder = "../courseCrawl/prompts/", course_code_list = "Col
     return matched_files
 
 
-def Disscussion():
+async def Disscussion():
     print("testing GPT Nano and Gemini flash 2.5 Debate")
     # 準備要跑的 prompts
     prompt_files = getPrompt()
@@ -132,29 +137,44 @@ def Disscussion():
         course_start_time = time.time()
 
         # Step 1. 獨立回答
-        gpt_answer = GPT_model.query_json(course_prompt)
-        gemini_answer = Gemini_model.query_json(course_prompt, temperature=0)
+        gpt_answer_task = GPT_model.query_json(course_prompt)
+        gemini_answer_task = Gemini_model.query_json(course_prompt, temperature=0)
+        
+        gpt_answer, gemini_answer = await asyncio.gather(
+            gpt_answer_task,
+            gemini_answer_task
+        )
 
         # Step 2. Cross-exam
         GPT_model.change_system_prompt(critique_system_prompt("GPT"))
-        gpt_critique = GPT_model.query_json(
+        gpt_critique_task = GPT_model.query_json(
             crituque_prompt("GPT", course_markdown, gpt_answer, gemini_answer)
             , temperature=0)
 
         Gemini_model.change_system_prompt(critique_system_prompt("Gemini"))
-        gemini_critique = Gemini_model.query_json(
+        gemini_critique_task = Gemini_model.query_json(
             crituque_prompt("Gemini", course_markdown, gemini_answer, gpt_answer)
             , temperature=0)
+
+        gpt_critique, gemini_critique = await asyncio.gather(
+            gpt_critique_task,
+            gemini_critique_task
+        )
+
 
         # Step 3. 仲裁
         GPT_model.change_system_prompt(judge_system_prompt())
         Gemini_model.change_system_prompt(judge_system_prompt())
-        gpt_judge_answer = GPT_model.query_json(
+        gpt_judge_answer_task = GPT_model.query_json(
             judge_prompt(course_markdown, gemini_answer, gpt_answer, gpt_critique, gemini_critique
                          ), temperature=0)
-        gemini_judge_answer = Gemini_model.query_json(
+        gemini_judge_answer_task = Gemini_model.query_json(
             judge_prompt(course_markdown, gemini_answer, gpt_answer, gpt_critique, gemini_critique
                          ), temperature=0)
+        gpt_judge_answer, gemini_judge_answer = await asyncio.gather(
+            gpt_judge_answer_task,
+            gemini_judge_answer_task
+        )
 
         # 存檔
         with open(save_path, "w", encoding="utf-8") as out:
@@ -175,6 +195,6 @@ def Disscussion():
 
 if __name__ == "__main__":
     # main()
-    Disscussion()
+    asyncio.run(Disscussion())
 
 

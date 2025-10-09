@@ -60,15 +60,19 @@ College_of_Commerce = ["金融", "國貿", "會計", "統計", "企", "資管", 
 
 
 if __name__ == "__main__":
-    all_department()
+    # all_department()
     result = select_department(College_of_Commerce)
 
     # result = select_department("社會")
     # result = select_department("地") # 地政系
 
     # result = select_department(["資安", "資碩", "資訊", "資科"])
-    print(result)
-    print(f"共 {len(result)} 筆資料")
+    print(list(result))
+    
+    with open("College_of_Commerce.json", "w", encoding="utf-8") as f:
+        json.dump(result.tolist(), f, ensure_ascii=False, indent=2)
+
+    # print(f"共 {len(result)} 筆資料")
     #
     # with open("資訊課程.json", "w", encoding="utf-8") as f:
     #     json.dump(result.tolist(), f, ensure_ascii=False, indent=2)
