@@ -250,7 +250,7 @@ def calculate_statistics(all_scores):
     
     return statistics
 
-def plot_average_scores(statistics, output_path="average_sdg_scores.png"):
+def plot_average_scores(statistics, output_path="average_sdg_scores_only1.png"):
     course_num = statistics['gpt_original']['No Poverty']['count']
     
     """Create a bar chart showing average scores with error bars"""
@@ -266,37 +266,29 @@ def plot_average_scores(statistics, output_path="average_sdg_scores.png"):
     # Set up the plot
     fig, ax = plt.subplots(figsize=(16, 10))
     
-    # Width of each bar group and individual bars
-    group_width = 0.8
-    bar_width = group_width / 4
+    # Only showing gpt_judge_final results
+    score_type = "gpt_judge_final"
+    color = 'forestgreen'
+    label = 'GPT Judge Final'
     
-    # Colors for different score types
-    colors = ['royalblue', 'darkorange', 'forestgreen', 'firebrick']
-    labels = ['GPT Original', 'Gemini Original', 'GPT Judge Final', 'Gemini Judge Final']
+    means = []
+    errors = []
     
-    # Plot bars for each score type
-    for i, (score_type, color, label) in enumerate(zip(
-        ["gpt_original", "gemini_original", "gpt_judge_final", "gemini_judge_final"],
-        colors, labels
-    )):
-        x_positions = [j + (i - 1.5) * bar_width for j in range(len(all_sdgs))]
-        
-        means = []
-        errors = []
-        
-        for sdg in all_sdgs:
-            if sdg in statistics[score_type]:
-                means.append(statistics[score_type][sdg]["mean"])
-                errors.append(statistics[score_type][sdg]["std"])
-            else:
-                means.append(0)
-                errors.append(0)
-        
-        ax.bar(x_positions, means, width=bar_width, label=label, color=color, alpha=0.8)
-        # ax.errorbar(x_positions, means, yerr=errors, fmt='none', ecolor='black', capsize=3)
+    for sdg in all_sdgs:
+        if sdg in statistics[score_type]:
+            means.append(statistics[score_type][sdg]["mean"])
+            errors.append(statistics[score_type][sdg]["std"])
+        else:
+            means.append(0)
+            errors.append(0)
+    
+    # Plot bars for gpt_judge_final
+    ax.bar(range(len(all_sdgs)), means, width=0.6, label=label, color=color, alpha=0.8)
+    # Add error bars if needed
+    # ax.errorbar(range(len(all_sdgs)), means, yerr=errors, fmt='none', ecolor='black', capsize=3)
     
     # Add labels and legend
-    ax.set_title(f'Average SDG Scores Comparison {course_num} courses', fontsize=16)
+    ax.set_title(f'Average SDG Scores - GPT Judge Final ({course_num} courses)', fontsize=16)
     ax.set_xlabel('SDGs', fontsize=14)
     ax.set_ylabel('Score', fontsize=14)
     ax.set_xticks(range(len(all_sdgs)))

@@ -11,7 +11,8 @@ df = pd.read_csv("CoursesList.csv")
 
 def all_department():
     # 取出「開課系級」欄位（去除空白和重複值）
-    departments = df["開課系級\nDepartment and Level / Course School/Department"].dropna().unique()
+    # departments = df["開課系級\nDepartment and Level / Course School/Department"].dropna().unique()
+    departments = df["Unnamed: 7"].dropna().unique()
 
     # 排序後輸出
     departments = sorted([d.strip() for d in departments])
@@ -55,16 +56,20 @@ def select_department(filter_list=None):
 # with open("地政課程.json", "w", encoding="utf-8") as f:
 #     json.dump(result.tolist(), f, ensure_ascii=False, indent=2)
 
+College_of_Commerce = ["金融", "國貿", "會計", "統計", "企", "資管", "財管", "風管", "商", "科智", "科博"]
+
 
 if __name__ == "__main__":
-    # all_department()
+    all_department()
+    result = select_department(College_of_Commerce)
+
     # result = select_department("社會")
     # result = select_department("地") # 地政系
 
-    result = select_department(["資安", "資碩", "資訊", "資科"])
+    # result = select_department(["資安", "資碩", "資訊", "資科"])
     print(result)
     print(f"共 {len(result)} 筆資料")
-
-    with open("資訊課程.json", "w", encoding="utf-8") as f:
-        json.dump(result.tolist(), f, ensure_ascii=False, indent=2)
+    #
+    # with open("資訊課程.json", "w", encoding="utf-8") as f:
+    #     json.dump(result.tolist(), f, ensure_ascii=False, indent=2)
 

@@ -309,48 +309,119 @@ def create_std_comparison_scatterplots(std_data, course_scores, output_dir):
         # Add grid
         ax.grid(True, alpha=0.3)
         
-        # Add counts of points above/below diagonal
+        # Calculate more detailed statistics about stability changes
         below_diag = sum(1 for x, y in zip(x_vals, y_vals) if y < x)
         above_diag = sum(1 for x, y in zip(x_vals, y_vals) if y > x)
         equal_diag = sum(1 for x, y in zip(x_vals, y_vals) if y == x)
-         
-        # Print details about equal std points
-        print(f"\n--- {title}: Points with Equal Standard Deviation Before and After ---")
-        if equal_diag > 0:
-            for i, (x, y, label) in enumerate(zip(x_vals, y_vals, labels)):
-                if y == x:
-                    course_id, sdg = label.split(':')
-                    
-                    # Collect the actual scores for this course and SDG
-                    model_type = "gpt" if "GPT" in title else "gemini"
-                    
-                    # Get the original scores
-                    original_scores = list(course_scores[course_id][f"{model_type}_original"][sdg].values())
-                    
-                    # Get the final scores
-                    final_scores = list(course_scores[course_id][f"{model_type}_judge_final"][sdg].values())
-                    
-                    # print(f"Point {i+1}: {label}")
-                    # print(f"  Standard Deviation: {x:.4f}")
-                    # print(f"  Original scores: {', '.join([f'{s:.2f}' for s in original_scores])}")
-                    # print(f"  Final scores: {', '.join([f'{s:.2f}' for s in final_scores])}")
-                    print(f"  Mean original: {np.mean(original_scores):.2f}, Mean final: {np.mean(final_scores):.2f}")
+        
+        # Calculate detailed change metrics
+        total_points = len(x_vals)
+        if total_points > 0:
+            # Calculate percent changes for each point
+            pct_changes = [(y - x) / max(x, 0.001) * 100 for x, y in zip(x_vals, y_vals)]
+            absolute_changes = [y - x for x, y in zip(x_vals, y_vals)]
+            
+            # Categorize by magnitude of change
+            significant_improve = sum(1 for pct in pct_changes if pct <= -20)  # 20%+ decrease in std
+            moderate_improve = sum(1 for pct in pct_changes if -20 < pct < -5)  # 5-20% decrease
+            slight_improve = sum(1 for pct in pct_changes if -5 <= pct < 0)    # 0-5% decrease
+            
+            slight_worse = sum(1 for pct in pct_changes if 0 < pct <= 5)       # 0-5% increase
+            moderate_worse = sum(1 for pct in pct_changes if 5 < pct < 20)     # 5-20% increase
+            significant_worse = sum(1 for pct in pct_changes if pct >= 20)     # 20%+ increase
+            
+            # Overall statistics
+            mean_pct_change = sum(pct_changes) / total_points
+            mean_abs_change = sum(absolute_changes) / total_points
+            median_pct_change = sorted(pct_changes)[total_points // 2]
+        
+            info_text = (
+                f"Total points: {total_points}\n"
+                f"More stable after: {below_diag} ({below_diag/total_points*100:.1f}%)\n"
+                f"  • Significant (>20%): {significant_improve}\n"
+                f"  • Moderate (5-20%): {moderate_improve}\n" 
+                f"  • Slight (<5%): {slight_improve}\n"
+                f"Less stable after: {above_diag} ({above_diag/total_points*100:.1f}%)\n"
+                f"  • Slight (<5%): {slight_worse}\n"
+                f"  • Moderate (5-20%): {moderate_worse}\n"
+                f"  • Significant (>20%): {significant_worse}\n"
+                f"No change: {equal_diag}\n"
+                f"Mean change: {mean_pct_change:.1f}%\n"
+                f"Median change: {median_pct_change:.1f}%"
+            )
         else:
-            print("No points with equal standard deviation found.")
-        print("---" * 20)
-
-        info_text = f"Points: {len(x_vals)}\nMore stable after: {below_diag}\nLess stable after: {above_diag}\nNo change: {equal_diag}"
+            info_text = "No data points available"
+        
         ax.text(0.05, 0.95, info_text, transform=ax.transAxes, fontsize=10,
                 verticalalignment='top', bbox=dict(boxstyle='round', facecolor='white', alpha=0.8))
-    
-    plt.tight_layout(rect=(0, 0, 1, 0.95))  # Adjust for suptitle
-    output_path = os.path.join(output_dir, "stability_comparison_scatter.png")
-    plt.savefig(output_path, dpi=300, bbox_inches='tight')
-    plt.close(fig)
-    
-    print(f"Created standard deviation comparison scatter plots at {output_path}")
 
 
+def generate_detailed_stability_report(std_data, course_scores, output_dir):
+    """Generate a detailed CSV report about stability changes"""
+    # Prepare data for the report
+    report_rows = []
+    
+    # Extract data for both GPT and Gemini
+    for model in ["gpt", "gemini"]:
+        for course_id in std_data[f"{model}_original"].keys():
+            for sdg in std_data[f"{model}_original"][course_id].keys():
+                if sdg in std_data[f"{model}_judge_final"][course_id]:
+                    # Get standard deviations
+                    before_std = std_data[f"{model}_original"][course_id][sdg]
+                    after_std = std_data[f"{model}_judge_final"][course_id][sdg]
+                    
+                    # Calculate change metrics
+                    abs_change = after_std - before_std
+                    pct_change = (abs_change / max(before_std, 0.001)) * 100
+                    
+                    # Get the original scores
+                    original_scores = list(course_scores[course_id][f"{model}_original"][sdg].values())
+                    
+                    # Get the final scores
+                    final_scores = list(course_scores[course_id][f"{model}_judge_final"][sdg].values())
+                    
+                    # Calculate means and their changes
+                    mean_original = np.mean(original_scores)
+                    mean_final = np.mean(final_scores)
+                    mean_change = mean_final - mean_original
+                    
+                    # Add to report
+                    report_rows.append({
+                        "Model": model.upper(),
+                        "Course": course_id,
+                        "SDG": sdg,
+                        "Original_STD": before_std,
+                        "Final_STD": after_std,
+                        "STD_Change": abs_change,
+                        "STD_Change_Pct": pct_change,
+                        "Original_Mean": mean_original,
+                        "Final_Mean": mean_final,
+                        "Mean_Change": mean_change,
+                        "Original_Scores": ";".join([f"{s:.2f}" for s in original_scores]),
+                        "Final_Scores": ";".join([f"{s:.2f}" for s in final_scores]),
+                    })
+    # Create DataFrame and save to CSV
+    if report_rows:
+        df = pd.DataFrame(report_rows)
+        
+        # Sort by absolute percent change in STD (to see biggest changes first)
+        df['abs_pct_change'] = df['STD_Change_Pct'].abs()
+        df = df.sort_values('abs_pct_change', ascending=False)
+        df = df.drop(columns=['abs_pct_change'])
+        
+        # Save to CSV
+        output_path = os.path.join(output_dir, "stability_detailed_report.csv")
+        df.to_csv(output_path, index=False)
+        print(f"Generated detailed stability report at {output_path}")
+        
+        # Print summary statistics
+        print("\n--- Stability Change Summary Statistics ---")
+        print(f"Total course-SDG pairs analyzed: {len(df)}")
+        print(f"Pairs that became more stable after debate: {(df['STD_Change'] < 0).sum()} ({(df['STD_Change'] < 0).mean()*100:.1f}%)")
+        print(f"Pairs that became less stable after debate: {(df['STD_Change'] > 0).sum()} ({(df['STD_Change'] > 0).mean()*100:.1f}%)")
+        print(f"Mean percent change in stability: {df['STD_Change_Pct'].mean():.1f}%")
+        print(f"Median percent change in stability: {df['STD_Change_Pct'].median():.1f}%")
+        print("---" * 20)
 
 def main():
     if len(sys.argv) > 1:
@@ -377,6 +448,12 @@ def main():
     # Create heatmaps for each course
     print("Creating heatmaps...")
     create_heatmaps(course_scores)
+    
+    # Generate detailed stability report
+    print("Generating detailed stability report...")
+    score_types = ["gpt_original", "gemini_original", "gpt_judge_final", "gemini_judge_final"]
+    std_data = {score_type: defaultdict(dict) for score_type in score_types}
+    generate_detailed_stability_report(std_data, course_scores, "heatmaps")
     
     print("Analysis complete!")
 

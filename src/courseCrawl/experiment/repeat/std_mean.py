@@ -203,6 +203,8 @@ def generate_heatmaps(std_df, mean_df):
 if __name__ == "__main__":
     results = calculate_course_std_dev(base_path="./地政_GPT_tmp_NaN/")
     # results = calculate_course_std_dev(base_path="./地政_GPT_tmp_NaN")
+    
+
     std_df, mean_df = generate_std_tables(results)
     generate_heatmaps(std_df, mean_df)
     # calculate_course_std_dev(base_path="./地政_Gemini_tmp_1")
