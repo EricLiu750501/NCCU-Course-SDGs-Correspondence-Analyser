@@ -1,0 +1,702 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "mentions 'Emotions and Moods', implying link to well-being",
+      "score": 2.0,
+      "evidence": [
+        "Emotions and Moods"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "reason": "uses multiple teaching methods: '個案、討論、活動、多媒體、小組報告' to facilitate learning",
+      "score": 5.0,
+      "evidence": [
+        "課程中除了知識講授之外，將搭配個案、討論、活動、多媒體、小組報告等多元方式"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "reason": "mentions 'Diversity in Organizations' and 'Secrets of the Sexes' video, indicating gender-related content",
+      "score": 4.5,
+      "evidence": [
+        "Week 1 | 9/3 | 課程介紹 ＆ Diversity in Organizations",
+        "5. 10/1 |  _Let’s see a video:_ Secrets of the Sexes |  Ch. 2"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "focus on people and work relationships: '人與工作、以及人與組織間的關係'",
+      "score": 8.0,
+      "evidence": [
+        "課程中所探討的焦點在於有關「人」的問題。",
+        "人與工作、以及人與組織間的關係"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "mentions diversity and gender content via 'Diversity in Organizations' and 'Secrets of the Sexes'",
+      "score": 6.0,
+      "evidence": [
+        "Week 1 | 9/3 | 課程介紹 ＆ Diversity in Organizations",
+        "5. 10/1 |  _Let’s see a video:_ Secrets of the Sexes |  Ch. 2"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "mentions 'ethics, social responsibility and sustainability issues'",
+      "score": 6.0,
+      "evidence": [
+        "D. 理解與辨識道德、社會責任與永續議題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "teamwork and group activities indicated by core competencies and in-class practices",
+      "score": 3.0,
+      "evidence": [
+        "B. 團隊合作與領導能力",
+        "小組報告等多元方式"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "Focuses on individual attitudes, emotions, and relationships within organizations to make \"work, life smoother,\" contributing to well-being.",
+      "score": 4.5,
+      "evidence": [
+        "人的態度與行為",
+        "人與人、人與工作、以及人與組織間的關係",
+        "個人在組織中之工作、生活之進行、以及組織的整體運作更加順暢"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "reason": "As a university course, it inherently contributes to providing \"知識講授\" and developing \"核心能力\" for students.",
+      "score": 1.5,
+      "evidence": [
+        "知識講授",
+        "奠定相關基礎專業知識",
+        "核心能力分析圖 Core Competence Analysis Chart"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "reason": "The course explicitly covers \"Diversity in Organizations\" and includes a video titled \"Secrets of the Sexes,\" implying discussion of gender differences.",
+      "score": 4.0,
+      "evidence": [
+        "Diversity in Organizations",
+        "_Let’s see a video:_ Secrets of the Sexes"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course addresses \"人與工作\" and aims to make \"個人在組織中之工作\" and \"組織的整體運作\" smoother, directly impacting work quality and organizational effectiveness, supported by \"social responsibility\" competency.",
+      "score": 7.5,
+      "evidence": [
+        "人與工作",
+        "個人在組織中之工作",
+        "組織的整體運作更加順暢",
+        "社會責任與永續議題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "While effective organizational behavior might indirectly support innovation, the course content does not explicitly focus on industry, innovation, or infrastructure.",
+      "score": 1.0,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "The course explicitly covers \"Diversity in Organizations\" and includes a video on \"Secrets of the Sexes,\" directly addressing aspects of inequality within organizations.",
+      "score": 7.0,
+      "evidence": [
+        "Diversity in Organizations",
+        "_Let’s see a video:_ Secrets of the Sexes"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "The course aims for students to \"understand and identify ethics, social responsibility, and sustainability issues,\" which are foundational to responsible consumption and production.",
+      "score": 5.0,
+      "evidence": [
+        "理解與辨別道德、社會責任與永續議題",
+        "identify ethics, social responsibility, and sustainability issues"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "While \"sustainability issues\" are mentioned, there is no specific evidence linking the course content to climate action or environmental protection.",
+      "score": 1.0,
+      "evidence": [
+        "永續議題 (sustainability issues)"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course covers \"Conflict and Negotiation\" and aims for \"組織的整體運作更加順暢,\" supported by the core competency of understanding \"ethics\" and \"social responsibility.\"",
+      "score": 6.0,
+      "evidence": [
+        "Conflict and Negotiation",
+        "組織的整體運作更加順暢",
+        "理解與辨別道德、社會責任與永續議題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "Develops \"團隊合作與領導能力\" and explores \"人與人、人與組織間的關係,\" fostering essential skills for effective partnerships.",
+      "score": 4.5,
+      "evidence": [
+        "團隊合作與領導能力",
+        "人與人、人與組織間的關係",
+        "Forming groups"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's reasoning supports several higher-level well-being, inequality, and partnership alignments; I revise where course text justifies it.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 2.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Course text links attitudes, emotions, and work-life balance to smoother functioning, aligning with well-being; aligns with Model B."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 8.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Text highlights work relations and smoother operation; Model B's emphasis on sustainability aligns with course content."
+      },
+      "Reduced Inequalities": {
+        "your_original": 6.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Explicit diversity and gender content address inequality; B's framing matches course focus."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 3.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Group work and teamwork are core; B's emphasis on partnerships aligns with course activities."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provided more comprehensive reasoning for several SDGs, particularly by leveraging core competencies and broader course objectives, leading to more accurate scoring.",
+    "revisions": {
+      "SDG_3 (Good Health and Well-being)": {
+        "your_original": 2.0,
+        "model_b_score": 2.0,
+        "your_revised": 4.0,
+        "reason": "Model A's reasoning, linking to 'smoother work, life' and overall well-being from course objectives, is more comprehensive than my initial focus on 'Emotions and Moods' alone."
+      },
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 8.0,
+        "model_b_score": 8.0,
+        "your_revised": 7.5,
+        "reason": "Model A's inclusion of 'social responsibility' and 'smoother organizational operation' from the core competencies and course objectives provides a more robust justification for this SDG."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 7.0,
+        "reason": "Model A's higher score is justified given the explicit mentions of 'Diversity in Organizations' and 'Secrets of the Sexes,' which directly address aspects of inequality."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 5.0,
+        "reason": "Model A correctly identified the strong link to core competency D: 'understand and identify ethics, social responsibility, and sustainability issues,' which is foundational to responsible practices."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 3.0,
+        "model_b_score": 3.0,
+        "your_revised": 4.5,
+        "reason": "Model A's reasoning, including 'leadership skills' and broader 'human-to-human and human-to-organization relationships,' provides a more complete picture of skills essential for partnerships."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No poverty-specific content in syllabus; evidence sparse; both models assign near-zero.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No hunger-related content; evidence absent; both models assign near-zero.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "Course links attitudes, emotions, and work-life balance to well-being; A's higher revision aligns with explicit evidence and course objectives.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 5.0,
+      "source": "model_a",
+      "reasoning": "Diverse teaching methods and core competencies indicate strong alignment with Quality Education.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "Diversity in Organizations and 'Secrets of the Sexes' video indicate gender-related content; aligns with equality dimension.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No water/sanitation content in course; evidence absent.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No energy topics; evidence absent.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "revised_a",
+      "reasoning": "Course emphasizes work, organizational operations, and social responsibility; revisions converge to 7.5.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "Course lacks explicit focus on industry/innovation; indirect support only; B's explicit score reflects this.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 7.0,
+      "source": "revised_a",
+      "reasoning": "Explicit diversity content and video address inequality within organizations; revisions converge to 7.0.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit link to sustainable cities in course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.0,
+      "source": "revised_b",
+      "reasoning": "Ethics, social responsibility and sustainability relate to responsible practices; B revision to 5.0 matches course emphasis.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "Sustainability notions present but no explicit climate action content; B score reflects limited relation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence of water-related topics in course.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No land-related topics in course.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.0,
+      "source": "model_a",
+      "reasoning": "Conflict and Negotiation plus ethics align with strong institutions; aims for smoother organization.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "Teamwork and leadership support partnerships; revisions converge to 4.5.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the syllabus links course content to poverty eradication.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the syllabus links course content to hunger or food security.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "Course aims to make 'work, life smoother' for individuals in organizations and covers 'Emotions and Moods,' directly contributing to well-being. Model A's revision aligns with Model B's strong original reasoning.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 5.0,
+      "source": "model_a",
+      "reasoning": "Model A correctly highlights the explicit use of diverse teaching methods (cases, discussions, activities, multimedia, group reports) to facilitate learning, directly enhancing educational quality.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 4.5,
+      "source": "model_a",
+      "reasoning": "Explicit mentions of 'Diversity in Organizations' and the 'Secrets of the Sexes' video directly indicate content related to gender and equality issues, justifying Model A's score.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the syllabus links course content to clean water or sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the syllabus links course content to affordable or clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "revised_a",
+      "reasoning": "Course focuses on human-work/organization relationships, aiming for smoother operations and better individual work, explicitly including social responsibility. Model A's revision aligns with Model B's comprehensive original reasoning.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "While effective organizational behavior can indirectly support innovation, the course content does not explicitly focus on industry, innovation, or infrastructure, justifying Model B's minimal score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 7.0,
+      "source": "revised_a",
+      "reasoning": "Explicit coverage of 'Diversity in Organizations' and the 'Secrets of the Sexes' video directly addresses aspects of inequality within organizational contexts. Model A's revision aligns with Model B's strong original score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the syllabus links course content to sustainable cities or communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "Core competency D, 'understand and identify ethics, social responsibility, and sustainability issues,' provides a strong foundation for responsible consumption and production practices, as identified by Model B.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The mention of 'sustainability issues' in core competency D provides a very indirect, foundational link, though no explicit climate action content exists, justifying Model B's minimal score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the syllabus links course content to marine life or oceans.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the syllabus links course content to terrestrial ecosystems or biodiversity.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "Course covers 'Conflict and Negotiation,' aims for smoother organizational operation, and includes core competency D on 'ethics, social responsibility,' contributing to strong institutions, as identified by Model B.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "Course develops 'teamwork and leadership skills' and explores 'human-to-human and human-to-organization relationships,' fostering essential abilities for effective partnerships. Model A's revision aligns with Model B's strong original reasoning.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    }
+  }
+}

@@ -1,0 +1,718 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "mentions '重視多元的工作團隊' → relevant to SDG 5 Gender Equality",
+      "score": 4.0,
+      "evidence": [
+        "重視多元的工作團隊"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "mentions '工作環境中的管理者與你' and '人力資源管理' → relevant to SDG 8",
+      "score": 9.0,
+      "evidence": [
+        "工作環境中的管理者與你",
+        "人力資源管理"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "mentions '社會意識管理' → relevant to SDG 10 Reduced Inequalities",
+      "score": 3.0,
+      "evidence": [
+        "社會意識管理"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "mentions '全球管理' → relates to SDG 17 Partnerships for the Goals",
+      "score": 3.0,
+      "evidence": [
+        "全球管理"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course's focus on \"培養創業家精神\" can create economic opportunities, indirectly contributing to poverty reduction.",
+      "score": 3.5,
+      "evidence": [
+        "培養創業家精神"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "Topics like \"人力資源管理\" and \"激勵\" relate to employee welfare and workplace conditions, impacting well-being.",
+      "score": 2.5,
+      "evidence": [
+        "人力資源管理",
+        "激勵"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "reason": "The course aims to develop students' \"聽、說、讀、想能力\" and \"邏輯思考、問題分析及解決能力\", aligning with quality education outcomes.",
+      "score": 7.0,
+      "evidence": [
+        "增進學生聽、說、讀、想能力",
+        "增進邏輯思考、問題分析及解決能力"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "The course explicitly mentions \"重視多元的工作團隊\", which directly supports promoting equality, including gender equality, in the workplace.",
+      "score": 6.5,
+      "evidence": [
+        "重視多元的工作團隊"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Focuses on \"企業管理\", \"人力資源管理\", \"創業家精神\", and \"全球管理\", directly supporting economic growth and decent work principles.",
+      "score": 9.5,
+      "evidence": [
+        "企業管理的基本理論觀念",
+        "人力資源管理",
+        "培養創業家精神"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Covers \"策略規劃\", \"組織設計\", and \"培養創業家精神\", which are fundamental to industry management and fostering innovation.",
+      "score": 8.0,
+      "evidence": [
+        "策略規劃",
+        "組織設計",
+        "培養創業家精神"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "Explicitly mentions \"重視多元的工作團隊\", directly addressing workplace diversity and reducing inequalities. \"社會意識管理\" also supports this.",
+      "score": 6.5,
+      "evidence": [
+        "重視多元的工作團隊",
+        "社會意識管理"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "\"社會意識管理\" implies considering broader societal impacts of business, which can include responsible consumption and production practices.",
+      "score": 2.0,
+      "evidence": [
+        "社會意識管理"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course's focus on \"規劃、組織、領導、控制\" provides foundational knowledge for building strong, well-managed institutions.",
+      "score": 2.0,
+      "evidence": [
+        "規劃、組織、領導、控制"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "reason": "\"全球管理\" involves understanding international business contexts, which can facilitate cross-border collaboration and partnerships.",
+      "score": 2.5,
+      "evidence": [
+        "全球管理"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis aligns with explicit course content for several SDGs; revisions reflect stronger evidence from the syllabus.",
+    "revisions": {
+      "Quality Education": {
+        "your_original": 0.001,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Course objectives explicitly target listening/reading/thinking and problem-solving."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 9.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Includes 培養創業家精神 and HR management; aligns with SDG 8."
+      },
+      "Reduced Inequalities": {
+        "your_original": 3.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Explicit mentions of 重視多元的工作團隊 and 社會意識管理 in course."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.001,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Weeks cover 策略規劃、組織設計, and 培養創業家精神 relevant to innovation."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more comprehensive evidence and stronger inferences for several SDGs, particularly for Quality Education and Industry, Innovation and Infrastructure, leading to significant revisions.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model A's link between '培養創業家精神' and economic opportunities, indirectly reducing poverty, is a reasonable inference."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A correctly identified '人力資源管理' and '激勵' as relevant to employee welfare and well-being."
+      },
+      "Quality Education": {
+        "your_original": 0.001,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model A accurately cited explicit course objectives regarding developing students' '聽、說、讀、想能力' and '邏輯思考、問題分析及解決能力'."
+      },
+      "Gender Equality": {
+        "your_original": 4.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model A's higher score better reflects the direct relevance of '重視多元的工作團隊' to promoting equality, including gender equality."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 9.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model A included more comprehensive evidence like '企業管理' and '全球管理', strengthening the connection to economic growth."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.001,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A correctly identified '策略規劃', '組織設計', and '培養創業家精神' as fundamental to industry and innovation."
+      },
+      "Reduced Inequalities": {
+        "your_original": 3.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model A's inclusion of '重視多元的工作團隊' as evidence, alongside '社會意識管理', provides a stronger basis for this SDG."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A's inference from '社會意識管理' to broader societal impacts, including responsible practices, is reasonable."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A's reasoning that core management functions ('規劃、組織、領導、控制') build strong institutions is sound."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 3.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A's explanation for '全球管理' facilitating cross-border collaboration and partnerships is more precise."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 3.5,
+      "source": "revised_b",
+      "reasoning": "Entrepreneurship and global management in the syllabus suggest indirect poverty reduction via opportunity creation; aligns with Model B's revision.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit links to hunger/food systems in the syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "revised_b",
+      "reasoning": "HR management and motivation relate to worker welfare and well-being.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "revised_a",
+      "reasoning": "Explicit aims to develop listening/speaking/reading/thinking and problem-solving abilities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 6.5,
+      "source": "revised_a",
+      "reasoning": "Diversity emphasis ('重視多元的工作團隊') directly supports workplace equality.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit links to water/sanitation in syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit links to energy topics in syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "HR management, entrepreneurship, and global management imply growth and decent work.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "Strategy, organization design, and entrepreneurship support innovation and industrial development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.5,
+      "source": "revised_a",
+      "reasoning": "Diversity emphasis and social awareness management strengthen equity considerations.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit urban sustainability content in syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 2.0,
+      "source": "revised_b",
+      "reasoning": "Societal consciousness implies broader responsible practices; evidence is indirect.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 2.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No climate action content in syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No aquatic ecosystem content in syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No land/terrestrial ecosystem content in syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 2.0,
+      "source": "revised_b",
+      "reasoning": "Core management functions support governance and institutional effectiveness.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 2.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 2.5,
+      "source": "revised_b",
+      "reasoning": "Global management context hints cross-border collaboration; evidence is indirect.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 3.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on '培養創業家精神' (fostering entrepreneurship) can create economic opportunities, indirectly contributing to poverty reduction.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to food security or hunger reduction was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "Topics like '人力資源管理' (human resource management) and '激勵' (motivation) relate to employee welfare and workplace conditions, impacting well-being.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "revised_a",
+      "reasoning": "Course objectives explicitly target developing students' '聽、說、讀、想能力' and '邏輯思考、問題分析及解決能力', directly aligning with quality education outcomes.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly mentions '重視多元的工作團隊' (emphasizing diverse work teams), which directly supports promoting equality, including gender equality, in the workplace.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to clean water or sanitation was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to energy was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "The course covers '企業管理', '人力資源管理', '培養創業家精神', and '全球管理', directly supporting economic growth and decent work principles.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "Topics like '策略規劃', '組織設計', and '培養創業家精神' are fundamental to industry management, fostering innovation, and building resilient infrastructure.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.5,
+      "source": "revised_a",
+      "reasoning": "Explicit mentions of '重視多元的工作團隊' and '社會意識管理' directly address workplace diversity and broader societal inequalities.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to sustainable cities or communities was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "'社會意識管理' (socially conscious management) implies considering broader societal impacts of business, which can include responsible consumption and production practices.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to climate change or action was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to marine life or oceans was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to terrestrial ecosystems or biodiversity was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on '規劃、組織、領導、控制' (planning, organizing, leading, controlling) provides foundational knowledge for building strong, well-managed institutions.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "'全球管理' (global management) involves understanding international business contexts, which can facilitate cross-border collaboration and partnerships.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    }
+  }
+}
