@@ -1,0 +1,663 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Mentions '理解與辨識道德、社會責任與永續議題' and '金融消費者保護問題'.",
+      "score": 5.0,
+      "evidence": [
+        "理解與辨識道德、社會責任與永續議題",
+        "金融消費者保護問題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Mentions '金融管理之概念，以及國際與國內金融管理的趨勢' and '瞭解國內主要金融法規以期未來在職場的⾏為能符合規範'.",
+      "score": 6.0,
+      "evidence": [
+        "金融管理之概念，以及國際與國內金融管理的趨勢",
+        "瞭解國內主要金融法規以期未來在職場的⾏為能符合規範"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Mentions '金融創新對既有⾦融法規影響' and 'ML&KYC'.",
+      "score": 8.5,
+      "evidence": [
+        "金融創新對既有⾦融法規影響",
+        "ML&KYC"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "Mentions '金融消費者保護問題' and '金融消費者保護'.",
+      "score": 4.5,
+      "evidence": [
+        "金融消費者保護問題",
+        "金融消費者保護"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Mentions '金融法規的立法意義與對金融機構管理之影響' and 'AML、KYC等法遵對金融機構的影響'.",
+      "score": 9.0,
+      "evidence": [
+        "金融法規的立法意義與對金融機構管理之影響",
+        "AML、KYC等法遵對金融機構的影響"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "Financial consumer protection and AML/KYC can indirectly contribute to financial stability and protect vulnerable populations, aligning with 'social responsibility'.",
+      "score": 4.5,
+      "evidence": [
+        "消費者保護的重要",
+        "AML與KYC風潮意義",
+        "理解與辨別道德、社會責任與永續議題"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course covers financial management, international financial trends, and regulations (AML/KYC) crucial for stable economic growth and preventing illicit financial activities.",
+      "score": 8.5,
+      "evidence": [
+        "國際⾦融趨勢",
+        "⾦融管理的應注意事項",
+        "AML與KYC風潮意義"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course explicitly addresses 'financial innovation' and its impact on regulations, which is key to industrial development and financial infrastructure.",
+      "score": 9.0,
+      "evidence": [
+        "⾦融創新對⾦融法規的衝擊",
+        "⾦融創新對既有⾦融法規影響",
+        "⾦融創新法規"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "Financial consumer protection aims to safeguard individuals, potentially reducing financial vulnerabilities and inequalities, and the course mentions 'social responsibility'.",
+      "score": 5.5,
+      "evidence": [
+        "消費者保護的重要",
+        "⾦融消費者保護問題",
+        "理解與辨別道德、社會責任與永續議題"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "'金融消費者保護' (financial consumer protection) is a direct focus, promoting responsible engagement with financial products and services.",
+      "score": 4.0,
+      "evidence": [
+        "消費者保護的重要",
+        "⾦融消費者保護問題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course focuses on 'financial regulations,' 'AML,' and 'KYC,' which are fundamental for strong, transparent, and accountable financial institutions and combating financial crime.",
+      "score": 10.0,
+      "evidence": [
+        "⾦融法規",
+        "AML與KYC風潮意義",
+        "⾦融法規的立法意義"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course mentions 'international financial trends' and 'international financial management,' implying cross-border cooperation in finance, but not explicitly partnerships for global goals.",
+      "score": 2.5,
+      "evidence": [
+        "國際⾦融趨勢",
+        "國際與國內⾦融管理的趨勢"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's explicit mappings align with course content for three SDGs; revising scores accordingly.",
+    "revisions": {
+      "Decent Work and Economic Growth": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Course objectives link financial management and workplace conduct; B's explicit alignment with job readiness and growth."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 8.5,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Course cites '金融創新' and 'ML&KYC' as impact drivers; B's higher score reflects explicit emphasis."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 9.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Course highlights AML/KYC and legislative significance for strong institutions; B's explicit mapping is stronger."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's analysis is largely consistent, but I will revise one score to align with a slightly higher emphasis on an explicit connection.",
+    "revisions": {
+      "Responsible Consumption and Production": {
+        "your_original": 4.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's slightly higher score for 'financial consumer protection' better reflects its explicit mention and direct relevance to responsible consumption."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Course lacks explicit poverty-reduction content; synthesis places moderate value considering governance and social responsibility themes implicitly linked to SDG1.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "No explicit hunger-related material; inferred stability/readiness themes do not map directly to SDG2.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "No explicit health content; low alignment with SDG3 based on course text.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Explicit reference to ethics, social responsibility, and sustainability in core competencies; aligns with SDG4.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "No explicit gender-equality content; low alignment based on course text.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "No explicit WD/SDG6 content; minimal alignment with course topics.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "No explicit energy-focused content; low SDG18 alignment per course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Course links financial management/workplace conduct to regulation; strong alignment with DWEG.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Explicit emphasis on financial innovation and ML/KYC; highest inferred alignment.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Consumer protection may reduce vulnerabilities; explicit equality content is limited.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "No explicit link to sustainable urban development in syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.8,
+      "source": "synthesized",
+      "reasoning": "Direct focus on financial consumer protection; aligns with responsible consumption in finance.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "No climate content; low SDG alignment per course material.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "No explicit link to marine ecosystems in syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "No explicit terrestrial ecosystem content; minimal alignment.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "AML/KYC and legislative significance strongly support institutions; synthesis elevates beyond both originals.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 3.5,
+      "source": "synthesized",
+      "reasoning": "International trends imply cross-border finance; explicit partnerships not directly stated in course.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course focuses on financial regulations, not direct poverty alleviation. The inferred link through consumer protection is too indirect to warrant a higher score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to food security or hunger eradication.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to health or well-being.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 5.0,
+      "source": "model_a",
+      "reasoning": "Core Competence D, '理解與辨識道德、社會責任與永續議題,' directly contributes to quality education for sustainable development, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to gender equality.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to clean water or sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to affordable or clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The course directly addresses financial management, international trends, and regulations (including AML/KYC) crucial for stable economic growth and preparing students for compliant professional conduct.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly and repeatedly addresses 'financial innovation' and its impact on regulations, which is a direct and strong contribution to industrial development and financial infrastructure.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Financial consumer protection and understanding social responsibility can indirectly mitigate financial vulnerabilities and inequalities, but the course does not explicitly target inequality reduction as a primary objective.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to sustainable cities or communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.5,
+      "source": "revised_b",
+      "reasoning": "The course explicitly focuses on 'financial consumer protection,' which directly promotes responsible engagement with financial products and services, aligning with responsible consumption.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to climate action.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to marine life or oceans.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to terrestrial ecosystems or biodiversity.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course's core focus on financial regulations, AML, and KYC directly establishes strong, transparent, and accountable financial institutions, combating financial crime, which is central to SDG 16.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "The course mentions 'international financial trends,' implying cross-border financial cooperation. However, it does not explicitly focus on partnerships for achieving global development goals, warranting a minimal score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

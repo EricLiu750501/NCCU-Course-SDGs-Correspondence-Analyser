@@ -1,0 +1,708 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "mentions 'Welfare Analysis' and 'Inequality' indicating distributional concerns related to poverty",
+      "score": 2.5,
+      "evidence": [
+        "Welfare Analysis",
+        "Inequality",
+        "Public Finance"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "No explicit reference to hunger or food security in course content",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No explicit reference to health topics in course description",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "explicitly mentions 'This is the first economics course designed for freshmen' in course description",
+      "score": 3.0,
+      "evidence": [
+        "This is the first economics course designed for freshmen."
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No explicit reference to gender equality in course content",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No explicit reference",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No explicit reference",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "mentions 'Labor Market' and 'Public Sector' among topics, indicating employment and growth relevance",
+      "score": 8.0,
+      "evidence": [
+        "Labor Market",
+        "Public Sector",
+        "Welfare Analysis"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "mentions 'Industrial Organizations', 'Firms in Competitive Markets', 'Monopoly and Monopolistic Competition' as topics",
+      "score": 8.0,
+      "evidence": [
+        "Industrial Organizations",
+        "Firms in Competitive Markets",
+        "Monopoly and Monopolistic Competition"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "explicitly mentions 'Inequality' as a topic; linked to distributional issues",
+      "score": 9.0,
+      "evidence": [
+        "Inequality",
+        "Welfare Analysis"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "mentions 'Public Goods and Common Resources' and 'Externalities' among topics",
+      "score": 3.0,
+      "evidence": [
+        "Public Goods and Common Resources",
+        "Externalities"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "notes 'Consumer Theory' and 'Costs of Production' as topics",
+      "score": 6.0,
+      "evidence": [
+        "Consumer Theory",
+        "Costs of Production"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "No explicit reference",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No explicit reference",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No explicit reference",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No explicit reference",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No explicit reference",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course explicitly covers 'Inequality', 'Welfare Analysis', and the 'Labor Market', which are fundamental to understanding and addressing poverty.",
+      "score": 9.0,
+      "evidence": [
+        "Inequality",
+        "Welfare Analysis",
+        "Labor Market"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found in the course description directly relating to hunger, food security, or sustainable agriculture.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "The course's 'Welfare Analysis' and 'Public Sector' topics could tangentially relate to health outcomes, but health is not a direct focus.",
+      "score": 2.0,
+      "evidence": [
+        "Welfare Analysis",
+        "Public Sector"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "reason": "No evidence found in the course description indicating a focus on education systems, access, or learning quality as a topic of study.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found in the course description directly addressing gender equality or related economic disparities.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found in the course description directly mentioning clean water, sanitation, or related resource management.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found in the course description directly addressing energy, clean energy sources, or energy access.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course directly covers the 'Labor Market', 'Firm Behaviors', and 'Industrial Organizations', which are central to understanding work and economic growth.",
+      "score": 9.5,
+      "evidence": [
+        "Labor Market",
+        "Firm Behaviors",
+        "Industrial Organizations"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Topics like 'Firm Behaviors', 'Industrial Organizations', 'Monopoly and Monopolistic Competition', and 'Oligopoly' are core to understanding industry structure and dynamics.",
+      "score": 8.5,
+      "evidence": [
+        "Firm Behaviors",
+        "Industrial Organizations",
+        "Monopoly and Monopolistic Competition"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "The course explicitly lists 'Inequality' as a topic to be analyzed, making it a core concept for understanding disparities.",
+      "score": 10.0,
+      "evidence": [
+        "Inequality"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found in the course description directly addressing urban development, sustainable communities, or city planning.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "The course covers 'Supply and Demand', 'Firm Behaviors', 'Costs of Production', 'Consumer Theory', and 'Externalities', which are foundational to consumption and production patterns.",
+      "score": 9.0,
+      "evidence": [
+        "Supply and Demand",
+        "Firm Behaviors",
+        "Consumer Theory"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "The topic of 'Externalities' could potentially include environmental externalities related to climate change, but this is not explicitly stated.",
+      "score": 3.0,
+      "evidence": [
+        "Externalities"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found in the course description directly addressing marine ecosystems, ocean health, or sustainable fisheries.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found in the course description directly addressing terrestrial ecosystems, biodiversity, or land degradation.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course examines 'Public Finance', 'Government Policies', and the 'Public Sector', which are relevant to understanding the economic role of institutions and governance.",
+      "score": 6.0,
+      "evidence": [
+        "Public Finance",
+        "Government Policies",
+        "Public Sector"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found in the course description directly addressing global partnerships, international cooperation, or means of implementation for development goals.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis aligns more with the syllabus; several SDGs warrant score adjustments to reflect explicit course topics.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 2.5,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Course explicitly lists Welfare Analysis, Inequality, and Labor Market as core topics relevant to poverty."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 8.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B's broader coverage (Labor Market, Firm Behaviors, Industrial Organization) better matches course content."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 8.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Inclusion of Firm Behaviors, Industrial Organizations, and Monopoly/Oligopoly more fully covers industry structure."
+      },
+      "Reduced Inequalities": {
+        "your_original": 9.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Course explicitly lists Inequality as a topic; aligns with greater emphasis."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 3.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "No explicit reference to urban sustainability; topics focus on externalities and public goods."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 6.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Foundations for consumption/production (Supply-Demand, Costs, Consumer Theory) align with course topics."
+      },
+      "Climate Action": {
+        "your_original": 0.001,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Externalities topic could include environmental externalities; aligns with climate-related implications."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Public Finance, Government Policies, Public Sector indicate governance relevance."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's stricter interpretation of explicit evidence for specific SDGs led to revisions for Good Health and Well-being and Climate Action, where my initial inferences were too broad.",
+    "revisions": {
+      "SDG_3 (Good Health and Well-being)": {
+        "your_original": 2.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model B's strict interpretation is more accurate; health is not a direct focus, making my inference too weak."
+      },
+      "SDG_13 (Climate Action)": {
+        "your_original": 3.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model B's strict interpretation is more accurate; 'Externalities' doesn't guarantee climate action discussion."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 9.0,
+      "source": "revised_b",
+      "reasoning": "Course explicitly covers inequality, welfare analysis, and labor markets; revisions converge on high poverty-reduction relevance (9.0). Aligns with SDG1 through distributional analysis and policy tools.",
+      "model_comparison": {
+        "model_a_original": 2.5,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_b_original",
+      "reasoning": "No explicit hunger/food-security focus in syllabus; SDG2 alignment is absent.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "Health is not an explicit focus; welfare/public sector mentions are tangential at best.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.001,
+      "source": "model_b_original",
+      "reasoning": "Syllabus does not focus on education systems; explicit SDG4 alignment is weak.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_b_original",
+      "reasoning": "No explicit gender-equality content; inequality is general, not SDG4-specific.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_b_original",
+      "reasoning": "No explicit water/sanitation content; lacks SDG6 alignment.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_b_original",
+      "reasoning": "No explicit energy topics; SDG7 alignment is not evident.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "Labor market, firm behavior, and IO strongly map to DWEG; revisions converge on 9.5.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "Firm behaviors, IO, and competition topics capture industry dynamics; 8.5 aligns with content.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "Inequality explicitly listed; highest alignment among revisions.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "revised_a",
+      "reasoning": "No explicit urban-sustainability focus; topics center on externalities and public goods.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "Foundations for consumption/production via supply-demand, costs, and consumer theory align well with course topics.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "Externalities mentioned but climate-action focus is not explicit; revisions reduce to 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_b_original",
+      "reasoning": "No explicit marine focus; SDG14 alignment not evident.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_b_original",
+      "reasoning": "No explicit terrestrial ecosystem focus; SDG15 alignment not evident.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.0,
+      "source": "revised_a",
+      "reasoning": "Public finance and government-policy topics indicate governance relevance; aligns with SDG16.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "model_b_original",
+      "reasoning": "Syllabus lacks explicit partnerships/means-of-implementation content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers 'Inequality', 'Welfare Analysis', and the 'Labor Market', which are fundamental economic topics directly relevant to understanding and addressing poverty.",
+      "model_comparison": {
+        "model_a_original": 2.5,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit reference to hunger, food security, or sustainable agriculture in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "While 'Welfare Analysis' and 'Public Sector' are covered, health outcomes are not a direct or explicit focus of the course, making any inference too weak.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course is an educational offering, but it does not explicitly focus on education systems, access, or learning quality as a topic of study for the students.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit reference to gender equality or related economic disparities in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit reference to clean water, sanitation, or related resource management in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit reference to energy, clean energy sources, or energy access in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "The course directly covers 'Labor Market', 'Firm Behaviors', and 'Industrial Organizations', which are central to understanding work, employment, and economic growth.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "Topics like 'Firm Behaviors', 'Industrial Organizations', 'Monopoly', 'Monopolistic Competition', and 'Oligopoly' are core to understanding industry structure and dynamics.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly lists 'Inequality' as a major topic to be analyzed, indicating a direct and strong alignment with this SDG.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "revised_a",
+      "reasoning": "While 'Public Goods and Common Resources' and 'Externalities' are covered, there is no explicit reference to urban development, sustainable communities, or city planning.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The course covers 'Supply and Demand', 'Firm Behaviors', 'Costs of Production', and 'Consumer Theory', which are foundational to understanding consumption and production patterns.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "The topic of 'Externalities' is broad; without explicit mention of environmental or climate-related externalities, a direct link to climate action is too speculative.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit reference to marine ecosystems, ocean health, or sustainable fisheries in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit reference to terrestrial ecosystems, biodiversity, or land degradation in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.0,
+      "source": "revised_a",
+      "reasoning": "The course examines 'Public Finance', 'Government Policies', and the 'Public Sector', which are relevant to understanding the economic role of institutions and governance.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit reference to global partnerships, international cooperation, or means of implementation for development goals in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    }
+  }
+}

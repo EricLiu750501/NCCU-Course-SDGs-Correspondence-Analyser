@@ -1,0 +1,677 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "The course states 'The goal of this class is to help you to understand what a data scientist does when he/she faces a data set'.",
+      "score": 4.5,
+      "evidence": [
+        "The goal of this class is to help you to understand what a data scientist does when he/she faces a data set.",
+        "讓學生對於統計方法研究及其於資料科學研究所扮演的角色有所認識。"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Mentions '對將來想要在深造，或在公司R&D部門的較合適' indicating industry R&D relevance.",
+      "score": 7.5,
+      "evidence": [
+        "對將來想要在深造，或在公司R&D部門的較合適。"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Includes '具備專業倫理之知能' and '嚴禁抄襲'.",
+      "score": 5.0,
+      "evidence": [
+        "具備專業倫理之知能",
+        "嚴禁抄襲。抄襲者以0分計算。"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "Includes '學生將分組處理資料，並自行討論訂定問題及回答問題的方向。' and '非同組成員，亦得提問，給建議或提供其他不同的資料分析考量。'",
+      "score": 4.0,
+      "evidence": [
+        "學生將分組處理資料，並自行討論訂定問題及回答問題的方向。",
+        "並輪流於課堂上報告，分析進度。",
+        "非同組成員，亦得提問，給建議或提供其他不同的資料分析考量。"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "The course itself is an educational offering focused on developing advanced statistical and data analysis skills, enhancing knowledge, and preparing students for further studies or R&D.",
+      "score": 10.0,
+      "evidence": [
+        "Learning from Data",
+        "To apply research methods to enhance knowledge",
+        "對將來想要在深造，或在公司R&D部門的較合適。"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course equips students with advanced data analysis skills and professional ethics, preparing them for R&D roles and contributing to economic growth.",
+      "score": 7.5,
+      "evidence": [
+        "對將來想要在深造，或在公司R&D部門的較合適。",
+        "具備專業倫理之知能 (To equip with knowledge of professional ethics)",
+        "熟悉統計計算與資料分析之能力"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course emphasizes developing advanced data analysis skills, statistical and computational tools, and refining methods for new applications, preparing students for R&D and innovation.",
+      "score": 8.0,
+      "evidence": [
+        "討論資料的可能應用",
+        "討論如何修正方法，得到更好的結果，或者修其可能的應用。",
+        "對將來想要在深造，或在公司R&D部門的較合適。"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course includes \"professional ethics\" and \"comprehensive ability of judgment and decision making\" as core competencies, which are foundational for strong institutions.",
+      "score": 4.5,
+      "evidence": [
+        "具備專業倫理之知能 (To equip with knowledge of professional ethics)",
+        "具備綜合判斷及決策之能力 (to equip with comprehensive ability of judgment and decision making)"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course emphasizes \"group work,\" \"teamwork and leadership ability,\" and \"communication skills,\" which are crucial for effective partnerships.",
+      "score": 5.0,
+      "evidence": [
+        "學生將分組處理資料",
+        "具備溝通技巧 (To equip with communication skills)",
+        "具備團隊合作與領導能力 (To equip with teamwork and leadership ability)"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's mappings align more closely with explicit course text on ethics, collaboration, and application focus; revisions reflect stronger evidence-based alignment.",
+    "revisions": {
+      "Quality Education": {
+        "your_original": 4.5,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Course emphasizes advanced statistical thinking and preparation for further study/R&D."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 7.5,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Explicit focus on applications and R&D relevance in line with course aims."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 5.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Ethics and anti-plagiarism policies tie to governance/integrity, aligning with SDG16."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 4.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Group work and teamwork/communication emphasized; supports partnerships."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more comprehensive reasoning for Quality Education, Decent Work, and Partnerships, leveraging core competencies and course goals more effectively. I will revise my scores to reflect these stronger connections.",
+    "revisions": {
+      "SDG_4 (Quality Education)": {
+        "your_original": 4.5,
+        "model_b_score": 4.5,
+        "your_revised": 10.0,
+        "reason": "Model A's reasoning is more comprehensive, recognizing the course itself as education and its explicit goals for advanced study and knowledge enhancement."
+      },
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 7.5,
+        "reason": "Model A correctly infers the link between developing advanced data analysis skills, professional ethics, and preparing students for R&D roles, contributing to economic growth."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 7.5,
+        "model_b_score": 7.5,
+        "your_revised": 8.0,
+        "reason": "Model A's reasoning better highlights the course's emphasis on discussing applications and refining methods, strengthening the innovation aspect."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 5.0,
+        "reason": "Model A's reasoning explicitly includes '具備溝通技巧' and '具備團隊合作與領導能力' from the core competencies, which are strong direct links to partnerships."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit link to poverty alleviation in the course; the syllabus centers on data science education, ethics, and collaboration.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit connection to hunger or food systems in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No health-focused objectives or health data applications in the syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "Course aims and descriptions center on understanding data science practice and preparing for advanced study/R&D, aligning with SDG4.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No gender-equality content or focus evident in course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No water/sanitation topics present in the syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No energy-related content in course outline.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "revised_b",
+      "reasoning": "Revisions link advanced data skills and ethics to readiness for R&D roles, supporting economic growth.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "Emphasis on discussing applications and refining methods, with R&D relevance, aligns with SDG9.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit linkage to inequality-focused outcomes in the syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No city/community-focused SDG aspects in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit links to consumption/production patterns in course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No climate action topics present in syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No aquatic life or ocean-related SDG content in course outline.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No terrestrial ecosystems focus in syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "Ethics knowledge and plagiarism policy reflect governance/integrity, aligning with SDG16.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "Group work, communication, and teamwork align with partnerships.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus links to poverty eradication.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus links to hunger or food security.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus links to health or well-being.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is an educational offering focused on developing advanced statistical and data analysis skills, enhancing knowledge, and preparing students for further studies or R&D, directly aligning with quality education.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus links to gender equality.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus links to clean water or sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus links to energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course equips students with advanced data analysis skills and professional ethics, preparing them for R&D roles, which contributes to decent work and economic growth.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course emphasizes developing advanced data analysis skills, statistical and computational tools, and refining methods for new applications, preparing students for R&D and innovation.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus links to reducing inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus links to sustainable cities or communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus links to responsible consumption or production.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus links to climate action.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus links to marine ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus links to terrestrial ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "The course explicitly includes 'professional ethics' and 'comprehensive ability of judgment and decision making' as core competencies, alongside a strict 'no plagiarism' policy, all foundational for justice, integrity, and strong institutions.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course emphasizes 'group work,' 'teamwork and leadership ability,' and 'communication skills' as core competencies, which are crucial for effective partnerships and collaboration.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    }
+  }
+}

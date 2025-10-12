@@ -1,0 +1,769 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "mentions 'waiting line analysis', 'quality control', and 'six-sigma' to manage service capacity and quality.",
+      "score": 4.5,
+      "evidence": [
+        "waiting line analysis",
+        "quality control",
+        "six-sigma"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "notes 'To understand the importance of productivity and competitiveness of an organization' and 'supply-chain management activities'.",
+      "score": 6.5,
+      "evidence": [
+        "To understand the importance of productivity and competitiveness of an organization.",
+        "supply-chain management activities"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Mentions 'IoT and ERP', 'Global Sourcing' and 'Lean Supply Chain'—key topics in modern industry and infrastructure.",
+      "score": 8.5,
+      "evidence": [
+        "The IoT and ERP",
+        "Global Sourcing; The IoT and ERP",
+        "Lean Supply Chain"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course focuses on operations and supply chain efficiency, which can indirectly contribute to economic activity and job creation, but does not directly address poverty alleviation.",
+      "score": 1.5,
+      "evidence": [
+        "productivity and competitiveness of an organization",
+        "operations management",
+        "supply-chain management activities"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found regarding food systems, agriculture, or hunger alleviation.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "Topics like 'quality control' and 'quality management practice' can indirectly contribute to product safety and well-being, but no specific health focus is mentioned.",
+      "score": 1.8,
+      "evidence": [
+        "quality control",
+        "quality management practice",
+        "total quality management"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "reason": "As a university course, it inherently provides professional education and aims to develop understanding and appreciation for operations management.",
+      "score": 4.0,
+      "evidence": [
+        "Develop an understanding of and an appreciation for the production and operations management function",
+        "Students will acquire and apply expertise in their respective fields."
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found regarding gender equality or empowerment.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found regarding water management, sanitation, or related infrastructure.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found regarding energy access, renewable energy, or energy efficiency.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Focuses on 'productivity and competitiveness' and 'operations management' which drive economic growth, and mentions 'social responsibility' in business situations.",
+      "score": 8.5,
+      "evidence": [
+        "productivity and competitiveness of an organization",
+        "operations management",
+        "social responsibility, and sustainability considerations of business situations"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Directly covers 'operations management', 'process design', 'manufacturing processes', 'IoT and ERP', and 'innovation' as a core competence.",
+      "score": 9.5,
+      "evidence": [
+        "operations management",
+        "process design",
+        "Manufacturing Processes",
+        "The IoT and ERP",
+        "Innovation methods, entrepreneurial approaches to manage change"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "Mentions 'social responsibility' and 'sustainability considerations of business situations', which can indirectly relate to fair practices, but no direct focus on inequality reduction.",
+      "score": 1.2,
+      "evidence": [
+        "social responsibility, and sustainability considerations of business situations"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "Topics like 'Facility Layout' and 'Logistics and Distribution Management' can contribute to efficient resource use and planning within communities.",
+      "score": 3.5,
+      "evidence": [
+        "Facility Layout",
+        "Logistics and Distribution Management",
+        "sustainability considerations of business situations"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "Emphasizes 'Lean Supply Chain', 'Inventory Management', and 'quality control' for efficiency and waste reduction, and explicitly mentions 'sustainability considerations'.",
+      "score": 9.0,
+      "evidence": [
+        "Lean Supply Chain",
+        "Inventory Management",
+        "quality control",
+        "sustainability considerations of business situations"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "Mentions 'sustainability considerations of business situations', which broadly includes environmental impact, but no specific focus on climate action is detailed.",
+      "score": 2.5,
+      "evidence": [
+        "sustainability considerations of business situations"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found regarding marine ecosystems or ocean conservation.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found regarding terrestrial ecosystems, biodiversity, or land management.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Core competence B includes 'ethics' and 'social responsibility' in business, which are foundational to good governance and fair practices.",
+      "score": 3.0,
+      "evidence": [
+        "ethics, social responsibility, and sustainability considerations of business situations"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "reason": "'Supply-chain management activities' and 'Global Sourcing' inherently involve collaboration, and 'Teamwork and leadership skills' are a core competence.",
+      "score": 5.5,
+      "evidence": [
+        "supply-chain management activities",
+        "Global Sourcing",
+        "Teamwork and leadership skills"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's reasoning aligns more closely with the course text; revised several SDG scores to reflect explicit topics like quality, IoT/ERP, sustainability, and governance.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 4.5,
+        "model_b_score": 1.8,
+        "your_revised": 1.8,
+        "reason": "No direct health focus; course emphasizes quality management and capacity in operations."
+      },
+      "Quality Education": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Course content mirrors university education; clearly linked to professional learning."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.5,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's link to productivity, competitiveness, and sustainability aligns better with course emphasis."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 8.5,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "IoT/ERP, Lean, and innovation topics are explicit in syllabus."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 1.2,
+        "your_revised": 1.2,
+        "reason": "Core competence includes ethics and sustainability; linked to inequality considerations."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.001,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Facility layout, logistics, and sustainability align with community resource efficiency."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.001,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Lean, inventory management, quality control, and sustainability align with sustainable production."
+      },
+      "Climate Action": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Sustainability considerations include environmental impact; explicit climate action focus is not stated."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Ethics and social responsibility in core competence relate to governance and fairness."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Supply-chain collaboration and teamwork in course indicate partnerships."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis is more comprehensive, identifying several explicit and inferred links I missed, particularly regarding core competencies and specific course topics like sustainability and ethics.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model A correctly infers that operations efficiency and job creation indirectly contribute to poverty reduction."
+      },
+      "Quality Education": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A correctly identifies that as a university course, it inherently provides professional education and expertise."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.5,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A's inclusion of 'social responsibility' from core competence B strengthens the link to decent work."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 8.5,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model A's reasoning is more comprehensive, explicitly including 'innovation' as a core competence and other relevant topics."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 1.2,
+        "your_revised": 1.2,
+        "reason": "Model A correctly infers a link from 'social responsibility' and 'sustainability considerations' to fair practices."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.001,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model A correctly identifies that 'Facility Layout' and 'Logistics and Distribution Management' contribute to efficient resource use."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.001,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A correctly highlights 'Lean Supply Chain', 'Inventory Management', and 'sustainability considerations' as strong evidence."
+      },
+      "Climate Action": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A correctly infers a link from 'sustainability considerations of business situations' to environmental impact."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model A correctly identifies 'ethics' and 'social responsibility' from core competence B as foundational to this SDG."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model A correctly identifies 'supply-chain management', 'Global Sourcing', and 'Teamwork and leadership skills' as direct evidence."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.5,
+      "source": "revised_b",
+      "reasoning": "Indirect poverty reduction via productivity gains and job creation in supply chains; aligns with SDG1 through economic growth.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No explicit links to hunger/food systems in course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.8,
+      "source": "revised_b",
+      "reasoning": "Health not explicit; quality control and capacity management influence safety and wellbeing indirectly.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 1.8,
+        "model_b_original": 1.8,
+        "model_b_revised": 1.8
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.0,
+      "source": "revised_b",
+      "reasoning": "Course inherently provides university-level education; outcomes align with professional learning.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No evidence of gender equality or empowerment in course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No content related to water, sanitation, or related infrastructure.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No explicit energy access or efficiency topics.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "revised_b",
+      "reasoning": "Productivity, competitiveness and sustainability align with DWEG and business ethics.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.5,
+      "source": "revised_b",
+      "reasoning": "IoT/ERP, Lean, and innovation present; aligns with SDG11/SDG9 definitions.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 1.2,
+      "source": "revised_b",
+      "reasoning": "Ethics and sustainability imply fair practices; indirect link to inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.2,
+        "model_b_original": 1.2,
+        "model_b_revised": 1.2
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 3.5,
+      "source": "revised_b",
+      "reasoning": "Facility layout, logistics, and sustainability tie to efficient urban resource use.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 9.0,
+      "source": "revised_b",
+      "reasoning": "Lean, inventory management, quality control, and sustainability align with sustainable production.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 2.5,
+      "source": "revised_b",
+      "reasoning": "Sustainability considerations imply environmental impact; not climate-specific.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No marine focus in course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No land/biodiversity focus in course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 3.0,
+      "source": "revised_b",
+      "reasoning": "Core competence B includes ethics and social responsibility; governance and fair practices.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.5,
+      "source": "revised_b",
+      "reasoning": "Supply-chain management, global sourcing, and teamwork evidence indicate partnerships.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.5,
+      "source": "revised_a",
+      "reasoning": "Operations efficiency and competitiveness can indirectly foster economic activity and job creation, contributing marginally to poverty reduction, though not a direct focus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the syllabus regarding food systems, agriculture, nutrition, or hunger alleviation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.8,
+      "source": "revised_a",
+      "reasoning": "While quality control and waiting line analysis can indirectly improve service delivery, the course lacks a direct focus on health outcomes or well-being.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 1.8,
+        "model_b_original": 1.8,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.0,
+      "source": "revised_a",
+      "reasoning": "As a university course, its fundamental purpose is to provide quality professional education, aligning with Core Competency A on acquiring expertise.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the syllabus regarding gender equality or empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the syllabus regarding clean water, sanitation, or related infrastructure.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the syllabus regarding affordable and clean energy or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The course directly addresses productivity, competitiveness, and operations management, which are drivers of economic growth. Core Competency B includes social responsibility, linking to decent work.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "The course directly covers operations management, manufacturing processes, process design, IoT/ERP, lean supply chains, and innovation (Core Competency C), strongly aligning with this SDG.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 1.2,
+      "source": "revised_a",
+      "reasoning": "Core Competency B's focus on ethics and social responsibility in business situations provides an indirect, foundational link to fair practices that can reduce inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.2,
+        "model_b_original": 1.2,
+        "model_b_revised": 1.2
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 3.5,
+      "source": "revised_a",
+      "reasoning": "Topics like 'Facility Layout' and 'Logistics and Distribution Management', combined with 'sustainability considerations', contribute to efficient resource use and planning relevant to communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The course directly addresses 'Lean Supply Chain', 'Inventory Management', 'Quality Management', and 'sustainability considerations', all central to responsible production and consumption.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 2.5,
+      "source": "revised_a",
+      "reasoning": "Core Competency B's mention of 'sustainability considerations' broadly encompasses environmental impact, providing an indirect link to climate action, though not a direct focus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the syllabus regarding marine ecosystems or ocean conservation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the syllabus regarding terrestrial ecosystems, biodiversity, or land management.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 3.0,
+      "source": "revised_a",
+      "reasoning": "Core Competency B's emphasis on 'ethics' and 'social responsibility' in business provides a foundational, indirect link to good governance and fair practices.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.5,
+      "source": "revised_a",
+      "reasoning": "'Supply-chain management activities', 'Global Sourcing', and 'Teamwork and leadership skills' (Core Competency E) all emphasize collaboration and partnerships essential for achieving goals.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    }
+  }
+}

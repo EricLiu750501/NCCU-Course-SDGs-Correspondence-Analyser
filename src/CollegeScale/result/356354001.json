@@ -1,0 +1,654 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "mentions '熟悉資訊安全概念', '學習並實作常見企業資訊安全作業流程', '了解國際資訊安全法規、技術及產業趨勢'",
+      "score": 7.5,
+      "evidence": [
+        "熟悉資訊安全概念",
+        "學習並實作常見企業資訊安全作業流程",
+        "了解國際資訊安全法規、技術及產業趨勢"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "mentions '雲端發展趨勢與資安控管', '工業控制系統資安之挑戰', '網路與雲端安全管理準則與實務探討'",
+      "score": 8.0,
+      "evidence": [
+        "雲端發展趨勢與資安控管",
+        "工業控制系統資安之挑戰",
+        "網路與雲端安全管理準則與實務探討"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "mentions '資訊安全法令法規與趨勢', '隱私保護管理準則與實務探討', '資安危機應變演練'",
+      "score": 8.0,
+      "evidence": [
+        "資訊安全法令法規與趨勢",
+        "隱私保護管理準則與實務探討",
+        "資安危機應變演練"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "mentions '透過業師講授了解現今企業如何實踐資訊安全'",
+      "score": 7.5,
+      "evidence": [
+        "透過業師講授了解現今企業如何實踐資訊安全"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "The course is an educational offering and mentions 'remote teaching' and 'learning environment' in the context of information security.",
+      "score": 4.5,
+      "evidence": [
+        "遠距教學",
+        "學習及工作環境",
+        "讓同學了解何謂資訊安全"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course focuses on information security for 'enterprises' and 'corporate practices,' supporting 'operations management innovation' and 'social responsibility' in the business context.",
+      "score": 7.5,
+      "evidence": [
+        "現今企業如何實踐資訊安全",
+        "資訊科技之整用與經營管理創新能力",
+        "企業社會責任"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course directly addresses 'network technology,' 'IoT devices,' 'cloud development,' 'industrial control system security,' and 'digital identity,' which are critical for resilient infrastructure and innovation.",
+      "score": 9.5,
+      "evidence": [
+        "網路科技的演進",
+        "物聯網裝置日漸普及",
+        "工業控制系統資安之挑戰",
+        "數位身分(Digital Identity)風險與挑戰"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "The course mentions 'Respect Copyright. Must use genuine books,' which relates to ethical consumption of intellectual property.",
+      "score": 1.5,
+      "evidence": [
+        "維護智慧財產權，務必使用正版書籍"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course covers 'information security laws and regulations,' 'privacy protection management guidelines,' and 'security resilience and crisis handling,' which are vital for strong institutions and justice.",
+      "score": 8.0,
+      "evidence": [
+        "資訊安全法令法規與趨勢",
+        "隱私保護管理準則與實務探討",
+        "資安韌性及危機處理",
+        "國際資訊安全法規"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course emphasizes 'international information security trends' and 'regulations,' and 'international communication and coordination abilities,' which are foundational for global cooperation.",
+      "score": 4.0,
+      "evidence": [
+        "國際資安趨勢",
+        "國際資訊安全法規",
+        "國際化溝通協調能力"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B’s reasoning better aligns with course content on infrastructure and IP ethics; I revise those scores accordingly.",
+    "revisions": {
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 8.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Course text covers cloud, IoT, ICS security and digital identity, expanding infrastructure and innovation scope."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.001,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Copyright/responsible use of intellectual property appears in course guidance."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided stronger explicit evidence for Quality Education, leading me to revise my score upwards. For other SDGs, my original analysis was more comprehensive or accurate.",
+    "revisions": {
+      "SDG_4 (Quality Education)": {
+        "your_original": 4.5,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model A's explicit evidence from learning outcomes better reflects the course's direct contribution to quality education."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit course content links to poverty alleviation; information security focus dominates.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Course lacks food-security or hunger-reduction context; only IT security topics present.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit health-related objectives or content; focus is information security.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "revised_a",
+      "reasoning": "Course objectives explicitly include security concepts, practical workflows, and international regulations, aligning with SDG4.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence addressing gender equality in course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No course content on water or sanitation topics.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit link to energy access or efficiency topics in syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Course focus is security practices; indirect business impact is not explicit for SDG8.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "Course covers cloud, IoT, ICS security, and digital identity, expanding infrastructure and innovation scope.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit inequality-focused content in syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit urban-sustainability content in course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 1.5,
+      "source": "revised_a",
+      "reasoning": "Explicit IP copyright guidance demonstrates responsible use of intellectual property.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No climate-related objectives or content in course outline.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No marine ecosystem content present.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No terrestrial ecosystems content in syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "model_a",
+      "reasoning": "Content covers information security laws, privacy guidelines, and crisis handling relevant to institutions.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.5,
+      "source": "model_a",
+      "reasoning": "Industry collaboration via guest instructors and practical security exercises reflect partnerships.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence in the course syllabus supports a connection to eradicating poverty.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence in the course syllabus supports a connection to ending hunger.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence in the course syllabus supports a connection to health and well-being.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "revised_b",
+      "reasoning": "The course directly contributes to quality education through its explicit learning outcomes: 'familiarity with information security concepts,' 'practical application of enterprise security processes,' and 'understanding international regulations and trends.'",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence in the course syllabus supports a connection to gender equality.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence in the course syllabus supports a connection to clean water and sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence in the course syllabus supports a connection to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course focuses on enterprise information security practices, fostering 'operations management innovation' and 'social responsibility,' which directly contribute to productive employment and economic growth.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "The course extensively covers 'network technology,' 'IoT devices,' 'cloud development,' 'industrial control system security,' and 'digital identity,' all critical components of resilient infrastructure and innovation.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence in the course syllabus supports a connection to reducing inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence in the course syllabus supports a connection to sustainable cities and communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 1.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly mentions 'Respect Copyright. Must use genuine books,' which directly relates to responsible consumption of intellectual property.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence in the course syllabus supports a connection to climate action.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence in the course syllabus supports a connection to life below water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence in the course syllabus supports a connection to life on land.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course directly addresses 'information security laws and regulations,' 'privacy protection management guidelines,' and 'security resilience and crisis handling,' which are vital for robust governance and institutional strength.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.5,
+      "source": "model_a",
+      "reasoning": "The course explicitly involves 'industry expert lectures' ('業師講授') to understand enterprise security, representing a direct partnership for achieving educational goals.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

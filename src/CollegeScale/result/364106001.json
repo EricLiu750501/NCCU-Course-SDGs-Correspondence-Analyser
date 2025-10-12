@@ -1,0 +1,705 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "mentions '健康' within '教育、文化、健康與區域永續等不同領域'",
+      "score": 5.0,
+      "evidence": [
+        "教育、文化、健康與區域永續等不同領域",
+        "健康與區域永續"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "mentions '教育' within '教育、文化、健康與區域永續等不同領域'",
+      "score": 6.0,
+      "evidence": [
+        "教育、文化、健康與區域永續等不同領域",
+        "健康與區域永續"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "mentions '科技創新管理' and '平台型企業與創新生態系統' and '社會企業與創新'",
+      "score": 7.5,
+      "evidence": [
+        "科技創新管理",
+        "平台型企業與創新生態系統",
+        "社會企業與創新"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "course centers on '科技創新管理' and '創新生態系統'",
+      "score": 9.8,
+      "evidence": [
+        "科技創新管理",
+        "創新生態系統",
+        "數位創新"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "mentions '區域永續' and '永續轉型與創新'",
+      "score": 6.0,
+      "evidence": [
+        "區域永續",
+        "永續轉型與創新"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "inferred from '永續轉型與創新' (sustainability transformation)",
+      "score": 1.0,
+      "evidence": [
+        "永續轉型與創新"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "mentions group work ('同學(兩人一組)') and collaborative discussion ('共同思考本周課程設定的討論問題')",
+      "score": 5.0,
+      "evidence": [
+        "同學(兩人一組)在每週上課前至少熟讀一至二篇指定教材，準備一個和文選相關的個案，並完成簡報PPT（以八張為原則）在課堂分享。",
+        "所有同學共同思考本周課程設定的討論問題，在課堂中進行交流。"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course mentions '社會企業與創新' (social enterprises and innovation) and '共善' (common good), which can indirectly contribute to poverty reduction.",
+      "score": 3.5,
+      "evidence": [
+        "社會企業與創新",
+        "共善"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "The '人文創新' (humanistic innovation) section explicitly includes '健康' (health) as a key area of exploration.",
+      "score": 7.5,
+      "evidence": [
+        "健康"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "The '人文創新' (humanistic innovation) section explicitly includes '教育' (education) as a key area of exploration.",
+      "score": 7.5,
+      "evidence": [
+        "教育"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course focuses on '科技與創新管理' and '產業應用', which are fundamental to economic growth and creating new work opportunities.",
+      "score": 8.0,
+      "evidence": [
+        "科技與創新管理",
+        "產業應用或實例",
+        "科技/新產品/新服務/數位創新"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course title is 'Technology & Innovation Management' and extensively covers '科技創新', '創新類型', '平台型企業與創新生態系統', and '數位創新'.",
+      "score": 10.0,
+      "evidence": [
+        "科技與創新管理",
+        "科技創新",
+        "創新類型",
+        "平台型企業與創新生態系統",
+        "數位創新"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "'人文創新' emphasizes '人本、實創與共善' and discusses '社會企業與創新', which often aim to address societal disparities.",
+      "score": 4.5,
+      "evidence": [
+        "人本、實創與共善",
+        "社會企業與創新"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "'人文創新' explicitly includes '區域永續' (regional sustainability) and the course discusses '永續轉型與創新' (sustainable transformation and innovation).",
+      "score": 7.0,
+      "evidence": [
+        "區域永續",
+        "永續轉型與創新"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "The course mentions '社會責任與永續議題' and '永續轉型與創新', implying a focus on more sustainable practices in innovation.",
+      "score": 5.5,
+      "evidence": [
+        "社會責任與永續議題",
+        "永續轉型與創新"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "reason": "The course mentions '社會責任與永續議題' and '永續轉型與創新', which are broad terms that could encompass climate action, but it's not explicitly stated.",
+      "score": 2.5,
+      "evidence": [
+        "社會責任與永續議題",
+        "永續轉型與創新"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No direct evidence found regarding peace, justice, or strong institutions, beyond a general mention of '社會責任'.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course discusses '平台型企業與創新生態系統', implying collaboration, and '社會責任與永續議題' can involve partnerships for broader goals.",
+      "score": 3.0,
+      "evidence": [
+        "平台型企業與創新生態系統",
+        "社會責任與永續議題"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's reasoning aligns more with course text for several SDGs; revise accordingly.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Course mentions '社會企業與創新' and '共善', enabling poverty-alleviation implications."
+      },
+      "Good Health and Well-being": {
+        "your_original": 5.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Course explicitly includes health under '人文創新' as a key area."
+      },
+      "Quality Education": {
+        "your_original": 6.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Course explicitly includes education under '人文創新' as a key area."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 7.5,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Text discusses economic aspects via tech management and industry applications; aligns with growth."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 9.8,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Course title and content center on technology/innovation with ecosystems and infrastructure; 10.0 aligns."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Human-centered '人文創新' and '社會企業與創新' address inequalities."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 6.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Explicit '區域永續' and '永續轉型與創新' in course; 7.0 aligns."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.001,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Social responsibility and sustainability topics imply responsible consumption/production."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 5.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Ecosystems and collaboration implicit in course content; aligns with partnerships context."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "No revisions needed. Model B's analysis aligns with mine, or my original reasoning is more accurate based on the course text and SDG intent.",
+    "revisions": {}
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 3.5,
+      "source": "revised_a",
+      "reasoning": "Course cites '社會企業與創新' and '共善', suggesting potential social impact on poverty; explicit poverty alleviation is not stated.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No explicit or indirect evidence connects course content to hunger; hunger-specific topics are not addressed in the syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 7.5,
+      "source": "revised_a",
+      "reasoning": "Course explicitly includes health under '人文創新' as a key focus.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "revised_a",
+      "reasoning": "Education is explicitly listed under '人文創新' in the course, aligning with SDG4.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No mention of gender-focused content; no direct evidence in the syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No explicit water/sanitation topics in course statements.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No explicit energy topics; course focuses on innovation and sustainability.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "Text discusses tech management and industry applications, aligning with growth; revised upward from 7.5.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "Course centers on technology/innovation ecosystems and infrastructure; aligns with SDG9.",
+      "model_comparison": {
+        "model_a_original": 9.8,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "Human-centered '人文創新' and '社會企業與創新' address inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 7.0,
+      "source": "revised_a",
+      "reasoning": "Explicit '區域永續' and '永續轉型與創新' in course.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.5,
+      "source": "revised_a",
+      "reasoning": "Social responsibility and sustainability topics imply responsible production/consumption.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 1.0,
+      "source": "model_a",
+      "reasoning": "No explicit climate action; sustainability mentions present but not specific.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No explicit content related to life below water in the course.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No explicit content related to life on land in the course.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No direct evidence on peace/justice/strong institutions beyond general governance themes.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 3.0,
+      "source": "revised_a",
+      "reasoning": "Ecosystems and collaboration implicit in course content; aligns with SDG17.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 3.5,
+      "source": "model_b",
+      "reasoning": "The course mentions '社會企業與創新' (social enterprises and innovation) and '共善' (common good), which are directly relevant to addressing poverty and promoting inclusive development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to hunger or food security was found in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The '人文創新' (humanistic innovation) section explicitly lists '健康' (health) as a key area of exploration, indicating a direct and significant focus.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The '人文創新' (humanistic innovation) section explicitly lists '教育' (education) as a key area of exploration, demonstrating a direct and significant focus.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to gender equality was found in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to clean water or sanitation was found in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to affordable and clean energy was found in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on '科技與創新管理' and '產業應用', which are fundamental drivers of economic growth and the creation of new, decent work opportunities through innovation.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course title 'Technology & Innovation Management' and its core content, including '科技創新', '創新類型', '平台型企業與創新生態系統', and '數位創新', directly align with this SDG.",
+      "model_comparison": {
+        "model_a_original": 9.8,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The '人文創新' emphasis on '人本、實創與共善' (human-centered, practical creation, common good) and '社會企業與創新' (social enterprises and innovation) inherently aims to address societal disparities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly includes '區域永續' (regional sustainability) as part of humanistic innovation and discusses '永續轉型與創新' (sustainable transformation and innovation).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course's core competency '理解並運用社會責任與永續議題' (social responsibility and sustainability considerations) and '永續轉型與創新' imply a focus on sustainable practices in innovation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "While not explicit, '社會責任與永續議題' and '永續轉型與創新' are broad terms that encompass environmental concerns, including potential climate action, justifying a low inferred score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to marine life or aquatic ecosystems was found in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to terrestrial ecosystems or biodiversity was found in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No direct evidence regarding peace, justice, or strong institutions was found, beyond a general mention of '社會責任' which is too broad.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course discusses '平台型企業與創新生態系統' (platform enterprises and innovation ecosystems) and '社會責任與永續議題', implying broader collaborations and partnerships for achieving societal goals.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

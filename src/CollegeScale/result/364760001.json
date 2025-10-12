@@ -1,0 +1,796 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "mentions '健康照護食農' and '有機農業' in final-project topics",
+      "score": 4.5,
+      "evidence": [
+        "健康照護食農",
+        "有機農業"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "reason": "includes '健康照護食農' and '疫苗' and '我們老了' as final project topics",
+      "score": 5.0,
+      "evidence": [
+        "健康照護食農",
+        "疫苗",
+        "我們老了"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "features '教育學習運動' and '理論與實務個案的研讀討論' and '田野調查' in learning objectives",
+      "score": 8.5,
+      "evidence": [
+        "教育學習運動",
+        "理論與實務個案的研讀討論",
+        "田野調查"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "mentions '嘗試同時兼顧經濟發展、社會進步與環境保護三者，是當前企業經營的核心課題。'",
+      "score": 6.5,
+      "evidence": [
+        "嘗試同時兼顧經濟發展、社會進步與環境保護三者，是當前企業經營的核心課題。"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "references '創新典範的演化' and '創新案例分享' and '理論與實務個案的研讀討論'",
+      "score": 9.0,
+      "evidence": [
+        "創新典範的演化",
+        "創新案例分享",
+        "理論與實務個案的研讀討論"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "mentions '區域（永續）創新' and '地方旅遊生活' and '華山文創園區 & 松菸文創園區'",
+      "score": 7.5,
+      "evidence": [
+        "區域（永續）創新",
+        "地方旅遊生活",
+        "華山文創園區 & 松菸文創園區"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "mentions carbon management and supply chain/ESG reporting; explicit phrases",
+      "score": 8.0,
+      "evidence": [
+        "碳盤查、碳中和、淨零等永續發展管理",
+        "供應商責任 － Apple",
+        "ESG永續報告書實務分析"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "mentions carbon management and related policies",
+      "score": 9.0,
+      "evidence": [
+        "碳盤查、碳中和、淨零等永續發展管理",
+        "碳交易機制與碳稅／碳費 CBAM對企業的影響"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "mentions '生態系統' and '掌握人文生態系統的分析架構'",
+      "score": 3.0,
+      "evidence": [
+        "掌握人文生態系統的分析架構"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "mentions governance topics such as '公司治理(G)' and 'Corporate Governance 3.0'",
+      "score": 7.0,
+      "evidence": [
+        "公司治理(G)",
+        "Corporate Governance 3.0"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "mentions '可以結合企業資源與民間友人共同完成，產生社會影響力' and '社會永續發展的脈絡'",
+      "score": 9.0,
+      "evidence": [
+        "此一提案希望能正面回應社會永續發展的脈絡，可以結合企業資源與民間友人共同完成，產生社會影響力。"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course emphasizes 'social common good' and 'social impact,' and includes 'rural education' in case studies, which can indirectly contribute to poverty reduction.",
+      "score": 3.5,
+      "evidence": [
+        "社會共善",
+        "產生社會影響力",
+        "偏鄉教育"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "The course includes 'Health care and agri-food' and 'organic agriculture' as case study topics, directly relating to food production and systems.",
+      "score": 5.5,
+      "evidence": [
+        "健康照護食農",
+        "有機農業"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "reason": "The course explicitly mentions 'Health care and agri-food,' 'elderly care/intergenerational co-creation/elderly and child care,' and 'smart living' as case study topics.",
+      "score": 7.5,
+      "evidence": [
+        "健康照護食農",
+        "芬蘭養老/青銀共創/老幼共照",
+        "智慧生活"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "The course explicitly lists 'Education learning movement' and 'rural education' as case study topics, including various educational innovations and platforms.",
+      "score": 8.0,
+      "evidence": [
+        "教育學習運動",
+        "偏鄉教育",
+        "數位教學平臺"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "The course discusses 'carbon neutrality,' 'net zero,' and a 'zero-carbon future,' which strongly implies a shift towards clean and affordable energy sources.",
+      "score": 4.5,
+      "evidence": [
+        "碳中和",
+        "淨零",
+        "零碳未來"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course directly addresses 'economic development,' 'corporate sustainable development,' 'corporate sustainable supply chain management,' and the balance between 'profit and purpose' for enterprises.",
+      "score": 8.5,
+      "evidence": [
+        "經濟發展",
+        "企業永續發展",
+        "企業永續供應鏈管理實務",
+        "營利或非營利事業"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Innovation is a core theme, with explicit mentions of 'humanities innovation,' 'institutional (social) innovation,' 'life (industrial) innovation,' and 'regional (sustainable) innovation.'",
+      "score": 10.0,
+      "evidence": [
+        "人文創新與永續發展",
+        "企業創新",
+        "科技創新",
+        "人文創新"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "The course emphasizes 'social common good' and 'social impact,' and includes 'rural education' and 'elderly care/intergenerational co-creation/elderly and child care' as case studies, which can address disparities.",
+      "score": 4.0,
+      "evidence": [
+        "社會共善",
+        "產生社會影響力",
+        "偏鄉教育",
+        "芬蘭養老/青銀共創/老幼共照"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "The course focuses on 'local creation,' 'regional (sustainable) innovation,' and includes case studies like 'Hua Shan Cultural and Creative Park' and 'smart living,' directly relating to sustainable urban and community development.",
+      "score": 8.5,
+      "evidence": [
+        "在地創生",
+        "區域（永續）創新",
+        "華山文創園區 & 松菸文創園區",
+        "智慧生活、Ubike、共享單車"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "The course explicitly covers 'corporate sustainable supply chain management practices,' 'ESG sustainable reporting practices,' and 'green design,' which are central to responsible consumption and production.",
+      "score": 8.0,
+      "evidence": [
+        "企業永續供應鏈管理實務",
+        "ESG永續報告書實務分析",
+        "綠色設計"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "The course extensively covers 'environmental protection,' 'carbon inventory, carbon neutrality, net zero,' 'carbon trading mechanisms,' and the concept of a 'zero-carbon future.'",
+      "score": 9.5,
+      "evidence": [
+        "環境保護",
+        "碳盤查、碳中和、淨零",
+        "零碳未來",
+        "碳交易機制與碳稅／碳費 CBAM對企業的影響"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "The course discusses the 'entire ecosystem' and 'human-ecological system analysis framework,' and includes 'environmental ecological protection' and 'organic agriculture.'",
+      "score": 5.0,
+      "evidence": [
+        "整個生態系統",
+        "人文生態系統的分析架構",
+        "環境生態保護",
+        "有機農業"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course mentions 'institutional (social) innovation' and 'corporate governance (G),' and emphasizes 'social responsibility,' which can contribute to strong institutions.",
+      "score": 3.0,
+      "evidence": [
+        "體制(社會)創新",
+        "公司治理(G)",
+        "社會責任"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course promotes 'complementary co-creation,' encourages combining 'corporate resources with private friends,' and develops 'teamwork ability,' all fostering partnerships.",
+      "score": 6.5,
+      "evidence": [
+        "互補共創",
+        "結合企業資源與民間友人共同完成",
+        "團隊合作能力"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's reasoning supports stronger alignment for several SDGs; revised some scores to reflect course-text evidence.",
+    "revisions": {
+      "Zero Hunger": {
+        "your_original": 4.5,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Direct inclusion of health/food systems and organic agriculture in course materials."
+      },
+      "Good Health and Well-being": {
+        "your_original": 5,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Explicit case topics include health care, elderly care, and smart living."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.001,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Course discusses carbon neutrality/zero-carbon future and related management."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.5,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Course covers economic development and corporate sustainability, supply chains, profit–purpose balance."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 9,
+        "model_b_score": 10,
+        "your_revised": 10,
+        "reason": "Innovation is core; explicit mentions of humanities innovation and platform ecosystems."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 4,
+        "your_revised": 4,
+        "reason": "Emphasizes social good, rural education, and elderly care; potential impact on inequalities."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 7.5,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Local/regional sustainable innovation and case studies (Hua Shan & 松菸; smart living)."
+      },
+      "Climate Action": {
+        "your_original": 9,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Covers carbon management, carbon neutrality, net zero, and carbon policies."
+      },
+      "Life on Land": {
+        "your_original": 3,
+        "model_b_score": 5,
+        "your_revised": 5,
+        "reason": "Mentions ecosystem, environmental protection, and organic agriculture."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 7,
+        "model_b_score": 3,
+        "your_revised": 3,
+        "reason": "Evidence centers on governance terms; less direct alignment with peace/justice."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more comprehensive inferred and explicit evidence for several SDGs, leading to a more accurate overall assessment. Revisions are made to reflect this.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 3.5,
+        "reason": "Model A's inference from 'rural education' and 'social common good' is a reasonable, indirect link to poverty reduction, which I overlooked."
+      },
+      "SDG_3 (Good Health and Well-being)": {
+        "your_original": 5.0,
+        "model_b_score": 5.0,
+        "your_revised": 7.5,
+        "reason": "Model A included broader explicit evidence like 'elderly care/intergenerational co-creation' and 'smart living,' which better capture well-being."
+      },
+      "SDG_4 (Quality Education)": {
+        "your_original": 8.5,
+        "model_b_score": 8.5,
+        "your_revised": 8.0,
+        "reason": "Model A's evidence ('偏鄉教育', '數位教學平臺') is more directly aligned with the content and access aspects of quality education."
+      },
+      "SDG_7 (Affordable and Clean Energy)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 4.5,
+        "reason": "Model A's inference from 'carbon neutrality,' 'net zero,' and 'zero-carbon future' strongly implies a shift to clean energy."
+      },
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 6.5,
+        "model_b_score": 6.5,
+        "your_revised": 8.5,
+        "reason": "Model A provided more comprehensive explicit evidence, including 'corporate sustainable development' and 'supply chain management,' for this SDG."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 4.0,
+        "reason": "Model A's inference from 'rural education' and 'elderly care/intergenerational co-creation' is a valid link to reducing disparities."
+      },
+      "SDG_15 (Life on Land)": {
+        "your_original": 3.0,
+        "model_b_score": 3.0,
+        "your_revised": 5.0,
+        "reason": "Model A included more comprehensive explicit evidence like 'entire ecosystem,' 'environmental protection,' and 'organic agriculture.'"
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 3.5,
+      "source": "revised_b",
+      "reasoning": "Course notes imply social impact and rural education influence poverty, aligning with SDG1; Model B's revised assessment corroborates indirect poverty reduction potential.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 5.5,
+      "source": "revised_b",
+      "reasoning": "Explicit inclusion of health/food systems and organic agriculture supports hunger-related outcomes; B's revision aligns with course content.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 7.5,
+      "source": "revised_b",
+      "reasoning": "Health care, elderly care, and smart living topics explicitly appear; aligns well with SDG3 indicators.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "model_a",
+      "reasoning": "Education learning movement, rural education, and case-based pedagogy clearly map to SDG4; A's higher score reflects stronger alignment.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Course materials show no explicit gender-equality initiatives beyond general governance topics.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit water/sanitation content present in the course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 4.5,
+      "source": "revised_b",
+      "reasoning": "Carbon neutrality, net-zero, and related energy discourse in course materials support SDG7.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "revised_b",
+      "reasoning": "Course addresses economic development, corporate sustainability, and supply chains; revision aligns with comprehensive DWEG factors.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "revised_b",
+      "reasoning": "Innovation central to the syllabus; explicit references to humanities/organizational innovation and ecosystems justify top score.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.0,
+      "source": "revised_b",
+      "reasoning": "Rural education and eldercare components point to inequality reduction; B's revision captures this potential.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.5,
+      "source": "revised_b",
+      "reasoning": "Local/regional sustainable innovation and case studies (Hua Shan, Songshan) align with SDG11; B's revision supports this level.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "Course explicit on supply chains, ESG reporting, and green design; B's explicit alignment supports SDG12.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 9.5,
+      "source": "revised_b",
+      "reasoning": "Comprehensive coverage of environmental protection, carbon accounting, net-zero policies; strong SDG13 alignment.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit aquatic ecosystem content in course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 5.0,
+      "source": "revised_b",
+      "reasoning": "Ecosystem focus, environmental protection, and organic agriculture align SDG15; B's revision supports 5.0.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 3.0,
+      "source": "revised_b",
+      "reasoning": "Governance terms appear, but direct peace/justice alignment is limited; SDG16 alignment remains modest.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.0,
+      "source": "model_a",
+      "reasoning": "Highlights of public-private collaboration and community co-creation; strong partnerships evident in course aims.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": null,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 3.5,
+      "source": "model_b",
+      "reasoning": "Model B's original analysis correctly infers a link through 'social common good,' 'social impact,' and 'rural education' case studies, which indirectly address poverty reduction. Model A initially missed this connection.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 5.5,
+      "source": "revised_a",
+      "reasoning": "Both models identified '健康照護食農' and '有機農業' as explicit evidence. Model B's original score of 5.5 was more appropriate, and Model A's revision to match it reflects this strong, direct alignment.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 7.5,
+      "source": "revised_a",
+      "reasoning": "Model B's original analysis provided more comprehensive explicit evidence, including 'elderly care/intergenerational co-creation' and 'smart living.' Model A's revision to 7.5, incorporating this broader evidence, is accurate.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "model_a",
+      "reasoning": "Model A's original score and reasoning, citing '教育學習運動,' '理論與實務個案的研讀討論,' and '田野調查,' better captures the course's emphasis on learning methods and practical application for quality education.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Neither model found any explicit or inferable evidence in the course syllabus related to gender equality. A minimal score is appropriate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Neither model found any explicit or inferable evidence in the course syllabus related to clean water and sanitation. A minimal score is appropriate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "Model B's original inference from 'carbon neutrality,' 'net zero,' and 'zero-carbon future' is a valid, indirect link to clean energy. Model A's revision to match this score is accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "Model B's original analysis provided more comprehensive evidence, including 'corporate sustainable development' and 'supply chain management.' Model A's revision to 8.5, aligning with this, is well-justified.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "Innovation is the central theme of the course. Model B's original score of 10.0, supported by extensive explicit evidence of various innovations and ecosystem concepts, is highly accurate. Model A revised to match.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.0,
+      "source": "revised_a",
+      "reasoning": "Model B's original reasoning, linking 'social common good,' 'rural education,' and 'elderly care' to addressing disparities, is a valid inference. Model A's revision to 4.0 reflects this reasonable connection.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "Model B's original analysis included strong evidence like '在地創生' and '智慧生活、Ubike、共享單車,' directly aligning with sustainable communities. Model A's revision to 8.5 is accurate.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 8.0,
+      "source": "model_a",
+      "reasoning": "Both models provided strong, explicit evidence such as '企業永續供應鏈管理實務,' 'ESG永續報告書實務分析,' and '綠色設計,' directly supporting this SDG. The score of 8.0 is well-justified.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "Model B's original analysis provided extensive explicit evidence, including '碳盤查、碳中和、淨零' and '碳交易機制.' Model A's revision to 9.5, matching this, is highly accurate given the course content.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Neither model found any explicit or inferable evidence in the course syllabus related to life below water. A minimal score is appropriate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "Model B's original analysis included more comprehensive evidence like '環境生態保護' and '有機農業' alongside '生態系統' concepts. Model A's revision to 5.0, aligning with this, is accurate.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 3.0,
+      "source": "revised_a",
+      "reasoning": "Model B's original score of 3.0, focusing on '公司治理' and '體制(社會)創新,' accurately reflects the limited direct evidence for the broader SDG. Model A's revision to 3.0 is more appropriate than its initial higher score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.0,
+      "source": "model_a",
+      "reasoning": "Model A's original score of 9.0 is strongly justified by the explicit course statement: '結合企業資源與民間友人共同完成，產生社會影響力.' This directly emphasizes collaborative action for social impact.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": null,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

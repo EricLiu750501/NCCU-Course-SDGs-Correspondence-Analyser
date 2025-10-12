@@ -1,0 +1,724 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "mentions '開發中國家' (developing countries) in course topics.",
+      "score": 2.1,
+      "evidence": [
+        "貿易政策與開發中國家"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "mentions '農業貿易' (agriculture) in course topics.",
+      "score": 2.0,
+      "evidence": [
+        "農業貿易"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Good Health and Well-being": {
+      "reason": "mentions '貿易與公衛' in course content.",
+      "score": 8.0,
+      "evidence": [
+        "貿易與公衛"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "mentions gender in '貿易政策與勞動標準、人權及性別'.",
+      "score": 7.0,
+      "evidence": [
+        "貿易政策與勞動標準、人權及性別"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "mentions '能源環保' in course content.",
+      "score": 7.0,
+      "evidence": [
+        "能源環保"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "mentions '勞動標準' in '貿易政策與勞動標準、人權及性別'.",
+      "score": 7.0,
+      "evidence": [
+        "貿易政策與勞動標準、人權及性別"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "references '智慧財產權' and '如國家安全、數位貿易等新興課題'.",
+      "score": 5.0,
+      "evidence": [
+        "與貿易有關之智慧財產權",
+        "如國家安全、數位貿易等新興課題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "mentions human rights and gender in '貿易政策與勞動標準、人權及性別'.",
+      "score": 4.0,
+      "evidence": [
+        "貿易政策與勞動標準、人權及性別"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "mentions '貿易政策與環境'.",
+      "score": 5.0,
+      "evidence": [
+        "貿易政策與環境"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "mentions '能源環保' and '環境'.",
+      "score": 6.0,
+      "evidence": [
+        "能源環保",
+        "環境"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "mentions 'WTO的組織與功能 (含爭端解決)' and '爭端解決案例所帶來之啟發'.",
+      "score": 8.0,
+      "evidence": [
+        "WTO的組織與功能 (含爭端解決)",
+        "爭端解決案例所帶來之啟發"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "mentions WTO and international topics: 'World Trade Organization' and '當前重要之國際經貿課題'.",
+      "score": 2.0,
+      "evidence": [
+        "World Trade Organization",
+        "當前重要之國際經貿課題"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course discusses '貿易政策與開發中國家' and 'SDT', which are directly relevant to poverty reduction through trade policies.",
+      "score": 7.5,
+      "evidence": [
+        "貿易政策與開發中國家",
+        "SDT"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "reason": "The course explicitly covers '農業貿易' as a key learning outcome, which directly impacts food security and hunger.",
+      "score": 8.0,
+      "evidence": [
+        "農業貿易"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "reason": "The course addresses '貿易與公衛' and '貿易政策與國內衛生及安全法規', linking trade policies to public health outcomes.",
+      "score": 8.5,
+      "evidence": [
+        "貿易與公衛",
+        "貿易政策與國內衛生及安全法規"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "No evidence found regarding global access to or quality of education, beyond the course itself being an educational offering.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "The course explicitly includes '貿易政策與勞動標準、人權及性別' as a learning outcome, directly addressing gender issues.",
+      "score": 8.5,
+      "evidence": [
+        "貿易政策與勞動標準、人權及性別"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No specific mention of clean water, sanitation, or related policies in the course description.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "The course lists '能源環保' (energy and environmental protection) as a policy issue for discussion.",
+      "score": 5.5,
+      "evidence": [
+        "能源環保"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course focuses on '國際經貿法' and '貿易政策與勞動標準', directly addressing economic growth and labor conditions.",
+      "score": 9.5,
+      "evidence": [
+        "國際經貿法",
+        "貿易政策與勞動標準",
+        "開發中國家"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course discusses '投資' and '數位貿易' as emerging issues, which are relevant to industrial development and digital infrastructure.",
+      "score": 6.0,
+      "evidence": [
+        "投資",
+        "數位貿易"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "The course covers '貿易政策與開發中國家' and 'SDT', directly addressing economic inequalities between nations.",
+      "score": 8.0,
+      "evidence": [
+        "貿易政策與開發中國家",
+        "SDT"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No specific mention of sustainable urban development, cities, or communities in the course description.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "The course explores '貿易政策與環境' and '能源環保', which are foundational to sustainable consumption and production patterns.",
+      "score": 6.5,
+      "evidence": [
+        "貿易政策與環境",
+        "能源環保",
+        "sustainability issues"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "The course mentions '能源環保' and '貿易政策與環境', which often encompass climate change considerations in policy discussions.",
+      "score": 6.0,
+      "evidence": [
+        "能源環保",
+        "貿易政策與環境"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No specific mention of marine ecosystems, oceans, or water pollution in the course description.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No specific mention of terrestrial ecosystems, biodiversity, or land degradation in the course description.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course focuses on '國際經貿法', '世界貿易組織', '爭端解決', and '人權', which are central to global governance and justice.",
+      "score": 9.5,
+      "evidence": [
+        "國際經貿法",
+        "世界貿易組織",
+        "爭端解決",
+        "人權"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course's focus on '國際經貿法' and '世界貿易組織' inherently involves international cooperation and global partnerships for economic goals.",
+      "score": 9.0,
+      "evidence": [
+        "國際經貿法",
+        "世界貿易組織",
+        "當前國際貿易體系面臨的挑戰"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's explicit alignment with course topics supports higher SDG emphasis; multiple scores revised accordingly.",
+    "revisions": {
+      "Zero Hunger": {
+        "your_original": 2.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Course text explicitly lists '農業貿易' as a topic."
+      },
+      "Good Health and Well-being": {
+        "your_original": 8.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Explicit '貿易與公衛' and '貿易政策與國內衛生及安全法規' in course content."
+      },
+      "Gender Equality": {
+        "your_original": 7.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Course lists '貿易政策與勞動標準、人權及性別' as a learning outcome."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 7.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Course mentions energy/environment; B assigns lower emphasis on energy."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 7.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Course ties to labor standards and development; aligns with higher emphasis in B."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 5.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Emerging issues '投資' and '數位貿易' present in course; aligns with B's score."
+      },
+      "Reduced Inequalities": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Course covers development (開發中國家) and SDT; aligns with B's higher weighting."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 5.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Course explores '環境' and '能源環保'; B weighs environmental aspects more."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 8.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Course emphasizes WTO dispute resolution and human rights; aligns with B's higher score."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's score for SDG 7 better reflects the direct mention of 'energy' in '能源環保'. Other scores remain unchanged as my original reasoning is more comprehensive or accurate.",
+    "revisions": {
+      "Affordable and Clean Energy": {
+        "your_original": 5.5,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B's higher score for '能源環保' is more appropriate, as '能源' (energy) is a direct component of this SDG."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "Course topics on '貿易政策與開發中國家' and SDT imply poverty-reduction potential via trade; aligns with Model B's explicit poverty linkage.",
+      "model_comparison": {
+        "model_a_original": 2.1,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "Explicit '農業貿易' topic directly ties to food security; A's revision and B's original both support strong hunger-related emphasis.",
+      "model_comparison": {
+        "model_a_original": 2.1,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "Explicit '貿易與公衛' and '國內衛生及安全法規' link trade to health outcomes; aligns with higher weighting in revised_A.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No explicit evidence connecting course content to education access/quality beyond teaching itself.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "Explicit '勞動標準、人權及性別' as learning outcome; direct focus on gender issues.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "Course has no explicit water/sanitation content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 7.0,
+      "source": "revised_b",
+      "reasoning": "Energy-related '能源環保' appears; B's revision increases emphasis to 7.0, reflecting energy considerations.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 7.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "Labour standards and development focus tie to growth; revised_A elevates to 9.5.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.0,
+      "source": "revised_a",
+      "reasoning": "Emerging issues like '投資' and '數位貿易' provide moderate IP/digital infrastructure relevance.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "Development policy for developing countries and SDT imply international inequalities; revised_A reflects this stronger emphasis.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No city-level content in course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.5,
+      "source": "revised_a",
+      "reasoning": "Environment focus and energy considerations in course; revised_A weighs environmental aspects higher.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "Energy/environment discussions imply climate considerations; aligned with both models' emphasis.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No marine/ocean content in course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No terrestrial biodiversity content in course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "WTO organization, dispute resolution, and human rights central to governance; strongest alignment with course content.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "Course focus on international trade regimes and cooperation; strong alignment with global partnerships.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '貿易政策與開發中國家' and 'SDT', which are directly relevant to poverty reduction through trade policies. Model B's score better reflects this direct relevance.",
+      "model_comparison": {
+        "model_a_original": 2.1,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '農業貿易' as a key learning outcome. This topic directly impacts food security and hunger, justifying Model B's higher score.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly addresses '貿易與公衛' and '貿易政策與國內衛生及安全法規', directly linking trade policies to public health outcomes. Model B's score is well-justified.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No direct evidence found in the course description regarding global access to or quality of education.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly includes '貿易政策與勞動標準、人權及性別' as a learning outcome, directly addressing gender issues. Model B's score is appropriate.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No specific mention of clean water, sanitation, or related policies in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 7.0,
+      "source": "revised_b",
+      "reasoning": "The course lists '能源環保' (energy and environmental protection). The explicit mention of '能源' (energy) justifies a higher score, as reflected in Model B's revised score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 7.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on '國際經貿法' and '貿易政策與勞動標準' directly addresses economic growth and labor conditions, making Model B's high score accurate.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course discusses '投資' and '數位貿易' as emerging issues, which are relevant to industrial development and digital infrastructure. Model B's score is appropriate.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course covers '貿易政策與開發中國家' and 'SDT', directly addressing economic inequalities between nations. Model B's score is well-justified.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No specific mention of sustainable urban development, cities, or communities in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course explores '貿易政策與環境' and '能源環保', which are foundational to sustainable consumption and production patterns. Model B's reasoning is more comprehensive.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 6.0,
+      "source": "model_a",
+      "reasoning": "The course mentions '能源環保' and '貿易政策與環境', which often encompass climate change considerations in policy discussions. Both models agree on this score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No specific mention of marine ecosystems, oceans, or water pollution in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No specific mention of terrestrial ecosystems, biodiversity, or land degradation in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on '國際經貿法', '世界貿易組織', '爭端解決', and '人權' is central to global governance and justice. Model B's high score is highly accurate.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on '國際經貿法' and '世界貿易組織' inherently involves international cooperation and global partnerships for economic goals. Model B's score is highly accurate.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

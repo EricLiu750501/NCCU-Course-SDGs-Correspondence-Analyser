@@ -1,0 +1,736 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "mentions '食品安全' in topic list",
+      "score": 4.5,
+      "evidence": [
+        "食品安全"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "reason": "mentions 'COVID-19因應' indicating health policy relevance",
+      "score": 5.0,
+      "evidence": [
+        "COVID-19因應"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "mentions '能源聯盟' and '歐盟能源法制與政策的發展及限制' indicating energy policy relevance",
+      "score": 7.5,
+      "evidence": [
+        "能源聯盟",
+        "歐盟能源法制與政策的發展及限制"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "discusses '經濟區域整合已經是現今世界最重要的經濟貿易發展趨勢'",
+      "score": 5.0,
+      "evidence": [
+        "經濟區域整合已經是現今世界最重要的經濟貿易發展趨勢"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "explicitly covers '數位策略、人工智慧法(AIA)、DSA、DMA' and '晶片與半導體發展策略'",
+      "score": 9.0,
+      "evidence": [
+        "數位策略",
+        "人工智慧法(AIA)",
+        "晶片與半導體發展策略"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "mentions 'ESG企業責任' and '碳邊境調整機制(CBAM)'",
+      "score": 8.0,
+      "evidence": [
+        "歐盟 ESG企業責任",
+        "碳邊境調整機制(CBAM)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "references '碳邊境調整機制(CBAM)' and climate policy framing",
+      "score": 8.5,
+      "evidence": [
+        "碳邊境調整機制(CBAM)",
+        "歐盟氣候變遷政策的規範、策略與實踐"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "mentions '超國家組織' and governance aspects via '27個會員國利益相互激盪、競爭、辯證及調和之結果'",
+      "score": 5.0,
+      "evidence": [
+        "超國家組織",
+        "歐盟法律與政策皆是27個會員國利益相互激盪、競爭、辯證及調和之結果"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "includes '台歐經貿關係' and '歐盟對外關係'及相關經貿談論",
+      "score": 8.0,
+      "evidence": [
+        "台歐經貿關係等議題",
+        "歐盟對外關係",
+        "我國及中國大陸之經貿關係"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course focuses on economic law, trade, and integration, which can indirectly foster economic growth, but does not explicitly address poverty alleviation.",
+      "score": 1.5,
+      "evidence": [
+        "歐盟經貿法",
+        "經濟區域整合"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "The course mentions 'food safety' as a topic, which is related to food security but does not directly address hunger or sustainable agriculture.",
+      "score": 0.5,
+      "evidence": [
+        "食品安全"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "reason": "The course covers the EU's response to 'COVID-19' and '歐盟跨境健康風險的因應機制', directly addressing public health and well-being.",
+      "score": 7.5,
+      "evidence": [
+        "COVID-19因應",
+        "歐盟跨境健康風險的因應機制"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "The course aims to '培養具有歐洲觀及歐洲專業的高階人才', which is about its own educational function, not the SDG's broader goal of inclusive education for all.",
+      "score": 1.0,
+      "evidence": [
+        "培養具有歐洲觀及歐洲專業的高階人才"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "The course discusses '歐盟能源安全與歐俄能源貿易關係的影響' and '歐盟能源法制與政策的發展及限制', directly related to energy policy and security.",
+      "score": 8.0,
+      "evidence": [
+        "歐盟能源安全與歐俄能源貿易關係的影響",
+        "歐盟能源法制與政策的發展及限制",
+        "歐盟氣候變遷政策的規範、策略與實踐"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course focuses on '歐盟經貿法', '經濟區域整合', '單一數位經濟市場', and '國際經濟規則的發展', which are fundamental to economic growth.",
+      "score": 9.5,
+      "evidence": [
+        "歐盟經貿法",
+        "經濟區域整合",
+        "單一數位經濟市場"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course covers '數位策略', '人工智慧法(AIA)', '數位服務法(DSA)', '數位市場法(DMA)', and '歐盟晶片與半導體發展策略', directly addressing innovation and digital infrastructure.",
+      "score": 9.8,
+      "evidence": [
+        "數位策略",
+        "人工智慧法(AIA)",
+        "歐盟晶片與半導體發展策略"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "The course focuses on economic integration and trade law, which can indirectly affect inequalities, but does not explicitly target inequality reduction.",
+      "score": 2.0,
+      "evidence": [
+        "歐盟經貿法",
+        "經濟區域整合"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "The course explicitly covers 'ESG企業責任' and '歐盟碳邊境調整機制(CBAM)', which are key policies for responsible production and consumption.",
+      "score": 9.0,
+      "evidence": [
+        "ESG企業責任",
+        "歐盟碳邊境調整機制(CBAM)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "The course directly addresses '歐盟碳邊境調整機制(CBAM)', 'ESG企業責任', '2015巴黎協定', and '2021歐盟氣候法', which are core to climate action.",
+      "score": 10.0,
+      "evidence": [
+        "歐盟碳邊境調整機制(CBAM)",
+        "2015巴黎協定",
+        "2021歐盟氣候法"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course examines '歐盟經貿法', '超國家組織', '歐盟的組織與決策', '歐洲聯盟之法律', and '共同外交暨安全政策', all central to strong institutions and peace.",
+      "score": 9.9,
+      "evidence": [
+        "歐盟經貿法",
+        "超國家組織",
+        "共同外交暨安全政策"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course extensively covers '歐盟對外關係', '歐盟新一代FTA政策', '台歐經貿關係', and EU's active participation in '國際組織活動', demonstrating international cooperation.",
+      "score": 9.7,
+      "evidence": [
+        "歐盟對外關係",
+        "歐盟新一代FTA政策",
+        "國際組織活動"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's reasoning aligns more with explicit course topics; several SDGs warrant upward revisions.",
+    "revisions": {
+      "Zero Hunger": {
+        "your_original": 4.5,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Explicit mention of 食品安全; no direct hunger focus in syllabus."
+      },
+      "Good Health and Well-being": {
+        "your_original": 5.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "COVID-19因應 and cross-border health risk mechanisms are explicitly covered."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 7.5,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Energy security and CBAM policy are explicitly covered in the course."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 5.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Course emphasizes EU economic policy and growth; aligns with B."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 9.0,
+        "model_b_score": 9.8,
+        "your_revised": 9.8,
+        "reason": "AI, DSAs/DMAs and chip policy in course justify higher score."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 8.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "ESG, CBAM explicit; stronger alignment with production/consumption goals."
+      },
+      "Climate Action": {
+        "your_original": 8.5,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "CBAM and climate policy are core topics in syllabus."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 5.0,
+        "model_b_score": 9.9,
+        "your_revised": 9.9,
+        "reason": "Governing structures and supra-national aspects highlighted in text."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 8.0,
+        "model_b_score": 9.7,
+        "your_revised": 9.7,
+        "reason": "External relations and international cooperation emphasized."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's stricter interpretation of 'no evidence found' for direct relevance is more accurate for SDGs where the course's impact is only indirect or inferred.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 1.5,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "The course lacks explicit content on poverty alleviation, making a 0.001 score more appropriate than an inferred 1.5."
+      },
+      "SDG_4 (Quality Education)": {
+        "your_original": 1.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "The course's focus on specialized talent development doesn't align with the SDG's broader goal of inclusive education for all."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 2.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "While economic integration can indirectly affect inequalities, the course text does not explicitly address inequality reduction policies."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "The syllabus has no explicit poverty-alleviation content; focus is on EU economic law and policy with indirect welfare implications.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.5,
+      "source": "revised_a",
+      "reasoning": "食品安全 mentioned, but no direct focus on hunger or food systems.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 7.5,
+      "source": "revised_a",
+      "reasoning": "COVID-19 response and cross-border health risk mechanisms are explicitly covered.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "Course focuses on advanced European expertise, not SDG4's inclusive education goal.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "No explicit content on gender equality; evidence shows minimal direct alignment.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "No explicit water/sanitation topics in the syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "Energy security and CBAM policy are explicitly covered; aligns with SDG7.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "Course emphasizes EU economic policy and growth within integration context.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.8,
+      "source": "revised_a",
+      "reasoning": "AI, DSAs/DMAs, and chip policy indicate strong alignment with digital economy and innovation.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 9.8,
+        "model_b_original": 9.8,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "No explicit inequality-reduction content; primarily economic/trade focus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "No explicit content on sustainable cities; course centers on trade and policy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "ESG responsibility and CBAM indicate responsible production/consumption.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "CBAM, Paris Agreement, and EU climate law are core climate-action topics in the syllabus.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "No explicit marine-related content in the course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "No explicit terrestrial ecosystems content in the syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.9,
+      "source": "revised_a",
+      "reasoning": "Supranational governance and EU legal framework illustrate strong institutions.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.9,
+        "model_b_original": 9.9,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.7,
+      "source": "revised_a",
+      "reasoning": "EU external relations, FTAs, and Taiwan/EU cooperation show robust international partnerships.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.7,
+        "model_b_original": 9.7,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "The course focuses on EU economic law and trade, which are high-level economic policies. There is no explicit mention of poverty alleviation or related social policies.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly mentions '食品安全' (food safety). However, it does not directly address hunger eradication, food access, or sustainable agriculture, which are central to SDG 2.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 7.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers the EU's response to 'COVID-19' and '歐盟跨境健康風險的因應機制', directly addressing public health policy and well-being.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "The course aims to cultivate specialized talent, which is its own educational function. It does not address the broader SDG goal of inclusive and equitable quality education for all.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no explicit or implicit evidence in the course syllabus related to gender equality or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no explicit or implicit evidence in the course syllabus related to clean water, sanitation, or water resource management.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers '能源聯盟', '歐盟能源法制與政策的發展及限制', and '歐盟能源安全與歐俄能源貿易關係的影響', directly addressing energy policy and security.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "The course extensively covers '歐盟經貿法', '經濟區域整合', '單一數位經濟市場', and the EU's role as a major economic power, all fundamental to economic growth.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.8,
+      "source": "revised_a",
+      "reasoning": "The course explicitly and extensively covers '數位策略', '人工智慧法(AIA)', '數位服務法(DSA)', '數位市場法(DMA)', and '歐盟晶片與半導體發展策略', directly addressing innovation and digital infrastructure.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 9.8,
+        "model_b_original": 9.8,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "The course focuses on economic integration and trade law. While these can indirectly affect inequalities, the syllabus does not explicitly address policies or strategies for reducing inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no explicit or implicit evidence in the course syllabus related to sustainable cities, urban planning, or community development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers '歐盟碳邊境調整機制(CBAM)' and '歐盟 ESG企業責任', which are key policies for promoting responsible production and consumption patterns.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course directly addresses '歐盟碳邊境調整機制(CBAM)', '歐盟氣候變遷政策', '2015巴黎協定', and '2021歐盟氣候法', demonstrating a core focus on climate action.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no explicit or implicit evidence in the course syllabus related to marine life, ocean conservation, or sustainable use of marine resources.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no explicit or implicit evidence in the course syllabus related to terrestrial ecosystems, biodiversity, or land management.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.9,
+      "source": "revised_a",
+      "reasoning": "The course extensively covers the EU's institutional framework, legal system ('歐盟經貿法', '歐洲聯盟之法律'), its nature as a '超國家組織', and its '共同外交暨安全政策', all central to strong institutions and peace.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.9,
+        "model_b_original": 9.9,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.7,
+      "source": "revised_a",
+      "reasoning": "The course extensively covers '歐盟對外關係', '歐盟新一代FTA政策', '台歐經貿關係', and the EU's active participation in '國際組織活動', demonstrating a strong focus on global partnerships.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.7,
+        "model_b_original": 9.7,
+        "model_b_revised": null
+      }
+    }
+  }
+}

@@ -1,0 +1,766 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "mentions '企業競爭力的基礎為提供符合顧客需求的產品或服務' and '以較有生產力的方式' → relevant to Decent Work and Economic Growth.",
+      "score": 9.0,
+      "evidence": [
+        "企業競爭力的基礎為提供符合顧客需求的產品或服務",
+        "以較有生產力(???)的方式適時、適量地創造/提供符合顧客所需的產品和服務並送達顧客指定地點或通路被目標客群購買，創造雙贏甚至多贏的成果。"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "mentions '科技應用(IT+Automation)' and 'Concurrent engineering 和 DFX 的運作' indicating IT and engineering practices in industry.",
+      "score": 8.5,
+      "evidence": [
+        "科技應用(IT+Automation)",
+        "Concurrent engineering 和 DFX 的運作為何?",
+        "Operations Management是企業的重要功能之一，"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "mentions '品質與成本-Cost of Quality (COQ)' and '存貨管理 供應鏈管理' indicating focus on production efficiency and quality.",
+      "score": 8.0,
+      "evidence": [
+        "品質與成本-Cost of Quality (COQ)",
+        "存貨管理 供應鏈管理",
+        "精實管理"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "course includes group work and reports: '學期中會有個人和分組報告', '分組討論和報告撰寫相關準備', '分組作業1:'.",
+      "score": 6.0,
+      "evidence": [
+        "學期中會有個人和分組報告",
+        "分組討論和報告撰寫相關準備",
+        "分組作業1:"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course discusses enterprise competitiveness, productivity, and economic impacts of trade conflicts and business relocation, which indirectly relate to economic opportunities and poverty reduction.",
+      "score": 2.5,
+      "evidence": [
+        "創造雙贏甚至多贏的成果",
+        "企業競爭力的基礎",
+        "中美貿易衝突...對在中國投資台商的影響？因應對策？...新一波台商外移的落腳處？"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "Mentions \"Dutch tomato farmers' production advantage\" and \"Wegmans Food Markets\" as case studies, but these focus on operational efficiency rather than food security or hunger.",
+      "score": 0.5,
+      "evidence": [
+        "荷蘭番茄農之生產優勢",
+        "魏格曼食品超市"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Good Health and Well-being": {
+      "reason": "The course explicitly mentions \"using RFID to reduce medication errors,\" directly linking to health and well-being in a supply chain context.",
+      "score": 4.5,
+      "evidence": [
+        "使用RFID降低配藥錯誤?"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "As a university course, it inherently aims to provide \"knowledge learning and growth\" and \"improve communication, problem analysis and solving, and presentation skills.\"",
+      "score": 7.0,
+      "evidence": [
+        "獲得知識學習成長的必備條件",
+        "提升溝通、問題分析與解決與簡報之能力",
+        "複習和學習營運與供應鏈管理知識"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course focuses on enterprise competitiveness, productivity, economic growth, and \"work design,\" with a core competence in \"ethics, social responsibility, and sustainability issues.\"",
+      "score": 9.0,
+      "evidence": [
+        "企業競爭力的基礎",
+        "較有生產力的方式",
+        "工作設計"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course extensively covers \"Operations Management,\" \"technology application (IT+Automation),\" \"service innovation,\" \"concurrent engineering,\" \"RFID,\" and \"Lean Management,\" all central to industry and innovation.",
+      "score": 9.5,
+      "evidence": [
+        "科技應用(IT+Automation)",
+        "服務創新",
+        "精實管理"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "While discussing ethics, social responsibility, and economic shifts, the course does not explicitly address reducing inequalities among groups or nations.",
+      "score": 1.5,
+      "evidence": [
+        "理解與辨別道德、社會責任與永續議題",
+        "中美貿易衝突...對在中國投資台商的影響？因應對策？...新一波台商外移的落腳處？"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "The course includes \"Location Decision Analysis\" and discusses infrastructure resilience related to \"typhoon impact on flights and airport operations,\" which are tangentially relevant to sustainable communities.",
+      "score": 2.0,
+      "evidence": [
+        "選址決策分析",
+        "颱風影響致航班延誤，人員排班，機場的設備設施運作可能受限"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "The course focuses on \"Operations Management,\" \"Supply Chain Management,\" and \"Lean Management,\" which are fundamental to efficient, waste-reducing, and therefore more responsible production.",
+      "score": 8.5,
+      "evidence": [
+        "Operations Management",
+        "Supply Chain Management",
+        "精實管理"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "Mentions \"typhoon impact on flights,\" which can be an effect of climate change, but the course does not explicitly discuss climate action or mitigation strategies.",
+      "score": 1.0,
+      "evidence": [
+        "颱風影響致航班延誤"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course includes a core competence in understanding \"ethics, social responsibility, and sustainability issues,\" which indirectly relates to principles of good governance.",
+      "score": 1.5,
+      "evidence": [
+        "理解與辨別道德、社會責任與永續議題"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course emphasizes \"teamwork and leadership skills\" and discusses international trade dynamics, but does not explicitly focus on multi-stakeholder partnerships for global goals.",
+      "score": 2.0,
+      "evidence": [
+        "團隊合作與領導能力",
+        "分組討論",
+        "中美貿易衝突...對在中國投資台商的影響？因應對策？"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's reasoning largely aligns with the course text; several SDGs require upward revisions, while Partnerships for the Goals should be adjusted downward.",
+    "revisions": {
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 8.5,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Course text includes IT+Automation, service innovation, concurrent engineering, RFID, and Lean, aligning strongly with industry/innovation."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 8.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "COQ, SCM, and Lean focus indicate more responsible production per course materials."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Core competence includes ethics, social responsibility and sustainability; supports inequalities considerations."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Location decision analysis and typhoon-related infrastructure concerns relate to sustainable communities."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Ethics, social responsibility and sustainability are highlighted in core competencies, implying governance relevance."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Explicit reference to RFID reducing medication errors ties to health outcomes in SCM."
+      },
+      "Quality Education": {
+        "your_original": 0.001,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Course aims include knowledge growth and skill development; learning outcomes explicitly addressed."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 6.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Course emphasizes group work; no explicit multi-stakeholder partnerships for global goals."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided a more comprehensive analysis, identifying several indirect links I missed and offering better-articulated reasoning for some shared high-scoring SDGs. My initial assessment was too conservative for many SDGs.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 2.5,
+        "reason": "Model A correctly infers links between economic competitiveness, trade impacts, and potential for poverty reduction. My initial score was too low."
+      },
+      "SDG_2 (Zero Hunger)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 0.5,
+        "reason": "Model A correctly notes mentions of food-related entities, even if the focus is operational efficiency, providing a very weak, indirect link."
+      },
+      "SDG_3 (Good Health and Well-being)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 4.5,
+        "reason": "Model A correctly identified the explicit mention of \"using RFID to reduce medication errors,\" a direct link to health and well-being."
+      },
+      "SDG_4 (Quality Education)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 7.0,
+        "reason": "Model A correctly recognized that as a university course, its core purpose is education and skill development. My initial score was an oversight."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 8.5,
+        "model_b_score": 8.5,
+        "your_revised": 9.5,
+        "reason": "Model A's reasoning is more comprehensive, including service innovation and lean management, justifying a slightly higher score for industry and innovation."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 1.5,
+        "reason": "Model A correctly infers a link from discussions of social responsibility and economic shifts, even if inequalities aren't explicitly addressed."
+      },
+      "SDG_11 (Sustainable Cities and Communities)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 2.0,
+        "reason": "Model A correctly identified \"Location Decision Analysis\" and infrastructure resilience as relevant to sustainable communities. My initial score was too low."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 8.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.5,
+        "reason": "Model A's reasoning explicitly links efficient operations and lean management to waste reduction, aligning better with responsible production."
+      },
+      "SDG_13 (Climate Action)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 1.0,
+        "reason": "Model A correctly identified the indirect link between typhoon impacts (a climate change effect) and climate action, even without explicit mitigation strategies."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 1.5,
+        "reason": "Model A correctly infers a link from the core competence in ethics and social responsibility to principles of strong institutions."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 2.0,
+        "reason": "Model A's interpretation of \"Partnerships for the Goals\" is more accurate, focusing on global goals rather than internal group work."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 2.5,
+      "source": "revised_b",
+      "reasoning": "B links enterprise competitiveness and trade dynamics to poverty reduction via job creation and investment flows; course emphasizes productivity and global competition, suggesting indirect poverty reduction pathways.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.5,
+      "source": "revised_b",
+      "reasoning": "Weak indirect link via production efficiency in case studies; no explicit nutrition or hunger focus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.5,
+      "source": "revised_b",
+      "reasoning": "Explicit RFID reduces medication errors; direct link to health outcomes in a supply chain context.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "revised_b",
+      "reasoning": "Course aims include knowledge growth and skill development; learning outcomes are explicitly addressed.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit gender equality content; evidence absent in text.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit water/sanitation content found in course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit energy-related content observed in the syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.0,
+      "source": "model_a",
+      "reasoning": "Course ties competitiveness, productivity, and growth; includes work design and ethics/sustainability considerations.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "A revised to 9.5 reflects IT+Automation, service innovation, concurrent engineering, RFID, and Lean; broad alignment with industry/innovation.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 1.5,
+      "source": "revised_a",
+      "reasoning": "Core ethics/sustainability competence implies consideration of inequalities; discussions hint at economic shifts affecting inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 2.0,
+      "source": "revised_a",
+      "reasoning": "Location analysis and typhoon-related infrastructure concerns relate to sustainable communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "COQ, SCM, and Lean indicate more responsible production; aligns with course emphasis on efficiency and waste reduction.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 1.0,
+      "source": "revised_b",
+      "reasoning": "Typhoon impacts hint climate considerations; not explicitly addressed with mitigation actions.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 1.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit aquatic/ecosystem content in course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit land ecosystem content in course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 1.5,
+      "source": "revised_a",
+      "reasoning": "Ethics and sustainability core competence implies governance principles related to strong institutions.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 2.0,
+      "source": "revised_a",
+      "reasoning": "Group work and international trade topics; no explicit multi-stakeholder partnerships for global goals.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The course discusses enterprise competitiveness, productivity, and economic impacts of trade conflicts and business relocation, indirectly relating to economic opportunities and poverty reduction.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "The course mentions 'Dutch tomato farmers' production advantage' and 'Wegmans Food Markets' as case studies, providing a very weak, indirect link to food systems, though the focus is operational efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly mentions 'using RFID to reduce medication errors,' directly linking to health and well-being in a supply chain context.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "As a university course, its core purpose is to provide knowledge, foster learning, and develop skills, explicitly stated in the course objectives and learning outcomes.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to gender equality was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to clean water and sanitation was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to affordable and clean energy was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "The course directly addresses enterprise competitiveness, productivity, economic growth, and work design, with a core competence in ethics and social responsibility, strongly aligning with decent work and economic growth.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course extensively covers Operations Management, technology application (IT+Automation), service innovation, concurrent engineering, RFID, and Lean Management, all central to industry, innovation, and infrastructure.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The course's core competence in understanding ethics, social responsibility, and sustainability issues, along with discussions of economic shifts, provides a weak, indirect link to reduced inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course includes 'Location Decision Analysis' and discusses infrastructure resilience related to typhoon impacts on airport operations, tangentially relevant to sustainable cities and communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course focuses on Operations Management, Supply Chain Management, quality (COQ), and Lean Management, which are fundamental to efficient, waste-reducing, and therefore more responsible production.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course mentions 'typhoon impact on flights,' which can be an effect of climate change, providing a very weak, indirect link, though climate action strategies are not explicitly discussed.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to life below water was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to life on land was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The course's core competence in understanding ethics, social responsibility, and sustainability issues indirectly relates to principles of good governance and strong institutions.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "While the course emphasizes teamwork and discusses international trade, it does not explicitly focus on multi-stakeholder partnerships for achieving global goals, making the link indirect and weak.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}
