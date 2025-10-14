@@ -45,20 +45,41 @@
    
    ### 3. [src/CollegeScale/LLM_Discussions.py](https://github.com/EricLiu750501/NCCU-Course-SDGs-Correspondence-Analyser/blob/72e654946c3cd39f7aa30659b52f870960867969/src/CollegeScale/LLM_Discussions.py)
       
-  - 相關資料（輸入）：Step 2 之輸出 User Prompt 與 Step 1 之輸出 Markdown
-  - 多模型討論:
-    - 模型: GPT, Gemini
-    - [Prompt](https://github.com/EricLiu750501/NCCU-Course-SDGs-Correspondence-Analyser/blob/72e654946c3cd39f7aa30659b52f870960867969/src/CollegeScale/system_prompts.py) :
-      - GPT, Gemini Answer 階段的 System Prompt : 嚴厲制定必須遵守給分規定、輸出格式、角色
-      - Critique 階段的 System Prompt 與 User Prompt : 同上
-      - Judge 階段的 System Prompt 與 User Prompt : 同上
-    - 討論流程：  
-      每一階段皆可開 Multi-thread
-      - 獨立回答 (Answer) : GPT 與 Gemini 各自生成結果
-      - 相互討論 (Mutual Critique) : GPT Critique 看 Gemini Answer , Gemini Critique 看 GPT Answer , 附上 課程 Markdown
-      - 評論 (Judge) : 以上，共有 4 份結果 Gemini Answer ,  GPT Answer, GPT Critique, Gemini Critique, 綜合四份結果 分別給 GPT Judge 與 Gemini Judge 評論 （事後證明結果差異不大，表示雙方討論有共識）
-  - 相關資料（輸出）：[src/CollegeScale/result](https://github.com/EricLiu750501/NCCU-Course-SDGs-Correspondence-Analyser/tree/72e654946c3cd39f7aa30659b52f870960867969/src/CollegeScale/result)
-       6 項結果
+   - 相關資料（輸入）：Step 2 之輸出 User Prompt 與 Step 1 之輸出 Markdown
+   - 多模型討論:
+       - 模型: GPT, Gemini
+       - Prompt [system_prompts.py](https://github.com/EricLiu750501/NCCU-Course-SDGs-Correspondence-Analyser/blob/72e654946c3cd39f7aa30659b52f870960867969/src/CollegeScale/system_prompts.py):
+           - Answer 階段 System Prompt 要點:
+               - 角色與限制: 扮演 SDG 分類專家，並嚴格規定只能使用課程資訊，不可憑空推斷。
+               - 輸出格式: 強制要求輸出嚴格的 JSON 格式，並保持 17 個 SDG 的順序。
+               - 評分標準:
+                   - score: 0.001 到 10.0 之間，有明確證據才能給高分。
+                   - reason: 需簡潔（<=30字）且必須引用課程內容的原文。
+                   - evidence: 提供最多 3 條直接從課程內文摘錄的短句作為證據。
+                   - evidence_type: 區分證據是 explicit (明確提及) 還是 inferred (間接推斷)。
+                   - 若無證據，分數固定為 0.001。
+           - Critique 階段 System Prompt 要點:
+               - 角色與任務: 扮演模型 A 或 B，比較自己與對方的答案，並根據對方更有說服力的理由來修正自己的分數。
+               - 輸出格式: 同樣嚴格要求 JSON。只輸出有被修正的 SDG 項目。
+               - JSON 結構: 包含 critique (對雙方差異的總體評價) 和 revisions (紀錄每個修正項目的原始分數、對方分數、修正後分數及原因)。
+               - 誠實原則: 強調如果對方分析更準確，應願意修正自己的分數。若無需修正，則明確說明。
+           - Judge 階段 System Prompt 要點:
+               - 角色與任務: 扮演公正的裁判，綜合雙方模型的原始答案和相互評論，為每個 SDG 決定最準確的分數。
+               - 評分標準: 根據課程文本中的明確證據、推理品質以及與 SDG 定義的契合度來做判斷。
+               - 輸出格式: 輸出包含所有 17 個 SDG 的最終裁決 JSON。
+               - JSON 結構: 每個 SDG 包含 final_score (最終分數)、source (分數來源，如 model_a, revised_b 等)、reasoning (裁決理由) 及 
+                 model_comparison (彙整雙方所有分數以供追溯)。
+               - 公正原則: 強調不可系統性地偏袒任一模型。
+       - 討論流程 (LLM_Discussions.py):
+          每一階段皆可開 Multi-thread
+           - 獨立回答 (Answer) : GPT 與 Gemini 根據 system_prompt 各自生成結果。
+           - 相互討論 (Mutual Critique) : GPT 參考 Gemini 的 Answer 進行 critique；Gemini 也參考 GPT 的 Answer 進行 
+             critique。此階段會附上原始的課程 Markdown 作為參考基準。
+           - 評論 (Judge) : 綜合前兩步產生的 4 份結果 (GPT Answer, Gemini Answer, GPT Critique, Gemini Critique)，分別交給 GPT Judge 和 
+             Gemini Judge 進行最終裁決。（事後證明結果差異不大，表示雙方討論有共識）
+   - 相關資料（輸出）：[src/CollegeScale/result](https://github.com/EricLiu750501/NCCU-Course-SDGs-Correspondence-Analyser/tree/72e654946c3cd39f7aa30659b52f870960867969/src/CollegeScale/result)
+       - 最終每個課程會生成一個 JSON 檔案，包含以上討論過程中的 6 項結果。
+
      
   ### 4. 最終輸出分析 [src/CollegeScale/result](https://github.com/EricLiu750501/NCCU-Course-SDGs-Correspondence-Analyser/tree/72e654946c3cd39f7aa30659b52f870960867969/src/CollegeScale/result)
   #### gpt_answer 和 gemini_answer
