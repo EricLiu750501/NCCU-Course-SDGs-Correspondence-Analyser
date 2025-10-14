@@ -130,9 +130,9 @@ def analyze_json_results(results_dir="./results"):
     # 繪製長條圖
     bars = plt.bar(numbered_labels, ordered_scores)
     plt.xticks(rotation=45, ha='right')
-    plt.title(f'SDG 平均分數 (基於 {file_count} 個課程)')
-    plt.xlabel('SDG 指標')
-    plt.ylabel('平均分數')
+    plt.title(f'Average SDG Scores for Sociology Dept.({file_count} Couses) (GPT-5-nano)')
+    plt.xlabel('Sustainable Development Goals (SDGs)')
+    plt.ylabel('Average Score')
     plt.ylim(0, 10)  # 固定 y 軸最大值為 10
     plt.tight_layout()
     

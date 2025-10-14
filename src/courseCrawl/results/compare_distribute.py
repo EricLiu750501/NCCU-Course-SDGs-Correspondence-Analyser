@@ -60,13 +60,13 @@ def visualize_distributions():
     llm_name = ["GPT", "Gemini"]
     name = "avg_score.json"
     sdg_goals = [
-        "No Poverty", "Zero Hunger", "Good Health and Well-being", 
-        "Quality Education", "Gender Equality", "Clean Water and Sanitation",
-        "Affordable and Clean Energy", "Decent Work and Economic Growth", 
-        "Industry, Innovation and Infrastructure", "Reduced Inequalities",
-        "Sustainable Cities and Communities", "Responsible Consumption and Production",
-        "Climate Action", "Life Below Water", "Life on Land",
-        "Peace, Justice and Strong Institutions", "Partnerships for the Goals"
+        "1. No Poverty", "2. Zero Hunger", "3. Good Health and Well-being",
+        "4. Quality Education", "5. Gender Equality", "6. Clean Water and Sanitation",
+        "7. Affordable and Clean Energy", "8. Decent Work and Economic Growth",
+        "9. Industry, Innovation and Infrastructure", "10. Reduced Inequalities",
+        "11. Sustainable Cities and Communities", "12. Responsible Consumption and Production",
+        "13. Climate Action", "14. Life Below Water", "15. Life on Land",
+        "16. Peace, Justice and Strong Institutions", "17. Partnerships for the Goals"
     ]
     
     # Generate separate plots for each department
@@ -92,12 +92,21 @@ def visualize_distributions():
         x = np.arange(len(sdg_goals))
         width = 0.35
         
-        plt.bar(x - width/2, gpt_scores, width, label='GPT')
-        plt.bar(x + width/2, gemini_scores, width, label='Gemini')
+        plt.bar(x - width/2, gpt_scores, width, label='GPT-5-nano')
+        plt.bar(x + width/2, gemini_scores, width, label='Gemini-2.5-flash')
         
-        plt.title(f'{dept} SDG Distribution Comparison\nKL={kl:.4f}', fontsize=15)
+        def dept_to_english(s):
+            if s == "地政":
+                return "Land Economics"
+            if s == "社會":
+                return "Sociology"
+            if s == "資訊":
+                return "Computer Science"
+
+        plt.title(f'{dept_to_english(dept)} SDG Distribution Comparison (GPT-5-nano vs Gemini-2.5-flash ) \nKL={kl:.4f}', fontsize=15)
         plt.xticks(x, sdg_goals, rotation=45, ha='right', fontsize=9)
-        plt.ylabel('Score', fontsize=12)
+        plt.xlabel('Sustainable Development Goals (SDGs)')
+        plt.ylabel('Average Score')
         plt.ylim(0, 10)  # Set y-axis limit from 0 to 10
         plt.legend(fontsize=12)
         plt.grid(axis='y', linestyle='--', alpha=0.7)
