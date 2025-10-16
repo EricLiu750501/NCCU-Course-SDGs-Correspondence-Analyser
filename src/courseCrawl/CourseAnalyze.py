@@ -56,18 +56,39 @@ def select_department(filter_list=None):
 # with open("地政課程.json", "w", encoding="utf-8") as f:
 #     json.dump(result.tolist(), f, ensure_ascii=False, indent=2)
 
-College_of_Commerce = ["金融", "國貿", "會計", "統計", "企", "資管", "財管", "風管", "商", "科智", "科博"]
+College_of_Commerce = ["金融", "國貿", "會計","會碩" , "統計", "企", "資管", "財管", "風管", "商", "科智", "科博", "國營", "科管智財所", "資博"]
+College_of_Law = ["法學院", "法律", "法碩", "法科"]
+College_of_Liberal_Arts = ["中文","國教", "歷史", "哲學", "圖", "宗", "台", "華", "文院"]
+College_of_Science = ["應數", "心理", "神科", "應物", "電物學程", "輔諮"]
+College_of_Social_Science = ["社會", "社工","行管", "行國防" , "行領導", "社科", "政治", "財政", "公行", "地", "經濟", "民族", "國發", "勞工", "社工", "行館", "亞太", "應社", "原碩"]
+College_of_Foreign_Languages = ["英文", "阿文", "斯語", "日文", "韓文", "土文", "歐文", "東南", "語言", "外文", "英教", "中東"]
+College_of_Communication = ["傳院", "傳播", "傳在" , "新聞", "廣告","廣電", "國傳", "數位", "亞際"]
+College_of_International_Affairs = ["外交", "東亞", "俄","日學","日本碩", "國研","戰略","國安", "國務院"]
+
+College_of_Education = ["教育", "幼", "教政","師資培","學行","輔諮", "教院"]
+College_of_Education_Exclude = ["教務處通識教育中心"]
+
+International_College_of_Innovation = ["創國","全創"]
+
+College_of_Informatics = ["資訊", "資碩", "資專","數位", "資安","人智", "AI中心", "群智博"]
+College_of_Xperimental = ["X實驗學士"]
+
+College_of_Banking_and_Finance = [""]
+
+Bachelor_Program_of_in_Sport = ["運動學程"]
+
+PE_Coures = ["體育"]
+
+Center_for_Creativity = ["創新創造力研究中心"]
+
+else_course = ["國關通", ]
+
 
 
 if __name__ == "__main__":
     # all_department()
     result = select_department(College_of_Commerce)
 
-    # result = select_department("社會")
-    # result = select_department("地") # 地政系
-
-    # result = select_department(["資安", "資碩", "資訊", "資科"])
-    print(list(result))
     
     with open("College_of_Commerce.json", "w", encoding="utf-8") as f:
         json.dump(result.tolist(), f, ensure_ascii=False, indent=2)
