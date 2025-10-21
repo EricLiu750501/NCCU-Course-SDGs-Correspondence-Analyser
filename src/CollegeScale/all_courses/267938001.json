@@ -1,0 +1,703 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course emphasizes 'community communication and participation' → relevant to Quality Education.",
+      "score": 4.5,
+      "evidence": [
+        "促進社區溝通和參與"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "Course discusses 'equity and justice' → relevant to Reduced Inequalities.",
+      "score": 5.0,
+      "evidence": [
+        "公平正義"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "Course focuses on 'environmental planning' → relevant to Sustainable Cities and Communities.",
+      "score": 6.5,
+      "evidence": [
+        "環境規劃和治理"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "Course addresses 'climate change governance' → relevant to Climate Action.",
+      "score": 8.0,
+      "evidence": [
+        "氣候變遷治理"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "Course discusses 'carbon management' and 'indigenous rights' → relevant to Life on Land.",
+      "score": 7.5,
+      "evidence": [
+        "碳匯議題",
+        "原住民族權利"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Course emphasizes 'environmental governance' and 'legitimacy' → relevant to Peace, Justice and Strong Institutions.",
+      "score": 6.0,
+      "evidence": [
+        "環境治理的正當性"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 5.0,
+      "reason": "Discusses economic impacts of environmental policies like \"禁伐補償\" (logging compensation) on indigenous communities, which relates to poverty and livelihoods.",
+      "evidence": [
+        "禁伐補償的政策競合",
+        "越補償越貧瘠？《禁伐補償條例》加碼效應將更加衝擊竹產業及淨零政策"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 3.0,
+      "reason": "The course materials reference environmental health risks through topics like \"蘭嶼核廢料爭議\" (Lanyu nuclear waste dispute) and \"High-Tech Pollution\".",
+      "evidence": [
+        "蘭嶼核廢料爭議之研究",
+        "High-Tech Pollution and the Environmental Movement in Taiwan"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 4.5,
+      "reason": "The syllabus explicitly mentions \"金崙地熱開發\" (Jinlun geothermal development) and the broader concept of \"淨零轉型\" (Net-zero transition), which involves clean energy.",
+      "evidence": [
+        "從部落的角度思考如何達到公正轉型：以金崙地熱開發為例",
+        "淨零轉型與碳匯"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 5.5,
+      "reason": "The course discusses \"經濟發展\" (economic development), alternative models like \"棄成長\" (degrowth), and specific industries such as the \"竹產業\" (bamboo industry).",
+      "evidence": [
+        "經濟發展、環境保護與民主參與",
+        "棄成長如何拯救世界",
+        "《禁伐補償條例》加碼效應將更加衝擊竹產業及淨零政策"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 4.0,
+      "reason": "The course examines specific industries and infrastructure, such as the \"竹產業\" (bamboo industry) and \"金崙地熱開發\" (Jinlun geothermal development), and their environmental impacts.",
+      "evidence": [
+        "拜訪桃園復興榮華竹業",
+        "高科技產業的環境治理",
+        "金崙地熱開發為例"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 10.0,
+      "reason": "The course is fundamentally centered on \"原住民的觀點\" (the perspective of indigenous peoples), \"原住民族權利\" (rights of indigenous peoples), and \"環境正義\" (Environmental justice).",
+      "evidence": [
+        "特別著重原住民的觀點",
+        "帶入原住民族權利",
+        "環境正義與公正轉型"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 6.0,
+      "reason": "The course emphasizes a \"更貼近土地和社區的視角\" (perspective closer to the land and community) and aims to \"促進社區溝通和參與\" (promote community communication and participation).",
+      "evidence": [
+        "更貼近土地和社區的視角",
+        "促進社區溝通和參與",
+        "從部落的角度思考如何達到公正轉型"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 6.5,
+      "reason": "The course addresses consumption patterns through \"日常消費行為\" (daily consumption behavior), alternative models like \"棄成長\" (degrowth), and sustainable production via the \"竹產業\" (bamboo industry).",
+      "evidence": [
+        "棄成長",
+        "台灣民眾低碳轉型的日常消費行為與支付意願",
+        "活化竹林發揮吸碳潛力－以原保地竹林更新獎勵為例"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "score": 10.0,
+      "reason": "The course is fundamentally about \"氣候變遷治理轉型\" (governance transformation for climate change), with major sections on \"淨零轉型與碳匯\" (Net-zero transition and carbon sinks).",
+      "evidence": [
+        "氣候變遷治理轉型",
+        "淨零轉型與碳匯",
+        "氣候變遷調適與治理轉型"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 10.0,
+      "reason": "The course is fundamentally linked to terrestrial ecosystems through topics like \"永續森林治理\" (sustainable forest governance), \"森林碳專案\" (forest carbon projects), and land use issues.",
+      "evidence": [
+        "永續森林治理的潛在正義衝擊",
+        "國際森林碳市場現況與趨勢",
+        "台灣原住民狩獵與國家公園"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 10.0,
+      "reason": "The course's title is \"Environmental Planning and Governance\" and it extensively covers \"公平正義\" (fairness and justice), \"治理模式\" (Governance models), and \"公眾參與\" (public participation).",
+      "evidence": [
+        "環境規劃與治理",
+        "公平正義",
+        "公眾參與的正當性評估"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 5.0,
+      "reason": "The course focuses on mechanisms for collaboration, such as \"促進社區溝通和參與\" (promote community communication and participation) and \"公民參與\" (citizen participation), which are foundational to partnerships.",
+      "evidence": [
+        "促進社區溝通和參與",
+        "環評決策中公民參與的省思",
+        "公眾參與策略"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive evidence for several SDGs, prompting revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B highlights economic impacts on indigenous communities, aligning with course content."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B references environmental health risks, which are relevant to this SDG."
+      },
+      "Quality Education": {
+        "your_original": 4.5,
+        "model_b_score": 0.001,
+        "your_revised": 6.0,
+        "reason": "Model B's lack of evidence suggests my score should reflect a broader interpretation of community engagement."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.001,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B discusses economic development and its relation to environmental policies."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's focus on specific industries aligns with course content."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.001,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B's evidence on consumption patterns is relevant to this SDG."
+      },
+      "Life on Land": {
+        "your_original": 7.5,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B emphasizes sustainable forest governance, enhancing relevance to this SDG."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 6.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's focus on governance and justice aligns closely with course themes."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "No revisions needed. Model B's analysis aligns with mine, as Model A frequently missed explicit mentions or strong inferences from the course text.",
+    "revisions": {}
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize economic impacts on indigenous communities, aligning with course content. The score reflects the course's emphasis on economic justice.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit evidence in the course materials supports this SDG, as both models agree.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Model B's references to environmental health risks are relevant, and the score reflects a moderate alignment with course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Model A's revised score reflects a broader interpretation of community engagement, aligning with course objectives.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 6.0,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course materials supports this SDG, as both models agree.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course materials supports this SDG, as both models agree.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the course's focus on clean energy initiatives, aligning well with the SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight economic development and its relation to environmental policies, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on specific industries aligns with course content, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize indigenous perspectives and environmental justice, justifying a perfect score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "The course's emphasis on community engagement and environmental planning aligns well with this SDG.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Model B's evidence on consumption patterns is relevant, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on climate governance and net-zero transition justifies a perfect score.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course materials supports this SDG, as both models agree.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life on Land": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's emphasis on sustainable forest governance and indigenous rights justifies a perfect score.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on governance, justice, and public participation aligns closely with this SDG.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on community communication and participation supports this score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly discusses the economic impacts of policies like '禁伐補償' (logging compensation) on indigenous communities and the bamboo industry, directly linking to livelihoods and potential poverty.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or strong implicit evidence in the syllabus directly addresses food security, nutrition, or agricultural practices related to ending hunger.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly references environmental health risks through topics like the '蘭嶼核廢料爭議' (Lanyu nuclear waste dispute) and 'High-Tech Pollution', which directly impact human well-being.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "The course itself is a form of quality education, and its objective to '促進社區溝通和參與' (promote community communication and participation) contributes to education for sustainable development and civic engagement, which are aspects of SDG 4.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 6.0,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence in the syllabus addresses gender equality or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Despite a minor mention of river rehabilitation in the context of a carbon project, there is no substantial evidence directly addressing clean water access, sanitation, or sustainable water management as a core theme.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly discusses '金崙地熱開發' (Jinlun geothermal development) as a case study for just transition and covers '淨零轉型' (Net-zero transition), which fundamentally involves affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '經濟發展' (economic development), critiques it with '棄成長' (degrowth), and analyzes the economic impacts of environmental policies on industries like the '竹產業' and indigenous livelihoods.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course examines the environmental governance of '高科技產業' (high-tech industries), includes a field trip to a '竹業' (bamboo industry) site, and discusses '金崙地熱開發' (Jinlun geothermal development), all relating to industry and infrastructure.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally centered on indigenous perspectives, indigenous peoples' rights, environmental justice, and just transition, all of which directly address reducing inequalities.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "The course focuses on '環境規劃' (environmental planning) and emphasizes a '更貼近土地和社區的視角' (perspective closer to land and community), aiming to '促進社區溝通和參與' (promote community communication and participation), directly contributing to sustainable communities.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '棄成長' (degrowth), '日常消費行為' (daily consumption behavior), and sustainable production practices related to the '竹產業' (bamboo industry), directly aligning with responsible consumption and production.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "Climate action is a fundamental and extensively covered theme, with dedicated sections on '氣候變遷治理轉型,' '淨零轉型與碳匯,' and '氣候變遷調適與治理轉型.'",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence in the syllabus addresses marine ecosystems, ocean resources, or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course extensively covers terrestrial ecosystems through topics like '碳匯議題,' '永續森林治理,' '森林碳專案,' '竹林,' and '原住民狩獵與國家公園,' making it a core focus.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course title is 'Environmental Planning and Governance,' and it extensively covers '公平正義,' various '治理模式,' and the '正當性評估' (legitimacy assessment) of public and scientific participation, making it a core theme.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course emphasizes '促進社區溝通和參與' and '公民參與' in environmental governance, which are foundational elements for fostering multi-stakeholder partnerships to achieve sustainable development goals.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

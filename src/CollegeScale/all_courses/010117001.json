@@ -1,0 +1,772 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "Mentions '飢餓' and '基本需求' → relevant to No Poverty.",
+      "score": 4.0,
+      "evidence": [
+        "飢餓",
+        "基本需求"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "reason": "Mentions '飢餓' and '營養不良' → relevant to Zero Hunger.",
+      "score": 4.0,
+      "evidence": [
+        "飢餓",
+        "營養不良"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "reason": "Mentions '老弱婦孺喪失生命' → relevant to Good Health and Well-being.",
+      "score": 4.0,
+      "evidence": [
+        "老弱婦孺喪失生命"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "Focuses on '國際關係' and '國際政治' education.",
+      "score": 7.0,
+      "evidence": [
+        "國際關係",
+        "國際政治"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Mentions '國際貿易' and '市場經濟活動' → relevant to Decent Work and Economic Growth.",
+      "score": 4.0,
+      "evidence": [
+        "國際貿易",
+        "市場經濟活動"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "Mentions '南方國家的問題' → relevant to Reduced Inequalities.",
+      "score": 4.0,
+      "evidence": [
+        "南方國家的問題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "Mentions '氣候變遷' → relevant to Climate Action.",
+      "score": 4.0,
+      "evidence": [
+        "氣候變遷"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Mentions '和平' and '國際法' → relevant to Peace, Justice and Strong Institutions.",
+      "score": 7.0,
+      "evidence": [
+        "和平",
+        "國際法"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 4.5,
+      "reason": "Discusses the problems of developing nations, including '基本需求' (basic needs) and '資本累積' (capital accumulation), and covers '國際發展' (International development) as a key topic.",
+      "evidence": [
+        "基本需求",
+        "南方國家的問題：資本累積",
+        "國際發展"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "score": 6.0,
+      "reason": "Explicitly mentions '飢餓' (hunger) and '營養不良' (malnutrition) as critical issues in the course description and as a problem for developing countries.",
+      "evidence": [
+        "更多的巴勒斯坦人處於飢餓及營養不良的狀態",
+        "南方國家的問題：...飢餓"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "score": 2.5,
+      "reason": "The course description mentions mass casualties from war ('成千上萬的老弱婦孺喪失生命') and the curriculum covers '人道主義' (humanitarianism), linking conflict to well-being.",
+      "evidence": [
+        "成千上萬的老弱婦孺喪失生命",
+        "人道主義"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "score": 1.001,
+      "reason": "The course's objective is to provide international knowledge ('更寬廣的國際知識'), but it does not cover the topic of education access or systems as part of its curriculum.",
+      "evidence": [
+        "期望能帶入更多議題，以拓展學習者之視野",
+        "預期同學具備更寬廣的國際知識"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found. The mention of '婦孺' (women and children) is in the context of victims of war, not gender equality.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 5.5,
+      "reason": "Covers topics central to economic growth, including '國際貿易' (International Trade), '全球金融與企業' (Global Finance & Business), and '市場經濟活動' (market economy activities).",
+      "evidence": [
+        "國際貿易",
+        "全球金融與企業",
+        "市場經濟活動"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 1.5,
+      "reason": "Mentions '跨國企業' (multinational corporations), which relates to industry, but does not focus on innovation or infrastructure as primary topics.",
+      "evidence": [
+        "跨國企業"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 8.0,
+      "reason": "A major focus is on inequality between nations, with dedicated weeks on '開發中國家和已開發國家間關係' (relations between developing and developed countries) and '南北國家間的關係' (North-South relations).",
+      "evidence": [
+        "開發中國家和已開發國家間關係",
+        "南方國家的問題",
+        "南北國家間的關係"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 1.001,
+      "reason": "Mentions '氣候變遷' (climate change) as a topic in a cancelled lecture, indicating tangential relevance to the broader subject of international relations.",
+      "evidence": [
+        "氣候變遷"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 3.5,
+      "reason": "Discusses international conflict over a '漁業協定' (fishery agreement) and maritime territories, which directly relates to the governance of marine resources.",
+      "evidence": [
+        "釣漁臺列嶼與日台漁業協定",
+        "沖之鳥礁與台灣漁船"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life on Land": {
+      "score": 1.001,
+      "reason": "Mentions '生物多樣化' (biodiversity) as a topic in a cancelled lecture, indicating tangential relevance to the broader subject of international relations.",
+      "evidence": [
+        "生物多樣化"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 10.0,
+      "reason": "The course is fundamentally about the causes of '戰爭和武裝衝突' (war and armed conflict) and the roles of '國際組織及國際法' (International Organizations & International Law) in seeking peace.",
+      "evidence": [
+        "戰爭和武裝衝突",
+        "國際組織及國際法",
+        "聯合國",
+        "國際刑事法庭"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 7.5,
+      "reason": "Analyzes partnerships and interactions between states and non-state actors through topics like '國際組織' (International Organizations), '國際整合' (International Integration), and '對外援助' (foreign aid).",
+      "evidence": [
+        "國際組織",
+        "國際整合",
+        "對外援助"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides a more comprehensive understanding of the course content, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B includes '資本累積' and '國際發展', which strengthens the relevance."
+      },
+      "Zero Hunger": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B emphasizes the critical issues of hunger and malnutrition more effectively."
+      },
+      "Good Health and Well-being": {
+        "your_original": 4.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B's focus on humanitarianism and conflict impacts health more accurately."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 1.001,
+        "your_revised": 1.001,
+        "reason": "Model B correctly identifies the lack of focus on education access."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B's broader coverage of economic topics justifies a higher score."
+      },
+      "Reduced Inequalities": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's emphasis on inequality between nations is more comprehensive."
+      },
+      "Climate Action": {
+        "your_original": 4.0,
+        "model_b_score": 1.001,
+        "your_revised": 1.001,
+        "reason": "Model B's mention of climate change as tangentially relevant is more accurate."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's focus on war and international law aligns better with course content."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more comprehensive evidence and accurate interpretations for several SDGs, particularly regarding the scope of specific goals and the impact of cancelled lectures. My revisions reflect these insights.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A's reasoning is more comprehensive, including '資本累積' and '國際發展' which are directly relevant to poverty reduction strategies."
+      },
+      "Zero Hunger": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model A's higher score better reflects the explicit and direct mentions of '飢餓' and '營養不良' in the course text."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 1.001,
+        "your_revised": 1.001,
+        "reason": "Model A correctly interprets SDG 4 as being about education access and systems, not merely the course's own educational content."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model A's reasoning is more comprehensive, including '全球金融與企業' which is highly relevant to economic growth."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.001,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model A correctly identified '跨國企業' as a tangential link to industry, which I initially overlooked."
+      },
+      "Reduced Inequalities": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A's reasoning is much stronger, highlighting dedicated weeks on '開發中國家和已開發國家間關係' and '南北國家間的關係'."
+      },
+      "Climate Action": {
+        "your_original": 4.0,
+        "model_b_score": 1.001,
+        "your_revised": 1.001,
+        "reason": "Model A correctly noted that the lecture mentioning '氣候變遷' was cancelled, significantly reducing its relevance."
+      },
+      "Life Below Water": {
+        "your_original": 0.001,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model A correctly identified explicit evidence related to '漁業協定' and maritime territories, which I missed."
+      },
+      "Life on Land": {
+        "your_original": 0.001,
+        "model_b_score": 1.001,
+        "your_revised": 1.001,
+        "reason": "Model A correctly identified '生物多樣化' as a tangential link, despite being in a cancelled lecture."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A's reasoning is much stronger, reflecting the course's fundamental focus on war, peace, international law, and organizations."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model A correctly identified significant evidence like '國際組織', '國際整合', and '對外援助', which I completely missed."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight '基本需求' and '資本累積', but Model B's emphasis on '國際發展' strengthens the relevance to poverty reduction. The score reflects a comprehensive understanding of the course content.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Model B effectively emphasizes the critical issues of hunger and malnutrition, aligning closely with course content. The score reflects the explicit mentions in the syllabus.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on humanitarianism and conflict impacts health more accurately than Model A. The score reflects the course's context of war-related casualties.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 1.001,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the lack of focus on education access, but Model B's lower score accurately reflects the course's emphasis on international knowledge rather than educational systems.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 1.001
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence for gender equality in the course content, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence for clean water and sanitation in the course content, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence for affordable and clean energy in the course content, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Model B's broader coverage of economic topics, including '全球金融與企業', justifies a higher score. The score reflects the course's emphasis on economic growth.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model B's mention of '跨國企業' provides a relevant link to industry, though it lacks focus on innovation and infrastructure. The score reflects minimal relevance.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on inequality between nations and dedicated weeks on related topics provide a comprehensive understanding, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence for sustainable cities and communities in the course content, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence for responsible consumption and production in the course content, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Climate Action": {
+      "final_score": 1.001,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the limited relevance of climate action due to the cancelled lecture, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 1.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 3.5,
+      "source": "synthesized",
+      "reasoning": "Model A's identification of explicit evidence related to '漁業協定' and maritime territories is significant, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 1.001,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the limited relevance of life on land due to the cancelled lecture, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 1.001
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the fundamental focus of the course on war, peace, and international law, justifying the highest score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Model A's identification of significant evidence like '國際組織' and '對外援助' provides a strong basis for this score, reflecting the course's focus on partnerships.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly addresses '基本需求', '資本累積', and '國際發展' in the context of developing nations, directly linking to poverty reduction strategies and justifying this score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The syllabus explicitly highlights '飢餓' and '營養不良' as critical issues in current international conflicts and as problems for developing nations, warranting a higher score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The course highlights mass casualties from war and covers '人道主義', linking international conflict's severe impact to human well-being, though not focusing on health systems.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 1.001,
+      "source": "model_b",
+      "reasoning": "The course aims to educate students about international relations, but it does not address education access, systems, or quality as an international issue within its curriculum.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 1.001
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the syllabus directly addresses gender equality as a topic of study.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus indicates that clean water and sanitation issues are covered.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus indicates that affordable and clean energy issues are covered.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course extensively covers '國際貿易', '全球金融與企業', and '市場經濟活動', which are central to understanding international economic growth.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The course discusses '跨國企業' (multinational corporations) as part of global finance, providing a tangential link to industry, though not focusing on innovation or infrastructure.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course has a major focus on inequality between nations, with dedicated weeks on '開發中國家和已開發國家間關係' and '南北國家間的關係', directly addressing global disparities.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus indicates that sustainable cities and communities are covered.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus indicates that responsible consumption and production are covered.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 1.001,
+      "source": "model_b",
+      "reasoning": "'氣候變遷' is listed as a topic, but the corresponding lecture (Week 13) was cancelled, making its actual coverage negligible.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 1.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 3.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly discusses international conflicts over '漁業協定' and maritime territories, directly relating to the governance and sustainability of marine resources.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 1.001,
+      "source": "model_b",
+      "reasoning": "'生物多樣化' is listed as a topic, but the corresponding lecture (Week 13) was cancelled, making its actual coverage negligible.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.001,
+        "model_b_revised": 1.001
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course fundamentally addresses the causes of '戰爭和武裝衝突', the pursuit of '和平', and the critical roles of '國際組織' and '國際法' in global governance and justice.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course extensively analyzes international cooperation through '國際組織', '國際整合' (e.g., EU), and '對外援助', which are fundamental to global partnerships for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    }
+  }
+}

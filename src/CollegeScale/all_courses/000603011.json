@@ -1,0 +1,711 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course aims to enhance understanding of civil law concepts → relevant to Quality Education.",
+      "score": 7.0,
+      "evidence": [
+        "使同學瞭解民法中關於權利主體、權利客體、法律行為",
+        "更加充分瞭解日常生活中常常出現之民法權利義務關係"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "Mentions '結婚之要件與效力' and '離婚之方式' → relevant to Gender Equality.",
+      "score": 4.0,
+      "evidence": [
+        "結婚之要件與效力",
+        "離婚之方式"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Course covers legal concepts and rights → relevant to Peace, Justice and Strong Institutions.",
+      "score": 6.0,
+      "evidence": [
+        "權利主體、權利客體、法律行為",
+        "法律行為之類型與債之關係之類型"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course covers legal frameworks for asset ownership and transfer, such as \"所有權\" (ownership) and \"遺產繼承分配\" (inheritance), which are foundational for economic security.",
+      "score": 3.0,
+      "evidence": [
+        "所有權及抵押權",
+        "遺產繼承分配等相關問題"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "The course discusses \"侵權行為之債\" (torts), which provides legal remedies for personal injury, indirectly relating to well-being.",
+      "score": 2.0,
+      "evidence": [
+        "侵權行為之債"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "reason": "The course is a form of higher education with the objective to \"使同學瞭解民法中...基本概念\" (enable students to understand basic concepts in civil law), directly contributing to legal education.",
+      "score": 5.0,
+      "evidence": [
+        "本課程之目的乃在使同學瞭解民法中關於權利主體、權利客體、法律行為、意思表示與債之關係等基本概念"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "The course covers family law topics like \"結婚之要件與效力\" (marriage) and \"離婚\" (divorce), which are central to establishing gender equality in family relations.",
+      "score": 4.0,
+      "evidence": [
+        "結婚之要件與效力",
+        "離婚之方式、要件與效力",
+        "父母子女關係"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course covers the legal foundations of economic activity, including \"契約之成立與生效\" (formation of contracts) and specific contracts like \"買賣契約\" (sales contracts).",
+      "score": 6.0,
+      "evidence": [
+        "契約之成立與生效",
+        "買賣契約",
+        "租賃契約"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course discusses \"所有權及抵押權\" (ownership and mortgage), which are legal instruments necessary for financing and securing infrastructure and industrial assets.",
+      "score": 3.0,
+      "evidence": [
+        "所有權及抵押權",
+        "物權之概念、種類、效力與物權之變動"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "reason": "Civil law establishes a framework for equal rights and obligations for all \"權利主體\" (subjects of rights), thereby reducing inequalities in access to justice.",
+      "score": 6.0,
+      "evidence": [
+        "權利主體：自然人與法人",
+        "民法權利義務關係"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "The course covers \"租賃契約\" (lease contracts) and \"所有權\" (ownership), which are legal foundations for housing, but lacks focus on sustainability or community aspects.",
+      "score": 2.0,
+      "evidence": [
+        "租賃契約",
+        "所有權及抵押權"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "The course addresses \"買賣契約\" (sales contracts) and \"不完全給付\" (defective performance), which are key elements of consumer rights and responsible consumption.",
+      "score": 4.0,
+      "evidence": [
+        "買賣契約",
+        "債務不履行...不完全給付",
+        "維護智慧財產權，務必使用正版書籍"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course is fundamentally about civil law, which defines legal rights and obligations (\"民法權利義務關係\") and provides mechanisms for justice, forming a cornerstone of strong institutions.",
+      "score": 10.0,
+      "evidence": [
+        "民法之意義、性質、架構",
+        "侵權行為之債",
+        "更加充分瞭解日常生活中常常出現之民法權利義務關係"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B provides stronger evidence for several SDGs, prompting revisions to align with its analysis.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B highlights legal frameworks for asset ownership and inheritance, crucial for economic security."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B connects torts to legal remedies for personal injury, relevant to well-being."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's score reflects a more accurate assessment of the course's educational impact."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 6.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B emphasizes the course's foundational role in defining legal rights and obligations."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provided more comprehensive links to several SDGs, particularly regarding the foundational role of civil law in economic activity, property rights, and social justice. I am revising my scores to reflect these valid connections.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 3.0,
+        "reason": "Civil law's coverage of ownership and inheritance directly impacts economic security and wealth distribution, aligning with poverty reduction."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 2.0,
+        "reason": "The course's discussion of '侵權行為之債' (torts) provides legal remedies for personal injury, indirectly contributing to well-being."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 6.0,
+        "reason": "Civil law, especially contract law (e.g., sales, leases), forms the legal basis for economic transactions and growth."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 3.0,
+        "reason": "Ownership and mortgage laws are crucial for financing and securing assets, supporting infrastructure and industry development."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 6.0,
+        "reason": "Civil law establishes a framework of equal rights and obligations for all legal subjects, inherently reducing inequalities."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 2.0,
+        "reason": "The course covers property ownership and lease contracts, which are foundational legal aspects for housing and urban development."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 4.0,
+        "reason": "Sales contracts and defective performance relate to consumer rights and responsible practices, including intellectual property."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 10.0,
+        "reason": "Civil law is fundamental to defining rights, obligations, and providing justice mechanisms, forming the bedrock of strong institutions."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the importance of legal frameworks for ownership and inheritance in economic security. The revised scores reflect a consensus on this connection.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence linking the course content to Zero Hunger.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect tort law to personal injury remedies, but the revised scores reflect a more accurate assessment of the course's indirect contributions to well-being.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on civil law concepts aligns with educational objectives, and the revised scores reflect a balanced view of its educational impact.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the relevance of family law topics to gender equality, and the scores reflect a consistent understanding of this connection.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence linking the course content to Clean Water and Sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence linking the course content to Affordable and Clean Energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "The course's coverage of contract law and economic activity aligns well with this SDG, and the revised scores reflect a consensus on its importance.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on ownership and mortgage laws supports infrastructure development, and the revised scores reflect a balanced understanding.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the role of civil law in establishing equal rights, and the revised scores reflect a strong alignment with this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on property and lease contracts is relevant, but lacks a strong emphasis on sustainability, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "The course's discussion of sales contracts and consumer rights aligns with responsible consumption, and the revised scores reflect this connection.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence linking the course content to Climate Action.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence linking the course content to Life Below Water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence linking the course content to Life on Land.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the foundational role of civil law in defining rights and obligations, justifying the highest score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence linking the course content to Partnerships for the Goals.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "Civil law covers ownership, mortgage, and inheritance, which are legal frameworks for asset management and distribution, foundational for economic security and poverty reduction.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable connection to food security, sustainable agriculture, or hunger eradication is found in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course covers '侵權行為' (torts), which provides legal remedies for personal injury, indirectly contributing to individuals' physical and mental well-being.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "As a university course, it directly contributes to quality education by providing students with a fundamental understanding of civil law concepts and their application.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 4.0,
+      "source": "model_a",
+      "reasoning": "The course covers family law topics such as marriage, divorce, and parent-child relationships, which are fundamental legal frameworks for gender equality in family rights and responsibilities.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable connection to clean water, sanitation, or related environmental management is found in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable connection to affordable and clean energy sources or related policies is found in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course covers contract law (e.g., sales, leases) and obligations, which are fundamental legal frameworks for economic transactions, business operations, and the environment for decent work.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course covers property law, including ownership and mortgage, which are essential legal instruments for financing, securing, and developing industrial and infrastructure assets.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "Civil law establishes a framework of equal rights and obligations for all legal subjects, which is fundamental for reducing inequalities in legal standing and access to justice.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course covers property ownership and lease contracts, which are foundational legal aspects for housing and property management within cities and communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course covers sales contracts and defective performance, which relate to consumer rights and producer responsibilities. The mention of copyright also supports responsible consumption/production.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable connection to climate change, environmental protection, or related actions is found in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable connection to marine life, ocean conservation, or sustainable use of marine resources is found in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable connection to terrestrial ecosystems, biodiversity, or sustainable land management is found in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "Civil law is fundamental to defining rights, obligations, and providing mechanisms for justice and dispute resolution, forming the bedrock of strong, accountable, and inclusive institutions.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable connection to global partnerships, international cooperation, or multi-stakeholder engagement for sustainable development is found.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    }
+  }
+}

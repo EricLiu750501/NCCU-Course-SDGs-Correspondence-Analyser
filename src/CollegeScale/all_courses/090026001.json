@@ -1,0 +1,707 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course aims to educate on marine issues and human relationships with the ocean.",
+      "score": 7.0,
+      "evidence": [
+        "認識海洋相關議題，特別是生態、能源、人文",
+        "認識人類與海洋的關係"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "Mentions '海洋再生能源' which relates to clean energy.",
+      "score": 4.0,
+      "evidence": [
+        "最新的海洋再生能源"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "Mentions '海洋塑膠危機' related to responsible production.",
+      "score": 4.0,
+      "evidence": [
+        "海洋塑膠危機"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "Course focuses on marine ecology and conservation.",
+      "score": 9.0,
+      "evidence": [
+        "探索海洋",
+        "海洋保育的國際趨勢和台灣的挑戰",
+        "台灣海洋生物生態的多樣性"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information regarding poverty, economic disparity, or social protection.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 7.0,
+      "reason": "The course extensively covers fisheries, a key source of global food supply, with topics like '漁業' (fisheries) and '台灣遠洋漁業的省思' (Reflections on Taiwan's Distant Water Fisheries).",
+      "evidence": [
+        "從漁業到最新的海洋再生能源",
+        "台灣遠洋漁業的省思",
+        "換個角度看台灣漁業"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information regarding human health, disease prevention, or well-being.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 8.0,
+      "reason": "The course's primary goal is education, aiming to '塑造與眾不同的海洋素養' (shape a unique marine literacy) and help students '認識海洋相關議題' (understand ocean-related issues).",
+      "evidence": [
+        "塑造與眾不同的海洋素養",
+        "認識海洋相關議題，特別是生態、能源、人文",
+        "認識人類與海洋的關係"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information regarding gender equality, women's empowerment, or related topics.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 1.0,
+      "reason": "The course mentions the '海洋塑膠危機' (Marine Plastic Crisis), which tangentially relates to water pollution, but the focus is on marine environments, not freshwater or sanitation.",
+      "evidence": [
+        "海洋塑膠危機"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Affordable and Clean Energy": {
+      "score": 9.5,
+      "reason": "The course has a strong focus on clean energy, explicitly mentioning '最新的海洋再生能源' (latest marine renewable energy) and dedicating lectures to '台灣海洋能的發展' and '離岸風電的發展'.",
+      "evidence": [
+        "最新的海洋再生能源",
+        "台灣海洋能的發展",
+        "離岸風電的發展和挑戰"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 7.5,
+      "reason": "The course covers major maritime industries that drive economic growth, such as '漁業' (fisheries), shipping ('船'), and energy sectors like '離岸風電' and '深海油氣探勘'.",
+      "evidence": [
+        "從漁業到最新的海洋再生能源",
+        "港灣-船舶的故鄉",
+        "台灣遠洋漁業的省思"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 8.0,
+      "reason": "The course discusses key infrastructure like '港灣' (harbors), industrial technology like '船' (ships), and innovation in '海洋再生能源' (marine renewable energy) and '離岸風電' (offshore wind power).",
+      "evidence": [
+        "港灣-船舶的故鄉",
+        "最新的海洋再生能源",
+        "離岸風電的發展和挑戰"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information regarding social, economic, or political inequality.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 4.0,
+      "reason": "The course discusses coastal infrastructure integral to communities, such as '漁港風華' (Fishery Port Style) and '港灣-船舶的故鄉' (Harbor - Hometown of Ships).",
+      "evidence": [
+        "漁港風華",
+        "港灣-船舶的故鄉"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "score": 7.0,
+      "reason": "The course directly addresses unsustainable production and consumption through the topic '海洋塑膠危機' (Marine Plastic Crisis) and encourages '有智慧地運用海洋' (wise use of the ocean).",
+      "evidence": [
+        "海洋塑膠危機",
+        "有智慧地運用海洋、尊重海洋、守護海洋",
+        "台灣遠洋漁業的省思"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "score": 8.5,
+      "reason": "The course directly addresses climate change mitigation strategies by focusing on '海洋再生能源' (marine renewable energy), '台灣海洋能的發展' (Development of Marine Energy in Taiwan), and '離岸風電' (offshore wind power).",
+      "evidence": [
+        "最新的海洋再生能源",
+        "台灣海洋能的發展",
+        "離岸風電的發展和挑戰"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 10.0,
+      "reason": "The course is fundamentally about marine life and ecosystems, covering '海洋生物生態的多樣性' (Diversity of Marine Biology and Ecology) and '海洋保育' (Marine Conservation) as core topics.",
+      "evidence": [
+        "探索海洋－從水岸到深海",
+        "台灣海洋生物生態的多樣性",
+        "海洋保育的國際趨勢和台灣的挑戰"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life on Land": {
+      "score": 0.001,
+      "reason": "No evidence found. The course content is exclusively focused on marine and coastal environments, not terrestrial ecosystems.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information regarding justice, peace, rule of law, or institutional governance.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 1.0,
+      "reason": "The course tangentially relates to this goal by mentioning '海洋保育的國際趨勢' (international trends in marine conservation), which implies global cooperation, but it is not a central theme.",
+      "evidence": [
+        "海洋保育的國際趨勢和台灣的挑戰"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive evidence for several SDGs, leading to necessary revisions in my scores.",
+    "revisions": {
+      "Zero Hunger": {
+        "your_original": 0.001,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B highlights the course's focus on fisheries, which is crucial for food supply."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B emphasizes the course's goal of shaping unique marine literacy."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.001,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B connects the marine plastic crisis to water pollution."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 4.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B provides stronger evidence of the course's focus on clean energy."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.001,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B identifies key maritime industries driving economic growth."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.001,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B discusses infrastructure and innovation in marine contexts."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 4.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B emphasizes the course's focus on sustainable practices."
+      },
+      "Climate Action": {
+        "your_original": 0.001,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B highlights the course's focus on climate change mitigation."
+      },
+      "Life Below Water": {
+        "your_original": 9.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B accurately reflects the course's core focus on marine life."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B connects the course to international cooperation in marine conservation."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "No revisions needed. Model B's analysis aligns with mine, but my original analysis provided more comprehensive evidence and stronger inferences for several SDGs.",
+    "revisions": {}
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty in the course content, justifying a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's focus on fisheries, crucial for food supply, justifying a score of 7.000.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to health or well-being was found in the course content, justifying a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's educational goals, with strong evidence supporting a score of 8.000.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to gender equality in the course content, justifying a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Model B's reasoning connects the marine plastic crisis to water pollution, justifying a score of 1.000.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's strong focus on clean energy, justifying a score of 9.500.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models identify key maritime industries driving economic growth, justifying a score of 7.500.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models discuss infrastructure and innovation in marine contexts, justifying a score of 8.000.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to inequalities in the course content, justifying a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Model B's reasoning about coastal infrastructure supports a score of 4.000.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's focus on sustainable practices, justifying a score of 7.000.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on climate change mitigation, justifying a score of 8.500.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models accurately reflect the course's core focus on marine life, justifying a score of 10.000.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to land ecosystems in the course content, justifying a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to peace or justice in the course content, justifying a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Model B's reasoning connects the course to international cooperation in marine conservation, justifying a score of 1.000.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus provides no direct or indirect evidence related to poverty eradication, income disparity, or social protection.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 7.0,
+      "source": "revised_a",
+      "reasoning": "The course extensively covers fisheries, including '漁港風華' and '台灣遠洋漁業的省思,' which are directly related to food production and supply from the ocean.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course content focuses on marine ecology, energy, and human-ocean relationships, but does not explicitly or implicitly address human health and well-being.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "The course's explicit objectives are to educate students on marine issues, human-ocean relationships, and to 'shape a unique marine literacy,' directly aligning with Quality Education.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no mention or implication of gender equality, women's empowerment, or related social equity issues within the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 1.0,
+      "source": "revised_a",
+      "reasoning": "The course addresses '海洋塑膠危機,' which directly impacts marine water quality. While SDG 6 primarily focuses on freshwater, marine pollution is a relevant, albeit indirect, connection.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly focuses on '海洋再生能源,' with dedicated lectures on '台灣海洋能的發展' and '離岸風電,' indicating a very strong alignment with clean energy development.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "revised_a",
+      "reasoning": "The course covers major maritime industries such as fisheries, shipping, and marine energy development (offshore wind, oil/gas), which are direct drivers of economic growth and employment.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers marine infrastructure ('港灣'), maritime industry ('船'), and innovation in marine renewable energy ('海洋再生能源,' '離岸風電'), strongly aligning with this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus does not contain any explicit or implicit content related to reducing inequalities within or among countries.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course discusses coastal infrastructure like '漁港風華' and '港灣,' which are integral to the sustainability and development of coastal cities and communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 7.0,
+      "source": "revised_a",
+      "reasoning": "The course directly addresses unsustainable practices through '海洋塑膠危機' and promotes '有智慧地運用海洋,' reflecting responsible consumption and production of marine resources.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The course directly addresses climate change mitigation by focusing on the development of '海洋再生能源,' '台灣海洋能,' and '離岸風電,' which are crucial for reducing carbon emissions.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course is fundamentally dedicated to exploring, understanding, and conserving marine life and ecosystems, with explicit topics on biodiversity and marine conservation.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course content is exclusively focused on marine and coastal environments, with no explicit or implicit mention of terrestrial ecosystems or biodiversity.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus does not contain any explicit or implicit content related to peace, justice, rule of law, or institutional governance.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 1.0,
+      "source": "revised_a",
+      "reasoning": "The mention of '海洋保育的國際趨勢' suggests the importance of international cooperation and partnerships for achieving marine conservation goals.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

@@ -1,0 +1,710 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Focus on 'preparing students for employment' and 'encouraging self-directed learning' → relevant to Quality Education.",
+      "score": 7.5,
+      "evidence": [
+        "為鼓勵同學自動自發學習課業",
+        "提升準備金融科技或網路安全等相關就業機會的能力",
+        "具備規劃學習地圖與生涯發展路徑的能力"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Focus on 'preparing students for employment' and 'financial technology job opportunities' → relevant to Decent Work and Economic Growth.",
+      "score": 8.0,
+      "evidence": [
+        "提升準備金融科技或網路安全等相關就業機會的能力",
+        "推薦實習或就業",
+        "感謝「敵人」，並將敵人視為「朋友」"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Covers 'financial technology security' and 'cybersecurity applications' → relevant to Industry, Innovation and Infrastructure.",
+      "score": 7.5,
+      "evidence": [
+        "金融科技安全",
+        "金融資安行動方案",
+        "資安治理與管理"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Covers 'information security ethics and laws' → relevant to Peace, Justice and Strong Institutions.",
+      "score": 6.0,
+      "evidence": [
+        "解資訊安全倫理與法律",
+        "資安事件分析與實務應用",
+        "網路犯罪偵查與數位鑑識蒐證"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 1.001,
+      "reason": "The course mentions personal financial management ('量入為出' - live within your means), which is tangentially related to avoiding personal financial hardship, but does not address systemic poverty.",
+      "evidence": [
+        "量入為出"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 9.0,
+      "reason": "The course is explicitly designed to provide quality education by aiming to '強化資訊安全領域專業知識' (strengthen professional knowledge) and '養成自主與終身學習的態度' (develop an attitude for lifelong learning).",
+      "evidence": [
+        "強化資訊安全領域專業知識，期許學生能瞭解資訊安全國際發展與應用趨勢",
+        "養成自主與終身學習的態度與策略",
+        "培養資訊安全相關的基本核心能力"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 9.5,
+      "reason": "A core objective is to '準備就業' (prepare for employment) and '推薦實習或就業' (recommend internships or employment), directly contributing to decent work in the high-growth FinTech sector.",
+      "evidence": [
+        "準備就業",
+        "推薦實習或就業",
+        "提升準備金融科技或網路安全等相關就業機會的能力"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 9.8,
+      "reason": "The course is fundamentally about securing critical infrastructure, focusing on '金融科技的網路安全' (Cyber Security in FinTech), '雲端安全' (cloud security), and '供應鏈資安' (supply chain security).",
+      "evidence": [
+        "金融科技的網路安全：理論與應用",
+        "供應鏈資安、雲端安全、零信任資安、工控安全、金融資安",
+        "金融資安行動方案"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 2.0,
+      "reason": "The course promotes responsible consumption of intellectual property by stating '維護智慧財產權，務必使用正版書籍' (Respect Copyright. Use legitimate books).",
+      "evidence": [
+        "維護智慧財產權，務必使用正版書籍。"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 9.0,
+      "reason": "The course directly addresses justice and strong institutions through topics like '網路犯罪偵查與數位鑑識蒐證' (cybercrime investigation and digital forensics) and '資安治理' (security governance).",
+      "evidence": [
+        "網路犯罪偵查與數位鑑識蒐證",
+        "資安治理與管理",
+        "資安事件分析與實務應用"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 8.0,
+      "reason": "The course explicitly discusses multi-stakeholder partnerships, such as '產業資安聯防（情資分享）' (Industry cybersecurity joint defense (intelligence sharing)) and '資安產業聯盟' (Cybersecurity industry alliance).",
+      "evidence": [
+        "產業資安聯防（情資分享）",
+        "資安產業聯盟（人員、程序、技術、治理）",
+        "產業共利及讓利平台"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations of the course text, particularly in Quality Education and Decent Work.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 1.001,
+        "your_revised": 1.001,
+        "reason": "Model B highlights personal financial management, relevant to No Poverty."
+      },
+      "Quality Education": {
+        "your_original": 7.5,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B emphasizes the course's focus on strengthening professional knowledge and lifelong learning."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 8.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B accurately reflects the course's strong emphasis on preparing for employment."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 7.5,
+        "model_b_score": 9.8,
+        "your_revised": 9.8,
+        "reason": "Model B captures the course's focus on securing critical infrastructure in FinTech."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 6.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B correctly identifies the course's direct relevance to justice and strong institutions."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B highlights the course's discussion on multi-stakeholder partnerships."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provided more comprehensive evidence for several SDGs, particularly regarding explicit mentions of partnerships, intellectual property, and the broader scope of infrastructure security. My scores have been revised accordingly.",
+    "revisions": {
+      "SDG_4 (Quality Education)": {
+        "your_original": 7.5,
+        "model_b_score": 7.5,
+        "your_revised": 9.0,
+        "reason": "Model A's evidence, such as '強化資訊安全領域專業知識' and '養成自主與終身學習的態度', better captures the course's strong contribution to quality education."
+      },
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 8.0,
+        "model_b_score": 8.0,
+        "your_revised": 9.5,
+        "reason": "Model A's higher score better reflects the explicit and strong emphasis on '準備就業' and '推薦實習或就業' in the high-growth FinTech sector."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 7.5,
+        "model_b_score": 7.5,
+        "your_revised": 9.8,
+        "reason": "Model A's reasoning more comprehensively highlights the course's focus on securing critical infrastructure, including '供應鏈資安' and '雲端安全'."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 2.0,
+        "reason": "Model A correctly identified the explicit mention of '維護智慧財產權，務必使用正版書籍', which directly relates to responsible consumption."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 9.0,
+        "reason": "Model A's higher score better reflects the direct and strong evidence for '網路犯罪偵查與數位鑑識蒐證' and '資安治理與管理'."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 8.0,
+        "reason": "Model A correctly identified explicit mentions of '產業資安聯防' and '資安產業聯盟', which are direct contributions to partnerships."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.001,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the course's mention of personal financial management, which is relevant to avoiding poverty, despite not addressing systemic issues.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 1.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course material related to Zero Hunger.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course material related to Good Health and Well-being.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's strong focus on professional knowledge and lifelong learning, but Model B's reasoning is more comprehensive.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course material related to Gender Equality.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course material related to Clean Water and Sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course material related to Affordable and Clean Energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's focus on preparing students for employment, but Model B's score better reflects the explicit emphasis on job readiness.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.8,
+      "source": "synthesized",
+      "reasoning": "Model B's score captures the course's focus on securing critical infrastructure in FinTech, aligning well with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 9.8,
+        "model_b_original": 9.8,
+        "model_b_revised": 9.8
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course material related to Reduced Inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course material related to Sustainable Cities and Communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model A's identification of intellectual property respect aligns with responsible consumption, while Model B's score is too high given the limited evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course material related to Climate Action.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course material related to Life Below Water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course material related to Life on Land.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's relevance to justice and strong institutions, but Model B's reasoning is more comprehensive.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's emphasis on multi-stakeholder partnerships, but Model B's score is more reflective of the evidence provided.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.001,
+      "source": "model_b",
+      "reasoning": "The course mentions '量入為出' (live within your means), a personal financial management principle tangentially related to avoiding individual financial hardship, aligning minimally with No Poverty.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to ending hunger, achieving food security, or improving nutrition.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to promoting good health or well-being.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly aims to strengthen professional knowledge in information security and foster autonomous, lifelong learning, directly aligning with quality education.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to achieving gender equality or empowering women and girls.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to ensuring availability and sustainable management of water and sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to ensuring access to affordable, reliable, sustainable, and modern energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course strongly emphasizes preparing students for employment and recommending internships/jobs in the FinTech and cybersecurity sectors, directly contributing to decent work and economic growth.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.8,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about cybersecurity in FinTech, covering critical infrastructure security, supply chain security, cloud security, and industrial control security, directly contributing to resilient infrastructure and innovation.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 9.8,
+        "model_b_original": 9.8,
+        "model_b_revised": 9.8
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to reducing inequalities of any kind.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to making cities and human settlements inclusive, safe, resilient, and sustainable.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly promotes responsible consumption by stating the importance of respecting copyright and using legitimate books.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to taking urgent action to combat climate change and its impacts.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to conserving and sustainably using the oceans, seas, and marine resources.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to protecting, restoring, and promoting sustainable use of terrestrial ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course directly addresses information security ethics, laws, governance, incident analysis, cybercrime investigation, and digital forensics, which are crucial for justice and strong institutions.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly discusses multi-stakeholder cooperation through '產業資安聯防' (industry cybersecurity joint defense) and '資安產業聯盟' (cybersecurity industry alliance), directly contributing to partnerships for the goals.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    }
+  }
+}

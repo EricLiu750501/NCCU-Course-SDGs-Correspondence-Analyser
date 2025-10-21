@@ -1,0 +1,714 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "Mentions '農業會計' (agricultural accounting) → relevant to Zero Hunger.",
+      "score": 4.0,
+      "evidence": [
+        "農業會計",
+        "農業會計(1)",
+        "農業會計(2)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "reason": "Mentions '員工福利' (employee benefits) → relevant to Good Health and Well-being.",
+      "score": 4.0,
+      "evidence": [
+        "員工福利",
+        "員工福利(1)",
+        "員工福利(2)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Mentions '財務報導對企業及報表使用者之影響' (impact of financial reporting on businesses) → relevant to Decent Work and Economic Growth.",
+      "score": 4.0,
+      "evidence": [
+        "財務報導對企業及報表使用者之影響"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Mentions '國際財務報導準則' (international financial reporting standards) → relevant to Industry, Innovation and Infrastructure.",
+      "score": 4.0,
+      "evidence": [
+        "國際財務報導準則"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "Mentions '農業會計' (agricultural accounting) → relevant to Life on Land.",
+      "score": 4.0,
+      "evidence": [
+        "農業會計",
+        "農業會計(1)",
+        "農業會計(2)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 1.001,
+      "reason": "The course mentions \"員工福利\" (employee benefits) and \"退休金會計\" (pension accounting), which are mechanisms for financial security, indirectly related to poverty prevention.",
+      "evidence": [
+        "員工福利",
+        "退休金會計"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 7.0,
+      "reason": "The course explicitly includes \"農業會計\" (Agricultural accounting) as a core topic, which is directly related to the business of food production.",
+      "evidence": [
+        "農業會計"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "score": 1.5,
+      "reason": "The course covers \"員工福利\" (employee benefits) and \"退休金會計\" (pension accounting), which can include health provisions and support well-being in retirement.",
+      "evidence": [
+        "員工福利",
+        "退休金會計"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "score": 4.0,
+      "reason": "As a university course, it directly provides specialized education by teaching \"特殊單元會計主題\" and \"國際會計準則基礎的會計處理及財務報導原則\".",
+      "evidence": [
+        "學習特殊單元會計主題",
+        "學習國際會計準則基礎的會計處理及財務報導原則"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 8.0,
+      "reason": "Core topics include \"員工福利\" (employee benefits), \"退休金會計\" (pension accounting), and \"股份基礎給付\" (share-based payment), which are integral to decent work and economic systems.",
+      "evidence": [
+        "員工福利",
+        "退休金會計",
+        "股份基礎給付"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 4.5,
+      "reason": "Covers \"投資性不動產\" (investment property) related to infrastructure and \"新發展之國際財務報導準則\" (newly developed IFRS), reflecting innovation in the financial industry.",
+      "evidence": [
+        "投資性不動產",
+        "新發展之國際財務報導準則"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 1.001,
+      "reason": "Topics like \"員工福利\" and \"股份基礎給付\" (share-based payment) can be tools for wealth distribution, though the course focuses on accounting, not social outcomes.",
+      "evidence": [
+        "員工福利",
+        "股份基礎給付"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 1.2,
+      "reason": "The course covers \"投資性不動產\" (investment property), which relates to the built environment, but lacks any mention of sustainability or community development.",
+      "evidence": [
+        "投資性不動產"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "score": 4.0,
+      "reason": "The study of \"國際財務報導準則\" (IFRS) promotes corporate transparency, which is essential for accountability in production. The course also covers \"農業會計\" (agricultural accounting).",
+      "evidence": [
+        "國際財務報導準則",
+        "農業會計"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 7.5,
+      "reason": "The course dedicates specific weeks to \"農業會計\" (Agricultural accounting), referencing IAS 41, which deals with biological assets and agricultural activity on land.",
+      "evidence": [
+        "農業會計",
+        "參考公報IAS 41"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 5.0,
+      "reason": "Focuses on \"國際財務報導準則\" (IFRS), which are institutional frameworks for transparency and accountability. It also mentions the need to \"維護智慧財產權\" (Respect Copyright).",
+      "evidence": [
+        "國際財務報導準則",
+        "維護智慧財產權"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 4.0,
+      "reason": "The curriculum is based on \"國際財務報導準則\" (IFRS), which are the result of global partnerships and cooperation to create harmonized accounting standards.",
+      "evidence": [
+        "國際財務報導準則"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive reasoning and evidence for several SDGs, warranting revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 1.001,
+        "your_revised": 1.0,
+        "reason": "Model B highlights employee benefits and pension accounting as relevant to poverty prevention."
+      },
+      "Good Health and Well-being": {
+        "your_original": 4.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B's score reflects a more cautious interpretation of health provisions in employee benefits."
+      },
+      "Quality Education": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B correctly identifies the course as providing specialized education."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B includes more relevant topics like share-based payments, enhancing the score."
+      },
+      "Life on Land": {
+        "your_original": 4.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B emphasizes the course's focus on agricultural accounting and its relevance to land."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B connects IFRS to institutional frameworks, justifying a higher score."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B correctly identifies IFRS as a product of global partnerships."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's analysis prompted me to re-evaluate some inferred links, leading to more precise scoring for SDGs where direct evidence was lacking or too weak.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 1.001,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "The course focuses on accounting for benefits, not their direct impact on poverty reduction. Model B's 'no evidence' is more accurate."
+      },
+      "SDG_3 (Good Health and Well-being)": {
+        "your_original": 1.5,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's explicit link of '員工福利' (employee benefits) to well-being is a reasonable inference, justifying a higher score."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 1.001,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Similar to SDG 1, the course covers accounting for benefits, not their direct role in reducing inequalities. Model B's 'no evidence' is more accurate."
+      },
+      "SDG_11 (Sustainable Cities and Communities)": {
+        "your_original": 1.2,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "My original inference from '投資性不動產' was too weak without any mention of sustainability or community development. Model B's score is more appropriate."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models agree on the lack of direct evidence linking the course content to poverty alleviation, making Model A's original score the most accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "Model B's score reflects the explicit mention of '農業會計' (agricultural accounting), which is directly relevant to food production.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "Model B's reasoning connects employee benefits to health provisions, justifying a higher score than Model A's original.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 4.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's role in providing specialized education, but Model B's score is more justified based on explicit course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models agree on the absence of evidence related to gender equality, making Model A's score accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models find no evidence related to clean water and sanitation, confirming Model A's score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models lack evidence for affordable and clean energy, supporting Model A's score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "Model B's score incorporates a broader range of relevant topics, including employee benefits and share-based payments, justifying a higher score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "Model B's score reflects the course's focus on international financial reporting standards and investment property, aligning well with the SDG.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models find insufficient evidence to support a higher score, confirming Model A's original score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models agree on the lack of evidence for this SDG, making Model A's score accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 1.2,
+        "model_b_revised": 0.001
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "Model B's score is justified by the course's emphasis on international financial reporting standards, which promote transparency in production.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models find no evidence related to climate action, confirming Model A's score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models agree on the absence of evidence for this SDG, making Model A's score accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life on Land": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "Model B's score is supported by the explicit focus on agricultural accounting, which is directly relevant to this SDG.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "Model B's reasoning connects IFRS to institutional frameworks, justifying a higher score than Model A's original.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "Model B correctly identifies IFRS as a product of global partnerships, justifying a higher score than Model A's original.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "The course covers accounting for employee benefits and pensions, but does not directly address poverty reduction strategies or outcomes. The link is too indirect.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '農業會計' (agricultural accounting) for two weeks, which is directly relevant to the financial management of food production systems, a core aspect of Zero Hunger.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.0,
+      "source": "revised_b",
+      "reasoning": "The course explicitly covers '員工福利' (employee benefits) for three weeks. Employee benefits often include health-related provisions and contribute to overall well-being, making the link to this SDG direct and explicit.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 4.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "As a university course, 'Intermediate Accounting (III)' directly provides specialized education in advanced accounting topics and international financial reporting standards, fulfilling a core aspect of Quality Education.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to gender equality is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to clean water and sanitation is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to affordable and clean energy is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '員工福利,' '退休金會計,' and '股份基礎給付,' which are fundamental to decent work conditions and economic systems. Understanding financial reporting's impact on businesses also supports economic growth.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course covers '投資性不動產' (investment property), which relates to infrastructure, and '新發展之國際財務報導準則' (new IFRS), reflecting innovation in financial reporting standards crucial for industry.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "The course focuses on accounting for employee benefits and share-based payments, not their direct impact on reducing inequalities or wealth redistribution policies. The link is too indirect.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "While '投資性不動產' (investment property) is covered, there is no explicit or implicit mention of sustainability, urban planning, or community development, making the link to this SDG too weak.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.2,
+        "model_b_revised": 0.001
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on '國際財務報導準則' (IFRS) promotes corporate transparency and accountability, which are crucial for responsible production. '農業會計' also relates to production processes.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to climate action is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to life below water is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course dedicates two weeks to '農業會計' (agricultural accounting), explicitly referencing IAS 41, which directly addresses biological assets and land-based agricultural activities, making the link very strong.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on '國際財務報導準則' (IFRS) establishes institutional frameworks for transparency and accountability. The emphasis on '維護智慧財產權' (Respect Copyright) also aligns with justice and the rule of law.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course extensively covers '國際財務報導準則' (IFRS), which are developed and maintained through global partnerships and cooperation, directly reflecting the spirit of this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

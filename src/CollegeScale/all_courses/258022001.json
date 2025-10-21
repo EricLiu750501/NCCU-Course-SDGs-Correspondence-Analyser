@@ -1,0 +1,696 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course aims to equip students with analytical tools and insights → relevant to Quality Education.",
+      "score": 7.0,
+      "evidence": [
+        "equips students with computational tools",
+        "understand how ABM can serve as both an analytical tool",
+        "demonstrating both technical proficiency and critical, interdisciplinary thinking"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Course focuses on macroeconomic dynamics and policy design → relevant to Economic Growth.",
+      "score": 8.0,
+      "evidence": [
+        "ABM allows us to experiment with institutional rules",
+        "evaluate the role of ABM in policy simulation",
+        "prepare students to work fluently at the intersection of data-rich AI analytics and structural economic reasoning"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Course discusses agent-based modeling as a method for economic simulation → relevant to Innovation.",
+      "score": 6.0,
+      "evidence": [
+        "ABM is not only a method for studying the economy",
+        "allows us to explore how intelligence—human or artificial—shapes macroeconomic outcomes",
+        "integrate AI’s predictive strengths with an explicit, behavior-based model"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding poverty, wealth distribution, or poverty alleviation policies.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to hunger, food security, or agriculture.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 2.5,
+      "reason": "The course uses epidemic modeling as an example, mentioning 'epidemic equations (Week Eleven)' and 'Kermack-Mckendrick (SIR) models,' which are directly relevant to public health.",
+      "evidence": [
+        "epidemic equations (Week Eleven)",
+        "Illustration 2: Kermack-Mckendrick (SIR) models"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "score": 8.5,
+      "reason": "As an advanced university course, it directly provides quality education, aiming to equip students with 'computational tools and conceptual insights' and a 'skill set increasingly essential for economists'.",
+      "evidence": [
+        "equips students with computational tools and conceptual insights",
+        "prepares students to work fluently at the intersection of data-rich AI analytics and structural economic reasoning",
+        "skill set increasingly essential for economists in research, policy, and industry"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding gender equality, women's empowerment, or related topics.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to water resources, sanitation, or hygiene.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description concerning energy, renewables, or energy efficiency.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 9.0,
+      "reason": "The course is fundamentally about 'Advanced Macroeconomics Analysis,' focusing on understanding the 'macroeconomy,' 'macroeconomic outcomes,' and the 'evolution of the modern economy,' which are core to this SDG.",
+      "evidence": [
+        "understanding the macroeconomy requires more than aggregate equations",
+        "explore how intelligence—human or artificial—shapes macroeconomic outcomes",
+        "evolution of the modern economy"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 8.0,
+      "reason": "The course centers on innovative methodologies like 'Agent-based modeling (ABM)' and its integration with 'Big Data and AI,' representing a significant advancement in economic analysis tools.",
+      "evidence": [
+        "Agent-based modeling (ABM) offers a complementary, bottom-up perspective",
+        "ABM as a Foundation for Big Data and AI-Era Macroeconomics",
+        "equips students with computational tools and conceptual insights"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 5.0,
+      "reason": "The course explicitly models 'heterogeneous, interacting agents' and 'micro-level diversity,' and uses the 'Schelling Model' of segregation, which are tools for analyzing sources of inequality.",
+      "evidence": [
+        "treating the economy as a complex, evolving system of heterogeneous, interacting agents",
+        "allowing micro-level diversity, adaptation, and social interaction to drive emergent macro patterns",
+        "Thomas Schelling and the Segregation Model"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 3.0,
+      "reason": "The course mentions the 'Thomas Schelling and the Segregation Model,' a foundational model in urban social dynamics, and 'Cellular Automata' for simulating local interactions.",
+      "evidence": [
+        "Thomas Schelling and the Segregation Model",
+        "Cellular Automata (CA) – Models where the focus is on simulating local interactions on a grid or network"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding sustainable consumption, production patterns, or resource management.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to climate change, environmental policy, or climate resilience.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description concerning marine ecosystems, oceans, or aquatic life.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 2.0,
+      "reason": "The course draws inspiration from 'biology' and uses 'Lotka-Volterra Equations' (predator-prey models) as an example, which are fundamental concepts in ecology and biology.",
+      "evidence": [
+        "drawing inspiration from physics, biology, sociology, and computer science",
+        "Illustration 1: Lotka-Volterra Equations",
+        "Biology, Entomology, and Big Data"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 6.0,
+      "reason": "The course directly addresses the design of strong institutions through its focus on 'policy and mechanism (market) design' and the use of ABM to 'experiment with institutional rules'.",
+      "evidence": [
+        "application to policy and mechanism (market) design",
+        "experiment with institutional rules, incentive structures, and policy interventions in silico",
+        "serve as a decision-making compass when conventional analytical tools falter"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 4.5,
+      "reason": "The course is described as a 'vessel for deeply interdisciplinary ideas,' drawing from 'physics, biology, sociology, and computer science' to create a 'bridge between economics, artificial intelligence, and complexity'.",
+      "evidence": [
+        "a vessel for deeply interdisciplinary ideas, drawing inspiration from physics, biology, sociology, and computer science",
+        "a conceptual bridge between economics, artificial intelligence, and the broader sciences of complexity"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate scores based on explicit evidence from the course text.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B highlights relevant epidemic modeling examples directly linked to public health."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B emphasizes the course's comprehensive educational objectives and skill development."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 8.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's score reflects a stronger emphasis on macroeconomic understanding and outcomes."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B better captures the innovative methodologies discussed in the course."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B identifies relevant models that analyze sources of inequality."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.001,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B connects course content to urban social dynamics through relevant models."
+      },
+      "Life on Land": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B references ecological concepts relevant to the course content."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B accurately reflects the course's focus on institutional design."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B highlights the interdisciplinary nature of the course."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A missed several explicit connections to SDGs, particularly regarding epidemic modeling, inequality, institutional design, and interdisciplinary approaches. My original analysis is more accurate.",
+    "revisions": {}
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty in the course description, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding hunger or food security, supporting the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "Model B accurately identifies relevant epidemic modeling examples linked to public health, while Model A initially overlooked this.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models revised their scores to reflect the course's comprehensive educational objectives, aligning well with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding gender equality, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to water resources or sanitation, supporting the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding energy or renewables, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "Model B's score reflects a stronger emphasis on macroeconomic understanding and outcomes, aligning well with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the innovative methodologies discussed in the course, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B identifies relevant models that analyze sources of inequality, while Model A initially overlooked this aspect.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Model B connects course content to urban social dynamics through relevant models, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding sustainable consumption or production patterns, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model related to climate change or environmental policy, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model concerning marine ecosystems or aquatic life, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "Model B references ecological concepts relevant to the course content, while Model A initially overlooked this.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Model B accurately reflects the course's focus on institutional design, justifying a moderate to high score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "Model B highlights the interdisciplinary nature of the course, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No evidence found in the course description regarding poverty, wealth distribution, or poverty alleviation policies.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No evidence found in the course description related to hunger, food security, or agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The course uses epidemic modeling as an example, mentioning 'epidemic equations (Week Eleven)' and 'Kermack-Mckendrick (SIR) models,' which are directly relevant to public health.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "As an advanced university course, it directly provides quality education, aiming to equip students with 'computational tools and conceptual insights' and a 'skill set increasingly essential for economists'.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No evidence found in the course description regarding gender equality, women's empowerment, or related topics.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No evidence found in the course description related to water resources, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No evidence found in the course description concerning energy, renewables, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about 'Advanced Macroeconomics Analysis,' focusing on understanding the 'macroeconomy,' 'macroeconomic outcomes,' and the 'evolution of the modern economy,' which are core to this SDG.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course centers on innovative methodologies like 'Agent-based modeling (ABM)' and its integration with 'Big Data and AI,' representing a significant advancement in economic analysis tools.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly models 'heterogeneous, interacting agents' and 'micro-level diversity,' and uses the 'Schelling Model' of segregation, which are tools for analyzing sources of inequality.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course mentions the 'Thomas Schelling and the Segregation Model,' a foundational model in urban social dynamics, and 'Cellular Automata' for simulating local interactions.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No evidence found in the course description regarding sustainable consumption, production patterns, or resource management.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No evidence found in the course description related to climate change, environmental policy, or climate resilience.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No evidence found in the course description concerning marine ecosystems, oceans, or aquatic life.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course draws inspiration from 'biology' and uses 'Lotka-Volterra Equations' (predator-prey models) as an example, which are fundamental concepts in ecology and biology.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course directly addresses the design of strong institutions through its focus on 'policy and mechanism (market) design' and the use of ABM to 'experiment with institutional rules'.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course is described as a 'vessel for deeply interdisciplinary ideas,' drawing from 'physics, biology, sociology, and computer science' to create a 'bridge between economics, artificial intelligence, and complexity'.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

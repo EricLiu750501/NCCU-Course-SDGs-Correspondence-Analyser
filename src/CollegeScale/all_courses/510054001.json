@@ -1,0 +1,832 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "Mentions 'poverty and inequality' and 'social security policies' → relevant to No Poverty.",
+      "score": 4.0,
+      "evidence": [
+        "Poverty and Inequality: Wealth gap, rural poverty, education, and unequal opportunities",
+        "Social security policies, education reform, and economic development"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Mentions 'education' and 'improving language skills' → relevant to Quality Education.",
+      "score": 7.0,
+      "evidence": [
+        "exchanges must be completed through language",
+        "improving language skills"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "Mentions 'gender equality' in social issues → relevant to Gender Equality.",
+      "score": 4.0,
+      "evidence": [
+        "gender equality"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Mentions 'economic development' and 'foreign investment' → relevant to Decent Work and Economic Growth.",
+      "score": 7.0,
+      "evidence": [
+        "economic development",
+        "foreign investment"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Mentions 'international trade' and 'foreign investment' → relevant to Industry, Innovation and Infrastructure.",
+      "score": 6.0,
+      "evidence": [
+        "Thailand's International Trade and Foreign Investment"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "Mentions 'inequality' and 'social issues' → relevant to Reduced Inequalities.",
+      "score": 5.0,
+      "evidence": [
+        "Poverty and Inequality: Wealth gap, rural poverty, education, and unequal opportunities"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "Mentions 'environmental issues' and 'sustainable development' → relevant to Climate Action.",
+      "score": 6.0,
+      "evidence": [
+        "Thailand's Environmental Issues and Challenges",
+        "Ecotourism and Sustainable Development in Thailand"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "Mentions 'biodiversity and conservation efforts' → relevant to Life on Land.",
+      "score": 5.0,
+      "evidence": [
+        "Thailand's Biodiversity and Conservation Efforts"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Mentions 'political issues' and 'corruption' → relevant to Peace, Justice and Strong Institutions.",
+      "score": 6.0,
+      "evidence": [
+        "Thailand's political culture and values",
+        "corruption and political cronyism"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "Mentions 'regional cooperation' and 'international relations' → relevant to Partnerships for the Goals.",
+      "score": 7.0,
+      "evidence": [
+        "Thailand's Regional Cooperation with Southeast Asia",
+        "Thailand's Foreign Policy and International Relations"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course explicitly discusses \"Poverty and Inequality,\" \"rural poverty,\" and solutions like \"Social security policies\" and \"economic development\" as part of Thailand's social problems.",
+      "score": 5.0,
+      "evidence": [
+        "Poverty and Inequality: Wealth gap, rural poverty, education, and unequal opportunities",
+        "Solutions... Poverty and Inequality: Social security policies, education reform, and economic development"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "reason": "The course mentions \"agriculture\" as a key industry and a bibliography item refers to \"agricultural food culture tourism,\" tangentially relating to food systems but not directly addressing hunger.",
+      "score": 2.0,
+      "evidence": [
+        "Key Industries and Features of the Thai Economy",
+        "agriculture",
+        "農業飲食文化旅遊推廣建築設計導則"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Good Health and Well-being": {
+      "reason": "The course description mentions \"medical... exchanges\" and Week 7 explicitly covers \"Drug Abuse,\" its \"health and social impacts,\" and solutions like \"treatment and rehabilitation.\"",
+      "score": 4.5,
+      "evidence": [
+        "medical... exchanges",
+        "Drug Abuse: Issues with drug use and trafficking, health and social impacts",
+        "Solutions... Drug Abuse: Prevention and education, treatment and rehabilitation"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "The course mentions \"education... exchanges,\" discusses \"education and unequal opportunities\" as a social problem, and proposes \"education reform\" as a solution, directly addressing educational access and quality.",
+      "score": 7.5,
+      "evidence": [
+        "education... exchanges",
+        "education and unequal opportunities",
+        "Solutions... Poverty and Inequality: Social security policies, education reform, and economic development"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "The course explicitly lists \"gender equality\" as a social issue for analysis in Week 7, supported by bibliography entries on \"History of Thai Women\" and social attitudes towards women.",
+      "score": 6.5,
+      "evidence": [
+        "analyze泰國家庭和社會問題的現狀和挑戰，如貧困、教育、健康和性別平等等",
+        "泰國婦女史",
+        "性史：泰國歷史中的性史/性史"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "The topic is mentioned in the bibliography for Week 15, specifically referencing \"Thailand's energy stability\" and \"international cooperation on energy security,\" including \"electricity, oil, and natural gas.\"",
+      "score": 2.5,
+      "evidence": [
+        "泰國的能源穩定",
+        "泰國與東南亞能源安全的國際合作：電力、石油和天然氣案例研究"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course extensively covers economic topics, with a dedicated week on \"Thailand's Economy and Industries,\" discussing \"Economic History,\" \"Key Industries,\" \"International Trade,\" \"tourism,\" and \"GDP.\"",
+      "score": 9.0,
+      "evidence": [
+        "trading center of Southeast Asia",
+        "Thailand's Economy and Industries",
+        "tourism and market trade"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course description mentions \"technology... exchanges,\" and Week 6 is dedicated to \"Thailand's Economy and Industries,\" covering \"Key Industries\" like \"manufacturing\" and their challenges.",
+      "score": 6.0,
+      "evidence": [
+        "technology... exchanges",
+        "Thailand's Economy and Industries",
+        "Key Industries and Features of the Thai Economy"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "The course explicitly addresses inequality through topics like \"ethnic minorities,\" \"Poverty and Inequality: Wealth gap,\" \"education, and unequal opportunities,\" and \"Social Classes.\"",
+      "score": 8.5,
+      "evidence": [
+        "ethnic minorities and religion in Thailand",
+        "Poverty and Inequality: Wealth gap, rural poverty, education, and unequal opportunities",
+        "Social Classes and Cultural Characteristics of Thailand"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "The course covers \"Ecotourism and Sustainable Development in Thailand,\" \"Cultural Preservation and Promotion,\" and bibliography items mention \"creative districts,\" linking culture to sustainable communities.",
+      "score": 5.5,
+      "evidence": [
+        "Ecotourism and Sustainable Development in Thailand",
+        "Cultural Preservation and Promotion in Thailand",
+        "ย่านสร้างสรรค์: กรณีศึกษาโครงการสร้างสรรค์เจริญกรุง"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "The course mentions \"Sustainable Development in Thailand\" and \"Natural Resources.\" The bibliography for Week 6 also includes a research project on \"Consumption Culture.\"",
+      "score": 3.5,
+      "evidence": [
+        "Sustainable Development in Thailand",
+        "Thailand's Natural Resources and Ecology",
+        "โครงการสังเคราะห์ความรู้และจัดประชุมเรื่อง วัฒนธรรมบริโภค"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "The course covers \"Thailand's Environmental Issues and Challenges\" and \"Environmental Policies and Actions,\" which are related to climate action, but does not explicitly mention climate change itself.",
+      "score": 3.0,
+      "evidence": [
+        "Geography and Climate Features",
+        "Thailand's Environmental Issues and Challenges",
+        "Thailand's Environmental Policies and Actions"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "Week 14 is dedicated to \"Nature in Thailand,\" explicitly covering \"Thailand's Natural Resources and Ecology,\" \"Thailand's Biodiversity and Conservation Efforts,\" and related environmental policies.",
+      "score": 8.0,
+      "evidence": [
+        "Nature in Thailand",
+        "Thailand's Biodiversity and Conservation Efforts",
+        "Thailand's Natural Resources and Ecology"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course extensively covers political systems, \"constitutional reform,\" \"corruption,\" \"separatism,\" \"Crime and Security,\" and \"issues with the police and justice system,\" all central to this SDG.",
+      "score": 9.5,
+      "evidence": [
+        "Thailand's political system and governmental organization",
+        "Problems and challenges in Thai politics: corruption and political cronyism",
+        "Crime and Security: Violent and property crime, issues with the police and justice system"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "An entire week is dedicated to \"Thailand's international relations,\" covering \"Foreign Policy,\" \"Regional Cooperation with Southeast Asia,\" \"Global Cooperation,\" and \"Thailand's Foreign Aid.\"",
+      "score": 9.0,
+      "evidence": [
+        "Thailand's international relations",
+        "Thailand's Regional Cooperation with Southeast Asia",
+        "Thailand's Foreign Aid"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive evidence and reasoning for several SDGs, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B highlights explicit solutions and broader context on poverty."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B includes relevant health issues and solutions from the course."
+      },
+      "Gender Equality": {
+        "your_original": 4.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B provides stronger evidence and context regarding gender equality."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B references energy stability and international cooperation."
+      },
+      "Reduced Inequalities": {
+        "your_original": 5.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B offers a more comprehensive view on inequality issues."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.001,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B connects cultural preservation to sustainable communities."
+      },
+      "Climate Action": {
+        "your_original": 6.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B's score reflects a more cautious interpretation of climate action relevance."
+      },
+      "Life on Land": {
+        "your_original": 5.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B emphasizes biodiversity and conservation efforts more effectively."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 6.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B provides extensive coverage of political issues and corruption."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 7.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's analysis includes a dedicated week on international relations."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis was more thorough, identifying explicit mentions and stronger connections to several SDGs that I had either missed or underestimated. This led to multiple revisions of my scores and reasoning.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 4.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A's reasoning highlighted the explicit discussion of 'Poverty and Inequality' and 'social security policies,' which I had initially scored too low."
+      },
+      "SDG_2 (Zero Hunger)": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A correctly identified 'agriculture' and 'agricultural food culture tourism' as tangential evidence, which I had missed."
+      },
+      "SDG_3 (Good Health and Well-being)": {
+        "your_original": 0.001,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A accurately pointed out 'medical exchanges' and the explicit coverage of 'Drug Abuse' and its 'health and social impacts'."
+      },
+      "SDG_4 (Quality Education)": {
+        "your_original": 7.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model A's reasoning was more comprehensive, including 'education and unequal opportunities' and 'education reform,' strengthening the connection."
+      },
+      "SDG_5 (Gender Equality)": {
+        "your_original": 4.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model A provided stronger evidence, citing specific bibliography entries on 'History of Thai Women' and 'gender equality' as a social issue."
+      },
+      "SDG_7 (Affordable and Clean Energy)": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A correctly identified explicit mentions of 'energy stability' and 'energy security' in the bibliography for Week 15."
+      },
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 7.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A's reasoning was more comprehensive, highlighting the dedicated week and extensive coverage of economic topics like 'GDP' and 'tourism'."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model A's reasoning was more precise, including 'technology exchanges' and 'manufacturing' as key industries, which I had not explicitly stated."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 5.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A's reasoning was much more thorough, listing multiple explicit connections like 'ethnic minorities' and 'Social Classes' to inequality."
+      },
+      "SDG_11 (Sustainable Cities and Communities)": {
+        "your_original": 0.001,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model A found strong explicit evidence, including 'Ecotourism and Sustainable Development' and 'Cultural Preservation and Promotion,' which I had overlooked."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 0.001,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model A correctly identified 'Sustainable Development,' 'Natural Resources,' and the 'Consumption Culture' bibliography item, providing sufficient evidence."
+      },
+      "SDG_13 (Climate Action)": {
+        "your_original": 6.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model A's reasoning was more precise; while 'environmental issues' are related, the text doesn't explicitly mention 'climate change' itself, warranting a lower score."
+      },
+      "SDG_15 (Life on Land)": {
+        "your_original": 5.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A's reasoning was much stronger, highlighting the dedicated week on 'Nature in Thailand' and explicit mentions of 'Biodiversity and Conservation Efforts'."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 6.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model A's reasoning was far more comprehensive, listing many explicit connections like 'constitutional reform,' 'Crime and Security,' and 'justice system issues'."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 7.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A's reasoning was more thorough, emphasizing the dedicated week on 'international relations' and the breadth of topics like 'Global Cooperation' and 'Foreign Aid'."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight poverty and inequality, but Model B's emphasis on explicit solutions strengthens the score. The course's focus on social security policies and economic development aligns well with the SDG.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the course's mention of agriculture, which is relevant but not directly addressing hunger. The score is justified by the limited evidence available.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognize health issues, but Model B's inclusion of drug abuse and its impacts provides a stronger basis for the score. The course content supports this assessment.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models effectively highlight education's importance, but Model B's broader context on educational access and reform strengthens the score. The course emphasizes these aspects.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Model B's detailed references to gender equality issues and historical context provide a stronger justification for the score. The course content supports this emphasis.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no relevant evidence in the course material, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the course's mention of energy stability and international cooperation, which is relevant but limited. The score is justified by the available evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize economic development, but Model B's comprehensive coverage of economic topics justifies the highest score. The course content strongly supports this assessment.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models provide relevant evidence, but the score reflects a balanced view of the course's coverage of industry and innovation. The course supports this assessment.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Model B's comprehensive view on inequality issues, including ethnic minorities and social classes, justifies the high score. The course content aligns well with this assessment.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight relevant aspects of sustainability, but the score reflects the course's connection between cultural preservation and sustainable communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 3.5,
+      "source": "synthesized",
+      "reasoning": "Both models mention sustainable development and consumption culture, but the score reflects the limited evidence available in the course material.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Model B's cautious interpretation of climate action relevance aligns with the course's limited explicit mention of climate change, justifying a lower score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no relevant evidence in the course material, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on biodiversity and conservation efforts aligns well with the course content, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Model B's extensive coverage of political issues and corruption aligns strongly with the course content, justifying the highest score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize international relations and cooperation, but Model B's comprehensive coverage justifies the high score. The course content supports this assessment.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Poverty and Inequality,' 'rural poverty,' and solutions like 'Social security policies' and 'economic development' in Week 7, directly aligning with this SDG.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course mentions 'agriculture' as a key industry and 'agricultural food culture tourism' in the bibliography, providing tangential relevance to food systems, though not directly hunger.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The syllabus mentions 'medical exchanges' and explicitly covers 'Drug Abuse,' its 'health and social impacts,' and 'treatment and rehabilitation' in Week 7, directly supporting this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course emphasizes 'education exchanges,' 'improving language skills,' 'education and unequal opportunities,' and 'education reform,' directly addressing educational access and quality.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "Week 7 explicitly lists 'gender equality' as a social issue for analysis, supported by bibliography entries on 'History of Thai Women' and social attitudes towards women.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or inferred evidence related to clean water or sanitation was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The Week 15 bibliography explicitly references 'Thailand's energy stability' and 'international cooperation on energy security,' including 'electricity, oil, and natural gas.'",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "A dedicated week covers 'Thailand's Economy and Industries,' including 'Economic History,' 'Key Industries' (agriculture, manufacturing, tourism), 'International Trade,' 'Foreign Investment,' and 'GDP,' strongly aligning with this SDG.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course mentions 'technology exchanges,' 'investment,' 'factories,' and 'manufacturing' as key industries, providing direct links to industry and innovation.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course extensively covers 'ethnic minorities,' 'Poverty and Inequality: Wealth gap,' 'education, and unequal opportunities,' and 'Social Classes,' directly addressing various forms of inequality.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly mentions 'Ecotourism and Sustainable Development,' 'Cultural Preservation and Promotion,' and 'creative districts' in the bibliography, linking to sustainable urban and community development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 3.5,
+      "source": "model_b",
+      "reasoning": "The course mentions 'Sustainable Development' and 'Natural Resources,' and the Week 6 bibliography includes a research project on 'Consumption Culture,' providing a clear, albeit indirect, link.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course covers 'Environmental Issues and Challenges' and 'Environmental Policies and Actions.' However, it does not explicitly mention 'climate change,' warranting a cautious, inferred score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or inferred evidence related to marine life or aquatic ecosystems was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "A dedicated week on 'Nature in Thailand' explicitly covers 'Natural Resources and Ecology,' 'Biodiversity and Conservation Efforts,' and 'Ecotourism,' indicating strong alignment.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course extensively covers 'Politics in Thailand,' including 'political system,' 'constitutional reform,' 'corruption,' 'Crime and Security,' and 'justice system issues,' directly addressing this SDG.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "An entire week is dedicated to 'Thailand's international relations,' covering 'Foreign Policy,' 'Regional Cooperation,' 'Global Cooperation,' 'Foreign Aid,' and 'International Security,' demonstrating strong alignment.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    }
+  }
+}

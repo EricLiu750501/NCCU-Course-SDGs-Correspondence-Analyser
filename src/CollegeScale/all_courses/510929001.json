@@ -1,0 +1,756 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "Mentions '飲食習慣' (dietary habits) → relevant to Zero Hunger.",
+      "score": 1.0,
+      "evidence": [
+        "飲食習慣"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "reason": "Mentions '醫療疾病' (medical diseases) → relevant to Good Health and Well-being.",
+      "score": 1.0,
+      "evidence": [
+        "醫療疾病"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "Focuses on developing reading skills in Vietnamese → relevant to Quality Education.",
+      "score": 7.0,
+      "evidence": [
+        "具備基本語言及應用能力",
+        "能夠以快速的越南語閱讀思考"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Mentions '貿易合作' (trade cooperation) and '投資' (investment) → relevant to Decent Work and Economic Growth.",
+      "score": 4.0,
+      "evidence": [
+        "貿易合作",
+        "投資"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Mentions '電訊生活' (telecommunication life) → relevant to Industry, Innovation and Infrastructure.",
+      "score": 1.0,
+      "evidence": [
+        "電訊生活"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "Mentions 'TP.HCM - Thành phố đáng sống' (HCM City - livable city) → relevant to Sustainable Cities and Communities.",
+      "score": 4.0,
+      "evidence": [
+        "TP.HCM - Thành phố đáng sống"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 1.001,
+      "reason": "The course tangentially mentions economic activities like \"investment\" and borrowing money, but does not address poverty alleviation directly.",
+      "evidence": [
+        "投資",
+        "vay tiền"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 1.001,
+      "reason": "The course mentions \"eating habits\" and a specific food dish, which relates to food culture rather than food security or hunger.",
+      "evidence": [
+        "飲食習慣",
+        "Quán bún bò Huế “chuẩn vị”"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Good Health and Well-being": {
+      "score": 6.0,
+      "reason": "The course explicitly lists \"medical diseases\" as a topic and includes a weekly reading on cancer prevention, directly addressing health.",
+      "evidence": [
+        "醫療疾病",
+        "Thói quen cần bắt đầu ngay để giảm nguy cơ ung thư đại tràng",
+        "3 bác sĩ"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "score": 8.0,
+      "reason": "The course's primary goal is language education, aiming for B2-C1 proficiency. It also features a news topic on a student's academic success.",
+      "evidence": [
+        "具備基本語言及應用能力",
+        "越南語檢定B2至C1程度",
+        "Nam sinh tốt nghiệp xuất sắc ngành AI"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 4.0,
+      "reason": "A weekly topic focuses on the \"electric scooter market,\" which is directly related to the adoption of cleaner energy in transportation.",
+      "evidence": [
+        "Điều gì giúp thị trường xe máy điện Việt Nam “thống trị” Đông Nam Á?"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 5.0,
+      "reason": "Course topics include \"trade cooperation,\" \"investment,\" and a news story about a graduate securing a \"high-paying job.\"",
+      "evidence": [
+        "貿易合作",
+        "投資",
+        "“ẵm” việc lương cao khi chưa có bằng"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 5.5,
+      "reason": "Topics include \"telecommunications life,\" the AI industry, and the electric scooter market, all of which are central to innovation and industry.",
+      "evidence": [
+        "電訊生活",
+        "ngành AI",
+        "thị trường xe máy điện"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 4.0,
+      "reason": "A weekly topic is explicitly about Ho Chi Minh City as a \"livable city,\" directly addressing urban development.",
+      "evidence": [
+        "TP.HCM - Thành phố đáng sống, vươn mình trong kỷ nguyên mới"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 1.5,
+      "reason": "The course mentions \"eating habits\" and \"youth fashion,\" which relate to consumption, but lacks any discussion of sustainability or responsibility.",
+      "evidence": [
+        "飲食習慣",
+        "Thời trang trẻ"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "score": 1.2,
+      "reason": "The topic on the \"electric scooter market\" has an indirect link to climate action, but the course frames it as an industrial issue, not an environmental one.",
+      "evidence": [
+        "thị trường xe máy điện"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 4.5,
+      "reason": "A weekly topic is dedicated to \"fighting fake news,\" which is crucial for ensuring public access to information and building strong institutions.",
+      "evidence": [
+        "Chống tin giả phải thực sự là một cuộc chiến"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 2.0,
+      "reason": "The course mentions \"trade cooperation\" and aims to provide an \"international perspective,\" which aligns with the spirit of global partnerships.",
+      "evidence": [
+        "貿易合作",
+        "具備國際宏觀視野"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more nuanced interpretations, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 1.001,
+        "your_revised": 1.001,
+        "reason": "Model B highlights economic activities related to poverty."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B emphasizes explicit health topics and cancer prevention."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B includes additional evidence of academic success."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B connects electric scooters to clean energy."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B includes evidence of high-paying job success."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 1.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B provides broader context on innovation topics."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B identifies the importance of fighting fake news."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B connects trade cooperation to global partnerships."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more comprehensive evidence and stronger reasoning for several SDGs, particularly regarding specific weekly topics and core competencies. My revisions reflect these more accurate interpretations.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 1.001,
+        "your_revised": 1.001,
+        "reason": "Model A correctly identified 'investment' and 'borrowing money' as tangential economic activities, which I initially overlooked."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model A included specific evidence like 'cancer prevention' and '3 doctors,' which are strong explicit links to health."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A added 'B2-C1 proficiency' and 'student excelling in AI,' strengthening the explicit link to quality education."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A correctly identified the 'electric scooter market' as a direct link to cleaner energy in transportation, which I missed."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A included the explicit mention of a student securing a 'high-paying job,' which directly supports this SDG."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 1.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model A identified additional strong evidence like the 'AI industry' and 'electric scooter market,' significantly increasing relevance."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.001,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model A noted 'eating habits' and 'youth fashion' as consumption topics, even if the 'responsible' aspect is weak."
+      },
+      "Climate Action": {
+        "your_original": 0.001,
+        "model_b_score": 1.2,
+        "your_revised": 1.2,
+        "reason": "Model A correctly inferred an indirect link from the 'electric scooter market' to climate action, which I overlooked."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A accurately highlighted 'fighting fake news' as a direct and explicit contribution to this SDG, a key omission in my analysis."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A identified 'trade cooperation' and 'international perspective' as relevant, albeit indirect, links to global partnerships."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.001,
+      "source": "synthesized",
+      "reasoning": "Both models identified economic activities related to poverty, but neither provided direct evidence of poverty alleviation. The score reflects inferred connections to investment and borrowing.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 1.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.001,
+      "source": "synthesized",
+      "reasoning": "Both models mention dietary habits but lack direct links to food security. The score reflects a minimal connection to food culture.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 1.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on explicit health topics and cancer prevention aligns well with course content, justifying a higher score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight language education and academic success, but Model B's additional evidence strengthens the justification for a higher score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to gender equality, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding clean water and sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified the electric scooter market as relevant, but Model A's direct link to cleaner energy justifies a higher score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models mention trade and investment, but Model A's explicit mention of high-paying jobs strengthens the score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Model B's broader context on innovation topics aligns well with course content, justifying a higher score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding reduced inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models mention Ho Chi Minh City as a livable city, justifying a consistent score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Both models mention consumption topics, but the lack of sustainability discussions limits the score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 1.2,
+      "source": "synthesized",
+      "reasoning": "The electric scooter market's indirect link to climate action justifies a minimal score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.2,
+        "model_b_revised": 1.2
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding life below water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding life on land.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the importance of fighting fake news, justifying a consistent score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect trade cooperation to global partnerships, justifying a consistent score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.001,
+      "source": "synthesized",
+      "reasoning": "The course mentions 'investment' and 'borrowing money' as general economic topics. While these relate to financial systems, they do not explicitly or implicitly address poverty alleviation, making the link very tangential.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 1.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.001,
+      "source": "synthesized",
+      "reasoning": "The course mentions '飲食習慣' and a specific food dish, relating to food culture. This is a very tangential connection to food security or hunger, warranting a minimal score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 1.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly lists '醫療疾病' as a topic and includes a weekly reading on cancer prevention. The mention of '3 bác sĩ' further strengthens the direct relevance to health and well-being.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course's primary objective is language education, aiming for B2-C1 proficiency in Vietnamese news reading. The mention of a student excelling in AI further highlights quality educational outcomes.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to gender equality, women's empowerment, or addressing gender disparities was found in the course description or weekly topics.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to water resources, sanitation, or hygiene was found in the course description or weekly topics.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course includes a weekly topic focusing on the 'electric scooter market,' which directly relates to the adoption and growth of cleaner energy in transportation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "Course topics explicitly include '貿易合作' and '投資'. Additionally, a news story about a student securing a 'high-paying job' after graduating in AI directly relates to decent work and economic growth.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course covers '電訊生活', the 'AI industry' (from a student's success story), and the 'electric scooter market'. These topics are central to fostering innovation, industrial development, and modern infrastructure.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to reducing inequalities based on income, gender, age, disability, race, ethnicity, origin, religion, or economic status was found.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "model_a",
+      "reasoning": "A weekly topic explicitly focuses on 'TP.HCM - Thành phố đáng sống,' directly addressing aspects of urban development and creating sustainable, livable communities.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The course mentions '飲食習慣' and 'Thời trang trẻ', which relate to consumption. However, there is no explicit discussion of sustainability or responsible practices, making the link to this SDG very weak.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 1.2,
+      "source": "model_b",
+      "reasoning": "The weekly topic on the 'electric scooter market' has an indirect link to climate action by promoting cleaner transportation. However, the course frames it primarily as an industrial and market topic, not explicitly environmental.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.2,
+        "model_b_revised": 1.2
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to marine ecosystems, ocean health, or sustainable use of marine resources was found.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to terrestrial ecosystems, biodiversity, forests, or land degradation was found.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "A weekly topic is explicitly dedicated to 'fighting fake news,' which is crucial for ensuring public access to reliable information and fostering strong, transparent, and accountable institutions.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course mentions '貿易合作' and aims to develop an 'international perspective'. While not direct, these elements align with fostering global cooperation and partnerships for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    }
+  }
+}

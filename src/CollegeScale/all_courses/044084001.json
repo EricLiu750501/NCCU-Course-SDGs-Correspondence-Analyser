@@ -1,0 +1,659 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course involves reading and discussion to understand animal roles in society → relevant to Quality Education.",
+      "score": 4.5,
+      "evidence": [
+        "透過閱讀、討論相關著作，了解動物在人類社會中的位置",
+        "思考人類對動物產生的影響"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "Course discusses ethical considerations regarding animals → relevant to Responsible Consumption.",
+      "score": 5.0,
+      "evidence": [
+        "倫理價值思考",
+        "動物倫理學"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "Course explores human-animal interactions and wildlife → relevant to Life on Land.",
+      "score": 6.5,
+      "evidence": [
+        "人類社會和動物的互動關係",
+        "野生動物"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to poverty, economic disparity, or social safety nets.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 2.0,
+      "reason": "The course mentions 'economic animals' (經濟動物), which are part of the food system, but the focus is on ethics and history, not food security or sustainable agriculture.",
+      "evidence": [
+        "約克夏的黃昏：經濟動物"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Good Health and Well-being": {
+      "score": 4.5,
+      "reason": "The course discusses 'experimental animals' (實驗動物) used in research and 'rabid dogs' (狂犬), connecting animal studies to medical science and public health.",
+      "evidence": [
+        "萊卡的故事：實驗動物",
+        "狂犬、名犬、流浪犬－台灣現代社會如何面對狗的生物性"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "score": 8.0,
+      "reason": "As a university course, it aims to develop critical thinking and skills through 'reading, discussing,' and 'group cooperation and project production ability.'",
+      "evidence": [
+        "廣泛閱讀並思考，就動物議題提出多元觀察",
+        "學習團體合作與專題製作能力"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to gender equality, women, or girls.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to water resources, sanitation, or hygiene.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to energy, electricity, or renewables.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 1.5,
+      "reason": "The course mentions 'economic animals' (經濟動物) and 'herders' (牧民), which are linked to agricultural work, but does not focus on labor rights or economic growth.",
+      "evidence": [
+        "經濟動物",
+        "動物與牧民"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to industry, infrastructure, or technological innovation.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 5.0,
+      "reason": "The course's focus on 'animal ethics' and philosophers like Peter Singer implicitly addresses inter-species inequality and the concept of speciesism.",
+      "evidence": [
+        "介紹Peter Singer , Tom Regan 以及Martha C. Nussbaum的動物倫理學",
+        "倫理價值思考"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 3.0,
+      "reason": "The course includes a reading on 'stray dogs' (流浪犬) from an 'urban and rural research institute,' addressing animal management within human communities.",
+      "evidence": [
+        "狂犬、名犬、流浪犬－台灣現代社會如何面對狗的生物性",
+        "臺灣大學建築與城鄉研究所碩士論文"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 7.5,
+      "reason": "The course critically examines human use of animals as 'economic animals,' 'experimental animals,' and 'performing animals,' directly questioning consumption and production patterns.",
+      "evidence": [
+        "經濟動物",
+        "實驗動物",
+        "表演動物"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to climate change, its impacts, or mitigation strategies.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 8.5,
+      "reason": "The course dedicates specific topics to marine animals, including the conservation of 'dolphins' (海豚) and the history of the Dugong ('Taiwanese mermaid').",
+      "evidence": [
+        "提利康(Tilikum)的悲歌：表演動物",
+        "海豚在香港：談野生海豚與圈養海豚的保育問題",
+        "消失的臺灣美人魚：野生動物"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life on Land": {
+      "score": 10.0,
+      "reason": "The course's core focus is on terrestrial animals, covering 'wildlife,' 'companion animals,' and 'economic animals,' with explicit mention of 'conservation' and specific species like the black bear.",
+      "evidence": [
+        "南安小黑熊要回家：野生動物",
+        "觀鳥與保育",
+        "動物與人類社會"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 6.0,
+      "reason": "The course explores 'institutional norms' (制度規範) and 'animal ethics' (動物倫理學), which are fundamental to creating just legal and ethical frameworks for animal welfare.",
+      "evidence": [
+        "制度規範以及倫理價值思考",
+        "介紹Peter Singer , Tom Regan 以及Martha C. Nussbaum的動物倫理學",
+        "回首第一代英國反動物實驗運動"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 1.5,
+      "reason": "The course aims to develop 'group cooperation and project production ability,' a skill essential for partnerships, though the course content itself does not discuss partnerships for sustainability.",
+      "evidence": [
+        "學習團體合作與專題製作能力"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations of the course content, particularly in Good Health and Well-being, Zero Hunger, and Life on Land.",
+    "revisions": {
+      "Zero Hunger": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B highlights the relevance of 'economic animals' to food systems."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B connects animal studies to medical science and public health."
+      },
+      "Life on Land": {
+        "your_original": 6.5,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B emphasizes the course's core focus on terrestrial animals and conservation."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "No revisions needed. Model B's analysis is overly conservative, frequently overlooking explicit connections to SDGs that my analysis identified directly from the course text.",
+    "revisions": {}
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty in the course content, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's reasoning about 'economic animals' is valid, linking the course content to food systems, while Model A's original score lacked evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B accurately connects animal studies to health issues, while Model A's original score was unjustified.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.25,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the educational aspects, but Model B's higher score reflects a broader interpretation of learning outcomes.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to gender equality, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to clean water and sanitation, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to energy, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the course's mention of economic animals and herders, while Model A's original score lacked context.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to industry or infrastructure, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's reasoning about speciesism aligns with the course's ethical discussions, while Model A's score was too low.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the course's urban animal management discussions, while Model A's score lacked context.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.25,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the ethical considerations, but Model B's higher score reflects a broader interpretation of consumption patterns.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to climate action, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score accurately reflects the course's focus on marine animals, while Model A's score was too low.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the course's core focus on terrestrial animals and conservation, while Model A's score was too low.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the course's exploration of ethical frameworks, while Model A's score was too low.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the course's emphasis on group cooperation, while Model A's score lacked context.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no direct evidence linking the course content to poverty alleviation or economic disparity.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "Model B correctly identifies 'economic animals' as a link to food systems, even if the course's focus is ethical rather than food security. Model A adopted this reasoning.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "Model B accurately connects 'experimental animals' to medical research and 'rabid dogs' to public health, providing explicit links to this SDG. Model A adopted this reasoning.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "Model B's higher score is justified by the course's explicit learning outcomes, including critical thinking, diverse observations, reflection, proposing solutions, and group cooperation.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence in the syllabus related to gender equality.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence in the syllabus related to clean water or sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence in the syllabus related to energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "Model B's inferred connection to 'economic animals' and 'herders' provides a minimal link to agricultural work, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence in the syllabus related to industry, innovation, or infrastructure.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "Model B's reasoning that 'animal ethics' and philosophers like Peter Singer implicitly address inter-species inequality (speciesism) is a strong and valid connection.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "Model B correctly links the discussion of 'stray dogs' and urban/rural research to animal management within human communities, relevant to sustainable living spaces.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "Model B's reasoning is more comprehensive, highlighting the course's critical examination of human use of animals (economic, experimental, performing), directly questioning consumption and production patterns.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence in the syllabus related to climate change or mitigation strategies.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "Model B provides strong explicit evidence, noting dedicated topics on marine animals like dolphins and dugongs, and their conservation, directly aligning with this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "Model B accurately identifies this as a core focus, covering terrestrial wildlife, companion, and economic animals, with explicit mention of conservation. Model A adopted this higher score.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "Model B correctly highlights the course's exploration of 'institutional norms' and 'animal ethics,' which are fundamental to establishing just legal and ethical frameworks for animal welfare.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "Model B makes a weak but plausible inferred connection, noting the course's aim to develop 'group cooperation and project production ability,' a skill relevant to partnerships.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

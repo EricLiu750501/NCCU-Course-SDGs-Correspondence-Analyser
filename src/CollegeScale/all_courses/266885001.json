@@ -1,0 +1,812 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "Mentions 'social stratification' and 'urban-rural divide' → relevant to No Poverty.",
+      "score": 4.0,
+      "evidence": [
+        "social stratification",
+        "urban-rural divide"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course aims to improve understanding of political and economic development → relevant to Quality Education.",
+      "score": 4.0,
+      "evidence": [
+        "improve students' understanding"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "reason": "Mentions 'one-child policy' and its impact on demographics → relevant to Gender Equality.",
+      "score": 4.0,
+      "evidence": [
+        "one-child policy",
+        "impact on demographics"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Explores 'economic transformation' and 'engagement with the world economy' → relevant to Decent Work and Economic Growth.",
+      "score": 7.0,
+      "evidence": [
+        "economic transformation",
+        "engagement with the world economy"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Mentions 'industrialization' and 'financial system' → relevant to Industry, Innovation and Infrastructure.",
+      "score": 6.0,
+      "evidence": [
+        "industrialization",
+        "financial system"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "Discusses 'income inequality' and 'social stratification' → relevant to Reduced Inequalities.",
+      "score": 6.0,
+      "evidence": [
+        "income inequality",
+        "social stratification"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "Mentions 'urban-rural divide' and 'social changes' → relevant to Sustainable Cities and Communities.",
+      "score": 5.0,
+      "evidence": [
+        "urban-rural divide",
+        "social changes"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "Mentions 'environmental issues' → relevant to Climate Action.",
+      "score": 4.0,
+      "evidence": [
+        "environmental issues"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Explores 'prospect of democracy' and 'international political development' → relevant to Peace, Justice and Strong Institutions.",
+      "score": 7.0,
+      "evidence": [
+        "prospect of democracy",
+        "international political development"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 6.0,
+      "reason": "The course analyzes China's 'economic transformation' and 'urban-rural divide,' which are central to understanding large-scale poverty reduction since 1978, although poverty itself is not explicitly named.",
+      "evidence": [
+        "economic transformation",
+        "urban-rural divide"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 1.5,
+      "reason": "The course includes a section on 'The Rural Economy,' which is tangentially related to food production and security, but does not explicitly mention hunger or agriculture.",
+      "evidence": [
+        "The Rural Economy"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Good Health and Well-being": {
+      "score": 2.5,
+      "reason": "The course investigates the 'one-child policy and its impact on demographics,' a significant public health and social well-being policy.",
+      "evidence": [
+        "the one-child policy and its impact on demographics"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "score": 1.8,
+      "reason": "The course mentions the 'one-child policy,' which has well-documented and significant gender implications, though gender is not an explicit theme of the course.",
+      "evidence": [
+        "the one-child policy"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 9.8,
+      "reason": "This is a core theme, focusing on 'economic transformation,' 'industrialization,' the 'Labor Market,' and the roles of 'state-owned enterprises, private enterprises, and foreign enterprises.'",
+      "evidence": [
+        "economic transformation",
+        "industrialization",
+        "Demographics and the Labor Market"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 9.5,
+      "reason": "The course is fundamentally about China's 'industrialization,' 'economic transformation,' and the development of its 'financial system,' 'fiscal system,' and 'enterprise system.'",
+      "evidence": [
+        "industrialization",
+        "The Enterprise System",
+        "The Financial and Fiscal Systems"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 9.8,
+      "reason": "A major theme is 'social changes,' with explicit topics on the 'urban-rural divide,' 'social stratification,' and 'Income Inequality.'",
+      "evidence": [
+        "urban-rural divide",
+        "social stratification",
+        "Income Inequality"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 2.0,
+      "reason": "The course discusses the 'urban-rural divide,' which relates to urbanization, but does not explicitly cover sustainable cities, housing, or urban planning.",
+      "evidence": [
+        "urban-rural divide"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "score": 5.0,
+      "reason": "The course explicitly covers 'Environmental Pollution and Economic Sustainability,' directly addressing the consequences of China's production and development models.",
+      "evidence": [
+        "Environmental Pollution and Economic Sustainability",
+        "environmental issues"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "score": 2.0,
+      "reason": "The course mentions 'environmental issues' and 'Environmental Pollution,' which are related to climate change, but does not specify climate action as a topic.",
+      "evidence": [
+        "environmental issues",
+        "Environmental Pollution"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 1.8,
+      "reason": "The course mentions 'environmental issues' and 'Environmental Pollution,' which can impact terrestrial ecosystems, but this is not a specific focus.",
+      "evidence": [
+        "environmental issues",
+        "Environmental Pollution"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 9.0,
+      "reason": "A core theme is 'political development,' examining the roles of 'the central government, local governments,' the 'financial system,' and the 'prospect of democracy in China.'",
+      "evidence": [
+        "political development",
+        "the central government, local governments",
+        "the prospect of democracy in China"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 8.0,
+      "reason": "The course analyzes China's 'engagement with the world economy' and its impact on 'international political development,' which are key aspects of global partnerships.",
+      "evidence": [
+        "engagement with the world economy",
+        "China’s Rise and International Political Development"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides a more nuanced understanding of several SDGs, particularly regarding poverty and economic growth.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B highlights economic transformation's role in poverty reduction."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B connects the one-child policy to public health impacts."
+      },
+      "Gender Equality": {
+        "your_original": 4.0,
+        "model_b_score": 1.8,
+        "your_revised": 1.8,
+        "reason": "Model B emphasizes the one-child policy's gender implications."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 7.0,
+        "model_b_score": 9.8,
+        "your_revised": 9.8,
+        "reason": "Model B provides a broader view of economic transformation's impact."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B captures the comprehensive nature of industrialization."
+      },
+      "Reduced Inequalities": {
+        "your_original": 6.0,
+        "model_b_score": 9.8,
+        "your_revised": 9.8,
+        "reason": "Model B emphasizes social changes and income inequality."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 5.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B suggests a lesser focus on sustainable urban development."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.001,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B highlights environmental pollution and sustainability."
+      },
+      "Climate Action": {
+        "your_original": 4.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B indicates a less direct focus on climate action."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 7.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B provides a clearer connection to political development."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B emphasizes China's global engagement and partnerships."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis was more comprehensive, identifying several explicit links I missed or underestimated, especially regarding environmental sustainability, health, and international partnerships. My revisions reflect these stronger connections.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model A's broader scope, linking 'economic transformation' to poverty reduction, provides a more accurate and higher score."
+      },
+      "SDG_2 (Zero Hunger)": {
+        "your_original": 0.001,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model A's weak inference from 'The Rural Economy' is a plausible, albeit minor, connection to food security."
+      },
+      "SDG_3 (Good Health and Well-being)": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A correctly identified the 'one-child policy and its impact on demographics' as a direct link to health and well-being."
+      },
+      "SDG_4 (Quality Education)": {
+        "your_original": 4.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "My original inference was incorrect; the course's pedagogical goals do not equate to the SDG's focus on education within China."
+      },
+      "SDG_5 (Gender Equality)": {
+        "your_original": 4.0,
+        "model_b_score": 1.8,
+        "your_revised": 1.8,
+        "reason": "While the 'one-child policy' has gender implications, the course doesn't explicitly focus on gender equality, making Model A's lower, inferred score more accurate."
+      },
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 7.0,
+        "model_b_score": 9.8,
+        "your_revised": 9.8,
+        "reason": "Model A's inclusion of 'industrialization' and 'Labor Market' provides a more comprehensive and accurate assessment for this core theme."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 6.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model A's evidence, including 'The Enterprise System' and 'The Financial and Fiscal Systems,' better reflects the course's depth on this core SDG."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 6.0,
+        "model_b_score": 9.8,
+        "your_revised": 9.8,
+        "reason": "Model A's comprehensive evidence, including 'urban-rural divide,' accurately reflects this SDG as a major course theme."
+      },
+      "SDG_11 (Sustainable Cities and Communities)": {
+        "your_original": 5.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A's lower score is more appropriate as the 'urban-rural divide' is an indirect link, not a direct focus on sustainable cities."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 0.001,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly identified 'Environmental Pollution and Economic Sustainability' as a direct and explicit link to this SDG."
+      },
+      "SDG_13 (Climate Action)": {
+        "your_original": 4.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A's more cautious score and 'inferred' type are accurate, as 'environmental issues' are related but not explicitly 'climate action'."
+      },
+      "SDG_15 (Life on Land)": {
+        "your_original": 0.001,
+        "model_b_score": 1.8,
+        "your_revised": 1.8,
+        "reason": "Model A's weak inference from 'environmental issues' and 'Environmental Pollution' is a plausible, albeit minor, connection."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 7.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A's evidence, including 'political development' and government roles, provides a more comprehensive and accurate assessment for this core theme."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 0.001,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A correctly identified 'engagement with the world economy' and 'international political development' as explicit links to global partnerships."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight economic transformation and the urban-rural divide as key factors in poverty reduction, aligning well with course evidence.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model B's inference from 'The Rural Economy' provides a plausible connection to food security, though not explicitly mentioned in the course.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "The one-child policy's impact on demographics is a significant public health issue, as noted in both models.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course's focus on political and economic development does not directly address education as an SDG.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Gender Equality": {
+      "final_score": 1.8,
+      "source": "synthesized",
+      "reasoning": "The one-child policy's implications for gender are acknowledged, but the course lacks a broader focus on gender equality.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 1.8,
+        "model_b_original": 1.8,
+        "model_b_revised": 1.8
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course material directly addresses clean water or sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course does not provide evidence related to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.8,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize economic transformation and industrialization, which are central to the course's themes.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.8,
+        "model_b_original": 9.8,
+        "model_b_revised": 9.8
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "The course's focus on industrialization and financial systems aligns well with this SDG, as noted in both models.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.8,
+      "source": "synthesized",
+      "reasoning": "The course's discussion on social stratification and income inequality strongly supports this SDG.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.8,
+        "model_b_original": 9.8,
+        "model_b_revised": 9.8
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "The urban-rural divide is mentioned, but the course does not focus on sustainable urban development.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on environmental pollution and sustainability provides a direct link to this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "While environmental issues are discussed, the course does not explicitly address climate action.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course material directly addresses life below water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life on Land": {
+      "final_score": 1.8,
+      "source": "synthesized",
+      "reasoning": "Environmental issues are mentioned, but the course does not focus specifically on life on land.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.8,
+        "model_b_revised": 1.8
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on political development and democracy aligns well with this SDG.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course's analysis of China's global engagement supports this SDG, as noted in both models.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'economic transformation' and the 'urban-rural divide,' which are central to understanding poverty dynamics and reduction in China since 1978.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The course includes 'The Rural Economy,' which is tangentially related to food production and security, but hunger or agriculture are not explicit themes.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The 'one-child policy and its impact on demographics' is discussed, which has significant implications for public health and social well-being.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course's pedagogical goal to improve student understanding does not equate to covering Quality Education as an SDG topic within China.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Gender Equality": {
+      "final_score": 1.8,
+      "source": "model_b",
+      "reasoning": "The 'one-child policy' has documented gender implications, but gender equality is not an explicit or primary theme of the course.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 1.8,
+        "model_b_original": 1.8,
+        "model_b_revised": 1.8
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit evidence or strong inference related to clean water and sanitation is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit evidence or strong inference related to affordable and clean energy is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.8,
+      "source": "model_b",
+      "reasoning": "This is a core theme, explicitly covering 'economic transformation,' 'industrialization,' 'Labor Market,' and the roles of various enterprises in China's development.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.8,
+        "model_b_original": 9.8,
+        "model_b_revised": 9.8
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about China's 'industrialization,' 'economic transformation,' and the development of its 'financial system,' 'fiscal system,' and 'enterprise system.'",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.8,
+      "source": "model_b",
+      "reasoning": "A major theme is 'social changes,' with explicit topics on the 'urban-rural divide,' 'social stratification,' and 'Income Inequality,' directly addressing this SDG.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.8,
+        "model_b_original": 9.8,
+        "model_b_revised": 9.8
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course discusses the 'urban-rural divide,' which relates to urbanization, but does not explicitly cover sustainable cities, housing, or urban planning.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Environmental Pollution and Economic Sustainability,' directly addressing the consequences of China's production and development models.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course mentions 'environmental issues' and 'Environmental Pollution,' which are related to climate change, but does not specify climate action as a direct topic.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit evidence or strong inference related to marine ecosystems or life below water is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 1.8,
+      "source": "model_b",
+      "reasoning": "The course mentions 'environmental issues' and 'Environmental Pollution,' which can impact terrestrial ecosystems, but this is not a specific focus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.8,
+        "model_b_revised": 1.8
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "A core theme is 'political development,' examining the roles of 'the central government, local governments,' and the 'prospect of democracy in China,' directly aligning with this SDG.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course analyzes China's 'engagement with the world economy' and its impact on 'international political development,' which are key aspects of global partnerships.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    }
+  }
+}

@@ -1,0 +1,667 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course aims to deepen understanding through case studies → relevant to Quality Education.",
+      "score": 4.5,
+      "evidence": [
+        "針對實例題型於課程中隨時講解",
+        "加深同學印象及激勵同學思考反應"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Course covers legal obligations and rights → relevant to Peace, Justice and Strong Institutions.",
+      "score": 6.0,
+      "evidence": [
+        "法律上義務",
+        "侵權行為之成立",
+        "調整無法律上原因之財產變動"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 2.0,
+      "reason": "The course covers legal remedies for financial loss through concepts like \"不當得利\" (unjust enrichment) and \"侵權行為\" (torts), which can prevent individuals from falling into poverty.",
+      "evidence": [
+        "不當得利",
+        "侵權行為",
+        "調整無法律上原因之財產變動"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to hunger, food security, or sustainable agriculture.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 6.5,
+      "reason": "The course explicitly discusses torts involving the infringement of \"身體權\" (right to physical integrity) and \"健康權\" (right to health), and mentions compensation for \"醫藥費\" (medical expenses).",
+      "evidence": [
+        "身體權",
+        "健康權",
+        "甲被乙毆傷，導致右手骨折，該骨折即所謂「現實損害」，因為該骨折而支出之醫藥費"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "score": 5.0,
+      "reason": "As a university law course, it directly provides specialized higher education. The core competence analysis chart includes \"A. 專業知識\" (Professional knowledge).",
+      "evidence": [
+        "科目名稱：民法債編總論（二）",
+        "開課單位：法律二甲、法律二乙、法律二丙",
+        "A. 專業知識"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to gender equality or the empowerment of women and girls.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to water, sanitation, or hygiene.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to energy.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 4.0,
+      "reason": "The course covers the protection of economic rights under tort law, specifically mentioning \"營業權\" (business rights) and \"智慧財產權\" (intellectual property rights), which supports a stable economic environment.",
+      "evidence": [
+        "營業權",
+        "智慧財產權"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 3.0,
+      "reason": "The course content includes the protection of \"智慧財產權\" (intellectual property rights) under tort law, which is a key legal foundation for fostering innovation.",
+      "evidence": [
+        "智慧財產權"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 2.5,
+      "reason": "The legal principles of torts and unjust enrichment provide mechanisms for redress, promoting access to justice which is a tool for reducing inequalities.",
+      "evidence": [
+        "侵權行為",
+        "不當得利"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to cities, communities, housing, or sustainable urban development.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 1.0,
+      "reason": "The syllabus contains a note to \"維護智慧財產權，務必使用正版書籍\" (Respect Copyright. Use legitimate books), which tangentially relates to responsible consumption of intellectual products.",
+      "evidence": [
+        "維護智慧財產權，務必使用正版書籍。"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to climate change, its impacts, or mitigation efforts.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to marine ecosystems, oceans, or life below water.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to terrestrial ecosystems, biodiversity, or life on land.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 10.0,
+      "reason": "The course is fundamentally about core civil law mechanisms like \"侵權行為\" (torts) and \"不當得利\" (unjust enrichment), which are essential for providing access to justice.",
+      "evidence": [
+        "科目名稱：民法債編總論（二）",
+        "侵權行為",
+        "不當得利"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to partnerships, cooperation, or global collaboration.",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations based on course content, particularly regarding legal concepts related to poverty and health.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B highlights legal remedies that can prevent poverty, aligning with course content."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B accurately identifies health rights discussed in the course, justifying a higher score."
+      },
+      "Quality Education": {
+        "your_original": 4.5,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B emphasizes specialized higher education, warranting a slight increase."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 6.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's score reflects the course's focus on core civil law mechanisms for justice."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's conservative approach to inferred links is more appropriate for No Poverty and Reduced Inequalities. My explicit evidence for other SDGs remains stronger.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 2.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "The course text does not explicitly link legal remedies to poverty reduction, making the initial inference too broad."
+      },
+      "Reduced Inequalities": {
+        "your_original": 2.5,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "While legal mechanisms support justice, the course text does not explicitly address reducing inequalities, making the inference too broad."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "model_a",
+      "reasoning": "Model A's revised score aligns with Model B's reasoning about legal remedies preventing poverty, supported by course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to hunger, food security, or sustainable agriculture in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "Model B accurately identifies health rights discussed in the course, justifying a higher score based on explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "Model B emphasizes specialized higher education, warranting a slight increase, which aligns with course objectives.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to gender equality or the empowerment of women and girls in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to water, sanitation, or hygiene in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to energy in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "Model B's score reflects the course's focus on economic rights under tort law, supported by explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "Model B's score is justified by the course content on intellectual property rights, which supports innovation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "Both models found insufficient explicit evidence in the course content to support a higher score for reducing inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to cities, communities, housing, or sustainable urban development in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "Model B's score is supported by the course's note on respecting copyright, which relates to responsible consumption.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to climate change, its impacts, or mitigation efforts in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to marine ecosystems, oceans, or life below water in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to terrestrial ecosystems, biodiversity, or life on land in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "Model B's score reflects the course's focus on core civil law mechanisms for justice, supported by explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to partnerships, cooperation, or global collaboration in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "Model B's self-correction is accurate. While legal remedies can indirectly impact financial well-being, the syllabus does not explicitly link course content to poverty reduction, making the inference too broad.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus explicitly or implicitly relates to hunger, food security, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly discusses torts infringing on '身體權' (right to physical integrity) and '健康權' (right to health), and mentions '醫藥費' (medical expenses) as damages, directly aligning with this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "As a university-level law course, it directly provides specialized higher education. The core competency '專業知識' (Professional knowledge) further supports its contribution to quality education.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus explicitly or implicitly relates to gender equality or the empowerment of women and girls.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus explicitly or implicitly relates to water, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus explicitly or implicitly relates to energy access or clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers the protection of '營業權' (business rights) and '智慧財產權' (intellectual property rights) under tort law, which are crucial for a stable economic environment and decent work.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on protecting '智慧財產權' (intellectual property rights) under tort law provides a fundamental legal framework essential for fostering innovation, a key aspect of this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "Model B's self-correction is appropriate. While legal mechanisms can support justice, the syllabus does not explicitly address reducing inequalities, making the inference too broad.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus explicitly or implicitly relates to urban development, housing, or community sustainability.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The syllabus explicitly states '維護智慧財產權，務必使用正版書籍' (Respect Copyright. Use legitimate books), which directly relates to responsible consumption of intellectual products.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus explicitly or implicitly relates to climate change, environmental protection, or mitigation efforts.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus explicitly or implicitly relates to marine ecosystems, oceans, or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus explicitly or implicitly relates to terrestrial ecosystems, biodiversity, or life on land.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course fundamentally covers core civil law mechanisms like '無因管理', '不當得利', and '侵權行為', which are essential for establishing legal rights, obligations, and providing access to justice within strong institutions.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus explicitly or implicitly relates to global partnerships, cooperation, or multi-stakeholder collaboration.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    }
+  }
+}

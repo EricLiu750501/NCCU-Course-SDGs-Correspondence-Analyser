@@ -1,0 +1,746 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "Covers 'food' and 'food-related vocabulary' → relevant to Zero Hunger.",
+      "score": 4.0,
+      "evidence": [
+        "食物與甜點相關用語",
+        "餐廳菜單解讀",
+        "食品成分與過敏資訊"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "reason": "Includes 'health' and 'mental health' topics → relevant to Good Health and Well-being.",
+      "score": 7.0,
+      "evidence": [
+        "身體健康相關用語",
+        "心理健康相關用語",
+        "健康檢查與醫療指南"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "Focuses on enhancing reading skills → relevant to Quality Education.",
+      "score": 7.0,
+      "evidence": [
+        "增進學生對泰文實用性文案的閱讀理解能力",
+        "提升閱讀技能"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "Covers 'animals' and 'plants' → relevant to Life on Land.",
+      "score": 4.0,
+      "evidence": [
+        "基礎動物相關用語",
+        "基礎植物相關用語",
+        "常見植物名稱"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 1.001,
+      "reason": "The course mentions helping students with 'working... in Thailand', which is tangentially related to economic livelihood, but does not address poverty directly.",
+      "evidence": [
+        "working... in Thailand"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 2.0,
+      "reason": "The course includes a topic on 'Food and Dessert' and reading 'food ingredients and allergy information', which relates to food and nutrition.",
+      "evidence": [
+        "อาหารและของหวาน (Food and Dessert)",
+        "food ingredients and allergy information"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "score": 8.5,
+      "reason": "The course has dedicated weekly topics on 'Physical Health' and 'Mental Health', covering medical services, health checks, and psychological counseling.",
+      "evidence": [
+        "สุขภาพกาย (Physical Health)",
+        "สุขภาพจิต (Mental Health)",
+        "medical services & clinic signs, health checks & medical guidelines"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "score": 9.5,
+      "reason": "The course is fundamentally an educational activity designed to 'Enhance students' reading comprehension skills' and includes a specific topic on 'Education'.",
+      "evidence": [
+        "การศึกษา (Education)",
+        "Enhance students' reading comprehension skills for practical Thai documents.",
+        "schools and educational institutions, courses and learning resources"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 5.0,
+      "reason": "The course aims to help students handle situations while 'working... in Thailand' and has a dedicated topic on 'Business and Service'.",
+      "evidence": [
+        "working... in Thailand",
+        "ธุรกิจและบริการ (Business and Service)",
+        "shops and service industry, transactions and service guidelines"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 1.5,
+      "reason": "The course mentions 'Travel' and 'Business and Service', which relate to infrastructure and industry, but the focus is on language comprehension, not the systems themselves.",
+      "evidence": [
+        "ธุรกิจและบริการ (Business and Service)",
+        "การเดินทาง (Travel)"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 2.5,
+      "reason": "The course facilitates cultural and linguistic integration for people 'traveling, studying, working, or living in Thailand', which can help reduce barriers they face.",
+      "evidence": [
+        "Help students better handle daily life situations when traveling, studying, working, or living in Thailand.",
+        "To have an international perspective"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 3.0,
+      "reason": "The course covers topics central to urban life such as 'Dwelling', 'Travel', and 'Business and Service', helping people navigate communities.",
+      "evidence": [
+        "ที่พักอาศัย (Dwelling)",
+        "การเดินทาง (Travel)",
+        "ธุรกิจและบริการ (Business and Service)"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "score": 1.001,
+      "reason": "The course mentions 'shopping' and 'food ingredients', but does not address the 'responsible' aspects of consumption or production patterns.",
+      "evidence": [
+        "shopping when common labels and descriptions",
+        "food ingredients"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 4.0,
+      "reason": "The course schedule explicitly includes topics on 'Animal' and 'Plant', which are fundamental components of life on land.",
+      "evidence": [
+        "สัตว์ (Animal)",
+        "พืช (Plant)",
+        "common animal names and descriptions"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 1.8,
+      "reason": "The course fosters cross-cultural understanding through its goal to 'Understand Thai culture' and develop an 'international perspective', which are foundational for international partnerships.",
+      "evidence": [
+        "Understand Thai culture and its representation in everyday documents.",
+        "To have an international perspective"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive reasoning for several SDGs, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 1.001,
+        "your_revised": 1.001,
+        "reason": "Model B highlights relevance to economic livelihood through working in Thailand."
+      },
+      "Zero Hunger": {
+        "your_original": 4.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B's score reflects a more cautious interpretation of food-related content."
+      },
+      "Good Health and Well-being": {
+        "your_original": 7.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B emphasizes dedicated health topics, justifying a higher score."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B's score reflects the course's strong educational focus."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.001,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B connects course content to work-related skills in Thailand."
+      },
+      "Life on Land": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "No change needed; both scores align."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 1.8,
+        "your_revised": 1.8,
+        "reason": "Model B identifies cultural understanding as a basis for partnerships."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided a more comprehensive analysis, identifying explicit and inferred links to several SDGs that I initially overlooked or underestimated. My revisions reflect these stronger connections.",
+    "revisions": {
+      "SDG_2 (Zero Hunger)": {
+        "your_original": 4.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A's lower score is more appropriate as the course's relevance to food is limited to reading information, not addressing hunger directly."
+      },
+      "SDG_3 (Good Health and Well-being)": {
+        "your_original": 7.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A's higher score better reflects the explicit and comprehensive coverage of both physical and mental health topics, including navigating healthcare."
+      },
+      "SDG_4 (Quality Education)": {
+        "your_original": 7.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model A correctly emphasizes the course's fundamental educational nature and the explicit 'Education' topic, warranting a higher score."
+      },
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 0.001,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly identified explicit evidence regarding 'working in Thailand' and the 'Business and Service' topic, which I overlooked."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 0.001,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model A's reasoning for indirect links through 'Travel' and 'Business and Service' is plausible, warranting a minor score."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A's reasoning about facilitating cultural and linguistic integration to reduce barriers for individuals is a valid connection."
+      },
+      "SDG_11 (Sustainable Cities and Communities)": {
+        "your_original": 0.001,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model A correctly identified that topics like 'Dwelling', 'Travel', and 'Business and Service' are central to navigating communities."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 0.001,
+        "model_b_score": 1.001,
+        "your_revised": 1.001,
+        "reason": "Model A's score acknowledges the tangential mention of 'shopping' and 'food ingredients', which I initially scored too strictly."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 0.001,
+        "model_b_score": 1.8,
+        "your_revised": 1.8,
+        "reason": "Model A correctly linked 'Understand Thai culture' and 'international perspective' to fostering foundational elements for partnerships."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.001,
+      "source": "synthesized",
+      "reasoning": "Model B's inference about economic livelihood through working in Thailand is valid, but the score reflects limited direct evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 1.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize limited relevance to food, with Model B's cautious approach aligning better with course content.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on explicit health topics justifies a higher score, reflecting comprehensive coverage.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "The course's strong educational focus and explicit mention of 'Education' warrant this high score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course content to support any relevance to gender equality.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course content to support any relevance to clean water and sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course content to support any relevance to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the relevance of course content to work-related skills, justifying this moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model A's reasoning about indirect links through 'Travel' and 'Business and Service' is plausible, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Model A's reasoning about cultural integration aligns well with the course's objectives, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the relevance of course topics to urban life, justifying this moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 1.001,
+      "source": "synthesized",
+      "reasoning": "Model A's score acknowledges the mention of 'shopping' and 'food ingredients', which is a valid connection.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 1.001
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course content to support any relevance to climate action.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course content to support any relevance to life below water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life on Land": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the explicit coverage of animals and plants, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course content to support any relevance to peace, justice, and strong institutions.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 1.8,
+      "source": "synthesized",
+      "reasoning": "Both models identify cultural understanding as foundational for partnerships, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.8,
+        "model_b_original": 1.8,
+        "model_b_revised": 1.8
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.001,
+      "source": "revised_a",
+      "reasoning": "The course helps students prepare for 'working... in Thailand', which indirectly supports economic livelihood and can contribute to poverty reduction, though not a direct focus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.0,
+      "source": "revised_a",
+      "reasoning": "The course covers 'Food and Dessert' and reading food information, which is tangentially related to food security and nutrition, but does not directly address hunger.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers 'Physical Health' and 'Mental Health' with practical applications like medical services and health checks, demonstrating a strong direct contribution.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "As an educational course focused on enhancing reading comprehension and including a dedicated 'Education' topic, it directly contributes to quality education.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course description or schedule relates to gender equality.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course description or schedule relates to clean water and sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course description or schedule relates to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "The course prepares students for 'working... in Thailand' and includes a 'Business and Service' topic, directly supporting skills for decent work and economic engagement.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "Topics like 'Travel' and 'Business and Service' involve interacting with infrastructure and industry, providing a tangential, language-based connection to this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "By enhancing language skills for daily life in Thailand, the course helps reduce linguistic and cultural barriers, indirectly contributing to reducing inequalities faced by individuals.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "Topics like 'Dwelling', 'Travel', and 'Business and Service' are central to navigating and participating in communities, providing practical language skills for urban life.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 1.001,
+      "source": "model_b",
+      "reasoning": "The course mentions 'shopping' and 'food ingredients', which are elements of consumption, providing a very tangential link to understanding consumption patterns.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.001,
+        "model_b_revised": 1.001
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course description or schedule relates to climate action.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course description or schedule relates to marine life or aquatic ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 4.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers 'Animal' and 'Plant' topics, including related vocabulary and descriptions, directly linking to components of life on land.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course description or schedule relates to peace, justice, or strong institutions.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 1.8,
+      "source": "revised_a",
+      "reasoning": "The course fosters 'international perspective' and 'Thai culture' understanding, which are foundational for cross-cultural communication and international partnerships.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.8,
+        "model_b_original": 1.8,
+        "model_b_revised": 1.8
+      }
+    }
+  }
+}

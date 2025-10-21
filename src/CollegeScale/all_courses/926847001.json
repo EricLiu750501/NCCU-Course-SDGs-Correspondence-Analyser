@@ -1,0 +1,696 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "Course analyzes social issues using GIS → relevant to No Poverty.",
+      "score": 4.0,
+      "evidence": [
+        "analyzing and understanding society",
+        "analysis of social issues",
+        "actual social theories and data"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "Course includes health care accessibility analysis → relevant to Good Health and Well-being.",
+      "score": 4.0,
+      "evidence": [
+        "Measures of Spatial Accessibility to Health Care",
+        "Spatial Accessibility"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "Course aims to educate on GIS methods → relevant to Quality Education.",
+      "score": 7.0,
+      "evidence": [
+        "acquaint graduate students with methods",
+        "pedagogical model of application"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Course uses industry-standard GIS software → relevant to Industry, Innovation and Infrastructure.",
+      "score": 6.0,
+      "evidence": [
+        "Industry-standard GIS software",
+        "spatial analysis with GIS"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "Course addresses social issues which may include inequalities → relevant to Reduced Inequalities.",
+      "score": 4.0,
+      "evidence": [
+        "analyzing and understanding society",
+        "actual social theories and data"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "Course discusses spatial analysis relevant to urban planning → relevant to Sustainable Cities and Communities.",
+      "score": 5.0,
+      "evidence": [
+        "GIS and Mapping: Pitfalls for Planners",
+        "spatial analysis methods"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Course includes analysis of political risks → relevant to Peace, Justice and Strong Institutions.",
+      "score": 4.0,
+      "evidence": [
+        "Spatial Big Data Analysis of Political Risks"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 7.0,
+      "reason": "The course includes a reading specifically on analyzing poverty, 'Poverty GWR_PH', demonstrating a direct application of course methods to understanding poverty distribution.",
+      "evidence": [
+        "Poverty GWR_PH (Tzai-Hung Wen1, Duan-Rung Chen2, Meng-Ju Tsai3, 2010)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 8.5,
+      "reason": "The course has a strong focus on health, with readings on 'Spatial analysis and GIS in the study of COVID-19' and 'Spatial Accessibility to Health Care'.",
+      "evidence": [
+        "Spatial analysis and GIS in the study of COVID-19. A review_PH",
+        "Measures of Spatial Accessibility to Health Care in a GIS Environment (Luo & Qi 2003)",
+        "Accessibility, equity and health care_PH(Tijs Neutens, 2015)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "score": 2.0,
+      "reason": "A reading mentions 'GIS Education in U S Public Administration Programs', but this is about teaching GIS, not using GIS to analyze educational access or quality.",
+      "evidence": [
+        "GIS Education in U S Public Administration Programs Preparing the Next Generation of Public Servants"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 1.5,
+      "reason": "The course involves 'Working with Census Data,' which can include economic indicators, but does not explicitly mention analyzing economic growth or decent work.",
+      "evidence": [
+        "Working with Census Data I",
+        "Working with Census Data II"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 4.5,
+      "reason": "The course teaches 'Network Analysis' and uses 'Industry-standard GIS software,' which are key tools for analyzing and planning infrastructure.",
+      "evidence": [
+        "Network Analysis",
+        "Industry-standard GIS software will be used in this course."
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 8.0,
+      "reason": "The course directly addresses inequality through readings on 'Accessibility, equity and health care' and the analysis of poverty and census data to understand social disparities.",
+      "evidence": [
+        "Accessibility, equity and health care_PH(Tijs Neutens, 2015)",
+        "Poverty GWR_PH",
+        "analysis of social issues"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 7.5,
+      "reason": "The course includes readings for 'Planners' and covers topics like 'Network Analysis' and 'Working with Census Data,' which are essential for urban and community planning.",
+      "evidence": [
+        "GIS and Mapping: Pitfalls for Planners(Kent & Klosterman 2000)",
+        "Network Analysis",
+        "Working with Census Data I"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 9.0,
+      "reason": "The course includes multiple readings on 'Public Service,' 'Government Services,' 'corruption,' and 'Political Risks,' which are core topics for building strong and just institutions.",
+      "evidence": [
+        "GIS, Public Service_PA (Haque, 2003)",
+        "Spatial spillover effects of corruption in Asian_PS",
+        "Coproduction of Government Services and the New Information Technology"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 3.0,
+      "reason": "The course is part of an 'International Master's Program' and mentions 'Policy Diffusion Research,' suggesting an international, collaborative context for achieving goals.",
+      "evidence": [
+        "International Master's Program in Asia-Pacific Studies",
+        "Four Ways We Can Improve Policy Diffusion Research_PA"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations based on course readings, particularly for No Poverty, Good Health and Well-being, Quality Education, Reduced Inequalities, Sustainable Cities and Communities, and Peace, Justice and Strong Institutions.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B cites specific readings on poverty analysis that I overlooked."
+      },
+      "Good Health and Well-being": {
+        "your_original": 4.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B includes additional health-related readings that strengthen the relevance."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B's focus on teaching GIS rather than educational access is more accurate."
+      },
+      "Reduced Inequalities": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B highlights specific readings on inequality that I did not consider."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 5.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's inclusion of urban planning readings provides a stronger basis."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 4.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B identifies multiple relevant readings that enhance the score."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's analysis prompted revisions for SDG 8 due to a stricter interpretation of evidence, and for SDG 9, where my original score was an underestimation given explicit course content.",
+    "revisions": {
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 1.5,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model B's stricter interpretation is more accurate. While census data can include economic indicators, the course lacks explicit focus on decent work or economic growth."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 4.5,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "My original score was too low. The explicit mention of 'Network Analysis' and 'Industry-standard GIS software' provides a stronger, direct link to infrastructure and industry."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified relevant readings on poverty analysis. Model B's score is supported by explicit evidence, while Model A revised its score to align with this evidence.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Zero Hunger, confirming the absence of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects strong evidence from multiple health-related readings, which Model A revised to match.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's interpretation of the course's focus on teaching GIS rather than educational access is more accurate, leading to a lower score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Gender Equality, confirming the absence of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Clean Water and Sanitation, confirming the absence of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Affordable and Clean Energy, confirming the absence of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found insufficient evidence to support a higher score, confirming the absence of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Model A's score is supported by explicit evidence of industry-standard GIS software and network analysis, while Model B's score was revised to align with this evidence.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 4.5,
+        "model_b_revised": 6.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects strong evidence from readings on inequality, which Model A revised to match, indicating a consensus on the relevance.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score is supported by explicit evidence from urban planning readings, which Model A revised to align with this evidence.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Responsible Consumption and Production, confirming the absence of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Climate Action, confirming the absence of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Life Below Water, confirming the absence of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Life on Land, confirming the absence of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects strong evidence from multiple relevant readings, which Model A revised to match, indicating a consensus on the relevance.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects a reasonable interpretation of the course's international context, while Model A did not provide evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly includes a reading titled 'Poverty GWR_PH,' directly linking GIS methods to the analysis of poverty, indicating a significant focus.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course description, objectives, or weekly readings suggests a focus on hunger or food security.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "Multiple explicit readings, including 'Spatial analysis and GIS in the study of COVID-19' and 'Spatial Accessibility to Health Care,' demonstrate a strong focus on health-related spatial analysis.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course provides GIS education, but the only direct mention of 'education' in readings refers to GIS education itself, not using GIS to analyze broader educational access or quality issues.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course description, objectives, or weekly readings suggests a focus on gender equality.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course description, objectives, or weekly readings suggests a focus on clean water and sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course description, objectives, or weekly readings suggests a focus on affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "While census data is used, the syllabus lacks explicit mention of analyzing decent work or economic growth, making the connection too indirect for a higher score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.0,
+      "source": "model_a",
+      "reasoning": "The course explicitly uses 'industry-standard GIS software' and covers 'Network Analysis,' which are fundamental tools for infrastructure planning, industry applications, and innovation.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": 6.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "Explicit readings like 'Accessibility, equity and health care' and 'Poverty GWR_PH' directly address social disparities and the analysis of inequalities using GIS.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly references 'Planners' and covers 'Network Analysis' and 'Working with Census Data,' all crucial for urban planning and understanding sustainable communities.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course description, objectives, or weekly readings suggests a focus on responsible consumption and production.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course description, objectives, or weekly readings suggests a focus on climate action.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course description, objectives, or weekly readings suggests a focus on marine ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course description, objectives, or weekly readings suggests a focus on terrestrial ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "Multiple explicit readings on 'Public Service,' 'Government Services,' 'corruption,' and 'Political Risks' demonstrate a strong focus on topics central to peace, justice, and strong institutions.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "While the course is international and mentions policy diffusion, there is no explicit or strong inferred evidence directly related to fostering global partnerships for sustainable development goals.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

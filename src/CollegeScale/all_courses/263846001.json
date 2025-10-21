@@ -1,0 +1,690 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course aims to enhance understanding of economic development → relevant to Quality Education.",
+      "score": 4.0,
+      "evidence": [
+        "使學生瞭解俄國經濟發展的歷程",
+        "經濟制裁對俄國經濟的影響"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Focus on economic development and challenges → relevant to Decent Work and Economic Growth.",
+      "score": 7.0,
+      "evidence": [
+        "俄國經濟的發展現況",
+        "面臨的可能挑戰"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Course discusses industrial aspects of the economy → relevant to Industry, Innovation and Infrastructure.",
+      "score": 4.0,
+      "evidence": [
+        "工業",
+        "科技發展"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Course discusses economic sanctions → relevant to Peace, Justice and Strong Institutions.",
+      "score": 4.0,
+      "evidence": [
+        "經濟制裁的因應策略"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 1.5,
+      "reason": "The course focuses on national economic development, which implicitly relates to poverty reduction, but lacks explicit mention of poverty, inequality, or social welfare programs.",
+      "evidence": [
+        "俄國經濟的發展現況"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 4.0,
+      "reason": "The course schedule includes a dedicated weekly topic on \"農業\" (Agriculture), which is a key component of food production and addressing hunger.",
+      "evidence": [
+        "農業"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding health, well-being, or healthcare systems.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 0.001,
+      "reason": "No evidence found. The course is a form of education but its content does not cover the topic of education systems or policy.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding gender equality, women's rights, or related topics.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding water resources, sanitation, or related infrastructure.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found. While industry is mentioned, there is no specific discussion of energy sectors, affordability, or clean energy.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 9.5,
+      "reason": "The course is fundamentally about economic growth, covering \"俄國經濟的發展現況\" (current state of the Russian economy), \"人力資源\" (human resources), and \"企業\" (business).",
+      "evidence": [
+        "俄國經濟的發展現況",
+        "人力資源",
+        "企業"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 8.0,
+      "reason": "The course schedule explicitly dedicates weeks to \"工業\" (Industry) and \"科技發展\" (Technology development), which are core components of this SDG.",
+      "evidence": [
+        "工業",
+        "科技發展",
+        "投資環境"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 2.0,
+      "reason": "The course discusses the \"經濟轉型\" (economic transition) from a planned to a market economy, which has strong implications for inequality, though not explicitly stated.",
+      "evidence": [
+        "經濟轉型"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding cities, urbanization, housing, or community development.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.001,
+      "reason": "No evidence found. While production sectors like industry and agriculture are mentioned, there is no focus on sustainability or responsible consumption.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding climate change, environmental policy, or climate action.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding marine life, oceans, or water ecosystems.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.001,
+      "reason": "No evidence found. While \"農業\" (Agriculture) is mentioned, there is no discussion of ecosystems, biodiversity, or sustainable land management.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 8.5,
+      "reason": "The course directly addresses institutional change and international relations through topics like \"經濟制裁\" (Economic sanctions), \"政治經濟分析\" (Political economic analysis), and economic transition.",
+      "evidence": [
+        "經濟制裁",
+        "政治經濟分析",
+        "經濟轉型"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 7.0,
+      "reason": "The course examines global economic cooperation and conflict through its focus on \"國際經貿組織\" (International trade organizations) and \"經濟制裁\" (Economic sanctions).",
+      "evidence": [
+        "國際經貿組織",
+        "經濟制裁"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations based on course content, particularly regarding economic aspects.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B highlights implicit connections to poverty reduction through economic development."
+      },
+      "Zero Hunger": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B correctly identifies the explicit focus on agriculture as relevant to hunger."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model B's reasoning aligns better; course content does not focus on education systems."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 7.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B emphasizes broader economic growth topics covered in the course."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's score reflects the explicit focus on industry and technology development."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B identifies the economic transition's implications for inequality."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 4.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's score better reflects the course's focus on economic sanctions and institutional change."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B highlights the course's examination of global economic cooperation."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's analysis prompted me to re-evaluate inferred connections. I've revised scores for SDGs where the link was too tenuous without explicit textual support.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 1.5,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "While economic development is covered, the course lacks explicit focus on poverty reduction, making the original inference too weak."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 2.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Economic transition can impact inequality, but the course text doesn't explicitly address inequality or its reduction, making the inference too weak."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "The course discusses economic development, which implicitly relates to poverty reduction, but lacks explicit mention of poverty. Model B's original score is retained as it reflects the best inference.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "The course explicitly includes a topic on agriculture, which is directly relevant to addressing hunger. Model B's score is accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course description regarding health or well-being. Both models agree on this score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course does not focus on education systems or policies, aligning with Model B's reasoning.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found regarding gender equality or women's rights in the course description. Both models agree.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found regarding water resources or sanitation. Both models agree.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No specific discussion of energy sectors or clean energy in the course. Both models agree.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "The course fundamentally addresses economic growth and development, aligning with Model B's higher score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course explicitly covers industry and technology development, aligning with Model B's score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "While economic transition can impact inequality, the course lacks explicit focus on this topic. Both models agree.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found regarding urbanization or community development. Both models agree.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No focus on sustainability or responsible consumption in the course. Both models agree.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found regarding climate change or environmental policy. Both models agree.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found regarding marine life or oceans. Both models agree.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No discussion of ecosystems or sustainable land management. Both models agree.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "The course addresses institutional change and economic sanctions, aligning with Model B's higher score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "The course examines global economic cooperation, aligning with Model B's score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "The course focuses on national economic development, but lacks explicit mention of poverty reduction, inequality, or social welfare programs. The inference is too weak.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course schedule explicitly includes a dedicated weekly topic on \"農業\" (Agriculture), which is a key component of food production and addressing hunger.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course description regarding health, well-being, or healthcare systems.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course itself is a form of education, but its content does not cover the topic of education systems, policy, or access, which are the focus of SDG 4.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course description regarding gender equality, women's rights, or related topics.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course description regarding water resources, sanitation, or related infrastructure.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found. While industry is mentioned, there is no specific discussion of energy sectors, affordability, or clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about economic growth, covering the current state of the Russian economy, human resources, and business, all directly aligning with Decent Work and Economic Growth.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course schedule explicitly dedicates weeks to \"工業\" (Industry) and \"科技發展\" (Technology development), which are core components of this SDG, further supported by \"投資環境\".",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "While economic transition can impact inequality, the course text does not explicitly address inequality or its reduction, making the inference too weak.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course description regarding cities, urbanization, housing, or community development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found. While production sectors are mentioned, there is no focus on sustainability, resource efficiency, or responsible consumption.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course description regarding climate change, environmental policy, or climate action.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course description regarding marine life, oceans, or water ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found. While agriculture is mentioned, there is no discussion of ecosystems, biodiversity, or sustainable land management.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course directly addresses institutional change and international relations through topics like economic sanctions, political economic analysis, and economic transition, aligning strongly with this SDG.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course examines global economic cooperation and conflict through its focus on international trade organizations and economic sanctions, directly aligning with global partnerships.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

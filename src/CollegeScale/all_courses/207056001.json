@@ -1,0 +1,801 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course provides foundational insights into cartography and GIS → relevant to Quality Education.",
+      "score": 7.0,
+      "evidence": [
+        "comprehensive introduction to the theoretical and practical foundations of cartography",
+        "gain hands-on experience using Geographic Information Systems (GIS)",
+        "use international cartographic terminology to describe and critique their map products"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Course introduces modern technologies like Machine Learning → relevant to Industry, Innovation and Infrastructure.",
+      "score": 6.0,
+      "evidence": [
+        "introduces students to modern technologies, including Machine Learning (ML)",
+        "how ML techniques can be used to classify spatial data",
+        "understand the growing role of intelligent systems in the future of cartography"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "Mentions 'hazard mapping' and 'Sustainable Development Goals' → relevant to Sustainable Cities and Communities.",
+      "score": 8.0,
+      "evidence": [
+        "complex thematic maps incorporating relevant topics such as hazard mapping and Sustainable Development Goals",
+        "focus on how maps are made",
+        "transforming data into maps helps us see and understand complex spatial patterns"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "Mentions 'land cover classification' and 'urban, water, and vegetation features' → relevant to Life on Land.",
+      "score": 7.0,
+      "evidence": [
+        "introduces basic machine learning for land cover classification",
+        "automate the extraction of urban, water, and vegetation features",
+        "land cover raster datasets to understand physiographic mapping"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course covers creating a \"Parcel Plan\" and skills for \"land administration\" (地政), which are tools for managing land tenure, a key factor in poverty reduction.",
+      "score": 2.5,
+      "evidence": [
+        "具備地政相關專業知能",
+        "Start of Map Project 4: Parcel Plan",
+        "styling for cadastral clarity"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "The course includes mapping \"vegetation features\" and \"land cover classification,\" which are tangentially related to monitoring agricultural land, but no direct connection to food security is made.",
+      "score": 1.5,
+      "evidence": [
+        "extraction of urban, water, and vegetation features",
+        "introduces basic machine learning for land cover classification"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Good Health and Well-being": {
+      "reason": "The course explicitly includes \"hazard mapping\" and a project on creating a \"Population Density Thematic Map,\" both of which are key tools for public health and disaster preparedness.",
+      "score": 5.0,
+      "evidence": [
+        "hazard mapping",
+        "Map Project 1: Population Density Thematic Map"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "As a university course, it directly provides higher education and teaches advanced technical skills in GIS, Machine Learning, and land administration, contributing to professional development.",
+      "score": 8.0,
+      "evidence": [
+        "This course provides a comprehensive introduction to the theoretical and practical foundations of cartography",
+        "Students will gain hands-on experience using Geographic Information Systems (GIS)",
+        "具備地政相關專業知能"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "The course includes methods to \"automate the extraction of urban, water, and vegetation features,\" a foundational skill for mapping and managing water resources.",
+      "score": 2.5,
+      "evidence": [
+        "automate the extraction of urban, water, and vegetation features"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course equips students with professional skills in GIS and land administration (\"地政相關專業知能\") and covers mapping \"transportation networks,\" which are crucial for economic activity.",
+      "score": 5.5,
+      "evidence": [
+        "具備地政相關實務應用與創新之能力",
+        "Topology and Network Structures in Cartography",
+        "transportation networks"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course focuses on mapping infrastructure like \"transportation networks\" and introduces \"state-of-the-art technologies, such as Machine Learning tools for mapping,\" directly addressing innovation.",
+      "score": 8.5,
+      "evidence": [
+        "Topology and Network Structures in Cartography",
+        "transportation networks",
+        "introduced to state-of-the-art technologies, such as Machine Learning tools for mapping"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "The course teaches skills like creating a \"Population Density Thematic Map\" and \"Parcel Plan,\" which are tools that can be used to analyze and address spatial inequalities.",
+      "score": 3.0,
+      "evidence": [
+        "Map Project 1: Population Density Thematic Map",
+        "Start of Map Project 4: Parcel Plan"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "The course explicitly states that map creation will focus on \"Sustainable Development Goals (in particular SDG 11 and 15)\" and covers relevant topics like \"hazard mapping\" and urban features.",
+      "score": 10.0,
+      "evidence": [
+        "Sustainable Development Goals (in particular SDG 11 and 15)",
+        "hazard mapping",
+        "extraction of urban, water, and vegetation features"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "The course includes \"hazard mapping\" and \"land cover classification,\" which are essential techniques for monitoring climate impacts and planning for climate-related disasters, though not explicitly framed this way.",
+      "score": 4.0,
+      "evidence": [
+        "hazard mapping",
+        "land cover classification",
+        "Capstone Project Launch: Complex Thematic Map"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "reason": "The course includes the \"extraction of... water... features,\" which could be applied to mapping aquatic environments, but it is not a focus of the curriculum.",
+      "score": 1.0,
+      "evidence": [
+        "extraction of urban, water, and vegetation features"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life on Land": {
+      "reason": "The course explicitly states that map creation will focus on \"Sustainable Development Goals (in particular SDG 11 and 15)\" and covers relevant topics like \"Land Cover Data\" and \"vegetation features.\"",
+      "score": 10.0,
+      "evidence": [
+        "Sustainable Development Goals (in particular SDG 11 and 15)",
+        "Terrain Representation and Land Cover Data",
+        "extraction of urban, water, and vegetation features"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course focuses on skills for \"land administration\" (\"地政\"), including creating a \"Parcel Plan\" with \"cadastral clarity,\" which are essential for building strong institutions that manage property rights.",
+      "score": 6.0,
+      "evidence": [
+        "具備地政相關專業知能",
+        "Start of Map Project 4: Parcel Plan",
+        "styling for cadastral clarity"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course promotes an \"international perspective\" (國際觀), the use of \"international cartographic terminology,\" and compiling data from \"online catalogs,\" fostering collaboration and adherence to global standards.",
+      "score": 3.5,
+      "evidence": [
+        "具備領導與團隊合作並進之精神與國際觀",
+        "Use international cartographic terminology to describe and critique their map products.",
+        "compiling earthquake data from online catalogs"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive connections to the course content, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B highlights land administration skills relevant to poverty reduction."
+      },
+      "Zero Hunger": {
+        "your_original": 0.001,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B connects vegetation mapping to agricultural monitoring."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B emphasizes hazard mapping's relevance to public health."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B connects urban and water feature extraction to water management."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.001,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B links GIS skills to economic activity through transportation mapping."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B explicitly connects course content to SDG 11 and 15."
+      },
+      "Life on Land": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B emphasizes land cover data's relevance to SDG 15."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B connects land administration skills to strong institutions."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model B highlights international collaboration and standards."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided a more comprehensive analysis, identifying several explicit and inferred connections I missed, particularly regarding land administration, hazard mapping, and the direct mention of SDGs 11 and 15. My scores are revised to reflect these stronger alignments.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 2.5,
+        "reason": "Model A correctly identified that 'Parcel Plan' and '地政' (land administration) skills are relevant to land tenure, a factor in poverty reduction."
+      },
+      "Zero Hunger": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 1.5,
+        "reason": "Model A's inference that 'vegetation features' and 'land cover classification' can relate to monitoring agricultural land is a plausible, albeit tangential, connection."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 5.0,
+        "reason": "Model A correctly highlighted 'hazard mapping' and 'Population Density Thematic Map' as direct contributions to public health and disaster preparedness."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 7.0,
+        "your_revised": 8.0,
+        "reason": "Model A's slightly higher score better reflects the advanced technical skills in GIS and ML, and professional development offered by this university course."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 2.5,
+        "reason": "Model A's reasoning that 'extraction of... water... features' is a foundational skill for water resource management is a valid inference."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 5.5,
+        "reason": "Model A correctly linked '地政' (land administration) skills and 'transportation networks' to professional development and economic activity."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 8.5,
+        "reason": "Model A's score is more accurate by encompassing both 'transportation networks' (infrastructure) and 'Machine Learning tools' (innovation) explicitly mentioned."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 3.0,
+        "reason": "Model A's inference that 'Population Density Thematic Map' and 'Parcel Plan' can be used to analyze spatial inequalities is valid."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 8.0,
+        "model_b_score": 8.0,
+        "your_revised": 10.0,
+        "reason": "Model A's score of 10.000 is fully justified by the explicit mention of 'Sustainable Development Goals (in particular SDG 11)' in the course text."
+      },
+      "Climate Action": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 4.0,
+        "reason": "Model A correctly identified that 'hazard mapping' and 'land cover classification' are relevant techniques for monitoring climate impacts and planning."
+      },
+      "Life Below Water": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 1.0,
+        "reason": "Model A's weak inference that 'extraction of... water... features' could apply to aquatic environments is acceptable for a minimal score."
+      },
+      "Life on Land": {
+        "your_original": 7.0,
+        "model_b_score": 7.0,
+        "your_revised": 10.0,
+        "reason": "Model A's score of 10.000 is fully justified by the explicit mention of 'Sustainable Development Goals (in particular SDG 15)' in the course text."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 6.0,
+        "reason": "Model A correctly linked '地政' (land administration), 'Parcel Plan', and 'cadastral clarity' to managing property rights and strengthening institutions."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 3.5,
+        "reason": "Model A correctly identified 'international perspective,' 'international cartographic terminology,' and 'online catalogs' as fostering global collaboration."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the relevance of land administration skills to poverty reduction, with Model B providing a clearer connection to course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model B's inference about vegetation mapping's relevance to agricultural monitoring is plausible, though not strongly supported by explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the importance of hazard mapping and population density mapping for public health, with consistent reasoning across analyses.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's comprehensive introduction to cartography and GIS as a significant contribution to quality education.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support a score for Gender Equality.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Model B's connection between urban and water feature extraction and water management is valid, supported by both models.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support a score for Affordable and Clean Energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Both models effectively link GIS skills and transportation mapping to economic activity, with consistent reasoning.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on modern technologies and infrastructure mapping aligns well with course content, supported by both models.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the relevance of mapping projects to analyze spatial inequalities, with consistent reasoning.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models explicitly connect course content to SDGs 11 and 15, justifying the highest score.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support a score for Responsible Consumption and Production.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Climate Action": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the relevance of hazard mapping and land cover classification to climate action, with consistent reasoning.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Model B's inference about water feature extraction is valid, though not a primary focus of the course.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models explicitly connect course content to SDG 15, justifying the highest score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models effectively link land administration skills to strong institutions, with consistent reasoning.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 3.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the importance of international collaboration and standards, with consistent reasoning.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "The course teaches skills in 'Parcel Plan' and '地政' (land administration), which are foundational for managing land tenure and property rights, indirectly contributing to poverty reduction.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "'Land cover classification' and 'vegetation features' mapping skills can be tangentially applied to monitoring agricultural land, which is weakly related to food security.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "The course explicitly covers 'hazard mapping' and creating 'Population Density Thematic Maps,' which are direct tools for public health planning and disaster preparedness.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "As a university course, it directly provides higher education, teaching comprehensive theoretical and practical foundations in cartography, GIS, and Machine Learning, fostering professional development.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or inferable evidence related to gender equality is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "The course teaches the 'extraction of urban, water, and vegetation features,' a foundational skill for mapping and managing water resources, though not directly focused on sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or inferable evidence related to affordable and clean energy is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "The course provides professional skills in GIS and land administration ('地政相關專業知能') and covers mapping 'transportation networks,' which are crucial for economic activity and employment.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'state-of-the-art technologies, such as Machine Learning tools for mapping' (innovation) and 'Topology and Network Structures in Cartography' focusing on 'transportation networks' (infrastructure).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Skills in creating 'Population Density Thematic Maps' and 'Parcel Plans' can be used to analyze and visualize spatial inequalities, though this is an inferred application.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly states map creation will focus on 'Sustainable Development Goals (in particular SDG 11 and 15)' and includes 'hazard mapping' and urban feature extraction.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit or inferable evidence related to responsible consumption and production is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Climate Action": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "'Hazard mapping' and 'land cover classification' are valuable techniques for monitoring climate impacts and planning for climate-related disasters, providing an inferred connection.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "The 'extraction of... water... features' is a very weak and indirect connection, as it refers to general water body mapping, not specific aquatic ecosystem conservation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly states map creation will focus on 'Sustainable Development Goals (in particular SDG 11 and 15)' and covers 'Land Cover Data' and 'vegetation features.'",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "The course teaches skills in '地政' (land administration), 'Parcel Plan,' and 'cadastral clarity,' which are essential for establishing property rights and strengthening institutions.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 3.5,
+      "source": "synthesized",
+      "reasoning": "The course promotes an 'international perspective,' uses 'international cartographic terminology,' and involves compiling data from 'online catalogs,' fostering global collaboration and standards.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    }
+  }
+}

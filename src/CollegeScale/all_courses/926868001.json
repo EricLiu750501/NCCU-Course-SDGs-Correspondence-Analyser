@@ -1,0 +1,729 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "Focus on global health issues, including 'infectious diseases' and 'mental health' → relevant to Good Health and Well-being.",
+      "score": 9.5,
+      "evidence": [
+        "pressing global health governance issues",
+        "infectious diseases",
+        "mental health"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "Course aims to equip students with analytical skills for health governance → relevant to Quality Education.",
+      "score": 7.5,
+      "evidence": [
+        "analytical skills",
+        "effective health governance"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Focus on 'digital health innovations' → relevant to Industry, Innovation and Infrastructure.",
+      "score": 5.0,
+      "evidence": [
+        "digital health innovations"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "Mentions 'equitable medicine access' → relevant to Reduced Inequalities.",
+      "score": 6.0,
+      "evidence": [
+        "equitable medicine access"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "Mentions 'climate-driven health crises' → relevant to Climate Action.",
+      "score": 6.5,
+      "evidence": [
+        "climate-driven health crises"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Course includes 'WHO simulation' and 'international health organizations' → relevant to Peace, Justice and Strong Institutions.",
+      "score": 7.0,
+      "evidence": [
+        "WHO simulation",
+        "international health organizations"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "Focus on collaboration with 'civil society representatives' and 'media professionals' → relevant to Partnerships for the Goals.",
+      "score": 6.5,
+      "evidence": [
+        "collaborating with invited external experts",
+        "civil society representatives"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course mentions 'Vulnerable Groups, Refugees and Humanitarian Aid', which are often linked to poverty, but does not focus on economic poverty itself.",
+      "score": 2.5,
+      "evidence": [
+        "Vulnerable Groups, Refugees and Humanitarian Aid"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "The course is fundamentally about 'Global Health Governance', covering 'pandemics', 'mental health', 'NCDs', 'equitable medicine access', and 'health system strengthening' as core topics.",
+      "score": 10.0,
+      "evidence": [
+        "Course Name: Global Health Governance",
+        "complex health issues—including pandemics, climate-driven health crises, chronic diseases, and digital health innovations",
+        "infectious diseases, mental health, NCDs, equitable medicine access, digital health data privacy, health system strengthening, primary healthcare strategies"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "The course aims to 'equip future global health policymakers and practitioners with the analytical skills', focusing on the students' own education rather than the broader SDG.",
+      "score": 3.0,
+      "evidence": [
+        "equip future global health policymakers and practitioners with the analytical skills, evaluative insights, and creative strategies",
+        "Developing student’s ability for participating in international conferences, oral presentations, and group collaboration."
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course discusses 'digital health innovations', 'Medical AI', and 'health system strengthening', which relate to innovation and infrastructure within the health sector.",
+      "score": 5.5,
+      "evidence": [
+        "digital health innovations",
+        "health system strengthening",
+        "Digital Health, Medical AI, and Global Health"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "The course explicitly addresses inequality through topics like 'equitable medicine access' and the health challenges faced by 'Vulnerable Groups, Refugees and Humanitarian Aid'.",
+      "score": 8.0,
+      "evidence": [
+        "equitable medicine access",
+        "Vulnerable Groups, Refugees and Humanitarian Aid"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "The course explicitly identifies 'climate-driven health crises' and 'climate change' as key global health issues and includes a session on 'Environment and Global Health'.",
+      "score": 8.5,
+      "evidence": [
+        "climate-driven health crises",
+        "Knowing the current global health issues and risks, such as... climate change",
+        "Global Health Burden 4: Environment and Global Health"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course's focus on 'Global Health Governance', 'the role of international health organizations', and a 'World Health Organization (WHO) simulation exercise' directly addresses institutional capacity.",
+      "score": 9.5,
+      "evidence": [
+        "Global Health Governance",
+        "the role of international health organizations",
+        "World Health Organization (WHO) simulation exercise"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course emphasizes 'global solutions' and collaboration with 'international health organizations', 'NGOs', 'civil society representatives', and 'supragovernment agencies' to address complex health issues.",
+      "score": 9.0,
+      "evidence": [
+        "demanding integrated, multidisciplinary, and global solutions",
+        "collaborating with invited external experts, civil society representatives, and media professionals",
+        "Global Health Topic 2: ODA, NGOs, and Supragovernment Agencies"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations for several SDGs, particularly in areas of Good Health and Well-being, Quality Education, Reduced Inequalities, Climate Action, Peace, Justice and Strong Institutions, and Partnerships for the Goals.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B highlights relevance to vulnerable groups linked to poverty."
+      },
+      "Good Health and Well-being": {
+        "your_original": 9.5,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B emphasizes broader health governance topics covered in the course."
+      },
+      "Quality Education": {
+        "your_original": 7.5,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B's focus on student education aligns better with course objectives."
+      },
+      "Reduced Inequalities": {
+        "your_original": 6.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B includes additional context on vulnerable groups."
+      },
+      "Climate Action": {
+        "your_original": 6.5,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B provides stronger evidence of climate issues in the course."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 7.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B's interpretation of institutional focus is more comprehensive."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 6.5,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B emphasizes collaboration aspects more effectively."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more comprehensive evidence and a more nuanced interpretation for several SDGs, particularly distinguishing between course-specific learning outcomes and broader SDG targets, leading to several revisions.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 9.5,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A's score of 10.000 is more accurate given the course's central focus on 'Global Health Governance' and extensive health topics."
+      },
+      "Quality Education": {
+        "your_original": 7.5,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model A correctly notes the course focuses on student education, not the broader SDG 4 targets for universal quality education."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 5.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model A included 'Medical AI' and 'health system strengthening' as additional, relevant evidence, justifying a slightly higher score."
+      },
+      "Reduced Inequalities": {
+        "your_original": 6.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A's inclusion of 'Vulnerable Groups, Refugees and Humanitarian Aid' alongside 'equitable medicine access' provides stronger evidence for this SDG."
+      },
+      "Climate Action": {
+        "your_original": 6.5,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A's reasoning is more comprehensive, citing 'climate change' as a risk and a dedicated 'Environment and Global Health' session."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 7.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model A's emphasis on 'Global Health Governance' as central to institutional capacity, beyond just WHO simulation, is more accurate."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 6.5,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A provided a broader range of explicit evidence for partnerships, including 'international health organizations' and 'NGOs', justifying a higher score."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Model B's inference about vulnerable groups linked to poverty is valid, aligning with course content on humanitarian aid. This score reflects a more nuanced understanding of poverty's context.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no explicit evidence related to Zero Hunger in the course content, justifying a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the course's comprehensive focus on global health issues, but Model B's score of 10.000 is justified by the explicit mention of various health topics.",
+      "model_comparison": {
+        "model_a_original": 9.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Model A's focus on student education aligns better with the course objectives, justifying a lower score than Model A's original.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Gender Equality in the course content, justifying a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Clean Water and Sanitation in the course content, justifying a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Affordable and Clean Energy in the course content, justifying a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Decent Work and Economic Growth in the course content, justifying a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the course's focus on digital health innovations and health system strengthening, aligning well with the SDG's objectives.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the course's focus on equitable medicine access and vulnerable groups, but Model B's score is more justified by the explicit mention of these topics.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Sustainable Cities and Communities in the course content, justifying a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Responsible Consumption and Production in the course content, justifying a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the course's emphasis on climate-driven health crises, but Model B's score reflects a more comprehensive understanding of climate issues.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Life Below Water in the course content, justifying a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Life on Land in the course content, justifying a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the course's focus on global health governance and the WHO simulation, but Model B's score reflects a more comprehensive understanding of institutional capacity.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasized collaboration with various stakeholders, but Model B's score reflects a more comprehensive understanding of partnerships in health governance.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The course mentions 'Vulnerable Groups, Refugees and Humanitarian Aid,' which are often linked to poverty, providing an indirect connection to this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable evidence related to hunger, food security, or sustainable agriculture in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is explicitly titled 'Global Health Governance' and comprehensively covers numerous health issues, health systems, and access, making it central to SDG 3.",
+      "model_comparison": {
+        "model_a_original": 9.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on providing quality education and skills to its enrolled students, rather than addressing the broader SDG 4 targets of ensuring inclusive and equitable quality education for all.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable evidence related to gender equality or women's empowerment in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable evidence related to clean water, sanitation, or hygiene in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable evidence related to affordable and clean energy in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable evidence related to decent work, economic growth, or employment in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'digital health innovations,' 'Medical AI,' and 'health system strengthening,' which contribute to innovation and infrastructure within the health sector.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly addresses inequalities through topics like 'equitable medicine access' and the health challenges faced by 'Vulnerable Groups, Refugees and Humanitarian Aid.'",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable evidence related to sustainable cities, communities, or urban development in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable evidence related to responsible consumption, production, or waste management in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly addresses 'climate-driven health crises,' lists 'climate change' as a global health risk, and includes a dedicated session on 'Environment and Global Health.'",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable evidence related to marine ecosystems, oceans, or life below water in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable evidence related to terrestrial ecosystems, biodiversity, or life on land in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course's central theme of 'Global Health Governance,' coupled with the study of 'international health organizations' and a 'WHO simulation exercise,' directly addresses strong institutions.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course emphasizes 'global solutions' and collaboration with diverse stakeholders including 'international health organizations,' 'NGOs,' 'civil society representatives,' and 'supragovernment agencies.'",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

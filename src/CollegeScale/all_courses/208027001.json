@@ -1,0 +1,852 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course involves academic literature review and writing → relevant to Quality Education.",
+      "score": 4.0,
+      "evidence": [
+        "participants are encouraged to get involved in the discussion",
+        "experience in doing academic literature review",
+        "writing-up"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "Mentions 'pollution' and 'environment impact' → relevant to Clean Water and Sanitation.",
+      "score": 4.0,
+      "evidence": [
+        "contemporary environmental issues such as pollution",
+        "Environment impact of economic activities",
+        "pollutants discharged from the production process"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Focus on 'economic development pathways' and 'economic benefits from trade' → relevant to Decent Work and Economic Growth.",
+      "score": 7.0,
+      "evidence": [
+        "Countries derive additional economic benefits from trade",
+        "economic development pathways and strategies",
+        "economic analysis on policies for correcting negative externality"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "Mentions 'natural resource leakage from developing countries' → relevant to Reduced Inequalities.",
+      "score": 4.0,
+      "evidence": [
+        "Natural resource leakage from developing countries"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "Mentions 'measures proposed for green growth' → relevant to Responsible Consumption and Production.",
+      "score": 4.0,
+      "evidence": [
+        "Measures proposed for green growth"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "Focus on 'greenhouse gases emissions' and 'environmental stress' → relevant to Climate Action.",
+      "score": 7.0,
+      "evidence": [
+        "contemporary environmental issues such as pollution",
+        "greenhouse gases emissions",
+        "environmental stress concomitant with the economic boom"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "Mentions 'nexus between trade, national economy and sustainability' → relevant to Partnerships for the Goals.",
+      "score": 4.0,
+      "evidence": [
+        "nexus between trade, national economy and sustainability"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 3.5,
+      "reason": "The course discusses economic development in the context of 'developing countries' and their 'economic development pathways', which is linked to poverty reduction, though not a central focus.",
+      "evidence": [
+        "Natural resource leakage from developing countries",
+        "Economic development pathways and strategies of the developed countries",
+        "Developed and developing countries of this region share a common development experience"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 5.0,
+      "reason": "A weekly lecture topic is explicitly dedicated to 'Population, Agriculture and the environment', directly connecting the course to food systems and environmental impacts of agriculture.",
+      "evidence": [
+        "Population, Agriculture and the environment"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "score": 6.0,
+      "reason": "The course focuses on 'contemporary environmental issues such as pollution' and has a dedicated lecture on 'Pollution: Impacts and policy responses', which directly relates to human health.",
+      "evidence": [
+        "contemporary environmental issues such as pollution",
+        "Pollution: Impacts and policy responses",
+        "environmental stress concomitant with the economic boom"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "score": 8.0,
+      "reason": "As a university course, it inherently provides education. It aims to introduce students to 'pertinent economic theories' and provide experience in 'academic literature review and writing-up'.",
+      "evidence": [
+        "This course is designed to introduce to undergraduate and postgraduate students the pertinent economic theories",
+        "The participants will get experience in doing academic literature review and writing-up",
+        "knowledge of trade and environmental economic theories"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 2.5,
+      "reason": "The course covers 'pollution' and 'pollutants discharged from the production process' generally, which can be inferred to include water pollution, but it is not explicitly mentioned.",
+      "evidence": [
+        "Pollution: Impacts and policy responses",
+        "accommodate pollutants discharged from the production process"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Affordable and Clean Energy": {
+      "score": 6.5,
+      "reason": "The course explicitly addresses 'greenhouse gases emissions' and 'Measures proposed for green growth', both of which are central to the transition towards clean energy systems.",
+      "evidence": [
+        "greenhouse gases emissions",
+        "Measures proposed for green growth"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 10.0,
+      "reason": "This is a core concept, focusing on the 'nexus between trade, national economy and sustainability', 'rapid economic growth', and 'green growth' to achieve sustainable development.",
+      "evidence": [
+        "The nexus between trade, economy and the environment",
+        "rapid economic growth",
+        "Sustainable development in both the economy and environment is thus concerned"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 7.5,
+      "reason": "The course analyzes 'economic structure and development pathways', 'augmented domestic production', and 'green growth', all of which are tied to industrial development and innovation.",
+      "evidence": [
+        "economic structure and development pathways and strategies",
+        "augmented domestic production",
+        "Measures proposed for green growth"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 7.0,
+      "reason": "The course directly addresses inequalities between nations by discussing 'Natural resource leakage from developing countries' and the shared experiences of 'Developed and developing countries'.",
+      "evidence": [
+        "Natural resource leakage from developing countries",
+        "Developed and developing countries of this region share a common development experience"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 10.0,
+      "reason": "This is a core concept, analyzing the 'Environment impact of economic activities' and how 'Natural environment and resources are used as input for producing exported goods'.",
+      "evidence": [
+        "Environment impact of economic activities",
+        "Natural environment and resources are used as input for producing exported goods",
+        "Sustainable development in both the economy and environment is thus concerned"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "score": 9.0,
+      "reason": "The course has a major focus on climate change by explicitly identifying 'greenhouse gases emissions' as a key contemporary environmental issue for study.",
+      "evidence": [
+        "contemporary environmental issues such as pollution, greenhouse gases emissions"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 2.0,
+      "reason": "The course's focus on 'pollution' and 'environmental stress' can be inferred to include marine environments, but there is no explicit mention of oceans, seas, or aquatic life.",
+      "evidence": [
+        "Pollution: Impacts and policy responses",
+        "environmental stress concomitant with the economic boom"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life on Land": {
+      "score": 8.0,
+      "reason": "The course directly addresses terrestrial ecosystems through its focus on 'Natural environment and resources', 'natural resource endowment', and the environmental impacts of 'Agriculture'.",
+      "evidence": [
+        "Natural environment and resources are used as input for producing exported goods",
+        "environmental quality and natural resource endowment in this region are facing tremendous stress",
+        "Population, Agriculture and the environment"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 5.5,
+      "reason": "The course examines institutional roles through 'Economic analysis on policies for correcting negative externality' and 'guiding pertinent policies to effectively tackle the dual challenge of sustainability'.",
+      "evidence": [
+        "Economic analysis on policies for correcting negative externality of economic activities",
+        "guiding pertinent policies to effectively tackle the dual challenge of sustainability transition",
+        "policy assessment"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 8.5,
+      "reason": "The course is fundamentally about global interconnectedness, analyzing the 'nexus between trade, economy and the environment' and the 'increasingly significant role in the global economy'.",
+      "evidence": [
+        "The nexus between trade, economy and the environment",
+        "increasingly significant role in the global economy",
+        "Developed and developing countries of this region share a common development experience"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive insights into several SDGs, warranting revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model B highlights economic development pathways relevant to poverty reduction."
+      },
+      "Zero Hunger": {
+        "your_original": 0.001,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B identifies a direct connection to agriculture and environmental impacts."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B connects pollution impacts directly to health issues."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B emphasizes the educational nature of the course more strongly."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 4.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B's score reflects the generality of pollution discussions."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.001,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B connects greenhouse gases and green growth to clean energy."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B emphasizes the core concept of economic growth more effectively."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.001,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B connects economic structure and green growth to industry."
+      },
+      "Reduced Inequalities": {
+        "your_original": 4.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B provides a stronger link to inequalities between nations."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 4.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B emphasizes the core concept of environmental impact on production."
+      },
+      "Climate Action": {
+        "your_original": 7.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B highlights the focus on climate change more effectively."
+      },
+      "Life Below Water": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B infers marine impacts from pollution discussions."
+      },
+      "Life on Land": {
+        "your_original": 0.001,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B connects environmental impacts directly to land ecosystems."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B connects institutional roles to sustainability policies."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 4.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B emphasizes global interconnectedness more strongly."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis is significantly more comprehensive and accurate, identifying numerous explicit and strong inferred connections to SDGs that my initial assessment overlooked or undervalued. I will revise most of my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 3.5,
+        "reason": "Model A correctly links 'developing countries' and 'economic development pathways' to poverty reduction, a connection I initially missed."
+      },
+      "Zero Hunger": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 5.0,
+        "reason": "Model A correctly highlighted the explicit weekly lecture topic 'Population, Agriculture and the environment', directly linking to food systems."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 6.0,
+        "reason": "Model A correctly identified the direct link between 'pollution', 'environmental stress', and human health, which I overlooked."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 8.0,
+        "reason": "Model A's higher score better reflects the course's explicit aim to introduce theories and provide academic literature review experience."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 2.5,
+        "reason": "Model A's lower score is more appropriate, as the connection to water pollution is inferred from general 'pollution' rather than explicitly stated."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 6.5,
+        "reason": "Model A correctly identified 'greenhouse gases emissions' and 'green growth' as direct links to clean energy, a significant oversight in my analysis."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 7.0,
+        "model_b_score": 7.0,
+        "your_revised": 10.0,
+        "reason": "Model A's score of 10.000 better reflects this SDG as a core, explicit focus of the course, encompassing 'economic growth' and 'green growth'."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 7.5,
+        "reason": "Model A correctly linked 'economic structure', 'domestic production', and 'green growth' to industrial development and innovation, which I missed."
+      },
+      "Reduced Inequalities": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 7.0,
+        "reason": "Model A's higher score is justified by the explicit discussion of 'natural resource leakage from developing countries' and 'developed and developing countries'."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 10.0,
+        "reason": "Model A correctly identified this as a core concept, given the course's focus on 'Environment impact of economic activities' and resource use."
+      },
+      "Climate Action": {
+        "your_original": 7.0,
+        "model_b_score": 7.0,
+        "your_revised": 9.0,
+        "reason": "Model A's higher score is more appropriate for the explicit mention of 'greenhouse gases emissions' as a key contemporary environmental issue."
+      },
+      "Life Below Water": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 2.0,
+        "reason": "Model A correctly inferred a connection through general 'pollution' and 'environmental stress' impacting marine environments, which I initially missed."
+      },
+      "Life on Land": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 8.0,
+        "reason": "Model A correctly identified explicit links through 'Natural environment and resources', 'natural resource endowment', and 'Agriculture', a significant oversight."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 5.5,
+        "reason": "Model A correctly linked the course's focus on 'economic analysis on policies' and 'guiding pertinent policies' to institutional roles."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 8.5,
+        "reason": "Model A's higher score better reflects the course's fundamental focus on global interconnectedness, trade, and international sustainability challenges."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 3.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the link between economic development pathways and poverty reduction, but Model A's original score aligns better with explicit course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "The explicit mention of 'Population, Agriculture and the environment' in the course justifies a moderate score, aligning with both models' revisions.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on pollution and its impacts on health supports a score that reflects the explicit connections made by both models.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course's emphasis on academic literature review and theory aligns with the higher scores from both models, reflecting its educational nature.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course content supports any connection to gender equality, consistent with both models' findings.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "The general discussion of pollution does not explicitly connect to water issues, aligning with Model B's revised score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "The course's focus on greenhouse gases and green growth supports a moderate score, consistent with Model B's assessment.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's core focus on economic growth and sustainability justifies the highest score, reflecting both models' revisions.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "The course's analysis of economic structure and green growth supports a strong score, aligning with Model B's assessment.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "The explicit discussion of natural resource leakage and shared experiences between developed and developing countries supports a strong score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course content supports any connection to sustainable cities, consistent with both models' findings.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's core focus on environmental impacts and resource use justifies the highest score, reflecting both models' revisions.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "The explicit focus on greenhouse gases and environmental stress supports a high score, aligning with both models' assessments.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "The inferred connection to marine environments through pollution discussions supports a low score, consistent with both models.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on natural resources and agriculture supports a strong score, aligning with both models' assessments.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "The course's examination of policies and institutional roles supports a moderate score, consistent with both models' findings.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "The course's focus on global interconnectedness and trade supports a strong score, reflecting both models' assessments.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 3.5,
+      "source": "revised_a",
+      "reasoning": "The course discusses economic development pathways and natural resource leakage from developing countries, which indirectly links to poverty reduction efforts.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "An explicit weekly lecture topic on 'Population, Agriculture and the environment' directly connects the course to food systems and agricultural impacts.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 6.0,
+      "source": "revised_a",
+      "reasoning": "The course's focus on 'pollution' and 'environmental stress' and their 'impacts' directly relates to human health and well-being.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "As a university course, it explicitly aims to introduce economic theories and provide experience in academic literature review and writing-up, directly supporting quality education.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit evidence or mention of gender equality is found within the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 2.5,
+      "source": "revised_a",
+      "reasoning": "The course discusses 'pollution' and 'pollutants discharged' generally. While this can include water pollution, it is not explicitly detailed, making the connection inferred.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 6.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly addresses 'greenhouse gases emissions' and 'Measures proposed for green growth', which are central to the transition towards clean and affordable energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "This SDG is a core focus, with explicit mentions of 'economic theories', 'economic benefits from trade', 'economic growth', 'economic development pathways', and 'green growth'.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "revised_a",
+      "reasoning": "The course analyzes 'economic structure and development pathways', 'augmented domestic production', and 'green growth', all intrinsically linked to industrial development and innovation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 7.0,
+      "source": "revised_a",
+      "reasoning": "The course directly addresses inequalities by discussing 'Natural resource leakage from developing countries' and the shared experiences of 'Developed and developing countries'.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit evidence or mention of sustainable cities, urban planning, or communities is found within the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "This is a core concept, analyzing the 'Environment impact of economic activities' and how 'Natural environment and resources are used as input for producing exported goods'.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The course has a major focus on climate change by explicitly identifying 'greenhouse gases emissions' as a key contemporary environmental issue for study.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 2.0,
+      "source": "revised_a",
+      "reasoning": "The course's focus on general 'pollution' and 'environmental stress' can be inferred to include marine environments, but there is no explicit mention of aquatic life.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "The course directly addresses terrestrial ecosystems through its focus on 'Natural environment and resources', 'natural resource endowment', and the environmental impacts of 'Agriculture'.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.5,
+      "source": "revised_a",
+      "reasoning": "The course examines institutional roles through 'Economic analysis on policies for correcting negative externality' and 'guiding pertinent policies' for sustainability transition.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The course is fundamentally about global interconnectedness, analyzing the 'nexus between trade, economy and the environment' and the 'global economy' from international perspectives.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    }
+  }
+}

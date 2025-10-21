@@ -1,0 +1,786 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course aims to increase students' reading ability and citation skills.",
+      "score": 4.0,
+      "evidence": [
+        "increase students' reading ability in foreign literature",
+        "teach the Bluebook Citation System"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Course discusses ESG principles affecting investment decisions.",
+      "score": 6.0,
+      "evidence": [
+        "investors are demanding that companies incorporate ESG principles",
+        "ensure that the company's operations will not damage the environment"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "Course addresses corporate responsibilities related to ESG.",
+      "score": 5.0,
+      "evidence": [
+        "fulfill its social and sustainable responsibilities",
+        "role of environmental, social and governance (ESG)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "Course discusses environmental issues in corporate governance.",
+      "score": 6.0,
+      "evidence": [
+        "role of environmental, social and governance (ESG)",
+        "ensure that the company's operations will not damage the environment"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Course discusses governance and accountability in corporate settings.",
+      "score": 5.0,
+      "evidence": [
+        "development of related responsibilities and obligations",
+        "Board and its ESG Accountability"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 2.0,
+      "reason": "The course addresses broad \"social issues\" and \"social and sustainable responsibilities,\" which can be inferred to include poverty as a key social concern, though not explicitly mentioned.",
+      "evidence": [
+        "social issues",
+        "social and sustainable responsibilities"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 3.0,
+      "reason": "The course itself is an educational tool designed to provide an \"in-depth understanding of emerging corporate governance issues\" and enhance students' academic skills.",
+      "evidence": [
+        "gain an in-depth understanding of emerging corporate governance issues",
+        "increase students' reading ability in foreign literature",
+        "teach the Bluebook Citation System"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 3.5,
+      "reason": "The course discusses the need to not \"violate human rights\" and addresses \"social issues,\" which are foundational concepts for gender equality, although it is not explicitly named.",
+      "evidence": [
+        "violate human rights",
+        "social issues"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "score": 2.5,
+      "reason": "The course covers general \"environmental issues\" and ensuring operations \"will not damage the environment,\" which indirectly relates to protecting water resources.",
+      "evidence": [
+        "environmental issues",
+        "will not damage the environment"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Affordable and Clean Energy": {
+      "score": 2.8,
+      "reason": "The course discusses \"environmental issues\" and \"Green Bonds,\" which often finance clean energy projects, but the topic of energy is not explicitly mentioned.",
+      "evidence": [
+        "environmental issues",
+        "Green Bonds and The Governance Challenges of the Sustainable Finance Revolution"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 8.5,
+      "reason": "The course focuses on corporate governance, performance, and \"social responsibilities,\" including the need to not \"violate human rights,\" which are central to decent work and economic growth.",
+      "evidence": [
+        "Corporate Governance and ESG",
+        "violate human rights",
+        "social and sustainable responsibilities"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 8.0,
+      "reason": "The course discusses corporate governance as the framework for industry and financial innovations like \"Sustainability Bonds\" and \"Green Bonds\" that support sustainable infrastructure.",
+      "evidence": [
+        "Corporate Governance and ESG",
+        "Sustainability Bonds and its Regulations",
+        "Green Bonds and The Governance Challenges of the Sustainable Finance Revolution"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 5.0,
+      "reason": "The course addresses \"social issues\" and the need to not \"violate human rights,\" which are key to reducing inequalities. Corporate governance practices can directly impact inequality.",
+      "evidence": [
+        "social issues",
+        "violate human rights",
+        "social and sustainable responsibilities"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 2.0,
+      "reason": "The course mentions \"Sustainability Bonds,\" which can fund sustainable community projects, but does not explicitly mention cities or communities as a focus.",
+      "evidence": [
+        "Sustainability Bonds and its Regulations",
+        "sustainable responsibilities"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "score": 10.0,
+      "reason": "The course is centered on ESG, with topics like \"Mandatory Disclosure of ESG Reports\" and corporate \"sustainable responsibilities,\" directly addressing responsible production patterns.",
+      "evidence": [
+        "Mandatory Disclosure of ESG Reports",
+        "fulfill its social and sustainable responsibilities",
+        "environmental, social and governance (ESG) in corporate governance"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "score": 9.0,
+      "reason": "The course directly addresses \"environmental issues\" and financial instruments like \"Green Bonds,\" which are key mechanisms for climate action, and ensuring operations \"will not damage the environment.\"",
+      "evidence": [
+        "environmental issues",
+        "will not damage the environment",
+        "Green Bonds and The Governance Challenges of the Sustainable Finance Revolution"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 2.0,
+      "reason": "The course's focus on not damaging \"the environment\" can be inferred to include marine ecosystems, but this is not a specific topic of discussion.",
+      "evidence": [
+        "environmental issues",
+        "will not damage the environment"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life on Land": {
+      "score": 2.0,
+      "reason": "The course's focus on not damaging \"the environment\" can be inferred to include terrestrial ecosystems, but this is not a specific topic of discussion.",
+      "evidence": [
+        "environmental issues",
+        "will not damage the environment"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 10.0,
+      "reason": "The course is fundamentally about \"Corporate Governance,\" regulations, and accountability (\"Board and its ESG Accountability\"), which are core components of creating strong, just, and transparent institutions.",
+      "evidence": [
+        "Corporate Governance and ESG",
+        "Board and its ESG Accountability",
+        "Mandatory Disclosure of ESG Reports"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 7.5,
+      "reason": "The course examines the interplay between investors, companies, and regulators (\"Stewardship of Institutional Investor and ESG\"), reflecting the multi-stakeholder partnerships essential for achieving sustainability goals.",
+      "evidence": [
+        "Stewardship of Institutional Investor and ESG",
+        "Proxy Advisor and its Regulations",
+        "relationships among a company's management, board of directors, shareholder"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides a more comprehensive interpretation of the course text, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B's inference on social responsibilities includes poverty, aligning with course themes."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B's score reflects a broader educational context rather than just reading skills."
+      },
+      "Gender Equality": {
+        "your_original": 0.001,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model B's interpretation of human rights aligns with gender equality themes in the course."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B's inference on environmental issues includes water protection, relevant to the course."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.001,
+        "model_b_score": 2.8,
+        "your_revised": 2.8,
+        "reason": "Model B's connection to Green Bonds aligns with the course's environmental focus."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's emphasis on human rights and social responsibilities enhances the score."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.001,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's focus on governance and innovation aligns with course content."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's interpretation of social issues includes inequality, relevant to the course."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B's inference on sustainability bonds relates to community projects discussed in the course."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 5.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's score reflects the centrality of ESG in the course, justifying a higher score."
+      },
+      "Climate Action": {
+        "your_original": 6.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's emphasis on Green Bonds and environmental issues aligns with course objectives."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 5.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's focus on governance and accountability is central to the course's themes."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's analysis of stakeholder relationships aligns with course discussions on partnerships."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's stricter interpretation of broad terms like 'social issues' and general 'environmental issues' is more appropriate when specific SDG targets are not explicitly mentioned or strongly implied. This led to several revisions.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 2.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "While 'social issues' are mentioned, poverty is not explicitly addressed. Model B's stricter interpretation is more accurate given the lack of direct evidence."
+      },
+      "Gender Equality": {
+        "your_original": 3.5,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "The course mentions 'human rights' and 'social issues,' but gender equality is not specifically discussed. Model B's stricter interpretation is more accurate."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 2.5,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "General 'environmental issues' do not explicitly cover clean water or sanitation. Model B's stricter interpretation is more accurate without specific mentions."
+      },
+      "Reduced Inequalities": {
+        "your_original": 5.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "References to 'social issues' and 'human rights' are too broad to directly link to reduced inequalities without specific discussion. Model B's stricter approach is better."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 2.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "While 'Sustainability Bonds' are mentioned, the course does not explicitly discuss cities or communities. Model B's stricter interpretation is more accurate."
+      },
+      "Life Below Water": {
+        "your_original": 2.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "General 'environmental issues' do not explicitly cover marine ecosystems. Model B's stricter interpretation is more accurate given the lack of specific evidence."
+      },
+      "Life on Land": {
+        "your_original": 2.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "General 'environmental issues' do not explicitly cover terrestrial ecosystems. Model B's stricter interpretation is more accurate given the lack of specific evidence."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "While social issues are mentioned, poverty is not explicitly addressed in the course content, justifying a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No explicit evidence or discussion related to hunger is found in the course material.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course does not address health or well-being explicitly, leading to a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "The course aims to enhance reading and citation skills, aligning with educational objectives, but not as strongly as Model A suggested.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "While human rights are mentioned, gender equality is not explicitly discussed, justifying a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course does not specifically address clean water or sanitation, leading to a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course does not explicitly discuss energy issues, resulting in a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.8,
+        "model_b_original": 2.8,
+        "model_b_revised": 0.001
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "The course emphasizes ESG principles and their impact on corporate governance, aligning well with decent work and economic growth.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course discusses governance frameworks that support innovation and infrastructure, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course does not specifically address inequalities, leading to a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course does not explicitly discuss sustainable cities or communities, resulting in a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course is centered on ESG principles, justifying a perfect score for responsible consumption and production.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "The course addresses environmental issues and mechanisms like Green Bonds, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course does not specifically address marine ecosystems, leading to a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course does not specifically address terrestrial ecosystems, resulting in a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course focuses on corporate governance and accountability, justifying a perfect score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "The course discusses stakeholder relationships and governance, aligning well with this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course mentions 'social issues' and 'social responsibilities,' but there is no explicit or strong inferred connection to poverty alleviation. A stricter interpretation is warranted.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no explicit or inferred evidence in the course description or topics that relates to zero hunger.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no explicit or inferred evidence in the course description or topics that relates to good health and well-being.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "The course explicitly aims to increase students' reading ability in foreign literature and teach the Bluebook Citation System, directly contributing to academic skills and quality education.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "Although 'human rights' and 'social issues' are mentioned, gender equality is not explicitly addressed or strongly implied as a specific focus of the course.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course discusses general 'environmental issues' and avoiding environmental damage, but there is no explicit or strong inferred connection to clean water and sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 2.8,
+      "source": "model_b",
+      "reasoning": "The course mentions 'environmental issues' and specifically 'Green Bonds,' which are financial instruments often used to fund clean energy projects, providing an inferred link.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.8,
+        "model_b_original": 2.8,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course's core focus on corporate governance, performance, ESG principles, and ensuring companies 'will not violate human rights' directly aligns with promoting decent work and sustainable economic growth.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course directly addresses corporate governance, and the specific topics of 'Sustainability Bonds' and 'Green Bonds' are key financial innovations supporting sustainable industry and infrastructure development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "While corporate governance can indirectly affect inequalities, the course text's mentions of 'social issues' and 'human rights' are too broad to establish a direct or strong inferred link to reduced inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "Although 'Sustainability Bonds' are discussed, the course does not explicitly mention or focus on sustainable cities or communities, making the connection too indirect.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course's central theme of ESG, including 'Mandatory Disclosure of ESG Reports' and companies fulfilling 'social and sustainable responsibilities,' directly addresses responsible consumption and production patterns.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly addresses 'environmental issues,' preventing environmental damage, and discusses 'Green Bonds,' which are crucial financial mechanisms for climate action.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course discusses general 'environmental issues' and avoiding environmental damage, but there is no explicit or strong inferred connection to marine ecosystems or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course discusses general 'environmental issues' and avoiding environmental damage, but there is no explicit or strong inferred connection to terrestrial ecosystems or life on land.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course's core subject is 'Corporate Governance,' focusing on regulations, accountability, and transparency, as evidenced by topics like 'Board and its ESG Accountability' and 'Mandatory Disclosure of ESG Reports,' which are central to strong institutions.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly examines the relationships and interplay between various stakeholders (management, board, shareholders, investors, regulators) in corporate governance, which is fundamental to multi-stakeholder partnerships for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

@@ -1,0 +1,677 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course aims to enhance students' understanding of GIS and its applications → relevant to Quality Education.",
+      "score": 7.0,
+      "evidence": [
+        "了解GIS之基本理論",
+        "能操作GIS軟體",
+        "了解GIS之應用，以及將GIS技術應用於實際案例"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "GIS technology applications in various fields → relevant to Industry, Innovation and Infrastructure.",
+      "score": 6.0,
+      "evidence": [
+        "了解GIS之應用",
+        "GIS在房地產領域之應用",
+        "能使用既有地圖、影像和開放資料"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "GIS applications in land management and urban planning → relevant to Sustainable Cities and Communities.",
+      "score": 5.0,
+      "evidence": [
+        "國土資訊系統",
+        "GIS在房地產領域之應用",
+        "了解GIS之應用"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "GIS applications can support land management → relevant to Life on Land.",
+      "score": 4.0,
+      "evidence": [
+        "了解GIS之應用",
+        "GIS在房地產領域之應用",
+        "能使用既有地圖、影像和開放資料"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "No evidence found in the course description regarding poverty, economic disparity, or social welfare.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found in the course description related to agriculture, food security, or hunger.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found in the course description concerning health, disease mapping, or well-being.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "The course is a form of higher education and explicitly aims to '養成自主與終身學習的態度' (cultivate an attitude of autonomous and lifelong learning), a key aspect of quality education.",
+      "score": 7.0,
+      "evidence": [
+        "養成自主與終身學習的態度",
+        "具有閱讀英文教材的能力",
+        "具備邏輯思考能力，可以將課堂上所學應用於實際的課題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found in the course description regarding gender equality or the empowerment of women.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found in the course description related to water resources, sanitation, or water management.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found in the course description concerning energy resources, renewables, or energy infrastructure.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course teaches skills for a specific industry, with a focus on '地理資訊系統在房地產領域之應用' (application of GIS in the real estate sector), contributing to a key economic area.",
+      "score": 4.0,
+      "evidence": [
+        "地理資訊系統在房地產領域之應用",
+        "能操作GIS軟體",
+        "將GIS技術應用於實際案例"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course is centered on a key technology (GIS) and its application in infrastructure, specifically mentioning '國土資訊系統' (national land information system) and 'WebGIS'.",
+      "score": 8.0,
+      "evidence": [
+        "介紹地理資訊系統之基本概念，以及相關技術之發展、原理與應用",
+        "國土資訊系統",
+        "介紹Desktop GIS、WebGIS"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found in the course description regarding social, economic, or political inclusion or inequality.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "The course focuses on GIS applications for land management, including '國土資訊系統' (national land information system) and '房地產領域之應用' (real estate applications), which are core to urban planning.",
+      "score": 9.0,
+      "evidence": [
+        "國土資訊系統",
+        "地理資訊系統在房地產領域之應用",
+        "開課單位：地政專一、地政專二"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found in the course description related to resource management, waste reduction, or sustainable production cycles.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found in the course description regarding climate change, adaptation, or mitigation.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found in the course description concerning marine or aquatic ecosystems.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "The course, offered by the Land Economics department, covers '國土資訊系統' (national land information system), a tool for managing land resources, though it doesn't explicitly mention ecosystems.",
+      "score": 3.0,
+      "evidence": [
+        "國土資訊系統",
+        "開課單位：地政專一、地政專二",
+        "向量資料分析與網格資料分析"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course covers '國土資訊系統' (national land information system), which is a tool for building effective and accountable institutions for land governance and management.",
+      "score": 4.0,
+      "evidence": [
+        "國土資訊系統",
+        "資料探索與資料管理",
+        "介紹地理資料庫之管理"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course emphasizes using '開放資料' (open data) and developing the '能力' (ability) to search for '網路上開放資料與軟體資源' (open data and software resources on the internet).",
+      "score": 4.0,
+      "evidence": [
+        "能使用既有地圖、影像和開放資料",
+        "具備搜尋網路上開放資料與軟體資源的能力"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations of the course text, particularly in the areas of Decent Work and Economic Growth, Industry, Innovation and Infrastructure, Sustainable Cities and Communities, Life on Land, and Partnerships for the Goals.",
+    "revisions": {
+      "Decent Work and Economic Growth": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B highlights the course's focus on GIS applications in the real estate sector."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B emphasizes the explicit mention of GIS technology and its applications."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 5.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B accurately reflects the course's focus on urban planning and land management."
+      },
+      "Life on Land": {
+        "your_original": 4.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B's score aligns better with the course's focus on land management rather than ecosystems."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B correctly identifies the emphasis on open data and resource development."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's analysis is generally aligned, but my original reasoning for several SDGs, particularly those related to infrastructure, governance, and open data, is more robust and directly supported by the course text. I will revise one score.",
+    "revisions": {
+      "SDG_15 (Life on Land)": {
+        "your_original": 3.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's slightly higher score for land management's inferred link to Life on Land is reasonable, acknowledging GIS's potential for broader land resource applications."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty in the course description, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to hunger or food security was found in the course description, supporting the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models identified a lack of evidence regarding health-related topics in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models provided strong evidence for quality education, highlighting the course's focus on lifelong learning and practical skills.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to gender equality was found in the course description, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to water or sanitation in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence regarding energy resources or clean energy was found in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the course's relevance to economic growth through GIS applications in real estate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlighted the course's focus on GIS technology and its applications, with Model B providing a stronger justification.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to inequalities was found in the course description, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasized the course's focus on urban planning and land management, with Model B providing a stronger rationale.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to responsible consumption was found in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to climate action in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to marine ecosystems was found in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models acknowledged the course's focus on land management, with Model B's reasoning aligning better with the course content.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the course's relevance to governance through GIS applications, with Model B providing a stronger justification.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified the course's emphasis on open data and resource development, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course content focuses on GIS technology and its applications, with no explicit or inferable connection to poverty alleviation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus does not contain any explicit or inferable content related to agriculture, food security, or hunger eradication.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no mention of health, well-being, disease mapping, or related applications of GIS within the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course is a form of higher education, explicitly fostering '自主與終身學習的態度' and '邏輯思考能力,' which are core tenets of quality education.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus does not contain any explicit or inferable content related to gender equality or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no mention of water resources, sanitation, or related GIS applications in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus does not contain any explicit or inferable content related to energy resources or clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers '地理資訊系統在房地產領域之應用,' providing students with specialized skills directly applicable to a key economic sector, thus contributing to decent work and economic growth.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "The course focuses on GIS technology, its development, and applications, including '國土資訊系統' and 'WebGIS,' directly contributing to innovation and infrastructure development.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus does not contain any explicit or inferable content related to reducing social, economic, or political inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The course, offered by the Land Economics department, focuses on GIS applications in '國土資訊系統' and '房地產領域,' which are fundamental for sustainable urban planning and community development.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus does not contain any explicit or inferable content related to responsible consumption, production, or resource efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no mention of climate change, adaptation, or mitigation strategies within the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus does not contain any explicit or inferable content related to marine or aquatic ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 4.0,
+      "source": "revised_b",
+      "reasoning": "The course's focus on '國土資訊系統' and land management, stemming from the Land Economics department, provides foundational tools for sustainable land use, which is indirectly relevant to protecting terrestrial ecosystems.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course's emphasis on '國土資訊系統' and '地理資料庫之管理' provides tools for transparent and efficient land governance, contributing to effective and accountable institutions.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly teaches students to use '開放資料' and search for '網路上開放資料與軟體資源,' directly aligning with the spirit of data sharing and partnerships for achieving the SDGs.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

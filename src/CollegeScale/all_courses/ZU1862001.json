@@ -1,0 +1,714 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course provides in-depth knowledge and understanding of the law of the sea → relevant to Quality Education.",
+      "score": 7.0,
+      "evidence": [
+        "provide an in-depth knowledge and understanding of the law of the sea",
+        "engage in legal research independently"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Course discusses economic activities in the seas → relevant to Decent Work and Economic Growth.",
+      "score": 4.0,
+      "evidence": [
+        "Various economic activities of humankind take place in the seas"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "Course addresses climate change and environmental aspects → relevant to Climate Action.",
+      "score": 7.0,
+      "evidence": [
+        "environment aspects regarding climate change",
+        "challenges to the legal framework from emerging issues on environment protection"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "Course focuses on the law of the sea and marine resources → relevant to Life Below Water.",
+      "score": 10.0,
+      "evidence": [
+        "legal framework of the state practice in the seas",
+        "issues of state sovereignty and their sovereign rights in maritime zones"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Course discusses dispute settlement and state practice → relevant to Peace, Justice and Strong Institutions.",
+      "score": 7.0,
+      "evidence": [
+        "mechanism of dispute settlement",
+        "balance of rights and interests between states"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 1.001,
+      "reason": "The course mentions \"economic activities\" in the seas, which can relate to livelihoods, but does not directly address poverty alleviation.",
+      "evidence": [
+        "Various economic activities of humankind take place in the seas and oceans"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 7.0,
+      "reason": "The course dedicates a week to \"Fishing and Living Resources,\" which is directly related to food security and the sustainable management of food from the ocean.",
+      "evidence": [
+        "Fishing and Living Resources",
+        "Requirement of Conservation",
+        "Sovereign Rights & Natural Resources"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "score": 1.5,
+      "reason": "The course mentions \"Marine Pollution,\" which has indirect implications for health, but the focus is on legal frameworks, not public health outcomes.",
+      "evidence": [
+        "Typology of Marine Pollution",
+        "Protection and Preservation of the Maritime Environment"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "score": 8.0,
+      "reason": "As a university course, its primary purpose is education, aiming to provide \"in-depth knowledge and understanding of the law of the sea.\"",
+      "evidence": [
+        "To provide an in-depth knowledge and understanding of the law of the sea",
+        "Students are expected to be able to engage in legal research independently",
+        "provide the analysis and recognition of the issues of the use of the seas"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 1.001,
+      "reason": "The course focuses on marine environments and mentions \"Marine Pollution,\" but does not address freshwater resources, clean drinking water, or sanitation.",
+      "evidence": [
+        "Protection and Preservation of the Maritime Environment",
+        "Typology of Marine Pollution"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Affordable and Clean Energy": {
+      "score": 2.0,
+      "reason": "The course covers \"Exploration & Exploitation – Continental Shelf, Sea Bed, & Mining,\" which could involve energy resources, but does not specify clean or affordable energy.",
+      "evidence": [
+        "Exploration & Exploitation – Continental Shelf, Sea Bed, & Mining"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 5.0,
+      "reason": "The course addresses the legal framework for \"Various economic activities of humankind\" in the seas, including \"Fishing\" and \"Exploration & Exploitation,\" which are key to economic growth.",
+      "evidence": [
+        "Various economic activities of humankind take place in the seas and oceans",
+        "Fishing and Living Resources",
+        "Exploration & Exploitation – Continental Shelf, Sea Bed, & Mining"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 4.5,
+      "reason": "The course covers legal aspects of maritime activities like \"Exploration & Exploitation\" and international navigation, which are foundational for marine industries and infrastructure.",
+      "evidence": [
+        "Exploration & Exploitation – Continental Shelf, Sea Bed, & Mining",
+        "Straits Used for International Navigation"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 4.0,
+      "reason": "The course examines the \"balance of rights and interests between states,\" which relates to international equity in accessing and managing marine resources.",
+      "evidence": [
+        "examine the balance of rights and interests between states and between states and the international community",
+        "Right of Coastal States & Other States"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 7.5,
+      "reason": "The course explicitly addresses the sustainable management of marine resources through topics like \"Fishing and Living Resources\" and the \"Requirement of Conservation.\"",
+      "evidence": [
+        "Fishing and Living Resources",
+        "Requirement of Conservation",
+        "1995 United Nations Fish Stocks Agreement (FSA)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "score": 8.5,
+      "reason": "The course description explicitly identifies \"climate change\" as a key challenge and an area of emphasis within the legal framework of the law of the sea.",
+      "evidence": [
+        "enviroment aspects regarding climate change and living resources",
+        "identify the challenges to the legal framework from emerging issues on environment protection, climate change, and maritime security"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 10.0,
+      "reason": "The course is fundamentally about the law of the sea, with core topics including \"Protection and Preservation of the Maritime Environment\" and \"Fishing and Living Resources.\"",
+      "evidence": [
+        "The Law of the Sea-Legal Framework, State Practice, and Challenges",
+        "Protection and Preservation of the Maritime Environment",
+        "Fishing and Living Resources"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life on Land": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 10.0,
+      "reason": "The course is centered on international law, covering the \"United Nations Convention on the Law of the Sea,\" \"mechanism of dispute settlement,\" and \"Law enforcement on the Seas.\"",
+      "evidence": [
+        "The law of the sea provides the legal framework",
+        "mechanism of dispute settlement",
+        "Settlement of Dispute",
+        "Law Enforcement on the Seas"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 8.0,
+      "reason": "The course focuses on international legal frameworks like the \"United Nations Convention on the Law of the Sea,\" which are prime examples of global partnerships.",
+      "evidence": [
+        "United Nations Convention on the Law of the Sea",
+        "examine the balance of rights and interests between states and between states and the international community",
+        "1995 United Nations Fish Stocks Agreement (FSA)"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations of the course text, particularly regarding Zero Hunger and Climate Action.",
+    "revisions": {
+      "Zero Hunger": {
+        "your_original": 0.001,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B correctly identifies the course's focus on fishing and living resources as relevant to food security."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B's score reflects the indirect implications of marine pollution on health."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's score better captures the course's emphasis on economic activities in the seas."
+      },
+      "Climate Action": {
+        "your_original": 7.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B highlights the explicit focus on climate change as a key challenge in the course."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B accurately reflects the course's comprehensive coverage of international law and dispute mechanisms."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's analysis is overly conservative, missing several explicit connections. However, its stricter interpretation for some inferred SDGs is more accurate.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 1.001,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "While economic activities are mentioned, the course does not directly link them to poverty alleviation, making Model B's score more accurate."
+      },
+      "SDG_3 (Good Health and Well-being)": {
+        "your_original": 1.5,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Marine pollution has indirect health implications, but the course focuses on legal frameworks, not public health outcomes. Model B's score is more precise."
+      },
+      "SDG_6 (Clean Water and Sanitation)": {
+        "your_original": 1.001,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "The course addresses marine pollution, but not freshwater resources, clean drinking water, or sanitation. Model B's score is more accurate."
+      },
+      "SDG_7 (Affordable and Clean Energy)": {
+        "your_original": 2.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Exploration and exploitation could involve energy, but the course does not specify 'clean' or 'affordable' energy. Model B's score is more accurate."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course does not directly address poverty alleviation despite mentioning economic activities, making Model B's conservative score more accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's focus on fishing and living resources, but Model A's original score was too low. The revised score reflects explicit connections to food security.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course focuses on legal frameworks rather than public health outcomes, making Model B's score more precise.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "Both models recognize the course's educational focus, but Model B's score better captures the depth of knowledge provided.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course material to support any score for Gender Equality.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course does not address freshwater resources or sanitation, making Model B's score more accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course does not specify clean or affordable energy, making Model B's score more accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score better captures the course's emphasis on economic activities, while Model A's original score was too low.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course covers legal aspects of maritime activities, making Model B's score more reflective of the content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course examines the balance of rights and interests, aligning with Model B's score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course material to support any score for Sustainable Cities and Communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly addresses sustainable management of marine resources, aligning with Model B's score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly identifies climate change as a key challenge, making Model B's score more accurate.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course fundamentally focuses on the law of the sea, making Model B's score accurate.",
+      "model_comparison": {
+        "model_a_original": 10.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course material to support any score for Life on Land.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course comprehensively covers international law and dispute mechanisms, aligning with the highest score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course focuses on international legal frameworks, making the score reflective of the content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "While economic activities are mentioned, the course does not directly link them to poverty alleviation. Model B's revised score is more accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 7.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers 'Fishing and Living Resources' (Week 10), directly linking to food security and sustainable management of marine food sources.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "The course discusses marine pollution, but its focus is on legal frameworks, not direct public health outcomes or well-being. Model B's revised score is more precise.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "As a university course, its primary objective is education, providing in-depth knowledge and fostering independent legal research, directly aligning with Quality Education.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course syllabus directly or indirectly related to gender equality.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "The course addresses marine pollution, but not freshwater resources, clean drinking water, or sanitation, which are the focus of this SDG. Model B's revised score is accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "While 'Exploration & Exploitation' is covered, the course does not specify 'clean' or 'affordable' energy. The link is too tenuous. Model B's revised score is more accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly discusses 'various economic activities' in the seas, including fishing and exploitation, which are foundational for economic growth.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course covers legal aspects of maritime activities like 'Exploration & Exploitation' and 'International Navigation,' which are foundational for marine industries and infrastructure.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly aims for students to 'examine the balance of rights and interests between states,' directly addressing international equity in marine resource access.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course syllabus directly or indirectly related to sustainable cities or communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly addresses 'Fishing and Living Resources' and the 'Requirement of Conservation,' aligning directly with sustainable management of marine resources.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly identifies 'climate change' as a key environmental aspect and challenge to the legal framework, indicating a strong focus.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 10.0,
+      "source": "model_a",
+      "reasoning": "The course is fundamentally about 'The Law of the Sea,' covering marine environments, living resources, and their protection, making it central to this SDG.",
+      "model_comparison": {
+        "model_a_original": 10.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course syllabus related to terrestrial ecosystems or biodiversity.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course is centered on international law, dispute settlement mechanisms, and law enforcement on the seas, directly aligning with strong institutions and justice.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on the 'United Nations Convention on the Law of the Sea,' a prime example of global partnership and international cooperation for shared goals.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

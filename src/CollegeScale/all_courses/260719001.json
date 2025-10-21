@@ -1,0 +1,713 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "Mentions '貧富差距擴大' and '失業惡化' → relevant to No Poverty.",
+      "score": 7.0,
+      "evidence": [
+        "貧富差距擴大",
+        "失業惡化"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course aims to deepen understanding of economic policies → relevant to Quality Education.",
+      "score": 4.0,
+      "evidence": [
+        "深化學生對中國經濟體制與政策形成的理解"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Mentions '青年失業率攀升' and '經濟成長率約為5.4%' → relevant to Decent Work and Economic Growth.",
+      "score": 8.0,
+      "evidence": [
+        "青年失業率攀升",
+        "經濟成長率約為5.4%"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Focus on '科技自主化' and '產業升級' → relevant to Industry, Innovation and Infrastructure.",
+      "score": 7.0,
+      "evidence": [
+        "科技自主化",
+        "產業升級"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "Mentions '貧富差距擴大' → relevant to Reduced Inequalities.",
+      "score": 6.0,
+      "evidence": [
+        "貧富差距擴大"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Mentions '政治改革遲滯' → relevant to Peace, Justice and Strong Institutions.",
+      "score": 5.0,
+      "evidence": [
+        "政治改革遲滯"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 4.5,
+      "reason": "The course addresses economic challenges directly related to poverty, such as the \"貧富差距擴大\" (widening gap between rich and poor) and issues of \"所得分配\" (income distribution).",
+      "evidence": [
+        "貧富差距擴大",
+        "所得分配",
+        "中國城鄉與所得分配問題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "score": 3.0,
+      "reason": "The course schedule includes a specific topic on \"中國農業經濟與農民工\" (China's agricultural economy and migrant workers), which is relevant to food systems and rural livelihoods.",
+      "evidence": [
+        "中國農業經濟與農民工"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "score": 1.5,
+      "reason": "The course mentions an analysis of \"農民工社保與公共服務待遇\" (social security and public service treatment for migrant workers), which can be inferred to include health-related services.",
+      "evidence": [
+        "農民工社保與公共服務待遇分析"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 10.0,
+      "reason": "This is a core theme, focusing on \"Economic Performance\", \"經濟成長率\" (economic growth rate), and labor market issues like \"青年失業率攀升\" (rising youth unemployment) and \"失業惡化\" (worsening unemployment).",
+      "evidence": [
+        "Special Topics in Chinese Economy: Institutions, Innovation, and Economic Performance",
+        "青年失業率攀升至歷史高位",
+        "失業惡化"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 10.0,
+      "reason": "The course is fundamentally about \"Innovation\", \"產業升級\" (industrial upgrading), \"科技自主化\" (technological self-reliance), and the \"數位經濟推進\" (advancement of the digital economy), which are central to this SDG.",
+      "evidence": [
+        "Institutions, Innovation, and Economic Performance",
+        "產業升級、科技自主化、數位經濟推進",
+        "中國科技制度改革"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 8.5,
+      "reason": "The course explicitly addresses inequality through topics like \"貧富差距擴大\" (widening gap between rich and poor), \"所得分配\" (income distribution), and \"中國城鄉與所得分配問題\" (China's urban-rural and income distribution issues).",
+      "evidence": [
+        "貧富差距擴大",
+        "中國城鄉與所得分配問題",
+        "所得分配"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 2.5,
+      "reason": "The course touches upon urban issues like the \"房地產市場\" (real estate market) and \"城鄉\" (urban-rural) problems, but lacks a direct focus on sustainability.",
+      "evidence": [
+        "房地產市場持續低迷",
+        "中國城鄉與所得分配問題"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "score": 2.0,
+      "reason": "The course discusses \"產業升級\" (industrial upgrading) and \"供應鏈連結\" (supply chain linkages), which relate to production patterns, but does not explicitly mention sustainability or responsible practices.",
+      "evidence": [
+        "產業升級",
+        "供應鏈連結議題"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 9.0,
+      "reason": "The course has a core focus on \"Institutions\", the \"政策制定流程\" (policy-making process), and institutional challenges like \"貪腐與經濟犯罪\" (corruption and economic crime) and \"政治改革遲滯\" (stagnation of political reform).",
+      "evidence": [
+        "Institutions, Innovation, and Economic Performance",
+        "貪腐與經濟犯罪、政治改革遲滯",
+        "中國經濟體制與運行"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 9.5,
+      "reason": "The course extensively covers international economic partnerships and relations, including \"美中戰略競爭\" (US-China strategic competition), \"兩岸經貿關係\" (cross-strait economic and trade relations), \"對外貿易\" (foreign trade), and \"對外投資\".",
+      "evidence": [
+        "美中戰略競爭加劇",
+        "兩岸經濟關係的未來走向",
+        "對外貿易"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive evidence for several SDGs, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 7.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B includes '所得分配' and '中國城鄉與所得分配問題', which are relevant."
+      },
+      "Zero Hunger": {
+        "your_original": 0.001,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B identifies relevant topics on agricultural economy and migrant workers."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B connects social security for migrant workers to health services."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model B finds no direct evidence for Quality Education."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B emphasizes economic performance and labor market issues more strongly."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B provides a stronger connection to innovation and industrial upgrading."
+      },
+      "Reduced Inequalities": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B includes additional relevant topics on income distribution."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 5.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B highlights institutional challenges and corruption more effectively."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's analysis prompted revisions for No Poverty, recognizing stronger links. However, Model B's scores for other SDGs were often less comprehensive or inaccurate based on the course text.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.5,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B's inclusion of '失業惡化' strengthens the link, alongside '貧富差距擴大' and '所得分配', warranting a higher score."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 2.5,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "While urban issues are mentioned, the course lacks explicit focus on 'sustainability' for cities or communities, making the link too weak."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 2.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "The course discusses production but lacks explicit mention of 'responsible' consumption, resource efficiency, or sustainable practices."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight poverty-related issues, but the evidence suggests a moderate impact. The inclusion of '失業惡化' and '所得分配' supports a balanced score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 7.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on agricultural economy and migrant workers provides sufficient evidence for a low but relevant score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model B's inference about social security for migrant workers aligns with health services, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct evidence for Quality Education was found in the course materials, supporting a score of zero.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to gender equality was identified in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to clean water and sanitation was found in the course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to affordable and clean energy was identified in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize economic performance and labor market issues, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on innovation and industrial upgrading supports a high score, as noted by both models.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight inequality issues, with sufficient evidence to support a high score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course lacks explicit focus on sustainability, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 2.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course does not explicitly mention responsible consumption or sustainable practices.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to climate action was found in the course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to life below water was identified in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to life on land was found in the course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on institutional challenges and corruption supports a high score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "The course's extensive coverage of international economic partnerships justifies a high score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 7.0,
+      "source": "revised_b",
+      "reasoning": "Course explicitly addresses \"貧富差距擴大\", \"失業惡化\", and \"所得分配\", which are direct drivers and indicators of poverty, warranting a significant score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 7.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 3.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers \"中國農業經濟與農民工,\" which is foundational to food systems and rural livelihoods, linking indirectly to Zero Hunger.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.5,
+      "source": "revised_a",
+      "reasoning": "The course mentions \"農民工社保與公共服務待遇分析,\" which can be reasonably inferred to include aspects of health and well-being for migrant workers.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.001,
+      "source": "revised_a",
+      "reasoning": "While the course provides education, its content does not explicitly address the targets of SDG 4, such as education systems, access, or quality within the studied economy.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable evidence related to gender equality, women's empowerment, or related social issues is found in the course description or topics.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course content does not include any explicit or inferable topics related to water resources, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no mention of energy policy, renewable energy, energy access, or related topics in the course description or schedule.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "This SDG is a core focus, explicitly addressing China's economic performance, growth rates, and critical labor market issues like youth unemployment and worsening employment.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "Innovation is in the course title. Explicit mentions of \"產業升級,\" \"科技自主化,\" \"數位經濟推進,\" and \"中國科技制度改革\" make this a central SDG.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly addresses \"貧富差距擴大,\" \"所得分配,\" and \"中國城鄉與所得分配問題,\" directly aligning with the goal of reducing inequalities.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "While urban-rural and real estate issues are mentioned, the course lacks explicit focus on sustainable urban development, infrastructure, or environmental aspects of cities and communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "The course discusses industrial upgrading and supply chains, but lacks explicit mention of responsible consumption, resource efficiency, or sustainable production practices.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no mention of climate change, environmental policy, emissions, or related topics in the course description or schedule.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course content does not include any explicit or inferable topics related to marine ecosystems, ocean health, or sustainable fisheries.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no mention of terrestrial ecosystems, biodiversity, deforestation, or land degradation in the course description or schedule.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The course title includes \"Institutions,\" and it explicitly covers \"政策制定流程,\" \"政治改革遲滯,\" and \"貪腐與經濟犯罪,\" directly aligning with strong institutions and justice.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course extensively covers international economic relations, including \"美中戰略競爭,\" \"兩岸經貿關係,\" \"對外貿易,\" and \"對外投資,\" which are direct examples of global partnerships.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

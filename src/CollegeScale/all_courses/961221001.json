@@ -1,0 +1,698 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "Mentions '家庭的功能' and '身體、健康' → relevant to Good Health and Well-being.",
+      "score": 4.0,
+      "evidence": [
+        "家庭也是個人的身體、健康乃至隱私所存在的核心場所"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "Mentions '家庭內的暴力行為' and '性犯罪問題' → relevant to Gender Equality.",
+      "score": 7.0,
+      "evidence": [
+        "家庭內的暴力行為",
+        "家庭內的性犯罪問題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Mentions '法律不入家門' and '家庭中的犯罪問題' → relevant to Peace, Justice and Strong Institutions.",
+      "score": 6.0,
+      "evidence": [
+        "法律不入家門",
+        "家庭中的犯罪問題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course mentions \"property crimes within the family,\" which can be tangentially related to economic vulnerability and poverty, but the connection is not explicitly explored.",
+      "score": 1.001,
+      "evidence": [
+        "家庭內的財產犯罪"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "The course directly addresses topics that severely impact health and well-being, including \"domestic violence,\" \"child abuse,\" and the family as a place for \"body, health.\"",
+      "score": 9.0,
+      "evidence": [
+        "家庭內的暴力行為",
+        "家庭內的兒童虐待問題",
+        "個人的身體、健康"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "As a university course, it contributes to higher education by enabling students to \"understand various crime problems\" and develop \"in-depth reading ability\" on legal and social issues.",
+      "score": 4.0,
+      "evidence": [
+        "了解現代家庭中存在的各種犯罪問題",
+        "對於關於家庭中的犯罪問題的相關資料具備深度閱讀的能力"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "reason": "The course focuses on issues central to gender equality, such as \"domestic violence,\" \"sexual crimes in the family,\" and \"custody disputes between spouses.\"",
+      "score": 8.5,
+      "evidence": [
+        "家庭內的暴力行為",
+        "家庭內的性犯罪問題",
+        "配偶間對於幼年子女的爭奪問題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "The course addresses crimes against vulnerable family members, such as \"child abuse,\" and examines crimes that are \"more difficult to discover,\" thus tackling hidden inequalities and injustices.",
+      "score": 7.5,
+      "evidence": [
+        "家庭內的兒童虐待問題",
+        "使得犯罪更難被發現"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course is fundamentally about justice, focusing on \"Criminal Law Issues in the Family\" and addressing \"violence,\" \"abuse,\" and other crimes to promote the rule of law.",
+      "score": 10.0,
+      "evidence": [
+        "家庭中的刑法問題",
+        "家庭內的暴力行為",
+        "家庭內的兒童虐待問題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive reasoning and evidence for several SDGs, warranting revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 1.001,
+        "your_revised": 1.001,
+        "reason": "Model B highlights property crimes, linking them to economic vulnerability."
+      },
+      "Good Health and Well-being": {
+        "your_original": 4.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B includes more relevant health-related issues like domestic violence and child abuse."
+      },
+      "Quality Education": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B connects the course to higher education and critical reading skills."
+      },
+      "Gender Equality": {
+        "your_original": 7.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B emphasizes additional relevant issues like custody disputes."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B addresses hidden inequalities through family crime issues."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 6.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's focus on justice and law in family crimes is more comprehensive."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provides a more comprehensive and accurate interpretation of the course text, particularly in identifying direct and inferred links to several SDGs. My original scores were too conservative.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 1.001,
+        "reason": "Model A's inference regarding 'property crimes' having a tangential link to economic vulnerability is reasonable, warranting a low score."
+      },
+      "SDG_3 (Good Health and Well-being)": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 9.0,
+        "reason": "Model A correctly highlights 'domestic violence' and 'child abuse' as direct and severe impacts on health and well-being, making the connection stronger."
+      },
+      "SDG_4 (Quality Education)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 4.0,
+        "reason": "Model A correctly identifies that the course itself, by fostering understanding and 'in-depth reading ability,' contributes to higher education."
+      },
+      "SDG_5 (Gender Equality)": {
+        "your_original": 7.0,
+        "model_b_score": 7.0,
+        "your_revised": 8.5,
+        "reason": "Model A's inclusion of 'custody disputes between spouses' further strengthens the link to gender equality issues, beyond just violence and sexual crimes."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 7.5,
+        "reason": "Model A accurately points out that 'child abuse' and crimes 'harder to discover' directly address vulnerabilities and hidden inequalities within families."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 10.0,
+        "reason": "The course title 'Criminal Law Issues in the Family' makes its alignment with justice, rule of law, and strong institutions fundamental and explicit."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.001,
+      "source": "synthesized",
+      "reasoning": "Model A's revision acknowledges property crimes as linked to economic vulnerability, aligning with course evidence on family-related crimes.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 1.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course text related to Zero Hunger.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight critical health issues like domestic violence and child abuse, but Model B's score reflects a more comprehensive understanding of health impacts.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's contribution to education, but Model A's revision aligns better with the explicit educational goals stated in the syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models address gender issues effectively, but Model B's inclusion of custody disputes strengthens the relevance to Gender Equality.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course text related to Clean Water and Sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course text related to Affordable and Clean Energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course text related to Decent Work and Economic Growth.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course text related to Industry, Innovation and Infrastructure.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models effectively address hidden inequalities, but Model B's score reflects a stronger connection to the course's focus on vulnerable family members.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course text related to Sustainable Cities and Communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course text related to Responsible Consumption and Production.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course text related to Climate Action.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course text related to Life Below Water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course text related to Life on Land.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's focus on justice and law, but Model B's score reflects a more comprehensive understanding of the course's alignment with this SDG.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course text related to Partnerships for the Goals.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.001,
+      "source": "model_b",
+      "reasoning": "The course explicitly lists '家庭內的財產犯罪' (property crimes). While not a direct focus, these crimes can tangentially relate to economic vulnerability, justifying a minimal score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 1.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course description that relates to food security, nutrition, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly addresses '身體、健康' and focuses on '家庭內的暴力行為' and '兒童虐待問題,' which directly and severely impact physical and mental well-being.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "As a university course, it directly contributes to higher education by fostering understanding of complex social issues and developing critical reading and analytical skills.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course directly addresses domestic violence, sexual crimes, and custody disputes, all of which are critical issues for achieving gender equality and empowering women and girls.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course description that relates to clean water, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course description that relates to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course description that relates to decent work, economic growth, or employment issues.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course description that relates to industry, innovation, or infrastructure.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course addresses child abuse and crimes that are 'harder to discover' within families, directly tackling vulnerabilities and hidden inequalities faced by marginalized family members.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course description that relates to sustainable cities, communities, or urban development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course description that relates to responsible consumption or production patterns.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course description that relates to climate change or climate action.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course description that relates to marine ecosystems or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course description that relates to terrestrial ecosystems, biodiversity, or life on land.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about 'Criminal Law Issues in the Family,' directly addressing justice, rule of law, and the need for strong institutions to combat violence and abuse within families.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course description that relates to global partnerships or multi-stakeholder cooperation for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    }
+  }
+}

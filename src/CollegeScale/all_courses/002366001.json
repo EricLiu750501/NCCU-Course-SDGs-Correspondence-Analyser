@@ -1,0 +1,660 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "Mentions '增進體適能' and '身心發展' → relevant to Good Health and Well-being.",
+      "score": 4.0,
+      "evidence": [
+        "增進體適能",
+        "促進身心發展"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "Focus on '基礎學習' and '團隊合作' → relevant to Quality Education.",
+      "score": 7.0,
+      "evidence": [
+        "著重在基礎學習",
+        "增進團隊合作的觀念"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "Course is co-ed, promoting inclusivity → relevant to Gender Equality.",
+      "score": 4.0,
+      "evidence": [
+        "男女合班"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Mentions '社會道德規範行為的培養' → relevant to Peace, Justice and Strong Institutions.",
+      "score": 4.0,
+      "evidence": [
+        "社會道德規範行為的培養"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "No evidence found in the course description related to poverty.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found in the course description related to hunger or nutrition.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "The course is designed to '增進體適能' (improve physical fitness), '促進身心發展' (promote physical and mental development), and understand '運動傷害的預防與保健' (prevention of sports injuries).",
+      "score": 10.0,
+      "evidence": [
+        "增進體適能",
+        "促進身心發展",
+        "瞭解羽球運動傷害的預防與保健"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "The course provides structured learning through a '循序漸進的教學法' (step-by-step teaching method) to give students a '基本的認識' (basic understanding) of badminton.",
+      "score": 7.0,
+      "evidence": [
+        "本課程為羽球初級課程，著重在基礎學習",
+        "採用循序漸進的教學法",
+        "讓同學對羽球運動有基本的認識"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "The course title explicitly states it is a '男女合班' (male and female) class, promoting equal participation in sports for all genders.",
+      "score": 7.0,
+      "evidence": [
+        "體育[男女合班]—羽球初級"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found in the course description related to water or sanitation.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found in the course description related to energy.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found in the course description related to work or economic growth.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found in the course description related to industry or innovation.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "The course is explicitly '男女合班' (male and female), promoting equal access, and aims to '增進團隊合作的觀念' (enhance the concept of teamwork), fostering cooperation among diverse students.",
+      "score": 4.0,
+      "evidence": [
+        "體育[男女合班]—羽球初級",
+        "增進團隊合作的觀念"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "The course aims to '豐實休閒生活' (enrich leisure life), which can be inferred as a minor contribution to community well-being through recreational activities.",
+      "score": 1.0,
+      "evidence": [
+        "豐實休閒生活"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found in the course description related to responsible consumption or production.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found in the course description related to climate action.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found in the course description related to life below water.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found in the course description related to life on land.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course focuses on understanding '比賽規則' (match rules) and the '培養' (cultivation) of '社會道德規範行為' (social moral and normative behavior), promoting fair play and structured interaction.",
+      "score": 4.0,
+      "evidence": [
+        "了解雙打比賽規則",
+        "社會道德規範行為的培養"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course strongly emphasizes partnership through '團隊合作的觀念' (concept of teamwork), '兩人合作比賽的觀念' (concept of two-person cooperative competition), and aims to '提升人際互動關係' (enhance interpersonal relationships).",
+      "score": 5.0,
+      "evidence": [
+        "增進團隊合作的觀念",
+        "加強兩人合作比賽的觀念",
+        "提升人際互動關係"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive evidence for several SDGs, leading to necessary revisions in my scores.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 4.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B includes '運動傷害的預防與保健', enhancing relevance."
+      },
+      "Gender Equality": {
+        "your_original": 4.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B emphasizes equal participation more clearly."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B highlights inclusivity and teamwork effectively."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's focus on teamwork and interpersonal relationships is relevant."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's analysis is generally less comprehensive, missing several explicit connections. However, its stricter interpretation for SDG 11 is more accurate.",
+    "revisions": {
+      "Sustainable Cities and Communities": {
+        "your_original": 1.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "The connection between 'enrich leisure life' and SDG 11 is too indirect. Model B's assessment of no direct evidence is more accurate."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty in the course description, confirming the score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to hunger or nutrition was found in either model, supporting the score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the importance of physical fitness and injury prevention, but Model B's inclusion of injury prevention strengthens the score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models provided strong evidence for structured learning, but Model B's emphasis on step-by-step teaching enhances the justification.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Model B's clearer emphasis on equal participation in a co-ed class supports a higher score than Model A's initial assessment.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to water or sanitation, confirming the score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to energy was found in either model, supporting the score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to work or economic growth, confirming the score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to industry or innovation was found in either model, supporting the score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on inclusivity and teamwork aligns well with the SDG, justifying a score higher than Model A's original.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Model B's assessment of no direct evidence is more accurate, as the connection to community well-being is too indirect.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to responsible consumption or production, confirming the score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to climate action was found in either model, supporting the score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to life below water, confirming the score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to life on land was found in either model, supporting the score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the importance of social norms and fair play, justifying a consistent score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on teamwork and interpersonal relationships aligns well with the SDG, justifying a higher score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no information or objectives related to poverty eradication or economic upliftment.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no information or objectives related to food security, nutrition, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly aims to improve physical fitness, promote physical and mental development, and understand injury prevention, directly aligning with SDG 3.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on '基礎學習' (basic learning), uses a '循序漸進的教學法' (step-by-step teaching method), and aims for '基本的認識' (basic understanding) of badminton.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 7.0,
+      "source": "revised_a",
+      "reasoning": "The course is explicitly designated as '男女合班' (male and female class), directly promoting equal participation and access to sports education for all genders.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no information or objectives related to water resources, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no information or objectives related to energy production, consumption, or sustainability.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no information or objectives related to employment, economic growth, or labor rights.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no information or objectives related to infrastructure development, industrialization, or innovation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.0,
+      "source": "revised_a",
+      "reasoning": "The '男女合班' (male and female class) promotes equal access, and fostering '團隊合作的觀念' (teamwork) helps reduce inequalities by encouraging cooperation among diverse students.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "The course's aim to '豐實休閒生活' (enrich leisure life) is too indirect and weak to establish a meaningful connection with the specific targets of Sustainable Cities and Communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no information or objectives related to sustainable consumption patterns or production processes.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no information or objectives related to climate change mitigation, adaptation, or impact reduction.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no information or objectives related to marine ecosystems or ocean conservation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no information or objectives related to terrestrial ecosystems, biodiversity, or land degradation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly aims for '社會道德規範行為的培養' (cultivation of social moral behavior) and understanding '比賽規則' (match rules), promoting fair play and structured interaction.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "The course strongly emphasizes '團隊合作的觀念' (teamwork), '兩人合作比賽的觀念' (cooperative competition), and '提升人際互動關係' (enhancing interpersonal relationships), directly fostering partnerships.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

@@ -1,0 +1,762 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course emphasizes learning decision-making principles and tools.",
+      "score": 7.0,
+      "evidence": [
+        "introduces students to the principles and tools of decision theory",
+        "students will learn about existing spatial decision-making projects",
+        "develop workflows and how to arrive at conclusions"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Course focuses on infrastructure planning and decision-making systems.",
+      "score": 7.0,
+      "evidence": [
+        "infrastructure planning",
+        "evaluating land-use policy scenarios",
+        "developing a strategy for and EIA and SDG spatial MCDM solution"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "Course addresses land-use policy and spatial decision-making.",
+      "score": 7.0,
+      "evidence": [
+        "evaluating land-use policy scenarios",
+        "facility sites and infrastructure planning",
+        "spatial decision making in the literature"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "Course includes Environmental Impact Assessment (EIA) strategies.",
+      "score": 4.0,
+      "evidence": [
+        "developing a strategy for and EIA",
+        "performing in-depth analyzes using a use-case from an Environmental Impact Assessment",
+        "integrating a solution given pre-defined criteria"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "Course involves land-use policy and spatial data modeling.",
+      "score": 6.0,
+      "evidence": [
+        "evaluating land-use policy scenarios",
+        "application of pre-trained AI models to extract land-cover information",
+        "developing a strategy for and EIA"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "No evidence found in the course description related to poverty alleviation, economic inclusion, or social protection systems.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found in the course description related to agriculture, food security, or nutrition.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "The course mentions planning 'facility sites' and 'identifying hazard zones,' which can be inferred to support public health infrastructure and safety, but it is not a focus.",
+      "score": 2.0,
+      "evidence": [
+        "facility sites and infrastructure planning",
+        "identifying hazard zones"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "reason": "As a university course, it provides advanced education in 'Spatial Decision Making,' teaching high-level skills using 'GIS software' and 'Machine learning methods.'",
+      "score": 7.5,
+      "evidence": [
+        "This course on Spatial Decision Making introduces students to the principles and tools of decision theory",
+        "practical labs focused on real-world spatial challenges",
+        "Machine learning methods"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found in the course description related to gender, equality, or the empowerment of women and girls.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "The course covers 'infrastructure planning' and 'Environmental Impact Assessment (EIA),' which could be inferred to include water and sanitation systems, but this is not explicitly stated.",
+      "score": 2.5,
+      "evidence": [
+        "infrastructure planning",
+        "Environmental Impact Assessment (EIA)"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "The mention of 'facility sites and infrastructure planning' could be inferred to apply to planning for energy facilities, but the topic is not explicitly covered.",
+      "score": 2.0,
+      "evidence": [
+        "facility sites and infrastructure planning"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course equips students with advanced skills in 'GIS software' and 'Machine learning methods,' which are valuable for professional roles and economic sectors that use spatial analysis.",
+      "score": 4.5,
+      "evidence": [
+        "how to use GIS and its integrated tools",
+        "Machine learning methods",
+        "spatial machine learning models"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course is fundamentally about tools for 'infrastructure planning,' using 'Geographic Information System (GIS) software' and building 'Spatial Decision Support Systems (SDSS),' which are core to this SDG.",
+      "score": 9.5,
+      "evidence": [
+        "facility sites and infrastructure planning",
+        "Geographic Information System (GIS) software",
+        "how Spatial Decision Support Systems (SDSS) are built"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found in the course description related to reducing inequality within or among countries.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "The course has a strong focus on applications central to sustainable communities, such as 'infrastructure planning,' 'identifying hazard zones,' and 'evaluating land-use policy scenarios.'",
+      "score": 9.0,
+      "evidence": [
+        "facility sites and infrastructure planning",
+        "identifying hazard zones",
+        "evaluating land-use policy scenarios"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "The course involves 'evaluating land-use policy scenarios' and using 'Environmental Impact Assessment (EIA),' which are tools for promoting sustainable production patterns and resource management.",
+      "score": 4.0,
+      "evidence": [
+        "evaluating land-use policy scenarios",
+        "Environmental Impact Assessment (EIA)"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "reason": "The course's focus on 'identifying hazard zones' and 'Environmental Impact Assessment (EIA)' are relevant tools for climate change adaptation and mitigation planning, though not explicitly stated.",
+      "score": 4.5,
+      "evidence": [
+        "identifying hazard zones",
+        "Environmental Impact Assessment (EIA)"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "reason": "An 'Environmental Impact Assessment (EIA)' could potentially cover aquatic environments, but the course provides no specific evidence related to life below water.",
+      "score": 1.001,
+      "evidence": [
+        "Environmental Impact Assessment (EIA)"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life on Land": {
+      "reason": "The course directly addresses land management through 'evaluating land-use policy scenarios,' using 'Environmental Impact Assessment (EIA),' and extracting 'land-cover information,' all crucial for protecting terrestrial ecosystems.",
+      "score": 8.5,
+      "evidence": [
+        "evaluating land-use policy scenarios",
+        "Environmental Impact Assessment (EIA)",
+        "extract land-cover information"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course teaches 'structured decision-making' and how to 'critically assess the decision process,' which are foundational skills for building effective and accountable institutions for land-use policy.",
+      "score": 5.0,
+      "evidence": [
+        "foundation in structured decision-making",
+        "critically assess the decision process in terms of robustness",
+        "evaluating land-use policy scenarios"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course explicitly includes a practical exercise on developing an 'SDG spatial MCDM solution,' directly engaging with the SDG framework as a multi-stakeholder decision tool.",
+      "score": 8.0,
+      "evidence": [
+        "Developing a strategy for and EIA and SDG spatial MCDM solution from scratch"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more nuanced interpretations and aligns better with the course text, leading to necessary revisions.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B highlights relevant aspects of public health infrastructure."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B's inference on infrastructure planning is valid."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.001,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B accurately connects skills taught to economic growth."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 7.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B emphasizes the core focus on infrastructure planning."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 7.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's score reflects the course's strong focus on sustainability."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's inference on land-use policy is relevant."
+      },
+      "Climate Action": {
+        "your_original": 4.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's emphasis on hazard zones enhances the score."
+      },
+      "Life on Land": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's interpretation of land management is more comprehensive."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B connects decision-making skills to institutional effectiveness."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B accurately reflects the course's engagement with SDGs."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's stricter interpretation of 'no explicit evidence' for inferred connections led to several revisions in my scores, aligning better with the rule of not inventing evidence. My original analysis was too inferential in some areas.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 2.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "My original inference was too broad; the course text lacks explicit links to health outcomes or well-being."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 2.5,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "The course mentions 'infrastructure planning' generally, but not specifically water or sanitation systems."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 2.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "The link between 'infrastructure planning' and clean energy is too general without explicit mention in the text."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.5,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "While skills are valuable, the course text doesn't explicitly connect them to job creation or economic growth policies."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 4.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "The connection between 'EIA' and 'land-use policy' to consumption/production patterns is too indirect without specific evidence."
+      },
+      "Life Below Water": {
+        "your_original": 1.001,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "My inference that 'EIA' could cover aquatic environments is not explicitly supported by the course text."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 5.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Structured decision-making is beneficial, but the course text doesn't explicitly link it to peace, justice, or specific institutional targets."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty alleviation in the course description, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to food security or nutrition was found in the course description, supporting the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "After revisions, both models concluded that the course lacks explicit links to health outcomes, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "Model B's reasoning highlights the course's focus on advanced education and practical skills, aligning well with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to gender equality in the course description, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "After revisions, both models concluded that the course lacks explicit references to water and sanitation systems.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no explicit evidence linking the course content to clean energy, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models concluded that the course does not explicitly connect skills taught to job creation or economic growth.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "Model B's emphasis on infrastructure planning and decision-making systems aligns closely with the SDG's focus.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to reducing inequalities in the course description, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "Model B's reasoning reflects the course's strong focus on sustainability and land-use policy, aligning well with the SDG.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models concluded that the course lacks explicit evidence linking land-use policy to consumption patterns.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Climate Action": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "Model B's emphasis on hazard zones and Environmental Impact Assessment aligns well with climate action strategies.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no explicit evidence related to aquatic environments in the course description, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "Model B's comprehensive interpretation of land management aligns well with the SDG's focus on terrestrial ecosystems.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models concluded that the course lacks explicit links to peace, justice, or institutional effectiveness.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "Model B accurately reflects the course's engagement with SDGs through practical exercises, aligning well with the SDG's focus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course content, focusing on spatial decision-making and GIS, does not explicitly or implicitly address poverty alleviation, economic inclusion, or social protection systems.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no explicit or implicit references to agriculture, food security, nutrition, or sustainable food production systems.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on 'identifying hazard zones' and 'facility sites and infrastructure planning' provides an inferred, albeit indirect, link to public health and safety, components of well-being.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "As an advanced university course, it directly contributes to quality education by teaching high-level skills in spatial decision-making, GIS software, and machine learning methods.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus provides no explicit or implicit evidence related to gender equality or the empowerment of women and girls.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "While the course covers general 'infrastructure planning' and 'EIA,' there is no explicit mention or strong inference linking these topics specifically to clean water or sanitation systems.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "The course's general mention of 'facility sites and infrastructure planning' is too broad to infer a specific connection to affordable and clean energy without explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "The course equips students with advanced, practical skills in GIS and machine learning, valuable for professional roles, contributing to productive employment and indirectly supporting economic growth.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "The course is fundamentally centered on 'infrastructure planning,' utilizing 'GIS software,' and developing 'Spatial Decision Support Systems (SDSS),' direct contributions to resilient infrastructure and innovation.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus provides no explicit or implicit evidence related to reducing inequalities within or among countries.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The course has a strong and explicit focus on applications vital for sustainable communities, including 'infrastructure planning,' 'identifying hazard zones,' and 'evaluating land-use policy scenarios.'",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "The course's use of 'Environmental Impact Assessment (EIA)' and 'evaluating land-use policy scenarios' directly relates to promoting sustainable production patterns and responsible resource management.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Climate Action": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "The course's explicit inclusion of 'Environmental Impact Assessment (EIA)' and 'identifying hazard zones' provides relevant tools for climate change adaptation and mitigation planning.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "Despite the general mention of 'Environmental Impact Assessment (EIA),' the course syllabus provides no specific evidence or context linking its application to marine or aquatic environments.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The course directly addresses land management through 'evaluating land-use policy scenarios,' utilizing 'EIA,' and extracting 'land-cover information,' all crucial for protecting terrestrial ecosystems.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "The course teaches 'structured decision-making' and critical assessment of decision processes, foundational skills for building effective, accountable, and inclusive institutions, relevant for land-use policy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly includes developing an 'SDG spatial MCDM solution,' directly engaging with the SDG framework and promoting a partnership approach to achieving global goals.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

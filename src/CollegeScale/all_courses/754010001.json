@@ -1,0 +1,711 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "Mentions 'neuropharmacology' and 'neurodegenerative diseases' → relevant to Good Health and Well-being.",
+      "score": 7.5,
+      "evidence": [
+        "神經藥理及毒理簡介",
+        "神經退化性疾病之防治",
+        "物質濫用引發精神障礙的研究"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "Focus on 'literature review' and 'research techniques' → relevant to Quality Education.",
+      "score": 8.0,
+      "evidence": [
+        "使學生具備研讀文獻之能力",
+        "使學生具備執行不同研究技術之能力",
+        "幫助新生瞭解本所各實驗室之研究主題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Mentions 'experimental design' and 'research techniques' → relevant to Industry, Innovation and Infrastructure.",
+      "score": 6.0,
+      "evidence": [
+        "各種實驗設計之原理",
+        "執行不同研究技術之能力",
+        "文獻整理"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "Mentions 'zebrafish breeding' and 'mouse experiments' → relevant to Life on Land.",
+      "score": 5.0,
+      "evidence": [
+        "斑馬魚飼養、繁殖、及發育觀察",
+        "小鼠飼育及繁殖",
+        "腦組織灌流取樣"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "No evidence found in the course description related to poverty, economic inequality, or social protection.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found in the course description related to hunger, food security, nutrition, or sustainable agriculture.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "The course focuses on neuroscience research, including studies on 'neurodegenerative diseases,' 'substance abuse,' and 'neurodevelopmental diseases,' directly contributing to health research.",
+      "score": 8.5,
+      "evidence": [
+        "神經退化性疾病之防治 (Prevention and treatment of neurodegenerative diseases)",
+        "物質濫用引發精神障礙的研究 (Research on mental disorders induced by substance abuse)",
+        "神經發育疾病相關文獻導讀及討論 (Readings and discussion on neurodevelopmental diseases)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "The course is designed to provide high-level scientific training, with objectives to enable students to 'read literature' and 'understand...experimental designs.'",
+      "score": 9.0,
+      "evidence": [
+        "使學生具備研讀文獻之能力 (Enable students to have the ability to read literature)",
+        "使學生瞭解各種實驗設計之原理 (Enable students to understand the principles of various experimental designs)",
+        "幫助新生瞭解本所各實驗室之研究主題及實驗方法 (Help new students understand the research topics and experimental methods of each laboratory)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found in the course description related to gender equality, women's empowerment, or discrimination.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found in the course description related to water quality, sanitation, or hygiene.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found in the course description related to energy, renewables, or energy efficiency.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course provides advanced scientific training, preparing students for specialized careers in research, which indirectly relates to decent work.",
+      "score": 2.0,
+      "evidence": [
+        "幫助新生瞭解本所各實驗室之研究主題及實驗方法，有助於新生選擇論文研究方向 (Help new students understand the research topics and experimental methods... to help them choose a research direction for their thesis)"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course is centered on scientific innovation, teaching 'experimental design' and 'research techniques,' and utilizes infrastructure like the 'National Health Research Institute NHRI.'",
+      "score": 7.5,
+      "evidence": [
+        "研究方法與實驗設計 (Lab rotation & Experimental design)",
+        "使學生具備執行不同研究技術之能力 (Enable students to have the ability to execute different research techniques)",
+        "將在國家衛生研究院NHRI進行實驗 (Experiments will be conducted at the National Health Research Institute NHRI)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found in the course description related to reducing inequality within or among countries.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found in the course description related to urban development, housing, transportation, or cultural heritage.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "The course mentions 'biological experiment safety concepts' and the need to 'Respect Copyright,' which are minor aspects of responsible practices in a research setting.",
+      "score": 1.5,
+      "evidence": [
+        "生物實驗安全觀念和操作注意事項 (biological experiment safety concepts and operating precautions)",
+        "維護智慧財產權，務必使用正版書籍。 Respect Copyright."
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "reason": "No evidence found in the course description related to climate change, carbon emissions, or climate resilience.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "The course uses zebrafish ('斑馬魚') as an experimental model for neuroscience research, which involves aquatic life for scientific purposes.",
+      "score": 2.5,
+      "evidence": [
+        "斑馬魚飼養、繁殖、及發育觀察 (Zebrafish breeding, reproduction, and developmental observation)",
+        "斑馬魚實驗模式: 聽覺神經反應之檢測 (Zebrafish experimental model: detection of auditory nerve response)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life on Land": {
+      "reason": "The course uses mice ('小鼠') and rats ('大鼠') as experimental models for neuroscience research, involving terrestrial animals for scientific purposes.",
+      "score": 2.5,
+      "evidence": [
+        "小鼠飼育及繁殖 (Mouse breeding and reproduction)",
+        "大、小鼠實驗模式: 神經退化性疾病之防治 (Rat and mouse experimental models: prevention and treatment of neurodegenerative diseases)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found in the course description related to peace, justice, rule of law, or institutional governance.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course indicates a potential partnership for research, stating that some experiments 'will be conducted at the National Health Research Institute NHRI.'",
+      "score": 4.0,
+      "evidence": [
+        "將在國家衛生研究院NHRI進行實驗 (Experiments will be conducted at the National Health Research Institute NHRI)"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations and evidence for several SDGs, particularly in health and education.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 7.5,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's evidence highlights more relevant aspects of health research."
+      },
+      "Quality Education": {
+        "your_original": 8.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B emphasizes the high-level scientific training provided."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B includes explicit references to scientific innovation and infrastructure."
+      },
+      "Life Below Water": {
+        "your_original": 5.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B's score reflects the limited relevance of zebrafish to this SDG."
+      },
+      "Life on Land": {
+        "your_original": 5.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B's score accurately reflects the limited relevance of mouse experiments."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B identifies the partnership with NHRI as significant."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more comprehensive evidence, particularly for partnerships and specific animal models, leading to several revisions in my scores.",
+    "revisions": {
+      "Decent Work and Economic Growth": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 2.0,
+        "reason": "Model A's inference that career preparation for research contributes to decent work is reasonable, warranting a low score."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 7.5,
+        "reason": "Model A correctly highlighted the explicit mention of conducting experiments at the National Health Research Institute (NHRI) as relevant infrastructure."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 1.5,
+        "reason": "Model A correctly identified 'biological experiment safety' and 'Respect Copyright' as minor, yet relevant, responsible practices."
+      },
+      "Life Below Water": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 2.5,
+        "reason": "Model A correctly identified the use of 'zebrafish' as an experimental model, which explicitly relates to aquatic life."
+      },
+      "Life on Land": {
+        "your_original": 5.0,
+        "model_b_score": 5.0,
+        "your_revised": 2.5,
+        "reason": "Model A's score is more consistent with the nature of using animals as research models, rather than direct conservation efforts."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 4.0,
+        "reason": "Model A correctly identified the collaboration with the 'National Health Research Institute NHRI' as a form of partnership."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty, making the score consistent across analyses.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to hunger or food security was found in either model.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight significant evidence related to neurodegenerative diseases and substance abuse, with Model B providing a slightly higher score based on comprehensive evidence.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on high-level scientific training aligns well with course objectives, justifying the highest score.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to gender equality, maintaining consistency.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to water quality or sanitation was found in either model.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to energy or renewables.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model A's inference about career preparation aligns with the course's focus on research, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's focus on experimental design and research techniques, with Model B providing a slightly higher score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to reducing inequalities was found in either model.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to urban development or sustainability.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model A's identification of responsible practices in research justifies a low score, aligning with both models' revisions.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 0.001,
+        "model_b_revised": 1.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to climate action was found in either model.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Model A's identification of zebrafish as an experimental model justifies a low score, aligning with both models' revisions.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Model A's score reflects the limited relevance of mouse experiments to conservation efforts, aligning with both models' revisions.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to peace or justice was found in either model.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the partnership with NHRI as significant, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course content is entirely focused on advanced neuroscience research and experimental techniques, with no mention of economic development, social protection, or poverty reduction.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course focuses on neuroscience research and experimental design, with no content related to food security, sustainable agriculture, or malnutrition.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers research into neuropharmacology, neurodegenerative diseases, substance abuse-induced mental disorders, and neurodevelopmental diseases, all directly contributing to health and well-being.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course's primary objectives are to equip students with advanced research skills, including literature review, understanding experimental design, and executing research techniques, directly aligning with quality education.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no information or objectives related to gender equality, women's empowerment, or addressing gender-based discrimination.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course content is focused on neuroscience research and experimental methods, with no mention of water management, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus does not include any topics or activities related to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course helps students choose a thesis research direction, preparing them for specialized scientific careers, which indirectly contributes to future decent work opportunities in research.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course focuses on research methods, experimental design, and advanced techniques, fostering scientific innovation. The mention of conducting experiments at the National Health Research Institute (NHRI) also directly links to research infrastructure.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus does not contain any content or objectives related to reducing inequalities within or among countries.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course focuses on neuroscience research, with no mention of urban planning, sustainable communities, or related topics.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The course mentions 'biological experiment safety concepts' and 'Respect Copyright,' which are minor but relevant aspects of responsible practices within a research and academic context.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus does not include any topics or activities related to climate change, its impacts, or mitigation efforts.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly uses zebrafish as an experimental model, involving their breeding and observation, which directly relates to the study and use of aquatic life for scientific purposes.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly uses mice and rats as experimental models, involving their breeding and use in research, which directly relates to the study and use of terrestrial animal life for scientific purposes.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course syllabus does not contain any content or objectives related to peace, justice, human rights, or institutional governance.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly mentions that some experiments 'will be conducted at the National Health Research Institute (NHRI),' indicating a partnership for research and capacity building.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    }
+  }
+}

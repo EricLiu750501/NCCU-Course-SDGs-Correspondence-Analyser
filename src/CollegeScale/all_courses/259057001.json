@@ -1,0 +1,739 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course aims to provide understanding of ethnology theory → relevant to Quality Education.",
+      "score": 7.0,
+      "evidence": [
+        "提供修課學生對於民族學理論的認識",
+        "掌握當前民族學的研究重點與特色"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "Mentions '女性主義人類學' → relevant to Gender Equality.",
+      "score": 4.0,
+      "evidence": [
+        "女性主義人類學"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Mentions '道德經濟' and '團結經濟' → relevant to Decent Work and Economic Growth.",
+      "score": 4.0,
+      "evidence": [
+        "道德經濟",
+        "團結經濟"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "Mentions '差異政治與正義的實踐' → relevant to Reduced Inequalities.",
+      "score": 4.0,
+      "evidence": [
+        "差異政治與正義的實踐"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "Mentions '文化與自然' and '替代性發展、永續發展' → relevant to Life on Land.",
+      "score": 4.0,
+      "evidence": [
+        "文化與自然",
+        "替代性發展、永續發展"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Mentions '轉型正義' and '民族與自治' → relevant to Peace, Justice and Strong Institutions.",
+      "score": 7.0,
+      "evidence": [
+        "轉型正義",
+        "民族與自治"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course discusses economic systems and livelihoods in Week 7, including topics like 'moral economy' and 'livelihood', which are related to economic well-being and poverty.",
+      "score": 2.5,
+      "evidence": [
+        "道德經濟、團結經濟、族裔經濟等現象",
+        "Economics as Culture: models and metaphors of livelihood",
+        "環境、生產與經濟"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "The course touches upon 'cultural ecology' and 'livelihood', which can be inferred to include food production systems, but it is not a direct focus.",
+      "score": 1.5,
+      "evidence": [
+        "文化生態研究",
+        "The Concept and Method of Cultural Ecology",
+        "modes of livelihood"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Good Health and Well-being": {
+      "reason": "An extended reading mentions '做月內與坐月子中心' (postpartum care), a specific health practice, but health is not a central theme of the course.",
+      "score": 1.001,
+      "evidence": [
+        "做月內與坐月子中心-舊民俗轉為新產業"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "reason": "The course is a form of higher education, and an extended reading for Week 12 explicitly discusses '民族教育' (ethnic education) and its challenges.",
+      "score": 4.5,
+      "evidence": [
+        "身分認同與認定的台灣實證經驗:民族教育面向的新挑戰",
+        "中華民國原住民族教育年鑑1945-2018",
+        "迎接全民原教時代：談全民原教在高等教育端的推動"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "Week 6, '親屬、婚姻與性別' (Kinship, Marriage, and Gender), explicitly focuses on gender issues, including '女性主義人類學' (Feminist Anthropology) as a main topic.",
+      "score": 8.0,
+      "evidence": [
+        "親屬、婚姻與性別",
+        "女性主義人類學",
+        "Feminism and Anthropology"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "A suggested reading by an instructor focuses on '原住民生態知識與流域治理' (Indigenous ecological knowledge and watershed governance), directly addressing water resource management.",
+      "score": 3.0,
+      "evidence": [
+        "原住民生態知識與流域治理-以泰雅族 Mrqwang 群之人河關係為例",
+        "以石門水庫上游集水區之泰雅族部落為例"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "A suggested reading for Week 14 explicitly mentions '金崙地熱開發' (Jinlun geothermal development), linking indigenous land issues with a clean energy source.",
+      "score": 2.8,
+      "evidence": [
+        "重思保留地的集體性:以金崙地熱開發為例"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Week 7, '環境、生產與經濟' (Environment, Production, and Economy), analyzes '族裔經濟' (ethnic economy) and different models of livelihood, which relates to economic activity.",
+      "score": 4.0,
+      "evidence": [
+        "環境、生產與經濟",
+        "道德經濟、團結經濟、族裔經濟等現象",
+        "What is ethnic in an ethnic economy?"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found. The course does not discuss industry, innovation, or infrastructure development.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "A core theme of the course, which examines ethnicity, identity, and group interactions, with topics like '轉型正義' (transitional justice) and '差異政治與正義的實踐' (politics of difference).",
+      "score": 9.5,
+      "evidence": [
+        "從解析國家的視角到差異政治與正義的實踐",
+        "轉型正義",
+        "The Politics of Recognition"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "The course discusses cultural heritage and governance in Week 15, which are components of sustainable communities, but lacks a focus on urban environments or cities.",
+      "score": 2.0,
+      "evidence": [
+        "文化、襲產與治理",
+        "文化治理與文化公民",
+        "The Cultural Landscape & Heritage Paradox"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found. The course discusses 'production' from a cultural and economic anthropology perspective, not in the context of modern sustainable consumption and production patterns.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "The course covers '文化生態研究' (cultural ecology research) and a reading mentions '當代災害管理' (contemporary disaster management), which are related to environmental adaptation, but not explicitly climate change.",
+      "score": 3.5,
+      "evidence": [
+        "文化生態研究",
+        "原住民生態知識與當代災害管理",
+        "Ritual Regulation of Environmental Relations"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found. The course does not contain any mention of marine ecosystems, oceans, or life below water.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "The course explicitly covers '文化生態研究' (cultural ecology research) and '開發、保育與發展' (Development, Conservation, and Development), with readings on 'natural resource governance' and 'illegal logging'.",
+      "score": 8.5,
+      "evidence": [
+        "開發、保育與發展",
+        "原住民知識與自然資源治理",
+        "illegal logging and the shadow state"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "This is a fundamental theme, with weeks dedicated to '權力、階序與政治' (Power, Hierarchy, and Politics) and '解殖、轉型與自治' (Decolonization, Transformation, and Autonomy), directly addressing justice and governance.",
+      "score": 10.0,
+      "evidence": [
+        "轉型正義",
+        "Justice and the Politics of Difference",
+        "民族與自治"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found. The course analyzes inter-group relations and state dynamics but does not discuss multi-stakeholder partnerships for development goals.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive evidence for several SDGs, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B highlights relevant economic discussions that I overlooked."
+      },
+      "Zero Hunger": {
+        "your_original": 0.001,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B's reference to cultural ecology relates to food systems."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 1.001,
+        "your_revised": 1.001,
+        "reason": "Model B identifies specific health practices mentioned in readings."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's focus on ethnic education is more precise."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.001,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B's evidence on watershed governance is relevant."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.001,
+        "model_b_score": 2.8,
+        "your_revised": 2.8,
+        "reason": "Model B's mention of geothermal development is pertinent."
+      },
+      "Life on Land": {
+        "your_original": 4.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B provides stronger evidence on natural resource governance."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's analysis of justice and governance is more comprehensive."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's analysis is more conservative, highlighting where my inferences were too weak. I agree that several SDGs lack direct or substantial relevance to the course content.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 2.5,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model B correctly identifies the lack of direct evidence. My original inference from 'economic systems' was too weak for a significant score."
+      },
+      "Zero Hunger": {
+        "your_original": 1.5,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model B's assessment is more accurate. My inference from 'cultural ecology' to food security was too indirect to warrant a score."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.001,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model B is correct. The single mention of 'postpartum care' in an extended reading is insufficient to score this SDG."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 2.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model B's score is more accurate. While 'cultural heritage' is discussed, the course lacks focus on urban environments or community sustainability."
+      },
+      "Climate Action": {
+        "your_original": 3.5,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model B is more accurate. 'Cultural ecology' and 'disaster management' are related to environment, but not explicitly to climate change action."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models ultimately agree on the lack of direct evidence for poverty-related discussions in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models conclude that the course does not provide sufficient direct evidence related to food security or hunger.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The mention of postpartum care is insufficient to warrant a score, as both models agree on the lack of substantial health-related content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "The course explicitly discusses ethnic education, aligning well with the SDG's focus on quality education.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on feminist anthropology and gender issues is well-supported by explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "The course discusses watershed governance, providing sufficient evidence for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 2.8,
+      "source": "synthesized",
+      "reasoning": "The mention of geothermal development in the context of indigenous land issues supports this score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.8,
+        "model_b_original": 2.8,
+        "model_b_revised": 2.8
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "The course's analysis of ethnic economies and moral economies provides adequate support for this SDG.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models agree that the course does not address industry or infrastructure development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "The course's focus on transitional justice and politics of difference strongly aligns with this SDG.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models conclude that the course lacks a focus on urban sustainability or community development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models agree that the course does not address sustainable consumption or production patterns.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models conclude that the course does not explicitly address climate change action.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 3.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models agree that the course does not address marine ecosystems or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "The course's discussions on cultural ecology and natural resource governance provide strong support for this SDG.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's comprehensive focus on justice, governance, and transitional justice aligns perfectly with this SDG.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models agree that the course does not discuss multi-stakeholder partnerships for development goals.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 2.5,
+      "source": "model_a",
+      "reasoning": "Week 7 discusses 'moral economy' and 'livelihood' in an anthropological context. While not directly about poverty eradication, these topics provide a foundational understanding of economic systems that impact well-being, warranting a low but present score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.5,
+      "source": "model_a",
+      "reasoning": "The course covers 'cultural ecology research' and 'modes of livelihood' (Week 4, Week 6 reading). Cultural ecology inherently examines human-environment interactions for survival, including food production, providing an indirect but relevant link.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The only evidence is a single mention of 'postpartum care' in an extended, optional reading. This is insufficient to consider health and well-being a significant theme of the course.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.5,
+      "source": "model_a",
+      "reasoning": "The course explicitly discusses 'ethnic education' in extended readings for Week 12, linking identity and recognition to educational challenges, which directly aligns with aspects of quality education for indigenous peoples.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "Week 6 is dedicated to 'Kinship, Marriage, and Gender,' with 'Feminist Anthropology' listed as a main content point and a core reading, indicating a substantial focus on gender issues.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 3.0,
+      "source": "model_a",
+      "reasoning": "Suggested readings for Week 4 explicitly mention 'Indigenous ecological knowledge and watershed governance,' directly addressing water resource management, a key component of this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 2.8,
+      "source": "model_a",
+      "reasoning": "A suggested reading for Week 14 discusses 'Jinlun geothermal development,' providing a direct, albeit specific, example of clean energy discussion within the course materials.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.8,
+        "model_b_original": 2.8,
+        "model_b_revised": 2.8
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "model_a",
+      "reasoning": "Week 7, 'Environment, Production, and Economy,' explicitly covers 'moral economy,' 'solidarity economy,' and 'ethnic economy,' which are relevant to understanding diverse forms of economic activity and livelihoods.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the syllabus. The course focuses on ethnology, culture, identity, and politics, not industrial development, innovation, or infrastructure.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course's central themes, including ethnic group interaction, identity, power dynamics, and the 'politics of difference,' directly address the root causes and manifestations of inequalities, making this a highly relevant SDG.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "While cultural heritage is discussed, the course lacks a focus on urban environments, sustainable infrastructure, or community planning, which are central to SDG 11.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the syllabus. The course discusses 'production' in an economic anthropology context, not in terms of sustainable consumption patterns or waste reduction.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "While cultural ecology and disaster management are discussed, the course does not explicitly address climate change, its causes, impacts, or specific actions to combat it.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 3.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the syllabus. The course focuses on human societies and land-based interactions, not marine ecosystems or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.5,
+      "source": "model_a",
+      "reasoning": "Week 14 is dedicated to 'Development, Conservation, and Development,' explicitly discussing 'Culture and Nature,' 'Human-land relations,' and 'Sustainable Development.' Readings also cover 'natural resource governance' and 'illegal logging,' making this SDG highly relevant.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_a",
+      "reasoning": "This SDG is a fundamental and pervasive theme, with dedicated weeks and readings on power, politics, justice, decolonization, transitional justice, and autonomy, all directly aligning with its goals.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in the syllabus. The course analyzes inter-group relations and state dynamics but does not discuss multi-stakeholder partnerships or global cooperation for development goals.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    }
+  }
+}

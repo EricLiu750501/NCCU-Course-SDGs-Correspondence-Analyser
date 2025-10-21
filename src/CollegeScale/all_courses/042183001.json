@@ -1,0 +1,665 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "Mentions 'European refugee crisis' and 'terrorism' → relevant to No Poverty.",
+      "score": 4.0,
+      "evidence": [
+        "造成歐洲難民潮的危機",
+        "了解恐怖主義以及歐洲難民議題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Focus on 'independent thinking' and 'cultural respect' → relevant to Quality Education.",
+      "score": 7.0,
+      "evidence": [
+        "使學生具備獨立思考與創新的能力",
+        "培養學生對於多元文化的尊重與關懷"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Mentions 'Turkey's political economy' → relevant to Decent Work and Economic Growth.",
+      "score": 4.0,
+      "evidence": [
+        "土耳其政治經濟概述"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Focus on 'terrorism' and 'refugee issues' → relevant to Peace, Justice and Strong Institutions.",
+      "score": 6.0,
+      "evidence": [
+        "了解恐怖主義以及歐洲難民議題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 1.5,
+      "reason": "The course mentions 'Turkish political economy' and the 'Belt and Road Initiative,' which are related to economic development, but does not explicitly discuss poverty reduction.",
+      "evidence": [
+        "土耳其政治經濟概述 (Turkish political economy)",
+        "一帶一路計畫與土耳其 (Belt and Road Initiative and Turkey)"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 2.0,
+      "reason": "The course discusses 'war and refugees' and the 'Syrian civil war,' which have significant health implications, although health itself is not a direct topic.",
+      "evidence": [
+        "敘利亞內戰 (Syrian civil war)",
+        "歐洲難民潮的危機 (European refugee crisis)",
+        "戰爭與難民 (War and refugees)"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "score": 3.0,
+      "reason": "The course is an educational activity aiming to 'cultivate students' respect and care for diverse cultures' and 'strengthen students' understanding' of complex international issues.",
+      "evidence": [
+        "培養學生對於多元文化的尊重與關懷 (cultivate students' respect and care for diverse cultures)",
+        "使同學能夠更加深入認識東歐地區以及中東及中亞等地區之連結 (enable students to have a deeper understanding of the connections between Eastern Europe, the Middle East, and Central Asia)"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 4.5,
+      "reason": "The course covers 'Turkish political economy' and the 'Belt and Road Initiative,' which are directly related to national economic structures and large-scale development projects.",
+      "evidence": [
+        "土耳其政治經濟概述 (Turkish political economy)",
+        "一帶一路計畫與土耳其 (Belt and Road Initiative and Turkey)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 4.0,
+      "reason": "The course includes the 'Belt and Road Initiative,' a major international infrastructure development strategy, as a topic of study.",
+      "evidence": [
+        "一帶一路計畫與土耳其 (Belt and Road Initiative and Turkey)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 8.0,
+      "reason": "The course explicitly focuses on topics of inequality, including 'Eurasian ethnic conflicts (Xinjiang, Kurds)' and the 'European refugee crisis,' which involve marginalized and displaced populations.",
+      "evidence": [
+        "歐洲難民潮的危機 (European refugee crisis)",
+        "歐亞民族衝突 (新疆、庫德族) (Eurasian ethnic conflicts (Xinjiang, Kurds))",
+        "戰爭與難民 (War and refugees)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 10.0,
+      "reason": "The course is fundamentally about geopolitics, conflict, and international relations, covering 'Syrian civil war,' 'terrorism,' 'ethnic conflicts,' 'war and refugees,' and 'foreign policy.'",
+      "evidence": [
+        "敘利亞內戰以及伊斯蘭國的紛亂 (Syrian civil war and the chaos of the Islamic State)",
+        "使學生了解恐怖主義以及歐洲難民議題 (enable students to understand terrorism and European refugee issues)",
+        "歐亞民族衝突 (新疆、庫德族) (Eurasian ethnic conflicts (Xinjiang, Kurds))"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 8.5,
+      "reason": "The course focuses heavily on international relations and partnerships, analyzing Turkey's role with the 'EU,' the 'Middle East,' and its involvement in the 'Belt and Road Initiative.'",
+      "evidence": [
+        "土耳其與中東 (Turkey and the Middle East)",
+        "一帶一路計畫與土耳其 (Belt and Road Initiative and Turkey)",
+        "土耳其與歐盟 (Turkey and the EU)"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides a more nuanced understanding of the course content, particularly regarding No Poverty and Good Health and Well-being.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B's focus on economic development aligns better with the course text."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B highlights health implications of war and refugees, which is relevant."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B's interpretation of educational outcomes is more aligned with the course objectives."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 6.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's emphasis on geopolitics and conflict is more comprehensive."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B provided a more accurate assessment for Quality Education by highlighting explicit learning outcomes. However, Model B overlooked several explicit connections for SDGs 9, 10, 16, and 17.",
+    "revisions": {
+      "SDG_4 (Quality Education)": {
+        "your_original": 3.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B correctly identified explicit learning outcomes like 'independent thinking' and 'cultural respect' as direct evidence, making a higher score more appropriate."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on economic development aligns better with course content, while Model A's original score was too high without explicit poverty reduction discussions.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Zero Hunger, confirming the absence of relevant content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on health implications from war and refugees is relevant, while Model A initially overlooked this aspect.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Model A's original score accurately reflects the explicit learning outcomes related to independent thinking and cultural respect.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Gender Equality, confirming the absence of relevant content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Clean Water and Sanitation, confirming the absence of relevant content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Affordable and Clean Energy, confirming the absence of relevant content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the course's focus on Turkish political economy and the Belt and Road Initiative, which are relevant to economic growth.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score accurately reflects the course's focus on the Belt and Road Initiative, a significant infrastructure project.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score captures the course's focus on ethnic conflicts and refugee issues, which are directly related to inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Sustainable Cities and Communities, confirming the absence of relevant content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Responsible Consumption and Production, confirming the absence of relevant content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Climate Action, confirming the absence of relevant content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Life Below Water, confirming the absence of relevant content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to Life on Land, confirming the absence of relevant content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Model B's comprehensive coverage of geopolitics and conflict aligns perfectly with the course's focus, justifying the highest score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on international relations and Turkey's role in global initiatives is well-supported by course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The course discusses economic development (political economy, Belt and Road) and refugee crises, which are indirect factors. However, it lacks explicit focus on poverty reduction strategies or outcomes.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus explicitly or implicitly relates to hunger, food security, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course covers 'war and refugees' and the 'Syrian civil war,' which inherently involve significant health and well-being challenges for affected populations, even if health isn't a direct topic.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "The course explicitly aims to develop 'independent thinking' and 'respect for diverse cultures,' which are direct contributions to quality education and global citizenship.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus explicitly or implicitly relates to gender equality or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus explicitly or implicitly relates to clean water, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus explicitly or implicitly relates to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Turkish political economy' and the 'Belt and Road Initiative,' which are directly related to national economic structures and large-scale development.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers the 'Belt and Road Initiative,' which is a significant international infrastructure development strategy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly addresses 'Eurasian ethnic conflicts (Xinjiang, Kurds)' and the 'European refugee crisis,' which are direct manifestations of inequalities and marginalization.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus explicitly or implicitly relates to sustainable cities, urban planning, or community development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus explicitly or implicitly relates to responsible consumption or production patterns.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus explicitly or implicitly relates to climate action or environmental issues.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus explicitly or implicitly relates to marine life or ocean conservation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus explicitly or implicitly relates to terrestrial ecosystems, biodiversity, or land management.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally centered on geopolitics, conflict, and international relations, explicitly covering 'Syrian civil war,' 'terrorism,' 'ethnic conflicts,' 'war and refugees,' and 'foreign policy.'",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course heavily focuses on international relations and partnerships, analyzing Turkey's role with the 'EU,' the 'Middle East,' and its involvement in the 'Belt and Road Initiative.'",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

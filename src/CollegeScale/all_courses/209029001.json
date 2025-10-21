@@ -1,0 +1,719 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course aims to cultivate critical thinking and understanding of diverse cultures → relevant to Quality Education.",
+      "score": 7.0,
+      "evidence": [
+        "培養深度閱讀臺灣民族誌之批判性思考能力",
+        "了解何謂「民族誌」",
+        "認識臺灣之多元族群與文化"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "Course discusses '新移民' and related social issues → relevant to Gender Equality.",
+      "score": 4.0,
+      "evidence": [
+        "外籍新娘現象",
+        "成為移民世代的真實故事"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Course addresses economic aspects of indigenous groups → relevant to Decent Work and Economic Growth.",
+      "score": 5.0,
+      "evidence": [
+        "民族經濟",
+        "經濟與社會"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "Course focuses on diverse ethnic groups and their issues → relevant to Reduced Inequalities.",
+      "score": 6.0,
+      "evidence": [
+        "多元族群文化之形成與議題",
+        "族群議題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "Course discusses indigenous ecological knowledge → relevant to Life on Land.",
+      "score": 5.0,
+      "evidence": [
+        "原住民生態知識",
+        "民族生態"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 2.0,
+      "reason": "Discusses \"民族經濟\" (ethnic economy) and economic changes for various groups, but lacks a direct focus on poverty as a central theme.",
+      "evidence": [
+        "民族經濟",
+        "邵族的經濟生活",
+        "農業經濟變遷的調適"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 1.001,
+      "reason": "Mentions agricultural topics like \"從旱田到果園\" (from dry fields to orchards), but does not address hunger, food security, or sustainable agriculture.",
+      "evidence": [
+        "從旱田到果園—道澤與卡母界農業經濟變遷的調適"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Good Health and Well-being": {
+      "score": 4.5,
+      "reason": "Includes readings on \"原住民族的健康不均等\" (health inequality of Indigenous Peoples), \"老人照顧\" (elderly care), and mental health issues.",
+      "evidence": [
+        "國家發展與原住民族的健康不均等─以太魯閣族肝病為例",
+        "初探太魯閣族老人照顧",
+        "蘭嶼達悟人精神失序受苦的社會根源"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "score": 5.0,
+      "reason": "A primary course objective is to \"培養深度閱讀臺灣民族誌之批判性思考能力\" and it includes readings on \"文化教育\" within communities.",
+      "evidence": [
+        "培養深度閱讀臺灣民族誌之批判性思考能力",
+        "文化資產與在地社群的文化教育",
+        "思考如何應用民族學於臺灣當代族群議題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 6.0,
+      "reason": "Explicitly addresses gender-specific issues through readings on \"第一代眷村婦女\" (first-generation military dependents' village women), \"妊娠移工勞動權益\" (labor rights of pregnant migrant workers), and migrant mothers.",
+      "evidence": [
+        "被隔離的她者：第一代眷村婦女的性、戰爭與流亡記憶",
+        "我國妊娠移工勞動權益問題之研究",
+        "東南亞移工媽媽的困境"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "score": 3.0,
+      "reason": "A reading directly addresses water management through the lens of \"原住民生態知識與流域治理\" (Indigenous ecological knowledge and watershed governance).",
+      "evidence": [
+        "原住民生態知識與流域治理:以泰雅族Mrqwang 群之人河關係為例"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 5.5,
+      "reason": "Discusses \"民族經濟\" (ethnic economy) and labor issues, with specific focus on \"移工\" (migrant workers) and their labor rights.",
+      "evidence": [
+        "民族經濟",
+        "我國妊娠移工勞動權益問題之研究",
+        "誰從台越國際勞動力流動獲利"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 1.5,
+      "reason": "Briefly mentions \"農工業發展\" (agricultural and industrial development) in a suburban community, but this is not a central theme of the course.",
+      "evidence": [
+        "一個市郊社區的農工業發展與類型劃分"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 9.5,
+      "reason": "The course's core focus is on \"臺灣多元族群文化之形成與議題,\" examining inequalities faced by indigenous peoples, immigrants, and other minority groups.",
+      "evidence": [
+        "臺灣多元族群文化之形成與議題",
+        "原住民族的健康不均等",
+        "解構新自由主義全球化下的「第五大族群─新住民」論述"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 6.5,
+      "reason": "Examines community dynamics through topics like \"聚落\" (settlements), disaster-induced \"遷村\" (village relocation), and \"社區文化空間營造\" (community cultural space creation).",
+      "evidence": [
+        "災難、遷村與社會脆弱性",
+        "莫拉克災後原住民社區文化空間營造",
+        "中和緬甸街移地教學"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 2.5,
+      "reason": "Addresses the impact of climate-related events like \"莫拉克風災\" (Typhoon Morakot) on communities, leading to \"災難、遷村與社會脆弱性\" (disaster, village relocation, and social vulnerability).",
+      "evidence": [
+        "災難、遷村與社會脆弱性",
+        "莫拉克風災對荖濃溪、楠梓仙溪流域原住民族群遷徙與文化變遷的影響與因應"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "score": 2.0,
+      "reason": "Includes a reading on the \"社會與生態意涵\" (social and ecological implications) of the \"東海岸阿美族海祭\" (Amis sea rituals), directly linking culture to marine life.",
+      "evidence": [
+        "東海岸阿美族海祭的社會與生態意涵"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life on Land": {
+      "score": 6.8,
+      "reason": "A significant theme is \"民族生態\" (ethnic ecology), with multiple readings on \"原住民生態知識\" (indigenous ecological knowledge) and \"傳統領域\" (traditional territories).",
+      "evidence": [
+        "民族生態",
+        "原住民生態知識與流域治理",
+        "傳統領域的裂解與重構"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 8.0,
+      "reason": "Focuses on \"民族政治\" (ethnic politics), \"民族認定\" (ethnic recognition), historical injustices like the \"霧社事件\" (Wushe Incident), and the rights and sovereignty of ethnic groups.",
+      "evidence": [
+        "民族政治",
+        "平埔族群的主權",
+        "霧社事件遺族的心聲"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 2.0,
+      "reason": "The course structure includes \"客座演講\" (guest lectures) and an \"移地教學\" (field trip) led by a community practitioner, demonstrating partnerships in education.",
+      "evidence": [
+        "客座演講",
+        "移地教學",
+        "講師：楊萬利（...「三季 Sanji Teahouse」的共同創辦人）"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive insights into several SDGs, prompting revisions in my scores for accuracy.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B highlights economic aspects relevant to poverty, which I initially overlooked."
+      },
+      "Zero Hunger": {
+        "your_original": 0.001,
+        "model_b_score": 1.001,
+        "your_revised": 1.001,
+        "reason": "Model B's mention of agricultural topics indicates relevance to hunger."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's focus on health inequalities provides a clearer connection to this SDG."
+      },
+      "Life on Land": {
+        "your_original": 5.0,
+        "model_b_score": 6.8,
+        "your_revised": 6.8,
+        "reason": "Model B emphasizes indigenous ecological knowledge, enhancing relevance to this SDG."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's focus on ethnic politics and historical injustices aligns closely with this SDG."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A missed significant explicit evidence for several SDGs. However, Model A's assessment of 'No Poverty', 'Zero Hunger', and 'Industry, Innovation and Infrastructure' is more accurate, leading to revisions. Model A's higher score for 'Quality Education' is also justified.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 2.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model A correctly identified no direct evidence for poverty alleviation, making my original inferred score too generous."
+      },
+      "Zero Hunger": {
+        "your_original": 1.001,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "My original score was based on a weak agricultural link; Model A's 'no evidence found' is more accurate for hunger."
+      },
+      "Quality Education": {
+        "your_original": 5.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "The course's explicit objectives on critical thinking and understanding diverse cultures strongly align with Quality Education, justifying a higher score."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 1.5,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "The mention of '農工業發展' is too brief and not central to the SDG's focus, making Model A's 'no evidence' more accurate."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on economic aspects relevant to poverty is valid, while Model A's initial score lacked evidence. The revised score reflects a balanced view of economic discussions in the course.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models lacked substantial evidence linking the course content to hunger or food security, making the 'no evidence' score the most accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on health inequalities aligns well with course content, while Model A's initial score was too low. The revised score reflects explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the course's focus on critical thinking and cultural understanding, but Model A's higher score is justified by explicit course objectives.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the course's focus on gender issues, while Model A's score is lower. The evidence supports a higher score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score is supported by evidence of indigenous ecological knowledge related to water management, while Model A found no evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to energy, making the 'no evidence' score the most accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the course's focus on economic aspects and labor rights, while Model A's score is lower. The evidence supports a higher score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found insufficient evidence to support this SDG, making the 'no evidence' score the most accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score accurately reflects the course's core focus on inequalities faced by various groups, supported by explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score is supported by evidence of community dynamics and cultural space creation, while Model A found no evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to responsible consumption, making the 'no evidence' score the most accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Climate Action": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the course's discussion on climate-related events, while Model A found no evidence. The score is justified by relevant readings.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score is supported by evidence linking culture to marine life, while Model A found no evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 6.8,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on indigenous ecological knowledge aligns well with course content, while Model A's score was lower. The evidence supports a higher score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 6.8,
+        "model_b_original": 6.8,
+        "model_b_revised": 6.8
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on ethnic politics and historical injustices aligns closely with course content, while Model A's score was too low. The evidence supports a higher score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the course's structure involving guest lectures and community engagement, while Model A found no evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "The course discusses '民族經濟' and economic changes, but lacks direct evidence or central focus on poverty alleviation or eradication as defined by SDG 1. Model B's revised score is accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "While agricultural topics are mentioned, there is no explicit or strong inferred evidence related to hunger, food security, or sustainable agriculture practices aimed at ending hunger. Model B's revised score is accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "Model B provides explicit evidence with readings on '原住民族的健康不均等,' '老人照顧,' and '精神失序受苦,' directly linking to health, well-being, and inequalities. Model A revised to match this score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "revised_b",
+      "reasoning": "The course explicitly aims to cultivate critical thinking and understanding of diverse cultures, and includes readings on '文化教育.' This strong alignment with SDG 4 justifies the higher score, as Model B revised to match Model A.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "Model B provides strong, explicit evidence through readings on '第一代眷村婦女,' '妊娠移工勞動權益,' and '移工媽媽的困境,' directly addressing gender-specific issues and vulnerabilities.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "Model B identifies a reading on '原住民生態知識與流域治理,' which directly relates to water resource management and governance, a key aspect of SDG 6.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models correctly identified no evidence in the syllabus or readings related to affordable and clean energy. The minimal score is accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course covers '民族經濟' and explicitly delves into labor issues concerning '移工' and their '勞動權益,' including international labor flows, which are central to decent work and inclusive economic growth.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "The brief mention of '農工業發展' is too tangential to the core objectives of SDG 9 (resilient infrastructure, sustainable industrialization, innovation). Model B's revised score is accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course's central theme is '臺灣多元族群文化之形成與議題,' directly addressing social, economic, and political inequalities faced by various ethnic groups, including indigenous peoples and immigrants. This is a core focus.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers community dynamics, disaster-induced relocation, cultural space creation in communities, and includes a field trip to an urban ethnic community, all aligning with sustainable communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models correctly identified no evidence in the syllabus or readings related to responsible consumption and production patterns. The minimal score is accurate.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The course examines the impacts of significant natural disasters like '莫拉克風災' on communities, including relocation and cultural change, which are relevant to climate change adaptation and resilience.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "Model B identifies a reading on '東海岸阿美族海祭的社會與生態意涵,' which directly connects human cultural practices and their ecological implications to marine life, aligning with SDG 14.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 6.8,
+      "source": "model_b",
+      "reasoning": "The course extensively covers '民族生態,' '原住民生態知識,' and '傳統領域,' directly addressing land management, conservation, and the relationship between indigenous communities and terrestrial ecosystems. Model A revised to match this score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 6.8,
+        "model_b_original": 6.8,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course extensively covers '民族政治,' ethnic recognition, historical injustices (e.g., '霧社事件'), and the sovereignty and rights of various ethnic groups, which are core to peace, justice, and inclusive institutions. Model A revised to match this score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The inclusion of '客座演講' and '移地教學' led by community practitioners demonstrates partnerships for knowledge exchange and learning, indirectly supporting the spirit of collaboration inherent in SDG 17.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

@@ -1,0 +1,682 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course aims to deepen understanding of legal systems → relevant to Quality Education.",
+      "score": 4.5,
+      "evidence": [
+        "深度掌握相關法制的適用與政策背景下的理解",
+        "企求使授課同學深度掌握相關法制"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Course discusses economic interactions and policies → relevant to Decent Work and Economic Growth.",
+      "score": 6.5,
+      "evidence": [
+        "兩岸經貿互動越來越為深度互動",
+        "對於我國業者在中國投資所衍生之議題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Course covers legal frameworks impacting economic activities → relevant to Industry, Innovation and Infrastructure.",
+      "score": 5.0,
+      "evidence": [
+        "經貿法制的分析與介紹",
+        "中國法律體系框架"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Course discusses legal systems and reforms → relevant to Peace, Justice and Strong Institutions.",
+      "score": 7.0,
+      "evidence": [
+        "中國司法制度改革之發展態樣",
+        "法律制度從無序迅速進入一個粗具框架的狀態"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 1.001,
+      "reason": "The course focuses on economic and trade law, which can indirectly support poverty reduction through economic growth, but does not explicitly mention poverty.",
+      "evidence": [
+        "兩岸在經貿交通等方面已快速整合",
+        "中國資金來台投資"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.001,
+      "reason": "The course mentions COVID-19 ('新冠肺炎蔓延') only as a contextual factor affecting trade, not as a topic of health or well-being.",
+      "evidence": [
+        "2020年以來的新冠肺炎蔓延至今，使得經貿往來有不停的面貌"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "score": 1.001,
+      "reason": "As a university seminar, this course is an instance of higher education, but its content does not focus on improving educational systems or access.",
+      "evidence": [
+        "科目名稱：兩岸經貿法制與實務專題研究（一）",
+        "開課單位：法碩專一、法碩專二"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 9.5,
+      "reason": "The course's central theme is cross-strait economic and trade law, investment, and policy, which are fundamental drivers of economic growth.",
+      "evidence": [
+        "兩岸經貿法制與實務專題研究",
+        "兩岸在經貿交通等方面已快速整合",
+        "中國資金來台投資也成為現實"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 7.5,
+      "reason": "The course analyzes legal frameworks for investment ('外商投資法') and infrastructure such as transportation ('包機直航'), which are key to industry and innovation.",
+      "evidence": [
+        "兩岸進行包機直航後，兩岸在經貿交通等方面已快速整合",
+        "立法中的外國投資法對外資的衝擊",
+        "變遷下的中國投資法律環境"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 10.0,
+      "reason": "The course is a deep analysis of legal systems ('法制'), judicial operations ('司法制度之運作'), and dispute resolution, which are central to building strong institutions.",
+      "evidence": [
+        "兩岸經貿法制與實務專題研究",
+        "中國司法制度之運作",
+        "企業常見法律糾紛與救濟管道"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 8.5,
+      "reason": "The course examines the bilateral economic partnership between Taiwan and mainland China, including agreements ('兩岸投資保障協議') and institutional interactions ('兩岸互動往來').",
+      "evidence": [
+        "兩岸互動往來的經貿議題作深度之檢視",
+        "兩岸投資保障協議是怎麼一回事",
+        "轉為一個朝向雙向互動往來的局面"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides a more comprehensive understanding of the course's implications for economic growth and legal systems.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 1.001,
+        "your_revised": 1.001,
+        "reason": "Model B highlights indirect support for poverty reduction through economic growth."
+      },
+      "Quality Education": {
+        "your_original": 4.5,
+        "model_b_score": 1.001,
+        "your_revised": 1.001,
+        "reason": "Model B correctly identifies the course's focus on legal systems rather than educational improvement."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.5,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B emphasizes the course's central theme of economic and trade law as key drivers of growth."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 5.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's score reflects the course's focus on legal frameworks impacting industry and innovation."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B accurately captures the course's deep analysis of legal systems and dispute resolution."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B highlights the course's examination of bilateral economic partnerships."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's analysis provided stronger justification for Quality Education and correctly identified the lack of direct relevance for No Poverty.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 1.001,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model B correctly noted no explicit evidence. My original inference was too weak, as the course doesn't directly address poverty reduction."
+      },
+      "SDG_4 (Quality Education)": {
+        "your_original": 1.001,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's reasoning, citing the course's aim to deepen understanding of legal systems, better aligns with SDG 4's focus on relevant knowledge acquisition."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.001,
+      "source": "synthesized",
+      "reasoning": "The course indirectly supports poverty reduction through economic growth, as highlighted by both models. However, explicit evidence is lacking.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material to support any relevance to Zero Hunger.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course mentions COVID-19 only as a contextual factor, lacking direct relevance to health and well-being.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "The course aims to deepen understanding of legal systems, aligning well with the objectives of Quality Education.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 4.5,
+        "model_b_original": 1.001,
+        "model_b_revised": 4.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material to support any relevance to Gender Equality.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material to support any relevance to Clean Water and Sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material to support any relevance to Affordable and Clean Energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "The course's focus on economic and trade law is a key driver of economic growth, supported by explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "The course covers legal frameworks impacting industry and innovation, aligning well with the SDG's objectives.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material to support any relevance to Reduced Inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material to support any relevance to Sustainable Cities and Communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material to support any relevance to Responsible Consumption and Production.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material to support any relevance to Climate Action.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material to support any relevance to Life Below Water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material to support any relevance to Life on Land.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course provides a deep analysis of legal systems and dispute resolution, aligning perfectly with the objectives of this SDG.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "The course examines bilateral economic partnerships, which aligns well with the objectives of this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course focuses on economic law and investment, but does not explicitly address poverty reduction strategies or direct impacts on vulnerable populations. The link is too indirect.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to food security, nutrition, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The mention of COVID-19 is solely as a contextual factor impacting trade, not as a topic related to health or well-being initiatives.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.5,
+      "source": "model_a",
+      "reasoning": "As a specialized university seminar, the course aims to deepen students' understanding of complex legal systems, directly contributing to quality knowledge acquisition and lifelong learning for its participants.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 4.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to gender equality or the empowerment of women and girls.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to water resources, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course's central theme is cross-strait economic and trade law, investment, and policy, which are fundamental drivers of sustained economic growth and conditions for employment.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course analyzes legal frameworks for foreign investment and discusses cross-strait transportation integration, directly impacting industrial development, infrastructure, and fostering innovation.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit evidence in the course syllabus addresses reducing inequalities within or among countries, despite its focus on cross-strait interactions.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to urban development, housing, or sustainable human settlements.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to sustainable consumption, production patterns, or resource efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to climate change, its impacts, or mitigation efforts.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to marine ecosystems, oceans, or aquatic resources.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to terrestrial ecosystems, forests, or biodiversity.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course provides a deep analysis of legal systems, judicial operations, and dispute resolution mechanisms, which are central to building effective, accountable, and inclusive institutions.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course deeply examines bilateral economic interactions, legal frameworks, and agreements between Taiwan and mainland China, directly reflecting the spirit of partnerships for shared goals.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

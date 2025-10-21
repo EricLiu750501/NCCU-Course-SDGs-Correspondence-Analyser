@@ -1,0 +1,668 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Mentions '培養同學資訊專業知能' and '核心能力' → relevant to Quality Education.",
+      "score": 7.5,
+      "evidence": [
+        "培養同學資訊專業知能",
+        "核心能力"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Mentions '商業相關應用' → relevant to Decent Work and Economic Growth.",
+      "score": 4.5,
+      "evidence": [
+        "商業相關應用"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Mentions '人工智慧技術與應用' → relevant to Industry, Innovation and Infrastructure.",
+      "score": 8.0,
+      "evidence": [
+        "人工智慧技術與應用"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Mentions '人工智慧倫理' → relevant to Peace, Justice and Strong Institutions.",
+      "score": 5.0,
+      "evidence": [
+        "人工智慧倫理"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding poverty, economic disparity, or financial inclusion.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to food, agriculture, or hunger.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description concerning health, medicine, or well-being.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 8.5,
+      "reason": "The course is fundamentally educational, aiming to 'lay the foundation for subsequent information-related courses' and 'cultivate lifelong learning ability' through technology.",
+      "evidence": [
+        "為之後修習資訊相關課程奠下基礎",
+        "培養同學資訊專業知能",
+        "培養終身學習能力"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding gender equality or the empowerment of women and girls.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to water resources, sanitation, or hygiene.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description concerning energy, renewables, or sustainability in power.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 4.5,
+      "reason": "The course discusses the 'impact of artificial intelligence on society, economy' and 'business-related applications,' which relates to future work and economic development.",
+      "evidence": [
+        "人工智慧對社會、經濟和文化的影響",
+        "大數據中資料科學的基礎分析概念與商業相關應用"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 9.5,
+      "reason": "The course core is 'Computational Thinking and Introduction to Artificial Intelligence,' focusing on technological innovation, 'computer operating architecture,' and 'Artificial intelligence technology and applications.'",
+      "evidence": [
+        "計算思維與人工智慧應用導論",
+        "電腦運算架構",
+        "人工智慧技術與應用"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding reducing inequality within or among countries.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to cities, communities, housing, or sustainable urban development.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description concerning consumption, production patterns, or resource management.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to climate change, environmental impact, or climate action.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding marine ecosystems, oceans, or life below water.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description related to terrestrial ecosystems, biodiversity, or land use.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 3.5,
+      "reason": "The course addresses 'Artificial intelligence ethics' and 'ethical issues in future artificial intelligence applications,' which relates to justice and governance in technology.",
+      "evidence": [
+        "人工智慧倫理",
+        "未來人工智慧應用上的倫理問題",
+        "公民素養"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 2.5,
+      "reason": "The course fosters collaborative skills through 'teamwork ability' and a 'final group project,' which are foundational to building partnerships.",
+      "evidence": [
+        "團隊合作能力",
+        "期末小組專題培養溝通表達能力、領導力及團隊合作能力",
+        "跨領域創新與溝通能力"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides a more comprehensive understanding of Quality Education and Industry, Innovation and Infrastructure, warranting score revisions.",
+    "revisions": {
+      "Quality Education": {
+        "your_original": 7.5,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B highlights lifelong learning and foundational skills, which are crucial for Quality Education."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 8.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B emphasizes technological innovation and applications, aligning closely with the course focus."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 5.0,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model B's lower score reflects a more accurate assessment of the course's limited focus on justice and governance."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more comprehensive evidence for several SDGs, leading to revisions in my scores for Quality Education, Industry/Innovation/Infrastructure, Peace/Justice/Institutions, and Partnerships for the Goals.",
+    "revisions": {
+      "SDG_4 (Quality Education)": {
+        "your_original": 7.5,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A's evidence, including 'lifelong learning ability' and 'laying foundation for future courses,' is more comprehensive and justifies a higher score."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 8.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model A's inclusion of 'computer operating architecture' and the course title strengthens the link to innovation and infrastructure, warranting a higher score."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 5.0,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "While 'AI ethics' is present, Model A's lower score better reflects the course's direct impact on broader 'justice' and 'institutions' beyond just ethical considerations."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A correctly identified explicit evidence like 'teamwork ability' and 'final group project,' which I initially overlooked, directly supporting this SDG."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty, making this score consistent with the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course description pertains to hunger or food security, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Neither model identified relevant evidence regarding health or well-being in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models revised their scores to reflect the course's emphasis on foundational skills and lifelong learning, aligning well with SDG 4.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to gender equality was found in the course description, supporting this score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no relevant evidence regarding water or sanitation issues in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to energy or sustainability was identified in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified relevant evidence regarding AI's impact on society and economy, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Both models revised their scores to reflect the course's strong focus on AI technology and innovation, aligning with SDG 9.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to reducing inequalities was found in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no relevant evidence regarding sustainable urban development in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to consumption or production patterns was identified in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence regarding climate change or environmental issues was found in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no relevant evidence regarding marine ecosystems or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to terrestrial ecosystems or biodiversity was identified in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 3.5,
+      "source": "synthesized",
+      "reasoning": "Both models revised their scores to reflect the limited focus on justice and governance, aligning with the course content.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified evidence related to teamwork and collaboration, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus relates to poverty eradication or economic inclusion.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus relates to food security, nutrition, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus relates to health, well-being, or medical applications.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly aims to 'lay the foundation for subsequent information-related courses,' 'cultivate professional knowledge,' and 'lifelong learning ability,' directly aligning with quality education goals.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus relates to gender equality or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus relates to water resources, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus relates to energy, renewables, or sustainable power.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course discusses 'AI's impact on society, economy' and 'business-related applications,' linking AI to future work and economic development, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "The course directly focuses on 'Computational Thinking and AI,' 'computer operating architecture,' and 'AI technology and applications,' making it highly relevant to innovation and infrastructure.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus relates to reducing inequalities within or among countries.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus relates to urban development, housing, or sustainable communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus relates to consumption patterns, resource management, or sustainable production.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus relates to climate change, environmental impact, or climate action.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus relates to marine ecosystems or oceans.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus relates to terrestrial ecosystems, biodiversity, or land use.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 3.5,
+      "source": "revised_a",
+      "reasoning": "The course addresses 'Artificial intelligence ethics' and 'ethical issues,' and 'civic literacy,' which touches on justice and governance, but its scope is limited.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly fosters 'teamwork ability' and includes a 'final group project,' which are foundational skills for building effective partnerships.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

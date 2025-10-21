@@ -1,0 +1,665 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Focus on '圖書資訊學與圖書館事業的價值與功能' → relevant to Quality Education.",
+      "score": 7.5,
+      "evidence": [
+        "圖書資訊學與圖書館事業的價值與功能",
+        "了解圖書資訊學理論與實務基礎知識",
+        "圖書館技術服務與讀者服務的實務議題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "Mentions '多元族群服務' and '身心障礙讀者服務' → relevant to Gender Equality.",
+      "score": 4.5,
+      "evidence": [
+        "多元族群服務",
+        "身心障礙讀者服務"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "Mentions '多元族群服務' and '身心障礙讀者服務' → relevant to Reduced Inequalities.",
+      "score": 4.5,
+      "evidence": [
+        "多元族群服務",
+        "身心障礙讀者服務"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Mentions '知識自由與圖書查禁' → relevant to Peace, Justice and Strong Institutions.",
+      "score": 5.0,
+      "evidence": [
+        "知識自由與圖書查禁"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "No evidence found in the course description related to poverty alleviation, economic inclusion, or social protection.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found in the course description related to food security, nutrition, or sustainable agriculture.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "The course includes a unit on '身心障礙讀者服務' (services for readers with disabilities), which promotes well-being and access for individuals with health challenges.",
+      "score": 4.0,
+      "evidence": [
+        "身心障礙讀者服務"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "The course is fundamentally about Library and Information Science, focusing on access to information, '知識自由' (intellectual freedom), and '數位資訊服務' (digital information services), which are cornerstones of education.",
+      "score": 9.5,
+      "evidence": [
+        "圖書資訊學(Library and Information Science, LIS)理論與實務基礎課程",
+        "知識自由與圖書查禁",
+        "數位資訊服務"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "The course's focus on '多元族群服務' (services for diverse populations) can be inferred to include promoting equal access to information for all genders.",
+      "score": 3.0,
+      "evidence": [
+        "多元族群服務"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found in the course description related to water resources, sanitation, or hygiene.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found in the course description related to energy access, renewable energy, or energy efficiency.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course prepares students for professional careers in the '圖書館事業' (library profession), covering '圖書館管理的基本知識' (basic knowledge of library management), thus contributing to decent work in this sector.",
+      "score": 4.5,
+      "evidence": [
+        "圖書館事業",
+        "具備圖書資訊學與圖書館管理的基本知識"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course covers '數位資訊服務' (digital information services) and '資訊組織' (information organization), which are fundamental to building and maintaining resilient information infrastructure.",
+      "score": 7.0,
+      "evidence": [
+        "數位資訊服務",
+        "資訊組織"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "The course has a strong focus on reducing inequalities in information access through dedicated units on '多元族群服務' (services for diverse populations) and '身心障礙讀者服務' (services for readers with disabilities).",
+      "score": 9.0,
+      "evidence": [
+        "多元族群服務",
+        "身心障礙讀者服務"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "The course addresses '典藏維護' (preservation/conservation) and the library's role in a '社會和文化脈絡' (social and cultural context), contributing to the safeguarding of cultural heritage in communities.",
+      "score": 4.0,
+      "evidence": [
+        "典藏維護",
+        "在社會和文化脈絡中，圖書資訊學與圖書館事業的價值與功能"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "The course mentions the need to '維護智慧財產權' (Respect Copyright), which relates to the responsible production and consumption of information and intellectual property.",
+      "score": 2.0,
+      "evidence": [
+        "維護智慧財產權，務必使用正版書籍"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "No evidence found in the course description related to climate change, environmental protection, or climate action.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found in the course description related to marine ecosystems, oceans, or aquatic life.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found in the course description related to terrestrial ecosystems, biodiversity, or land use.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course directly addresses core principles of strong institutions by covering '知識自由與圖書查禁' (intellectual freedom and book censorship), '資訊政策' (information policy), and '圖書館價值與倫理' (library value and ethics).",
+      "score": 9.5,
+      "evidence": [
+        "知識自由與圖書查禁",
+        "圖書館價值與倫理",
+        "資訊社會與資訊政策"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found in the course description related to partnerships, multi-stakeholder collaboration, or global cooperation.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations of the course text, particularly for Good Health and Well-being, Quality Education, Gender Equality, Reduced Inequalities, and Peace, Justice and Strong Institutions.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B correctly identifies the relevance of '身心障礙讀者服務' to well-being."
+      },
+      "Quality Education": {
+        "your_original": 7.5,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B emphasizes the course's focus on intellectual freedom and digital services, enhancing the education score."
+      },
+      "Gender Equality": {
+        "your_original": 4.5,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B's inferred reasoning aligns better with the course's focus on diverse services."
+      },
+      "Reduced Inequalities": {
+        "your_original": 4.5,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B highlights the strong focus on reducing inequalities through dedicated services."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 5.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B accurately captures the course's emphasis on intellectual freedom and ethics."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "No revisions needed. Model B's analysis aligns with mine, as Model A frequently missed explicit connections or undervalued the strength of the evidence provided in the course text.",
+    "revisions": {}
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty alleviation in the course text, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to hunger or food security was found in the course description, supporting the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Model B's identification of '身心障礙讀者服務' as promoting well-being is supported by course evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's focus on intellectual freedom and digital services, but Model B's score reflects a more comprehensive understanding.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Model B's inferred reasoning aligns better with the course's focus on diverse services, justifying a lower score.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to water or sanitation was found in the course description, supporting the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to energy access or sustainability in the course text.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the course's preparation for professional careers in library management, supported by explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score captures the course's focus on digital information services and infrastructure, aligning with course evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on services for diverse populations and readers with disabilities aligns strongly with course evidence.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the course's focus on preservation and cultural context, supported by explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score captures the course's mention of copyright, which relates to responsible consumption of information.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to climate action or environmental protection was found in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to marine ecosystems or aquatic life in the course text.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to terrestrial ecosystems or biodiversity was found in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score accurately reflects the course's emphasis on intellectual freedom and ethics, supported by explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to partnerships or collaboration was found in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course content relates to poverty alleviation, economic inclusion, or social protection.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course content relates to food security, nutrition, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly includes '身心障礙讀者服務' (services for readers with disabilities), directly contributing to the well-being and access for individuals with health challenges.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "The course is foundational to Library and Information Science, emphasizing access to information, intellectual freedom, and digital services, all critical for quality education and lifelong learning.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 3.0,
+      "source": "revised_a",
+      "reasoning": "The course's '多元族群服務' (services for diverse populations) can be inferred to include promoting equal access to information for all genders, though it's not explicitly stated.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course content relates to water resources, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course content relates to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course prepares students for professional careers in the library sector, providing fundamental knowledge of library management, thus contributing to decent work.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course covers '數位資訊服務' and '資訊組織', which are fundamental to developing and maintaining resilient information infrastructure, a core component of this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The course strongly focuses on reducing inequalities in information access through dedicated units on '多元族群服務' and '身心障礙讀者服務', directly aligning with this SDG.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course addresses '典藏維護' and the library's role in a '社會和文化脈絡', contributing to safeguarding cultural heritage within communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course mentions '維護智慧財產權', which relates to the responsible production and consumption of information and intellectual property, an indirect link to this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course content relates to climate change, environmental protection, or climate action.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course content relates to marine ecosystems, oceans, or aquatic life.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course content relates to terrestrial ecosystems, biodiversity, or land use.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "The course directly addresses '知識自由與圖書查禁', '圖書館價值與倫理', and '資訊政策', which are core principles for promoting peaceful, just, and inclusive societies and strong institutions.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course content relates to partnerships, multi-stakeholder collaboration, or global cooperation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    }
+  }
+}

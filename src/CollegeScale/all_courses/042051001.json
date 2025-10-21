@@ -1,0 +1,714 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course includes lectures and team reports → relevant to Quality Education.",
+      "score": 4.0,
+      "evidence": [
+        "提供10-12場講座",
+        "團隊報告"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Focus on Taiwan's investment and economic policies → relevant to Decent Work and Economic Growth.",
+      "score": 7.0,
+      "evidence": [
+        "台商投資個案分析",
+        "兩岸經貿政策比較與分析"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Mentions 'AI科技產業挑戰' → relevant to Industry, Innovation and Infrastructure.",
+      "score": 4.0,
+      "evidence": [
+        "AI(人工智慧)的發展亦更加大程度的影響市場競爭"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Mentions '地緣政治' → relevant to Peace, Justice and Strong Institutions.",
+      "score": 4.0,
+      "evidence": [
+        "地緣政治和更嚴峻之政治、社會衝擊"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 2.5,
+      "reason": "The course discusses investment and economic outlooks in developing regions, such as the mention of '非洲經貿與投資展望' (Africa's economic, trade, and investment outlook), which relates to economic development.",
+      "evidence": [
+        "非洲經貿與投資展望",
+        "中國、非洲大陸經濟情勢/政經情勢分析"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 9.5,
+      "reason": "The course is fundamentally about '經濟全球化' (Economic globalization), '台商大陸投資' (Taiwan's Investment in Mainland China), and '兩岸經貿政策' (Cross-strait economic and trade policies), which are core to this SDG.",
+      "evidence": [
+        "經濟全球化與台商大陸投資",
+        "兩岸經貿政策比較與分析",
+        "全球經濟板塊和產業調整更為劇烈"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 8.5,
+      "reason": "The course focuses on '全球供應鏈調整與變遷' (global supply chain adjustment), 'AI(人工智慧)的發展' (development of AI), and the '半導體產業發展與挑戰' (Semiconductor industry development), directly addressing this SDG.",
+      "evidence": [
+        "全球供應鏈調整與變遷",
+        "AI(人工智慧)的發展亦更加大程度的影響市場競爭和面貌",
+        "【專題 7】半導體產業發展與挑戰"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 2.8,
+      "reason": "The course analyzes economic relations and policies between different regions, such as the '美中關稅衝擊' and investment in Africa, which implicitly relates to inequalities among countries.",
+      "evidence": [
+        "美中關稅衝擊，導致全球供應鏈調整與變遷",
+        "中國、非洲大陸經濟情勢/政經情勢分析",
+        "兩岸、東南亞經貿互動與地緣政治挑戰"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 1.5,
+      "reason": "The course mentions specific industrial cities with the '東莞與昆山經驗' (Dongguan and Kunshan experience), but the focus is on investment, not sustainable urban development.",
+      "evidence": [
+        "台商投資2：東莞與昆山經驗╱在地化"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "score": 2.0,
+      "reason": "The course discusses changes in production patterns through '全球供應鏈調整' (global supply chain adjustment) and '短鏈化' (short-chaining), but lacks a focus on sustainability.",
+      "evidence": [
+        "全球供應鏈調整與變遷",
+        "台商的全球投資與布局亦須做「去風險化」、在地化、區域化和短鏈化之相應變革"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 8.0,
+      "reason": "The course explicitly links economic activities to '地緣政治(Geopolitics)', '美中貿易科技戰' (US-China trade and technology war), and '兩岸經貿政策' (Cross-strait economic and trade policies), which are central to this SDG.",
+      "evidence": [
+        "牽動地緣政治(Geopolitics)急遽變遷",
+        "美中貿易科技戰與烏俄戰爭對經濟全球化影響",
+        "【專題 5】現階段大陸與兩岸經貿政策"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 7.0,
+      "reason": "The course's entire theme revolves around international economic partnerships, including '跨國企業管理' (multinational enterprise management), '兩岸、東南亞經貿互動' (Cross-strait, Southeast Asia economic interaction), and global investment.",
+      "evidence": [
+        "經濟全球化",
+        "兩岸、東南亞經貿互動與地緣政治挑戰",
+        "【專題 2】跨國企業管理經驗分享"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive insights into economic aspects relevant to SDGs, prompting revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B highlights economic development in Africa, which aligns with course content."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 7.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B emphasizes the course's focus on economic globalization and policies."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 4.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's analysis of supply chain adjustments and AI development is more comprehensive."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 2.8,
+        "your_revised": 2.8,
+        "reason": "Model B connects economic relations to inequalities, which is relevant to the course."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's focus on geopolitics and trade wars aligns closely with course themes."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B accurately reflects the course's emphasis on international economic partnerships."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more comprehensive evidence and stronger inferences for several SDGs, particularly those related to international economic relations and development. My initial analysis overlooked some key connections.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 2.5,
+        "reason": "Model A's inference regarding economic development and investment in regions like Africa is a plausible, albeit indirect, link to poverty reduction."
+      },
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 7.0,
+        "model_b_score": 7.0,
+        "your_revised": 9.5,
+        "reason": "Model A's score better reflects the course's fundamental focus on economic globalization, investment, and trade policies, which are core to this SDG."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 8.5,
+        "reason": "Model A's reasoning is more comprehensive, identifying explicit mentions of global supply chain adjustments, AI, and the semiconductor industry."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 2.8,
+        "reason": "Model A's inference that analyzing economic relations and impacts between regions relates to inequalities is reasonable."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 2.0,
+        "reason": "Model A's inference that discussions on global supply chain adjustments and short-chaining relate to production patterns is plausible."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 8.0,
+        "reason": "Model A's reasoning is more comprehensive, highlighting explicit links to geopolitics, trade wars, and cross-strait policies."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 7.0,
+        "reason": "Model A correctly identifies that the course's entire theme revolves around international economic partnerships and global investment, which is central to this SDG."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's focus on economic development in Africa, which is relevant to poverty reduction. The score reflects a balanced view of the evidence presented.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model to support a score for Zero Hunger, aligning with the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no relevant evidence in the course content to support this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.0,
+      "source": "model_a",
+      "reasoning": "Model A's reasoning about the course's lectures and team reports aligns well with the SDG's focus on quality education.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model to support a score for Gender Equality.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no relevant evidence in the course content to support this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model to support a score for Affordable and Clean Energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "The course's focus on economic globalization and investment aligns closely with this SDG, supported by both models' revisions.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's emphasis on supply chain adjustments and AI, making this score appropriate.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 2.8,
+      "source": "synthesized",
+      "reasoning": "The course's analysis of economic relations supports this score, as noted by both models.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.8,
+        "model_b_original": 2.8,
+        "model_b_revised": 2.8
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "The course mentions specific industrial cities, justifying a low score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "The course's discussions on production patterns support this score, as noted by both models.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model to support a score for Climate Action.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model to support a score for Life Below Water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model to support a score for Life on Land.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on geopolitics and trade wars aligns closely with this SDG, supported by both models.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "The course's emphasis on international economic partnerships justifies this score, as noted by both models.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "Course discusses economic situations and investment in Africa, a developing region. Economic development and investment are indirect but relevant to poverty reduction.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus directly or indirectly relates to food security, sustainable agriculture, or ending hunger.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus directly or indirectly relates to health, well-being, or healthcare systems.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course structure (lectures, reports) is a means of education, not a focus on the SDG's goals of inclusive and equitable quality education. No content relates to this SDG.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus directly or indirectly relates to gender equality or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus directly or indirectly relates to water resources, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus directly or indirectly relates to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course's core themes are economic globalization, Taiwan's investment, and cross-strait economic policies, directly aligning with decent work and economic growth.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers global supply chain adjustments, AI development, and the semiconductor industry, which are core to industry, innovation, and infrastructure.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 2.8,
+      "source": "model_b",
+      "reasoning": "The course analyzes economic relations, trade impacts, and investment in different regions, implicitly addressing economic disparities and inequalities between countries.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.8,
+        "model_b_original": 2.8,
+        "model_b_revised": 2.8
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "While specific cities are mentioned, the context is investment and industrial experience, not sustainable urban development or community planning.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "Discussions on global supply chain adjustments, de-risking, and short-chaining relate to production patterns, offering an indirect link to responsible production, though sustainability isn't explicit.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus directly or indirectly relates to climate change, greenhouse gas emissions, or climate action.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus directly or indirectly relates to marine ecosystems, ocean health, or sustainable use of marine resources.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus directly or indirectly relates to terrestrial ecosystems, biodiversity, or land management.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly addresses geopolitics, trade wars, and cross-strait economic policies, which are central to international peace, justice, and institutional strength.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course's central theme of economic globalization, international investment, cross-border economic interaction, and multinational enterprise management directly aligns with global partnerships.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    }
+  }
+}

@@ -1,0 +1,695 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Focus on developing financial knowledge and skills → relevant to Quality Education.",
+      "score": 4.0,
+      "evidence": [
+        "Students will acquire and apply expertise in their respective fields.",
+        "Students will acquire problem solving skills.",
+        "Students will have better management knowledge, global perspective."
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Focus on financial institutions' role in the economy → relevant to Decent Work and Economic Growth.",
+      "score": 6.0,
+      "evidence": [
+        "The financial service industry plays a significant role in the economy.",
+        "Understand the function of financial intermediaries in the economy."
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Focus on Fintech and its impact on financial institutions → relevant to Industry, Innovation and Infrastructure.",
+      "score": 5.0,
+      "evidence": [
+        "The Impact of Fintech and climate risk on FIs’ management and regulation."
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "Covers climate risk in financial institutions' management → relevant to Climate Action.",
+      "score": 7.0,
+      "evidence": [
+        "the impact of climate risk on FIs’ management will be covered.",
+        "sources of the risks of FIs (e.g., climate risk etc.)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Covers regulations on financial institutions → relevant to Peace, Justice and Strong Institutions.",
+      "score": 5.0,
+      "evidence": [
+        "the regulations on FIs and the impact of climate risk on FIs’ management will be covered."
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information regarding poverty, financial inclusion for the poor, or poverty alleviation.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information related to hunger, food security, or agriculture.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 2.5,
+      "reason": "The course covers the management of 'pension fund and insurance companies', which are institutions related to long-term financial security and health, but the focus is financial, not health outcomes.",
+      "evidence": [
+        "management of fundamental risks of FIs including banks, pension fund and insurance companies"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "score": 6.5,
+      "reason": "As a university course, it aims to provide 'related basic professional knowledge' and develop 'problem-solving skills', directly contributing to tertiary education.",
+      "evidence": [
+        "A. 奠定相關基礎專業知識 (Students will acquire and apply expertise in their respective fields.)",
+        "B. 問題解決能力 (Students will acquire problem solving skills.)",
+        "the student can develop their financial and problem-solving skills"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information regarding gender equality or the empowerment of women.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information related to water resources, sanitation, or hygiene.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information concerning energy access, renewable energy, or energy efficiency.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 8.5,
+      "reason": "The course focuses on the 'financial service industry', its 'significant role in the economy', and 'ensuring the stability of the whole financial system', which are central to economic growth.",
+      "evidence": [
+        "The financial service industry plays a significant role in the economy",
+        "ensuring the stability of the whole financial system",
+        "Understand the function of financial intermediaries in the economy"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 8.0,
+      "reason": "The course covers the 'financial service industry' and innovations like 'Fintech', which are critical components of modern economic infrastructure and industrial development.",
+      "evidence": [
+        "The financial service industry plays a significant role in the economy",
+        "The Impact of Fintech and climate risk on FIs’ management and regulation.",
+        "Future of FIs and Fintech"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information that addresses reducing inequality within or among countries.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information related to urban development, housing, or sustainable communities.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 5.5,
+      "reason": "The course includes 'sustainability issues', 'sustainable development', and a topic on 'Future of FIs and Sustainability', which relate to responsible financial practices underpinning sustainable economic patterns.",
+      "evidence": [
+        "D. 理解與辨別道德、社會責任與永續議題 (Students will understand and be able to identify ethics, social responsibility, and sustainability issues.)",
+        "sustainable development",
+        "Future of FIs and Sustainability"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "score": 9.0,
+      "reason": "The course explicitly and repeatedly covers 'the impact of climate risk on FIs’ management', making it a significant focus area.",
+      "evidence": [
+        "the impact of climate risk on FIs’management will be covered",
+        "Understand the sources of the risks of FIs (e.g., ... climate risk etc.)",
+        "The Impact of Fintech and climate risk on FIs’ management and regulation."
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information related to marine ecosystems, oceans, or life below water.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information related to terrestrial ecosystems, biodiversity, or life on land.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 8.0,
+      "reason": "The course focuses on the management, regulation, and risk mitigation of 'Financial institutions (FIs)' to ensure 'the stability of the whole financial system', which are key to strong institutions.",
+      "evidence": [
+        "Financial institutions (FIs) perform the essential function",
+        "ensuring the stability of the whole financial system",
+        "the regulations on FIs ... will be covered"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 2.0,
+      "reason": "The course aims to provide a 'global perspective' and understand the role of financial intermediaries in 'global development', which are prerequisites for international cooperation, though partnerships are not explicitly mentioned.",
+      "evidence": [
+        "how this role has changed in Taiwan and in the global development",
+        "the students shall have better management knowledge, global perspective"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's scores for Good Health and Well-being, Quality Education, Decent Work and Economic Growth, Industry, Innovation and Infrastructure, Climate Action, Peace, Justice and Strong Institutions, and Responsible Consumption and Production are more aligned with the course text.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Course mentions management of pension funds and insurance, relevant to financial security and health."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B emphasizes the course's focus on professional knowledge and problem-solving skills."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B highlights the course's emphasis on the financial service industry's role in economic stability."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 5.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B captures the critical role of Fintech and financial services in economic infrastructure."
+      },
+      "Climate Action": {
+        "your_original": 7.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B accurately reflects the course's strong focus on climate risk management."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 5.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B better articulates the course's focus on regulations and stability of financial institutions."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.001,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B highlights the course's inclusion of sustainability issues and responsible practices."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's analysis prompted a re-evaluation of inferred connections, leading to a stricter interpretation for SDGs without explicit mentions, particularly for low scores.",
+    "revisions": {
+      "SDG_3 (Good Health and Well-being)": {
+        "your_original": 2.5,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "While pension funds and insurance relate to well-being, the course focuses on financial management, not health outcomes. Model B's stricter 'no evidence' is more accurate."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 2.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Although 'global perspective' is mentioned, direct evidence of 'partnerships' for the goals is absent. Model B's stricter interpretation is more appropriate here."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty, making the score consistent across analyses.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding hunger or food security.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Despite Model B's revision, the course primarily focuses on financial management, not health outcomes.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on professional knowledge and problem-solving skills, aligning well with SDG 4.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding gender equality.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model related to water resources or sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model concerning energy access or renewable energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's focus on the financial service industry's role in economic stability.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models capture the critical role of Fintech and financial services in economic infrastructure.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model addressing inequality.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model related to urban development or sustainable communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's inclusion of sustainability issues and responsible practices.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models accurately reflect the course's strong focus on climate risk management.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model related to marine ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model related to terrestrial ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models articulate the course's focus on regulations and stability of financial institutions.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct evidence of partnerships for the goals was found in either model.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus directly addresses poverty reduction or financial inclusion for the poor.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus relates to hunger, food security, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "While pension funds and insurance are mentioned, the course focuses on financial management and risk, not direct health outcomes or well-being promotion. The link is too indirect.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "As a university course, it directly contributes to quality tertiary education by developing professional knowledge, problem-solving skills, and expertise in financial management, aligning well with SDG 4.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus addresses gender equality or the empowerment of women.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus relates to clean water, sanitation, or water resource management.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus addresses affordable and clean energy or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly focuses on the financial service industry's significant role in the economy and its stability, which are fundamental pillars for promoting sustained economic growth and decent work.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course covers the financial service industry as a critical economic infrastructure and explicitly addresses 'Fintech' and its impact, directly aligning with innovation and infrastructure development.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus addresses reducing inequality within or among countries.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus relates to sustainable cities, communities, or urban development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'sustainability issues' and 'sustainable development' in the context of financial institutions, indicating a focus on responsible financial practices that support sustainable economic patterns.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly and repeatedly emphasizes the significant impact and management of 'climate risk' on financial institutions, making it a core component directly contributing to climate action.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus relates to marine ecosystems, oceans, or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus relates to terrestrial ecosystems, biodiversity, or life on land.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers the management and regulation of financial institutions, emphasizing their essential function and role in ensuring the stability of the financial system, which is crucial for strong institutions.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "While a 'global perspective' is mentioned, the course does not explicitly address partnerships, international cooperation, or specific mechanisms for achieving the Sustainable Development Goals.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.001
+      }
+    }
+  }
+}

@@ -1,0 +1,806 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Mentions 'encourage students' and 'learning outcomes' → relevant to Quality Education.",
+      "score": 7.0,
+      "evidence": [
+        "鼓勵學生善用所學之傳播技能與創意發想",
+        "增進學生認識地方",
+        "培養人文關懷與社會責任能力"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "Mentions 'ecological environment' and 'waterway' → relevant to Clean Water and Sanitation.",
+      "score": 4.0,
+      "evidence": [
+        "生態環境",
+        "水路主要沿著景美溪流域",
+        "水運將文山茶運到大稻埕"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Mentions 'tea industry development' → relevant to Decent Work and Economic Growth.",
+      "score": 6.0,
+      "evidence": [
+        "茶產業發展",
+        "產業創新",
+        "創意行銷"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Mentions 'industry innovation' → relevant to Industry, Innovation and Infrastructure.",
+      "score": 6.0,
+      "evidence": [
+        "產業創新",
+        "創意行銷",
+        "資訊科技應用"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "Mentions 'community' and 'local revitalization' → relevant to Sustainable Cities and Communities.",
+      "score": 7.0,
+      "evidence": [
+        "地方創生基本概念",
+        "社區與社群傳播的方式",
+        "認識社區規劃師制度"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "Mentions 'tea culture' and 'local products' → relevant to Responsible Consumption and Production.",
+      "score": 5.0,
+      "evidence": [
+        "大文山茶文化",
+        "物產與環境特色",
+        "地方創生"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "reason": "Mentions 'ecological environment' → relevant to Climate Action.",
+      "score": 4.0,
+      "evidence": [
+        "生態環境",
+        "茶產業發展",
+        "文化韌性"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "Mentions 'tea industry' and 'local environment' → relevant to Life on Land.",
+      "score": 5.0,
+      "evidence": [
+        "茶產業的歷史脈絡",
+        "物產與環境特色",
+        "大文山地區"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "Mentions 'collaboration' with experts → relevant to Partnerships for the Goals.",
+      "score": 6.0,
+      "evidence": [
+        "結合茶產業發展、歷史文化、宗教信仰",
+        "專家業師共同合作",
+        "創意行銷與資訊科技應用"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course focuses on \"地方創生\" (local revitalization) and the \"茶產業發展\" (tea industry development), which can indirectly support local economies, though poverty is not explicitly mentioned.",
+      "score": 2.0,
+      "evidence": [
+        "大文山地方創生與文化傳播",
+        "茶產業發展"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "The course mentions \"農業推廣\" (agricultural promotion) and local \"物產\" (products), but the focus is on the tea industry rather than food security.",
+      "score": 1.5,
+      "evidence": [
+        "農業推廣",
+        "山村的物產與環境特色"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "As a university course, it aims to \"增進學生認識地方\" and \"培養人文關懷與社會責任能力\" through lectures, field trips, and expert collaboration.",
+      "score": 8.5,
+      "evidence": [
+        "增進學生認識地方",
+        "培養人文關懷與社會責任能力",
+        "邀請演講：走入社區停看聽"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "The course includes a field trip to learn about the \"翡翠水庫的故事\" (story of Feitsui Reservoir), a major water source, and discusses the \"景美溪流域.\"",
+      "score": 5.0,
+      "evidence": [
+        "探訪石碇永安認識翡翠水庫的故事",
+        "連結新店溪流域上游的景美溪"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course is centered on \"地方創生\" (local revitalization) and \"茶產業發展\" (tea industry development), directly aiming to foster local economic growth and cultural tourism.",
+      "score": 8.0,
+      "evidence": [
+        "大文山地方創生與文化傳播",
+        "茶產業發展",
+        "產業創新"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Focuses on \"產業創新,\" \"創意行銷,\" and \"資訊科技應用\" and discusses historical trade infrastructure like \"水路與陸路\" (waterways and land routes).",
+      "score": 7.5,
+      "evidence": [
+        "產業創新",
+        "創意行銷與資訊科技應用",
+        "水路與陸路對外銷售"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "The course's core goal is \"大文山地方創生\" (Da Wenshan local revitalization), focusing on community engagement, cultural heritage, and the \"社區規劃師制度\" (community planner system).",
+      "score": 10.0,
+      "evidence": [
+        "大文山地方創生與文化傳播",
+        "營造大文山常民生活的文化路徑",
+        "認識社區規劃師制度"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "Promotes understanding of local production through the \"茶產業\" and encourages cultural tourism (\"文山茶學旅\"), supporting responsible consumption linked to local products.",
+      "score": 6.0,
+      "evidence": [
+        "從茶產業的歷史脈絡出發",
+        "山村的物產與環境特色",
+        "形塑文山茶學旅的文化路徑"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "No evidence found.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "Mentions river systems like \"新店溪流域\" and \"景美溪,\" but the context is historical trade and water resources, not aquatic ecosystems.",
+      "score": 1.0,
+      "evidence": [
+        "連結新店溪流域上游的景美溪",
+        "水路主要沿著景美溪流域"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life on Land": {
+      "reason": "Includes exploration of the \"生態環境,\" mountain systems, and a lecture on telling land stories through ecology, referencing \"里山川2.0\" (Satoyama River 2.0).",
+      "score": 7.0,
+      "evidence": [
+        "生態環境",
+        "貓空老泉茶文化與生態環境探索體驗",
+        "如何用生態與藝術說大地故事–以里山川2.0為例"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course introduces the \"社區規劃師制度\" (community planner system), which is a form of local institutional planning, but does not address broader themes of peace or justice.",
+      "score": 2.5,
+      "evidence": [
+        "認識社區規劃師制度"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course explicitly states it \"結合...專家業師共同合作\" (collaborates with experts and industry mentors) from diverse fields to achieve its goals.",
+      "score": 8.0,
+      "evidence": [
+        "結合茶產業發展、歷史文化、宗教信仰、農業推廣、產業創新、創意行銷與資訊科技應用等領域的專家業師共同合作"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive insights, particularly in areas of local revitalization and education.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B highlights local revitalization's potential to support economies."
+      },
+      "Zero Hunger": {
+        "your_original": 0.001,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B connects agricultural promotion to local products."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B emphasizes the course's educational objectives more clearly."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 4.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B provides specific evidence of water-related field trips."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B better articulates the course's focus on economic growth."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B includes more evidence of infrastructure discussions."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B captures the course's emphasis on community engagement."
+      },
+      "Life on Land": {
+        "your_original": 5.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B provides more context on ecological exploration."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B connects community planning to institutional themes."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 6.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B emphasizes collaboration with experts more effectively."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more comprehensive evidence and stronger inferences for several SDGs, particularly those related to local development, environment, and partnerships. My initial assessment was too conservative in some areas.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 2.0,
+        "reason": "Model A's inference that local revitalization and tea industry development can indirectly support local economies and reduce poverty is reasonable."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 7.0,
+        "your_revised": 8.5,
+        "reason": "Model A's score better reflects the explicit educational goals, including fostering humanistic care and social responsibility, and the use of expert lectures."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 5.0,
+        "reason": "Model A's explicit mention of '翡翠水庫的故事' (Feitsui Reservoir) provides a stronger, more direct link to water resources."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 8.0,
+        "reason": "The course's core focus on '地方創生' (local revitalization) and '茶產業發展' directly aligns with fostering economic growth, justifying a higher score."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 7.5,
+        "reason": "Model A's inclusion of historical trade infrastructure ('水路與陸路') alongside innovation provides a more complete picture for this SDG."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 7.0,
+        "model_b_score": 7.0,
+        "your_revised": 10.0,
+        "reason": "This SDG is the central theme of the course ('大文山地方創生'), making Model A's perfect score more accurate for its direct relevance."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 5.0,
+        "model_b_score": 5.0,
+        "your_revised": 6.0,
+        "reason": "Model A's reasoning, linking tea industry history and cultural tourism to local production and consumption, is slightly stronger."
+      },
+      "Climate Action": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 0.001,
+        "reason": "Upon review, the course's mentions of 'ecological environment' are not directly tied to climate change mitigation or adaptation efforts."
+      },
+      "Life Below Water": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 1.0,
+        "reason": "Model A's low inferred score is acceptable, as the mention of river systems ('新店溪流域', '景美溪') implies some interaction with aquatic environments."
+      },
+      "Life on Land": {
+        "your_original": 5.0,
+        "model_b_score": 5.0,
+        "your_revised": 7.0,
+        "reason": "Model A provided stronger evidence, including '生態環境探索體驗' and a lecture on '生態與藝術說大地故事–以里山川2.0為例'."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 2.5,
+        "reason": "Model A's inference that the '社區規劃師制度' (community planner system) relates to local institutional planning is plausible."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 8.0,
+        "reason": "Model A's score better reflects the explicit and diverse collaboration with '專家業師共同合作' across multiple fields."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize local revitalization's potential to support economies, justifying a score of 2.0 based on inferred evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model B's reasoning about agricultural promotion aligns with course content, justifying a score of 1.5.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence supports this SDG in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize educational objectives, but Model B's score reflects explicit goals more accurately.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence supports this SDG in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's explicit evidence of water-related field trips justifies a score of 5.0.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence supports this SDG in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on local economic growth, but Model B's score reflects this more accurately.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Model B's inclusion of historical trade infrastructure alongside innovation provides a more complete picture.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence supports this SDG in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's core goal of local revitalization justifies a perfect score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Model A's reasoning linking tea industry history to local production is slightly stronger, justifying a score of 6.0.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct evidence links the course content to climate action.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Model A's low inferred score is acceptable, as the mention of river systems implies some interaction with aquatic environments.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Model A provided stronger evidence regarding ecological exploration, justifying a score of 7.0.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Model A's inference about the community planner system relates to local institutional planning, justifying a score of 2.5.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model A's score reflects the explicit collaboration with experts across multiple fields, justifying a score of 8.0.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on '地方創生' (local revitalization) and '茶產業發展' aims to strengthen local economies and livelihoods, indirectly contributing to poverty reduction.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.5,
+      "source": "revised_a",
+      "reasoning": "The course mentions '農業推廣' and local '物產,' suggesting a minor, indirect connection to agricultural systems, even if the primary focus isn't food security.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No direct or indirect evidence in the syllabus links the course content to health, well-being, or related services.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly aims to enhance student understanding, cultivate humanistic care and social responsibility, and uses expert lectures, directly aligning with quality education objectives.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No direct or indirect evidence in the syllabus relates to gender equality or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "The course includes a field trip to learn about the Feitsui Reservoir, a major water source, and discusses the Jingmei River basin, directly linking to clean water resources.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No direct or indirect evidence in the syllabus relates to energy production, consumption, or access.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "The course's core focus on '地方創生' and '茶產業發展,' including '產業創新' and '創意行銷,' directly aims to foster local economic growth and create opportunities.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "revised_a",
+      "reasoning": "The course focuses on '產業創新,' '創意行銷,' and '資訊科技應用,' and explores historical trade infrastructure like '水路與陸路,' directly aligning with industry, innovation, and infrastructure.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No direct or indirect evidence in the syllabus addresses reducing inequalities within or among countries.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course's central theme is '大文山地方創生,' focusing on community engagement, cultural heritage, and understanding the '社區規劃師制度,' making it highly relevant to sustainable communities.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course promotes understanding of local '茶產業' and '物產,' and encourages '文山茶學旅,' fostering responsible production and consumption through local cultural tourism.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "Mentions of '生態環境' and '文化韌性' are not directly tied to climate change mitigation, adaptation, or specific climate action initiatives.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "While river systems are mentioned for historical trade, the syllabus provides no evidence of focusing on aquatic ecosystems, biodiversity, or their conservation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 7.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly includes '生態環境探索體驗' and a lecture on '如何用生態與藝術說大地故事–以里山川2.0為例,' directly addressing terrestrial ecosystems and biodiversity.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 2.5,
+      "source": "revised_a",
+      "reasoning": "The course introduces the '社區規劃師制度,' which relates to local institutional planning and governance, providing a weak but plausible link to strong institutions.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly states it '結合...專家業師共同合作' from diverse fields (tea industry, history, religion, agriculture, innovation, marketing, IT), demonstrating strong partnerships.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    }
+  }
+}

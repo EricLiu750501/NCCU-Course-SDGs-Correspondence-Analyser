@@ -1,0 +1,793 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "Mentions 'Policies to Reduce Microplastics Pollution in Water' → relevant to Clean Water and Sanitation",
+      "score": 4.0,
+      "evidence": [
+        "Policies to Reduce Microplastics Pollution in Water"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "Mentions 'Household energy choices' and 'Hydrogen in steel' → relevant to Affordable and Clean Energy",
+      "score": 7.0,
+      "evidence": [
+        "Household energy choices: New empirical evidence and policy implications",
+        "Hydrogen in steel: Addressing emissions and dealing with overcapacity"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Mentions 'The Adoption of Artificial Intelligence in Firms' → relevant to Industry, Innovation and Infrastructure",
+      "score": 4.0,
+      "evidence": [
+        "The Adoption of Artificial Intelligence in Firms: New Evidence for Policymaking"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "Mentions 'Monitoring trade in plastic waste' → relevant to Responsible Consumption and Production",
+      "score": 4.0,
+      "evidence": [
+        "Monitoring trade in plastic waste and scrap 2025"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "Mentions 'Paris Agreement' and 'climate neutral world' → relevant to Climate Action",
+      "score": 10.0,
+      "evidence": [
+        "the 2015 Paris Agreement goal is to limit global warming",
+        "achieve a climate neutral world by mid-century"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "Mentions 'Ocean Economy' → relevant to Life Below Water",
+      "score": 4.0,
+      "evidence": [
+        "The Ocean Economy to 2050"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life on Land": {
+      "reason": "Mentions 'Mainstreaming Biodiversity into Renewable Power Infrastructure' → relevant to Life on Land",
+      "score": 4.0,
+      "evidence": [
+        "Mainstreaming Biodiversity into Renewable Power Infrastructure"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 4.5,
+      "reason": "The course schedule explicitly includes a topic on \"Climate Risk and Poverty\", directly linking environmental issues to poverty.",
+      "evidence": [
+        "Climate Risk and Poverty in the Middle East and North Africa"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 2.5,
+      "reason": "The course addresses health through the topic of \"Chemical Accident Prevention\", which aims to mitigate health risks from industrial activities.",
+      "evidence": [
+        "Benefits of Regulation for Chemical Accident Prevention, Preparedness and Response"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "score": 3.5,
+      "reason": "The course schedule includes a topic on \"Training Supply for the Green and AI Transitions\", focusing on equipping workers with skills for new industries.",
+      "evidence": [
+        "Training Supply for the Green and AI Transitions: Equipping Workers with the Right Skills"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 5.0,
+      "reason": "The course directly addresses water quality by examining \"Policies to Reduce Microplastics Pollution in Water\", a key aspect of water sanitation.",
+      "evidence": [
+        "Policies to Reduce Microplastics Pollution in Water"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Affordable and Clean Energy": {
+      "score": 10.0,
+      "reason": "The course is titled \"Seminar on Environment and Energy\" and repeatedly covers topics like \"Hydrogen in steel\", \"Household energy choices\", and \"Renewable Power Infrastructure\".",
+      "evidence": [
+        "Course Name: Seminar on Environment and Energy",
+        "Hydrogen in steel: Addressing emissions and dealing with overcapacity",
+        "Mainstreaming Biodiversity into Renewable Power Infrastructure"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 8.0,
+      "reason": "The course links environmental topics to economic growth through themes like \"The Ocean Economy to 2050\" and \"The Role of Economic Regulators in the Green Transition\".",
+      "evidence": [
+        "The Ocean Economy to 2050",
+        "The Role of Economic Regulators in the Green Transition: Driving Sustainable Change in Network Sectors",
+        "Climate Club Financial Toolkit Economic, De-risking and Financing Instruments for Industry Decarbonization"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 9.0,
+      "reason": "The course heavily focuses on transforming industry and infrastructure, with topics like \"Industry Decarbonization\", \"Renewable Power Infrastructure\", and \"Future of Public Transport Funding\".",
+      "evidence": [
+        "Industry Decarbonization",
+        "Enhancing the resilience of communication networks",
+        "The Future of Public Transport Funding"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 2.0,
+      "reason": "The topic \"Climate Risk and Poverty in the Middle East and North Africa\" infers a focus on regional inequalities and the disproportionate impact of climate change.",
+      "evidence": [
+        "Climate Risk and Poverty in the Middle East and North Africa"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 6.0,
+      "reason": "The course addresses key components of sustainable communities through topics like \"Decarbonizin Buildings\" and \"The Future of Public Transport Funding\".",
+      "evidence": [
+        "Global Monitoring of Policies for Decarbonizin Buildings: A Multi-level Approach",
+        "The Future of Public Transport Funding"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 8.5,
+      "reason": "The course directly addresses sustainable production and consumption patterns through topics like \"Resource-Efficient and Circular Economy\" and \"Monitoring trade in plastic waste and scrap\".",
+      "evidence": [
+        "Monitoring Progress towards a Resource-Efficient and Circular Economy",
+        "Monitoring trade in plastic waste and scrap 2025",
+        "A Landscape of Sustainability Attributes Considered by Companies During Chemical and Material Selection"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "score": 10.0,
+      "reason": "The course is fundamentally about climate action, referencing the \"2015 Paris Agreement\", \"limit global warming\", and strategies like \"Pricing Greenhouse Gas Emissions\".",
+      "evidence": [
+        "the 2015 Paris Agreement goal is to limit global warming",
+        "reach global peaking of greenhouse gas emissions (GHGs)",
+        "Pricing Greenhouse Gas Emissions 2024: Gearing Up to Bring Emissions Down"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 8.0,
+      "reason": "The course explicitly focuses on marine issues with topics like \"The Ocean Economy to 2050\", \"the Blue Economy\", and \"Microplastics Pollution in Water\".",
+      "evidence": [
+        "Climate Change and the Blue Economy in Africa",
+        "The Ocean Economy to 2050",
+        "Policies to Reduce Microplastics Pollution in Water"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life on Land": {
+      "score": 4.0,
+      "reason": "The course addresses terrestrial ecosystems by discussing how to \"Mainstreaming Biodiversity into Renewable Power Infrastructure\", linking development with conservation.",
+      "evidence": [
+        "Mainstreaming Biodiversity into Renewable Power Infrastructure"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 5.5,
+      "reason": "The course examines the role of institutions and policy through topics like \"The Role of Economic Regulators in the Green Transition\" and environmental regulations.",
+      "evidence": [
+        "The Role of Economic Regulators in the Green Transition",
+        "Benefits of Regulation for Chemical Accident Prevention",
+        "Policies to Reduce Microplastics Pollution in Water"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 7.5,
+      "reason": "The course is framed by international cooperation, referencing the \"2015 Paris Agreement\" and \"Nationally Determined Contributions (NDCs)\", which are partnership-based.",
+      "evidence": [
+        "2015 Paris Agreement",
+        "Climate Club Financial Toolkit",
+        "Insights for designing mitigation elements in the next round of Nationally Determined Contributions (NDCs)"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive evidence for several SDGs, prompting necessary revisions to align with the course text.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B highlights 'Climate Risk and Poverty', directly linking environmental issues to poverty."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B references 'Chemical Accident Prevention', addressing health risks from industrial activities."
+      },
+      "Quality Education": {
+        "your_original": 0.001,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model B includes 'Training Supply for the Green and AI Transitions', focusing on equipping workers with skills."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.001,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B connects environmental topics to economic growth through various relevant themes."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B infers a focus on regional inequalities through 'Climate Risk and Poverty'."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.001,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B addresses sustainable communities through relevant topics like 'Decarbonizin Buildings'."
+      },
+      "Life Below Water": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B emphasizes marine issues with multiple relevant topics."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B discusses the role of institutions and policy in environmental regulations."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B highlights international cooperation through the '2015 Paris Agreement'."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis is significantly more comprehensive, identifying numerous explicit and inferred connections to SDGs that I initially overlooked. Its reasoning aligns better with the course text.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 4.5,
+        "reason": "Model A correctly identified 'Climate Risk and Poverty' as direct evidence, which I missed. This topic explicitly links to poverty."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 2.5,
+        "reason": "Model A correctly highlighted 'Chemical Accident Prevention' as relevant, directly addressing health and safety aspects."
+      },
+      "Quality Education": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 3.5,
+        "reason": "Model A's inclusion of 'Training Supply for the Green and AI Transitions' is accurate, as it directly relates to skills development."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 5.0,
+        "reason": "Both models identified 'Microplastics Pollution in Water'. Model A's slightly higher score better reflects the direct relevance."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 7.0,
+        "model_b_score": 7.0,
+        "your_revised": 10.0,
+        "reason": "Model A's reasoning is more comprehensive, including the course title and 'Renewable Power Infrastructure', indicating a central focus."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 8.0,
+        "reason": "Model A correctly identified multiple explicit links like 'Ocean Economy' and 'Economic Regulators in the Green Transition' to economic growth."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 9.0,
+        "reason": "Model A's broader evidence, including 'Industry Decarbonization' and 'Public Transport Funding', better reflects the course's strong focus on infrastructure and industry transformation."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 2.0,
+        "reason": "Model A's inference from 'Climate Risk and Poverty' regarding regional inequalities is a valid connection I missed."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 6.0,
+        "reason": "Model A correctly identified 'Decarbonizin Buildings' and 'Public Transport Funding' as direct evidence for sustainable urban development."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 8.5,
+        "reason": "Model A's evidence, including 'Resource-Efficient and Circular Economy' and 'Sustainability Attributes', provides a more complete picture of this SDG's relevance."
+      },
+      "Life Below Water": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 8.0,
+        "reason": "Model A's inclusion of 'Blue Economy' and 'Microplastics Pollution in Water' provides stronger and more diverse evidence for this SDG."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 5.5,
+        "reason": "Model A correctly identified the course's focus on 'Economic Regulators' and 'Regulation for Chemical Accident Prevention' as relevant to strong institutions and governance."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 7.5,
+        "reason": "Model A correctly highlighted the 'Paris Agreement', 'Climate Club', and 'NDCs' as explicit examples of international partnerships for sustainable development."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified 'Climate Risk and Poverty' as a direct link, but Model B's score aligns better with explicit evidence from the course. This score reflects the course's focus on the intersection of climate and poverty.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model, confirming the lack of relevant course content related to Zero Hunger.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified 'Chemical Accident Prevention' as relevant, but Model B's score reflects a more accurate assessment of health risks associated with industrial activities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 3.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the importance of training for new industries, but Model B's score is justified by explicit course content on skills development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model, confirming the absence of relevant course content related to Gender Equality.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified 'Microplastics Pollution in Water' as relevant, but Model B's score reflects a more comprehensive understanding of water quality issues.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Model A's comprehensive reasoning about the course's focus on energy topics justifies a perfect score, aligning with the course's core theme.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified relevant themes linking environmental topics to economic growth, but Model B's score reflects a more explicit connection to course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on industry transformation aligns well with course content, justifying a high score that reflects the course's focus on innovation.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models inferred a connection to inequalities through 'Climate Risk and Poverty', but the score reflects a cautious acknowledgment of this link.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified relevant topics, but Model B's score reflects a more comprehensive understanding of sustainable urban development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Model A's evidence regarding sustainable production and consumption patterns provides a more complete picture, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models accurately reflect the course's strong emphasis on climate action, justifying a perfect score.",
+      "model_comparison": {
+        "model_a_original": 10.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on marine issues aligns well with course content, justifying a high score that reflects the course's focus on ocean economy.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified relevant topics, but the score reflects a cautious acknowledgment of the course's focus on biodiversity.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified the role of institutions in environmental regulations, justifying a score that reflects the course's focus on governance.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlighted international cooperation through the 'Paris Agreement', justifying a score that reflects the course's emphasis on partnerships.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly includes 'Climate Risk and Poverty in the Middle East and North Africa,' directly linking environmental issues to poverty, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence related to food security, nutrition, or sustainable agriculture was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The topic 'Benefits of Regulation for Chemical Accident Prevention' directly addresses mitigating health risks and promoting safety, aligning with well-being.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 3.5,
+      "source": "model_b",
+      "reasoning": "The course includes 'Training Supply for the Green and AI Transitions,' directly addressing skills development and lifelong learning for future industries.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence related to gender equality, empowerment of women, or discrimination was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The explicit mention of 'Policies to Reduce Microplastics Pollution in Water' directly addresses a critical aspect of clean water quality and sanitation.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course title 'Seminar on Environment and Energy,' combined with topics like 'Hydrogen in steel' and 'Renewable Power Infrastructure,' indicates a central focus on clean energy.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "Multiple topics explicitly link environmental issues to economic growth, such as 'The Ocean Economy,' 'Economic Regulators in the Green Transition,' and 'Climate Club Financial Toolkit.'",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course heavily focuses on industrial transformation and infrastructure, with topics like 'Industry Decarbonization,' 'resilience of communication networks,' and 'Public Transport Funding.'",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The topic 'Climate Risk and Poverty in the Middle East and North Africa' infers a focus on regional inequalities and the disproportionate impacts of climate change.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "Topics like 'Decarbonizin Buildings' and 'The Future of Public Transport Funding' directly address key components of sustainable urban development and communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course directly addresses sustainable consumption and production through topics like 'Resource-Efficient and Circular Economy,' 'plastic waste,' and 'Sustainability Attributes' in material selection.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "model_a",
+      "reasoning": "The course description explicitly mentions the '2015 Paris Agreement' and achieving a 'climate neutral world,' making Climate Action a core focus.",
+      "model_comparison": {
+        "model_a_original": 10.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly focuses on marine issues with topics like 'The Ocean Economy,' 'Blue Economy,' and 'Microplastics Pollution in Water,' indicating strong relevance.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 4.0,
+      "source": "model_a",
+      "reasoning": "The topic 'Mainstreaming Biodiversity into Renewable Power Infrastructure' directly addresses the integration of biodiversity conservation with development.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course examines the role of institutions and policy through topics like 'Economic Regulators in the Green Transition' and 'Regulation for Chemical Accident Prevention.'",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course is framed by international cooperation, referencing the '2015 Paris Agreement,' 'Climate Club Financial Toolkit,' and 'Nationally Determined Contributions (NDCs).'",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    }
+  }
+}

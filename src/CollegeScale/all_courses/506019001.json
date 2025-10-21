@@ -1,0 +1,731 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Focus on student presentations and discussions enhances learning outcomes.",
+      "score": 7.0,
+      "evidence": [
+        "上課方式重視學生自主性與討論",
+        "期許學生超越語言學習的層級",
+        "透過此方式，期許學生更深入、更自主地思考"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "Explores discrimination issues related to women in Japanese society.",
+      "score": 7.0,
+      "evidence": [
+        "女性及家、老後照顧",
+        "弱勢族群的「差別」（歧視）問題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Discusses labor patterns and economic issues in Japan.",
+      "score": 6.0,
+      "evidence": [
+        "戰後日本的勞動型態及其在全球化之下的轉變",
+        "高度經濟成長期至失落二十年之日本社會問題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "Focus on discrimination against marginalized groups in Japan.",
+      "score": 8.0,
+      "evidence": [
+        "弱勢族群的「差別」（歧視）問題",
+        "部落民的「差別」問題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "Mentions the 311 earthquake, relevant to climate resilience.",
+      "score": 4.0,
+      "evidence": [
+        "日本東北的邊陲性與區域發展（含三一一大地震）"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Explores post-war accountability and historical perspectives.",
+      "score": 7.0,
+      "evidence": [
+        "如何看待戰爭責任問題",
+        "戰後的總清算及其走向"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 2.0,
+      "reason": "The course discusses economic downturns like the 'lost decade' and 'uneven regional development', which are indirectly related to economic hardship and potential poverty.",
+      "evidence": [
+        "「失落十年」或「失落二十年」",
+        "區域發展不均"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 2.5,
+      "reason": "The course schedule explicitly lists 'old-age care' (老後照顧) as a topic for discussion in the context of vulnerable groups in Japanese society.",
+      "evidence": [
+        "老後照顧"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "score": 6.0,
+      "reason": "A key theme is the 'historical textbook problem' (歷史教科書問題), which directly concerns the content and quality of education in shaping national identity and historical understanding.",
+      "evidence": [
+        "歷史教科書問題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 8.0,
+      "reason": "The course explicitly identifies 'women and family' (女性與家) as a primary subject under the theme of 'discrimination' (差別) against vulnerable groups in Japanese society.",
+      "evidence": [
+        "日本社會中弱勢族群的「差別」（歧視）問題",
+        "女性與家"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 8.5,
+      "reason": "A major theme is Japan's economic trajectory, including the 'high economic growth period', 'lost decade', and changes in 'labor patterns' under Japanese-style management.",
+      "evidence": [
+        "高度經濟成長期",
+        "失落十年",
+        "日本式經營下的勞動型態與其在失落時代的轉變"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 3.0,
+      "reason": "The course mentions 'high economic growth' and 'uneven regional development', which implies a connection to industrial and infrastructure history, though the focus is social.",
+      "evidence": [
+        "高度經濟成長期",
+        "區域發展不均"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 10.0,
+      "reason": "A core concept of the course is the 'discrimination' (差別) problem concerning 'vulnerable groups' including women, Burakumin, Zainichi Koreans, Okinawans, and the Ainu people.",
+      "evidence": [
+        "日本社會中弱勢族群的「差別」（歧視）問題",
+        "女性與家、「部落民」、「在日」（在日Korean）、沖繩人與美軍基地、愛努民族為探究對象",
+        "區域發展不均"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 5.0,
+      "reason": "The course examines 'uneven regional development', focusing on specific areas like the 'Sea of Japan coastal region' and 'Tohoku', including the impact of the 'Great East Japan Earthquake'.",
+      "evidence": [
+        "區域發展不均（以日本海沿岸地區與日本東北為例）",
+        "日本東北的邊陲性與區域發展（含三一一大地震）"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.001,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 9.5,
+      "reason": "A fundamental focus is the post-WWII settlement, including 'war responsibility', the 'historical textbook problem', and issues of justice for groups like Okinawans dealing with 'US military bases'.",
+      "evidence": [
+        "探究日本如何看待戰爭責任問題",
+        "日本歷史教科書問題",
+        "沖繩人與美軍基地"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 1.5,
+      "reason": "The course mentions the 'US military bases' in Okinawa, implying a Japan-US relationship, and uses a 'Taiwan-Japan comparative perspective', but does not focus on partnerships for development.",
+      "evidence": [
+        "沖繩人與美軍基地",
+        "課堂討論也將著重臺日比較的觀點"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive insights into economic and social issues, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B highlights economic downturns related to poverty."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B emphasizes 'old-age care' as a relevant topic."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B provides a broader context on labor patterns and economic issues."
+      },
+      "Gender Equality": {
+        "your_original": 7.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's score reflects a more comprehensive view on discrimination against women."
+      },
+      "Reduced Inequalities": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B captures a wider range of marginalized groups."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.001,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B connects regional development to sustainability issues."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 7.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B's score reflects a deeper exploration of post-war accountability."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided valuable insights, particularly in identifying explicit links to 'old-age care' and 'regional development' that I initially overlooked. I've revised my scores accordingly.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A's inference from 'lost decade' and 'uneven regional development' to potential poverty is a reasonable indirect link."
+      },
+      "SDG_3 (Good Health and Well-being)": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A correctly identified '老後照顧' (old-age care) as an explicit topic, directly linking to health and well-being."
+      },
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A's higher score better reflects the extensive explicit coverage of 'high economic growth,' 'lost decade,' and 'labor patterns.'"
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 0.001,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model A's inference from 'high economic growth' and 'uneven regional development' to infrastructure is plausible."
+      },
+      "SDG_11 (Sustainable Cities and Communities)": {
+        "your_original": 0.001,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly highlighted 'uneven regional development' and 'Tohoku/earthquake' as explicit links to sustainable communities."
+      },
+      "SDG_13 (Climate Action)": {
+        "your_original": 4.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "My original reasoning for the 311 earthquake was not a direct link to climate action; Model A's score is more accurate."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 7.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model A's reasoning is more comprehensive, explicitly linking 'war responsibility,' 'textbook problem,' and 'Okinawa/US bases' to justice."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize economic downturns and regional disparities as relevant to poverty, but Model B's score reflects a more comprehensive understanding of the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to hunger, confirming the absence of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified 'old-age care' as a relevant topic, but Model B's score reflects a more explicit connection to health issues.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the importance of historical education issues, but Model A's score aligns better with the explicit focus on student engagement.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize discrimination against women, but Model B's score captures a broader context of gender issues in society.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to clean water and sanitation, confirming the absence of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to affordable and clean energy, confirming the absence of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models address labor patterns and economic issues, but Model B's score reflects a more comprehensive understanding of the course content.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects an inferred connection to industrial history, while Model A's score lacks evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize discrimination against marginalized groups, but Model B's score captures a wider range of issues.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect regional development to sustainability, but Model B's score reflects a more explicit focus on the topic.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to responsible consumption and production, confirming the absence of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no direct evidence related to climate action, confirming the absence of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to life below water, confirming the absence of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to life on land, confirming the absence of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize post-war accountability, but Model B's score reflects a deeper exploration of justice issues.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Both models mention Japan-US relations, but Model B's score reflects a more nuanced understanding of partnerships.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course discusses economic downturns ('lost decade') and 'uneven regional development,' which are indirect but relevant factors contributing to economic hardship and potential poverty.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to food security, agriculture, or hunger is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly discusses 'old-age care' (老後照顧) as a social issue affecting vulnerable groups, directly linking to health and well-being.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "model_a",
+      "reasoning": "The course explicitly discusses the 'historical textbook problem' (歷史教科書問題) and emphasizes student-led discussions and critical thinking, fostering deeper understanding and quality learning outcomes.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly addresses 'women and family' (女性與家) as a key vulnerable group facing 'discrimination' (差別) in Japanese society, directly aligning with gender equality issues.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to clean water, sanitation, or water resource management is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to energy, its affordability, or cleanliness is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course extensively covers Japan's 'high economic growth period,' 'lost decades,' and the evolution of 'labor patterns,' directly aligning with decent work and economic growth issues.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course discusses 'high economic growth' and 'uneven regional development,' which implicitly involve industrial development and infrastructure, though not as a primary focus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course's third major theme is explicitly 'discrimination' (差別) against a wide range of 'vulnerable groups' (弱勢族群) in Japanese society, making this a core focus on reducing inequalities.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly examines 'uneven regional development' and specific regions like Tohoku, including the impact of the '311 Great East Japan Earthquake,' which relates to community resilience and sustainability.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to consumption patterns, production methods, or resource efficiency is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_b_revised",
+      "reasoning": "While the 311 Great East Japan Earthquake is mentioned, the syllabus discusses it in the context of regional development, not as a direct link to climate change causes, mitigation, or adaptation.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to marine life, oceans, or sustainable use of marine resources is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence related to terrestrial ecosystems, biodiversity, or land degradation is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course fundamentally focuses on post-WWII issues, including 'war responsibility,' the 'historical textbook problem,' and justice for marginalized groups like Okinawans regarding 'US military bases,' directly addressing peace, justice, and institutions.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The course mentions 'US military bases' in Okinawa and uses a 'Taiwan-Japan comparative perspective,' implying international relations, but does not explicitly focus on partnerships for sustainable development goals.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

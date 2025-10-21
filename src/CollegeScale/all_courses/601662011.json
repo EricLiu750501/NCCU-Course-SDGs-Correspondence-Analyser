@@ -1,0 +1,771 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course aims to familiarize students with criminal law concepts → relevant to Quality Education.",
+      "score": 4.5,
+      "evidence": [
+        "使學生熟悉刑法分則的規範內容",
+        "在釋義學與司法實務上常見的問題點"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "Mentions '性犯罪' (sexual crimes) → relevant to Gender Equality.",
+      "score": 4.0,
+      "evidence": [
+        "性犯罪",
+        "妨害性自主罪"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "Focus on criminal law and justice → relevant to Peace, Justice and Strong Institutions.",
+      "score": 8.5,
+      "evidence": [
+        "刑法分則",
+        "妨害公務罪",
+        "妨害投票罪"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course covers \"usury\" (重利罪), a crime related to predatory lending that can trap individuals in poverty, and other property crimes that impact economic well-being.",
+      "score": 2.0,
+      "evidence": [
+        "重利罪"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "The curriculum explicitly covers crimes against persons, including \"homicide\" (殺人罪), \"injury\" (傷害罪), and \"abortion\" (墮胎罪), which directly concern physical health and life.",
+      "score": 7.0,
+      "evidence": [
+        "殺人罪",
+        "傷害罪",
+        "墮胎罪"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "As a university course, it is an instrument of higher education, but its content does not focus on improving educational systems or access.",
+      "score": 1.001,
+      "evidence": [
+        "科目名稱：刑法（三）"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "reason": "The course addresses \"sexual assault\" (妨害性自主罪) and \"offenses against marriage and family,\" which are critical legal topics for protecting against gender-based violence.",
+      "score": 7.5,
+      "evidence": [
+        "妨害性自主罪",
+        "妨害婚姻及家庭罪"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course covers economic crimes such as \"fraud\" (詐欺罪), \"forgery of currency\" (偽造貨幣), and \"malfeasance\" (瀆職罪), which undermine stable and just economic systems.",
+      "score": 4.0,
+      "evidence": [
+        "詐欺罪",
+        "偽造貨幣及有價證券罪",
+        "瀆職罪"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The curriculum includes \"computer crimes\" (妨害電腦使用罪), which relates to the protection of digital infrastructure, a key component of modern industry and innovation.",
+      "score": 2.5,
+      "evidence": [
+        "妨害電腦使用罪"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "The course addresses crimes like \"extortion\" (恐嚇取財罪) and \"usury\" (重利罪), which often target vulnerable populations, thus relating to legal protections against exploitation.",
+      "score": 3.0,
+      "evidence": [
+        "恐嚇取財罪",
+        "重利罪"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "The course covers \"crimes of public danger\" (公共危險罪) and \"offenses against public order\" (妨害秩序罪), which are directly related to maintaining safety in communities.",
+      "score": 4.5,
+      "evidence": [
+        "公共危險罪",
+        "妨害秩序罪"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "A note to \"Respect Copyright\" tangentially relates to intellectual property rights, which are a component of sustainable and ethical production.",
+      "score": 1.5,
+      "evidence": [
+        "維護智慧財產權，務必使用正版書籍。 Respect Copyright."
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course is fundamentally about \"Criminal Law,\" covering justice, public order, and crimes against the state, such as \"malfeasance,\" \"perjury,\" and \"insurrection.\"",
+      "score": 10.0,
+      "evidence": [
+        "科目名稱：刑法（三）",
+        "瀆職罪",
+        "偽證及誣告罪"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course schedule includes \"offenses against foreign relations\" (妨害國交罪), which directly relates to the legal framework for international cooperation and partnerships.",
+      "score": 2.0,
+      "evidence": [
+        "妨害國交罪"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive insights into relevant SDGs, particularly in health and justice.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B highlights relevant crimes impacting economic well-being."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B identifies explicit health-related crimes covered in the course."
+      },
+      "Quality Education": {
+        "your_original": 4.5,
+        "model_b_score": 1.001,
+        "your_revised": 1.001,
+        "reason": "Model B's focus on educational access aligns better with course content."
+      },
+      "Gender Equality": {
+        "your_original": 4.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B emphasizes critical legal topics for gender protection."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B connects economic crimes to stable economic systems."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B's inclusion of computer crimes relates to infrastructure."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B connects relevant crimes to legal protections for vulnerable populations."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.001,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's focus on public safety crimes aligns with community sustainability."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.001,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B's mention of copyright relates to ethical production."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 8.5,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's broader coverage of justice-related topics enhances relevance."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B connects course content to international cooperation."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis was significantly more thorough, identifying many explicit connections to specific criminal offenses that I initially missed. Its interpretation of the course content's relevance to various SDGs is more accurate.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A correctly identified 'usury' (重利罪) as relevant, which directly impacts economic vulnerability and poverty."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model A correctly highlighted explicit mentions of 'homicide,' 'injury,' and 'abortion' as directly related to health and life."
+      },
+      "Quality Education": {
+        "your_original": 4.5,
+        "model_b_score": 1.001,
+        "your_revised": 1.001,
+        "reason": "Model A's lower score better reflects that the course, while providing education, doesn't focus on improving educational systems or access, which is the core of SDG 4."
+      },
+      "Gender Equality": {
+        "your_original": 4.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model A's higher score is justified by the explicit inclusion of 'sexual assault' and 'offenses against marriage and family,' which are highly relevant."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A correctly identified 'fraud,' 'forgery of currency,' and 'malfeasance' as undermining stable economic systems."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A correctly noted 'computer crimes' (妨害電腦使用罪) as relevant to protecting digital infrastructure."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model A correctly linked 'extortion' and 'usury' to legal protections against exploitation, which often targets vulnerable populations."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.001,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A correctly identified 'crimes of public danger' and 'offenses against public order' as directly related to community safety."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.001,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model A correctly identified the 'Respect Copyright' note as tangentially related to intellectual property and responsible production."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 8.5,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A's perfect score is more appropriate, as criminal law is fundamentally about justice, public order, and strong institutions."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A correctly identified 'offenses against foreign relations' (妨害國交罪) as relevant to international cooperation."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's inference about usury impacting poverty is valid, supported by course content on economic crimes.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course content for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models correctly identify explicit health-related crimes, aligning well with the SDG's focus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 1.001,
+      "source": "synthesized",
+      "reasoning": "Model A's lower score reflects the course's focus on legal education rather than improving educational systems.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 1.001
+      }
+    },
+    "Gender Equality": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight critical legal topics related to gender-based violence, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in either model's analysis for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "Both models found no relevant evidence in the course content for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Model B's identification of economic crimes aligns well with the SDG's focus on economic stability.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Model B's mention of computer crimes is relevant to infrastructure, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on crimes targeting vulnerable populations aligns with the SDG's objectives.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models correctly identify crimes related to public safety, aligning with the SDG's focus.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model B's mention of copyright relates to ethical production, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in either model's analysis for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in either model's analysis for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence found in either model's analysis for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's strong focus on criminal law, justifying a perfect score.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's connection to international cooperation through legal frameworks is valid.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "Model B correctly identified '重利罪' (usury) as relevant. This crime directly exploits vulnerable individuals, contributing to poverty, aligning with SDG 1's aim to end poverty.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus directly relates to hunger, food security, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "Model B accurately highlighted explicit mentions of '殺人罪' (homicide), '傷害罪' (injury), and '墮胎罪' (abortion), which directly concern physical health and life, central to SDG 3.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 1.001,
+      "source": "revised_a",
+      "reasoning": "While a university course, its content doesn't focus on improving educational systems or access, which is the core of SDG 4. Model B's original and both models' revised scores reflect this better.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 1.001
+      }
+    },
+    "Gender Equality": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "Model B correctly identified '妨害性自主罪' (sexual assault) and '妨害婚姻及家庭罪' as critical legal topics for protecting against gender-based violence, directly aligning with SDG 5.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus directly relates to clean water, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus directly relates to affordable or clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "Model B correctly linked '詐欺罪' (fraud), '偽造貨幣及有價證券罪', and '瀆職罪' to undermining stable and just economic systems, crucial for decent work and growth.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "Model B accurately identified '妨害電腦使用罪' (computer crimes) as relevant to protecting digital infrastructure, a key component of modern industry and innovation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "Model B correctly connected '恐嚇取財罪' (extortion) and '重利罪' (usury) to legal protections against exploitation, which often targets vulnerable populations and exacerbates inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "Model B correctly identified '公共危險罪' (public danger crimes) and '妨害秩序罪' (public order offenses) as directly related to maintaining safety and order in communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "Model B accurately linked the 'Respect Copyright' note to intellectual property rights, which are a component of ethical and responsible production practices.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus directly relates to climate change or environmental action.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus directly relates to marine ecosystems or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus directly relates to terrestrial ecosystems or biodiversity.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course, 'Criminal Law (III),' is fundamentally about justice, public order, and the rule of law, covering numerous crimes against the state and public, making it highly central to SDG 16.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "Model B correctly identified '妨害國交罪' (offenses against foreign relations) as directly relating to the legal framework for international cooperation and partnerships, a component of SDG 17.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    }
+  }
+}

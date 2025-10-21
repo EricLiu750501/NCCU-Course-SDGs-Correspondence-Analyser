@@ -1,0 +1,786 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course aims to help students understand economic concepts → relevant to Quality Education.",
+      "score": 7.0,
+      "evidence": [
+        "幫助學生理解市場機制的運作方式",
+        "應用經濟分析工具",
+        "培養學生以經濟學視角思考公共議題的能力"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Course discusses market efficiency and government policies → relevant to Economic Growth.",
+      "score": 8.0,
+      "evidence": [
+        "市場在自由運作下會產生什麼樣的結果",
+        "政府針對市場失靈所採行的政策工具",
+        "評估其經濟效果"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 4.5,
+      "reason": "The course analyzes government policies like subsidies and taxes, which are tools for poverty reduction, and evaluates outcomes for 'overall society'.",
+      "evidence": [
+        "政府政策：稅、補助、限額",
+        "這些結果對整體社會是否是好的",
+        "分析政府針對市場失靈所採行的政策工具"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 1.5,
+      "reason": "The course covers government policies like price ceilings and subsidies, which can be applied to food markets, but does not mention food or agriculture.",
+      "evidence": [
+        "政府政策: 價格上限、價格下限、稅",
+        "政府政策：稅、補助、限額"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Good Health and Well-being": {
+      "score": 2.5,
+      "reason": "The course covers 'externalities' and 'public goods', core concepts for analyzing public health issues, though health is not an explicit topic.",
+      "evidence": [
+        "市場失靈、 外部性、公共財"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "score": 8.0,
+      "reason": "As a foundational economics course, it directly contributes to quality education by teaching analytical skills and fostering critical thinking on public issues.",
+      "evidence": [
+        "本課程旨在介紹個體經濟學的基本理論架構與核心概念",
+        "培養學生以經濟學視角思考公共議題的能力",
+        "針對現實經濟現象或公共政策進行基礎的分析與批判性思考"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 2.0,
+      "reason": "The course provides analytical tools like 'public goods' and 'externalities' that are essential for managing water resources, but water is not mentioned.",
+      "evidence": [
+        "市場失靈、 外部性、公共財"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Affordable and Clean Energy": {
+      "score": 2.0,
+      "reason": "The course covers 'externalities', a key concept for analyzing the environmental impacts of energy, but does not specifically mention energy.",
+      "evidence": [
+        "市場失靈、 外部性"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 8.5,
+      "reason": "The course is fundamentally about market mechanisms, firm behavior, production costs, and efficiency, which are core drivers of economic growth and employment.",
+      "evidence": [
+        "廠商行為",
+        "廠商：收入、成本與經濟利潤",
+        "競爭市場的效率性"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 7.5,
+      "reason": "The course analyzes 'firm behavior' and 'market' structures, which are central to industry, and covers 'public goods', a concept relevant to infrastructure.",
+      "evidence": [
+        "廠商行為",
+        "完全競爭市場",
+        "公共財"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 5.0,
+      "reason": "The course analyzes government policies like 'taxes' and 'subsidies', which are primary tools for income redistribution, and considers outcomes for 'overall society'.",
+      "evidence": [
+        "政府政策：稅、補助",
+        "這些結果對整體社會是否是好的",
+        "消費者剩餘、生產者剩餘"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 3.5,
+      "reason": "The course covers concepts like 'externalities' (e.g., pollution) and 'public goods' (e.g., public services), which are applicable to urban management.",
+      "evidence": [
+        "市場失靈、 外部性、公共財"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "score": 8.0,
+      "reason": "The course directly analyzes 'consumer choice' and 'firm behavior' in production, and covers 'externalities', which addresses the social costs of consumption and production.",
+      "evidence": [
+        "消費者選擇",
+        "廠商行為",
+        "外部性"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "score": 6.0,
+      "reason": "The course teaches about 'externalities' and government intervention for 'market failures', which are the primary economic frameworks for analyzing and addressing climate change.",
+      "evidence": [
+        "市場失靈、 外部性",
+        "分析政府針對市場失靈所採行的政策工具"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 6.5,
+      "reason": "The course examines the role of 'government' in correcting 'market failures' and analyzes the effects of its policies, which relates to building effective economic institutions.",
+      "evidence": [
+        "政府是否有介入市場的必要",
+        "分析政府針對市場失靈所採行的政策工具",
+        "政府政策: 價格上限、價格下限、稅"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.001,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive reasoning and evidence for several SDGs, prompting revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B highlights government policies relevant to poverty reduction."
+      },
+      "Zero Hunger": {
+        "your_original": 0.001,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B connects government policies to food markets."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B links externalities to public health issues."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B connects public goods to water resource management."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B relates externalities to environmental impacts of energy."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B emphasizes income redistribution through government policies."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.001,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model B connects externalities to urban management."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.001,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B provides strong evidence on consumer choice and firm behavior."
+      },
+      "Climate Action": {
+        "your_original": 0.001,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B links externalities to climate change analysis."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B discusses government roles in market failures."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis is significantly more comprehensive, effectively identifying strong inferred connections between core microeconomic concepts (externalities, public goods, government policies) and numerous SDGs that I initially overlooked.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Course covers government policies (taxes, subsidies) and evaluating societal outcomes, directly relevant to poverty reduction."
+      },
+      "Zero Hunger": {
+        "your_original": 0.001,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "General economic tools like price controls and subsidies, though not explicit for food, are applicable to food markets."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Concepts of externalities and public goods are fundamental for analyzing public health issues."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A's score better reflects the course's explicit contribution to foundational knowledge and critical thinking skills."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Analytical tools like public goods and externalities are crucial for managing water resources."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "The course's coverage of externalities is key for analyzing the environmental impacts of energy."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 8.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A's score better emphasizes the course's direct relevance to firm behavior, production, and market efficiency."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.001,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Course covers firm behavior, market structures (industry), and public goods (infrastructure), making it highly relevant."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Analysis of government policies (taxes, subsidies) and societal outcomes directly addresses income redistribution and inequality."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.001,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Concepts like externalities and public goods are directly applicable to urban planning and sustainable community management."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.001,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Direct analysis of consumer choice, firm behavior, and externalities is central to responsible consumption and production."
+      },
+      "Climate Action": {
+        "your_original": 0.001,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "The course's focus on externalities and market failures provides the core economic framework for climate change analysis."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Examination of government's role in market intervention and policy effects is crucial for understanding strong economic institutions."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the relevance of government policies to poverty reduction, with Model B providing a strong rationale. The score reflects the course's focus on evaluating societal outcomes.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model B's reasoning about government policies applicable to food markets is valid, though the course lacks explicit references to food or agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Both models correctly identify the relevance of externalities and public goods to health issues, with Model B providing a clearer connection.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's contribution to quality education, but Model B's score better reflects the explicit educational goals outlined in the syllabus.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence related to gender equality in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's reasoning about public goods and externalities is relevant, though the course does not explicitly mention water management.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect externalities to energy impacts, but the course lacks specific references to energy topics.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on market mechanisms and government policies aligns well with the course's focus on economic growth, justifying a higher score.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Model B's analysis of firm behavior and market structures is relevant, though the course does not explicitly focus on infrastructure.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's focus on government policies for income redistribution, with Model B providing a strong rationale.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 3.5,
+      "source": "synthesized",
+      "reasoning": "Model B's connection of externalities to urban management is valid, though the course lacks explicit references to sustainability.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models effectively analyze consumer choice and firm behavior, with Model B providing strong evidence for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models link externalities to climate change analysis, but the course does not explicitly address climate issues.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence related to marine issues in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence related to terrestrial issues in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Both models effectively analyze the role of government in market failures, with Model B providing a strong rationale for this score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence related to partnerships in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course covers government policies such as taxes and subsidies, which are fundamental tools for income redistribution and poverty reduction, and evaluates their effects on 'overall society'.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The course covers government policies like price ceilings and subsidies, which are economic tools frequently applied to food markets to influence supply and affordability, though food is not explicitly mentioned.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The course introduces concepts like 'externalities' and 'public goods,' which are fundamental economic frameworks for analyzing and addressing various public health issues, despite health not being an explicit topic.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "As a foundational university-level economics course, it directly contributes to quality education by teaching core analytical skills, fostering critical thinking, and enabling students to analyze real-world economic phenomena and policies.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no explicit or inferred evidence in the course syllabus that relates to gender equality.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course covers analytical tools like 'public goods' and 'externalities,' which are essential for understanding and managing common pool resources such as clean water, despite no explicit mention of water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course's discussion of 'externalities' provides a fundamental economic framework for analyzing the environmental impacts and policy challenges related to energy production and consumption.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about market mechanisms, firm behavior, production, costs, and market efficiency, which are core drivers of economic growth and the conditions for employment.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course analyzes 'firm behavior' and 'market structures' (relevant to industry), and covers 'public goods,' a core concept for understanding and financing infrastructure development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course analyzes government policies such as 'taxes' and 'subsidies,' which are primary tools for income redistribution and addressing economic inequalities, and evaluates their impact on 'overall society'.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 3.5,
+      "source": "model_b",
+      "reasoning": "The course covers 'externalities' (e.g., pollution, congestion) and 'public goods' (e.g., public spaces, services), which are key economic concepts for analyzing and managing sustainable urban development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course directly analyzes 'consumer choice' and 'firm behavior' in production, and covers 'externalities,' which are crucial for understanding the social and environmental costs of consumption and production.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'externalities' and 'market failures,' along with government intervention to address them, provides the essential economic framework for analyzing and formulating policies for climate action.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no explicit or inferred evidence in the course syllabus that relates to marine ecosystems or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no explicit or inferred evidence in the course syllabus that relates to terrestrial ecosystems or life on land.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course examines the role of 'government' in correcting 'market failures' and analyzes the effects of its policies, which is crucial for understanding and building effective economic institutions.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "There is no explicit or inferred evidence in the course syllabus that relates to global partnerships or multi-stakeholder cooperation for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    }
+  }
+}

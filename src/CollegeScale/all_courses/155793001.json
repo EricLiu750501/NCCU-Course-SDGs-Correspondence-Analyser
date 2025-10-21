@@ -1,0 +1,686 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Discusses '公共圖書館與社區參與' and '閱讀教育' → relevant to Quality Education.",
+      "score": 6.0,
+      "evidence": [
+        "公共圖書館與社區參與（二）",
+        "閱讀教育與空間"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Mentions '經費來源和募款' → relevant to economic growth.",
+      "score": 4.5,
+      "evidence": [
+        "經費來源和募款"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Mentions '新圖書館與科技' → relevant to innovation.",
+      "score": 4.0,
+      "evidence": [
+        "新圖書館與科技、創客空間"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "Discusses '公共圖書館與社區參與' → relevant to community sustainability.",
+      "score": 5.0,
+      "evidence": [
+        "公共圖書館與社區參與（一）",
+        "公共圖書館與社區參與（二）"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "No evidence found in the course description regarding poverty alleviation, financial inclusion, or services for the poor.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found in the course description related to food security, nutrition, or sustainable agriculture.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "The course addresses the needs of an aging population through topics like 'Public libraries and an aging society' and 'friendly services', which supports well-being.",
+      "score": 4.0,
+      "evidence": [
+        "公共圖書館與高齡社會 (Public libraries and an aging society)",
+        "圖書館友善服務 (friendly services)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "The course is fundamentally about public libraries, key institutions for lifelong learning, and explicitly mentions 'Reading education and space' as a core topic.",
+      "score": 9.0,
+      "evidence": [
+        "公共圖書館與閱讀 (Public libraries and reading)",
+        "閱讀教育與空間 (Reading education and space)",
+        "促使學生熟悉公共圖書館各種讀者群之需求 (promote students' understanding of the needs of various reader groups)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found in the course description regarding gender equality, women's empowerment, or related topics.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found in the course description related to water resources, sanitation, or hygiene.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found in the course description related to energy, renewables, or energy efficiency.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "The course tangentially relates to decent work by discussing 'human resources' and 'challenges for public library librarians', focusing on the profession itself.",
+      "score": 2.0,
+      "evidence": [
+        "公共圖書館館長與人力資源 (Public library director and human resources)",
+        "對於公共圖書館館員工作的挑戰 (challenges for public library librarians)"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course covers the physical and technological infrastructure of libraries, including 'Public library architecture', 'new libraries and technology', and 'maker spaces' which foster innovation.",
+      "score": 6.5,
+      "evidence": [
+        "公共圖書館建築 (Public library architecture)",
+        "新圖書館與科技 (new libraries and technology)",
+        "創客空間 (maker spaces)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "The course addresses serving diverse populations by discussing the 'needs of various reader groups' and focusing on specific demographics like the 'aging society'.",
+      "score": 5.5,
+      "evidence": [
+        "促使學生熟悉公共圖書館各種讀者群之需求 (promote students' understanding of the needs of various reader groups)",
+        "公共圖書館與高齡社會 (Public libraries and an aging society)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "The course has a strong focus on the library's role as a community hub, with dedicated topics on 'Public libraries and community participation' and 'sustainable operation'.",
+      "score": 8.0,
+      "evidence": [
+        "公共圖書館與社區參與（一） (Public libraries and community participation (I))",
+        "公共圖書館與社區參與（二） (Public libraries and community participation (II))",
+        "永續經營 (sustainable operation)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "The course mentions 'sustainable operation', but the context suggests financial or social sustainability rather than consumption patterns. The library's inherent sharing model is not explicitly discussed.",
+      "score": 1.5,
+      "evidence": [
+        "永續經營 (sustainable operation)"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "reason": "No evidence found in the course description related to climate change, climate action, or environmental education.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found in the course description related to marine life, oceans, or water ecosystems.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "No evidence found in the course description related to terrestrial ecosystems, biodiversity, or land use.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course is centered on strengthening public libraries, which are key public institutions. It also covers their relationship with 'local government', contributing to institutional strength.",
+      "score": 5.0,
+      "evidence": [
+        "地方政府和圖書館 (local government and libraries)",
+        "公共圖書館概論 (Introduction to Public Libraries)"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course discusses collaboration between libraries and other entities through topics like 'local government and libraries', 'community participation', and 'fundraising'.",
+      "score": 5.0,
+      "evidence": [
+        "地方政府和圖書館 (local government and libraries)",
+        "公共圖書館與社區參與 (Public libraries and community participation)",
+        "經費來源和募款 (funding sources and fundraising)"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations of the course text, particularly for Good Health and Well-being, Quality Education, Decent Work and Economic Growth, Industry, Innovation and Infrastructure, Reduced Inequalities, Sustainable Cities and Communities.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B highlights relevant topics on aging and friendly services."
+      },
+      "Quality Education": {
+        "your_original": 6.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B emphasizes the course's focus on lifelong learning and reading education."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.5,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B's score reflects a more accurate focus on human resources and challenges."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 4.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B captures the emphasis on library architecture and technology."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.001,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B identifies the course's focus on diverse reader needs."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 5.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B highlights the library's role in community participation and sustainability."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's analysis provided stronger evidence for SDG 8 and correctly identified the lack of direct evidence for SDG 12, leading to revisions in my scores.",
+    "revisions": {
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 2.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's focus on '經費來源和募款' (funding sources and fundraising) is a more direct link to economic growth than my original reasoning."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 1.5,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model B's 'no evidence found' is more accurate; my inference from '永續經營' was weak and not directly related to consumption/production patterns."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty alleviation in the course description, confirming the score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to hunger or food security was found in the course description, supporting the score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on aging services aligns with course content, providing a more accurate score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on lifelong learning and reading education is well-supported by course content.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to gender equality in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to water or sanitation was found in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to energy in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model A's focus on funding sources provides a clearer link to economic growth than Model B's lower score.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 4.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on library architecture and technology aligns well with course content.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on diverse reader needs is well-supported by course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on community participation and sustainability aligns strongly with course content.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no strong evidence related to consumption or production patterns.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to climate action was found in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to marine life or water ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to terrestrial ecosystems was found in the course description.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on the relationship between libraries and local government aligns with course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on collaboration between libraries and other entities is well-supported by course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit evidence in the course syllabus directly addresses poverty alleviation or financial inclusion.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit evidence in the course syllabus relates to food security, nutrition, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '公共圖書館與高齡社會' (Public libraries and an aging society) and '圖書館友善服務' (friendly services), directly supporting the well-being of specific demographics.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about public libraries as lifelong learning institutions, explicitly mentioning '閱讀教育與空間' (Reading education and space) and addressing diverse reader needs.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit evidence in the course syllabus addresses gender equality, women's empowerment, or related topics.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit evidence in the course syllabus relates to water resources, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit evidence in the course syllabus relates to energy, renewables, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "The course discusses '經費來源和募款' (funding sources and fundraising) for economic sustainability and '人力資源' (human resources) and '館員工作的挑戰' (challenges for librarians) for decent work.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 4.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The syllabus explicitly covers '公共圖書館建築' (Public library architecture), '新圖書館與科技' (new libraries and technology), and '創客空間' (maker spaces), directly addressing infrastructure and innovation.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course aims to '促使學生熟悉公共圖書館各種讀者群之需求' (promote students' understanding of the needs of various reader groups) and addresses '公共圖書館與高齡社會', contributing to equitable access.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course strongly focuses on the library's role as a community hub, with dedicated topics on '公共圖書館與社區參與' (Public libraries and community participation) and '永續經營' (sustainable operation).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit evidence in the course syllabus directly relates to responsible consumption or production patterns. The term '永續經營' refers to institutional sustainability.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.001
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit evidence in the course syllabus addresses climate change, climate action, or environmental education.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit evidence in the course syllabus relates to marine life, oceans, or water ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit evidence in the course syllabus relates to terrestrial ecosystems, biodiversity, or land use.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on strengthening public libraries as key public institutions, including their relationship with '地方政府和圖書館' (local government and libraries), contributing to institutional strength.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course discusses collaboration through topics like '地方政府和圖書館' (local government and libraries), '公共圖書館與社區參與' (community participation), and '經費來源和募款' (fundraising), all involving partnerships.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

@@ -1,0 +1,671 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "Mentions 'biological data' and 'biotechnology industry' → relevant to health applications.",
+      "score": 4.5,
+      "evidence": [
+        "understanding biological data",
+        "qualified for jobs in the field of biotechnology industry"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "reason": "Focus on teaching bioinformatics principles and teamwork skills.",
+      "score": 7.5,
+      "evidence": [
+        "introduce students to this rapidly growing topic",
+        "training students' cooperation ability"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Prepares students for jobs in biotechnology, linking education to economic growth.",
+      "score": 6.0,
+      "evidence": [
+        "qualified for jobs in the field of biotechnology industry"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "Focus on bioinformatics tools and methods relevant to industry.",
+      "score": 7.0,
+      "evidence": [
+        "develops methods and software tools for understanding biological data"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "Mentions genomics and proteomics, which can relate to biodiversity.",
+      "score": 4.0,
+      "evidence": [
+        "proteomics, genomics and comparative bioinformatics"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information regarding poverty, economic inequality, or social protection.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information regarding agriculture, food security, or nutrition.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 8.5,
+      "reason": "The course directly addresses human health by studying genomic variation, its relationship to diseases, and analyzing the Human Genome Project.",
+      "evidence": [
+        "Single-nucleotide polymorphisms related to diseases",
+        "ClinVar​: aggregates information about genomic variation and its relationship to human health",
+        "The Human Genome Project"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "score": 7.5,
+      "reason": "As a university course, its primary goal is to educate students in an advanced, interdisciplinary field, equipping them with fundamental principles and skills.",
+      "evidence": [
+        "This course will introduce students to this rapidly growing topic and equip them with some of its fundamental principles, related algorithms, and programming skill",
+        "非生科背景的學生將具備基礎生物資料科學分析能力 (students from non-life science backgrounds will have basic biological data science analysis capabilities)",
+        "培養邏輯推理、獨立思考與創新能力 (Cultivate logical reasoning, independent thinking and innovation ability)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information regarding gender equality or the empowerment of women.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information regarding water resources, sanitation, or hygiene.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information regarding energy, renewables, or energy efficiency.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 6.5,
+      "reason": "The course aims to prepare students for employment, stating they can be 'qualified for jobs in the field of biotechnology industry'.",
+      "evidence": [
+        "qualified for jobs in the field of biotechnology industry",
+        "此為就業重要經驗 (this is an important employment experience)",
+        "Final project is based on teamwork form which is an essential skill in the field of Bioinformatics"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 9.0,
+      "reason": "The course is centered on an 'interdisciplinary and emerging field', developing 'methods and software tools' for the 'biotechnology industry', which is core to innovation.",
+      "evidence": [
+        "Bioinformatics is an interdisciplinary and emerging field",
+        "develops methods and software tools for understanding biological data",
+        "qualified for jobs in the field of biotechnology industry"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information regarding reducing inequalities within or among countries.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information regarding urban development, housing, or sustainable cities.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information regarding sustainable consumption, production patterns, or resource management.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information regarding climate change, its impacts, or mitigation strategies.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found in the course information regarding marine ecosystems, oceans, or aquatic life.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 4.5,
+      "reason": "The course teaches methods like 'Phylogenetic tree' reconstruction and 'evolutionary modeling', which are fundamental for studying biodiversity and the evolution of life on land.",
+      "evidence": [
+        "Phylogenetic tree 1/2",
+        "evolutionary modeling context",
+        "The central dogma of molecular biology: DNA, mRNA, protein"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 2.0,
+      "reason": "The course includes 'Cognition of professional and ethical responsibility' as a core competency, which is a foundational element for building strong professional institutions.",
+      "evidence": [
+        "E. 具有專業及道德責任的認知 (Cognition of professional and ethical responsibility)"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 4.0,
+      "reason": "The course promotes teamwork and utilizes international scientific resources and publications, reflecting the collaborative nature of scientific progress necessary for achieving the SDGs.",
+      "evidence": [
+        "培養團隊合作的能力 (Cultivate the ability of teamwork)",
+        "期末作業以團隊模式來進行 (Final project is based on teamwork form)",
+        "Canadian Bioinformatics Workshops (all slides and video are available)"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations of health and industry-related SDGs based on explicit course content.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 4.5,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B highlights direct references to health applications in the course."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B emphasizes the importance of teamwork as essential for employment."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 7.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B accurately reflects the course's focus on innovation in bioinformatics."
+      },
+      "Life on Land": {
+        "your_original": 4.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B provides a clearer connection to biodiversity through course content."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B identifies ethical responsibility as relevant to strong institutions."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B emphasizes teamwork and collaboration in scientific progress."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "No revisions needed. Model B's analysis aligns with mine on many points, but my original analysis provides more comprehensive evidence and stronger reasoning for the identified SDGs.",
+    "revisions": {}
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty in the course content, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to hunger or food security was found in the course content, supporting the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "Model B accurately identifies explicit references to health applications in the course, justifying a higher score.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the importance of education in bioinformatics, with strong evidence supporting this score.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to gender equality in the course content, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to water or sanitation was found in the course content, supporting the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to energy in the course content, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Both models provide strong evidence for job preparation in biotechnology, with Model A's revision aligning with Model B's score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "Model B's score reflects the course's strong emphasis on innovation and industry relevance, supported by explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to reducing inequalities in the course content, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to sustainable cities was found in the course content, supporting the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to responsible consumption in the course content, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence related to climate action was found in the course content, supporting the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to marine ecosystems in the course content, justifying the lowest score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models provide strong evidence for biodiversity relevance, with Model A's revision aligning with Model B's score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model A's revision aligns with Model B's identification of ethical responsibility as relevant to strong institutions.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize teamwork and collaboration, with Model A's revision aligning with Model B's score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course content focuses on bioinformatics, algorithms, and industry skills, with no explicit or inferable connection to poverty eradication.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course focuses on bioinformatics, genomics, and proteomics, without any explicit mention or strong inference related to food security or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers 'Single-nucleotide polymorphisms related to diseases' and uses 'ClinVar' which aggregates genomic variation and human health information, directly aligning with health and well-being.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "model_a",
+      "reasoning": "The course's core objective is to educate students in bioinformatics, providing fundamental principles, algorithms, programming skills, and fostering critical thinking and innovation.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course content does not contain any explicit or inferable information related to gender equality or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course focuses on bioinformatics, genomics, and proteomics, with no explicit or inferable connection to water resources, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course content does not contain any explicit or inferable information related to energy, renewables, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly prepares students for 'jobs in the field of biotechnology industry' and emphasizes teamwork as an 'essential skill' for employment, directly contributing to decent work.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "Bioinformatics is an 'interdisciplinary and emerging field' focused on developing 'methods and software tools' for biological data, directly driving innovation and supporting the biotechnology industry.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course content does not contain any explicit or inferable information related to reducing inequalities within or among countries.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course content does not contain any explicit or inferable information related to urban development, housing, or sustainable communities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course content does not contain any explicit or inferable information related to sustainable consumption, production patterns, or resource management.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course content does not contain any explicit or inferable information related to climate change, its impacts, or mitigation strategies.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "The course focuses on general biological data, genomics, and proteomics, without specific mention or strong inference related to marine ecosystems or aquatic life.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "The course covers 'Phylogenetic tree' reconstruction and 'evolutionary modeling,' which are fundamental tools for understanding biodiversity and the evolution of life on land.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 2.0,
+      "source": "revised_a",
+      "reasoning": "The course includes 'Cognition of professional and ethical responsibility' as a core competency, which is a foundational element for fostering strong and just professional institutions.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly cultivates 'teamwork ability' and uses international resources like 'Canadian Bioinformatics Workshops,' reflecting the collaborative nature essential for global partnerships.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

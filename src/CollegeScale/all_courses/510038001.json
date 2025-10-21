@@ -1,0 +1,668 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "Covers 'oral hygiene' and 'first aid' topics → relevant to health.",
+      "score": 4.0,
+      "evidence": [
+        "to understand information about oral hygiene",
+        "to learn words about a first aid kit",
+        "to understand first aid instructions"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "reason": "Focuses on language skills and comprehension → relevant to education.",
+      "score": 7.0,
+      "evidence": [
+        "Students should be able to make basic inferences or predictions about text content",
+        "Students should be able to identify important information in texts",
+        "Students should be able to understand the main idea of texts"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "Covers 'public transport' → relevant to sustainable cities.",
+      "score": 4.0,
+      "evidence": [
+        "to understand information about public transport"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "Covers 'online shopping' → relevant to consumption.",
+      "score": 4.0,
+      "evidence": [
+        "to understand tips for safe online shopping"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "Covers 'animal' and 'plant' topics → relevant to life on land.",
+      "score": 4.0,
+      "evidence": [
+        "to learn words about animal body parts and actions",
+        "to learn words about parts of a plant"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding poverty, inequality, or economic vulnerability.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 1.001,
+      "reason": "The course mentions food through topics like \"meat dish and dessert recipes\" and \"plant topic: tomato,\" but does not address hunger, food security, or agriculture.",
+      "evidence": [
+        "theme: food topic: meat dish and dessert recipes",
+        "theme: plant topic: tomato"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Good Health and Well-being": {
+      "score": 7.0,
+      "reason": "The course has dedicated themes on \"physical health topic: first aid,\" \"mental health topic: stress,\" and \"oral hygiene,\" directly addressing key aspects of well-being.",
+      "evidence": [
+        "theme: physical health topic: first aid",
+        "theme: mental health topic: stress",
+        "topic: oral hygiene"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "score": 10.0,
+      "reason": "The course is fundamentally an educational activity aiming to build language proficiency and critical thinking, and explicitly includes an \"education topic: college entrance examination.\"",
+      "evidence": [
+        "theme: education topic: college entrance examination",
+        "A. 具備基本語言及應用能力 To possess basic language proficiency and application skills",
+        "C. 具備人文素養及思辨能力To possess humanistic literacy and critical thinking skills"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding gender, equality, or empowerment.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.001,
+      "reason": "While \"oral hygiene\" is mentioned, there is no discussion of clean water access, sanitation systems, or water resource management.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding energy, electricity, or renewables.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 1.001,
+      "reason": "The course tangentially touches on economic activity with the theme \"business and service topic: online shopping,\" but does not address decent work or economic growth.",
+      "evidence": [
+        "theme: business and service topic: online shopping"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 4.0,
+      "reason": "The course discusses key infrastructure elements through themes like \"public transport in Bangkok\" and \"The Internet,\" which are relevant to this goal.",
+      "evidence": [
+        "theme: travel topic: public transport in Bangkok",
+        "theme: leisure activity topic: The Internet"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding social, economic, or political inequality.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 4.0,
+      "reason": "The course covers topics related to urban living, such as \"accommodation topic: condominium\" and \"public transport in Bangkok,\" which are components of cities.",
+      "evidence": [
+        "theme: accommodation topic: condominium",
+        "theme: travel topic: public transport in Bangkok"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 1.001,
+      "reason": "The mention of a \"stain removal guide\" for clothes is tangentially related to consumption but lacks any focus on sustainability or responsible practices.",
+      "evidence": [
+        "theme: clothes topic: stain removal guide"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding climate change, emissions, or climate resilience.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding marine ecosystems, oceans, or aquatic life.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 4.0,
+      "reason": "The course includes themes directly related to terrestrial life, such as \"animal topic: mosquito\" and \"plant topic: tomato,\" which are components of ecosystems.",
+      "evidence": [
+        "theme: animal topic: mosquito",
+        "topic: human vs animal",
+        "theme: plant topic: tomato"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding peace, justice, law, or institutional governance.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.001,
+      "reason": "No evidence found in the course description regarding partnerships, collaboration, or global cooperation for sustainable development.",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations for Zero Hunger and Quality Education, leading to necessary revisions.",
+    "revisions": {
+      "Zero Hunger": {
+        "your_original": 0.001,
+        "model_b_score": 1.001,
+        "your_revised": 1.001,
+        "reason": "Model B identifies relevant food topics that imply a connection to hunger."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B emphasizes the educational focus and critical thinking skills more comprehensively."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's analysis prompted revisions for three SDGs, primarily due to a more precise interpretation of direct relevance to the SDG targets versus general topic mentions.",
+    "revisions": {
+      "SDG_2 (Zero Hunger)": {
+        "your_original": 1.001,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "While food topics are present, they do not address hunger, food security, or sustainable agriculture, making a 0.001 score more accurate."
+      },
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 1.001,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Online shopping is a consumer activity, not directly related to decent work, employment, or economic growth as defined by SDG 8."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 1.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's link to 'online shopping' as a form of consumption is more direct than my original 'stain removal guide' for this SDG."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty, making this score consistent with the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Despite food topics, neither model sufficiently connects them to hunger or food security, aligning with the course evidence.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight relevant health topics, but Model B's broader coverage justifies a higher score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on educational outcomes and critical thinking aligns perfectly with the course objectives.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to gender equality, consistent with the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence regarding clean water or sanitation was found in either model, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to energy, consistent with the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no substantial evidence related to decent work or economic growth, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified relevant infrastructure topics, justifying a consistent score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to inequalities, consistent with the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified relevant urban topics, justifying a consistent score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on consumption through online shopping aligns well with the SDG, justifying a higher score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 1.001,
+        "model_b_revised": 4.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to climate action, consistent with the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to marine life, consistent with the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified relevant topics related to terrestrial life, justifying a consistent score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to peace or justice, consistent with the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to partnerships, consistent with the course content.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to poverty eradication or related issues.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "While food and plant topics are mentioned, they focus on vocabulary and recipes, not on addressing hunger, food security, or sustainable agriculture, which are the core tenets of SDG 2.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.001,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'oral hygiene,' 'first aid' (physical health), and 'stress' (mental health), directly addressing multiple key aspects of well-being.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course itself is an educational activity focused on language proficiency, critical thinking, and explicitly includes a topic on 'college entrance examination,' directly embodying quality education.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus addresses gender equality, empowerment, or related issues.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "While 'oral hygiene' is mentioned, it pertains to personal care, not broader issues of clean water access, sanitation systems, or water resource management.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus relates to energy, renewables, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "The 'online shopping' topic is a consumer activity, not directly related to promoting decent work, employment, or sustainable economic growth as defined by SDG 8.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 1.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'public transport' and 'The Internet,' which are direct components of resilient infrastructure and innovation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus addresses social, economic, or political inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "model_a",
+      "reasoning": "The course includes topics on 'public transport' and 'accommodation (condominium),' which are direct elements of urban living and sustainable cities.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.0,
+      "source": "model_a",
+      "reasoning": "The topic 'online shopping' directly relates to consumption patterns, making it relevant to understanding consumption behaviors under SDG 12.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 1.001,
+        "model_b_revised": 4.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus addresses climate change, its impacts, or actions to combat it.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus relates to marine ecosystems, oceans, or aquatic life.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 4.0,
+      "source": "model_a",
+      "reasoning": "The course explicitly covers 'animal' and 'plant' topics, providing a foundational connection to terrestrial ecosystems and biodiversity.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus addresses peace, justice, rule of law, or institutional governance.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus relates to global partnerships, cooperation, or means of implementation for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    }
+  }
+}

@@ -1,0 +1,756 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "Course aims to develop analytical skills in land use policy → relevant to Quality Education.",
+      "score": 4.0,
+      "evidence": [
+        "具備研析國土利用政策之能力",
+        "具備分析各國土地管理制度之能力",
+        "具備有效運用地政資源與規劃管制知識"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "Course discusses growth management and economic development → relevant to Decent Work and Economic Growth.",
+      "score": 6.0,
+      "evidence": [
+        "成長管理與經濟發展之比較",
+        "經濟發展與經濟成長",
+        "政府角色、成長管理與經濟發展"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "Course covers sustainable growth management and urban planning → relevant to Sustainable Cities and Communities.",
+      "score": 8.0,
+      "evidence": [
+        "智慧型成長與永續成長方案",
+        "成長管理與永續發展之比較",
+        "大眾運輸導向發展"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "Course discusses land management and agricultural land protection → relevant to Life on Land.",
+      "score": 5.0,
+      "evidence": [
+        "農地資源保護的理念與做法",
+        "美國農地保護實施措施",
+        "我國的農地保護"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "reason": "No evidence found",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": {
+    "No Poverty": {
+      "reason": "The course discusses the '住宅市場' (housing market) and '公共財政' (public finance), which are indirectly related to economic conditions that can influence poverty, but it is not a focus.",
+      "score": 1.5,
+      "evidence": [
+        "第十章 住宅市場與成長管理",
+        "第五章 公共財政與成長管理"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "reason": "The course dedicates a chapter to '農地保護與成長管理' (Agricultural Land Protection and Growth Management), directly addressing the preservation of land for food production.",
+      "score": 7.5,
+      "evidence": [
+        "第七章 農地保護與成長管理",
+        "第一節 農地資源保護的理念與做法",
+        "第四節 我國的農地保護"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "reason": "No evidence found. The course does not mention health, well-being, or related topics.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "reason": "No evidence found. The course content does not address education systems, access, or quality.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "reason": "No evidence found. The course does not mention gender or equality.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "reason": "No evidence found. The course does not mention water resources, sanitation, or related infrastructure.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "reason": "No evidence found. The course does not mention energy, renewables, or affordability.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "reason": "A chapter is dedicated to '成長管理與經濟發展' (Growth Management and Economic Development), analyzing the relationship between government, growth management, and economic growth.",
+      "score": 8.0,
+      "evidence": [
+        "第八章 成長管理與經濟發展",
+        "第一節 經濟發展與經濟成長",
+        "第三節 政府角色、成長管理與經濟發展"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "reason": "The course covers '大眾運輸導向發展（TOD）規劃' (Transit-Oriented Development), '影響公共設施需求' (influencing demand for public facilities), and '智慧城市' (Smart Cities), all key infrastructure topics.",
+      "score": 8.5,
+      "evidence": [
+        "第六章 成長管理與大眾運輸導向發展（TOD）規劃",
+        "第二節 影響公共設施需求之決定因素",
+        "第八節 智慧城市"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "reason": "The course discusses '中央與地方財政責任之分擔' (division of fiscal responsibilities between central and local governments), which can influence regional inequality, but this is an inferred connection.",
+      "score": 2.0,
+      "evidence": [
+        "第四節 中央與地方財政責任之分擔"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "reason": "The course is fundamentally about this goal, covering '成長管理', '土地利用政策', '智慧型成長與永續成長方案' (Smart Growth and Sustainable Growth Programs), and '都市更新' (Urban Renewal).",
+      "score": 10.0,
+      "evidence": [
+        "本課程探討成長管理制度、理論及其相關之土地利用政策",
+        "第七節 智慧型成長與永續成長方案",
+        "第十二章 成長管理與都市更新"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "reason": "The course explicitly discusses '成長管理與永續發展' (Growth Management and Sustainable Development) and the management of land resources, aligning with sustainable resource management principles.",
+      "score": 7.0,
+      "evidence": [
+        "第四章 成長管理與永續發展",
+        "第七節 智慧型成長與永續成長方案",
+        "具備有效運用地政資源與規劃管制知識"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "reason": "The course discusses '永續發展' (sustainable development) and '智慧型成長' (smart growth), which are key strategies for climate mitigation, though climate change is not explicitly mentioned.",
+      "score": 4.5,
+      "evidence": [
+        "第四章 成長管理與永續發展",
+        "第七節 智慧型成長與永續成長方案"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "reason": "No evidence found. The course does not mention marine ecosystems, oceans, or water bodies.",
+      "score": 0.001,
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "reason": "The course has a dedicated chapter on '農地保護與成長管理' (Agricultural Land Protection and Growth Management), directly addressing the sustainable use and protection of terrestrial ecosystems.",
+      "score": 8.0,
+      "evidence": [
+        "第七章 農地保護與成長管理",
+        "第一節 農地資源保護的理念與做法",
+        "具備觀察土地利用與管制議題之習慣與能力"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "reason": "The course focuses on institutions for land management, including '土地管理制度', '國土計畫法', '政府角色', and the '法制建構' (legal framework construction) for growth management.",
+      "score": 9.0,
+      "evidence": [
+        "內容包括中外土地管理制度與政策之變遷",
+        "國土計畫法下規劃與土地使用管制制度",
+        "第五節 我國引進成長管理的法制建構"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "reason": "The course analyzes international systems like the '美國成長管理制度' and discusses the roles of '政府' (government) and '市場' (market), implying a multi-stakeholder and international perspective.",
+      "score": 4.0,
+      "evidence": [
+        "第三章美國成長管理制度之發展與應用",
+        "具備分析各國土地管理制度之能力",
+        "研討成長管理理念之應用及其在組織、規劃、政策與市場之影響"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive insights into relevant SDGs, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.001,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B highlights connections to housing and public finance."
+      },
+      "Zero Hunger": {
+        "your_original": 0.001,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B identifies direct relevance to agricultural land protection."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B emphasizes the explicit analysis of growth management and economic development."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.001,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B connects course content to infrastructure topics."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B accurately reflects the course's focus on sustainable growth management."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.001,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B connects course content to sustainable resource management."
+      },
+      "Life on Land": {
+        "your_original": 5.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B emphasizes the course's focus on agricultural land protection."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.001,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B highlights the course's focus on land management institutions."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B identifies the course's analysis of international systems."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided a more comprehensive analysis, identifying several explicit links I missed, particularly regarding land protection, infrastructure, and institutional frameworks. My initial assessment was too conservative for several SDGs.",
+    "revisions": {
+      "SDG_2 (Zero Hunger)": {
+        "your_original": 0.001,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "The course explicitly covers '農地保護與成長管理', directly linking to preserving land for food production and thus Zero Hunger."
+      },
+      "SDG_4 (Quality Education)": {
+        "your_original": 4.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "The course focuses on land management skills, not the broader quality or access of education systems, making the link too indirect."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 0.001,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "The course explicitly covers '大眾運輸導向發展', '公共設施需求', and '智慧城市', which are direct components of infrastructure and innovation."
+      },
+      "SDG_11 (Sustainable Cities and Communities)": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "The course's core focus on '成長管理', '土地利用政策', '智慧型成長', and '都市更新' makes it fundamentally aligned with SDG 11."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 0.001,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "The course explicitly covers '成長管理與永續發展' and the efficient use of land resources, directly linking to sustainable resource management."
+      },
+      "SDG_15 (Life on Land)": {
+        "your_original": 5.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "The course has a dedicated chapter on '農地保護與成長管理', directly addressing the sustainable use and protection of terrestrial ecosystems."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 0.001,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "The course explicitly covers '土地管理制度', '國土計畫法', '政府角色', and '法制建構', directly supporting strong institutions."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 0.001,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "The course examines international land management systems and the roles of various stakeholders (government, market), implying a partnership approach."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognize indirect connections to housing and public finance, but Model B's score is more justified based on course content. The revised score reflects a reasonable inference.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Model B accurately identifies explicit connections to agricultural land protection, which is crucial for food production. This score reflects the course's focus on land management.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Neither model provides evidence linking the course content to health or well-being, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Model B's revision correctly identifies the course's focus on land management skills rather than broader educational quality, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course content supports a connection to gender equality, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course does not address water resources or sanitation, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course content supports a connection to energy or affordability, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's explicit focus on growth management and economic development, with Model B providing a stronger justification for a higher score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the course's explicit discussions on infrastructure topics, aligning well with SDG 9.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's inference about fiscal responsibilities provides a reasonable basis for a score reflecting potential impacts on inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's core focus on sustainable growth management, with Model B providing a stronger justification for a perfect score.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the course's explicit discussions on sustainable resource management, justifying a strong score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's inference about sustainable development strategies aligns with climate action, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course content supports a connection to marine ecosystems, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's focus on agricultural land protection, with Model B providing a stronger justification for a higher score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on land management institutions, with Model B providing a stronger justification for a high score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's analysis of international systems, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The course discusses '住宅市場' (housing market) and '公共財政' (public finance), which are indirectly related to economic conditions influencing poverty, particularly access to housing and public services. This is an inferred but plausible connection.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "Chapter 7, '農地保護與成長管理' (Agricultural Land Protection and Growth Management), directly addresses preserving land for food production, a core aspect of Zero Hunger.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the syllabus mentions health, well-being, or related topics. Both models correctly identified this lack of relevance.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "While the course provides higher education, SDG 4 focuses on inclusive, equitable quality education and lifelong learning for all, not specialized skill development. The link to the broader SDG 4 targets is too indirect.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the syllabus mentions gender or equality issues. Both models correctly identified this lack of relevance.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the syllabus mentions water resources, sanitation, or related infrastructure. Both models correctly identified this lack of relevance.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the syllabus mentions energy, renewables, or affordability. Both models correctly identified this lack of relevance.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "Chapter 9, '成長管理與經濟發展', explicitly analyzes the relationship between growth management, government roles, and economic growth, directly aligning with this SDG.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '大眾運輸導向發展（TOD）規劃', '公共設施需求', and '智慧城市', which are direct components of infrastructure and innovation.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "While fiscal responsibilities are discussed, the course does not explicitly or implicitly address reducing inequalities between social, economic, or regional groups as a primary focus. The connection is too indirect.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "This SDG is the core focus of the course, covering '成長管理', '土地利用政策', '智慧型成長與永續成長方案', and '都市更新', all fundamental to sustainable urban development.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly discusses '成長管理與永續發展' and the effective use of land resources, aligning with sustainable resource management principles.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on '永續發展' and '智慧型成長' implies strategies for climate mitigation through sustainable land use and urban planning, even if climate change isn't explicitly named.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the syllabus mentions marine ecosystems, oceans, or water bodies. Both models correctly identified this lack of relevance.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "Chapter 8, '農地保護與成長管理', directly addresses the sustainable use and protection of terrestrial ecosystems, particularly agricultural land.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '土地管理制度', '國土計畫法', '政府角色', and '法制建構', which are fundamental to building effective and accountable institutions.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course analyzes international land management systems (e.g., US) and the roles of various stakeholders (government, market), implying a multi-stakeholder and international partnership approach.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    }
+  }
+}
