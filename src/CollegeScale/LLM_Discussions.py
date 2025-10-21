@@ -16,7 +16,7 @@ from system_prompts import crituque_prompt, critique_system_prompt, judge_prompt
 
 
 
-class GPT:
+class GPT:  #NOTE:注意 modelType 被換成 gpt-4o-mini
     def __init__(self):
         load_dotenv()
         openai_api_key = os.getenv("OPENAI_API_KEY")
@@ -25,19 +25,34 @@ class GPT:
         )
         self.messages = system_prompt.copy()
 
-    async def query_json(self, prompt:str, temperature:int=0, modelType:str="gpt-5-nano") -> str: #TODO:注意 modelType 被換成 gpt-5-nano
+    async def query_json(self, prompt:str, temperature:float=0.1, modelType:str="gpt-4o-mini") -> str:
         self.messages.append({"role": "user", "content": prompt})
-        responses = await self.client.chat.completions.create(
-            model=modelType,
-            messages =  self.messages,
-            # temperature=temperature,
-            response_format={"type": "json_object"}
-        )
-        if responses.choices[0].message.content:
-            self.messages.append({"role": "assistant", "content": responses.choices[0].message.content})
-            return responses.choices[0].message.content
-        else:
-            return "None"
+        retries = 5
+        delay = 2
+        for i in range(retries):
+            try:
+                responses = await self.client.chat.completions.create(
+                    model=modelType,
+                    messages =  self.messages,
+                    temperature=temperature,
+                    response_format={"type": "json_object"}
+                )
+                if responses.choices[0].message.content:
+                    self.messages.append({"role": "assistant", "content": responses.choices[0].message.content})
+                    return responses.choices[0].message.content
+                else:
+                    return "{}"
+            except Exception as e:
+                if "RateLimitError" in str(type(e).__name__) or "429" in str(e):
+                    print(f"GPT API rate limit exceeded. Retrying in {delay} seconds... ({i+1}/{retries})")
+                    await asyncio.sleep(delay)
+                    delay *= 2
+                else:
+                    print(f"An unexpected error occurred with GPT: {e}. Retrying in {delay} seconds... ({i+1}/{retries})")
+                    await asyncio.sleep(delay)
+                    delay *= 2
+        print("GPT query failed after multiple retries.")
+        return "{}"
 
     def change_system_prompt(self, newSystemPrompt):
         self.messages = newSystemPrompt.copy()  # 重設
@@ -45,7 +60,7 @@ class GPT:
         return self.messages
 
 
-class Gemini:
+class Gemini: # NOTE: 模型為 gemini-2.5-pro
     def __init__(self):
         load_dotenv()
         gemini_api_key = os.getenv("GEMINI_API_KEY")
@@ -53,14 +68,17 @@ class Gemini:
 
         # 建立模型物件
         self.model = genai.GenerativeModel(
-            model_name = "gemini-2.5-flash",
+            model_name = "gemini-2.5-pro",
             system_instruction = system_prompt[0]['content']
             )
         self.messages = []
 
     async def query_json(self, prompt: str, temperature: float = 0.0):
         self.messages.append({"role": "user", "content": prompt})
-        def sync_call():
+        retries = 5
+        delay = 2
+
+        def sync_call_wrapper():
             return self.model.generate_content(
                 prompt,
                 generation_config={
@@ -68,14 +86,27 @@ class Gemini:
                     "response_mime_type": "application/json"
                 }
             )
-        response = await asyncio.to_thread(sync_call)
 
-        if response.text:
-            self.messages.append({"role": "model", "content": response.text})
-            return response.text
-        else:
-            return "None"
-        return response.text
+        for i in range(retries):
+            try:
+                response = await asyncio.to_thread(sync_call_wrapper)
+                if response.text:
+                    self.messages.append({"role": "model", "content": response.text})
+                    return response.text
+                else:
+                    return "{}"
+            except Exception as e:
+                if "ResourceExhausted" in str(type(e).__name__) or "429" in str(e):
+                    print(f"Gemini API rate limit likely exceeded. Retrying in {delay} seconds... ({i+1}/{retries})")
+                    await asyncio.sleep(delay)
+                    delay *= 2
+                else:
+                    print(f"An unexpected error occurred with Gemini: {e}. Retrying in {delay} seconds... ({i+1}/{retries})")
+                    await asyncio.sleep(delay)
+                    delay *= 2
+        
+        print("Gemini query failed after multiple retries.")
+        return "{}"
 
     def change_system_prompt(self, newSystemPrompt):
         self.messages = []
@@ -102,15 +133,8 @@ def getPrompt(prompt_folder = "../courseCrawl/prompts/", course_code_list = "Col
     return matched_files
 
 
-async def Disscussion():
-    print("testing GPT Nano and Gemini flash 2.5 Debate")
-    # 準備要跑的 prompts
-    prompt_files = getPrompt()
-    
-    result_folder = "./result"
-    os.makedirs(result_folder, exist_ok=True)
-
-    for file_path in prompt_files:
+async def process_course(file_path, result_folder, semaphore):
+    async with semaphore:
         GPT_model = GPT()
         Gemini_model = Gemini()
 
@@ -127,7 +151,7 @@ async def Disscussion():
         # Check if the result file already exists
         if os.path.exists(save_path):
             print(f"⏭️ 跳過已存在的課程結果: {course_name} : {save_path}")
-            continue
+            return
 
         print(f"Running Disscussion for {course_name}")
         print(save_path)
@@ -189,6 +213,21 @@ async def Disscussion():
 
         course_elapsed = time.time() - course_start_time
         print(f"✅ Debate results saved: {save_path} (Time: {course_elapsed:.2f}s)")
+
+
+async def Disscussion():
+    print("testing GPT Nano and Gemini flash 2.5 Debate")
+    # 準備要跑的 prompts
+    prompt_files = getPrompt(course_code_list = "All_Courses.json")
+    
+    result_folder = "./all_courses"
+    os.makedirs(result_folder, exist_ok=True)
+
+    concurrency_limit = 10  # 您可以調整這個數值來決定要同步處理的課程數量
+    semaphore = asyncio.Semaphore(concurrency_limit)
+
+    tasks = [process_course(file_path, result_folder, semaphore) for file_path in prompt_files]
+    await asyncio.gather(*tasks)
 
 
 
