@@ -133,6 +133,7 @@ if __name__ == "__main__":
         "Bachelor_Program_of_in_Sport", "PE_Coures",
         "Center_for_Creativity", "else_course"
     ]
+    # college_names = ["All_Courses"]
 
     for college_name in college_names:
         college_file_path = os.path.join(college_json_dir, f"{college_name}.json")
