@@ -2,7 +2,7 @@
 
 This directory contains scripts and data related to the classification and analysis of university courses against the United Nations Sustainable Development Goals (SDGs) using Large Language Models (LLMs).
 
-## Analysis
+## Analysis (圖表皆在 [/plot](https://github.com/EricLiu750501/NCCU-Course-SDGs-Correspondence-Analyser/tree/3036f96c8f52bf2831a127db79b260ee5f9fb646/src/CollegeScale/plots))
 
 ### 分群
 根據 https://www.nccu.edu.tw/p/426-1000-55.php?Lang=zh-tw 做學院分群
