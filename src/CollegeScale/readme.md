@@ -7,11 +7,11 @@ This directory contains scripts and data related to the classification and analy
 ### 分群
 根據 https://www.nccu.edu.tw/p/426-1000-55.php?Lang=zh-tw 做學院分群
 
-### SDG覆蓋率 (SDG Coverage)
+### SDG Alignment Proportion
 設定一個分數閾值（例如 final_score > 6.99）來定義「此課程與該SDG相關」。    
 統計全校有多少「比例」課程與 至少一個 SDG 相關。
 
-e.g 商院覆蓋率
+e.g 商院
 ![image](https://github.com/EricLiu750501/NCCU-Course-SDGs-Correspondence-Analyser/blob/c68a0291042dfdd16ace16d67ca8fdc028ab4c04/src/CollegeScale/plots/College_of_Commerce_(508_courses)_Courses_per_SDG_Percentage_Gemini-2.5-pro.png)
 file: *_Courses_per_SDG_Percentage_Gemini-2.5-pro.png
 
