@@ -127,7 +127,7 @@ def plot_avg_score_final(data, model_name="", college_name="", num_courses=0):
 
 
 
-def analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-flash", threshold=5.0):
+def analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-flash", threshold=5.0, context_name="University-wide"):
     # Filter for the chosen model
     model_judge_key = "gemini_judge_final" if model_name == "Gemini-2.5-flash" else "gpt_judge_final"
 
@@ -140,7 +140,7 @@ def analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-fla
     total_courses = len(all_courses_data)
     percentage_with_any_sdg = (courses_with_any_sdg / total_courses) * 100 if total_courses > 0 else 0
 
-    print(f"\n--- University SDG Coverage ({model_name}) ---")
+    print(f"\n--- {context_name} SDG Coverage ({model_name}) ---")
     print(f"Total courses analyzed: {total_courses}")
     print(f"Courses related to at least one SDG (score > {threshold}): {courses_with_any_sdg} ({percentage_with_any_sdg:.2f}%)")
 
@@ -149,9 +149,9 @@ def analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-fla
     ax1.bar(["Courses with >=1 SDG"], [percentage_with_any_sdg], color='lightgreen')
     ax1.set_ylim(0, 100)
     ax1.set_ylabel('Percentage (%)')
-    ax1.set_title(f'University SDG Coverage ({model_name})')
+    ax1.set_title(f'{context_name} SDG Coverage ({model_name})')
     plt.tight_layout()
-    plt.savefig(f"plots/University_SDG_Coverage_{model_name.replace(' ', '_')}.png")
+    plt.savefig(f"plots/{context_name.replace(' ', '_')}_SDG_Coverage_{model_name.replace(' ', '_')}.png")
     plt.close()
 
     # Output 2: Courses related to each SDG
@@ -170,18 +170,18 @@ def analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-fla
             if found_sdg_key and course_data[model_judge_key][found_sdg_key]["final_score"] > threshold:
                 sdg_course_counts[sdg_name_full] += 1
 
-    print("\nCourses related to each SDG (absolute count):")
+    print(f"\nCourses related to each SDG ({context_name}, absolute count):")
     for sdg, count in sdg_course_counts.items():
         print(f"{sdg}: {count} courses")
 
     # Plot 2: Bar chart for courses related to each SDG
-    fig2, ax2 = plt.subplots(figsize=(15, 8))
+    fig2, ax2 = plt.subplots(figsize=(18, 10))
     ax2.bar(sdg_course_counts.keys(), sdg_course_counts.values(), color='skyblue')
     ax2.set_ylabel('Number of Courses')
-    ax2.set_title(f'Number of Courses Related to Each SDG (University-wide, {model_name})')
+    ax2.set_title(f'Number of Courses Related to Each SDG ({context_name}, {model_name})')
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
-    plt.savefig(f"plots/University_Courses_per_SDG_{model_name.replace(' ', '_')}.png")
+    plt.savefig(f"plots/{context_name.replace(' ', '_')}_Courses_per_SDG_{model_name.replace(' ', '_')}.png")
     plt.close()
 
 def analyze_university_sdg_profile(all_courses_data, model_name="Gemini-2.5-flash"):
@@ -539,8 +539,8 @@ if __name__ == "__main__":
     
     # A. Macro Descriptive Analysis (University Overview)
     # A-1. University SDG Coverage
-    analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-pro")
-    # analyze_university_sdg_coverage(all_courses_data, model_name="GPT-4o-mini")
+    analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-flash", context_name="University-wide", threshold=6.99)
+    # analyze_university_sdg_coverage(all_courses_data, model_name="GPT-4o-mini", context_name="University-wide")
 
     # A-3. Course SDG Density Analysis
     analyze_course_sdg_density(all_courses_data, model_name="Gemini-2.5-pro", threshold=6.99)
@@ -614,7 +614,10 @@ if __name__ == "__main__":
         plot_avg_score_final(gemini_avg, "Gemini-2.5-pro", college_name, num_filtered_courses)
         # plot_avg_score_final(gpt_avg, "GPT-4o-mini", college_name, num_filtered_courses)
 
-        analyze_university_sdg_coverage() 
+        # College-specific SDG Coverage
+        college_name_num = f'{college_name} ({len(filtered_data)} courses)'
+        analyze_university_sdg_coverage(filtered_data, model_name="Gemini-2.5-pro", context_name=college_name_num, threshold=6.99)
+        # analyze_university_sdg_coverage(filtered_data, model_name="GPT-4o-mini", context_name=college_name) 
 
 
     print("Analysis complete. Plots saved to the 'plots/' directory.")
