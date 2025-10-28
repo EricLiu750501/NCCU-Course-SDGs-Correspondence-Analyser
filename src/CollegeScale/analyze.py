@@ -101,6 +101,7 @@ def plot_avg_score_final(data, model_name="", college_name="", num_courses=0):
     scores = [data[sdg] for sdg in original_sdg_names]
     
     # Create the plot
+    
     fig, ax = plt.subplots(figsize=(15, 8))
     bars = ax.bar(sdg_names, scores, color='skyblue')
     
@@ -120,31 +121,11 @@ def plot_avg_score_final(data, model_name="", college_name="", num_courses=0):
     
     # Rotate x-axis labels for better readability
     plt.xticks(rotation=45, ha='right')
-    
+    plt.tight_layout()
     plt.savefig(f"plots/{model_name}_{college_name.replace(' ', '_')}_avg_scores.png")
     plt.close()
 
-def plot_radar_chart(data, model_name="", title=""):
-    labels = list(data.keys())
-    stats = list(data.values())
 
-    angles = [n / float(len(labels)) * 2 * math.pi for n in range(len(labels))]
-    angles += angles[:1]
-    stats += stats[:1]
-
-    fig, ax = plt.subplots(figsize=(10, 10), subplot_kw=dict(polar=True))
-    ax.fill(angles, stats, color='red', alpha=0.25)
-    ax.plot(angles, stats, color='red', linewidth=2)
-
-    ax.set_yticklabels([])
-    ax.set_xticks(angles[:-1])
-    ax.set_xticklabels(labels, color='grey', size=10)
-    ax.set_ylim(0, 10)
-
-    ax.set_title(title, va='bottom')
-    plt.tight_layout()
-    plt.savefig(f"plots/{title.replace(' ', '_').replace('(', '').replace(')', '')}_{model_name}_radar.png")
-    plt.close()
 
 def analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-flash", threshold=5.0):
     # Filter for the chosen model
@@ -259,51 +240,7 @@ def add_department_info(all_courses_data, courses_df):
             course_data["department"] = "Unknown"
     return all_courses_data
 
-def plot_department_sdg_heatmap(all_courses_data, model_name="Gemini-2.5-flash"):
-    print(f"\n--- Department-SDG Heatmap Analysis ({model_name}) ---")
-    model_judge_key = "gemini_judge_final" if model_name == "Gemini-2.5-flash" else "gpt_judge_final"
 
-    department_sdg_scores = {}
-    for course_data in all_courses_data:
-        department = course_data.get("department", "Unknown")
-        if department not in department_sdg_scores:
-            department_sdg_scores[department] = {sdg: [] for sdg in SDG_NAMES}
-
-        for sdg_name_full in SDG_NAMES:
-            sdg_name_base = sdg_name_full.split('. ', 1)[1]
-            found_sdg_key = None
-            for key in course_data[model_judge_key].keys():
-                if key.lower() == sdg_name_base.lower():
-                    found_sdg_key = key
-                    break
-            if found_sdg_key:
-                department_sdg_scores[department][sdg_name_full].append(course_data[model_judge_key][found_sdg_key]["final_score"])
-
-    # Calculate average scores for each department-SDG pair
-    department_sdg_avg_scores = {}
-    for department, sdg_data in department_sdg_scores.items():
-        department_sdg_avg_scores[department] = {
-            sdg: np.mean(scores) if scores else 0 for sdg, scores in sdg_data.items()
-        }
-
-    # Convert to DataFrame for heatmap
-    heatmap_df = pd.DataFrame.from_dict(department_sdg_avg_scores, orient='index')
-    heatmap_df = heatmap_df[SDG_NAMES] # Ensure SDG order
-
-    # Plot heatmap
-    fig, ax = plt.subplots(figsize=(18, max(8, len(heatmap_df) * 0.4)))
-    cax = ax.matshow(heatmap_df, cmap='viridis')
-    fig.colorbar(cax)
-
-    ax.set_xticks(np.arange(len(SDG_NAMES)))
-    ax.set_yticks(np.arange(len(heatmap_df.index)))
-    ax.set_xticklabels(SDG_NAMES, rotation=90)
-    ax.set_yticklabels(heatmap_df.index)
-
-    ax.set_title(f'Department-SDG Average Score Heatmap ({model_name})')
-    plt.tight_layout()
-    plt.savefig(f"plots/Department_SDG_Heatmap_{model_name.replace(' ', '_')}.png")
-    plt.close()
 
 def find_top_courses_per_sdg(all_courses_data, model_name="Gemini-2.5-flash", target_sdg="Quality Education", top_n=10):
     print(f"\n--- Top {top_n} Courses for SDG: {target_sdg} ({model_name}) ---")
@@ -372,6 +309,20 @@ def analyze_evidence_type(all_courses_data, model_name="Gemini-2.5-flash", thres
     plt.tight_layout()
     plt.close()
 
+def get_chinese_font_path():
+    # Common font paths on macOS
+    potential_font_paths = [
+        "/System/Library/Fonts/PingFang.ttc",
+        "/System/Library/Fonts/STHeiti Light.ttc",
+        "/System/Library/Fonts/STHeiti Medium.ttc",
+        "/Library/Fonts/Arial Unicode.ttf",
+        "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",
+    ]
+    for path in potential_font_paths:
+        if os.path.exists(path):
+            return path
+    return None
+
 def analyze_keyword_wordcloud(all_courses_data, model_name="Gemini-2.5-flash", target_sdg="Responsible Consumption and Production", threshold=7.0):
     print(f"\n--- Keyword Analysis (Word Cloud) for SDG: {target_sdg} ({model_name}) ---")
     model_answer_key = "gemini_answer" if model_name == "Gemini-2.5-flash" else "gpt_answer"
@@ -395,15 +346,21 @@ def analyze_keyword_wordcloud(all_courses_data, model_name="Gemini-2.5-flash", t
         return
 
     text = " ".join(all_evidence_text)
-    wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text)
+    
+    font_path = get_chinese_font_path()
+    if font_path:
+        wordcloud = WordCloud(width=800, height=400, background_color='white', font_path=font_path).generate(text)
+    else:
+        print("Warning: No suitable Chinese font found. Word cloud might not display Chinese characters correctly.")
+        wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text)
 
     plt.figure(figsize=(10, 5))
     plt.imshow(wordcloud, interpolation='bilinear')
     plt.axis('off')
     plt.title(f'Keyword Cloud for SDG {target_sdg} ({model_name}, Score > {threshold})')
     plt.tight_layout()
-    # plt.close()
-    plt.show()
+    plt.savefig(f"plots/WordCloud_{target_sdg.replace(' ', '_')}_{model_name.replace(' ', '_')}.png")
+    plt.close()
 
 def analyze_model_consistency(all_courses_data):
     print(f"\n--- Model Consistency Analysis (Inter-Rater Reliability) ---")
@@ -580,48 +537,42 @@ if __name__ == "__main__":
     courses_list_df = pd.read_csv("CoursesList.csv")
     all_courses_data = add_department_info(all_courses_data, courses_list_df)
 
-    # A. Macro Descriptive Analysis (University Overview)
-    # A-1. University SDG Coverage
-    analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-pro", threshold=7.0)
-    # analyze_university_sdg_coverage(all_courses_data, model_name="GPT-4o-mini")
-
-    # # A-2. University SDG Profile (Radar Chart)
-    # analyze_university_sdg_profile(all_courses_data, model_name="Gemini-2.5-pro")
-    # analyze_university_sdg_profile(all_courses_data, model_name="GPT-4o-mini")
-
-    # A-3. Course SDG Density Analysis
-    analyze_course_sdg_density(all_courses_data, model_name="Gemini-2.5-pro")
-    # analyze_course_sdg_density(all_courses_data, model_name="GPT-4o-mini")
-
-    # B. Comparative Analysis (College vs. Department)
-    # B-2. Department-SDG Heatmap
-    # plot_department_sdg_heatmap(all_courses_data, model_name="Gemini-2.5-pro")
-    # plot_department_sdg_heatmap(all_courses_data, model_name="GPT-4o-mini")
-
-    # B-3. Top Courses per SDG
-    find_top_courses_per_sdg(all_courses_data, model_name="Gemini-2.5-pro", target_sdg="Quality Education")
-    # find_top_courses_per_sdg(all_courses_data, model_name="GPT-4o-mini", target_sdg="Quality Education")
-    find_top_courses_per_sdg(all_courses_data, model_name="Gemini-2.5-pro", target_sdg="Climate Action")
-    # find_top_courses_per_sdg(all_courses_data, model_name="GPT-4o-mini", target_sdg="Climate Action")
-
-    # C. Qualitative and Text Analysis
-    # C-1. Keyword Analysis (Word Cloud)
-    analyze_keyword_wordcloud(all_courses_data, model_name="Gemini-2.5-pro", target_sdg="Responsible Consumption and Production")
-    # analyze_keyword_wordcloud(all_courses_data, model_name="GPT-4o-mini", target_sdg="Responsible Consumption and Production")
-
-    # C-2. Evidence Type Analysis
-    analyze_evidence_type(all_courses_data, model_name="Gemini-2.5-pro")
-    # analyze_evidence_type(all_courses_data, model_name="GPT-4o-mini")
-
-    # D. Methodology and Model Comparison Analysis
-    # D-1. Model Consistency Analysis
-    analyze_model_consistency(all_courses_data)
-
-    # D-2. Model Bias Analysis
-    analyze_model_bias(all_courses_data)
-
-    # D-3. Impact of Critique Step Analysis
-    analyze_critique_impact(all_courses_data)
+    # # A. Macro Descriptive Analysis (University Overview)
+    # # A-1. University SDG Coverage
+    # analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-pro")
+    # # analyze_university_sdg_coverage(all_courses_data, model_name="GPT-4o-mini")
+    #
+    # # A-3. Course SDG Density Analysis
+    # analyze_course_sdg_density(all_courses_data, model_name="Gemini-2.5-pro")
+    # # analyze_course_sdg_density(all_courses_data, model_name="GPT-4o-mini")
+    #
+    # # B. Comparative Analysis (College vs. Department)
+    # # B-3. Top Courses per SDG
+    # for sdg_name_full in SDG_NAMES:
+    #     sdg_name_base = sdg_name_full.split('. ', 1)[1]
+    #     find_top_courses_per_sdg(all_courses_data, model_name="Gemini-2.5-pro", target_sdg=sdg_name_base)
+    #     # find_top_courses_per_sdg(all_courses_data, model_name="GPT-4o-mini", target_sdg=sdg_name_base)
+    #
+    # # C. Qualitative and Text Analysis
+    # # C-1. Keyword Analysis (Word Cloud)
+    # for sdg_name_full in SDG_NAMES:
+    #     sdg_name_base = sdg_name_full.split('. ', 1)[1]
+    #     analyze_keyword_wordcloud(all_courses_data, model_name="Gemini-2.5-pro", target_sdg=sdg_name_base)
+    #     # analyze_keyword_wordcloud(all_courses_data, model_name="GPT-4o-mini", target_sdg=sdg_name_base)
+    #
+    # # C-2. Evidence Type Analysis
+    # analyze_evidence_type(all_courses_data, model_name="Gemini-2.5-pro")
+    # # analyze_evidence_type(all_courses_data, model_name="GPT-4o-mini")
+    #
+    # # D. Methodology and Model Comparison Analysis
+    # # D-1. Model Consistency Analysis
+    # analyze_model_consistency(all_courses_data)
+    #
+    # # D-2. Model Bias Analysis
+    # analyze_model_bias(all_courses_data)
+    #
+    # # D-3. Impact of Critique Step Analysis
+    # analyze_critique_impact(all_courses_data)
 
     # List of college names to process (from CourseAnalyze.py)
     college_names = [
@@ -659,8 +610,8 @@ if __name__ == "__main__":
         json.dump(gemini_avg, open(f"gemini_avg_{college_name}.json", "w"), indent=4)
         json.dump(gpt_avg, open(f"gpt_avg_{college_name}.json", "w"), indent=4)
 
-        # # Plotting (using radar chart for college profiles)
-        # plot_radar_chart(gemini_avg, "Gemini-2.5-flash", f"{college_name} SDG Profile (Gemini-2.5-flash)")
-        # plot_radar_chart(gpt_avg, "GPT-4o-mini", f"{college_name} SDG Profile (GPT-4o-mini)")
+        # Plotting (using bar chart for college profiles)
+        plot_avg_score_final(gemini_avg, "Gemini-2.5-pro", college_name, num_filtered_courses)
+        # plot_avg_score_final(gpt_avg, "GPT-4o-mini", college_name, num_filtered_courses)
 
     print("Analysis complete. Plots saved to the 'plots/' directory.")
