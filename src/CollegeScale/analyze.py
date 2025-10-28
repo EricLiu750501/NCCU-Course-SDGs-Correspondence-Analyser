@@ -230,18 +230,25 @@ def analyze_course_sdg_density(all_courses_data, model_name="Gemini-2.5-flash", 
     plt.close()
 
 def add_department_info(all_courses_data, courses_df):
-    course_id_to_dept = {}
+    course_info_map = {}
     for index, row in courses_df.iterrows():
         course_id = str(row["科目代號\nCourse #"])
         department = str(row["開課系級\nDepartment and Level / Course School/Department"])
-        course_id_to_dept[course_id] = department
+        course_name = str(row["科目名稱"])
+        # Assuming course_url is not directly in CoursesList.csv, setting a placeholder
+        course_url = str(row["course_url"]) 
+        course_info_map[course_id] = {"department": department, "course_name": course_name, "course_url": course_url}
 
     for course_data in all_courses_data:
-        course_id = os.path.splitext(os.path.basename(course_data["file_path"]))[0] # Assuming file_path is added to course_data
-        if course_id in course_id_to_dept:
-            course_data["department"] = course_id_to_dept[course_id]
+        course_id = os.path.splitext(os.path.basename(course_data["file_path"]))[0]
+        if course_id in course_info_map:
+            course_data["department"] = course_info_map[course_id]["department"]
+            course_data["course_name"] = course_info_map[course_id]["course_name"]
+            course_data["course_url"] = course_info_map[course_id]["course_url"]
         else:
             course_data["department"] = "Unknown"
+            course_data["course_name"] = "Unknown"
+            course_data["course_url"] = ""
     return all_courses_data
 
 
@@ -254,6 +261,8 @@ def find_top_courses_per_sdg(all_courses_data, model_name="Gemini-2.5-flash", ta
     for course_data in all_courses_data:
         course_id = os.path.splitext(os.path.basename(course_data["file_path"]))[0]
         department = course_data.get("department", "Unknown")
+        course_name = course_data.get("course_name", "Unknown")
+        course_url = course_data.get("course_url", "")
         
         # Find the correct SDG key (case-insensitive)
         found_sdg_key = None
@@ -264,14 +273,18 @@ def find_top_courses_per_sdg(all_courses_data, model_name="Gemini-2.5-flash", ta
 
         if found_sdg_key:
             score = course_data[model_judge_key][found_sdg_key]["final_score"]
-            course_sdg_scores.append({"course_id": course_id, "department": department, "score": score})
+            course_sdg_scores.append({"course_id": course_id, "department": department, "course_name": course_name, "course_url": course_url, "score": score})
 
     # Sort by score in descending order
     course_sdg_scores.sort(key=lambda x: x["score"], reverse=True)
 
-    # Print top N courses
+    # Print top N courses as a Markdown table
+    print(f"| Rank | Course ID | Course Name | Department | Score | Course URL |")
+    print(f"|------|-----------|-------------|------------|-------|------------|")
     for i, course in enumerate(course_sdg_scores[:top_n]):
-        print(f"{i+1}. Course ID: {course["course_id"]:<10} | Department: {course["department"]:<20} | Score: {course["score"]:.2f}")
+        # Ensure course_url is not empty before creating a link
+        url_display = f"[Link]({course["course_url"]})" if course["course_url"] else "N/A"
+        print(f"| {i+1:<4} | {course["course_id"]:<9} | {course["course_name"]:<11} | {course["department"]:<10} | {course["score"]:.2f} | {url_display:<10} |")
 
 def analyze_evidence_type(all_courses_data, model_name="Gemini-2.5-flash", threshold=5.0):
     print(f"\n--- Evidence Type Analysis ({model_name}) ---")
@@ -540,6 +553,7 @@ if __name__ == "__main__":
     # Load CoursesList.csv for department information
     courses_list_df = pd.read_csv("CoursesList.csv")
     all_courses_data = add_department_info(all_courses_data, courses_list_df)
+
     
     # A. Macro Descriptive Analysis (University Overview)
     # A-1. University SDG Coverage
