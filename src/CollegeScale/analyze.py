@@ -536,43 +536,43 @@ if __name__ == "__main__":
     # Load CoursesList.csv for department information
     courses_list_df = pd.read_csv("CoursesList.csv")
     all_courses_data = add_department_info(all_courses_data, courses_list_df)
+    
+    # A. Macro Descriptive Analysis (University Overview)
+    # A-1. University SDG Coverage
+    analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-pro")
+    # analyze_university_sdg_coverage(all_courses_data, model_name="GPT-4o-mini")
 
-    # # A. Macro Descriptive Analysis (University Overview)
-    # # A-1. University SDG Coverage
-    # analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-pro")
-    # # analyze_university_sdg_coverage(all_courses_data, model_name="GPT-4o-mini")
-    #
-    # # A-3. Course SDG Density Analysis
-    # analyze_course_sdg_density(all_courses_data, model_name="Gemini-2.5-pro")
-    # # analyze_course_sdg_density(all_courses_data, model_name="GPT-4o-mini")
-    #
-    # # B. Comparative Analysis (College vs. Department)
-    # # B-3. Top Courses per SDG
-    # for sdg_name_full in SDG_NAMES:
-    #     sdg_name_base = sdg_name_full.split('. ', 1)[1]
-    #     find_top_courses_per_sdg(all_courses_data, model_name="Gemini-2.5-pro", target_sdg=sdg_name_base)
-    #     # find_top_courses_per_sdg(all_courses_data, model_name="GPT-4o-mini", target_sdg=sdg_name_base)
-    #
-    # # C. Qualitative and Text Analysis
-    # # C-1. Keyword Analysis (Word Cloud)
-    # for sdg_name_full in SDG_NAMES:
-    #     sdg_name_base = sdg_name_full.split('. ', 1)[1]
-    #     analyze_keyword_wordcloud(all_courses_data, model_name="Gemini-2.5-pro", target_sdg=sdg_name_base)
-    #     # analyze_keyword_wordcloud(all_courses_data, model_name="GPT-4o-mini", target_sdg=sdg_name_base)
-    #
-    # # C-2. Evidence Type Analysis
-    # analyze_evidence_type(all_courses_data, model_name="Gemini-2.5-pro")
-    # # analyze_evidence_type(all_courses_data, model_name="GPT-4o-mini")
-    #
-    # # D. Methodology and Model Comparison Analysis
-    # # D-1. Model Consistency Analysis
-    # analyze_model_consistency(all_courses_data)
-    #
-    # # D-2. Model Bias Analysis
-    # analyze_model_bias(all_courses_data)
-    #
-    # # D-3. Impact of Critique Step Analysis
-    # analyze_critique_impact(all_courses_data)
+    # A-3. Course SDG Density Analysis
+    analyze_course_sdg_density(all_courses_data, model_name="Gemini-2.5-pro", threshold=6.99)
+    # analyze_course_sdg_density(all_courses_data, model_name="GPT-4o-mini")
+
+    # B. Comparative Analysis (College vs. Department)
+    # B-3. Top Courses per SDG
+    for sdg_name_full in SDG_NAMES:
+        sdg_name_base = sdg_name_full.split('. ', 1)[1]
+        find_top_courses_per_sdg(all_courses_data, model_name="Gemini-2.5-pro", target_sdg=sdg_name_base)
+        # find_top_courses_per_sdg(all_courses_data, model_name="GPT-4o-mini", target_sdg=sdg_name_base)
+
+    # C. Qualitative and Text Analysis
+    # C-1. Keyword Analysis (Word Cloud)
+    for sdg_name_full in SDG_NAMES:
+        sdg_name_base = sdg_name_full.split('. ', 1)[1]
+        analyze_keyword_wordcloud(all_courses_data, model_name="Gemini-2.5-pro", target_sdg=sdg_name_base)
+        # analyze_keyword_wordcloud(all_courses_data, model_name="GPT-4o-mini", target_sdg=sdg_name_base)
+
+    # C-2. Evidence Type Analysis
+    analyze_evidence_type(all_courses_data, model_name="Gemini-2.5-pro")
+    # analyze_evidence_type(all_courses_data, model_name="GPT-4o-mini")
+
+    # D. Methodology and Model Comparison Analysis
+    # D-1. Model Consistency Analysis
+    analyze_model_consistency(all_courses_data)
+
+    # D-2. Model Bias Analysis
+    analyze_model_bias(all_courses_data)
+
+    # D-3. Impact of Critique Step Analysis
+    analyze_critique_impact(all_courses_data)
 
     # List of college names to process (from CourseAnalyze.py)
     college_names = [
@@ -613,5 +613,8 @@ if __name__ == "__main__":
         # Plotting (using bar chart for college profiles)
         plot_avg_score_final(gemini_avg, "Gemini-2.5-pro", college_name, num_filtered_courses)
         # plot_avg_score_final(gpt_avg, "GPT-4o-mini", college_name, num_filtered_courses)
+
+        analyze_university_sdg_coverage() 
+
 
     print("Analysis complete. Plots saved to the 'plots/' directory.")
