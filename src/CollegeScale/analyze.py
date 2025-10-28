@@ -174,14 +174,18 @@ def analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-fla
     for sdg, count in sdg_course_counts.items():
         print(f"{sdg}: {count} courses")
 
-    # Plot 2: Bar chart for courses related to each SDG
+    # Calculate percentages for each SDG
+    sdg_course_percentages = {sdg: (count / total_courses) * 100 if total_courses > 0 else 0 for sdg, count in sdg_course_counts.items()}
+
+    # Plot 2: Bar chart for courses related to each SDG (percentages)
     fig2, ax2 = plt.subplots(figsize=(18, 10))
-    ax2.bar(sdg_course_counts.keys(), sdg_course_counts.values(), color='skyblue')
-    ax2.set_ylabel('Number of Courses')
-    ax2.set_title(f'Number of Courses Related to Each SDG ({context_name}, {model_name})')
+    ax2.bar(sdg_course_percentages.keys(), sdg_course_percentages.values(), color='skyblue')
+    ax2.set_ylabel('Percentage of Courses (%)')
+    ax2.set_title(f'Percentage of Courses Related to Each SDG ({context_name}, {model_name})')
+    ax2.set_ylim(0, 100) # Set y-axis limit to 0-100 for percentages
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
-    plt.savefig(f"plots/{context_name.replace(' ', '_')}_Courses_per_SDG_{model_name.replace(' ', '_')}.png")
+    plt.savefig(f"plots/{context_name.replace(' ', '_')}_Courses_per_SDG_Percentage_{model_name.replace(' ', '_')}.png")
     plt.close()
 
 def analyze_university_sdg_profile(all_courses_data, model_name="Gemini-2.5-flash"):
