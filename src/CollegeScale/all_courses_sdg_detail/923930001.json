@@ -1,0 +1,870 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 4.0,
+      "reason": "Course discusses land use rights, linking to Target 1.4 on access to land and resources.",
+      "evidence": [
+        "access to ownership and control over land",
+        "equal rights to economic resources"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course indirectly relates to land use which can affect agriculture.",
+      "evidence": [
+        "土地使用規劃",
+        "農業區功能"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Good Health and Well-being": {
+      "score": 1.0,
+      "reason": "Minimal relevance; land use can impact health indirectly through environmental factors.",
+      "evidence": [
+        "土地使用管制",
+        "環境影響"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "score": 3.0,
+      "reason": "Course provides education on land use control, linking to Target 4.7 on sustainable development education.",
+      "evidence": [
+        "理論與實務兼具的課程",
+        "土地使用管制"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course may touch on gender issues in land ownership.",
+      "evidence": [
+        "財產權",
+        "土地使用管理"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "score": 1.0,
+      "reason": "Minimal relevance; land use can affect water resources indirectly.",
+      "evidence": [
+        "土地使用規劃",
+        "環境影響"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 4.0,
+      "reason": "Course discusses land use management, linking to economic opportunities in Target 8.3.",
+      "evidence": [
+        "土地使用管理",
+        "經濟資源"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 5.0,
+      "reason": "Course covers land use planning, relevant to infrastructure development in Target 9.1.",
+      "evidence": [
+        "土地使用規劃",
+        "基礎設施"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 2.0,
+      "reason": "Course may address land access issues, linking to Target 10.3.",
+      "evidence": [
+        "土地使用管制",
+        "財產權"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 8.0,
+      "reason": "Course focuses on urban land use control, directly linking to Target 11.3.",
+      "evidence": [
+        "都市土地使用分區管制",
+        "可持續城市化"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 1.0,
+      "reason": "Minimal relevance; land use can influence resource management.",
+      "evidence": [
+        "土地使用規劃",
+        "資源管理"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "score": 3.0,
+      "reason": "Course discusses land use impacts on climate, linking to Target 13.2.",
+      "evidence": [
+        "土地使用管制",
+        "氣候變化"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 6.0,
+      "reason": "Course addresses land management, linking to Target 15.3 on land degradation.",
+      "evidence": [
+        "土地使用管制",
+        "土地管理"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 2.0,
+      "reason": "Course discusses legal frameworks for land use, linking to Target 16.3.",
+      "evidence": [
+        "土地使用法令",
+        "法律框架"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course may involve collaboration in land use planning.",
+      "evidence": [
+        "土地使用規劃",
+        "合作"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 5.0,
+        "reason": "Discusses 'property rights' (財產權) and 'land use control' (土地使用管制), which are central to Target 1.4 concerning equal rights to ownership and control over land.",
+        "evidence": [
+          "財產權",
+          "土地使用管制"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 6.5,
+        "reason": "Directly addresses 'Agricultural zone function and legal system changes' (農業區功能與法令制度變遷), linking to Target 2.4 on sustainable food production and resilient agricultural practices.",
+        "evidence": [
+          "農業區功能與法令制度變遷"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 4.0,
+        "reason": "Inferred link to Target 3.9. 'Protection zone control' (保護區管制) and industrial land regulation are tools to reduce soil and water pollution, protecting health.",
+        "evidence": [
+          "保護區管制與財產權",
+          "產業用地供給結構與土地使用管制"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 2.0,
+        "reason": "Inferred link to Target 5.a. The course covers 'property rights' (財產權), the legal mechanism for ensuring women's equal rights to land, though gender is not explicitly mentioned.",
+        "evidence": [
+          "財產權",
+          "土地使用管制法令制度"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 5.5,
+        "reason": "Directly relates to Target 6.6 through 'Protection zone control' (保護區管制), a key method for protecting water-related ecosystems from development pressures.",
+        "evidence": [
+          "保護區管制與財產權"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 5.0,
+        "reason": "Addresses 'Industrial land supply structure and land use control' (產業用地供給結構與土地使用管制), linking to Target 8.2 on achieving higher economic productivity.",
+        "evidence": [
+          "產業用地供給結構與土地使用管制",
+          "住商土地使用管制差異"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 8.0,
+        "reason": "Highly relevant to Target 9.2 on sustainable industrialization via 'Industrial land supply structure and land use control' (產業用地供給結構與土地使用管制) and infrastructure planning.",
+        "evidence": [
+          "產業用地供給結構與土地使用管制",
+          "國土計畫規劃管制"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 4.5,
+        "reason": "Inferred link to Target 10.3. 'Land use zoning control theory' (土地使用分區管制理論) is a primary mechanism that can either create or reduce spatial and economic inequality.",
+        "evidence": [
+          "都市土地使用分區管制理論",
+          "財產權"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 10.0,
+        "reason": "Core concept. The course on 'urban land use zoning control' and the 'National Spatial Planning Act' (國土計畫法) directly addresses Target 11.3 on sustainable urban planning.",
+        "evidence": [
+          "國土計畫法",
+          "都市土地使用分區管制",
+          "非都市土地使用分區管制"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 6.0,
+        "reason": "Relates to Target 12.2 on sustainable management of natural resources. 'Land use control' (土地使用管制) is fundamentally about managing the land resource efficiently.",
+        "evidence": [
+          "土地使用管制",
+          "國土計畫規劃管制內容與理念"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 4.0,
+        "reason": "Inferred link to Target 13.2. The 'National Spatial Planning Act' (國土計畫法) is a key policy instrument for integrating climate change measures into national planning.",
+        "evidence": [
+          "國土計畫法",
+          "國土計畫規劃管制內容與理念"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 1.0,
+        "reason": "Inferred link to Target 14.2. The 'National Spatial Planning Act' (國土計畫法) would apply to coastal zones, but this specific application is not mentioned.",
+        "evidence": [
+          "國土計畫法"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 8.5,
+        "reason": "Directly addresses Target 15.9 by discussing 'Protection zone control' (保護區管制), which integrates ecosystem values into national and local planning.",
+        "evidence": [
+          "保護區管制與財產權",
+          "國土計畫法"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 7.5,
+        "reason": "Focuses on 'land use control legal system' (土地使用管制法令制度) and 'property rights' (財產權), aligning with Target 16.3 (rule of law) and 16.6 (effective institutions).",
+        "evidence": [
+          "土地使用管制法令制度",
+          "國土計畫法",
+          "財產權"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 5.0,
+        "reason": "Links to Target 17.14 (policy coherence) by aiming for effectiveness 'in the combination of the new and old systems' (在新制度與舊制度的結合當中).",
+        "evidence": [
+          "在新制度與舊制度的結合當中仍能發揮管理的功效"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations for several SDGs, particularly in areas of land use and its implications.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B emphasizes property rights, aligning closely with Target 1.4."
+      },
+      "Zero Hunger": {
+        "your_original": 1.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B highlights agricultural zone functions, linking directly to sustainable food production."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B connects land use regulation to health impacts through pollution control."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 1.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B's focus on protection zones directly relates to water ecosystem protection."
+      },
+      "Gender Equality": {
+        "your_original": 1.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B's mention of property rights supports women's land rights."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 1.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B's emphasis on land use control aligns with sustainable resource management."
+      },
+      "Life on Land": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's focus on protection zones integrates ecosystem values into planning."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 2.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's emphasis on legal frameworks aligns with targets on rule of law."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's focus on system integration supports policy coherence."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provided more precise and accurate connections to specific SDG targets, particularly regarding the explicit mentions of legal frameworks, property rights, and specific land use types in the course text. My initial assessment was too conservative in several areas.",
+    "revisions": {
+      "No Poverty (No Poverty)": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 5.0,
+        "reason": "Model A's reason more accurately links 'property rights' and 'land use control' to Target 1.4's focus on ownership and control over land."
+      },
+      "Zero Hunger (Zero Hunger)": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 6.5,
+        "reason": "Model A correctly identified the explicit mention of '農業區功能與法令制度變遷' (Agricultural zone function and legal system changes), a direct link to Target 2.4."
+      },
+      "Good Health and Well-being (Good Health and Well-being)": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 4.0,
+        "reason": "Model A's inference regarding '保護區管制' (Protection zone control) and industrial land regulation impacting pollution (Target 3.9) is more plausible."
+      },
+      "Quality Education (Quality Education)": {
+        "your_original": 3.0,
+        "model_b_score": 3.0,
+        "your_revised": 0.0,
+        "reason": "Model A's score of 0.0 is more appropriate as the course does not specifically address SDG 4's targets beyond general education."
+      },
+      "Gender Equality (Gender Equality)": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 2.0,
+        "reason": "Model A's reasoning that 'property rights' (財產權) inherently relates to women's equal rights to land (Target 5.a) is a stronger inference."
+      },
+      "Clean Water and Sanitation (Clean Water and Sanitation)": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 5.5,
+        "reason": "Model A correctly identified '保護區管制' (Protection zone control) as an explicit mechanism for protecting water-related ecosystems (Target 6.6)."
+      },
+      "Decent Work and Economic Growth (Decent Work and Economic Growth)": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 5.0,
+        "reason": "Model A's explicit link to '產業用地供給結構與土地使用管制' (Industrial land supply structure and land use control) is a direct connection to Target 8.2."
+      },
+      "Industry, Innovation and Infrastructure (Industry, Innovation and Infrastructure)": {
+        "your_original": 5.0,
+        "model_b_score": 5.0,
+        "your_revised": 8.0,
+        "reason": "Model A's higher score and explicit reasoning, citing '產業用地供給結構與土地使用管制' and '國土計畫', directly align with Target 9.2."
+      },
+      "Reduced Inequalities (Reduced Inequalities)": {
+        "your_original": 2.0,
+        "model_b_score": 2.0,
+        "your_revised": 4.5,
+        "reason": "Model A's reasoning that '土地使用分區管制理論' (land use zoning control theory) impacts spatial and economic inequality (Target 10.3) is more accurate."
+      },
+      "Sustainable Cities and Communities (Sustainable Cities and Communities)": {
+        "your_original": 8.0,
+        "model_b_score": 8.0,
+        "your_revised": 10.0,
+        "reason": "Model A's perfect score is justified given the course's core focus on urban land use control and national spatial planning, directly addressing Target 11.3."
+      },
+      "Responsible Consumption and Production (Responsible Consumption and Production)": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 6.0,
+        "reason": "Model A correctly identified '土地使用管制' (land use control) as fundamentally about sustainable management of land resources (Target 12.2)."
+      },
+      "Climate Action (Climate Action)": {
+        "your_original": 3.0,
+        "model_b_score": 3.0,
+        "your_revised": 4.0,
+        "reason": "Model A's reasoning that the '國土計畫法' (National Spatial Planning Act) integrates climate measures (Target 13.2) is a stronger inference."
+      },
+      "Life Below Water (Life Below Water)": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 1.0,
+        "reason": "Model A's inference that the '國土計畫法' (National Spatial Planning Act) would apply to coastal zones (Target 14.2) is a reasonable, albeit indirect, link."
+      },
+      "Life on Land (Life on Land)": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 8.5,
+        "reason": "Model A's higher score and explicit reasoning, citing '保護區管制與財產權' (Protection zone control and property rights), directly align with Target 15.9."
+      },
+      "Peace, Justice and Strong Institutions (Peace, Justice and Strong Institutions)": {
+        "your_original": 2.0,
+        "model_b_score": 2.0,
+        "your_revised": 7.5,
+        "reason": "Model A correctly identified the explicit focus on '土地使用管制法令制度' (land use control legal system) and '財產權' (property rights) as highly relevant to Target 16.3 and 16.6."
+      },
+      "Partnerships for the Goals (Partnerships for the Goals)": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly identified the course objective about combining new and old systems as an explicit link to policy coherence (Target 17.14)."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight property rights and land use control, aligning with Target 1.4. The revised scores reflect a consensus on the importance of these elements.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on agricultural zone functions directly links to sustainable food production, aligning with Target 2.4. This score reflects a strong connection to course content.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect land use regulation to health impacts through pollution control, aligning with Target 3.9. The revised scores reflect a consensus on this connection.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course does not specifically address SDG 4's targets beyond general education, aligning with Model A's final score.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models infer connections to women's land rights through property rights, but the course does not explicitly address gender issues, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on protection zones directly relates to water ecosystem protection, aligning with Target 6.6. This score reflects a strong connection to course content.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material to support any score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models address land use management's link to economic opportunities, aligning with Target 8.2. The revised scores reflect a consensus on this connection.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the relevance of land use planning to infrastructure development, aligning with Target 9.2. The revised scores reflect a consensus on this connection.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models infer connections to land use zoning's impact on spatial and economic inequality, aligning with Target 10.3. The revised scores reflect a consensus on this connection.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's core focus on urban land use control and national spatial planning directly addresses Target 11.3, justifying a perfect score.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize land use control's role in sustainable resource management, aligning with Target 12.2. The revised scores reflect a consensus on this connection.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect land use planning to climate measures, aligning with Target 13.2. The revised scores reflect a consensus on this connection.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "The course's indirect link to coastal zones through land use planning justifies a low score, reflecting a consensus between models.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the importance of protection zones and ecosystem values in land management, aligning with Target 15.9. The revised scores reflect a consensus on this connection.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the legal frameworks for land use, aligning with Targets 16.3 and 16.6. The revised scores reflect a consensus on this connection.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect the course's focus on system integration to policy coherence, aligning with Target 17.14. The revised scores reflect a consensus on this connection.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly focuses on 'property rights' and their application in 'land use control,' which directly aligns with SDG Target 1.4 concerning equal rights to economic resources and access to ownership and control over land for the poor and vulnerable.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Agricultural zone function and legal system changes' (農業區功能與法令制度變遷), which directly relates to sustainable food production and land management for agriculture under Target 2.4.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'protection zone control' and industrial land use regulation indirectly contributes to reducing environmental pollution (air, water, soil), aligning with Target 3.9 on reducing illnesses from contamination.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course is a specialized seminar and does not directly address the specific targets of SDG 4, such as universal access to quality education, vocational training, or education for sustainable development in a broad societal context.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'property rights' and 'land use control legal systems' provides the foundational legal framework that is crucial for ensuring women's equal rights to land and property, as outlined in Target 5.a, even if gender is not explicitly discussed.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course's explicit discussion of 'protection zone control' (保護區管制) directly relates to the protection and restoration of water-related ecosystems, a key aspect of Target 6.6.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course syllabus contains no explicit or inferable content related to affordable and clean energy, energy efficiency, or renewable energy technologies.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Industrial land supply structure and land use control,' which directly impacts economic productivity and growth, aligning with Target 8.2 on achieving higher levels of economic productivity.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course's core focus on 'National Spatial Planning' and 'Industrial land supply structure and land use control' directly addresses the development of sustainable infrastructure and industrialization, aligning strongly with Targets 9.1 and 9.2.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course's exploration of 'land use zoning control theory' and 'property rights' inherently involves mechanisms that can influence spatial and economic inequalities, aligning with Target 10.3 on reducing inequalities of outcome.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course's core subject matter, including the 'National Spatial Planning Act' and 'urban/non-urban land use zoning control,' directly and comprehensively addresses sustainable urbanization and human settlement planning, making it highly relevant to Target 11.3.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'land use control' and 'National Spatial Planning' directly addresses the sustainable management and efficient use of land as a natural resource, aligning with Target 12.2.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on the 'National Spatial Planning Act' (國土計畫法) implies the integration of climate change measures into national policies and planning, aligning with Target 13.2, as modern spatial planning often includes climate resilience.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The 'National Spatial Planning Act' (國土計畫法) covers all land, including coastal areas, implying an indirect influence on land-based activities that affect marine pollution and coastal ecosystems, aligning weakly with Target 14.2.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course's explicit focus on 'protection zone control' and 'agricultural zone function' directly contributes to the conservation, restoration, and sustainable management of terrestrial ecosystems and biodiversity, aligning strongly with Targets 15.1, 15.3, and 15.9.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course's explicit focus on 'land use control legal systems,' 'property rights,' and the 'National Spatial Planning Act' directly underpins the rule of law and the development of effective, accountable institutions for land governance, aligning strongly with Targets 16.3 and 16.6.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course's explicit objective to integrate new and old land use control systems for effective management directly aligns with Target 17.14 on enhancing policy coherence for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    }
+  }
+}

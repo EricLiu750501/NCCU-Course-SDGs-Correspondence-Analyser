@@ -1,0 +1,807 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 4.0,
+      "reason": "Course discusses social security policies, linking to Target 1.3 on social protection systems.",
+      "evidence": [
+        "social security policy",
+        "policy transfer processes"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 4.0,
+      "reason": "Healthcare policy analysis relates to Target 3.8 on universal health coverage.",
+      "evidence": [
+        "Healthcare Policy",
+        "governance and financing models"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "score": 7.0,
+      "reason": "Course promotes critical analysis and knowledge synthesis, aligning with Target 4.7 on sustainable development education.",
+      "evidence": [
+        "synthesize knowledge",
+        "critical analyze"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 4.0,
+      "reason": "Course examines policy responses to economic contexts, linking to Target 8.3 on decent job creation.",
+      "evidence": [
+        "policy contexts",
+        "policy processes"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 5.0,
+      "reason": "Environmental policy discussions relate to Target 13.2 on integrating climate measures.",
+      "evidence": [
+        "Environmental Policy",
+        "regulation and enforcement"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 8.0,
+        "reason": "The course explicitly analyzes 'Social Security Policy' and its 'reforms, equity challenges,' directly linking to Target 1.3 on social protection systems.",
+        "evidence": [
+          "Social Security Policy (Part I)",
+          "Social Security Policy (Part II)",
+          "equity challenges, and outcomes"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 8.5,
+        "reason": "The course dedicates two weeks to 'Healthcare Policy,' covering 'citizen access' and 'financing models,' which directly relates to Target 3.8 on universal health coverage.",
+        "evidence": [
+          "Healthcare Policy (Part I)",
+          "Healthcare Policy (Part II)",
+          "citizen access"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 2.0,
+        "reason": "The study of 'Environmental Policy' could potentially include water management, which relates to Target 6.3, but it is not explicitly stated.",
+        "evidence": [
+          "Environmental Policy (Part I)"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 2.0,
+        "reason": "The analysis of 'Environmental Policy' might touch upon energy issues, which could relate to clean energy targets (e.g., 7.2), but this is not explicitly mentioned.",
+        "evidence": [
+          "Environmental Policy (Part I)"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 4.5,
+        "reason": "The course analyzes 'Social Security Policy' and 'Political & Economic Dynamics,' which are foundational to policies supporting decent work and economic growth (Target 8.5).",
+        "evidence": [
+          "Social Security Policy",
+          "Political & Economic Dynamics"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 1.5,
+        "reason": "The course's focus on 'public policy development' and 'institutional environment' provides a framework that could be applied to infrastructure, but it is not a direct topic.",
+        "evidence": [
+          "public policy development",
+          "institutional environment"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 9.0,
+        "reason": "The course explicitly examines 'equity challenges' in social security, 'citizen access' in healthcare, and 'environmental justice,' directly addressing Target 10.3 on reducing inequalities of outcome.",
+        "evidence": [
+          "equity challenges",
+          "citizen access",
+          "environmental justice"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 4.0,
+        "reason": "The study of 'Environmental Policy' in Greater China likely involves urban environmental management, connecting to Target 11.6 on reducing cities' environmental impact.",
+        "evidence": [
+          "Environmental Policy (Part I)"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 3.0,
+        "reason": "The discussion of 'Environmental Policy' could include topics like waste management or resource use, which are related to targets like 12.2 and 12.5, but this is inferred.",
+        "evidence": [
+          "Environmental Policy (Part I)"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 5.0,
+        "reason": "The analysis of 'Environmental Policy' is the primary mechanism for addressing climate change, linking strongly to Target 13.2 (integrating climate measures into national policies).",
+        "evidence": [
+          "Environmental Policy (Part I)"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 0.001,
+        "reason": "'Environmental Policy' in coastal areas of Greater China might touch on marine issues (Target 14.1), but the connection is very tenuous and not specified.",
+        "evidence": [
+          "Environmental Policy (Part I)"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 3.5,
+        "reason": "The course's focus on 'Environmental Policy' likely includes issues of land use and conservation, which connect to targets like 15.9 (integrating biodiversity into planning).",
+        "evidence": [
+          "Environmental Policy (Part I)"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about analyzing 'governance models' and 'institutional foundations of policy,' which is the core of Target 16.6 (effective, accountable institutions).",
+        "evidence": [
+          "governance models in public policy",
+          "institutional foundations of policy",
+          "Regulation and enforcement structures"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 8.0,
+        "reason": "The course's core theme of 'policy transfer and lesson learning' and how 'policies travel across borders' directly aligns with Target 17.6 on international cooperation and knowledge sharing.",
+        "evidence": [
+          "policy transfer and lesson learning",
+          "policies travel across borders",
+          "Globalization & Public Policy"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive evidence for several SDGs, warranting revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B highlights explicit course content on social security policies and equity challenges."
+      },
+      "Good Health and Well-being": {
+        "your_original": 4.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B emphasizes extensive healthcare policy analysis, enhancing the score."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B infers potential relevance of environmental policy to water management."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B connects social security and economic dynamics to decent work policies."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B explicitly addresses equity challenges in social security and healthcare."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B connects environmental policy to urban management issues."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B links environmental policy discussions to resource management."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model B connects environmental policy to land use and conservation."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's focus on governance models aligns directly with the SDG."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B emphasizes policy transfer and international cooperation."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more explicit and well-supported reasoning for several SDGs, particularly those related to social equity, governance, and international cooperation, leading to significant revisions.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A highlighted 'equity challenges' in social security, which more strongly aligns with Target 1.3 than my initial assessment."
+      },
+      "Good Health and Well-being": {
+        "your_original": 4.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A's emphasis on 'citizen access' in healthcare directly supports Target 3.8 on universal health coverage, which I initially understated."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "My original score was an overreach. The course focuses on policy analysis, not education for sustainable development (Target 4.7)."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A's inclusion of 'Social Security Policy' and 'Political & Economic Dynamics' provides a slightly stronger foundation for this SDG."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A explicitly identified 'equity challenges,' 'citizen access,' and 'environmental justice,' which are direct links to Target 10.3."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A's inference that 'Environmental Policy' in Greater China likely includes urban environmental management is plausible."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model A's inference that 'Environmental Policy' could include waste management or resource use is a reasonable connection."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model A's inference that 'Environmental Policy' likely includes land use and conservation is a plausible connection to Target 15.9."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A correctly identified the course's core focus on 'governance models' and 'institutional foundations,' directly aligning with Target 16.6."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A accurately highlighted 'policy transfer and lesson learning' and 'policies travel across borders' as direct links to Target 17.6."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight social security policies and equity challenges, aligning well with Target 1.3. The revised scores reflect a strong consensus on the course's focus.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to hunger, confirming a lack of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize extensive healthcare policy analysis, directly linking to Target 3.8. The revised scores reflect a strong alignment with course content.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Model B's original score was an overreach; the course does not focus on education for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to gender equality, confirming a lack of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model A's revision acknowledges potential relevance of environmental policy to water management, supported by Model B's inference.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Similar to Clean Water, the course's environmental policy discussions may touch on energy issues, as inferred by both models.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models connect social security and economic dynamics to decent work policies, with revisions reflecting a strong foundation.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Both models infer a connection to infrastructure through public policy development, but evidence remains weak.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models explicitly address equity challenges in social security and healthcare, strongly aligning with Target 10.3.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect environmental policy to urban management issues, providing a plausible link to the SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Both models link environmental policy discussions to resource management, providing a reasonable connection to the SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's focus on environmental policy as a mechanism for addressing climate change.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Model B's inference about marine issues is tenuous; however, a minimal score acknowledges potential relevance.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life on Land": {
+      "final_score": 3.5,
+      "source": "synthesized",
+      "reasoning": "Both models connect environmental policy to land use and conservation, providing a plausible link to the SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's core focus on governance models, directly aligning with Target 16.6.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight policy transfer and international cooperation, aligning well with Target 17.6.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Social Security Policy' and 'equity challenges,' directly aligning with Target 1.3 on social protection systems for the poor and vulnerable.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "There is no explicit or inferable evidence in the course syllabus related to hunger, food security, or agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course dedicates two weeks to 'Healthcare Policy,' discussing 'governance and financing models' and 'citizen access,' directly supporting Target 3.8 on universal health coverage.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "While the course develops academic skills, it does not focus on providing education, ensuring access, or promoting education for sustainable development as defined by SDG 4 targets.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "There is no explicit or inferable evidence in the course syllabus related to gender equality or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course's discussion of 'Environmental Policy' could plausibly include water management and pollution reduction, aligning with Target 6.3, though not explicitly stated.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "Discussions on 'Environmental Policy' may touch upon energy issues, such as clean energy or efficiency, relevant to SDG 7, but this is an inference.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course examines 'Political & Economic Dynamics' and 'Social Security Policy,' providing a foundational context for policies related to economic growth and decent work, though not a direct focus.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The general focus on 'public policy development' and 'institutional environment' is too broad to infer a meaningful connection to specific industry, innovation, or infrastructure topics.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly addresses 'equity challenges' in social security, 'citizen access' in healthcare, and 'environmental justice,' directly aligning with Target 10.3 on reducing inequalities of outcome.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "Given the course's focus on 'Environmental Policy' within 'Greater China' (a highly urbanized region), discussions on urban environmental management are strongly implied, aligning with Target 11.6.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The 'Environmental Policy' discussions can reasonably be inferred to include topics like resource management and waste reduction, relevant to SDG 12 targets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "The explicit focus on 'Environmental Policy' directly relates to integrating climate change measures into national policies, aligning with Target 13.2.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "While 'Environmental Policy' could broadly encompass marine issues, there is no specific evidence or strong inference in the syllabus to support a connection to Life Below Water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 3.5,
+      "source": "model_b",
+      "reasoning": "The course's 'Environmental Policy' discussions can reasonably be inferred to include land use, conservation, and biodiversity, aligning with targets like 15.9.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course's fundamental focus on 'governance models,' 'institutional foundations of policy,' 'administrative structures,' and 'regulation and enforcement' directly and comprehensively addresses SDG 16, especially Target 16.6.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course's central theme of 'policy transfer and lesson learning' and comparing public policy across 'Greater China' and 'other countries' directly aligns with international cooperation and knowledge sharing (Targets 17.6, 17.16).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    }
+  }
+}
