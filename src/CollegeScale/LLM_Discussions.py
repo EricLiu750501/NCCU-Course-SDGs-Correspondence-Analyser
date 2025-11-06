@@ -132,6 +132,9 @@ def getPrompt(prompt_folder = "../courseCrawl/prompts/", course_code_list = "Col
     
     return matched_files
 
+sdgs_goals_targets = ""
+with open("../SDGcrawl/goal_formatted_less.md", "r", encoding="utf-8") as f:
+    sdgs_goals_targets = f.read()
 
 async def process_course(file_path, result_folder, semaphore):
     async with semaphore:
@@ -172,12 +175,12 @@ async def process_course(file_path, result_folder, semaphore):
         # Step 2. Cross-exam
         GPT_model.change_system_prompt(critique_system_prompt("GPT"))
         gpt_critique_task = GPT_model.query_json(
-            crituque_prompt("GPT", course_markdown, gpt_answer, gemini_answer)
+            crituque_prompt("GPT", course_markdown, gpt_answer, gemini_answer, sdgs_goals_targets)
             , temperature=0)
 
         Gemini_model.change_system_prompt(critique_system_prompt("Gemini"))
         gemini_critique_task = Gemini_model.query_json(
-            crituque_prompt("Gemini", course_markdown, gemini_answer, gpt_answer)
+            crituque_prompt("Gemini", course_markdown, gemini_answer, gpt_answer, sdgs_goals_targets)
             , temperature=0)
 
         gpt_critique, gemini_critique = await asyncio.gather(
@@ -190,10 +193,10 @@ async def process_course(file_path, result_folder, semaphore):
         GPT_model.change_system_prompt(judge_system_prompt())
         Gemini_model.change_system_prompt(judge_system_prompt())
         gpt_judge_answer_task = GPT_model.query_json(
-            judge_prompt(course_markdown, gemini_answer, gpt_answer, gpt_critique, gemini_critique
+            judge_prompt(course_markdown, gemini_answer, gpt_answer, gpt_critique, gemini_critique, sdgs_goals_targets
                          ), temperature=0)
         gemini_judge_answer_task = Gemini_model.query_json(
-            judge_prompt(course_markdown, gemini_answer, gpt_answer, gpt_critique, gemini_critique
+            judge_prompt(course_markdown, gemini_answer, gpt_answer, gpt_critique, gemini_critique, sdgs_goals_targets
                          ), temperature=0)
         gpt_judge_answer, gemini_judge_answer = await asyncio.gather(
             gpt_judge_answer_task,
@@ -216,14 +219,14 @@ async def process_course(file_path, result_folder, semaphore):
 
 
 async def Disscussion():
-    print("testing GPT Nano and Gemini flash 2.5 Debate")
+    print("testing GPT 4o mini and Gemini pro 2.5 Discussion...")
     # 準備要跑的 prompts
-    prompt_files = getPrompt(course_code_list = "All_Courses.json")
+    prompt_files = getPrompt(prompt_folder = "../SDGcrawl/prompts/", course_code_list = "College_of_Social_Science.json")
     
-    result_folder = "./all_courses"
+    result_folder = "./all_courses_sdg_detail"
     os.makedirs(result_folder, exist_ok=True)
 
-    concurrency_limit = 10  # 您可以調整這個數值來決定要同步處理的課程數量
+    concurrency_limit = 8  # 您可以調整這個數值來決定要同步處理的課程數量
     semaphore = asyncio.Semaphore(concurrency_limit)
 
     tasks = [process_course(file_path, result_folder, semaphore) for file_path in prompt_files]
