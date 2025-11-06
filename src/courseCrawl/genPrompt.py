@@ -1,13 +1,5 @@
 # 將 details/ 裡面的所有 md 寫成 prompt 放到 prompts/ 裡面
 
-
-title = ""
-abstract = ""
-keywords = ""
-number_of_authors = 0
-authorship_status_description = ""
-
-
 def gen_prompt(course_info):
     sdgs_targets = \
     '''
