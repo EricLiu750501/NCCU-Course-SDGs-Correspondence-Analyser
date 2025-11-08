@@ -1,0 +1,337 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.001,
+        "reason": "A very tenuous link via 'insurance law' (保險法), which could relate to financial risk protection under Target 3.8, but the connection is not detailed.",
+        "evidence": [
+          "保險法"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 7.0,
+        "reason": "As a university course, it provides tertiary education (Target 4.3) and skills for employment in the legal and commercial fields (Target 4.4).",
+        "evidence": [
+          "Course Name: Commercial Law",
+          "未來進入職場"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 8.0,
+        "reason": "The course on company law supports enterprise growth (Target 8.3), and the topic 'Corporate Social Responsibility' (公司之社會責任) relates to protecting labor rights (Target 8.8).",
+        "evidence": [
+          "商事法",
+          "公司之社會責任"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 7.5,
+        "reason": "The course provides the legal framework for industrial enterprises (Target 9.2) and their access to financial services and markets (Target 9.3).",
+        "evidence": [
+          "商事法",
+          "公司法"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 1.0,
+        "reason": "The study of law can be inferred to support equal opportunity (Target 10.3), but the course does not explicitly address reducing inequalities.",
+        "evidence": [
+          "商事法律制度"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 6.0,
+        "reason": "Directly addresses Target 12.6 by including 'Corporate Social Responsibility' (公司之社會責任) as a key topic, encouraging companies to adopt sustainable practices.",
+        "evidence": [
+          "公司之社會責任"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 9.5,
+        "reason": "As a law course, it fundamentally promotes the rule of law (Target 16.3) and the development of accountable and transparent institutions (Target 16.6).",
+        "evidence": [
+          "商事法律制度",
+          "公司之監督"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 1.0,
+        "reason": "A minor link to Target 17.10 (rules-based trading system) through the mention of 'Respect Copyright' (維護智慧財產權).",
+        "evidence": [
+          "維護智慧財產權"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is largely consistent with mine. I will revise my scores for SDG 10 and SDG 17, as Model A's reasoning provides a slightly stronger justification for an inferred link.",
+    "revisions": {
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 0.5,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model A's explicit link to 'equal opportunity (Target 10.3)' is a more robust inference for a law course."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 0.5,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model A's reasoning for linking 'Respect Copyright' to a rules-based trading system (Target 17.10) is reasonable."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus provides no explicit or implicit evidence related to poverty eradication, social protection, or economic resources for the poor.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus contains no evidence pertaining to hunger, food security, nutrition, or sustainable agriculture practices.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The mention of '保險法' (insurance law) offers a very tenuous link to Target 3.8 (financial risk protection for health), as noted by Model B.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "As a university course, it directly provides tertiary education (Target 4.3) and equips students with legal skills for future employment (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no explicit or implicit mention of gender equality, women's empowerment, or related issues in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus lacks any content related to water resources, sanitation, hygiene, or water quality management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the course description or schedule relates to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on commercial and company law, supporting enterprise growth (Target 8.3). '公司之社會責任' (Corporate Social Responsibility) directly relates to labor rights and decent work (Target 8.8).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course provides the legal framework for industrial enterprises (Target 9.2) and their access to financial services (Target 9.3) through company law.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "While law generally promotes fairness, the course does not explicitly address reducing inequalities. The link to 'equal opportunity' (Target 10.3) is a general inference for a law course.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No course content or objectives relate to urban development, housing, transport, or cultural heritage.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The explicit inclusion of '公司之社會責任' (Corporate Social Responsibility) directly aligns with Target 12.6, encouraging sustainable corporate practices.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not contain any information or topics related to climate change, mitigation, or adaptation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the course content that relates to marine ecosystems, ocean health, or sustainable fisheries.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus does not include topics on terrestrial ecosystems, biodiversity, deforestation, or land degradation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "As a law course, it fundamentally promotes the rule of law (Target 16.3). Topics like '公司之監督' (Company Supervision) directly support accountable institutions (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The mention '維護智慧財產權' (Respect Copyright) is an administrative note, not a core course topic. Its link to a rules-based trading system (Target 17.10) is extremely tenuous and indirect.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    }
+  }
+}

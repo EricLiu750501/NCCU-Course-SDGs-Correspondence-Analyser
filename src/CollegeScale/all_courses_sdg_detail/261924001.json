@@ -1,0 +1,340 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about \"Development Assistance,\" a primary mechanism for poverty eradication, directly addressing Target 1.a (development cooperation) and 1.b (pro-poor strategies).",
+        "evidence": [
+          "Seminar on Development Assistance",
+          "The Pornography of Poverty",
+          "Was Development Assistance A Mistake?"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Zero Hunger": {
+        "score": 6.0,
+        "reason": "The course explicitly discusses \"Famines in Historical Perspective\" under the topic of humanitarianism, linking directly to Target 2.1 (end hunger) and 2.a (international cooperation).",
+        "evidence": [
+          "Famines in Historical Perspective",
+          "Humanitarianism"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Good Health and Well-being": {
+        "score": 6.5,
+        "reason": "The course explicitly addresses health crises through the reading \"Representing HIV/AIDS in Africa,\" directly linking to Target 3.3 (end the epidemics of AIDS).",
+        "evidence": [
+          "Representing HIV/AIDS in Africa",
+          "Humanitarianism"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Gender Equality": {
+        "score": 2.0,
+        "reason": "The course's focus on \"development\" and \"humanitarian needs\" infers a connection to gender issues, a key aspect of modern development assistance, but lacks explicit evidence.",
+        "evidence": [
+          "development aid",
+          "humanitarian needs"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 8.5,
+        "reason": "The course has dedicated sessions on \"Economic Development\" and \"Aid for Trade,\" directly addressing Target 8.a and the broader goal of economic growth in developing countries.",
+        "evidence": [
+          "Economic Development",
+          "Aid for Trade: Is it Working?",
+          "Business Interests"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Reduced Inequalities": {
+        "score": 9.0,
+        "reason": "The course's central theme of \"Development Assistance\" directly addresses Target 10.b, which encourages aid flows to reduce inequalities between nations. The topic \"Dependency\" also explores this.",
+        "evidence": [
+          "Seminar on Development Assistance",
+          "Dependency？Democracy？",
+          "Who Gives Foreign Aid and Why?"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 9.5,
+        "reason": "The course explicitly examines aid's role in \"Democracy Promotion,\" \"Aiding Violence or Building Peace?,\" and politics, directly supporting Targets 16.1, 16.6, and 16.7.",
+        "evidence": [
+          "Foreign Aid and Democracy Promotion",
+          "Aiding Violence or Building Peace?",
+          "Development Assistance and Politics"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 10.0,
+        "reason": "The course is a critical analysis of \"Development Assistance,\" the primary mechanism for global partnerships, directly addressing multiple targets like 17.2 (ODA) and 17.16.",
+        "evidence": [
+          "Seminar on Development Assistance",
+          "History of Foreign Assistance",
+          "Chinese Assistance in Africa"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is largely accurate and well-supported. I only diverge on one SDG where the evidence for an inferred connection was too weak.",
+    "revisions": {
+      "SDG_5 (Gender Equality)": {
+        "your_original": 2.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "No explicit mention of gender, women, or equality. The inference from 'development aid' and 'humanitarian needs' is too weak without direct textual support."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course 'Seminar on Development Assistance' directly addresses mechanisms for poverty eradication, with explicit readings like 'The Pornography of Poverty' and discussions on aid effectiveness, aligning with SDG 1 targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly includes 'Famines in Historical Perspective' under the 'Humanitarianism' topic, directly linking to the goal of ending hunger and ensuring food security.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The reading 'Representing HIV/AIDS in Africa' under 'Art and Development' explicitly addresses a major health crisis, directly connecting to SDG 3's target of ending epidemics.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence or readings related to education, learning outcomes, or educational access were found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The course syllabus lacks explicit mention of gender, women's rights, or gender equality. Initial inference from 'development aid' is too weak without direct textual support.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence or readings related to water, sanitation, or hygiene were found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence or readings related to energy access, renewable energy, or energy efficiency were found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "Dedicated sessions on 'Economic Development' and readings like 'Aid for Trade: Is it Working?' directly address economic growth, productivity, and the role of aid in trade, aligning with SDG 8.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence or readings related to industry, innovation, or infrastructure development were found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'Development Assistance' and topics like 'Dependency? Democracy?' directly address reducing inequalities between nations and within societies, a core aspect of SDG 10.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence or readings related to urban development, housing, or sustainable communities were found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence or readings related to sustainable consumption, production patterns, or waste management were found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence or readings related to climate change, mitigation, or adaptation were found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence or readings related to marine ecosystems, ocean health, or sustainable fisheries were found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence or readings related to terrestrial ecosystems, biodiversity, or deforestation were found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course extensively covers 'Development Assistance and Politics,' 'Foreign Aid and Democracy Promotion,' and 'Aiding Violence or Building Peace?', directly addressing governance, conflict, and institutional strength, central to SDG 16.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The entire course, 'Seminar on Development Assistance,' is fundamentally about international cooperation and partnerships for development, with explicit discussions on 'History of Foreign Assistance' and various country-specific aid efforts (China, Taiwan).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

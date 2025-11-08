@@ -1,0 +1,734 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 9.5,
+      "reason": "Focus on '提升跨文化素養' and '理解臺灣語言與文化' aligns with Targets 4.7 and 4.5.",
+      "evidence": [
+        "提升跨文化素養",
+        "理解臺灣語言與文化"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 4.0,
+      "reason": "Course promotes '包容異文化' and '尊重與理解', linking to Target 5.5.",
+      "evidence": [
+        "包容異文化",
+        "尊重與理解"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 5.0,
+      "reason": "Course encourages '多元文化的尊重與理解', relevant to Target 10.2.",
+      "evidence": [
+        "多元文化的尊重與理解"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.0,
+        "reason": "The course tangentially touches on indigenous land rights through discussions on '諮商同意權' (consultation and consent rights), which relates to Target 1.4 regarding control over land.",
+        "evidence": [
+          "諮商同意權",
+          "空間分配"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 1.5,
+        "reason": "The course includes a film viewing of '我的失智父親' (My Father with Dementia), which indirectly relates to Target 3.4 on promoting mental health and well-being.",
+        "evidence": [
+          "影片欣賞：觀賞「我的失智父親」（微電影）",
+          "死亡的敞開性"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 10.0,
+        "reason": "The course is a core example of quality tertiary education promoting cultural diversity and cross-cultural literacy for indigenous peoples, directly aligning with Targets 4.3, 4.5, and 4.7.",
+        "evidence": [
+          "SDGs ：4優質教育",
+          "培養學生的跨文化素養",
+          "理解臺灣語言與文化"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 1.0,
+        "reason": "The course explicitly lists SDG 5 as a relevant goal, but the syllabus lacks specific content on gender issues, making the connection weak.",
+        "evidence": [
+          "SDGs ：5性別平等"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 0.001,
+        "reason": "A very tenuous link exists through the discussion of '勞動' (labor) in a cultural context, which could be very loosely inferred to relate to Target 8.9 (local culture).",
+        "evidence": [
+          "探討小說中勞動、儀式、樂舞的關聯及其意義"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 4.5,
+        "reason": "The course includes a module on 'AI文本生成導論' using ChatGPT, directly engaging with modern technology and innovation as per Target 9.5 and 9.b.",
+        "evidence": [
+          "AI文本生成導論——ChatGPT文本續寫、改編",
+          "使用ChatGPT進行文本續寫與改編"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 10.0,
+        "reason": "A core objective is to promote understanding of '臺灣原住民族' (Taiwan's indigenous peoples), directly addressing Target 10.2 by fostering social inclusion and reducing inequalities based on ethnicity.",
+        "evidence": [
+          "SDGs ：10減少不平等",
+          "包容異種族／異文化",
+          "臺灣原住民族語言與文化"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 9.0,
+        "reason": "The course is dedicated to understanding and preserving the language and culture of indigenous peoples, directly supporting Target 11.4 to safeguard cultural heritage.",
+        "evidence": [
+          "SDGs ：11永續城鄉",
+          "探討臺灣原住民族語言與文化的特色",
+          "文化傳承"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 1.0,
+        "reason": "A literary text, '我願是那片海洋的魚鱗' (I Wish to Be the Fish Scale of That Ocean), explores the cultural connection to the ocean, tangentially relating to Target 14.2.",
+        "evidence": [
+          "夏曼・藍波安〈我願是那片海洋的魚鱗——一種疏離的美感〉"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life on Land": {
+        "score": 4.0,
+        "reason": "The course discusses the cultural significance of the '山海世界' (World of Mountains and Seas) and mountains for indigenous tribes, linking to Target 15.4 (conservation of mountain ecosystems).",
+        "evidence": [
+          "山海世界",
+          "高山對族群部落有獨特的意義"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 5.0,
+        "reason": "The course discusses '諮商同意權' (consultation and consent rights), a key legal principle for indigenous peoples, aligning with Target 16.7 on inclusive and participatory decision-making.",
+        "evidence": [
+          "討論對「諮商同意權」與「空間分配」等社會問題的看法"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 5.5,
+        "reason": "The course involves a '課堂演講' (guest lecture) from an expert at another university, demonstrating a partnership to share knowledge, which aligns with Target 17.16.",
+        "evidence": [
+          "SDGs ：17多元夥伴關係",
+          "課堂演講",
+          "邀請專家學者進行課堂演講"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more nuanced insights, particularly on indigenous rights and cultural significance, warranting revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B highlights '諮商同意權', linking to land rights and Target 1.4."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B cites '我的失智父親', connecting to mental health and Target 3.4."
+      },
+      "Gender Equality": {
+        "your_original": 4.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B's score reflects the lack of specific gender content despite mentioning SDG 5."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model B identifies a tenuous link to labor discussions, justifying a minimal score."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's mention of 'AI文本生成導論' aligns with innovation targets."
+      },
+      "Reduced Inequalities": {
+        "your_original": 5.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B emphasizes the course's focus on indigenous peoples, directly addressing Target 10.2."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B connects cultural preservation to Target 11.4, justifying a high score."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B's reference to '我願是那片海洋的魚鱗' relates to Target 14.2."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's discussion of '山海世界' connects to Target 15.4."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's focus on '諮商同意權' aligns with Target 16.7."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B's mention of guest lectures aligns with Target 17.16."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's analysis helped identify some tenuous links in my original assessment, leading to more precise scoring for several SDGs.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 1.5,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The link to '我的失智父親' is too indirect for SDG 3 targets. Model B's score is more accurate."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.001,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The discussion of '勞動' is cultural, not economic. The link to SDG 8 is too tenuous."
+      },
+      "Life Below Water": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "While a text mentions the ocean, the course focuses on cultural interpretation, not marine ecosystem protection. Link is too weak."
+      },
+      "Life on Land": {
+        "your_original": 4.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The course discusses cultural significance of mountains, not their conservation or biodiversity. Link to SDG 15 targets is too indirect."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "The course discusses '諮商同意權', linking to land rights and Target 1.4, justifying a minimal score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course materials to support any score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The connection to mental health through '我的失智父親' is too indirect to warrant a score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course strongly promotes cultural literacy and aligns with multiple education targets.",
+      "model_comparison": {
+        "model_a_original": 9.5,
+        "model_a_revised": 9.5,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "The course mentions SDG 5 but lacks specific content, justifying a minimal score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course materials to support any score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course materials to support any score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The discussion of '勞動' is cultural and does not connect to economic growth.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "The course's focus on AI and technology aligns well with innovation targets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course emphasizes understanding indigenous peoples, directly addressing Target 10.2.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on cultural preservation supports Target 11.4.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course materials to support any score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course materials to support any score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course's mention of the ocean is cultural, not ecological.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course discusses cultural significance but lacks direct links to conservation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on '諮商同意權' aligns with Target 16.7.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "The course's guest lectures demonstrate knowledge sharing, aligning with Target 17.16.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "revised_a",
+      "reasoning": "Discussion of indigenous '諮商同意權' and '空間分配' in Week 6 relates to Target 1.4 on equal rights to economic resources and control over land for vulnerable groups.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus relates to food security, nutrition, sustainable agriculture, or any other targets of SDG 2.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The discussion around the film '我的失智父親' is primarily about familial affection and coping with life's challenges, not directly about health services or well-being targets of SDG 3.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "Explicitly listed as a relevant SDG. The course directly promotes quality tertiary education, cross-cultural literacy, and appreciation of indigenous languages and cultures, aligning perfectly with Targets 4.5 and 4.7.",
+      "model_comparison": {
+        "model_a_original": 9.5,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 1.0,
+      "source": "revised_a",
+      "reasoning": "SDG 5 is explicitly listed, but the syllabus lacks specific content or activities directly addressing gender equality issues, making the connection very weak.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus relates to water quality, sanitation, hygiene, or water resource management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus relates to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The discussion of '勞動' in the syllabus is within a cultural and literary context, not related to economic growth, employment, or labor rights as defined by SDG 8 targets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course includes a module on 'AI文本生成導論' using ChatGPT, directly engaging with modern technology and innovation, aligning with Targets 9.5 and 9.b.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "Explicitly listed as a relevant SDG. The course's core focus on Taiwan's indigenous languages and cultures directly promotes social inclusion and reduces inequalities based on ethnicity, aligning with Target 10.2.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "Explicitly listed as a relevant SDG. The course's focus on understanding, preserving, and promoting Taiwan's indigenous languages and cultures directly supports Target 11.4 on safeguarding cultural heritage.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus relates to sustainable consumption, production patterns, waste reduction, or resource efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Although '人與自然' is a theme, the course content focuses on cultural relationships with nature, not climate change mitigation, adaptation, or awareness.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The literary text mentioning the ocean is analyzed for its cultural and aesthetic meaning, not for marine ecosystem protection, pollution reduction, or sustainable use of marine resources.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The course discusses the cultural and spiritual significance of mountains and the '山海世界' for indigenous peoples, not their ecological conservation, biodiversity, or sustainable use of terrestrial ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course discusses '諮商同意權' and '空間分配' in relation to indigenous land issues, directly aligning with Target 16.7 on inclusive and participatory decision-making.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "Explicitly listed as a relevant SDG. The inclusion of a guest lecture by an expert from another university demonstrates a partnership for knowledge sharing, aligning with Target 17.16.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

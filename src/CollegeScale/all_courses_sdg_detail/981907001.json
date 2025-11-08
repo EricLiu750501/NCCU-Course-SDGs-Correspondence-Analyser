@@ -1,0 +1,726 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 4.0,
+      "reason": "Covers 'public health' and 'transnational diseases', linking to health security issues.",
+      "evidence": [
+        "公共衛生",
+        "跨國傳染病"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "score": 4.0,
+      "reason": "Focus on education about security issues aligns with promoting knowledge and skills.",
+      "evidence": [
+        "國家安全研究",
+        "治理工具"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 4.0,
+      "reason": "Addresses 'environmental security' and 'disaster threats', linking to climate resilience.",
+      "evidence": [
+        "環境安全",
+        "災難威脅"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 7.0,
+      "reason": "Focus on national security and governance aligns with promoting peace and justice.",
+      "evidence": [
+        "國家安全",
+        "治理工具"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 4.5,
+        "reason": "Links to human security via the explicit mention of \"MDG, SDG\" and to Target 1.5 via \"environmental security and disaster threats.\"",
+        "evidence": [
+          "人類安全: MDG、SDG與後SDG時代",
+          "環境安全與災難威脅"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 8.0,
+        "reason": "Directly addresses Target 3.3 and 3.d through the dedicated topic \"public health and transnational infectious diseases.\"",
+        "evidence": [
+          "非傳統安全:公共衛生與跨國傳染病"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 5.0,
+        "reason": "Connects to Target 8.2 (economic productivity) through its focus on \"Economic security: industry, technology, and supply chain.\"",
+        "evidence": [
+          "經濟安全:產業、科技與供應鏈"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 7.5,
+        "reason": "Strongly relates to Targets 9.2 and 9.5 with the topic \"Economic security: industry, technology, and supply chain.\"",
+        "evidence": [
+          "經濟安全:產業、科技與供應鏈"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 4.0,
+        "reason": "Links to Target 11.5 (resilience to disasters) through the topic \"environmental security and disaster threats.\"",
+        "evidence": [
+          "環境安全與災難威脅"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 7.0,
+        "reason": "Directly addresses Target 13.1 (resilience to climate-related hazards) with the topic \"environmental security and disaster threats.\"",
+        "evidence": [
+          "環境安全與災難威脅"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life Below Water": {
+        "score": 6.5,
+        "reason": "The topic \"maritime security\" in a non-traditional security context infers a link to managing marine resources and ecosystems (Targets 14.2, 14.4).",
+        "evidence": [
+          "非傳統安全: 海事安全"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life on Land": {
+        "score": 2.0,
+        "reason": "A tangential link can be inferred from \"environmental security\" to the protection of terrestrial ecosystems (Target 15.1).",
+        "evidence": [
+          "環境安全與災難威脅"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about national security, defense, and governance, directly aligning with Targets 16.1, 16.3, and 16.a.",
+        "evidence": [
+          "國家安全",
+          "軍事、國防與安全合作",
+          "治理"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 8.5,
+        "reason": "Focuses on regional \"security cooperation\" and explicitly discusses the \"SDG\" framework, aligning with Targets 17.6 and 17.16 on partnerships.",
+        "evidence": [
+          "安全合作",
+          "人類安全: MDG、SDG與後SDG時代"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides stronger links to course content, warranting revisions in my scores for No Poverty, Good Health and Well-being, Climate Action, and Peace, Justice and Strong Institutions.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's evidence links human security to poverty eradication."
+      },
+      "Good Health and Well-being": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B directly addresses specific health targets."
+      },
+      "Climate Action": {
+        "your_original": 4.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B's score reflects a stronger connection to climate resilience."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's score aligns more closely with the course's focus on governance."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provided more comprehensive and accurate interpretations for several SDGs, particularly regarding economic, environmental, and partnership aspects. My original scores were too conservative or missed key inferences.",
+    "revisions": {
+      "No Poverty (No Poverty)": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A correctly linked 'human security' (MDG, SDG) and 'disaster threats' to poverty resilience (Target 1.5)."
+      },
+      "Good Health and Well-being (Good Health and Well-being)": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Both identified 'public health and transnational infectious diseases'; Model A's higher score better reflects this direct alignment."
+      },
+      "Quality Education (Quality Education)": {
+        "your_original": 4.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "My inference was too broad. The course focuses on security studies, not improving education systems (SDG 4 targets)."
+      },
+      "Decent Work and Economic Growth (Decent Work and Economic Growth)": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly identified 'economic security: industry, technology, and supply chain' as relevant to economic growth and productivity."
+      },
+      "Industry, Innovation and Infrastructure (Industry, Innovation and Infrastructure)": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model A accurately linked 'economic security: industry, technology, and supply chain' to industrialization and innovation (Targets 9.2, 9.5)."
+      },
+      "Sustainable Cities and Communities (Sustainable Cities and Communities)": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A correctly inferred a link from 'environmental security and disaster threats' to urban resilience (Target 11.5)."
+      },
+      "Climate Action (Climate Action)": {
+        "your_original": 4.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Both identified 'environmental security and disaster threats'; Model A's higher score better reflects the direct link to climate resilience."
+      },
+      "Life Below Water (Life Below Water)": {
+        "your_original": 0.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model A's inference from 'maritime security' to marine resource management (Targets 14.2, 14.4) is reasonable."
+      },
+      "Life on Land (Life on Land)": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A's tangential link from 'environmental security' to terrestrial ecosystems (Target 15.1) is a minor but acceptable inference."
+      },
+      "Peace, Justice and Strong Institutions (Peace, Justice and Strong Institutions)": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "The course's core focus on national security, defense, and governance is a perfect, explicit fit for SDG 16."
+      },
+      "Partnerships for the Goals (Partnerships for the Goals)": {
+        "your_original": 0.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A correctly identified 'security cooperation' and explicit mention of 'SDG' framework as strong evidence for partnerships."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified links between human security and poverty eradication, particularly through environmental security and disaster threats. This aligns well with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence linking course content to hunger issues, consistent with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models provided strong evidence linking public health and transnational diseases to specific health targets, aligning well with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models concluded that the course does not focus on improving education systems, which aligns with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence linking course content to gender equality issues, consistent with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence linking course content to water and sanitation issues, consistent with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence linking course content to energy issues, consistent with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified relevant links to economic security and productivity, aligning with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models provided strong evidence linking economic security to industrialization and innovation, aligning with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence linking course content to reducing inequalities, consistent with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified links to environmental security and disaster resilience, aligning with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence linking course content to responsible consumption, consistent with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified strong links to climate resilience and environmental security, aligning with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Both models provided reasonable inferences linking maritime security to marine resource management, aligning with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models provided minor but acceptable inferences linking environmental security to terrestrial ecosystems, aligning with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified strong links between national security, governance, and peace, aligning perfectly with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified strong evidence linking security cooperation and the SDG framework, aligning with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Human Security: MDG, SDG' and 'Environmental security and disaster threats,' directly relating to building resilience for the vulnerable and poor against shocks (Target 1.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable content in the syllabus relates to food security, nutrition, sustainable agriculture, or ending hunger.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Public health and transnational infectious diseases,' directly aligning with SDG 3 targets on combating communicable diseases and strengthening global health risk management.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The course focuses on teaching national security, not on improving education systems, access, or learning outcomes as defined by SDG 4 targets.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable content in the syllabus relates to gender equality, women's rights, or empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable content in the syllabus relates to clean water, sanitation, or water resource management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable content in the syllabus relates to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Economic security: industry, technology, and supply chain,' which directly relates to achieving higher economic productivity and growth (Target 8.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Economic security: industry, technology, and supply chain,' directly linking to sustainable industrialization, technological capabilities, and innovation (Targets 9.2, 9.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable content in the syllabus relates to reducing inequalities in income, social inclusion, or opportunities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'Environmental security and disaster threats' directly relates to building resilience against disasters in communities (Target 11.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferable content in the syllabus relates to responsible consumption and production patterns.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Environmental security and disaster threats,' which directly aligns with strengthening resilience and adaptive capacity to climate-related hazards (Target 13.1).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'Maritime security' in a non-traditional context can infer links to managing marine resources, preventing pollution, and combating illegal fishing (Targets 14.2, 14.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "'Environmental security' can tangentially relate to the conservation and sustainable use of terrestrial ecosystems (Target 15.1), though the link is not explicit.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course's core focus on national security, defense, and governance, including security cooperation and institutional development, is a direct and explicit fit for SDG 16.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly mentions 'security cooperation,' 'complex security community,' and the 'SDG framework,' directly aligning with the spirit of global and regional partnerships for development (Targets 17.6, 17.16).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    }
+  }
+}

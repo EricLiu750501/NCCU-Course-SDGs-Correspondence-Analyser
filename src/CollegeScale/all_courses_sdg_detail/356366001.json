@@ -1,0 +1,328 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 10.0,
+        "reason": "The course is entirely focused on a teaching methodology, directly supporting teacher training and skills for quality tertiary education (Targets 4.3, 4.4, 4.c).",
+        "evidence": [
+          "Teaching by Case Method : Theory and Practice",
+          "master the methods and skills of case teaching",
+          "個案教學法：理論與實作"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 2.5,
+        "reason": "The course develops advanced pedagogical skills, which contributes to professional development for decent work in academia, linking to Target 8.5.",
+        "evidence": [
+          "master the methods and skills of case teaching and case writing"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 4.5,
+        "reason": "Connects to Target 9.5 by developing skills for 'research analysis' and 'innovation of information management theory', fostering innovation.",
+        "evidence": [
+          "innovation of information management theory",
+          "information technology innovation",
+          "研究分析 (research analysis)"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 2.0,
+        "reason": "Links to Target 12.6 through the core competency of 'Social responsibility and business ethics', which can encourage sustainable corporate practices.",
+        "evidence": [
+          "Social responsibility and business ethics responding to information technology innovation"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 0.5,
+        "reason": "A minimal inferred link to Target 16.3 (rule of law) through the mention of 'business ethics' and the instruction to 'Respect Copyright'.",
+        "evidence": [
+          "Social responsibility and business ethics",
+          "Respect Copyright"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 1.0,
+        "reason": "A low relevance link to knowledge sharing (Target 17.6) by fostering the 'Ability to publish in international academic journals and conferences'.",
+        "evidence": [
+          "Ability to publish in international academic journals and conferences"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is largely aligned with my assessment. I only found one SDG where a minor revision to the score is warranted.",
+    "revisions": {
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 2.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "The link between 'business ethics' and 'responsible consumption and production' is too indirect to warrant a 2.0 score; a minimal 0.5 is more appropriate."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course description or competencies links to poverty eradication.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course description or competencies links to hunger or food security.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course description or competencies links to health or well-being.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course directly focuses on teaching methodology, training, and skill development for educators, aligning perfectly with targets for quality tertiary education and increasing qualified teachers (4.3, 4.c).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course description or competencies links to gender equality.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course description or competencies links to water or sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course description or competencies links to energy.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The course enhances pedagogical skills for Ph.D. students, contributing to their professional development and potential for 'decent work' in academia (Target 8.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "Core competencies explicitly mention 'innovation of information management theory' and 'research analysis', directly fostering innovation and scientific research (Target 9.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course description or competencies links to reducing inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course description or competencies links to sustainable cities or communities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.5,
+      "source": "revised_b",
+      "reasoning": "The 'Social responsibility and business ethics' competency has a very indirect and weak link to encouraging sustainable corporate practices (Target 12.6). Model B's revised score is appropriate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course description or competencies links to climate action.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course description or competencies links to marine ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course description or competencies links to terrestrial ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "The mention of 'Social responsibility and business ethics' and 'Respect Copyright' provides a minimal, inferred link to promoting rule of law and ethical conduct (Target 16.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The 'Ability to publish in international academic journals and conferences' directly supports knowledge sharing and dissemination, a key aspect of global partnerships (Target 17.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

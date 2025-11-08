@@ -1,0 +1,847 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 4.0,
+      "reason": "Course discusses agriculture's impact on economy and society, linking to poverty reduction indirectly.",
+      "evidence": [
+        "農業與經濟",
+        "農業對於經濟、生態環境、社會文化的影響"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 8.0,
+      "reason": "Focus on agricultural history and modernization relates to food security and productivity targets.",
+      "evidence": [
+        "農業現代化",
+        "農業與經濟"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "score": 1.0,
+      "reason": "Minimal relevance; health aspects are not directly addressed.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 7.5,
+      "reason": "Course aims to enhance research skills and understanding of agricultural history, supporting educational targets.",
+      "evidence": [
+        "擴展農業史之研究能力",
+        "掌握東亞農業史的重要研究課題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 1.0,
+      "reason": "No direct mention of gender issues or equality.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 1.0,
+      "reason": "No direct relevance to water or sanitation issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 1.0,
+      "reason": "No mention of energy issues or access.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 6.0,
+      "reason": "Discusses agriculture's role in economic development, linking to decent work targets.",
+      "evidence": [
+        "農業與經濟",
+        "農業現代化的反思"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 4.0,
+      "reason": "Course touches on agricultural modernization, relevant to industrial and infrastructure targets.",
+      "evidence": [
+        "冷戰與農業現代化",
+        "農業現代化的反思"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 1.0,
+      "reason": "No direct mention of inequality issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 1.0,
+      "reason": "No relevance to urban sustainability or community issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 4.0,
+      "reason": "Course discusses ecological agriculture, linking to sustainable practices.",
+      "evidence": [
+        "生態農業",
+        "農業現代化的反思"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "score": 5.0,
+      "reason": "Addresses ecological agriculture and modernization, relevant to climate adaptation.",
+      "evidence": [
+        "生態農業",
+        "農業現代化的反思"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "score": 1.0,
+      "reason": "No relevance to marine or aquatic issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 5.0,
+      "reason": "Discusses sustainable agricultural practices, linking to land management targets.",
+      "evidence": [
+        "生態農業",
+        "農業現代化的反思"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 1.0,
+      "reason": "No relevance to peace or justice issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 1.0,
+      "reason": "No mention of partnerships or collaborative efforts.",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 4.5,
+        "reason": "The course analyzes historical poverty through topics like \"Floods and Famine\" and socio-economic order, linking to Target 1.5 on resilience to disasters and vulnerability.",
+        "evidence": [
+          "洪水與饑荒",
+          "農業、社會與秩序",
+          "農業與經濟"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about agricultural history, covering food production systems, modernization, and famine (\"洪水與饑荒\"), directly aligning with Targets 2.1, 2.3, and 2.4.",
+        "evidence": [
+          "東亞農業史專題",
+          "農業現代化",
+          "洪水與饑荒"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Good Health and Well-being": {
+        "score": 1.5,
+        "reason": "The course discusses \"Floods and Famine\" (\"洪水與饑荒\"), which has indirect health implications related to malnutrition, but this is not a central theme.",
+        "evidence": [
+          "洪水與饑荒"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 6.0,
+        "reason": "As a university course, it provides tertiary education (Target 4.3) and promotes sustainable development knowledge by reflecting on agriculture's impact on the \"ecological environment\" (Target 4.7).",
+        "evidence": [
+          "省思農業對於...生態環境...的影響",
+          "擴展農業史之研究能力"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 4.0,
+        "reason": "A required reading explicitly includes \"ジｴンダー\" (gender) in its title, suggesting a discussion of gender roles within the context of agricultural development history.",
+        "evidence": [
+          "ジｴンダー"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Clean Water and Sanitation": {
+        "score": 2.5,
+        "reason": "The course discusses \"Floods\" (\"洪水\") and \"traditional joint management of mountain and forest resources,\" which indirectly relates to the protection of water-related ecosystems (Target 6.6).",
+        "evidence": [
+          "洪水與饑荒",
+          "對山林資源的傳統式共同管理"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 7.0,
+        "reason": "The course has a core theme of \"Agriculture and Economy,\" analyzing historical economic productivity and reflecting on environmental impacts through \"ecological agriculture,\" linking to Targets 8.2 and 8.4.",
+        "evidence": [
+          "農業與經濟",
+          "生態農業",
+          "社會經濟"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 7.5,
+        "reason": "The course focuses on \"Agricultural Modernization\" and the \"Green Revolution,\" directly addressing technological upgrading and innovation in the agricultural sector, aligning with Targets 9.4 and 9.5.",
+        "evidence": [
+          "農業現代化",
+          "綠色革命",
+          "テクノロジー"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 6.5,
+        "reason": "The course analyzes social structures through \"Agriculture, Society and Order\" and texts like \"Weak's Weapons,\" examining historical inequalities related to colonialism and class (Targets 10.2, 10.3).",
+        "evidence": [
+          "弱者的武器",
+          "農業、社會與秩序",
+          "日本殖民主義"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 1.0,
+        "reason": "The course focuses on rural areas (\"中國農村\") and migration, which has a tangential link to urban-rural connections (Target 11.a), but cities are not a focus.",
+        "evidence": [
+          "中國農村",
+          "移民"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Responsible Consumption and Production": {
+        "score": 8.0,
+        "reason": "The theme \"Reflection on Agricultural Modernization: Ecological Agriculture\" directly addresses sustainable production patterns and the sustainable management of natural resources, aligning with Target 12.2.",
+        "evidence": [
+          "農業現代化的反思：生態農業",
+          "自然的經濟體系：生態思想史"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 3.0,
+        "reason": "The discussion of \"Floods and Famine\" and \"ecology\" relates to resilience against natural disasters, which is an aspect of climate adaptation (Target 13.1), but climate change is not explicit.",
+        "evidence": [
+          "洪水與饑荒",
+          "戰爭與生態"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 9.0,
+        "reason": "The course explicitly covers \"ecological agriculture,\" the \"ecological environment,\" and \"management of mountain and forest resources,\" directly aligning with sustainable land use and ecosystem conservation (Targets 15.1, 15.2).",
+        "evidence": [
+          "生態農業",
+          "生態環境",
+          "對山林資源的傳統式共同管理"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 5.0,
+        "reason": "The course explicitly examines \"War, Migration and Agriculture,\" analyzing the impact of conflict on society and resources, which relates to the foundations of peace and justice (Target 16.1).",
+        "evidence": [
+          "戰爭、移民與農業",
+          "農業、社會與秩序"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 6.0,
+        "reason": "Analysis of the \"Cold War and Agricultural Modernization\" and \"Green Revolution\" inherently involves studying international cooperation and technology transfer, linking to Target 17.6.",
+        "evidence": [
+          "冷戰與農業現代化",
+          "綠色革命之擴張"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more nuanced insights, particularly on poverty, hunger, gender equality, and decent work, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B highlights historical poverty analysis, linking it to resilience and vulnerability."
+      },
+      "Zero Hunger": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B emphasizes the course's core focus on agricultural history and food production."
+      },
+      "Gender Equality": {
+        "your_original": 1.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B identifies explicit discussions of gender roles in agricultural development."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B connects agricultural productivity to economic growth more explicitly."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 1.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B links course content on floods to water-related ecosystem protection."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 4.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B emphasizes technological upgrading in agricultural modernization."
+      },
+      "Reduced Inequalities": {
+        "your_original": 1.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B discusses historical inequalities related to colonialism and class."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B directly addresses sustainable production patterns in ecological agriculture."
+      },
+      "Climate Action": {
+        "your_original": 5.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B's focus on indirect climate implications aligns better with course content."
+      },
+      "Life on Land": {
+        "your_original": 5.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B highlights explicit coverage of ecological agriculture and land management."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B connects course themes of war and agriculture to peace and justice."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 1.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B identifies international cooperation themes in agricultural modernization."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provided more detailed and accurate interpretations of the course text, particularly in identifying explicit evidence for several SDGs that I had overlooked or underestimated.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A's reasoning, citing 'Floods and Famine,' provides a stronger, more direct link to poverty and resilience."
+      },
+      "Zero Hunger": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A correctly identifies this SDG as central, given the course's explicit focus on agricultural history and famine."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model A's reasoning for an indirect link through 'Floods and Famine' is more accurate than my initial assessment."
+      },
+      "Quality Education": {
+        "your_original": 7.5,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model A's score is more appropriate for a university course that contributes to, but is not primarily about, education itself."
+      },
+      "Gender Equality": {
+        "your_original": 1.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A correctly identified explicit evidence for 'gender' (ジｴンダー) in a required reading title."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 1.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A's reasoning for indirect links through 'Floods' and 'mountain and forest resources' is valid."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Model A's score of 0.0 is more accurate as no explicit evidence for this SDG was found in the text."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model A's reasoning is more specific, linking to 'ecological agriculture' and sustainable economic growth."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 4.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model A's reasoning is much stronger, citing explicit themes like 'Agricultural Modernization' and 'Green Revolution'."
+      },
+      "Reduced Inequalities": {
+        "your_original": 1.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model A correctly identified explicit evidence for inequalities through 'Weak's Weapons' and 'Japanese Colonialism'."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model A's reasoning provides a more nuanced justification for the minimal relevance, focusing on rural-urban connections."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A's reasoning is more explicit and comprehensive, directly linking to 'Ecological Agriculture' and sustainable production."
+      },
+      "Climate Action": {
+        "your_original": 5.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model A's score is more appropriate for an indirect link through resilience to natural disasters, without explicit climate change mention."
+      },
+      "Life Below Water": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Model A's score of 0.0 is more accurate as no explicit evidence for this SDG was found in the text."
+      },
+      "Life on Land": {
+        "your_original": 5.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A's reasoning is much stronger, citing explicit themes like 'ecological agriculture' and 'mountain and forest resources'."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly identified explicit evidence for 'War, Migration and Agriculture,' linking to peace and justice."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 1.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model A's reasoning correctly infers international cooperation and technology transfer from 'Cold War' and 'Green Revolution' themes."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight historical poverty analysis, linking it to resilience and vulnerability. The score reflects a balanced view of the course's content.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's core focus on agricultural history and food production aligns directly with multiple hunger-related targets, justifying the highest score.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "The course discusses 'Floods and Famine,' which has indirect health implications, but health is not a central theme.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "The course contributes to educational outcomes but is not primarily focused on education, aligning with a moderate score.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "The course includes explicit discussions of gender roles in agricultural development, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "The course discusses floods and resource management, linking indirectly to water-related ecosystem protection.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course content related to energy issues, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "The course discusses agricultural productivity and its economic implications, aligning well with decent work targets.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "The course emphasizes agricultural modernization and technological upgrading, aligning with industrial and infrastructure targets.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "The course analyzes historical inequalities related to colonialism and class, justifying a moderate to high score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "The course focuses on rural areas, with minimal relevance to urban sustainability or community issues.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course directly addresses sustainable production patterns in ecological agriculture, aligning well with this SDG.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "The course discusses resilience to natural disasters, which relates to climate adaptation, but lacks explicit climate change focus.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course content related to marine or aquatic issues, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "The course explicitly covers ecological agriculture and land management, aligning directly with sustainable land use targets.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "The course connects themes of war and agriculture to peace and justice, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "The course discusses international cooperation themes in agricultural modernization, justifying a moderate to high score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Floods and Famine' and the impact of agriculture on economy and society, directly linking to historical poverty, vulnerability, and resilience (Target 1.5).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about agricultural history, covering food production, modernization, and famine, directly aligning with targets for ending hunger and ensuring food security.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The course's discussion of 'Floods and Famine' indirectly relates to health and well-being, particularly concerning malnutrition and disease outbreaks in historical contexts.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "model_a",
+      "reasoning": "The course is a university-level specialization, directly providing tertiary education and fostering research skills. It also promotes knowledge for sustainable development by reflecting on agriculture's ecological and societal impacts.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "A required reading explicitly includes 'ジｴンダー' (gender) in its title, indicating a discussion of gender roles within the context of agricultural development history.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The course discusses 'Floods' and the traditional management of mountain and forest resources, which indirectly relates to water management and the protection of water-related ecosystems.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no explicit or indirect mention of energy, clean energy, or related infrastructure in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course's core theme 'Agriculture and Economy' and 'Reflection on Agricultural Modernization: Ecological Agriculture' directly relate to economic growth, productivity, and decoupling growth from environmental degradation.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Agricultural Modernization,' 'Green Revolution,' and 'technology' in agricultural development, directly addressing innovation, technological upgrading, and sustainable industrialization.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly examines historical inequalities through readings like 'Weapons of the Weak' and discussions of Japanese colonialism, directly addressing social and economic disparities.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on rural areas and migration, which has a tangential link to urban-rural connections, but cities and urban sustainability are not a primary focus.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly focuses on 'Ecological Agriculture' and 'Reflection on Agricultural Modernization,' directly addressing sustainable production patterns and the efficient use of natural resources.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course discusses 'Floods and Famine' and 'ecology,' which relate to resilience against natural disasters and environmental impacts, but climate change itself is not an explicit theme.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no explicit or indirect mention of marine or aquatic ecosystems, fisheries, or ocean-related issues in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'ecological agriculture,' the 'ecological environment,' and the 'management of mountain and forest resources,' directly aligning with sustainable land use and ecosystem conservation.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly examines 'War, Migration and Agriculture,' analyzing the impact of conflict on society and resources, which directly relates to the foundations of peace and justice.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course's examination of the 'Cold War and Agricultural Modernization' and the 'Green Revolution' inherently involves studying international cooperation, technology transfer, and global partnerships.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    }
+  }
+}

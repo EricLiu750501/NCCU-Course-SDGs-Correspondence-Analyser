@@ -1,0 +1,755 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 5.0,
+      "reason": "Discusses '受教育權' (right to education) and its relation to equality.",
+      "evidence": [
+        "受教育權",
+        "平等權"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 4.0,
+      "reason": "Mentions '平等權' (equality rights) and its implications for discrimination.",
+      "evidence": [
+        "平等權",
+        "差別待遇"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 6.0,
+      "reason": "Explores '人工智慧' (artificial intelligence) and its impact on law.",
+      "evidence": [
+        "人工智慧",
+        "數位轉型"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 5.0,
+      "reason": "Addresses '差別待遇' (discriminatory treatment) in rights context.",
+      "evidence": [
+        "差別待遇",
+        "平等權"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 8.0,
+      "reason": "Focuses on '法治' (rule of law) and access to justice.",
+      "evidence": [
+        "法治",
+        "平等權"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.0,
+        "reason": "Discusses 'property rights' (財產權), which tangentially relates to Target 1.4 (equal rights to economic resources), but the focus is on constitutional law, not poverty eradication.",
+        "evidence": [
+          "財產權",
+          "property rights"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 0.5,
+        "reason": "Briefly mentions physical privacy rights related to 'health' (健康) as an example, a minimal link to health protection.",
+        "evidence": [
+          "物理性（身體、健康、財產）"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 4.5,
+        "reason": "Uses the 'right to education' (受教育權) as a key example to discuss equality and non-discrimination, linking to Target 4.5 on equal access to education.",
+        "evidence": [
+          "受教育權"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 7.0,
+        "reason": "Focuses on 'Equality rights' (平等權) and eliminating 'discriminatory treatment' (差別待遇), which are foundational principles for Target 5.1 (end discrimination) and 5.c (enforceable legislation).",
+        "evidence": [
+          "平等權",
+          "差別待遇"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 8.0,
+        "reason": "A major section explores 'Artificial Intelligence' (人工智能) and 'digital transformation' (數位轉型), directly addressing innovation and technology as per Targets 9.5 and 9.b.",
+        "evidence": [
+          "人工智能對公法學的挑戰",
+          "行政權遇到數位轉型的挑戰",
+          "Artificial Intelligence"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 9.0,
+        "reason": "The course is fundamentally about 'Equality rights' (平等權) and preventing 'discriminatory treatment' (差別待遇), directly aligning with Target 10.3 on eliminating discriminatory laws.",
+        "evidence": [
+          "平等權",
+          "差別待遇",
+          "Equality rights"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "The course is centered on public law, 'fundamental rights' (基本權利), and 'administrative remedy law' (行政救濟法), directly supporting Targets 16.3 (rule of law) and 16.10 (fundamental freedoms).",
+        "evidence": [
+          "公法實務專題研究",
+          "基本權利合憲性審查結構",
+          "行政救濟法"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 0.5,
+        "reason": "Mentions studying foreign law from 'Germany, United States' (德國、美國), a minimal link to international knowledge sharing under Target 17.6.",
+        "evidence": [
+          "外國（德國、美國）"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more nuanced interpretations, particularly in areas of poverty, health, gender equality, and reduced inequalities.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B highlights property rights, linking to economic resources."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model B connects privacy rights to health, providing a relevant link."
+      },
+      "Quality Education": {
+        "your_original": 5.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's score reflects a more cautious interpretation of the evidence."
+      },
+      "Gender Equality": {
+        "your_original": 4.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B emphasizes the foundational principles of equality rights."
+      },
+      "Reduced Inequalities": {
+        "your_original": 5.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's score aligns closely with the course's focus on equality rights."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B accurately captures the course's emphasis on public law and rights."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model B identifies a minimal link to international knowledge sharing."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provides more accurate and comprehensive interpretations of the course text, particularly regarding the depth of coverage for equality, AI, and institutional aspects. My original scores were too conservative in several areas.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model A's inference regarding 'property rights' (財產權) and Target 1.4 is a plausible, albeit tangential, link."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model A correctly identified the brief mention of 'health' (健康) within the discussion of physical privacy rights."
+      },
+      "Gender Equality": {
+        "your_original": 4.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "The course's strong emphasis on 'equality rights' (平等權) and 'discriminatory treatment' (差別待遇) is foundational for this SDG, as Model A highlighted."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A's higher score better reflects the significant focus on 'Artificial Intelligence' (人工智能) and 'digital transformation' (數位轉型) in the course."
+      },
+      "Reduced Inequalities": {
+        "your_original": 5.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "The course's fundamental discussion of 'equality rights' (平等權) and preventing 'discriminatory treatment' (差別待遇) directly aligns with Target 10.3."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A correctly identified that public law, fundamental rights, and administrative remedy law form the core of this course, directly aligning with SDG 16."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model A correctly noted the mention of studying foreign law from 'Germany, United States' (德國、美國) as a minimal link to international knowledge sharing."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "The course discusses property rights, which relates to economic resources, aligning with Target 1.4. This score reflects a minimal but relevant connection to poverty issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to hunger, confirming a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "The course briefly mentions health in the context of privacy rights, justifying a minimal score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "The course emphasizes the right to education and its relation to equality, supporting a cautious score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on equality rights and discriminatory treatment aligns well with the SDG's targets.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to clean water and sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to decent work and economic growth.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course's significant focus on artificial intelligence and digital transformation justifies a high score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "The course's emphasis on equality rights and preventing discriminatory treatment aligns closely with the SDG's targets.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to sustainable cities and communities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to responsible consumption and production.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to climate action.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to life below water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to life on land.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's core focus on public law and fundamental rights aligns perfectly with the SDG's targets.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "The mention of studying foreign law provides a minimal link to international cooperation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "revised_a",
+      "reasoning": "The course discusses '財產權' (property rights) as a fundamental right. Target 1.4 includes 'equal rights to economic resources, as well as access to basic services, ownership and control over land and other forms of property'. This provides a very tangential, inferred link.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course syllabus that relates to hunger, food security, nutrition, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.5,
+      "source": "revised_a",
+      "reasoning": "The course briefly mentions '健康' (health) as an aspect of physical privacy rights, specifically regarding medical procedures, providing a minimal but direct link to well-being.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "The course explicitly uses '受教育權' (right to education) as a central example to explain the concept of equality rights and non-discrimination, directly linking to equal access in education (Target 4.5).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 7.0,
+      "source": "revised_a",
+      "reasoning": "The course's core focus on '平等權' (equality rights) and eliminating '差別待遇' (discriminatory treatment) provides a strong foundational link to ending all forms of discrimination, which is central to gender equality (Target 5.1).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course syllabus that relates to clean water, sanitation, hygiene, or water resource management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course syllabus that relates to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course does not discuss economic growth, employment, labor rights, or related economic policies, making any link to this SDG too tenuous.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "A significant portion of the course is dedicated to '人工智慧' (Artificial Intelligence) and '數位轉型' (digital transformation), directly addressing innovation and technological advancement, which aligns strongly with Targets 9.5 and 9.b.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The course's fundamental and extensive discussion of '平等權' (equality rights) and preventing '差別待遇' (discriminatory treatment) directly aligns with Target 10.3 on eliminating discriminatory laws and practices to reduce inequalities.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course syllabus that relates to sustainable cities, housing, transport, or urban development.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course syllabus that relates to responsible consumption, production patterns, or waste management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course syllabus that relates to climate change, its impacts, or mitigation/adaptation strategies.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course syllabus that relates to marine ecosystems, ocean health, or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course syllabus that relates to terrestrial ecosystems, biodiversity, or sustainable land management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about public law, constitutional review of fundamental rights, administrative law, and information/privacy rights, directly aligning with promoting the rule of law, access to justice, and strong, transparent institutions (Targets 16.3, 16.6, 16.10).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.5,
+      "source": "revised_a",
+      "reasoning": "The course mentions studying foreign legal interpretations (Germany, US), which implies a minimal level of international knowledge sharing and cooperation in legal scholarship, aligning tangentially with Target 17.6.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    }
+  }
+}

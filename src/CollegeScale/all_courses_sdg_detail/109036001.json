@@ -1,0 +1,349 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.0,
+        "reason": "The course prepares educators to teach 'Social Studies' (社會領域), which can include poverty as a topic within 'Issue-based education' (議題教育), indirectly supporting Target 1.b.",
+        "evidence": [
+          "社會領域教材教法",
+          "議題教育"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 10.0,
+        "reason": "The course is a core 'teacher training course' (師培課程) focusing on teaching methods to create qualified teachers, directly addressing Targets 4.1, 4.7, and 4.c.",
+        "evidence": [
+          "社會領域師培課程",
+          "教學方法",
+          "議題融入教學設計與實作"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 7.5,
+        "reason": "The course's focus on 'Issue-based education' (議題教育) prepares teachers to educate on gender equality, a key component of Taiwan's curriculum and Target 4.7.",
+        "evidence": [
+          "社會領域",
+          "議題教育",
+          "議題融入教學設計與實作"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 1.0,
+        "reason": "Water issues could be a topic within 'Issue-based education' (議題教育) as part of the social studies curriculum, but this is not explicitly mentioned.",
+        "evidence": [
+          "議題教育"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "score": 1.0,
+        "reason": "Energy policy could be a topic within 'Issue-based education' (議題教育) as part of the social studies curriculum, but this is not explicitly mentioned.",
+        "evidence": [
+          "議題教育"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 4.0,
+        "reason": "As a 'Social Studies' (社會領域) methods course, it prepares teachers to educate on economics and labor rights, relevant to Target 8.8, likely via 'Issue-based education'.",
+        "evidence": [
+          "社會領域",
+          "議題教育"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 2.0,
+        "reason": "The 'Social Studies' (社會領域) curriculum, which this course covers, often includes topics of industrial development and innovation, but it is not a central theme.",
+        "evidence": [
+          "社會領域"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 7.0,
+        "reason": "A core theme of 'Social Studies' (社會領域) is social and economic inequality. The course prepares teachers to promote inclusion via 'Issue-based education', supporting Target 10.2.",
+        "evidence": [
+          "社會領域",
+          "議題教育"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 3.0,
+        "reason": "Urbanization and cultural heritage are common topics in 'Social Studies' (社會領域) geography and history, which could be addressed through 'Issue-based education' (議題教育).",
+        "evidence": [
+          "社會領域",
+          "議題教育"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Responsible Consumption and Production": {
+        "score": 5.0,
+        "reason": "The course's focus on 'Issue-based education' (議題教育) prepares teachers to raise awareness for sustainable lifestyles, directly supporting Target 12.8.",
+        "evidence": [
+          "議題教育",
+          "議題融入教學設計與實作"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 6.0,
+        "reason": "Prepares teachers to conduct 'Issue-based education' (議題教育), which is a primary vehicle for climate change education in schools, directly supporting Target 13.3.",
+        "evidence": [
+          "議題教育",
+          "議題融入教學設計與實作"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life Below Water": {
+        "score": 0.001,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.001,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 8.0,
+        "reason": "The course prepares teachers for the 'Social Studies' (社會領域) curriculum, which fundamentally covers justice, law, and institutions, supporting Targets 16.3 and 16.6.",
+        "evidence": [
+          "社會領域教材教法",
+          "十二年國教社會領域課程綱要介紹"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 2.5,
+        "reason": "As a 'teacher training course' (師培課程), it contributes to capacity-building (Target 17.9) to support national education plans for implementing the SDGs.",
+        "evidence": [
+          "師培課程",
+          "現場教師經驗分享"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model B's analysis largely aligns with my own, particularly on the strong relevance to Quality Education and Peace, Justice and Strong Institutions. Only one minor adjustment is needed.",
+    "revisions": {
+      "SDG_6 (Clean Water and Sanitation)": {
+        "your_original": 1.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "While 'Issue-based education' could cover water issues, it's less central to social studies than other topics, warranting a lower score."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "Poverty is a relevant social issue that can be integrated into the 'Social Studies' curriculum through 'Issue-based education', aligning with Target 1.b.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "While not explicitly mentioned, hunger can be addressed as a social issue within 'Issue-based education' in social studies, warranting a minimal score above zero.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no direct or indirect evidence in the course description to suggest a focus on health and well-being within the social studies curriculum.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is a core 'teacher training course' focused on 'teaching methods' for social studies, directly addressing the development of qualified teachers and effective learning outcomes (Targets 4.1, 4.7, 4.c).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "Gender equality is a key 'issue' in social studies curricula. The course's 'Issue-based education' component prepares teachers to educate on this, supporting Target 4.7.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.5,
+      "source": "revised_b",
+      "reasoning": "While 'Issue-based education' could potentially cover water issues, it is less central to social studies than other topics, warranting a very low score.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "Energy policy could be a topic within 'Issue-based education' in social studies, but it is not explicitly mentioned as a central theme.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "Social studies curricula often include economics and labor rights. The course prepares teachers to address these topics, particularly through 'Issue-based education', supporting Target 8.8.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "Social studies can cover industrial development and infrastructure from historical or geographical perspectives, but it is not a central focus of this teaching methods course.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "Reducing inequalities is a core theme of social studies, covering social justice and inclusion. The course's 'Issue-based education' strongly supports Target 10.2.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "Urbanization, community development, and cultural heritage are common topics in social studies (geography/history), which can be addressed through 'Issue-based education'.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course's 'Issue-based education' prepares teachers to raise awareness for sustainable lifestyles, directly supporting Target 12.8 on information and awareness for sustainable development.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "Climate change is a significant 'issue' for education. The course's 'Issue-based education' component directly supports Target 13.3 on improving education and awareness-raising on climate change.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "Specific marine issues are not a central focus of a general social studies curriculum, though they could be minimally touched upon in 'Issue-based education'.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "Terrestrial ecosystem issues are not a central focus of a general social studies curriculum, though they could be minimally touched upon in 'Issue-based education'.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "Social studies fundamentally covers civics, government, law, and justice. The course prepares teachers to educate on these topics, directly supporting Targets 16.3 and 16.6.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "As a 'teacher training course', it contributes to capacity-building within the education system to support national plans for implementing the SDGs (Target 17.9).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

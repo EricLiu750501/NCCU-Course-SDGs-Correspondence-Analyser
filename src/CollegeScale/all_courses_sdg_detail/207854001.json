@@ -1,0 +1,786 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 4.0,
+      "reason": "Course discusses tax systems which can influence economic resources and property rights (Target 1.4).",
+      "evidence": [
+        "課稅的基本概念",
+        "土地及建物課稅的基本概念"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 3.0,
+      "reason": "Course provides knowledge on taxation which can support educational outcomes (Target 4.7).",
+      "evidence": [
+        "介紹課稅法律原則",
+        "介紹課稅經濟原則"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 5.0,
+      "reason": "Taxation impacts economic growth and job creation (Target 8.3).",
+      "evidence": [
+        "課稅效率",
+        "稅制選擇"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 4.0,
+      "reason": "Taxation can address inequalities in resource distribution (Target 10.4).",
+      "evidence": [
+        "公平課稅",
+        "量能課稅"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 6.0,
+      "reason": "Course covers legal principles which relate to justice and governance (Target 16.3).",
+      "evidence": [
+        "稅法基本原理",
+        "憲法上稅之觀念"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 4.5,
+        "reason": "Links to Target 1.4 (control over land/property) via discussions on inheritance tax and principles like 'fairness and ability to pay' (公平課稅與量能課稅).",
+        "evidence": [
+          "遺產稅與贈與稅",
+          "公平課稅與量能課稅"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 2.0,
+        "reason": "Connects to Target 2.3 (access to land) through its specific discussion of 'agricultural land related taxes' (農地相關稅賦), though this is a minor topic.",
+        "evidence": [
+          "農地相關稅賦"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 0.5,
+        "reason": "As a university course, it provides professional knowledge (Target 4.4), but its content is not focused on education itself.",
+        "evidence": [
+          "具備地政相關專業知能"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Gender Equality": {
+        "score": 2.5,
+        "reason": "Relates to Target 5.a (equal rights to property/inheritance) by covering 'inheritance tax' (遺產稅與贈與稅), a key policy tool for ensuring economic equality.",
+        "evidence": [
+          "遺產稅與贈與稅"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 4.5,
+        "reason": "Addresses Target 8.3 by examining 'economic principles of taxation' (課稅經濟原則) and 'tax efficiency' (課稅效率), which are fundamental to development-oriented economic policies.",
+        "evidence": [
+          "課稅經濟原則",
+          "課稅效率"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 5.0,
+        "reason": "Connects to Target 9.1 (infrastructure) by analyzing 'Land development benefits and burdens' (土地開發之利益與負擔), a key concept for funding public infrastructure through land taxation.",
+        "evidence": [
+          "土地開發之利益與負擔"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 8.0,
+        "reason": "Directly addresses Target 10.4 (fiscal policy for equality) through core principles like 'fairness and ability to pay' (公平課稅與量能課稅) and tools like 'inheritance tax'.",
+        "evidence": [
+          "公平課稅與量能課稅",
+          "遺產稅與贈與稅"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 10.0,
+        "reason": "Core to Target 11.1 and 11.3. The course focuses on 'land value tax' (地價稅) and 'house tax' (房屋稅), essential tools for managing sustainable urbanization and housing.",
+        "evidence": [
+          "地價稅",
+          "房屋稅",
+          "土地開發之利益與負擔"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 3.0,
+        "reason": "Links to Target 12.2 (efficient use of natural resources) by analyzing 'tax efficiency' (課稅效率), which can influence the sustainable management of land as a resource.",
+        "evidence": [
+          "課稅效率",
+          "土地開發之利益與負擔"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 2.5,
+        "reason": "Connects to Target 15.9 by discussing 'agricultural land related taxes' (農地相關稅賦), which can be used in local planning to influence land use and conservation.",
+        "evidence": [
+          "農地相關稅賦"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 9.0,
+        "reason": "Core to Target 16.3 and 16.6. The course details the 'Constitutional concept of tax' (憲法上稅之觀念) and 'tax collection law' (稅捐稽徵法), building accountable institutions.",
+        "evidence": [
+          "憲法上稅之觀念",
+          "稅法基本原理",
+          "稅捐稽徵法"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 10.0,
+        "reason": "Directly supports Target 17.1 (domestic resource mobilization) by teaching the principles and practice of 'tax collection law' (稅捐稽徵法) and 'tax calculation'.",
+        "evidence": [
+          "稅捐稽徵法",
+          "熟悉土地及建物相關稅額計算"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive connections to the course content, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B highlights inheritance tax relevance, enhancing the connection to property rights."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B identifies agricultural land taxes, linking to food access."
+      },
+      "Quality Education": {
+        "your_original": 3.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model B's focus on professional knowledge reduces relevance to education."
+      },
+      "Gender Equality": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B connects inheritance tax to property rights for women."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 5.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's emphasis on economic principles provides a more accurate score."
+      },
+      "Reduced Inequalities": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's direct references to fiscal policy enhance the score's justification."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's focus on land value tax is crucial for urban sustainability."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B connects tax efficiency to sustainable resource management."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B's mention of agricultural taxes links to land use and conservation."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 6.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's detailed references to tax law enhance the score's validity."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's focus on tax collection law directly supports resource mobilization."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more specific and accurate links to the course text, particularly for SDGs related to land use, taxation principles, and institutional aspects. My initial analysis overlooked several explicit connections.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A's reasoning is more specific, linking to inheritance tax and fairness principles for property rights (Target 1.4)."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A correctly identified 'agricultural land related taxes' (農地相關稅賦) relevant to land access (Target 2.3)."
+      },
+      "Quality Education": {
+        "your_original": 3.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model A's score is more accurate; the course provides professional knowledge, but its content isn't focused on education itself."
+      },
+      "Gender Equality": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A correctly linked 'inheritance tax' (遺產稅與贈與稅) to equal rights to property and inheritance (Target 5.a)."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 5.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A's reasoning is more specific, citing 'economic principles of taxation' and 'tax efficiency' for development policies (Target 8.3)."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly identified 'Land development benefits and burdens' (土地開發之利益與負擔) as relevant to infrastructure funding (Target 9.1)."
+      },
+      "Reduced Inequalities": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A's reasoning is stronger, explicitly linking 'fairness and ability to pay' and 'inheritance tax' to fiscal policy for equality (Target 10.4)."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A accurately identified land and house taxes as core tools for sustainable urbanization and housing (Targets 11.1, 11.3)."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model A plausibly linked 'tax efficiency' (課稅效率) to influencing efficient land use as a natural resource (Target 12.2)."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A correctly identified 'agricultural land related taxes' (農地相關稅賦) as influencing land use and conservation (Target 15.9)."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 6.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A's reasoning is more robust, citing 'Constitutional concept of tax' and 'tax collection law' for accountable institutions (Target 16.6)."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A accurately linked 'tax collection law' and 'tax calculation' to domestic resource mobilization (Target 17.1)."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight inheritance tax and principles of fairness, linking to property rights. The score reflects a strong connection to Target 1.4.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's identification of agricultural land taxes provides a relevant link to food access, aligning with Target 2.3.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support any score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "The course provides professional knowledge but lacks a direct focus on education, aligning with Model B's lower score.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Both models connect inheritance tax to property rights for women, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support any score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support any score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize taxation's role in economic growth, aligning with Target 8.3.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on land development benefits aligns well with infrastructure funding, justifying a higher score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight fiscal policy's role in addressing inequalities, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on land value tax is crucial for urban sustainability, justifying a perfect score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect tax efficiency to sustainable resource management, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support any score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support any score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Both models connect agricultural taxes to land use and conservation, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize tax law's role in governance and accountability, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight tax collection law's importance for resource mobilization, justifying a perfect score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'inheritance tax' and 'fairness and ability to pay' principles, directly linking to Target 1.4's focus on equal rights to economic resources and control over land/property.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course's discussion of 'agricultural land related taxes' directly connects to Target 2.3, which emphasizes secure and equal access to land for food producers.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no explicit or inferred evidence in the course syllabus that directly relates to good health and well-being.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "As a university course, it inherently provides professional knowledge (Target 4.4). However, its content is not focused on education systems or sustainable development education itself, warranting a low score.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The course covers 'inheritance tax', which is a policy tool that can influence equal rights to property and inheritance for women, aligning with Target 5.a.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no explicit or inferred evidence in the course syllabus that directly relates to clean water and sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no explicit or inferred evidence in the course syllabus that directly relates to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course examines 'economic principles of taxation' and 'tax efficiency', which are fundamental to development-oriented economic policies and can impact productive activities (Target 8.3).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course analyzes 'land development benefits and burdens', a key concept for funding and managing public infrastructure, directly linking to Target 9.1.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course directly addresses Target 10.4 by covering 'fairness and ability to pay' in taxation and 'inheritance tax', which are explicit fiscal policies for achieving greater equality.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course's core focus on 'land value tax' and 'house tax' makes it central to managing sustainable urbanization, housing, and human settlement planning (Targets 11.1, 11.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course's analysis of 'tax efficiency' and 'land development benefits and burdens' can influence the sustainable management and efficient use of land as a natural resource (Target 12.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no explicit or inferred evidence in the course syllabus that directly relates to climate action.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no explicit or inferred evidence in the course syllabus that directly relates to life below water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The discussion of 'agricultural land related taxes' can influence land use and conservation, providing an inferred link to integrating ecosystem values into planning (Target 15.9).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'Constitutional concept of tax', 'tax law principles', and 'Tax Collection Law' is fundamental to promoting the rule of law and building accountable institutions (Targets 16.3, 16.6).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course directly supports Target 17.1 by teaching 'Tax Collection Law' and 'tax calculation', which are essential for strengthening domestic resource mobilization.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    }
+  }
+}

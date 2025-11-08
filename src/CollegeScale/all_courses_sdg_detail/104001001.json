@@ -1,0 +1,331 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 8.5,
+        "reason": "The course is a form of tertiary education (Target 4.3) that provides 'basic training for beginners' and aims to 'cultivate an attitude and ability of autonomous learning'.",
+        "evidence": [
+          "本課程為哲學入門課程，旨在為哲學之初學者提供基礎訓練 (This course is an introductory philosophy course aimed at providing basic training for beginners in philosophy)",
+          "培養自主學習的態度和能力 (Cultivate an attitude and ability of autonomous learning)"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 1.0,
+        "reason": "The course develops critical thinking and writing skills, which are transferable skills for employment, but does not directly address economic topics.",
+        "evidence": [
+          "掌握撰寫哲學論文的技巧 (Master the skills of writing philosophical papers)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 4.0,
+        "reason": "The 'Philosophy of Science' module provides a foundational understanding of scientific methods, which underpins scientific research and innovation (Target 9.5).",
+        "evidence": [
+          "科學哲學 (Philosophy of Science)",
+          "介紹邏輯實證論、波柏爾及孔恩的科學哲學 (introduce logical positivism, Popper's and Kuhn's philosophy of science)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 1.0,
+        "reason": "The instruction to 'Respect Copyright' can be inferred as promoting responsible production and consumption of intellectual property, a minor link to the goal's principles.",
+        "evidence": [
+          "維護智慧財產權，務必使用正版書籍。 Respect Copyright."
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 6.0,
+        "reason": "The extensive 'Ethics' (倫理學) section provides the philosophical foundations for justice and rule of law, linking to Targets 16.3 and 16.b.",
+        "evidence": [
+          "倫理學⑴─道德與知識 (Ethics ⑴─Morality and Knowledge)",
+          "倫理學⑶─義務與美德 (Ethics ⑶─Duty and Virtue)",
+          "古典儒家 (Classical Confucianism)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is empty, implying no SDG relevance. My analysis identifies several relevant SDGs, particularly Quality Education and Peace, Justice and Strong Institutions, which are strongly supported by the course content. I will revise two minor, weakly inferred links.",
+    "revisions": {
+      "Decent Work and Economic Growth": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The link between general critical thinking skills and direct economic growth or decent work is too indirect and weak for a score."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The 'Respect Copyright' instruction is a very minor and tangential link to the core environmental and resource management focus of SDG 12."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus contains no explicit or inferable content related to poverty eradication, economic resources for the poor, or social protection systems.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus does not include any topics related to food security, nutrition, sustainable agriculture, or food production systems.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no content in the syllabus that addresses health outcomes, disease prevention, mental health, or access to healthcare services.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course is a university-level 'Introduction to Philosophy' providing 'basic training' and fostering 'autonomous learning,' directly aligning with tertiary education (Target 4.3) and relevant learning outcomes under SDG 4.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not contain any specific topics or objectives related to gender equality, discrimination, violence against women, or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No course content addresses water quality, sanitation, water-use efficiency, or water resource management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus lacks any mention of energy access, renewable energy, energy efficiency, or related technological advancements.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "While philosophy fosters critical thinking, the syllabus does not explicitly link these skills to specific targets of decent work, employment, or economic growth, making the connection too indirect.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The 'Philosophy of Science' module introduces key scientific philosophies, providing a foundational understanding crucial for scientific research and innovation, aligning with Target 9.5.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course does not address income inequality, social inclusion, non-discriminatory policies, or representation of developing countries.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No topics in the syllabus relate to urban planning, housing, transport systems, cultural heritage, or disaster resilience in communities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The instruction to 'Respect Copyright' is a very tangential link to the core environmental and resource management focus of SDG 12, which primarily concerns sustainable consumption patterns.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus does not contain any content related to climate change, its impacts, mitigation, adaptation, or policy integration.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the syllabus pertaining to marine ecosystems, ocean pollution, sustainable fisheries, or ocean acidification.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content does not cover terrestrial ecosystems, biodiversity, deforestation, desertification, or sustainable land management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The extensive 'Ethics' section, covering morality, duty, virtue, and classical Confucianism, provides foundational philosophical understanding for justice and rule of law, aligning with SDG 16.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not mention international cooperation, global partnerships, resource mobilization, or technology transfer for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

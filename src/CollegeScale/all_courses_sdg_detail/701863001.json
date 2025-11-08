@@ -1,0 +1,357 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "The course provides quality tertiary education (Target 4.3) and develops relevant skills like 'digital analysis' and 'programming' for employment in finance (Target 4.4).",
+        "evidence": [
+          "培養學生的數位分析與程式實作能力",
+          "為未來金融實務或相關研究奠定堅實基礎"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 8.5,
+        "reason": "Prepares students for 'future financial practice' (金融實務), supporting decent jobs and economic productivity (Target 8.2), and analyzes 'macroeconomic data' (總體經濟數據) (Target 8.1).",
+        "evidence": [
+          "為未來金融實務或相關研究奠定堅實基礎",
+          "總體經濟數據對股價的影響"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 7.5,
+        "reason": "Focuses on technological innovation by applying 'Python', 'programmatic trading software', and 'Artificial Intelligence' to the financial industry, upgrading technological capabilities (Target 9.5).",
+        "evidence": [
+          "搭配Python及XQ程式交易軟體",
+          "人工智慧應用於交易策略開發"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 1.0,
+        "reason": "The course analyzes financial markets, which is tangentially related to Target 10.5 ('improve the regulation and monitoring of global financial markets'), but does not focus on inequality.",
+        "evidence": [
+          "數據分析在財務上的應用"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 4.0,
+        "reason": "Enhances use of enabling technology like 'Artificial Intelligence' (Target 17.8) and analyzes 'macroeconomic data,' which relates to global macroeconomic stability (Target 17.13).",
+        "evidence": [
+          "總體經濟數據對股價的影響",
+          "人工智慧技術在股票交易的應用"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model B's initial analysis is largely accurate. However, a revision is needed for SDG 10, as the connection to financial market regulation and inequality is too indirect.",
+    "revisions": {
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 0.0,
+        "reason": "The course focuses on financial analysis and trading, not on improving financial market regulation or directly addressing inequalities. The link to Target 10.5 is too indirect."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on financial analysis and trading, with no explicit content related to poverty eradication, social protection, or economic resources for the poor.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content does not include any topics related to food security, nutrition, sustainable agriculture, or ending hunger.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the syllabus that the course addresses health, well-being, disease prevention, or access to healthcare services.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course provides tertiary education, developing digital analysis and programming skills for finance, directly aligning with Targets 4.3 and 4.4 for relevant skills and employment.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus contains no explicit or implicit references to gender equality, discrimination, or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No course content relates to water quality, sanitation, hygiene, water-use efficiency, or water resource management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not mention topics concerning energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course prepares students for 'future financial practice,' fostering skills for decent jobs and economic productivity (Target 8.2), and analyzes macroeconomic data relevant to economic growth (Target 8.1).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on Python, programmatic trading software, and AI for trading strategies directly enhances technological capabilities and innovation in the financial industry (Target 9.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The course focuses on financial analysis and trading, not on improving financial market regulation or directly addressing inequalities. The link to Target 10.5 is too indirect.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the syllabus relates to urban development, housing, transport, or cultural/natural heritage.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course does not cover topics related to sustainable consumption, resource management, waste reduction, or sustainable business practices.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus lacks any content related to climate change mitigation, adaptation, or awareness-raising.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no evidence of course content addressing marine ecosystems, ocean pollution, or sustainable fisheries.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course does not cover terrestrial ecosystems, biodiversity, deforestation, or land degradation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not include topics related to peace, justice, rule of law, or institutional development.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course enhances enabling technology use (AI, Target 17.8) and analyzes macroeconomic data, which contributes to understanding global macroeconomic stability (Target 17.13).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

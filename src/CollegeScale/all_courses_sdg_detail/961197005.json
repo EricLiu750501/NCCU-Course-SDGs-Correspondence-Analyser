@@ -1,0 +1,805 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 7.0,
+      "reason": "Focus on understanding international law and its local implementation supports education (Target 4.7).",
+      "evidence": [
+        "瞭解國際各種情勢",
+        "分析相關國際法制"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 4.0,
+      "reason": "Mentions international human rights including gender issues (Target 5.1).",
+      "evidence": [
+        "國際人權保障",
+        "同婚、代孕、跨性別"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 5.0,
+      "reason": "Discusses labor rights and international labor laws (Target 8.5).",
+      "evidence": [
+        "全球人口移動、就業與在地化",
+        "勞動保障"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 6.0,
+      "reason": "Covers international financial law and corporate governance (Target 9.2).",
+      "evidence": [
+        "全球經貿法",
+        "公司治理ESG"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 4.0,
+      "reason": "Addresses social inclusion and rights (Target 10.2).",
+      "evidence": [
+        "國際人權保障",
+        "跨性別"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 6.0,
+      "reason": "Discusses international climate change law (Target 13.2).",
+      "evidence": [
+        "國際氣候變遷"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 8.0,
+      "reason": "Focus on international law and justice systems (Target 16.3).",
+      "evidence": [
+        "推動國際法制",
+        "法制現狀"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 2.5,
+        "reason": "Tangentially links to sustainable food production (Target 2.4) through the topic of 'Global ocean (fishery resources) governance'.",
+        "evidence": [
+          "全球海洋(漁業資源)治理與在地化"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 5.0,
+        "reason": "Promotes knowledge for global citizenship (Target 4.7) by fostering understanding of 'international latest situations' and global legal frameworks.",
+        "evidence": [
+          "培養修課同學對於國際最新情勢之理解",
+          "瞭解國際各種情勢"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 8.0,
+        "reason": "Explicitly discusses 'gender issues', 'same-sex marriage', and 'transgender' rights, linking to Targets 5.1 and 5.c on equality and non-discriminatory legislation.",
+        "evidence": [
+          "性別議題",
+          "國際人權保障（同婚、代孕、跨性別）"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 7.5,
+        "reason": "Directly addresses energy policy through a dedicated lecture on 'Global energy law and Taiwan's practice', relevant to Target 7.a on international cooperation.",
+        "evidence": [
+          "全球能源法與台灣實踐"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 8.5,
+        "reason": "Focuses on labor rights (Target 8.8) through topics like 'international personnel movement and labor protection' and 'global labor law'.",
+        "evidence": [
+          "國際人員移動與勞動保障（台灣遠洋漁工）",
+          "全球勞動法"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 6.0,
+        "reason": "Covers 'International AI governance' and 'ESG', linking to technological innovation (Target 9.5) and sustainable industrial practices (Target 9.4).",
+        "evidence": [
+          "國際AI治理",
+          "跨國企業治理與ESG"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 8.0,
+        "reason": "Addresses eliminating discriminatory laws (Target 10.3) via 'international human rights protection' (same-sex marriage) and migration policies (Target 10.7) via 'international personnel movement'.",
+        "evidence": [
+          "國際人權保障（同婚、代孕、跨性別）",
+          "國際人員移動與勞動保障"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 7.0,
+        "reason": "Links to sustainable corporate practices (Target 12.6) via 'ESG' and sustainable resource management (Target 12.2) via 'Global ocean (fishery resources) governance'.",
+        "evidence": [
+          "跨國企業治理與ESG",
+          "全球海洋(漁業資源)治理"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 9.0,
+        "reason": "A core topic is 'international climate change', directly addressing the integration of climate measures into national policies and law (Target 13.2).",
+        "evidence": [
+          "國際氣候變遷"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 8.5,
+        "reason": "Directly addresses ocean conservation through law (Target 14.c) with the topic 'Global ocean (fishery resources) governance and localization'.",
+        "evidence": [
+          "全球海洋(漁業資源)治理與在地化"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about the rule of law (Target 16.3), justice, and institutions, covering 'international armed conflict' and 'international human rights protection'.",
+        "evidence": [
+          "全球法在地化專題研究",
+          "國際武裝衝突",
+          "國際人權保障"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 9.5,
+        "reason": "The course's theme of localizing global law is central to policy coherence for sustainable development (Target 17.14) and strengthening global partnerships.",
+        "evidence": [
+          "全球法制交融",
+          "全球法在地化後之得失"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more nuanced insights, particularly in areas of gender equality and climate action, warranting revisions to my scores.",
+    "revisions": {
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B identifies a relevant connection to sustainable food production through fisheries governance."
+      },
+      "Gender Equality": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's emphasis on explicit discussions of gender issues aligns better with course content."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B highlights a direct connection to energy policy, which I overlooked."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 5.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's focus on labor rights provides a stronger justification for a higher score."
+      },
+      "Reduced Inequalities": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's analysis of social inclusion and rights is more comprehensive."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B connects ESG practices to sustainable consumption, which I did not consider."
+      },
+      "Climate Action": {
+        "your_original": 6.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's score reflects a more central theme of climate action in the course."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B identifies a direct link to marine governance, which I missed."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's score accurately reflects the course's focus on law and justice."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B's emphasis on global partnerships aligns with the course's themes."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provided more comprehensive evidence and stronger reasoning for several SDGs, particularly those related to environmental governance, human rights, and global partnerships. My original scores were too conservative in these areas.",
+    "revisions": {
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A correctly linked 'Global ocean (fishery resources) governance' to sustainable food production (Target 2.4). My original score was too low."
+      },
+      "Gender Equality": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A's higher score better reflects the explicit mention of 'gender issues', 'same-sex marriage', and 'transgender' rights, directly aligning with Targets 5.1 and 5.c."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model A correctly identified the dedicated lecture on 'Global energy law and Taiwan's practice', which is explicit evidence for this SDG."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 5.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A's score better reflects the explicit focus on 'international personnel movement and labor protection' and 'global labor law' (Target 8.8)."
+      },
+      "Reduced Inequalities": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A's score is more accurate, recognizing the strong links between 'international human rights protection' (same-sex marriage) and 'international personnel movement' to Targets 10.3 and 10.7."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model A correctly identified 'ESG' and 'Global ocean (fishery resources) governance' as evidence for sustainable practices and resource management (Targets 12.2, 12.6)."
+      },
+      "Climate Action": {
+        "your_original": 6.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A's higher score better reflects the explicit and significant mention of 'international climate change' as a core topic, directly linking to Target 13.2."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A correctly identified 'Global ocean (fishery resources) governance and localization' as direct and strong evidence for ocean conservation (Target 14.c)."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A's score of 10.0 is more appropriate, as the entire course is fundamentally about the rule of law, justice, and institutions (Target 16.3)."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model A correctly identified the course's core theme of 'global law localization' and 'integration of global legal systems' as central to policy coherence and global partnerships (Targets 17.14, 17.16)."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified a connection to sustainable food production through fisheries governance, supporting a score of 2.5.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding health and well-being.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the course's focus on understanding international law and its local implementation, justifying a score of 6.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasized explicit discussions of gender issues, aligning well with SDG targets.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding clean water and sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified a direct connection to energy policy, justifying a score of 7.5.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlighted labor rights and international labor laws, supporting a score of 8.5.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models covered international financial law and corporate governance, justifying a score of 6.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models addressed social inclusion and rights, aligning well with SDG targets.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding sustainable cities and communities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models connected ESG practices to sustainable consumption, justifying a score of 7.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the course's significant focus on climate action, justifying a score of 9.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified a direct link to marine governance, justifying a score of 8.5.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding life on land.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasized the course's focus on law and justice, justifying a score of 10.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the course's core theme of global law localization, justifying a score of 9.5.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit evidence in the course syllabus directly addresses poverty eradication, social protection, or economic resources for the poor.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.5,
+      "source": "revised_a",
+      "reasoning": "The topic 'Global ocean (fishery resources) governance' directly relates to sustainable food production and the livelihoods of fishers (Target 2.3, 2.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit evidence in the course syllabus directly addresses health services, disease prevention, or well-being targets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "model_a",
+      "reasoning": "As a university seminar, the course inherently contributes to tertiary education and aims to foster understanding of global legal frameworks, aligning with Target 4.7 on knowledge for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "Explicit discussion of 'gender issues' and 'international human rights protection (same-sex marriage, surrogacy, transgender)' directly addresses Targets 5.1 and 5.c.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit evidence in the course syllabus directly addresses water quality, sanitation, or water resource management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 7.5,
+      "source": "revised_a",
+      "reasoning": "A dedicated lecture on 'Global energy law and Taiwan's practice' provides direct and strong evidence for this SDG, particularly Target 7.a.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "Topics like 'international personnel movement and labor protection (Taiwanese distant-water fishers)' and 'global labor law' directly address labor rights and decent work (Target 8.8).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.0,
+      "source": "model_a",
+      "reasoning": "Discussions on 'international finance (virtual currency)', 'transnational corporate governance & ESG', and 'international AI governance' relate to innovation, sustainable industry, and infrastructure (Targets 9.4, 9.5).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "The course addresses 'international human rights protection (same-sex marriage, transgender)' and 'international personnel movement', directly linking to social inclusion, non-discriminatory laws, and migration policies (Targets 10.2, 10.3, 10.7).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit evidence in the course syllabus directly addresses urban development, housing, transport, or community resilience.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 7.0,
+      "source": "revised_a",
+      "reasoning": "The topics 'transnational corporate governance & ESG' and 'Global ocean (fishery resources) governance' relate to sustainable corporate practices and resource management (Targets 12.6, 12.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The explicit mention of 'international climate change' as a key phenomenon for discussion provides strong and direct evidence for this SDG, particularly Target 13.2.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The topic 'Global ocean (fishery resources) governance and localization' directly addresses ocean conservation, sustainable fisheries, and international law for marine resources (Targets 14.4, 14.c).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit evidence in the course syllabus directly addresses terrestrial ecosystems, biodiversity, or land degradation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The entire course focuses on 'Glocal Law', analyzing international legal systems, domestic implementation, 'international armed conflict', and 'international human rights protection', making it central to rule of law and strong institutions (Targets 16.1, 16.3).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "The course's core theme of 'global legal systems intermingling' and 'local implementation' directly addresses policy coherence for sustainable development and strengthening global partnerships (Targets 17.14, 17.16).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    }
+  }
+}

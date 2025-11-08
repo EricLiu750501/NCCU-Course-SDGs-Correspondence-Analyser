@@ -1,0 +1,330 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about educational policy, covering national, secondary, and vocational education, directly aligning with Targets 4.1, 4.3, 4.4, and 4.5.",
+        "evidence": [
+          "教育政策分析",
+          "教育機會均等",
+          "技職教育與就業"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 7.5,
+        "reason": "The course explicitly covers '技職教育與就業' (Vocational education and employment), directly addressing Target 8.6 on youth employment and education.",
+        "evidence": [
+          "技職教育與就業"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 4.5,
+        "reason": "The course builds capacity for scientific research and data analysis using various software, which supports Target 9.5 on enhancing research capabilities.",
+        "evidence": [
+          "教育政策文獻檢索與計量分析",
+          "R Studio 軟體操作"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 8.0,
+        "reason": "The course focuses on '教育機會均等' (equal educational opportunity) and policies for '新住⺠' (new residents), directly supporting Targets 10.2 and 10.3 on inclusion and equality.",
+        "evidence": [
+          "教育機會均等",
+          "新住⺠"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 6.5,
+        "reason": "The course on '教育政策分析' (educational policy analysis) and administrative reform contributes to developing effective institutions, as per Target 16.6.",
+        "evidence": [
+          "教育政策分析",
+          "評析與改革教育行政"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 7.0,
+        "reason": "The course involves '國際比較教育政策' and analysis of data from '國際組織' like the OECD, aligning with Targets 17.16 (partnerships) and 17.18 (data capacity).",
+        "evidence": [
+          "國際比較教育政策議題",
+          "國際組織與教育政策",
+          "OECD DATA"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis largely aligns with mine. A minor difference in SDG 9, but Model A's slightly higher score for SDG 16 is well-supported by the text on administrative reform.",
+    "revisions": {
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 6.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model A's higher score is better justified by the explicit mention of '評析與改革教育行政' (evaluating and reforming administration), which directly strengthens institutions."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course syllabus provides no explicit or implicit evidence related to poverty eradication, social protection, or economic resources for the poor.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "There is no mention in the course content about hunger, food security, nutrition, or sustainable agriculture practices.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The syllabus does not contain any topics or objectives related to health, well-being, disease prevention, or healthcare services.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course 'Special Topics in Educational Policy' is entirely focused on educational policy, covering primary, secondary, higher, and vocational education, directly aligning with multiple targets of SDG 4.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "While education can indirectly impact gender equality, the course syllabus does not explicitly address gender disparities, women's empowerment, or specific gender-related policies.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No evidence in the course description or weekly topics relates to water resources, sanitation, or water quality management.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course content does not include any discussion of energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '技職教育與就業' (vocational education and employment) in Week 14, directly supporting targets related to productive employment and skills for decent jobs.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "The course extensively covers various data analysis software and research methods (Weeks 2-8, 10, 15), directly enhancing scientific research and technological capabilities, which is a core aspect of Target 9.5.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course addresses '教育機會均等' (equal educational opportunity) and policies for '新住⺠' (new residents), directly supporting targets on social inclusion and reducing inequalities of outcome.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No course content relates to urban planning, housing, transport, or sustainable community development.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The syllabus does not mention sustainable consumption, production patterns, waste reduction, or resource efficiency.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the course description or weekly topics related to climate change, its impacts, or mitigation/adaptation strategies.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course content does not include any topics related to marine ecosystems, ocean health, or sustainable use of marine resources.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No evidence in the syllabus pertains to terrestrial ecosystems, biodiversity, deforestation, or land degradation.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course focuses on '教育政策分析' and developing the ability to '評析與改革教育行政' (evaluate and reform educational administration), directly contributing to effective and accountable institutions (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course includes '國際比較教育政策議題' and analysis of '國際組織' data (e.g., OECD), aligning with targets for international cooperation, knowledge sharing, and data capacity-building (Targets 17.16, 17.18).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

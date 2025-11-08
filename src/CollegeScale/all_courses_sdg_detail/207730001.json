@@ -1,0 +1,854 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 4.0,
+      "reason": "Course aims to provide foundational understanding of spatial planning, relevant to education goals.",
+      "evidence": [
+        "對國土計畫法制有基礎性之認知",
+        "具備有效運用國土計畫知識之能力"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 6.0,
+      "reason": "Covers land management and planning, relevant to infrastructure development.",
+      "evidence": [
+        "土地管理體系之演變",
+        "土地規劃與開發管理方式"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 8.0,
+      "reason": "Focus on spatial planning and urban development aligns with sustainable cities goals.",
+      "evidence": [
+        "都會區域計畫",
+        "國土計畫之規劃理念與原則"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 9.0,
+      "reason": "Directly addresses climate change in spatial planning context.",
+      "evidence": [
+        "氣候變遷",
+        "氣候調適策略應用於國土計畫"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 5.0,
+      "reason": "Involves land management and conservation principles.",
+      "evidence": [
+        "土地使用問題",
+        "土地政策課題"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 4.5,
+        "reason": "The course covers Indigenous peoples' land rights and disaster prevention, which relate to Target 1.4 (control over land) and 1.5 (resilience to disasters) for vulnerable populations.",
+        "evidence": [
+          "原住民族土地權利基礎",
+          "國土復育與防災"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 6.0,
+        "reason": "The course explicitly discusses \"Agricultural sector policy and development,\" directly linking spatial planning to sustainable food production systems, aligning with Target 2.4.",
+        "evidence": [
+          "農業部門政策與發展"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Good Health and Well-being": {
+        "score": 2.0,
+        "reason": "The focus on \"Disaster management\" and \"National land restoration\" indirectly supports Target 3.d by reducing risks from environmental disasters that impact public health.",
+        "evidence": [
+          "國土復育與防災",
+          "災害管理"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 5.5,
+        "reason": "The course provides knowledge for sustainable development by teaching spatial planning, climate change adaptation, and disaster prevention, directly fulfilling the educational goal of Target 4.7.",
+        "evidence": [
+          "國土計畫與氣候變遷",
+          "國土復育與防災",
+          "使同學對國土計畫之理論、法制與實務有基礎性的理解"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.5,
+        "reason": "An inferred link to Target 5.a (equal rights to land) exists through the general discussion of land rights, but gender is not explicitly mentioned.",
+        "evidence": [
+          "原住民族土地權利基礎"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 4.0,
+        "reason": "The topic \"National land restoration\" and the case study on the \"Keelung River Valley Corridor\" infer a focus on protecting water-related ecosystems (Target 6.6).",
+        "evidence": [
+          "國土復育與防災",
+          "案例分析—基隆河谷廊帶"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "score": 7.5,
+        "reason": "The course explicitly covers \"Energy sector policy and development,\" which is fundamental to planning for energy infrastructure and clean energy, aligning with Targets 7.2 and 7.a.",
+        "evidence": [
+          "能源部門政策與發展"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 6.0,
+        "reason": "Discusses \"Spatial planning and industrial development\" for agricultural and industrial sectors, linking to sustainable economic productivity and resource management (Targets 8.2, 8.4).",
+        "evidence": [
+          "國土計畫與產業發展",
+          "農業部門政策與發展",
+          "工業部門政策與發展"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 8.5,
+        "reason": "The course focuses on planning for the \"Industrial sector,\" \"Transportation sector policy,\" and \"Housing development,\" directly addressing sustainable and resilient infrastructure (Targets 9.1, 9.4).",
+        "evidence": [
+          "工業部門政策與發展",
+          "國土結構的骨幹—交通部門政策",
+          "住宅發展與人口分派"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 9.0,
+        "reason": "A significant portion of the course focuses on \"Indigenous peoples and spatial planning,\" directly addressing the social and economic inclusion of marginalized groups (Target 10.2).",
+        "evidence": [
+          "原住民族土地概論",
+          "原住民族與國土計畫",
+          "國土計畫作為和解共生、多元並存的契機"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about spatial planning, covering \"Metropolitan regional planning,\" \"rural areas,\" and \"Housing development,\" which are core to all targets, especially 11.3.",
+        "evidence": [
+          "國土計畫概論",
+          "都會區域計畫",
+          "鄉村地區整體規劃"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 6.5,
+        "reason": "The course centers on the sustainable management of land (\"土地使用及空間發展\"), a key natural resource, directly aligning with the principles of Target 12.2.",
+        "evidence": [
+          "土地使用及空間發展",
+          "國土計畫之規劃理念與原則"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 10.0,
+        "reason": "The course explicitly integrates \"climate change\" into planning, with a dedicated chapter on \"Spatial planning and climate change,\" directly addressing Targets 13.1, 13.2, and 13.3.",
+        "evidence": [
+          "氣候變遷",
+          "國土計畫與氣候變遷",
+          "氣候調適策略應用於國土計畫"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 8.5,
+        "reason": "The course focuses on land use planning and includes a chapter on \"National land restoration,\" directly supporting the conservation of terrestrial ecosystems (Targets 15.1, 15.3, 15.9).",
+        "evidence": [
+          "國土復育與防災",
+          "土地使用問題",
+          "國土計畫之規劃理念與原則"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 8.0,
+        "reason": "The course focuses on the new \"Spatial Planning Act\" (國土計畫法), governance, and indigenous rights, directly addressing rule of law and effective, inclusive institutions (Targets 16.3, 16.6, 16.7).",
+        "evidence": [
+          "國土計畫法",
+          "跨域規劃與治理",
+          "原住民族土地權利基礎"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 6.0,
+        "reason": "The focus on \"Cross-domain planning and governance\" and \"international conventions\" directly relates to enhancing policy coherence and partnerships for sustainable development (Targets 17.14, 17.17).",
+        "evidence": [
+          "跨域規劃與治理",
+          "國際公約"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive evidence and reasoning for several SDGs, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B highlights Indigenous rights and disaster resilience, aligning with course content."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B connects agricultural policy to sustainable food production, supported by course material."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B's focus on disaster management relates to public health risks, aligning with course themes."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B emphasizes education for sustainable development, which is well-supported by course objectives."
+      },
+      "Gender Equality": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model B identifies a link to land rights, which is relevant to course discussions."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B connects land restoration to water ecosystem protection, supported by course content."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's focus on energy policy aligns with course discussions on energy infrastructure."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B connects spatial planning to economic productivity, supported by course material."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B provides a broader view of infrastructure planning, aligning with course content."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B emphasizes Indigenous rights and inclusion, which is a key course theme."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's comprehensive coverage of urban planning aligns with course objectives."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B connects land management to sustainable consumption, supported by course content."
+      },
+      "Climate Action": {
+        "your_original": 9.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's emphasis on climate change integration aligns with course discussions."
+      },
+      "Life on Land": {
+        "your_original": 5.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's focus on land restoration aligns with course content on ecosystem conservation."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's focus on governance and rights aligns with course discussions."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B connects governance to partnerships, relevant to course content."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided a more comprehensive analysis, identifying numerous explicit links to SDGs that I initially overlooked. Their detailed evidence and reasoning significantly improved the accuracy of the scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.5,
+        "reason": "Model A correctly identified Indigenous land rights and disaster prevention as relevant to Target 1.4 and 1.5, which I missed."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 6.0,
+        "reason": "Model A correctly highlighted 'Agricultural sector policy and development' as a direct link to sustainable food systems (Target 2.4)."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 2.0,
+        "reason": "Model A's inference that 'Disaster management' and 'National land restoration' support public health by reducing environmental risks (Target 3.d) is valid."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 5.5,
+        "reason": "Model A's reasoning explicitly linked course content on climate change and disaster prevention to education for sustainable development (Target 4.7)."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.0,
+        "reason": "Model A correctly identified 'National land restoration' and the 'Keelung River Valley Corridor' case study as relevant to protecting water ecosystems (Target 6.6)."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 7.5,
+        "reason": "Model A correctly pointed out the explicit mention of 'Energy sector policy and development,' directly linking to energy planning (Targets 7.2, 7.a)."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 6.0,
+        "reason": "Model A correctly identified 'Spatial planning and industrial development' for agriculture and industry as relevant to sustainable economic productivity (Targets 8.2, 8.4)."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 8.5,
+        "reason": "Model A provided more specific evidence, including 'Transportation sector policy' and 'Housing development,' strengthening the link to infrastructure (Targets 9.1, 9.4)."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 9.0,
+        "reason": "Model A correctly highlighted the significant focus on 'Indigenous peoples and spatial planning,' which directly addresses social inclusion (Target 10.2)."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 8.0,
+        "model_b_score": 8.0,
+        "your_revised": 10.0,
+        "reason": "The course's fundamental nature as 'Introduction to Spatial Planning' and its coverage of metropolitan and rural planning make it central to this SDG."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 6.5,
+        "reason": "Model A correctly inferred that sustainable land management, a core course theme, aligns with efficient use of natural resources (Target 12.2)."
+      },
+      "Climate Action": {
+        "your_original": 9.0,
+        "model_b_score": 9.0,
+        "your_revised": 10.0,
+        "reason": "The dedicated chapter on 'Spatial planning and climate change' with adaptation strategies makes this SDG a central and explicit theme."
+      },
+      "Life on Land": {
+        "your_original": 5.0,
+        "model_b_score": 5.0,
+        "your_revised": 8.5,
+        "reason": "Model A's reasoning, citing 'National land restoration' and land use planning, provides stronger evidence for terrestrial ecosystem conservation (Targets 15.1, 15.3, 15.9)."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 8.0,
+        "reason": "Model A correctly identified the focus on the 'Spatial Planning Act,' governance, and Indigenous rights as directly relevant to strong institutions and rule of law (Targets 16.3, 16.6, 16.7)."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 6.0,
+        "reason": "Model A correctly identified 'Cross-domain planning and governance' and 'international conventions' as explicit links to policy coherence and partnerships (Targets 17.14, 17.17)."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified Indigenous rights and disaster resilience as relevant to poverty alleviation, aligning with course content. The score reflects a balanced view of the evidence.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on agricultural policy aligns well with course content on sustainable food systems, supported by explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect disaster management to public health risks, aligning with course themes. The score reflects a cautious acknowledgment of indirect support.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on sustainable development education, with Model B providing stronger explicit links to course objectives.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Model B's inference about land rights is relevant, but both models lack strong evidence. The score reflects minimal acknowledgment of gender issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect land restoration to water ecosystem protection, with explicit evidence supporting the score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on energy policy aligns with course discussions on energy infrastructure, supported by explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect spatial planning to economic productivity, with explicit evidence supporting the score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models provide strong evidence linking course content to infrastructure planning, with Model B offering a broader view.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize Indigenous rights and inclusion, which is a key course theme, supported by explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's fundamental nature as 'Introduction to Spatial Planning' and its comprehensive coverage of urban planning make it central to this SDG.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Both models connect land management to sustainable consumption, supported by explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The dedicated chapter on 'Spatial planning and climate change' with adaptation strategies makes this SDG a central and explicit theme.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to this SDG, leading to a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models provide strong evidence linking course content to terrestrial ecosystem conservation, with Model B offering a broader view.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize governance and Indigenous rights, aligning with course discussions on rule of law and effective institutions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect governance to partnerships, relevant to course content, supported by explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course extensively covers Indigenous land rights (Target 1.4) and national land restoration/disaster management (Target 1.5), which directly addresses economic resources and resilience for vulnerable populations.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Agricultural sector policy and development' (Week 8), which directly aligns with promoting sustainable food production systems and resilient agricultural practices (Target 2.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'National land restoration and disaster prevention' and 'Disaster management' (Week 11) indirectly supports strengthening capacity for risk reduction and management of health risks (Target 3.d).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course aims to provide a foundational understanding of spatial planning, including topics like climate change adaptation and disaster prevention, directly contributing to education for sustainable development (Target 4.7).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "The course discusses land rights, which could indirectly relate to women's equal rights to land (Target 5.a), but gender is not explicitly mentioned in the syllabus, making the connection very weak.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course's topics on 'National land restoration' and the 'Keelung River Valley Corridor' case study imply a focus on protecting and restoring water-related ecosystems (Target 6.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Energy sector policy and development' (Week 8), which is directly relevant to planning for clean energy and energy infrastructure (Targets 7.2, 7.a).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly links spatial planning to 'industrial development' across agricultural and industrial sectors (Week 8), which supports sustainable economic productivity and resource efficiency (Targets 8.2, 8.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course directly addresses planning for industrial sectors, transportation infrastructure, and housing development (Weeks 8, 9), which are core components of building resilient and sustainable infrastructure (Targets 9.1, 9.4).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "A substantial portion of the course (Weeks 12-14) is dedicated to 'Indigenous peoples and spatial planning,' directly addressing the social and economic inclusion of marginalized groups (Target 10.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course, 'Introduction to Spatial Planning,' is fundamentally dedicated to the planning and management of human settlements, covering metropolitan, rural, and housing development, making it central to achieving sustainable cities and communities (e.g., Target 11.3).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course's central focus on land management and spatial development directly aligns with the sustainable management and efficient use of natural resources (Target 12.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course dedicates a full chapter to 'Spatial planning and climate change' (Week 10), explicitly covering climate change policies, response strategies, and adaptation in spatial planning, directly addressing Targets 13.1, 13.2, and 13.3.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "There is no explicit mention of marine ecosystems, ocean pollution, or sustainable fisheries in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course's core focus on land use planning and the dedicated chapter on 'National land restoration and disaster prevention' (Week 11) directly support the conservation and restoration of terrestrial ecosystems and combating land degradation (Targets 15.1, 15.3).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on the 'Spatial Planning Act,' 'cross-domain planning and governance,' and 'Indigenous land rights' directly addresses the rule of law, effective institutions, and inclusive decision-making (Targets 16.3, 16.6, 16.7).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly mentions 'international conventions' and 'cross-domain planning and governance,' which directly relate to enhancing policy coherence and promoting partnerships for sustainable development (Targets 17.14, 17.17).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    }
+  }
+}

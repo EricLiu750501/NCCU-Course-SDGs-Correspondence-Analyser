@@ -1,0 +1,340 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "The course is a form of tertiary education (Target 4.3) providing relevant skills for employment in creative communication, aligning with Target 4.4.",
+        "evidence": [
+          "Special Topics in Creative Communication",
+          "具備創意溝通的發想與表現能力",
+          "協助想從事創意的同學"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 7.5,
+        "reason": "The course supports decent job creation in the creative industry by teaching 'creativity and innovation', aligning with Targets 8.2 and 8.3.",
+        "evidence": [
+          "協助想從事創意的同學",
+          "創意溝通專題",
+          "發展創意概念"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 7.0,
+        "reason": "The course is centered on 'creativity', 'ideation', and 'execution', which directly supports innovation in the advertising industry, linking to Target 9.5 and 9.b.",
+        "evidence": [
+          "發展創意概念",
+          "創意的發想與執行",
+          "Creative Communication"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 1.5,
+        "reason": "A tenuous link via 'creative thinking methods... do not discriminate' and 'social care' competency, which could relate to equal opportunity (Target 10.3) and social inclusion (10.2).",
+        "evidence": [
+          "創意思考方式與更快產生創意的技法沒有歧視",
+          "具備關懷社會的反思再造能力"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 3.0,
+        "reason": "The core competency 'Ability for social care, reflection, and re-creation' could be applied to promote sustainable lifestyles, inferring a link to Target 12.8.",
+        "evidence": [
+          "具備關懷社會的反思再造能力",
+          "找出消費者洞察（consumer insight)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 2.0,
+        "reason": "The course explicitly mentions 'Respect Copyright', which supports the rule of law and protection of fundamental freedoms (intellectual property), linking to Targets 16.3 and 16.10.",
+        "evidence": [
+          "維護智慧財產權",
+          "Respect Copyright"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 1.0,
+        "reason": "The core competency 'Ability for teamwork and communication coordination' is a foundational skill for partnerships (Target 17.17), though the course does not explicitly address building them.",
+        "evidence": [
+          "具備團隊合作與溝通協調的能力"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A and B largely align. Revisions are made for SDG 12 and 17, where Model A's scoring better reflects the inferred nature of the links to the course content.",
+    "revisions": {
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 3.0,
+        "model_b_score": 2.5,
+        "your_revised": 3.0,
+        "reason": "Model A's slightly higher score is reasonable for the inferred link via 'social care' and 'consumer insight' for sustainable lifestyles."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 1.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.0,
+        "reason": "Model A's lower score is more accurate, acknowledging teamwork as foundational but not explicitly focused on SDG partnerships."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to poverty eradication, social protection, or economic resources for the vulnerable.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content does not address hunger, food security, malnutrition, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no mention of health, well-being, disease prevention, or healthcare in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course is a tertiary-level program ('Advertising/B/3&4') providing specialized skills in creative communication, directly aligning with Target 4.3 (access to quality tertiary education) and Target 4.4 (relevant skills for employment).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus contains no explicit or implicit references to gender equality, discrimination, or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course does not cover topics related to water, sanitation, hygiene, or water resource management.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the syllabus pertains to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course aims to equip students with creative skills ('創意溝通的發想與表現能力') to pursue careers in advertising ('協助想從事創意的同學'), directly supporting decent job creation, entrepreneurship, creativity, and innovation (Targets 8.2, 8.3).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on '創意概念擬定與創意發想/執行能力' (creative concept development, ideation, and execution), which directly fosters innovation within the advertising industry, aligning with Target 9.5 (enhancing scientific research and technological capabilities, encouraging innovation) and 9.b (supporting domestic technology development, research, and innovation).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The statement '創意思考方式與更快產生創意的技法沒有歧視' (creative thinking methods... have no discrimination) and '具備關懷社會的反思再造能力' (social care) offer a tenuous, inferred link to equal opportunity and social inclusion (Targets 10.2, 10.3).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not contain any content related to urban development, housing, transport, or community sustainability.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The core competency '具備關懷社會的反思再造能力' (social care) and '找出消費者洞察' (consumer insight) could indirectly contribute to promoting sustainable lifestyles (Target 12.8) through responsible advertising, though the link is inferred.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No course content addresses climate change, its impacts, or mitigation strategies.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not include topics related to marine ecosystems, ocean health, or aquatic resources.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the course description concerning terrestrial ecosystems, biodiversity, or land management.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The explicit instruction to '維護智慧財產權，務必使用正版書籍。 Respect Copyright' directly supports the rule of law and protection of fundamental freedoms (intellectual property rights), aligning with Targets 16.3 and 16.10.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The core competency '具備團隊合作與溝通協調的能力' (teamwork and communication coordination) is foundational for effective partnerships (Target 17.17), even if the course does not explicitly focus on SDG-specific partnerships.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

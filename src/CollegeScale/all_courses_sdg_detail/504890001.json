@@ -1,0 +1,334 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "The course is a form of tertiary education (Target 4.3) and aims to cultivate 'humanistic literacy and an international macroscopic perspective,' promoting cultural appreciation (Target 4.7).",
+        "evidence": [
+          "本課程目標在於培養學生對捷克文學的專業基礎知識",
+          "具備人文素養及國際宏觀視野",
+          "Selected Readings in Czech Literature"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 1.0,
+        "reason": "The study of Karel Čapek's 'RUR,' which introduced the word 'robot,' tangentially relates to the societal impact of technological innovation (Target 9.5).",
+        "evidence": [
+          "Karel Čapek (1890-1938) RUR"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 6.0,
+        "reason": "The works of authors like Václav Havel ('The Power of the Powerless') and Milan Kundera analyze political oppression, linking to promoting political inclusion and equality (Target 10.2, 10.3).",
+        "evidence": [
+          "Václav Havel (1936 - 2011) The Power of the Powerless",
+          "Milan Kundera (1929- 2023) The Book of Laughter and Forgetting",
+          "對捷克戰後文學有更深入的認識"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 4.0,
+        "reason": "The course focuses on Czech literature, which directly contributes to safeguarding the world's cultural heritage (Target 11.4) by studying and preserving literary works.",
+        "evidence": [
+          "捷克名著選讀",
+          "捷克文學簡史",
+          "Czech Days 文學座談會"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Responsible Consumption and Production": {
+        "score": 1.0,
+        "reason": "The syllabus includes an explicit instruction to 'Respect Copyright. 維護智慧財產權，務必使用正版書籍,' which is a form of responsible consumption of intellectual products.",
+        "evidence": [
+          "維護智慧財產權，務必使用正版書籍。",
+          "Respect Copyright."
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 9.0,
+        "reason": "Many selected works, especially by Havel ('The Power of the Powerless') and Hašek ('The Good Soldier Švejk'), directly critique totalitarianism and war, promoting justice and fundamental freedoms (Targets 16.3, 16.10).",
+        "evidence": [
+          "Václav Havel (1936 - 2011) The Power of the Powerless",
+          "Jaroslav Hašek (1883-1923) The Good Soldier Švejk",
+          "對捷克戰後文學有更深入的認識"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 3.0,
+        "reason": "The course fosters an 'international macroscopic perspective' (國際宏觀視野), which supports global partnership through knowledge sharing and cultural understanding (Target 17.6, 17.16).",
+        "evidence": [
+          "具備人文素養及國際宏觀視野"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is largely accurate, but I find the connection to SDG 9 to be too weak for a score.",
+    "revisions": {
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The literary reference to 'robot' in 'RUR' is too tangential to the SDG's focus on industrialization, innovation, and infrastructure development to warrant a score."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content focuses on literature and cultural understanding, with no mention of economic resources, social protection, or poverty eradication.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is entirely focused on literature and culture, with no links to food security, nutrition, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not contain any information related to health, well-being, disease prevention, or access to healthcare services.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course is a university-level elective, directly contributing to tertiary education (Target 4.3). Its aim to foster 'humanistic literacy and an international macroscopic perspective' aligns with promoting cultural diversity and global citizenship (Target 4.7).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus does not mention gender equality, discrimination, or women's empowerment in any context.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no information in the course description or schedule related to water resources, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is unrelated to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not discuss economic growth, employment, labor rights, or entrepreneurship.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The literary reference to 'robot' in Čapek's 'RUR' is too tangential to the SDG's focus on industrialization, technological capabilities, and infrastructure development to warrant a score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course includes works like Václav Havel's 'The Power of the Powerless,' which critically examines political oppression and advocates for individual freedom, directly relating to promoting social, economic, and political inclusion and reducing inequalities (Targets 10.2, 10.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'Selected Readings in Czech Literature' and 'Czech Days Literature Symposium' directly contributes to the study, preservation, and appreciation of cultural heritage, aligning with Target 11.4.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The explicit instruction to 'Respect Copyright. 維護智慧財產權，務必使用正版書籍' promotes responsible consumption of intellectual property, aligning with the broader principles of sustainable consumption and ethical resource use (Target 12.8).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content does not address climate change, environmental hazards, or related policies.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus contains no information related to marine ecosystems, ocean health, or aquatic resources.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content does not involve terrestrial ecosystems, biodiversity, or land management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course includes highly relevant works such as Václav Havel's 'The Power of the Powerless' and Jaroslav Hašek's 'The Good Soldier Švejk,' which critically engage with themes of totalitarianism, war, justice, and fundamental freedoms, directly aligning with Targets 16.3 and 16.10.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course aims to cultivate an 'international macroscopic perspective' (國際宏觀視野), which promotes cross-cultural understanding and knowledge sharing, essential components for fostering global partnerships (Target 17.16).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

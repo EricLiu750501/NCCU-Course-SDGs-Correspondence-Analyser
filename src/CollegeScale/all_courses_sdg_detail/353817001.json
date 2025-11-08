@@ -1,0 +1,343 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 2.0,
+        "reason": "The course teaches skills to \"evaluate government's performance,\" which can apply to social protection policies under Target 1.3, but this is an inferred application.",
+        "evidence": [
+          "evaluate government's performance",
+          "評估政府的施政成果"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 2.0,
+        "reason": "Government accounting skills are essential for managing public health financing (Target 3.c), a key part of evaluating government performance, but the topic is not explicitly mentioned.",
+        "evidence": [
+          "evaluate government's performance",
+          "評估政府的施政成果"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 4.5,
+        "reason": "The course is a form of tertiary education (Target 4.3) that provides professional skills (\"專業領域知識\") for employment in government, supporting Target 4.4.",
+        "evidence": [
+          "習得會計與稅務相關 專業領域知識",
+          "Students will acquire accounting and taxation-related areas of expertise."
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 5.0,
+        "reason": "The course prepares students for public sector jobs (\"公務人員高普考\"), contributing to decent job creation (Target 8.3) and strengthening domestic financial institutions.",
+        "evidence": [
+          "參加公務人員高普考",
+          "順利進入政府主計單位"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 2.5,
+        "reason": "Government accounting is crucial for managing public funds for infrastructure (Target 9.1), a key area of \"government's performance,\" but this is an inferred application.",
+        "evidence": [
+          "evaluate government's performance",
+          "評估政府的施政成果"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 2.5,
+        "reason": "The course supports sound fiscal policy decisions (Target 10.4) by teaching methods to \"evaluate government's performance,\" which is essential for achieving greater equality.",
+        "evidence": [
+          "evaluate government's performance",
+          "制定正確的施政決策"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 4.0,
+        "reason": "Links to Target 12.6 and 12.7 through the core competency of understanding \"sustainability considerations\" and its application to government accounting and public procurement.",
+        "evidence": [
+          "social responsibility, and sustainability considerations",
+          "社會責任與永續議題"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 1.5,
+        "reason": "The competency in \"sustainability considerations\" could be inferred to apply to integrating ecosystem values into national accounts (Target 15.9), but the link is weak.",
+        "evidence": [
+          "sustainability considerations",
+          "永續議題"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about creating effective, accountable, and transparent institutions (Target 16.6) by teaching methods to \"evaluate government's performance\" and reduce corruption (Target 16.5).",
+        "evidence": [
+          "evaluate government's performance",
+          "評估政府的施政成果",
+          "government accounting reform"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 6.0,
+        "reason": "The course directly supports domestic resource mobilization (Target 17.1) through effective accounting and aims to \"align with international standards,\" enhancing policy coherence (Target 17.14).",
+        "evidence": [
+          "與國際接軌",
+          "政府主計單位",
+          "government accounting reform"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Overall, Model A's analysis aligns well with my own. I only found one minor area where the inference was too weak to warrant a score.",
+    "revisions": {
+      "SDG_15 (Life on Land)": {
+        "your_original": 1.5,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The link between 'sustainability considerations' and integrating ecosystem values into national accounts is too weak and indirect."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "Government accounting skills are vital for evaluating the effectiveness of social protection systems and policies (Target 1.3), which are key to poverty reduction. The course's focus on 'evaluating government's performance' supports this.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus links government accounting to food security, agriculture, or malnutrition.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "Government accounting is crucial for managing public health financing (Target 3.c) and evaluating the performance of health-related government initiatives, aligning with the course's objectives.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course is a form of tertiary education (Target 4.3) and explicitly aims to equip students with professional accounting expertise for employment in government (Target 4.4), directly contributing to quality education outcomes.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "While 'social responsibility' is a core competency, there is no explicit or strong inferred link within the course content to gender equality targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct or strong indirect evidence in the course syllabus links government accounting specifically to clean water and sanitation initiatives.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct or strong indirect evidence in the course syllabus links government accounting specifically to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course directly prepares students for 'public sector jobs' (Target 8.3) and strengthens government accounting units, contributing to economic productivity and robust domestic financial institutions (Target 8.10).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "Government accounting is fundamental for managing public funds allocated to infrastructure development (Target 9.1). Evaluating government performance includes assessing infrastructure projects.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "Effective government accounting supports sound fiscal and social protection policies (Target 10.4) by enabling transparent evaluation of government performance, which is crucial for reducing inequalities.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No specific course content directly addresses urban planning, housing, transport, or heritage, making the link too general for a score.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course's core competency in 'sustainability considerations' directly applies to government accounting practices, including public procurement (Target 12.7) and integrating sustainability into government reporting (Target 12.6).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "While 'sustainability considerations' is mentioned, there is no explicit or strong inferred link to climate change measures or financing within the course content.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct or strong indirect evidence in the course syllabus links government accounting to marine ecosystems or resources.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The link between general 'sustainability considerations' and specific targets like integrating ecosystem values into national accounts (Target 15.9) is too weak and indirect without further explicit course content.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course's core purpose is government accounting reform to provide useful information, evaluate performance, and assist policy-making, directly fostering effective, accountable, and transparent institutions (Target 16.6) and reducing corruption (Target 16.5).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course supports domestic resource mobilization (Target 17.1) through effective accounting and aims for 'international alignment' ('與國際接軌'), enhancing policy coherence for sustainable development (Target 17.14) and capacity building (Target 17.9).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

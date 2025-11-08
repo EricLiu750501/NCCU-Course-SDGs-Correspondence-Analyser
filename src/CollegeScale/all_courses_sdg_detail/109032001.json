@@ -1,0 +1,372 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 10.0,
+        "reason": "The course's core purpose is to '培養其成為優秀的英語教師' (cultivate excellent English teachers), directly addressing Target 4.c (increase the supply of qualified teachers) for secondary education.",
+        "evidence": [
+          "培養其成為優秀的英語教師",
+          "Teaching Methods and Materials in English/languages",
+          "使學生熟悉中等學校英語教材內容"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 7.5,
+        "reason": "The course directly prepares students for a profession, aiming to '培養其成為優秀的英語教師' (cultivate excellent English teachers), supporting Target 8.5 (decent work).",
+        "evidence": [
+          "培養其成為優秀的英語教師",
+          "精進教學實作"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 1.0,
+        "reason": "The course explores innovative teaching methods like 'IBL(Inquiry-Based Learning)', which can be inferred as promoting innovation in the education sector, a weak link to Target 9.5.",
+        "evidence": [
+          "IBL(Inquiry-Based Learning)",
+          "Multiple Intelligences"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 4.0,
+        "reason": "By training effective teachers and using methods like 'Cooperative Learning', the course indirectly supports equal opportunity in education for all students, linking to Target 10.3.",
+        "evidence": [
+          "Cooperative Learning",
+          "培養其成為優秀的英語教師"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 0.5,
+        "reason": "A minimal link exists through the instruction to 'Respect Copyright', which relates to the responsible consumption of intellectual property, a very tenuous link to SDG 12 principles.",
+        "evidence": [
+          "Respect Copyright"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 1.5,
+        "reason": "The course promotes the rule of law (Target 16.3) through its explicit instruction to 'Respect Copyright' and use legitimate materials.",
+        "evidence": [
+          "維護智慧財產權，務必使用正版書籍。 Respect Copyright."
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis aligns well, but I will revise my scores for SDGs 9, 12, and 16 to reflect a more conservative interpretation of the evidence, particularly for tenuous links.",
+    "revisions": {
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 3.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "The link between teaching methods and SDG 9 is tenuous; Model A's lower score better reflects this weak, inferred connection."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 1.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "The 'Respect Copyright' instruction is a very minimal and tenuous link to SDG 12; Model A's score is more appropriate."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 2.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "While 'Respect Copyright' supports rule of law, its impact on SDG 16 is minor. Model A's slightly lower score is a more accurate reflection."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content focuses on English teaching methods and teacher training, with no direct or indirect mention of poverty eradication or economic resources for the poor.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus is dedicated to pedagogical methods for English language teaching, offering no connection to food security, nutrition, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is strictly focused on teacher training and English language pedagogy, lacking any explicit or implicit content related to health or well-being.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course's explicit goal is to 'cultivate excellent English teachers' for secondary schools, directly aligning with SDG 4, Target 4.c, which aims to increase the supply of qualified teachers.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is specific to English teaching methods and materials, with no mention of gender equality, discrimination, or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus focuses on language pedagogy and teacher training, offering no connection to clean water, sanitation, or related environmental issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course is dedicated to English teaching methods and materials, with no content related to energy, its affordability, or cleanliness.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly aims to 'cultivate excellent English teachers,' directly preparing students for a profession and contributing to Target 8.5 (full and productive employment and decent work).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course introduces modern teaching methods like 'Inquiry-Based Learning' and 'Multiple Intelligences,' which promote innovation within the education sector, a very weak, inferred link to Target 9.5.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "By training effective teachers and introducing methods like 'Cooperative Learning,' the course indirectly supports equal educational opportunities for all students, aligning with Target 10.3 to reduce inequalities of outcome.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on English teaching methods and materials, with no content related to urban development, infrastructure, or community sustainability.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "The explicit instruction to 'Respect Copyright' implies responsible consumption of intellectual property, a very tenuous and indirect link to the broader principles of responsible consumption and production (e.g., Target 12.8).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is strictly focused on English language teaching methods and materials, with no mention of climate change, environmental hazards, or related actions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus is entirely dedicated to teacher training in English language, with no connection to marine ecosystems or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is specific to English teaching methods and materials, with no mention of terrestrial ecosystems, biodiversity, or land management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The explicit instruction to 'Respect Copyright' and use legitimate materials directly promotes adherence to the rule of law, aligning with Target 16.3.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is focused on individual teacher training and pedagogical methods, with no mention of partnerships, international cooperation, or resource mobilization for SDGs.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.5,
+        "reason": "Inferred link to Target 1.5 by analyzing financial risks and crises, which can impact vulnerable populations' economic resilience.",
+        "evidence": [
+          "高財務槓桿購屋或投資之風險",
+          "金融風暴之發生"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 4.5,
+        "reason": "The course provides quality tertiary education (Target 4.3) and relevant skills for employment in finance and real estate (Target 4.4).",
+        "evidence": [
+          "本課程主要教導學生了解財務與投資原理",
+          "培養本身為所有資產標的分析之整合性人才"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 7.5,
+        "reason": "The course directly addresses the functioning of financial markets and institutions, which is central to expanding access to financial services and promoting economic growth (Target 8.10).",
+        "evidence": [
+          "不動產財務與投資分析",
+          "金融市場之關係",
+          "不動產與資產證券化"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 6.0,
+        "reason": "Covers financial feasibility for large investment projects and instruments like REITs, crucial for developing sustainable and resilient infrastructure (Target 9.1, 9.4).",
+        "evidence": [
+          "大型長期投資專案之財務抐行性分析",
+          "不動產與資產證券化"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 8.0,
+        "reason": "Explicitly analyzes real estate tax reforms and financial crises, linking directly to fiscal policies for equality (Target 10.4) and financial market regulation (Target 10.5).",
+        "evidence": [
+          "不動產稅制改革(如奢侈、房地合一稅及囤房稅等)",
+          "美國次級房貸風暴"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 9.0,
+        "reason": "Fundamentally about real estate finance, directly impacting access to housing (Target 11.1) and the economic resilience of communities against financial disasters (Target 11.5).",
+        "evidence": [
+          "不動產財務分析",
+          "購租屋決策分析",
+          "美國次級房貸風暴"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 4.0,
+        "reason": "Analyzes tax reforms and financial crises, which relates to the rule of law (Target 16.3) and the need for effective, transparent financial institutions (Target 16.6).",
+        "evidence": [
+          "不動產稅制改革",
+          "美國次級房貸風暴"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 5.5,
+        "reason": "Covers tax reforms, linking to domestic resource mobilization (Target 17.1), and analyzes global financial events, linking to macroeconomic stability (Target 17.13).",
+        "evidence": [
+          "不動產稅制改革",
+          "美國次級房貸風暴",
+          "量化寬鬆(Quantitative Easing, QE)貨幣政策"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's implicit zero scores prompted a re-evaluation of some inferred links. Upon closer review, two SDGs had overly indirect connections to the course content, warranting revision to zero.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 1.5,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The link between financial risks and poverty reduction is too indirect and not explicitly addressed in the course text."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 4.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The course focuses on financial analysis of tax reforms and crises, not on governance, rule of law, or institutional transparency."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The course focuses on financial analysis and market dynamics, not explicit poverty eradication or social protection. The link between financial risks and poverty is too indirect for a direct score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the course description or syllabus that relates to hunger, food security, agriculture, or nutrition.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content does not include any topics related to health, well-being, disease prevention, or healthcare services.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "As a university course, it directly contributes to tertiary education (Target 4.3) and aims to equip students with relevant skills for employment in finance and real estate (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit mention of gender equality, discrimination, or women's empowerment is found in the course materials.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content does not address issues related to water quality, sanitation, water management, or access to clean water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the syllabus concerning energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course focuses on financial markets, investment analysis, and financial services (Target 8.10), aiming to cultivate 'integrated talents' for asset analysis, contributing to productive employment and economic growth.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course covers financial feasibility for large investment projects and real estate securitization (REITs), directly relevant to developing and financing resilient infrastructure (Target 9.1).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly analyzes real estate tax reforms (e.g., luxury, integrated housing and land, vacant home taxes) which are fiscal policies for equality (Target 10.4), and discusses financial crises impacting market regulation (Target 10.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about real estate finance, directly impacting housing access ('購租屋決策分析' - Target 11.1) and community resilience against financial disasters ('美國次級房貸風暴' - Target 11.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course does not discuss sustainable consumption, waste reduction, resource efficiency in production, or sustainable tourism practices.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "While economic shocks are mentioned, the course does not explicitly link financial analysis to climate change mitigation, adaptation, or climate-related hazards.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no content in the syllabus related to marine ecosystems, ocean health, or sustainable use of marine resources.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "While real estate involves land, the course focuses on financial aspects, not on land degradation, biodiversity, forest management, or ecosystem conservation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The course analyzes financial implications of tax reforms and crises, but does not delve into governance, rule of law, or institutional transparency as core topics.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course discusses real estate tax reforms (domestic resource mobilization - Target 17.1) and analyzes global financial events like the Subprime Mortgage Crisis and QE, impacting macroeconomic stability (Target 17.13).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

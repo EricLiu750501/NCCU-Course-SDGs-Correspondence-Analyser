@@ -1,0 +1,347 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 9.0,
+        "reason": "The course is tertiary education promoting appreciation of cultural diversity and global citizenship through international collaboration, aligning with Target 4.7.",
+        "evidence": [
+          "學習以外語表達自身的文化",
+          "對雙方文化差異的認知",
+          "與日本大阪大學德文系合作"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 4.5,
+        "reason": "Discusses Taiwan's '經貿關係' (economic relations) and promotes local culture through topics like 'Sehenswürdigkeiten in Taiwan' (sightseeing), linking to Target 8.9 on sustainable tourism.",
+        "evidence": [
+          "經貿關係",
+          "科技產業",
+          "Sehenswürdigkeiten in Taiwan"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 3.0,
+        "reason": "The course tangentially relates to industry by discussing how Taiwan's '科技產業' (technology industry) is a topic in German-speaking media, linking to Target 9.2.",
+        "evidence": [
+          "科技產業"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 6.0,
+        "reason": "Directly addresses social inclusion by dedicating a session to 'Die Indigenen Völker Taiwans' (The Indigenous Peoples of Taiwan), aligning with Target 10.2.",
+        "evidence": [
+          "Die Indigenen Völker Taiwans"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 5.0,
+        "reason": "Aims to safeguard cultural heritage by teaching students to discuss 'Feste und Bräuche Taiwans' (Festivals and Customs) and 'Landschaften Taiwans' (Landscapes), linking to Target 11.4.",
+        "evidence": [
+          "Landschaften Taiwans",
+          "Feste und Bräuche Taiwans",
+          "Sehenswürdigkeiten in Taiwan"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 5.5,
+        "reason": "Fosters understanding of global governance by discussing Taiwan's '國際政治' (international politics), '國際地位' (international status), and '兩岸關係' (cross-strait relations), linking to Target 16.8.",
+        "evidence": [
+          "國際政治",
+          "台灣的國際地位",
+          "兩岸關係自然備受矚目"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 9.5,
+        "reason": "The course is fundamentally built on a multi-stakeholder partnership involving collaboration '與日本大阪大學德文系合作' (with Osaka University), embodying Target 17.6 and 17.16.",
+        "evidence": [
+          "與日本大阪大學德文系合作",
+          "央廣德語部記者黃逸龍共授",
+          "Online-Sitzung mit japanischen Deutschlernenden"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Upon re-evaluation against the course text, some scores were adjusted to better reflect direct contributions versus mere discussion of related topics.",
+    "revisions": {
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 4.5,
+        "model_b_score": 4.5,
+        "your_revised": 1.0,
+        "reason": "The course discusses economic topics and sightseeing, but does not directly contribute to decent work or sustainable tourism promotion."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 3.0,
+        "model_b_score": 3.0,
+        "your_revised": 0.0,
+        "reason": "Discussion of the technology industry is about perception in media, not fostering industrialization or innovation."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 5.5,
+        "model_b_score": 5.5,
+        "your_revised": 1.0,
+        "reason": "Discussion of international politics and status does not directly strengthen participation in global governance institutions."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course syllabus contains no explicit or implicit evidence related to poverty eradication or its various dimensions.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "There is no mention of hunger, food security, nutrition, or sustainable agriculture in the course description or schedule.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course content does not address health, well-being, disease prevention, or access to healthcare services.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course is tertiary education, fostering cultural understanding, global citizenship, and language skills through international collaboration, directly aligning with Target 4.7.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No evidence in the syllabus suggests a focus on gender equality, women's empowerment, or addressing gender-based discrimination.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course does not cover topics related to water quality, sanitation, hygiene, or water resource management.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "There is no mention of energy access, renewable energy, or energy efficiency within the course content.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "The course discusses Taiwan's '經貿關係' and '科技產業' as topics for German speakers, fostering awareness of economic aspects, though not directly promoting decent work or sustainable tourism development.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": 1.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "While '科技產業' is mentioned, it's in the context of media perception, not fostering industrialization, innovation, or infrastructure development. Model B's revised score is accurate.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The dedicated session on 'Die Indigenen Völker Taiwans' directly promotes social inclusion and understanding of diverse groups, aligning with Target 10.2.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "Topics like 'Landschaften Taiwans', 'Feste und Bräuche Taiwans', and 'Sehenswürdigkeiten in Taiwan' contribute to safeguarding cultural and natural heritage (Target 11.4).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The syllabus does not contain any content related to sustainable consumption, production patterns, waste reduction, or resource efficiency.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the course description or schedule that addresses climate change, its impacts, or mitigation/adaptation strategies.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course content does not include topics related to marine ecosystems, ocean health, or sustainable use of marine resources.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No evidence suggests a focus on terrestrial ecosystems, biodiversity conservation, combating desertification, or sustainable forest management.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "The course fosters understanding of Taiwan's '國際政治' and '國際地位' and '兩岸關係', which builds awareness of global governance issues, though not directly strengthening institutions.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 5.5,
+        "model_b_revised": 1.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course is explicitly built on multi-stakeholder partnerships, including collaboration with Osaka University and co-teaching with a journalist, directly embodying Targets 17.6 and 17.16.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

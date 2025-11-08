@@ -1,0 +1,330 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 2.0,
+        "reason": "Inferred link to Target 1.2 via the suggested reading 'Street Corner Society', a study of a poor urban community, as a model for qualitative research.",
+        "evidence": [
+          "《街角社會：一個義大利人貧民區的社會結構》"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 2.0,
+        "reason": "Inferred link to Target 3.4 (mental health) via the suggested reading 'Asylums' as a model for qualitative research on institutions and marginalized individuals.",
+        "evidence": [
+          "《精神病院》"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 9.0,
+        "reason": "The course is a form of tertiary education (Target 4.3) that develops advanced research skills (Target 4.4) for students.",
+        "evidence": [
+          "Research Design and Thesis Writing",
+          "培養同學實際執行社會科學的研究能力"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Reduced Inequalities": {
+        "score": 4.5,
+        "reason": "The course teaches social science methods applicable to studying inequality (Target 10.2), with readings like 'Street Corner Society' focusing on marginalized communities.",
+        "evidence": [
+          "社會科學領域常用的量化與質化的研究方法",
+          "《街角社會》"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 1.5,
+        "reason": "A tangential link to Target 11.3 (urban planning) through the reading 'Street Corner Society', which analyzes the social structure of an urban slum.",
+        "evidence": [
+          "《街角社會：一個義大利人貧民區的社會結構》"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 8.5,
+        "reason": "Directly supports research on political institutions (Target 16.6, 16.7) through topics like 'political trust', 'elections', and 'democratization'.",
+        "evidence": [
+          "政治信任",
+          "臺灣選舉與民主化調查",
+          "政黨政治與民主憲政學術研討會論文集"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 5.0,
+        "reason": "Builds statistical capacity (Target 17.19) and promotes using high-quality data from public archives like the 'Taiwanese Election and Democratization Study'.",
+        "evidence": [
+          "量化研究的資料分析與寫作",
+          "臺灣選舉與民主化調查"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis for some SDGs relies on indirect links from methodological examples, which I find too tenuous. However, Model A's reasoning for SDG 10 prompted a slight upward revision in my score.",
+    "revisions": {
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 2.0,
+        "model_b_score": 4.5,
+        "your_revised": 3.0,
+        "reason": "Course teaches social science methods applicable to studying inequality, as exemplified by readings, supporting Target 10.2 indirectly."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course includes 'Street Corner Society', a study of a poor urban community, as a qualitative research example, providing methodological tools to study such issues indirectly related to poverty.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the syllabus directly or indirectly relates to hunger, food security, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course includes 'Asylums' as a qualitative research reading, which focuses on mental health institutions, providing methodological tools to study related issues.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course is a university-level program ('Master of Eminent Public Administrators') focused on developing advanced research skills, directly aligning with Target 4.3 (tertiary education) and 4.4 (relevant skills).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no explicit or implicit evidence in the course syllabus that relates to gender equality or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the syllabus directly or indirectly relates to clean water, sanitation, or water resource management.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the syllabus directly or indirectly relates to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not contain any explicit or implicit evidence related to decent work, economic growth, employment, or labor rights.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the syllabus directly or indirectly relates to industry, infrastructure development, or technological innovation in the context of SDG 9.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course teaches social science research methods, which are directly applicable to studying social, economic, and political inclusion and inequalities (Target 10.2), exemplified by readings like 'Street Corner Society' focusing on marginalized communities.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": 3.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The course includes 'Street Corner Society', an ethnographic study of an urban slum, as a qualitative research example, offering methodological tools to analyze urban social structures relevant to communities.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the syllabus directly or indirectly relates to responsible consumption and production patterns.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the syllabus directly or indirectly relates to climate action or environmental resilience.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the syllabus directly or indirectly relates to marine life or ocean conservation.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the syllabus directly or indirectly relates to terrestrial ecosystems, biodiversity, or sustainable land management.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly focuses on social science research methods applied to political topics such as elections, political trust, and democratization, directly supporting the development of effective, accountable, and transparent institutions (Target 16.6, 16.7).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course develops skills in quantitative data analysis and promotes the use of high-quality public datasets, directly contributing to statistical capacity building and data availability for monitoring progress on SDGs (Targets 17.18, 17.19).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 4.5,
+        "reason": "Links to Target 1.4 (access to financial services) through \"decentralized finance (DeFi),\" which can provide financial services to the unbanked and poor.",
+        "evidence": [
+          "decentralized finance (DeFi)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 1.5,
+        "reason": "A tangential link to Target 2.4 via \"Supply Chain Management,\" as blockchain can improve transparency in food supply chains, though not explicitly stated.",
+        "evidence": [
+          "Supply Chain Management"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Good Health and Well-being": {
+        "score": 5.0,
+        "reason": "Explicitly covers \"Health Care\" as a special issue, linking to Target 3.8, as blockchain can be used for secure health records and data management.",
+        "evidence": [
+          "Health Care"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "score": 8.5,
+        "reason": "Directly provides technical skills for employment (Target 4.4) and knowledge for \"sustainable development\" (Target 4.7), which are core course objectives.",
+        "evidence": [
+          "Advanced Innovative Information Technology",
+          "sustainable development",
+          "Apply blockchain technologies by developing smart contracts and dApps"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 1.0,
+        "reason": "Inferred link to Target 5.a/5.b, as \"Decentralized finance (DeFi)\" and enabling technologies can potentially empower women, but this is not mentioned in the course.",
+        "evidence": [
+          "Decentralized finance (DeFi)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 2.0,
+        "reason": "Touches on energy issues by discussing the \"Environmental aspect\" of Web3, which includes high energy consumption, but does not focus on promoting clean energy solutions.",
+        "evidence": [
+          "Environmental aspect"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 8.0,
+        "reason": "Promotes \"innovation\" and \"technological upgrading\" (Target 8.2) and expands access to financial services through \"Decentralized finance (DeFi)\" (Target 8.10).",
+        "evidence": [
+          "innovate operations management",
+          "Decentralized finance (DeFi)",
+          "Advanced Innovative Information Technology"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about developing innovative technological infrastructure (Target 9.1, 9.5) and applying it to \"sustainable development,\" making it a core concept.",
+        "evidence": [
+          "Advanced Innovative Information Technology",
+          "sustainable development",
+          "blockchain technologies"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 6.0,
+        "reason": "Technologies like \"Decentralized finance (DeFi)\" and \"Self-Sovereign Identity\" can promote economic inclusion (Target 10.2) by providing access to finance and identity control.",
+        "evidence": [
+          "Decentralized finance (DeFi)",
+          "Self-Sovereign Identity (自我主權身分)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 5.5,
+        "reason": "Links technology to \"sustainable development\" and \"Supply Chain Management,\" supporting sustainable practices and technological capacity for responsible production (Targets 12.6, 12.a).",
+        "evidence": [
+          "sustainable development",
+          "Supply Chain Management",
+          "企業社會責任(Social responsibility)"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 4.0,
+        "reason": "Raises awareness of climate impacts by covering the \"Environmental aspect\" of Web3 technology, contributing to education on climate change mitigation (Target 13.3).",
+        "evidence": [
+          "Environmental aspect",
+          "sustainable development"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 8.5,
+        "reason": "Directly addresses providing legal identity via \"Self-Sovereign Identity\" (Target 16.9) and building transparent institutions via blockchain and \"DAOs\" (Target 16.6).",
+        "evidence": [
+          "Self-Sovereign Identity (自我主權身分)",
+          "Decentralized autonomous organizations (DAOs)",
+          "propose Web3 solutions for business, government, and sustainability challenges"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 8.0,
+        "reason": "Enhances access to \"Innovative Information Technology\" (Target 17.8) and promotes its application to \"sustainable development,\" fostering knowledge sharing for the goals (Target 17.16).",
+        "evidence": [
+          "Advanced Innovative Information Technology",
+          "sustainable development",
+          "propose Web3 solutions for... sustainability challenges"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "No revisions needed. Model B's analysis aligns with Model A's, with no instances where Model A's reasoning was superior.",
+    "revisions": {}
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 6.0,
+      "source": "revised_b",
+      "reasoning": "The course explicitly covers Decentralized Finance (DeFi), which directly addresses Target 1.4 by providing access to financial services for the unbanked and vulnerable, a key aspect of poverty reduction.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.0,
+      "source": "revised_b",
+      "reasoning": "The course mentions 'Supply Chain Management' as a special issue. Blockchain's application in supply chains can indirectly support sustainable food production and transparency (Target 2.4), but the focus isn't on hunger specifically.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 7.5,
+      "source": "revised_b",
+      "reasoning": "'Health Care' is an explicit special issue (Week 11). Blockchain applications for secure health records and data management directly contribute to achieving universal health coverage and access to quality services (Target 3.8).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 9.5,
+      "source": "revised_b",
+      "reasoning": "The course directly provides advanced technical skills in blockchain and dApps (Target 4.4) and explicitly links Web3 to 'sustainable development' (Target 4.7), making quality education a central outcome.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.5,
+      "source": "revised_b",
+      "reasoning": "Although Web3 technologies like DeFi could potentially empower women (Target 5.a, 5.b), the course syllabus provides no explicit or even indirect mention of gender equality or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the course syllabus that relates to clean water, sanitation, or associated technologies or challenges.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 2.5,
+      "source": "revised_b",
+      "reasoning": "The course discusses the 'Environmental aspect' of Web3, which implicitly includes energy consumption. This raises awareness (Target 7.a) but does not explicitly focus on promoting affordable or clean energy solutions.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.0,
+      "source": "revised_b",
+      "reasoning": "The course's focus on 'innovative operations management' and 'Advanced Innovative Information Technology' directly supports technological upgrading and innovation (Target 8.2). Decentralized Finance (DeFi) also expands access to financial services (Target 8.10).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course's core subject is 'Advanced Innovative Information Technology,' focusing on developing and applying blockchain technologies, smart contracts, and dApps, which are fundamental to building resilient infrastructure and fostering innovation (Targets 9.1, 9.5).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 7.0,
+      "source": "revised_b",
+      "reasoning": "The course covers 'Decentralized Finance (DeFi)' and 'Self-Sovereign Identity (SSI),' which are technologies that can significantly promote economic and social inclusion by providing access to financial services and legal identity for all (Target 10.2).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the course syllabus that relates to sustainable cities, communities, or urban development.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 7.0,
+      "source": "revised_b",
+      "reasoning": "The course explicitly links Web3 to 'sustainable development' and includes 'Supply Chain Management' and 'Social responsibility' as core themes. This supports encouraging sustainable practices (Target 12.6) and promoting awareness for sustainable lifestyles (Target 12.8).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 5.5,
+      "source": "revised_b",
+      "reasoning": "The course explicitly covers the 'Environmental aspect' of Web3 and dedicates a week to 'Web3, AI, and Sustainable Development,' directly contributing to education and awareness-raising on climate change (Target 13.3).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the course syllabus that relates to marine ecosystems, ocean health, or life below water.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the course syllabus that relates to terrestrial ecosystems, biodiversity, or life on land.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "revised_b",
+      "reasoning": "The course explicitly covers 'Self-Sovereign Identity' (Target 16.9) and 'Decentralized Autonomous Organizations (DAOs),' which are foundational for building transparent and accountable institutions (Target 16.6) and proposing solutions for government challenges.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.0,
+      "source": "revised_b",
+      "reasoning": "The course focuses on 'Advanced Innovative Information Technology' and its application to 'sustainable development,' directly enhancing the use of enabling technology (Target 17.8) and fostering knowledge sharing and partnerships for achieving the SDGs (Target 17.16).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

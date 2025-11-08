@@ -1,0 +1,345 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.0,
+        "reason": "The course mentions 'class' (階級) as a topic of analysis, which has a tangential link to poverty dimensions and inequality (Target 1.2), but is not a central focus.",
+        "evidence": [
+          "階級"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 7.5,
+        "reason": "As a university course, it provides tertiary education (Target 4.3) and promotes appreciation of cultural diversity and critical thinking, aligning with skills for sustainable development (Target 4.7).",
+        "evidence": [
+          "培養並形塑對於華人當代社會議題的人文關懷與反思能力",
+          "理解影像為再現當代華人社會與文化的重要媒介",
+          "學習運用影像作為華語文教學與議題思考之媒介"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 8.0,
+        "reason": "Explicitly lists 'gender' (性別) as a core analytical theme, fostering critical thinking on gender issues and representation in media, supporting Target 5.c.",
+        "evidence": [
+          "性別與階級",
+          "〈慾望身體：蔡明亮電影中的女性影像〉"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 4.0,
+        "reason": "Inferred link through analysis of 'class' (階級) and films like '爸媽不在家' which touches on migrant labor, relating to Target 8.8 (protecting migrant workers).",
+        "evidence": [
+          "階級",
+          "電影文本：《爸媽不在家》"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 1.5,
+        "reason": "A weak, inferred link through the theme of 'urban development' (城市發展), which relates to infrastructure, but the focus is social and cultural, not industrial (Target 9.1).",
+        "evidence": [
+          "城市發展"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 9.0,
+        "reason": "Core focus on analyzing inequalities related to 'class' (階級), 'gender' (性別), 'identity' (身份認同), and 'cross-border' (跨境) issues, directly supporting social inclusion (Target 10.2).",
+        "evidence": [
+          "性別與階級",
+          "身份認同",
+          "跨境"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 7.0,
+        "reason": "Focuses on 'urban development' (城市發展) and 'urban culture' (城市文化), promoting understanding of human settlements and cultural heritage within them (Targets 11.3, 11.4).",
+        "evidence": [
+          "城市發展",
+          "楊德昌電影與華人城市文化",
+          "後殖民城市"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 1.0,
+        "reason": "A minimal, inferred link through the film '蚵豐村' (Oyster Village), which may depict a community reliant on marine resources, touching on Target 14.b.",
+        "evidence": [
+          "電影文本：《蚵豐村》"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 6.5,
+        "reason": "Analyzes films like '悲情城市' and '黑社會' which explore historical trauma, political violence, and organized crime, relating to Targets 16.1 and 16.4.",
+        "evidence": [
+          "電影文本：《悲情城市》",
+          "電影文本：《黑社會 I & II》",
+          "《痛史：現代華語文學與電影的歷史創傷》"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis provided more precise reasoning for SDG 8 and a more appropriate score for the weak inferred link in SDG 14, leading to minor revisions.",
+    "revisions": {
+      "Decent Work and Economic Growth": {
+        "your_original": 3.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A's explicit link of '爸媽不在家' to 'migrant labor' and Target 8.8 provides a more precise connection to this SDG."
+      },
+      "Life Below Water": {
+        "your_original": 2.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model A's lower score better reflects the very weak and inferred nature of the link through a single film title."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly mentions 'class' (階級) as a topic, which tangentially relates to poverty dimensions and inequality, aligning with Target 1.2. The focus is on social analysis, not direct poverty eradication.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct evidence in the course syllabus relates to hunger, food security, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct evidence in the course syllabus relates to health, well-being, disease prevention, or healthcare.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "As a university course, it provides tertiary education (Target 4.3) and fosters critical thinking, cultural understanding, and humanistic care, aligning with skills for sustainable development (Target 4.7).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly lists 'gender' (性別) as a core analytical theme and includes readings on 'female images' in film, directly supporting critical thinking on gender issues (Target 5.c).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct evidence in the course syllabus relates to water quality, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct evidence in the course syllabus relates to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "revised_b",
+      "reasoning": "The film '爸媽不在家' (Ilo Ilo) and its associated reading on 'capitalism' and 'global cities' strongly infer discussions on migrant labor and working conditions, aligning with Target 8.8.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The theme of 'urban development' (城市發展) provides a weak, inferred link to infrastructure (Target 9.1), but the course's focus is social and cultural, not industrial or technological.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "Core themes like 'class' (階級), 'gender' (性別), 'identity' (身份認同), and 'cross-border' (跨境) issues directly address various forms of inequality and social inclusion (Target 10.2).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on 'urban development' (城市發展) and 'urban culture' (城市文化) through films, promoting understanding of human settlements and cultural heritage within them (Targets 11.3, 11.4).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct evidence in the course syllabus relates to consumption patterns, waste management, or resource efficiency.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct evidence in the course syllabus relates to climate change, environmental hazards, or mitigation strategies.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 1.0,
+      "source": "revised_b",
+      "reasoning": "The film '蚵豐村' (Oyster Village) depicts a community reliant on marine resources. This is a very weak, inferred link to marine resource management or small-scale fishers (Target 14.b).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct evidence in the course syllabus relates to terrestrial ecosystems, biodiversity, or land degradation.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "Films like '悲情城市' and '黑社會' explicitly explore historical trauma, political violence, and organized crime, directly relating to reducing violence (Target 16.1) and combating crime (Target 16.4).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct evidence in the course syllabus relates to international cooperation, global partnerships, or resource mobilization for sustainable development.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

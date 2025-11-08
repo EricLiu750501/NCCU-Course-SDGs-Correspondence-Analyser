@@ -1,0 +1,360 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "The course is a form of tertiary education (Target 4.3) that provides 'leadership skills' for employment and to 'develop a thriving career', aligning with Target 4.4.",
+        "evidence": [
+          "enhance your leadership skills",
+          "develop a thriving career for oneself",
+          "Students will be able to work effectively in teams as well as develop leadership skills."
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 4.5,
+        "reason": "Topics like 'Bias and Perspective' and 'Ethics and Values' infer a focus on creating equal leadership opportunities, relevant to Target 5.5, though gender is not explicitly mentioned.",
+        "evidence": [
+          "Bias and Perspective",
+          "Ethics and Values"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about creating leaders for 'prosperous firms' and 'thriving career', directly supporting decent job creation and productive employment (Targets 8.3, 8.5).",
+        "evidence": [
+          "lead high-performing, successful firms",
+          "develop a thriving career for oneself",
+          "how to establish, manage, and lead prosperous firms"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 5.0,
+        "reason": "Focuses on leading 'prosperous firms' and understanding 'sustainability issues', which supports innovation and sustainable industrial practices (Target 9.4), though not the main focus.",
+        "evidence": [
+          "lead prosperous firms",
+          "sustainability issues"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 7.5,
+        "reason": "Course topics 'Ethics and Values' and 'Bias and Perspective' directly address eliminating discrimination and ensuring equal opportunity within organizations, aligning with Targets 10.2 and 10.3.",
+        "evidence": [
+          "Ethics and Values",
+          "Bias and Perspective",
+          "Culture & Global Leadership"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 7.0,
+        "reason": "Explicitly develops the competency to identify 'social responsibility, and sustainability issues', preparing leaders to adopt sustainable corporate practices as per Target 12.6.",
+        "evidence": [
+          "Students will understand and be able to identify ethics, social responsibility, and sustainability issues.",
+          "D. 理解與辨別道德、社會責任與永續議題"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 1.5,
+        "reason": "A tenuous link exists through the mention of 'sustainability issues', which could include climate change (Target 13.2), but this is not a specific focus of the course.",
+        "evidence": [
+          "sustainability issues"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 7.8,
+        "reason": "Focuses on 'Ethics and Values' to build accountable leaders for 'successful firms', directly contributing to effective institutions (Target 16.6) and reducing corruption (Target 16.5).",
+        "evidence": [
+          "Ethics and Values",
+          "lead high-performing, successful firms",
+          "social responsibility"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 6.0,
+        "reason": "Develops 'teamwork and leadership skills' and covers 'Culture & Global Leadership', which are foundational for building the multi-stakeholder partnerships mentioned in Targets 17.16 and 17.17.",
+        "evidence": [
+          "teamwork and leadership skills",
+          "Culture & Global Leadership",
+          "Foster core skills and strategies to lead and work in teams."
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Upon self-review, some initial scores were overly generous for indirect links. Revisions reflect a stricter alignment with explicit course content.",
+    "revisions": {
+      "SDG_5 (Gender Equality)": {
+        "your_original": 4.5,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Gender is not explicitly mentioned; link to equal opportunities is too indirect and weak."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 5.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Course focuses on firm leadership, not specific industrial innovation or infrastructure development."
+      },
+      "SDG_13 (Climate Action)": {
+        "your_original": 1.5,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "'Sustainability issues' is too general; climate change is not a specific focus of the course."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 6.0,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Teamwork and global leadership are enabling skills, but not direct focus on SDG-specific partnerships."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus contains no explicit or inferable content related to poverty eradication, social protection, or economic resources for the poor.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the course description, objectives, or weekly topics that relates to hunger, food security, nutrition, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not mention health, well-being (beyond career success), disease prevention, or healthcare services, making a connection to this SDG absent.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "As a university course, it directly contributes to tertiary education (Target 4.3) and explicitly aims to 'enhance leadership skills' and 'develop a thriving career,' aligning with skills for employment (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 1.0,
+      "source": "revised_b",
+      "reasoning": "While 'Bias and Perspective' and 'Ethics and Values' are covered, gender equality is not explicitly mentioned. The link to equal leadership opportunities for women (Target 5.5) is too indirect and weak to warrant a higher score.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": 1.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content provides no information or activities related to water resources, sanitation, hygiene, or water quality.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no mention of energy access, renewable energy, or energy efficiency within the course syllabus.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course's core goal is to prepare students to 'lead high-performing, successful firms' and 'develop a thriving career,' directly supporting productive employment, decent job creation, and economic growth (Targets 8.3, 8.5).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 2.5,
+      "source": "revised_b",
+      "reasoning": "While leading 'prosperous firms' implies some innovation, the course focuses on leadership skills, not specific industrial development, infrastructure, or technological upgrading (Targets 9.1, 9.4, 9.5). The link is indirect.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": 2.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "Topics like 'Ethics and Values' and 'Bias and Perspective,' along with 'Culture & Global Leadership,' directly address principles for eliminating discrimination and promoting equal opportunity within organizations (Targets 10.2, 10.3).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus contains no content related to urban planning, housing, transport, cultural heritage, or disaster resilience in a community context.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly aims for students to 'understand and be able to identify ethics, social responsibility, and sustainability issues,' directly preparing leaders to adopt sustainable corporate practices (Target 12.6).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.5,
+      "source": "revised_b",
+      "reasoning": "The mention of 'sustainability issues' is too general; climate change is not a specific focus of the course. The link is extremely tenuous and indirect.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No course content relates to marine ecosystems, ocean health, marine pollution, or sustainable fisheries.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not include topics on terrestrial ecosystems, forests, biodiversity, land degradation, or combating desertification.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 7.8,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'Ethics and Values' and 'social responsibility' for leaders in 'successful firms' directly contributes to developing accountable and transparent institutions (Target 16.6) and reducing corruption (Target 16.5).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.8,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 3.5,
+      "source": "revised_b",
+      "reasoning": "While 'teamwork and leadership skills' and 'Culture & Global Leadership' are foundational, the course does not explicitly focus on forming or managing SDG-specific multi-stakeholder partnerships or international cooperation (Targets 17.16, 17.17).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": 3.5
+      }
+    }
+  }
+}

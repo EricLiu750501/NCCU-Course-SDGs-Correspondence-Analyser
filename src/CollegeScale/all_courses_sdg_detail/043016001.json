@@ -1,0 +1,338 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 6.5,
+        "reason": "Discusses 'Biotechnology and agriculture' and 'genetically modified foods', linking to sustainable food production and agricultural technology (Targets 2.4, 2.a).",
+        "evidence": [
+          "生物科技與農業",
+          "基因改造食品的應用與規範"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Good Health and Well-being": {
+        "score": 9.5,
+        "reason": "Core focus on the biological basis of diseases, including infectious, genetic, and mental illnesses, directly supporting Targets 3.3, 3.4, and 3.b.",
+        "evidence": [
+          "疾病的生物學基礎",
+          "傳染並對社會的衝擊和因應",
+          "精神疾病"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "score": 7.0,
+        "reason": "As a university course, it provides quality tertiary education (Target 4.3) and scientific knowledge relevant to sustainable development (Target 4.7).",
+        "evidence": [
+          "教授同學相關的知識",
+          "獲得正確的知識訊息",
+          "Life Science in the Surroundings"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 5.5,
+        "reason": "Focuses on 'biotechnology', 'Stem cells and their applications', and 'personalized medicine', which directly supports enhancing scientific research and innovation (Target 9.5).",
+        "evidence": [
+          "生物科技對於日常生活的影響",
+          "幹細胞與其應用",
+          "個人化醫療"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 3.5,
+        "reason": "Discusses 'medical system policies' and 'humanistic care' for mental/neurodegenerative illness, inferring a link to social inclusion for vulnerable groups (Target 10.2).",
+        "evidence": [
+          "神經退化性病變之個人、家庭、社會及國家的醫療制度政策",
+          "人文關懷對精神疾病治療的重要性"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 4.0,
+        "reason": "Promotes awareness via discussions on 'Reflection and regulation of the use of biotechnology', linking to sustainable practices and information (Targets 12.8, 12.a).",
+        "evidence": [
+          "生物科技運用的省思和規範",
+          "基因改造食品的應用與規範"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 1.5,
+        "reason": "Touches on 'The evolution of life' and 'genes', foundational concepts for biodiversity, but the link to conservation targets like 15.5 is very weak.",
+        "evidence": [
+          "生命的演化",
+          "基因簡介"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 1.0,
+        "reason": "Mentions 'regulation' and 'medical system policies', which has a minimal, inferred link to developing effective institutions (Target 16.6).",
+        "evidence": [
+          "醫療制度政策",
+          "應用與規範"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is largely consistent with my own. I found Model A's reasoning for SDG 10 to be more comprehensive, leading to a revision of my score.",
+    "revisions": {
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 2.0,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model A's reasoning regarding 'medical system policies' and 'humanistic care' for vulnerable groups, particularly 'social and national medical system policies,' provides a plausible, albeit indirect, link to reducing inequalities in healthcare access."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct or indirect evidence in the syllabus links to poverty eradication, economic empowerment, or social protection systems for the poor.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Biotechnology and agriculture' and 'genetically modified foods,' which directly relates to sustainable food production and agricultural technology, aligning with SDG 2 targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course has a core focus on the biological basis of various diseases (genetic, infectious, neurodegenerative, mental), their prevention, and treatment, directly aligning with multiple SDG 3 targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "As a university course, it directly provides quality tertiary education (Target 4.3) and imparts scientific knowledge crucial for understanding and addressing sustainable development challenges (Target 4.7).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The syllabus contains no explicit or implicit references to gender equality, women's rights, or related issues.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "There is no evidence in the course description or weekly schedule that relates to clean water, sanitation, or water resource management.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course syllabus does not contain any content related to energy, clean energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The syllabus does not address economic growth, employment, labor rights, or related economic development policies.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course's emphasis on biotechnology, stem cells, personalized medicine, and genetic information applications directly supports scientific research and innovation, aligning with Target 9.5.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 3.5,
+      "source": "model_b",
+      "reasoning": "Discussions on 'medical system policies' for neurodegenerative diseases and 'humanistic care' for mental illness infer a focus on social inclusion and equitable access to healthcare for vulnerable populations, aligning with Target 10.2.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The syllabus does not contain any content related to urban development, infrastructure, or community sustainability.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "Discussions on the 'reflection and regulation of biotechnology use' and 'genetically modified foods' promote awareness and critical thinking about sustainable practices and informed consumption, aligning with Target 12.8.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "There is no evidence in the course content related to climate change, its impacts, or mitigation/adaptation strategies.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The syllabus does not include any topics related to marine ecosystems, ocean health, or aquatic life.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The course touches on 'the evolution of life' and 'genes,' which are foundational to understanding biodiversity, but the link to specific conservation or ecosystem restoration targets is very weak.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "Discussions on 'regulation of biotechnology' and 'medical system policies' imply a need for effective institutions and governance, providing a minimal, inferred link to Target 16.6.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The syllabus does not contain any content related to global partnerships, international cooperation, or means of implementation for the SDGs.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

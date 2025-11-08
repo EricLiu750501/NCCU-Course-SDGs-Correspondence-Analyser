@@ -1,0 +1,404 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 1.0,
+        "reason": "Inferred link to protecting health data and medical devices via 'Database Security' and 'IoT Security', supporting Target 3.8 on quality healthcare services.",
+        "evidence": [
+          "資料庫安全",
+          "物聯網安全"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 4.0,
+        "reason": "The course is a form of tertiary education providing technical skills ('資訊安全') for employment, directly contributing to Target 4.3 and 4.4.",
+        "evidence": [
+          "資訊安全導論",
+          "提升學生資訊安全基本之素養與概念"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 1.0,
+        "reason": "Inferred link to Target 5.b. Secure ICT, taught via '資訊安全', is an enabling technology that can help promote the empowerment of women by ensuring safer online spaces.",
+        "evidence": [
+          "資訊安全"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 2.0,
+        "reason": "Inferred link to securing energy infrastructure (smart grids) via '物聯網安全' (IoT Security) and '網路與通訊協定安全', supporting Target 7.1 for reliable energy services.",
+        "evidence": [
+          "物聯網安全",
+          "網路與通訊協定安全安全"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 5.0,
+        "reason": "Provides skills for technological upgrading (Target 8.2) and covers '區塊鏈與加密貨幣', which relates to strengthening financial institutions (Target 8.10).",
+        "evidence": [
+          "區塊鏈與加密貨幣",
+          "資訊安全"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 9.5,
+        "reason": "Core focus on securing digital infrastructure. Topics like '網路與通訊協定安全' and '物聯網安全' directly support developing resilient infrastructure (Target 9.1, 9.c).",
+        "evidence": [
+          "網路與通訊協定安全安全",
+          "無線網路安全概論",
+          "物聯網安全"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 1.5,
+        "reason": "Inferred link to Target 10.5. The topic '區塊鏈與加密貨幣' relates to the security and regulation of financial markets, which can impact inequality.",
+        "evidence": [
+          "區塊鏈與加密貨幣"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 3.0,
+        "reason": "Inferred link to securing smart city infrastructure. '物聯網安全' (IoT Security) is crucial for resilient and sustainable urban systems (Target 11.b).",
+        "evidence": [
+          "物聯網安全"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 1.0,
+        "reason": "Inferred link to securing climate monitoring and early warning systems. '網路與通訊協定安全' ensures data integrity for climate resilience efforts (Target 13.1, 13.3).",
+        "evidence": [
+          "網路與通訊協定安全安全"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 8.5,
+        "reason": "Directly addresses combating cybercrime (Target 16.4) and building secure, transparent institutions (Target 16.6) through topics like '數位簽章' and '法律觀點'.",
+        "evidence": [
+          "數位簽章、認證機制、使用者身份鑑別",
+          "法律觀點",
+          "區塊鏈與加密貨幣"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 3.0,
+        "reason": "Contributes to Target 17.8 by building capacity in 'information security', a key enabling technology for achieving sustainable development goals.",
+        "evidence": [
+          "資訊安全導論",
+          "提升學生資訊安全基本之素養與概念"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Upon self-review, I've adopted a stricter interpretation of direct textual evidence. Several inferred links were too speculative without explicit mentions in the course syllabus, leading to score revisions.",
+    "revisions": {
+      "SDG_3 (Good Health and Well-being)": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 0.0,
+        "reason": "The link to health data or medical devices via 'Database Security' and 'IoT Security' is too speculative without explicit mention."
+      },
+      "SDG_5 (Gender Equality)": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 0.0,
+        "reason": "The inference that secure ICT directly promotes women's empowerment is too indirect without specific textual support."
+      },
+      "SDG_7 (Affordable and Clean Energy)": {
+        "your_original": 2.0,
+        "model_b_score": 2.0,
+        "your_revised": 0.0,
+        "reason": "Securing energy infrastructure via 'IoT Security' and 'Network Security' is an inference not explicitly supported by the text."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 1.5,
+        "model_b_score": 1.5,
+        "your_revised": 0.0,
+        "reason": "The link between 'Blockchain and Cryptocurrency' and reducing inequalities is too speculative without further context in the syllabus."
+      },
+      "SDG_11 (Sustainable Cities and Communities)": {
+        "your_original": 3.0,
+        "model_b_score": 3.0,
+        "your_revised": 0.0,
+        "reason": "The application of 'IoT Security' to smart city infrastructure is an inference not explicitly mentioned in the course description."
+      },
+      "SDG_13 (Climate Action)": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 0.0,
+        "reason": "The inference to securing climate monitoring systems via 'Network Security' is too indirect and lacks specific textual evidence."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus provides no direct or indirect evidence related to poverty eradication.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus provides no direct or indirect evidence related to hunger or food security.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "While 'Database Security' and 'IoT Security' could theoretically apply to health, the syllabus lacks explicit mention of health-related applications, making the link too speculative.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course is a university-level program ('資專碩一、資專碩二') focused on '資訊安全導論', directly contributing to tertiary education and providing relevant technical skills for employment (Targets 4.3, 4.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The syllabus does not explicitly mention gender equality. The inference that secure ICT directly promotes women's empowerment is too indirect without specific textual support.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus provides no direct or indirect evidence related to water or sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "While 'IoT Security' and 'Network Security' could secure energy infrastructure, the syllabus does not explicitly link these topics to energy, making the connection speculative.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course provides '資訊安全' skills, essential for 'technological upgrading' (Target 8.2). '區塊鏈與加密貨幣' relates to financial services and innovation, supporting Target 8.10.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course's core focus on '資訊安全' and topics like '網路與通訊協定安全', '無線網路安全', '物聯網安全', and '資料庫安全' directly contribute to developing resilient digital infrastructure and enhancing technological capabilities (Targets 9.1, 9.5, 9.c).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The link between '區塊鏈與加密貨幣' and reducing inequalities through financial market regulation is too speculative without further context in the syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "While '物聯網安全' is relevant to smart cities, the syllabus does not explicitly connect IoT security to urban sustainability or resilience, making the inference too broad.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus provides no direct or indirect evidence related to responsible consumption or production patterns.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The inference that '網路與通訊協定安全' secures climate monitoring systems is too indirect and lacks specific textual evidence in the syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus provides no direct or indirect evidence related to marine life or ocean conservation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus provides no direct or indirect evidence related to terrestrial ecosystems or biodiversity.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "Topics like '數位簽章、認證機制、使用者身份鑑別' and '法律觀點' directly address secure, transparent institutions and the rule of law (Targets 16.3, 16.6). Information security generally combats cybercrime (Target 16.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course builds capacity in '資訊安全', which is a key 'information and communications technology' (ICT) enabling technology, directly supporting Target 17.8 for enhancing ICT use.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

@@ -1,0 +1,822 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 4.0,
+      "reason": "Course discusses economic decision-making, which relates to poverty alleviation strategies.",
+      "evidence": [
+        "economic decision-making",
+        "allocation problems of scarce resources"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not directly address hunger issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 1.0,
+      "reason": "Minimal relevance; health topics are not covered in the course.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 7.0,
+      "reason": "Focus on economic principles supports educational outcomes in economics.",
+      "evidence": [
+        "explain the economic principles",
+        "apply formal economic models"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 1.0,
+      "reason": "Minimal relevance; gender issues are not addressed in the course.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not cover water or sanitation topics.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 1.0,
+      "reason": "Minimal relevance; energy topics are not included in the course.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 8.0,
+      "reason": "Course focuses on economic decision-making and market interactions, relevant to job creation.",
+      "evidence": [
+        "economic decision-making",
+        "interact with each other in markets"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 4.0,
+      "reason": "Course discusses market structures, which can relate to industrial growth.",
+      "evidence": [
+        "range of market structures",
+        "theory of firms"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not address inequality issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 1.0,
+      "reason": "Minimal relevance; urban sustainability is not covered in the course.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not discuss consumption or production practices.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 1.0,
+      "reason": "Minimal relevance; climate issues are not addressed in the course.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 1.0,
+      "reason": "Minimal relevance; marine issues are not covered in the course.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 1.0,
+      "reason": "Minimal relevance; land issues are not discussed in the course.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not address justice or institutional topics.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 1.0,
+      "reason": "Minimal relevance; partnerships are not discussed in the course.",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 2.0,
+        "reason": "Provides foundational tools to analyze the 'allocation of scarce resources' and 'evaluate...government policy responses', which are essential for creating pro-poor development strategies (Target 1.b).",
+        "evidence": [
+          "allocation problems of scarce resources",
+          "evaluate economic outcomes and government policy responses"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.5,
+        "reason": "The principles of 'demand & supply' and 'Gains from Trade' are applicable to food markets and trade policies (Target 2.c), but this is not an explicit focus.",
+        "evidence": [
+          "demand & supply",
+          "Gains from Trade"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Good Health and Well-being": {
+        "score": 4.5,
+        "reason": "The topic 'Externalities' provides the core framework for analyzing and addressing pollution, which directly impacts public health (Target 3.9).",
+        "evidence": [
+          "Externalities, Public Goods and Common Resources"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 4.0,
+        "reason": "As a university course, it directly provides tertiary education (Target 4.3) and develops 'analytical skills necessary to operate effectively in business' (Target 4.4).",
+        "evidence": [
+          "Apply analytical skills necessary to operate effectively in business and related professions."
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 5.0,
+        "reason": "Covers 'Externalities' and 'Common Resources', key concepts for managing water pollution (Target 6.3) and shared water resources (Target 6.6).",
+        "evidence": [
+          "Externalities, Public Goods and Common Resources"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "score": 2.5,
+        "reason": "The study of 'Externalities' and 'theory of firms' provides tools to analyze energy markets and the environmental impact of energy production, relevant to clean energy goals.",
+        "evidence": [
+          "Externalities, Public Goods and Common Resources",
+          "theory of firms"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 7.5,
+        "reason": "Core topics like 'how households and firms make decisions' and 'Production and Cost' are fundamental to understanding economic productivity and job creation (Targets 8.2, 8.3).",
+        "evidence": [
+          "how households and firms make decisions",
+          "Production and Cost"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 8.0,
+        "reason": "The 'theory of firms' and analysis of market structures are central to understanding industrialization (Target 9.2). 'Public Goods' relates to infrastructure (Target 9.1).",
+        "evidence": [
+          "theory of firms",
+          "public goods and externality"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 5.5,
+        "reason": "Teaches how to 'evaluate economic outcomes and government policy responses', essential for designing fiscal and social policies to reduce inequality (Target 10.4).",
+        "evidence": [
+          "evaluate economic outcomes and government policy responses",
+          "Supply, Demand, and Government Policies"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 4.0,
+        "reason": "Concepts of 'Externalities' and 'Public Goods' are fundamental to urban economics, addressing issues like pollution, public transport, and green spaces (Targets 11.6, 11.7).",
+        "evidence": [
+          "Externalities, Public Goods and Common Resources"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Responsible Consumption and Production": {
+        "score": 7.0,
+        "reason": "Analyzes 'allocation problems of scarce resources' and 'consumers' choices', providing the framework for understanding and promoting responsible consumption and production patterns (Target 12.2).",
+        "evidence": [
+          "allocation problems of scarce resources",
+          "theory of consumers' choices",
+          "Externalities"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 5.0,
+        "reason": "The concept of 'Externalities' is the primary economic tool for understanding market failures related to climate change and designing policy interventions (Target 13.2).",
+        "evidence": [
+          "Externalities, Public Goods and Common Resources"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life Below Water": {
+        "score": 5.0,
+        "reason": "Covers 'Externalities' and 'Common Resources', which are the theoretical models used to analyze marine pollution and overfishing (Targets 14.1, 14.4).",
+        "evidence": [
+          "Externalities, Public Goods and Common Resources"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life on Land": {
+        "score": 5.0,
+        "reason": "The study of 'Externalities' and 'Common Resources' applies directly to managing terrestrial ecosystems, such as forests and land, and preventing their degradation (Target 15.1).",
+        "evidence": [
+          "Externalities, Public Goods and Common Resources",
+          "allocation problems of scarce resources"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 3.0,
+        "reason": "Discusses 'roles played by the government should markets fail', which relates to building effective and accountable institutions for economic regulation (Target 16.6).",
+        "evidence": [
+          "possible roles played by the government should markets fail",
+          "Supply, Demand, and Government Policies"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 6.0,
+        "reason": "The topic 'Gains from Trade' directly supports the promotion of an open, rules-based multilateral trading system (Target 17.10).",
+        "evidence": [
+          "Gains from Trade"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides a more nuanced understanding of several SDGs, particularly in areas related to economic principles and their broader implications.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B highlights the need for pro-poor strategies, aligning better with course content."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B connects externalities to public health, which is relevant to the course."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's focus on externalities aligns with water management topics in the course."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 1.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B's analysis of energy markets through externalities is relevant to course content."
+      },
+      "Reduced Inequalities": {
+        "your_original": 1.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B emphasizes evaluating economic outcomes, which is pertinent to inequality."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 1.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's connection of externalities to urban issues is relevant to the course."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 1.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B's focus on resource allocation aligns with course discussions on consumption."
+      },
+      "Climate Action": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's emphasis on externalities relates directly to climate issues discussed in the course."
+      },
+      "Life Below Water": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's analysis of marine issues through externalities is relevant to course content."
+      },
+      "Life on Land": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's focus on land management through externalities aligns with course discussions."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 1.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B's connection to government roles in markets aligns with course content."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 1.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B's focus on trade aligns with the course's economic principles."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provided more accurate and detailed inferred connections, particularly regarding 'Externalities', 'Public Goods', 'Common Resources', and 'government policy responses'. My initial assessment was too conservative, leading to several revisions.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 2.0,
+        "your_revised": 3.0,
+        "reason": "Model A's reasoning on 'allocation of scarce resources' and 'government policy responses' is more precise for poverty alleviation."
+      },
+      "Zero Hunger": {
+        "your_original": 1.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model A correctly identified 'demand & supply' and 'Gains from Trade' as relevant to food markets."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A correctly linked 'Externalities' to pollution and public health impacts (Target 3.9)."
+      },
+      "Gender Equality": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Model A's score of 0.000 is more accurate as no direct evidence for gender issues was found."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly identified 'Externalities' and 'Common Resources' as key for water management and pollution."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 1.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A correctly linked 'Externalities' and 'theory of firms' to energy markets and environmental impacts."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 8.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model A's reasoning, including 'Production and Cost', provides a more specific link to economic productivity."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A accurately connected 'Public Goods' to infrastructure and 'theory of firms' to industrialization."
+      },
+      "Reduced Inequalities": {
+        "your_original": 1.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model A correctly identified 'evaluate economic outcomes and government policy responses' as crucial for addressing inequality."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 1.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A correctly linked 'Externalities' and 'Public Goods' to urban planning and sustainability issues."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 1.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model A accurately connected 'allocation problems of scarce resources' and 'consumers' choices' to responsible consumption."
+      },
+      "Climate Action": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly identified 'Externalities' as the primary economic tool for understanding climate change."
+      },
+      "Life Below Water": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly linked 'Externalities' and 'Common Resources' to marine pollution and overfishing."
+      },
+      "Life on Land": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly linked 'Externalities' and 'Common Resources' to managing terrestrial ecosystems."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 1.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model A correctly identified 'roles played by the government should markets fail' as relevant to institutional strength."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 1.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model A accurately connected 'Gains from Trade' to promoting a multilateral trading system (Target 17.10)."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the importance of economic decision-making and government policy responses, but Model A's original score aligns better with course content on resource allocation.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognize minimal relevance to hunger issues, with Model B's score reflecting the course's lack of focus on this SDG.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on externalities aligns well with public health discussions in the course, making this score the most accurate.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's focus on economic principles, but Model B's reasoning about developing analytical skills is more aligned with educational outcomes.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the lack of evidence for gender issues in the course, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on externalities aligns with water management topics in the course, making this score appropriate.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the relevance of externalities to energy markets, with Model B providing a more nuanced understanding.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on economic decision-making, but Model B's emphasis on productivity aligns better with course content.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on the theory of firms and public goods aligns well with the course's focus on industrialization.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the importance of evaluating economic outcomes, with Model B's score reflecting the course's focus on inequality.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Model B's connection of externalities to urban issues aligns with course content, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on resource allocation aligns with course discussions on consumption, making this score appropriate.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on externalities relates directly to climate issues discussed in the course, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's analysis of marine issues through externalities is relevant to course content, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on land management through externalities aligns with course discussions, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Model B's connection to government roles in markets aligns with course content, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on trade aligns with the course's economic principles, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 3.0,
+      "source": "revised_b",
+      "reasoning": "The course provides foundational tools to analyze resource allocation and government policy responses, essential for designing pro-poor development strategies (Target 1.b). This is a significant, albeit indirect, contribution.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Concepts like 'demand & supply' and 'Gains from Trade' are applicable to food markets and trade policies (Target 2.c). This provides an indirect but clear economic framework for hunger-related issues.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "The topic 'Externalities' provides the core framework for analyzing and addressing pollution, which directly impacts public health (Target 3.9). This is a strong, inferred connection.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "model_a",
+      "reasoning": "As a university course, it directly provides tertiary education (Target 4.3) and develops critical 'analytical skills' for business and professions (Target 4.4), making its contribution explicit and substantial.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no explicit or inferred evidence in the course syllabus that addresses gender issues or equality.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "The course covers 'Externalities' and 'Common Resources', which are key concepts for managing water pollution (Target 6.3) and shared water resources (Target 6.6).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 2.5,
+      "source": "revised_a",
+      "reasoning": "The study of 'Externalities' and 'theory of firms' provides tools to analyze energy markets and the environmental impact of energy production, relevant to clean energy goals.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "model_a",
+      "reasoning": "The course focuses on microeconomics, including 'how households and firms make decisions' and 'Production and Cost', which are fundamental to economic growth and job creation (Targets 8.2, 8.3).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The 'theory of firms' and analysis of market structures are central to industrialization (Target 9.2). 'Public Goods' directly relates to infrastructure development (Target 9.1).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.5,
+      "source": "revised_a",
+      "reasoning": "The course teaches how to 'evaluate economic outcomes and government policy responses', which is essential for designing fiscal and social policies to reduce inequality (Target 10.4).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "revised_a",
+      "reasoning": "Concepts of 'Externalities' and 'Public Goods' are fundamental to urban economics, addressing issues like pollution, public transport, and green spaces (Targets 11.6, 11.7).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 7.0,
+      "source": "revised_a",
+      "reasoning": "The course analyzes 'allocation problems of scarce resources' and 'consumers' choices', providing the framework for understanding and promoting responsible consumption and production patterns (Target 12.2).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "The concept of 'Externalities' is the primary economic tool for understanding market failures related to climate change and designing policy interventions (Target 13.2).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "The course covers 'Externalities' and 'Common Resources', which are theoretical models used to analyze marine pollution and overfishing (Targets 14.1, 14.4).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "The study of 'Externalities' and 'Common Resources' applies directly to managing terrestrial ecosystems, such as forests and land, and preventing their degradation (Target 15.1).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 3.0,
+      "source": "revised_a",
+      "reasoning": "The course discusses 'roles played by the government should markets fail', which relates to building effective and accountable institutions for economic regulation (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.0,
+      "source": "revised_a",
+      "reasoning": "The topic 'Gains from Trade' directly supports the promotion of an open, rules-based multilateral trading system (Target 17.10), a key aspect of global partnerships.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    }
+  }
+}

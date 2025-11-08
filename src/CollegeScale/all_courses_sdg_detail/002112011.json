@@ -1,0 +1,322 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 1.5,
+        "reason": "The course briefly covers the 'relationship between nutrition and exercise', which tangentially relates to Target 2.2 on addressing nutritional needs.",
+        "evidence": [
+          "營養與運動關係"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Good Health and Well-being": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about promoting physical health and well-being through fitness, directly supporting Target 3.4 (prevention of non-communicable diseases).",
+        "evidence": [
+          "Health Fitness",
+          "建立良好的心肺適能",
+          "維持較優良健康適能提升生活品質"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "score": 7.5,
+        "reason": "As a university course, it provides knowledge and skills for a healthy, sustainable lifestyle, aligning with Target 4.7.",
+        "evidence": [
+          "介紹相關簡單生理知識",
+          "運動傷害的預防與保健"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 1.0,
+        "reason": "The course is specifically for female students ('女體適能'), which can be inferred as a measure to promote women's health and participation in physical activity.",
+        "evidence": [
+          "體育[女]—女體適能"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 5.0,
+        "reason": "The course utilizes university trails ('步道') as green public spaces for exercise, linking to Target 11.7, and includes ecological explanations, linking to Target 11.4.",
+        "evidence": [
+          "利用政大特有的步道實施有氧運動",
+          "生態解說"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 6.0,
+        "reason": "The course includes 'ecological explanation' ('生態解說') of various trails, promoting awareness and conservation of terrestrial ecosystems, which supports Target 15.1.",
+        "evidence": [
+          "小坑溪步道生態解說",
+          "螢火蟲步道生態解說",
+          "水岸步道生態解說"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Partnerships for the Goals": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "No revisions needed. Model B's analysis aligns with mine, with the exception of a minor difference in SDG 2 where Model B's score of 0.0 is more appropriate given the course content.",
+    "revisions": {}
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus contains no evidence or mention of poverty, economic resources, social protection, or building resilience for vulnerable populations.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "While 'nutrition and exercise relationship' is mentioned, it pertains to general health and fitness, not directly to ending hunger, ensuring food security, or addressing malnutrition in vulnerable populations as defined by SDG 2 targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course's primary objective is to promote physical health and well-being through fitness, directly aligning with Target 3.4 by preventing non-communicable diseases and enhancing overall health.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "As a university course, it provides knowledge ('生理知識', '運動傷害的預防') and practical skills for a healthy lifestyle, contributing to Target 4.7 on education for sustainable lifestyles.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course being 'female-specific' does not inherently address the broader targets of SDG 5, such as ending discrimination, violence, or promoting equal opportunities in leadership or economic resources.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the course syllabus related to clean water, sanitation, hygiene, or water resource management.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus contains no information or activities related to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the syllabus pertains to employment, economic growth, labor rights, or sustainable tourism for job creation.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus does not mention industry, innovation, infrastructure development, or technological upgrading.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no explicit content in the syllabus addressing income inequality, social inclusion, or discriminatory practices.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course utilizes university trails ('步道') as green public spaces for exercise (Target 11.7) and includes '生態解說' (ecological explanations) which can contribute to safeguarding natural heritage (Target 11.4).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus lacks any content related to sustainable consumption, waste reduction, or efficient use of natural resources.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the course syllabus addresses climate change, its impacts, mitigation, or adaptation strategies.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content does not include any topics related to marine ecosystems, ocean health, or aquatic life conservation.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course includes '生態解說' (ecological explanations) for various trails, directly promoting awareness and understanding of terrestrial ecosystems, supporting Target 15.1 on conservation and sustainable use.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus contains no content related to peace, justice, rule of law, governance, or institutional development.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no mention of global partnerships, international cooperation, or resource mobilization for sustainable development in the course description.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

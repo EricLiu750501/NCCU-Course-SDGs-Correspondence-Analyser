@@ -1,0 +1,341 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 7.5,
+        "reason": "Provides technical skills in app development and project management, supporting Target 4.4 by increasing relevant skills for employment and entrepreneurship.",
+        "evidence": [
+          "Design Thinking and Software Project Management",
+          "應用程式(App)開發平台 - App Inventor 2",
+          "激發跨領域的創意與問題解決能力"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 1.0,
+        "reason": "Teaches information and communications technology skills which could be used to promote women's empowerment, a tenuous link to Target 5.b.",
+        "evidence": [
+          "design and develop a human-centered App"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 8.0,
+        "reason": "Fosters creativity, innovation, and technological skills via 'Design Thinking' and app development, supporting entrepreneurship and decent job creation (Targets 8.2, 8.3).",
+        "evidence": [
+          "激發跨領域的創意與問題解決能力",
+          "Design Thinking and Software Project Management",
+          "應用程式(App)專案開發"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 9.5,
+        "reason": "Fundamentally fosters innovation and technological capability via 'Design Thinking' and 'software project development', directly aligning with Targets 9.5 and 9.b.",
+        "evidence": [
+          "Design Thinking and Software Project Management",
+          "設計並開發以人為本的 App",
+          "激發跨領域的創意與問題解決能力"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 4.0,
+        "reason": "The 'human-centered' design process, which starts with empathy for user needs, can be applied to promote social inclusion, aligning with Target 10.2.",
+        "evidence": [
+          "同理他人的需求與找出痛點",
+          "設計並開發以人為本的 App"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 2.0,
+        "reason": "User-centered design and project management tools promote participatory processes and accountability in teams, a micro-level reflection of Targets 16.6 and 16.7.",
+        "evidence": [
+          "同理他人的需求與找出痛點",
+          "Kanban",
+          "Trello"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 6.0,
+        "reason": "Requires interdisciplinary teams ('跨系所的同學共組多元團隊') to collaborate, reflecting the multi-stakeholder partnership approach of Targets 17.16 and 17.17.",
+        "evidence": [
+          "讓跨系所的同學共組多元團隊",
+          "從不同專業背景的角度進行討論與反思"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is largely consistent with mine. I will adjust two scores to reflect Model A's slightly broader interpretation of inferred links.",
+    "revisions": {
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 3.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A's reasoning that human-centered design can promote social inclusion is a reasonable inference for Target 10.2."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 1.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A's reasoning for participatory processes and accountability within teams, though micro-level, aligns with the spirit of Target 16.6/16.7."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus supports contributions to eradicating poverty or related targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to ending hunger, food security, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus pertains to health, well-being, disease prevention, or healthcare access.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly teaches design thinking, software project management, and App Inventor 2, directly enhancing relevant skills for employment and entrepreneurship (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course teaches ICT skills (App development), which could tenuously promote women's empowerment (Target 5.b), but lacks explicit focus on gender equality.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to water, sanitation, hygiene, or water resource management.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus pertains to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course fosters creativity, innovation, and technological skills through design thinking and app development, directly supporting entrepreneurship and decent job creation (Targets 8.2, 8.3).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on design thinking, software project management, and app development directly enhances technological capabilities and encourages innovation (Targets 9.5, 9.b).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.0,
+      "source": "revised_b",
+      "reasoning": "The 'human-centered' design process, emphasizing empathy for user needs, can be applied to promote social inclusion and address diverse user groups, aligning with Target 10.2.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to urban development, housing, transport, or cultural heritage.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus pertains to sustainable consumption, resource efficiency, or waste reduction.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to climate change mitigation, adaptation, or resilience.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to marine ecosystems, ocean health, or sustainable fisheries.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to terrestrial ecosystems, biodiversity, or sustainable land use.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 2.0,
+      "source": "revised_b",
+      "reasoning": "User-centered design and project management tools (Kanban, Trello) promote participatory processes and accountability within teams, reflecting micro-level aspects of Targets 16.6 and 16.7.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly requires interdisciplinary teams ('跨系所的同學共組多元團隊') to collaborate, directly reflecting the multi-stakeholder partnership approach of Targets 17.16 and 17.17.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 4.5,
+        "reason": "The course covers \"Economic and Social Development Plan,\" which directly relates to creating sound policy frameworks for poverty eradication (Target 1.b).",
+        "evidence": [
+          "Economic and Social Development Plan"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 1.5,
+        "reason": "The course objective \"To have an international perspective\" aligns with promoting global citizenship as part of education for sustainable development (Target 4.7).",
+        "evidence": [
+          "To have an international perspective"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 9.0,
+        "reason": "The course explicitly covers \"Economic and Social Development Plan,\" \"Tourism & Travel-related Services,\" and \"Investment,\" which are central to economic growth and decent work (Targets 8.1, 8.9).",
+        "evidence": [
+          "Economic and Social Development Plan",
+          "Tourism & Travel-related Services",
+          "Investment"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 5.0,
+        "reason": "The topic \"Economic and Social Development Plan\" is inferred to cover policies on infrastructure and industrialization, key components of this goal (Targets 9.1, 9.2).",
+        "evidence": [
+          "Economic and Social Development Plan",
+          "Investment"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 5.5,
+        "reason": "Discusses the \"1997 Asian Financial Crisis\" and \"Economic and Social Development Plan,\" which relate to financial regulation and policies to address inequality (Targets 10.5, 10.4).",
+        "evidence": [
+          "1997 Asian Financial Crisis",
+          "Economic and Social Development Plan"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 1.0,
+        "reason": "The topic \"Tourism & Travel-related Services\" has a tangential link to Target 11.4, which involves safeguarding cultural heritage.",
+        "evidence": [
+          "Tourism & Travel-related Services"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Responsible Consumption and Production": {
+        "score": 3.0,
+        "reason": "The lesson on \"Tourism & Travel-related Services\" could relate to Target 12.b, which focuses on developing tools to monitor sustainable tourism impacts.",
+        "evidence": [
+          "Tourism & Travel-related Services"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about political structures like \"Democracy,\" \"Legislative Power,\" and \"Judicial and Executive Powers,\" directly supporting the development of strong institutions (Target 16.6, 16.3).",
+        "evidence": [
+          "Democracy",
+          "Legislative Power",
+          "Judicial and Executive Powers",
+          "Civil conflicts"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 8.5,
+        "reason": "Covers \"Imports, Exports & Border Trade\" and \"Taiwan-Thailand Relations,\" which directly address international trade and partnerships for development (Targets 17.10, 17.16).",
+        "evidence": [
+          "Imports, Exports & Border Trade",
+          "Taiwan-Thailand Relations",
+          "Investment"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is largely accurate, but I find some inferences for SDGs 4, 11, and 12 to be too tangential or speculative based on the course text.",
+    "revisions": {
+      "SDG_4 (Quality Education)": {
+        "your_original": 1.5,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The course provides an international perspective but does not focus on education systems or promoting quality education as an SDG target."
+      },
+      "SDG_11 (Sustainable Cities and Communities)": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The course mentions 'Tourism' in an economic context, not specifically related to safeguarding cultural heritage or sustainable urban development."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 3.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The course discusses tourism from an economic perspective, without explicit mention of sustainable tourism practices or monitoring impacts."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course's 'Economic and Social Development Plan' topic directly aligns with Target 1.b, which focuses on creating sound policy frameworks for poverty eradication.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no explicit evidence in the course syllabus related to hunger, food security, agriculture, or malnutrition.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence in the course syllabus mentions health, well-being, disease prevention, or healthcare systems.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "While 'international perspective' is a core competence, the course does not focus on education systems, access to education, or promoting sustainable development through education, making the link too tangential.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence in the course syllabus refers to gender equality, women's rights, or related issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence in the course syllabus mentions water resources, sanitation, or water quality.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence in the course syllabus mentions energy, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Economic and Social Development Plan,' 'Tourism & Travel-related Services,' and 'Investment,' which are central to economic growth and job creation (Targets 8.1, 8.9).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The 'Economic and Social Development Plan' and 'Investment' topics strongly imply coverage of infrastructure development and industrialization policies (Targets 9.1, 9.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "Discussions on the '1997 Asian Financial Crisis' and 'Economic and Social Development Plan' are relevant to financial regulation and policies aimed at reducing inequalities (Targets 10.4, 10.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The course discusses 'Tourism' from an economic perspective, not specifically focusing on safeguarding cultural heritage or sustainable urban development, making the link too weak.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The course covers 'Tourism' economically, without explicit mention of sustainable consumption, production patterns, or monitoring sustainable tourism impacts.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence in the course syllabus mentions climate change, climate-related hazards, or mitigation/adaptation strategies.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence in the course syllabus mentions marine ecosystems, ocean health, or sustainable fisheries.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence in the course syllabus mentions terrestrial ecosystems, forests, biodiversity, or land degradation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course's core topics like 'Democracy,' 'Legislative Power,' 'Judicial and Executive Powers,' and 'Civil conflicts' are fundamental to understanding and promoting strong, accountable institutions and the rule of law (Targets 16.3, 16.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "Topics such as 'Imports, Exports & Border Trade,' 'Investment,' and 'Taiwan-Thailand Relations' directly address international cooperation, trade, and financial flows, which are central to global partnerships (Targets 17.10, 17.16).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    }
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 9.0,
+        "reason": "The course is tertiary education (Target 4.3) and includes topics like \"學校圖書館與閱讀教學\" (school libraries and reading instruction) and education for \"永續發展\" (sustainable development) (Target 4.7).",
+        "evidence": [
+          "提升學生研究視野與學術討論能力",
+          "學校圖書館與閱讀教學",
+          "永續發展之實踐個案"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 1.5,
+        "reason": "Aims to \"提升學生研究視野與論文研究品質\" (enhance students' research vision and thesis quality), developing skills for future employment and innovation, tangentially supporting Target 8.2 and 8.5.",
+        "evidence": [
+          "提升學生研究視野與論文研究品質"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 7.5,
+        "reason": "Focuses on technological innovation via topics like \"AI虛擬角色的設計與應用\" and \"科技應用與公共圖書館服務\", supporting research and upgrading infrastructure (Target 9.5, 9.1).",
+        "evidence": [
+          "AI虛擬角色的設計與應用",
+          "科技應用與公共圖書館服務",
+          "數位化與永續發展"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 2.0,
+        "reason": "The focus on \"公共圖書館服務\" (public library services) can be inferred to promote social inclusion by providing access to information for all, aligning with Target 10.2.",
+        "evidence": [
+          "公共圖書館服務"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 8.0,
+        "reason": "Explicitly discusses a \"永續發展之實踐個案\" (sustainable development case study) in \"臺灣公共圖書館體系\" (Taiwan's public library system), linking to sustainable communities and cultural infrastructure (Target 11.3, 11.4).",
+        "evidence": [
+          "臺灣公共圖書館體系中的數位化與永續發展之實踐個案"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 1.0,
+        "reason": "The topic on \"永續發展之實踐個案\" (sustainable development case study) in libraries could potentially touch upon sustainable management of resources, an inferred link to Target 12.2.",
+        "evidence": [
+          "永續發展之實踐個案"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 6.0,
+        "reason": "Discusses \"公共圖書館服務\" (public library services), which are key institutions for ensuring public access to information, a cornerstone of Target 16.10 and 16.6.",
+        "evidence": [
+          "公共圖書館服務",
+          "臺灣公共圖書館體系",
+          "維護智慧財產權"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 3.0,
+        "reason": "The seminar format promotes \"師生間的研究討論與互動\" (discussion and interaction between teachers and students), fostering knowledge-sharing partnerships as per Target 17.16.",
+        "evidence": [
+          "促進師生間的研究討論與互動"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is largely consistent with mine, with minor differences in scoring. I will revise my score for SDG 13 as Model A's assessment of no direct evidence is more accurate.",
+    "revisions": {
+      "SDG_13 (Climate Action)": {
+        "your_original": 0.5,
+        "model_b_score": 0.5,
+        "your_revised": 0.0,
+        "reason": "The mention of '永續發展' (sustainable development) is too general to directly link to climate action without specific context."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferable connection to poverty eradication or related targets is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferable connection to hunger eradication, food security, or agricultural practices is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferable connection to health, well-being, disease prevention, or healthcare services is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course is tertiary education, aims to enhance academic skills, and includes topics like 'school libraries and reading instruction' and 'sustainable development practices,' directly aligning with targets 4.3 and 4.7.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferable connection to gender equality, discrimination, or women's empowerment is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferable connection to water, sanitation, hygiene, or water resource management is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferable connection to energy, renewable energy, or energy efficiency is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "Course objectives on enhancing research, critical thinking, and creative abilities contribute to skills for higher economic productivity and decent work (Targets 8.2, 8.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "Multiple topics explicitly address AI, technology application, and digitalization within public library systems, directly supporting innovation, technological upgrading, and infrastructure development (Targets 9.1, 9.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The focus on 'public library services' implies providing equitable access to information for all, promoting social inclusion and reducing inequalities (Target 10.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly features 'sustainable development practices in Taiwan's public library system,' directly linking to sustainable urbanization, community planning, and cultural heritage (Targets 11.3, 11.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The general mention of 'sustainable development' in the context of library systems offers a very weak, inferential link to sustainable resource management (Target 12.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "While 'sustainable development' is mentioned, it is too broad to specifically infer a direct connection to climate action or related targets without further explicit context.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferable connection to oceans, marine life, or water ecosystems is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferable connection to terrestrial ecosystems, biodiversity, forests, or land degradation is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'public library services' highlights institutions ensuring public access to information (Target 16.10) and contributing to effective governance (Target 16.6). Copyright also aligns with rule of law (Target 16.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly aims to 'promote research discussion and interaction between teachers and students,' directly fostering knowledge-sharing and collaborative partnerships (Target 17.16).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

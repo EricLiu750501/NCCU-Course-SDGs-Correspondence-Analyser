@@ -1,0 +1,320 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about understanding health, diseases, and the medical system, directly addressing Targets 3.3 (communicable diseases) and 3.4 (non-communicable diseases).",
+        "evidence": [
+          "身體與疾病之總論及系統介紹",
+          "病毒基因演化的威脅: 談新興傳染病",
+          "癌症面面觀"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "score": 4.5,
+        "reason": "As a university course, it provides tertiary education (Target 4.3) and knowledge for healthy, sustainable lifestyles (Target 4.7) by explaining the connection between health and life.",
+        "evidence": [
+          "了解健康的重要性，進而追求健康的生活",
+          "達到了解健康與生活的關聯性"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 5.5,
+        "reason": "The course covers medical innovation and scientific research, such as \"基因科技\" (genetic technology), directly supporting the enhancement of technological capabilities (Target 9.5).",
+        "evidence": [
+          "基因科技之過去、現在與未來",
+          "科學醫學的疾病治療模式",
+          "由肝炎病毒基因檢測談起"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 1.0,
+        "reason": "A low relevance link exists through discussion of the \"病人自主權利法\" (Patient Right to Autonomy Act), which promotes social inclusion and empowerment in healthcare decisions (Target 10.2).",
+        "evidence": [
+          "病人自主權、預立醫療決定"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 4.0,
+        "reason": "The course explicitly discusses legislation like the \"病人自主權利法\" (Patient Right to Autonomy Act), promoting the rule of law and rights within the medical system (Target 16.3).",
+        "evidence": [
+          "病人自主權、預立醫療決定",
+          "介紹安寧緩和條例及病人自主權利法"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "No revisions needed. Model A's analysis was not provided for comparison.",
+    "revisions": {}
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course syllabus contains no explicit or inferred content related to poverty eradication, social protection, or economic resources.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the course description or schedule that relates to ending hunger, improving nutrition, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course 'Medicine and Life' is entirely dedicated to understanding the body, diseases, health importance, and medical systems, directly aligning with multiple targets of SDG 3, including combating diseases and promoting well-being.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "As a university course, it inherently provides tertiary education (Target 4.3). Furthermore, its objective to 'understand the importance of health, and then pursue a healthy life' directly contributes to knowledge for sustainable lifestyles (Target 4.7).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course syllabus does not contain any content related to gender equality, women's empowerment, or addressing gender-based discrimination.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "While 'water-borne diseases' are part of health discussions, the course does not focus on water quality, sanitation infrastructure, or water resource management.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "There is no mention of energy access, renewable energy, or energy efficiency in the course content.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course does not cover topics related to economic growth, employment, labor rights, or sustainable tourism.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '基因科技之過去、現在與未來' (genetic technology) and '科學醫學的疾病治療模式', directly supporting scientific research and technological capabilities in the medical field (Target 9.5).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The discussion of '病人自主權、預立醫療決定' (Patient Right to Autonomy Act) indirectly promotes social inclusion and empowerment in healthcare decisions, aligning with Target 10.2.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course content does not address urban development, housing, transport, heritage, or disaster resilience in communities.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "There is no evidence of content related to sustainable consumption, resource efficiency, waste reduction, or sustainable business practices.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The syllabus does not include topics on climate change, its impacts, or actions to mitigate or adapt to it.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course does not cover marine ecosystems, ocean conservation, or sustainable use of marine resources.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "There is no content in the syllabus related to terrestrial ecosystems, biodiversity, forests, or land degradation.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly discusses the '病人自主權利法' (Patient Right to Autonomy Act), which directly relates to promoting the rule of law and ensuring rights within the medical system (Target 16.3).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course syllabus does not indicate any focus on global partnerships, international cooperation, or multi-stakeholder engagement for sustainable development.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

@@ -1,0 +1,801 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 1.0,
+      "reason": "Minimal relevance; mentions corporate governance's role in social responsibilities.",
+      "evidence": [
+        "fulfill its social and sustainable responsibilities"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 1.0,
+      "reason": "Minimal relevance; mentions ensuring operations do not damage the environment.",
+      "evidence": [
+        "ensure that the company's operations will not damage the environment"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "score": 7.5,
+      "reason": "Links to Target 4.7 via promoting knowledge on ESG principles.",
+      "evidence": [
+        "gain an in-depth understanding of emerging corporate governance issues",
+        "increase students' reading ability in foreign literature"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 1.0,
+      "reason": "Minimal relevance; mentions human rights considerations.",
+      "evidence": [
+        "violate human rights"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 6.0,
+      "reason": "Moderate relevance; discusses ESG principles affecting investment decisions.",
+      "evidence": [
+        "companies incorporate ESG principles into their corporate governance policies"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 1.0,
+      "reason": "Minimal relevance; mentions social responsibilities.",
+      "evidence": [
+        "fulfill its social and sustainable responsibilities"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 4.5,
+      "reason": "Moderate relevance; discusses ESG and corporate responsibility.",
+      "evidence": [
+        "companies incorporate ESG principles into their corporate governance policies"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "score": 4.0,
+      "reason": "Moderate relevance; mentions environmental responsibilities.",
+      "evidence": [
+        "ensure that the company's operations will not damage the environment"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 1.0,
+      "reason": "Minimal relevance; mentions human rights.",
+      "evidence": [
+        "violate human rights"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.001,
+        "reason": "Minimal inferred link to Target 3.9, as preventing environmental damage could reduce illnesses from pollution.",
+        "evidence": [
+          "damage the environment"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 7.5,
+        "reason": "The course provides tertiary education on knowledge and skills needed to promote sustainable development, directly aligning with Target 4.7.",
+        "evidence": [
+          "Corporate Governance and ESG",
+          "fulfill its social and sustainable responsibilities"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 1.0,
+        "reason": "A low-relevance link is inferred from the 'S' in ESG and the commitment to not 'violate human rights', which includes gender equality (Target 5.1, 5.5).",
+        "evidence": [
+          "violate human rights",
+          "social and sustainable responsibilities"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 1.5,
+        "reason": "The 'E' in ESG and the principle to not 'damage the environment' has an inferred link to improving water quality by preventing pollution (Target 6.3).",
+        "evidence": [
+          "damage the environment",
+          "environmental, social and governance (ESG)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "score": 4.5,
+        "reason": "Moderately relevant through discussion of 'Sustainability Bonds' and 'Green Bonds', which often finance clean energy projects, linking to Target 7.2 and 7.a.",
+        "evidence": [
+          "Sustainability Bonds and its Regulations",
+          "Green Bonds"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 8.0,
+        "reason": "Highly relevant. ESG principles support decoupling growth from environmental degradation (Target 8.4) and ensuring companies do not 'violate human rights,' protecting labor rights (Target 8.8).",
+        "evidence": [
+          "violate human rights",
+          "damage the environment",
+          "social and sustainable responsibilities"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 7.0,
+        "reason": "Highly relevant. ESG principles and 'Sustainability Bonds' promote investment in sustainable industries and clean technologies, aligning with Target 9.4.",
+        "evidence": [
+          "Sustainability Bonds and its Regulations",
+          "Green Bonds",
+          "environmental, social and governance (ESG)"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 5.0,
+        "reason": "Moderately relevant. The 'S' in ESG and preventing human rights violations address social inclusion and equal opportunity (Target 10.2, 10.3). Discusses financial regulation (Target 10.5).",
+        "evidence": [
+          "violate human rights",
+          "social and sustainable responsibilities"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 10.0,
+        "reason": "Core concept. The course focuses on corporate ESG principles and reporting ('Mandatory Disclosure of ESG Reports'), directly matching Target 12.6 on sustainable practices and reporting.",
+        "evidence": [
+          "Mandatory Disclosure of ESG Reports",
+          "incorporate ESG principles into their corporate governance policies",
+          "social and sustainable responsibilities"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 8.5,
+        "reason": "Highly relevant. The 'E' in ESG and topics like 'Green Bonds' directly address integrating climate change measures (Target 13.2) into corporate policy and finance.",
+        "evidence": [
+          "damage the environment",
+          "Green Bonds",
+          "environmental, social and governance (ESG)"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life Below Water": {
+        "score": 1.0,
+        "reason": "Low relevance. A weak link can be inferred from the general commitment to not 'damage the environment', which could include preventing marine pollution (Target 14.1).",
+        "evidence": [
+          "damage the environment"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life on Land": {
+        "score": 1.0,
+        "reason": "Low relevance. A weak link can be inferred from the general commitment to not 'damage the environment', which could include protecting terrestrial ecosystems (Targets 15.1, 15.5).",
+        "evidence": [
+          "damage the environment"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 9.5,
+        "reason": "Core concept. The course on 'Corporate Governance' directly addresses developing effective, accountable, and transparent institutions (Target 16.6) and reducing corruption via accountability (Target 16.5).",
+        "evidence": [
+          "Corporate Governance and ESG",
+          "Board and its ESG Accountability",
+          "Misrepresentation of ESG Reports"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 7.0,
+        "reason": "Highly relevant. The course examines investor-company partnerships (Target 17.17) and financial instruments like 'Sustainability Bonds' that mobilize resources for sustainable development (Target 17.3).",
+        "evidence": [
+          "Stewardship of Institutional Investor and ESG",
+          "Sustainability Bonds and its Regulations"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations based on the course text, particularly regarding health, energy, and governance.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model B's reasoning aligns better with the course text's minimal link to health."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B identifies a relevant link to environmental damage affecting water quality."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's connection to sustainability bonds aligns with course content on clean energy."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's emphasis on ESG's role in labor rights and environmental impact is more accurate."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B's insights on ESG promoting sustainable industries are supported by course text."
+      },
+      "Reduced Inequalities": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's interpretation of social inclusion through ESG is more comprehensive."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 4.5,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B accurately highlights the course's focus on ESG principles and reporting."
+      },
+      "Climate Action": {
+        "your_original": 4.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's connection to climate measures in ESG is more aligned with course content."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 1.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B's focus on governance and accountability is strongly supported by the course text."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B's insights on partnerships in ESG align with course discussions."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided a more comprehensive analysis, identifying stronger explicit and inferred links, especially regarding financial instruments like green bonds and the direct implications of corporate governance and ESG reporting. My original analysis missed several key connections.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Model A's score of 0.000 is more accurate; the link to 'social responsibilities' is too weak for a score of 1.000."
+      },
+      "SDG_3 (Good Health and Well-being)": {
+        "your_original": 1.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model A's score of 0.001 is more precise for a minimal inferred link between environmental protection and health."
+      },
+      "SDG_6 (Clean Water and Sanitation)": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model A correctly inferred a link from 'damage the environment' and 'E' in ESG to preventing water pollution."
+      },
+      "SDG_7 (Affordable and Clean Energy)": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A correctly identified 'Sustainability Bonds' and 'Green Bonds' as direct evidence for clean energy financing."
+      },
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 6.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A's reasoning is more comprehensive, linking 'human rights' to labor rights and 'damage the environment' to sustainable growth."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 0.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model A correctly identified 'Sustainability Bonds', 'Green Bonds', and ESG principles as promoting sustainable industries and innovation."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A's reasoning is stronger, linking 'human rights violations' to social inclusion and financial regulation to Target 10.5."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 4.5,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A correctly identified 'Mandatory Disclosure of ESG Reports' as a core and explicit link to sustainable reporting (Target 12.6)."
+      },
+      "SDG_13 (Climate Action)": {
+        "your_original": 4.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A correctly highlighted 'Green Bonds' and the 'E' in ESG as direct and strong evidence for climate action."
+      },
+      "SDG_14 (Life Below Water)": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model A's inference from 'damage the environment' to marine pollution is a reasonable, albeit weak, link."
+      },
+      "SDG_15 (Life on Land)": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model A's inference from 'damage the environment' to terrestrial ecosystems is a reasonable, albeit weak, link."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 1.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model A correctly identified 'Corporate Governance', 'ESG Accountability', and 'Misrepresentation of ESG Reports' as core to strong institutions."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 0.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model A correctly identified 'Stewardship of Institutional Investor' and 'Sustainability Bonds' as evidence for partnerships and resource mobilization."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the lack of evidence linking corporate governance to poverty alleviation, justifying a score of 0.000.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no relevant evidence linking the course content to hunger, confirming a score of 0.000.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Model B's reasoning aligns better with minimal inferred links to health, justifying a score of 0.001.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models consistently identify strong links to education, particularly in promoting sustainable development knowledge.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Both models infer minimal relevance to gender equality, justifying a score of 1.000.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model B's identification of links to environmental damage affecting water quality is supported by course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's connection to sustainability bonds aligns with course content on clean energy financing.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on ESG's role in labor rights and environmental impact is more accurate and aligns with course content.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Model B's insights on ESG promoting sustainable industries are supported by course text, justifying a score of 7.000.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's interpretation of social inclusion through ESG is more comprehensive, justifying a score of 5.000.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence linking the course content to sustainable cities, confirming a score of 0.000.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Model B accurately highlights the course's focus on ESG principles and reporting, justifying a score of 10.000.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Model B's connection to climate measures in ESG is more aligned with course content, justifying a score of 8.500.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Model A's inference from 'damage the environment' to marine pollution is a reasonable, albeit weak, link.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Model A's inference from 'damage the environment' to terrestrial ecosystems is a reasonable, albeit weak, link.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on governance and accountability is strongly supported by the course text, justifying a score of 9.500.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Model B's insights on partnerships in ESG align with course discussions, justifying a score of 7.000.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course's general mention of 'social responsibilities' is too broad to directly link to specific poverty eradication targets. No explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course description or topics relates to hunger, food security, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course mentions preventing environmental damage, which has a minimal, inferred link to reducing illnesses from pollution (Target 3.9).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "model_a",
+      "reasoning": "The course provides tertiary education on corporate governance and ESG, fostering knowledge and skills for sustainable development, directly aligning with Target 4.7.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 1.0,
+      "source": "model_a",
+      "reasoning": "The course mentions preventing 'human rights' violations, which implicitly includes gender equality, providing a minimal, inferred link.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on the 'E' in ESG and preventing environmental damage has an inferred link to improving water quality by reducing pollution (Target 6.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly discusses 'Sustainability Bonds and its Regulations' and 'Green Bonds,' which are financial instruments often used to fund clean energy projects (Target 7.2, 7.a).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "ESG principles address preventing human rights violations (linking to labor rights, Target 8.8) and avoiding environmental damage (linking to sustainable economic growth, Target 8.4).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "ESG principles and financial instruments like 'Sustainability Bonds' promote investment in sustainable industries and the adoption of clean technologies, aligning with Target 9.4.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The 'S' in ESG and preventing human rights violations address social inclusion and equal opportunity (Target 10.2, 10.3). Corporate governance also touches on financial regulation (Target 10.5).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course description or topics relates to sustainable cities, housing, or urban planning.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course's core focus on ESG principles and 'Mandatory Disclosure of ESG Reports' directly aligns with Target 12.6 on sustainable corporate practices and reporting.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on the 'E' in ESG and 'Green Bonds' directly addresses integrating climate change measures into corporate policy and finance (Target 13.2).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The general commitment to not 'damage the environment' provides a weak, inferred link to preventing marine pollution (Target 14.1).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The general commitment to not 'damage the environment' provides a weak, inferred link to protecting terrestrial ecosystems and biodiversity (Targets 15.1, 15.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course's central theme of 'Corporate Governance' and topics like 'Board and its ESG Accountability' directly address developing effective, accountable, and transparent institutions (Target 16.6) and reducing corruption (Target 16.5).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course discusses 'Stewardship of Institutional Investor and ESG' (investor-company partnerships, Target 17.17) and 'Sustainability Bonds' (mobilizing resources, Target 17.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    }
+  }
+}

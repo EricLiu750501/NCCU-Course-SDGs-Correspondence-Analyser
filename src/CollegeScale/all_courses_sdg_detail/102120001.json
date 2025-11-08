@@ -1,0 +1,326 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 10.0,
+        "reason": "The course is a '社會領域師培課程' (social studies teacher training program), fundamentally designed to increase the supply of qualified teachers, directly addressing Target 4.c.",
+        "evidence": [
+          "社會領域師培課程",
+          "Practicum in Social Studies",
+          "進行教學活動設計與操作"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 4.5,
+        "reason": "As a teacher training program ('師培課程'), the course directly prepares students for productive employment as educators, contributing to Target 8.5.",
+        "evidence": [
+          "社會領域師培課程",
+          "Practicum in Social Studies"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 1.5,
+        "reason": "The course objective includes '課程調整與創新' (curriculum adjustment and innovation), which tangentially relates to encouraging innovation under Target 9.5 within the education sector.",
+        "evidence": [
+          "課程調整與創新",
+          "探究與實作課程設計"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 6.0,
+        "reason": "Trains teachers for '社會領域課程' (Social Studies), which includes civics. This builds capacity to teach about justice and institutions, relevant to Targets 16.6 and 16.7.",
+        "evidence": [
+          "社會領域課程",
+          "公民與社會部分內容"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 2.0,
+        "reason": "The course includes '現場教師經驗分享' (experience sharing from current teachers), representing a partnership between academia and practitioners to enhance educational capacity, linking to Target 17.17.",
+        "evidence": [
+          "現場教師經驗分享"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is largely consistent with my own, particularly in identifying the core SDGs. A minor adjustment to SDG 16 is warranted due to the explicit mention of 'civics' content.",
+    "revisions": {
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 5.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "The explicit mention of '公民與社會部分內容' (Civics and Society content) strengthens the inferred link to teaching about justice and institutions, justifying a slightly higher score."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus provides no explicit or implicit evidence related to poverty eradication or any of its targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus contains no information or activities related to ending hunger, food security, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the course description or schedule that links to health, well-being, or related services.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is explicitly a '社會領域師培課程' (social studies teacher training program), directly addressing Target 4.c by increasing the supply of qualified teachers.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not mention gender equality, discrimination, or women's empowerment as a course objective or topic.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No course content or objectives relate to water, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus provides no evidence pertaining to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "As a teacher training program, the course prepares students for productive employment as educators, contributing to Target 8.5 on decent work and full employment.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The course objective '課程調整與創新' (curriculum adjustment and innovation) and '探究與實作課程設計' (inquiry and practice curriculum design) tangentially relate to encouraging innovation (Target 9.5) within the educational context.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not explicitly address reducing inequalities based on income, age, sex, disability, race, ethnicity, or other status.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the course content or objectives relates to urban planning, housing, transport, or cultural heritage.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus does not include topics on sustainable consumption, resource efficiency, or waste reduction.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no mention of climate change, adaptation, mitigation, or related education in the course materials.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus provides no evidence related to marine ecosystems, ocean health, or sustainable fisheries.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No course content or objectives relate to terrestrial ecosystems, biodiversity, deforestation, or land degradation.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course trains teachers for '社會領域課程' (Social Studies), explicitly including '公民與社會部分內容' (Civics and Society content), which builds capacity to teach about justice and effective institutions (Targets 16.6, 16.7).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The inclusion of '現場教師經驗分享' (experience sharing from current teachers) demonstrates a partnership between academia and practitioners to enhance educational capacity, aligning with Target 17.17.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

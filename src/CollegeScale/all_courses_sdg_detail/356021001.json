@@ -1,0 +1,333 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.001,
+        "reason": "The skills taught, like 'advanced analytics' and 'machine learning', could be applied to health risks (Target 3.d), but this is not mentioned in the course.",
+        "evidence": [
+          "advanced analytics solutions",
+          "machine learning models"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "As a university course, it provides quality tertiary education (Target 4.3) and develops technical skills like 'advanced analytics' and 'machine learning' for employment (Target 4.4).",
+        "evidence": [
+          "Course Department:Management Information Systems/M/1",
+          "advanced analytics solutions",
+          "develop and deploy machine learning models"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 7.5,
+        "reason": "The course promotes higher economic productivity through technological upgrading (Target 8.2) by teaching skills in 'cloud computing', 'advanced analytics', and 'machine learning'.",
+        "evidence": [
+          "robust cloud computing",
+          "advanced analytics solutions",
+          "develop and deploy machine learning models"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about developing modern digital infrastructure (Target 9.1) and upgrading technological capabilities through 'cloud infrastructure', 'machine learning', and 'advanced...AI model' (Target 9.5).",
+        "evidence": [
+          "mastering the fundamentals of cloud infrastructure",
+          "develop and deploy machine learning models",
+          "Gemini, Google's advanced multimodal AI model"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 1.0,
+        "reason": "Skills in 'performance tuning' and using 'serverless' infrastructure could be inferred to support more efficient use of computational resources, an indirect link to Target 12.2.",
+        "evidence": [
+          "performance tuning",
+          "BigQuery, GCP's serverless enterprise data warehouse"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Partnerships for the Goals": {
+        "score": 6.0,
+        "reason": "The course enhances the use of enabling ICT (Target 17.8) and builds capacity in data analysis, which supports the availability of reliable data (Target 17.18).",
+        "evidence": [
+          "Google Cloud Platform (GCP) ecosystem",
+          "gaining skills in data management, SQL analytics",
+          "create interactive dashboards and reports"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is largely accurate and well-reasoned. I only found one minor point of divergence regarding the strength of an inferred link.",
+    "revisions": {
+      "Responsible Consumption and Production": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The inference from 'performance tuning' to sustainable resource use is too weak and not a primary focus of the course content."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is highly technical, focusing on cloud platforms and data models, with no explicit or inferable links to poverty eradication or related targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on data models and cloud technology, offering no direct or indirect relevance to ending hunger, improving nutrition, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "While data skills *could* be applied to health, the course syllabus provides no explicit or implicit mention of health-related applications, making the connection too tenuous for any score above zero.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course is a university-level program providing quality tertiary education (Target 4.3) and developing advanced technical skills in data and AI for future employment (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is technical and does not address gender equality, women's empowerment, or related social issues.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on data models and cloud computing, with no relevance to clean water, sanitation, or water resource management.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is entirely focused on data technology and cloud platforms, with no connection to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course directly promotes technological upgrading and innovation (Target 8.2) through advanced cloud, data, and AI skills, contributing to higher economic productivity and the creation of decent jobs.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course directly focuses on developing and managing modern digital infrastructure (Target 9.1) and enhancing technological capabilities and innovation (Target 9.5) through cloud computing, data models, and AI.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is technical and does not address issues related to reducing inequalities, social inclusion, or discriminatory practices.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on data models and cloud technology, with no direct or indirect relevance to sustainable cities, urban planning, or community development.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The course's focus on 'performance tuning' and 'serverless' infrastructure is primarily for technical efficiency and cost, not explicitly framed as contributing to sustainable resource use or responsible consumption and production (Target 12.2). The link is too weak.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is technical and does not address climate action, climate change measures, or related environmental concerns.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on data models and cloud technology, with no relevance to marine life, ocean health, or sustainable use of marine resources.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is technical and does not address terrestrial ecosystems, biodiversity, or sustainable land management.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on data models and cloud technology, with no relevance to peace, justice, or strengthening institutions.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course significantly enhances the use of enabling information and communications technology (Target 17.8) and builds capacity in data analysis and reporting, supporting the availability of high-quality data (Target 17.18).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

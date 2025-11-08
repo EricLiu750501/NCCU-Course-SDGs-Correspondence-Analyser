@@ -1,0 +1,352 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 8.0,
+        "reason": "The course on \"Civil Law: Property\" is fundamental to Target 1.4, which ensures equal rights to ownership and control over land and other forms of property.",
+        "evidence": [
+          "民法物權",
+          "Civil Law: Property",
+          "所有權"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Zero Hunger": {
+        "score": 4.0,
+        "reason": "The course on property law, including \"real estate ownership,\" underpins Target 2.3's goal of secure and equal access to land for food production.",
+        "evidence": [
+          "物權法",
+          "不動產所有權"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Gender Equality": {
+        "score": 8.0,
+        "reason": "Directly supports Target 5.a by teaching the legal framework for equal rights to ownership and control over property, including land, for all genders.",
+        "evidence": [
+          "民法物權",
+          "Civil Law: Property",
+          "所有權"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 5.0,
+        "reason": "The study of \"Property law\" (物權法) is foundational for economic activity, as property rights enable access to financial services and support entrepreneurship (Targets 8.3, 8.10).",
+        "evidence": [
+          "物權法",
+          "所有權"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 4.5,
+        "reason": "The course on \"real estate ownership\" (不動產所有權) provides the legal basis for acquiring land needed for infrastructure development, as mentioned in Target 9.1.",
+        "evidence": [
+          "不動產所有權"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 7.5,
+        "reason": "By teaching the universal application of \"property law regulations\" (物權法規定), the course promotes equal opportunity and economic inclusion, directly addressing Target 10.3.",
+        "evidence": [
+          "理解物權法規定",
+          "民法物權"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 7.0,
+        "reason": "The course's focus on \"real estate ownership\" (不動產所有權) is essential for legal frameworks governing housing and urban planning, linking to Targets 11.1 and 11.3.",
+        "evidence": [
+          "不動產所有權"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 2.0,
+        "reason": "Property law defines ownership of natural resources, an inferred prerequisite for their sustainable management under Target 12.2.",
+        "evidence": [
+          "物權法"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 4.0,
+        "reason": "The legal framework of \"real estate ownership\" (不動產所有權) is fundamental to managing and conserving land and terrestrial ecosystems, as per Targets 15.1-15.3.",
+        "evidence": [
+          "不動產所有權"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "The course is a core component of promoting the rule of law (Target 16.3) by teaching students to \"understand property law regulations\" and their application.",
+        "evidence": [
+          "民法物權",
+          "理解物權法規定",
+          "熟悉法條之運用"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Upon review, I've identified a few areas where my initial scores for indirect connections were slightly overvalued. Revisions focus on strengthening alignment with explicit course content.",
+    "revisions": {
+      "Zero Hunger": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 1.0,
+        "reason": "While property law underpins land access, the course doesn't specifically address food production or small-scale farmers, making the link to Target 2.3 very indirect."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 2.0,
+        "model_b_score": 2.0,
+        "your_revised": 0.0,
+        "reason": "The course focuses on private property rights, not the sustainable management of natural resources or consumption patterns, making the connection to Target 12.2 too distant."
+      },
+      "Life on Land": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 1.0,
+        "reason": "Property law establishes land ownership, but the course does not cover land conservation, ecosystem management, or biodiversity, making the link to Targets 15.1-15.3 very indirect."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course directly addresses Target 1.4 by teaching the legal framework for ownership and control over land and other forms of property, which is crucial for ensuring equal economic rights for the poor and vulnerable.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.0,
+      "source": "revised_b",
+      "reasoning": "While property law provides the legal basis for land access (Target 2.3), the course does not specifically focus on food production or small-scale farmers, making the connection very indirect.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content, focusing on civil property law, has no direct or indirect relevance to health, well-being, or related services.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "While the course is part of tertiary education, its content does not address improving education systems, access, or skills for sustainable development, which are the core aims of SDG 4.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course directly supports Target 5.a by teaching the legal framework for equal rights to ownership and control over property, including land, for all genders, as defined by national laws.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content has no direct or indirect relevance to clean water, sanitation, or related infrastructure and management.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content has no direct or indirect relevance to energy, clean energy, or related infrastructure and services.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "Property law is foundational for economic activity, enabling access to financial services and supporting entrepreneurship (Targets 8.3, 8.10) by providing collateral and legal certainty.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on real estate ownership provides the legal basis for land acquisition, which is a fundamental prerequisite for infrastructure development (Target 9.1).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "By teaching the universal application of property law regulations, the course promotes equal opportunity and economic inclusion, directly addressing Target 10.3 by ensuring non-discriminatory access to property rights.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on real estate ownership is essential for the legal frameworks governing housing and urban planning, directly linking to Targets 11.1 (housing) and 11.3 (urbanization).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The course focuses on private property rights, not the sustainable management of natural resources or consumption patterns, making the connection to Target 12.2 too distant.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content has no direct or indirect relevance to climate change, mitigation, adaptation, or related policies.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content has no direct or indirect relevance to marine ecosystems, ocean health, or water-related issues.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 1.0,
+      "source": "revised_b",
+      "reasoning": "Property law establishes land ownership, but the course does not cover land conservation, ecosystem management, or biodiversity, making the link to Targets 15.1-15.3 very indirect.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is a core component of promoting the rule of law (Target 16.3) by teaching students to understand and apply property law regulations, ensuring legal certainty and access to justice.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content has no direct or indirect relevance to international cooperation, global partnerships, or resource mobilization for the SDGs.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

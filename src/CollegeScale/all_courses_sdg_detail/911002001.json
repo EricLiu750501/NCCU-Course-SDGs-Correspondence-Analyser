@@ -1,0 +1,354 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 9.5,
+        "reason": "The course 'Methods of Educational Research' for 'Master of Education' students is a core component of quality tertiary education, directly supporting Target 4.3.",
+        "evidence": [
+          "科目名稱：教育研究法",
+          "Course Name: Methods of Educational Research",
+          "開課單位：學行碩一 Course Department:Master of Education in School Administration/M/1"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 1.0,
+        "reason": "The course develops advanced research skills for master's students, which indirectly enhances their capabilities for future productive employment, a theme related to Target 8.5.",
+        "evidence": [
+          "訓練學生有獨立撰寫完整論文報告(研究計畫)的能力"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 4.5,
+        "reason": "The course focuses on enhancing scientific research capabilities by teaching 'research methodology', which aligns with Target 9.5's goal to enhance scientific research and encourage innovation.",
+        "evidence": [
+          "介紹研究方法論的各項基礎",
+          "教育研究法",
+          "Methods of Educational Research"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.001,
+        "reason": "A minimal link exists through the mention of 'Respect Copyright', which is a principle of responsible and ethical information consumption, though not a primary focus.",
+        "evidence": [
+          "維護智慧財產權，務必使用正版書籍。 Respect Copyright."
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 4.0,
+        "reason": "The course trains 'School Administration' students in research methods, building capacity for evidence-based management, which supports the development of effective and accountable educational institutions (Target 16.6).",
+        "evidence": [
+          "Master of Education in School Administration",
+          "教育研究法"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 3.0,
+        "reason": "The course builds capacity in data analysis ('quantitative and qualitative research'), which is fundamental for producing reliable data and supporting statistical capacity-building as mentioned in Target 17.18.",
+        "evidence": [
+          "量化與質化研究",
+          "quantitative and qualitative research",
+          "圖書館資料庫Google scholar課程"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is largely accurate, particularly for Quality Education, Industry and Innovation, and Peace, Justice and Strong Institutions. Some minor inferences are accepted for very low scores.",
+    "revisions": {
+      "SDG_4 (Quality Education)": {
+        "your_original": 0.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "The course directly supports quality tertiary education, aligning with Target 4.3, as identified by Model A."
+      },
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Developing advanced research skills indirectly enhances future employment capabilities, a weak link to Target 8.5."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Enhancing scientific research capabilities through methodology aligns with Target 9.5 to encourage innovation."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 0.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "The 'Respect Copyright' mention is a minimal, indirect link to responsible information consumption."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Training school administration students in research methods builds capacity for effective and accountable institutions (Target 16.6)."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence in the course syllabus relates to poverty eradication, economic resources, or social protection.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence in the course syllabus relates to hunger, food security, nutrition, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence in the course syllabus relates to health, well-being, disease prevention, or healthcare services.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course is a required Master's level program in Educational Research, directly providing quality tertiary education, aligning perfectly with SDG 4, particularly Target 4.3.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence in the course syllabus relates to gender equality, discrimination, or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence in the course syllabus relates to water, sanitation, hygiene, or water resource management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence in the course syllabus relates to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course's objective to train students in independent thesis writing provides advanced skills, indirectly enhancing their capabilities for productive employment, aligning with Target 8.5.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course directly enhances scientific research capabilities and methodology, fostering innovation in the educational sector, which aligns with Target 9.5 to enhance scientific research.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence in the course syllabus relates to reducing inequalities based on income, age, sex, disability, or other status.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence in the course syllabus relates to urban development, housing, transport, or cultural heritage.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The instruction to 'Respect Copyright' is a minimal, indirect link to responsible consumption of intellectual property, aligning weakly with the broader concept of responsible consumption.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence in the course syllabus relates to climate change, adaptation, or mitigation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence in the course syllabus relates to marine ecosystems, ocean health, or sustainable fisheries.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence in the course syllabus relates to terrestrial ecosystems, biodiversity, or land degradation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course trains Master's students in School Administration in research methods, fostering evidence-based management and critical analysis, which directly supports developing effective and accountable educational institutions (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course teaches quantitative and qualitative research methods and includes database training, directly building capacity for producing high-quality, reliable data, aligning with Target 17.18 on statistical capacity-building.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    }
+  }
+}

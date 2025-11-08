@@ -1,0 +1,746 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 7.0,
+      "reason": "Course enhances skills and knowledge relevant to education and research methods.",
+      "evidence": [
+        "具備運用研究方法之能力",
+        "具備獨立研究與分析之能力"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 8.0,
+      "reason": "Focus on digital photogrammetry supports innovation in infrastructure and technology.",
+      "evidence": [
+        "數值攝影測量",
+        "數位攝影測量的原理"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 6.0,
+      "reason": "Course content on mapping and urban planning relates to sustainable community development.",
+      "evidence": [
+        "生產地圖",
+        "地政學術"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 4.5,
+        "reason": "The course on 'land surveying and spatial information' provides tools for managing land ownership and disaster resilience, linking to Targets 1.4 and 1.5.",
+        "evidence": [
+          "具備土地測量與空間資訊運用分析之能力",
+          "Generation of DEM and DSM"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 2.5,
+        "reason": "The techniques taught, like generating geographic databases from aerial photographs, are applicable to precision agriculture and land management, supporting Targets 2.3 and 2.4.",
+        "evidence": [
+          "production of maps and geographic database from aerial photographs",
+          "Generation of DEM and DSM"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Good Health and Well-being": {
+        "score": 1.5,
+        "reason": "The 'Road Extraction and Reconstruction' component can provide data for improving road safety, which is a minor link to Target 3.6.",
+        "evidence": [
+          "Road Extraction and Reconstruction"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "As a university course, it directly provides quality tertiary education (Target 4.3) and advanced technical skills in digital photogrammetry for future employment (Target 4.4).",
+        "evidence": [
+          "Seminar on Digital Photogrammetry",
+          "具備土地測量與空間資訊運用分析之能力"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.5,
+        "reason": "The taught skills in land surveying could be applied to support women's equal rights to land ownership (Target 5.a), but this is a very indirect inference.",
+        "evidence": [
+          "具備土地測量與空間資訊運用分析之能力"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 6.0,
+        "reason": "The 'Generation of DEM and DSM' and 'Topographic Object Extraction' are key for managing water resources and protecting water-related ecosystems, supporting Targets 6.5 and 6.6.",
+        "evidence": [
+          "Generation of DEM and DSM",
+          "Topographic Object Extraction"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "score": 2.0,
+        "reason": "The taught techniques like 'Generation of DEM and DSM' are used in planning renewable energy infrastructure, such as wind or solar farms, thus indirectly supporting Target 7.a.",
+        "evidence": [
+          "Generation of DEM and DSM"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 4.0,
+        "reason": "The course provides skills in advanced technology like 'digital photogrammetry', contributing to technological upgrading and economic productivity as per Target 8.2.",
+        "evidence": [
+          "digital (softcopy) photogrammetry",
+          "3D Visualization"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about innovative technology ('digital photogrammetry') used for infrastructure development ('Building Extraction', 'Road Extraction'), directly supporting Targets 9.1 and 9.5.",
+        "evidence": [
+          "Seminar on Digital Photogrammetry",
+          "Building Extraction and Reconstruction",
+          "Road Extraction and Reconstruction"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 0.1,
+        "reason": "The geographic data produced could be used to analyze and address spatial inequalities, but this is a distant application not mentioned in the course.",
+        "evidence": [
+          "production of maps and geographic database"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 9.5,
+        "reason": "The course provides core tools for sustainable urban planning, including 'Building Extraction', 'Road Extraction', and disaster management via 'Generation of DEM', directly supporting Targets 11.3 and 11.5.",
+        "evidence": [
+          "Building Extraction and Reconstruction",
+          "Road Extraction and Reconstruction",
+          "Generation of DEM and DSM"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 2.0,
+        "reason": "The creation of 'maps and geographic database from aerial photographs' is a tool that can support the sustainable management and efficient use of natural resources (Target 12.2).",
+        "evidence": [
+          "production of maps and geographic database from aerial photographs"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 5.5,
+        "reason": "'Generation of DEM and DSM' is crucial for modeling climate-related hazards like floods and landslides, strengthening resilience and informing planning, which supports Targets 13.1 and 13.2.",
+        "evidence": [
+          "Generation of DEM and DSM",
+          "production of maps and geographic database"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life Below Water": {
+        "score": 1.5,
+        "reason": "The techniques of creating maps from 'aerial photographs' can be applied to monitor and manage coastal ecosystems, a link to Target 14.2, though not explicitly mentioned.",
+        "evidence": [
+          "production of maps and geographic database from aerial photographs"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life on Land": {
+        "score": 7.5,
+        "reason": "The course's focus on producing 'maps and geographic database' and 'Generation of DEM and DSM' is fundamental for monitoring and managing terrestrial ecosystems, forests, and mountains (Targets 15.1-15.4).",
+        "evidence": [
+          "production of maps and geographic database from aerial photographs",
+          "Generation of DEM and DSM"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 4.0,
+        "reason": "The skills in 'land surveying' are foundational for building transparent land administration institutions and securing property rights, supporting Targets 16.6 and 16.9.",
+        "evidence": [
+          "具備土地測量與空間資訊運用分析之能力",
+          "production of maps and geographic database"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 6.5,
+        "reason": "The course builds capacity in a technology that generates high-quality geographic data, directly supporting the need for reliable data for sustainable development as stated in Target 17.18.",
+        "evidence": [
+          "digital (softcopy) photogrammetry",
+          "production of maps and geographic database"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive connections to the SDGs, particularly in areas I initially overlooked.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B highlights land management's role in poverty reduction, aligning with course content."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B connects geographic data to agricultural productivity, which I initially missed."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B identifies road safety links, which I did not consider."
+      },
+      "Gender Equality": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model B's inference on land rights for women is valid and relevant."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B connects course content to water resource management, which I overlooked."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B's link to renewable energy planning is relevant and accurate."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B emphasizes skills for economic productivity, which I did not acknowledge."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 6.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B's focus on urban planning tools is more comprehensive."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B connects mapping to resource management, which I missed."
+      },
+      "Climate Action": {
+        "your_original": 0.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B's emphasis on climate modeling is relevant to course content."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's focus on ecosystem management aligns with course objectives."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's connection to land administration is valid and relevant."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B's emphasis on data generation for development is accurate."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's conservative approach for very indirect inferences is more accurate. I will revise my scores for Gender Equality and Reduced Inequalities to 0.0.",
+    "revisions": {
+      "Gender Equality": {
+        "your_original": 0.5,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The link to women's land rights is too indirect and not explicitly supported by the course text."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.1,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The course does not explicitly address social or economic inequalities, making the link too distant."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's inference on land management's role in poverty reduction aligns well with course content on spatial information and disaster resilience.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Model B's connection of geographic data to agricultural productivity is relevant, reflecting the course's focus on land management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model B's identification of road safety links is valid, though the connection remains weak and indirect.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models accurately highlight the course's focus on advanced technical skills and quality education.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree that the course does not explicitly support gender equality, making any inference too indirect.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on water resource management aligns with course content, supported by both models.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's connection to renewable energy planning is relevant, reflecting the course's focus on technology.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's contribution to economic productivity through advanced technology skills.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models accurately reflect the course's focus on innovative technology and infrastructure development.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree that the course does not explicitly address inequalities, making any inference too distant.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.1,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Model B's comprehensive focus on urban planning tools aligns well with course objectives.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's connection of mapping to resource management is relevant, reflecting the course's focus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on climate modeling is relevant to course content, supported by both models.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model B's application of mapping techniques to coastal ecosystems is valid, though not explicitly mentioned.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on ecosystem management aligns with course objectives, supported by both models.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's contribution to land administration and property rights.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on data generation for development aligns well with course objectives.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on land surveying and spatial information provides tools for managing land ownership and assessing disaster resilience, directly supporting Targets 1.4 (land rights) and 1.5 (resilience for vulnerable populations).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "Techniques like generating geographic databases and DEM/DSM from aerial photographs are applicable to precision agriculture and sustainable land management, supporting Targets 2.3 (agricultural productivity) and 2.4 (sustainable food production systems).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The 'Road Extraction and Reconstruction' component of the course can provide data essential for improving road design, maintenance, and safety analysis, which indirectly contributes to Target 3.6 (reducing road traffic accidents).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "As a university seminar, the course directly provides quality tertiary education (Target 4.3) and equips students with advanced technical and research skills in digital photogrammetry for future employment (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The course content does not explicitly or implicitly address gender equality, women's rights, or specific applications related to gender, making any connection too indirect.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The 'Generation of DEM and DSM' and 'Topographic Object Extraction' are crucial for hydrological modeling, watershed analysis, and mapping water-related ecosystems, directly supporting Targets 6.5 (integrated water management) and 6.6 (protecting water ecosystems).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "Techniques like 'Generation of DEM and DSM' are used for site selection and planning of renewable energy infrastructure (e.g., solar/wind farms), indirectly supporting Target 7.a (access to clean energy technology).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course provides advanced technical skills in digital photogrammetry, contributing to technological upgrading and innovation, which enhances economic productivity as per Target 8.2.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about digital photogrammetry, an innovative technology for infrastructure development, including 'Building Extraction' and 'Road Extraction', directly supporting Targets 9.1 (resilient infrastructure) and 9.5 (scientific research and innovation).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The course focuses on technical aspects of photogrammetry; there is no explicit or strong implicit connection to addressing social or economic inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.1,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course provides core tools like 'Building Extraction', 'Road Extraction', and 'Generation of DEM' for urban planning, infrastructure management, and disaster risk reduction, directly supporting Targets 11.3 (sustainable urbanization) and 11.5 (disaster resilience).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The creation of maps and geographic databases from aerial photographs provides data for monitoring land use and resource extraction, which supports the sustainable management and efficient use of natural resources (Target 12.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "'Generation of DEM and DSM' is crucial for modeling climate-related hazards like floods and landslides, strengthening resilience and informing planning, which supports Targets 13.1 (resilience to hazards) and 13.2 (integrating climate measures).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "Techniques for creating maps from aerial photographs can be applied to monitor and manage coastal ecosystems, providing data relevant to Target 14.2 (sustainably managing marine and coastal ecosystems).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on producing maps, geographic databases, and DEM/DSM is fundamental for monitoring and managing terrestrial ecosystems, forests, mountains, and land degradation, directly supporting Targets 15.1-15.4.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "Skills in land surveying and spatial information are foundational for building transparent land administration institutions and securing property rights, contributing to Target 16.6 (effective, accountable institutions) and 16.9 (legal identity).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course builds capacity in generating high-quality geographic data through digital photogrammetry, which is critical for monitoring sustainable development progress and informing decision-making, directly supporting Target 17.18 (data availability and capacity building).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

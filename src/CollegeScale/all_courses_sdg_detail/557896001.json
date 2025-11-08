@@ -1,0 +1,326 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 9.0,
+        "reason": "The course is a master's level program in linguistics and education, directly providing quality tertiary education (Target 4.3) and developing advanced professional research skills (Target 4.4).",
+        "evidence": [
+          "Course Name: Korean Studies Research Project (Linguistics & Education)",
+          "Course Department:Korean Language and Culture/M/1&2",
+          "具備卓越之專業研究能力"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 1.0,
+        "reason": "The course develops 'excellent professional research ability' and explores AI applications, which are skills relevant for decent jobs and innovation, tangentially supporting Target 8.2 and 8.5.",
+        "evidence": [
+          "具備卓越之專業研究能力",
+          "AI 활용한 학습 사례 찾고 토론"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 4.0,
+        "reason": "The course repeatedly requires students to research and discuss AI applications in learning, which directly supports enhancing scientific research and encouraging innovation (Target 9.5).",
+        "evidence": [
+          "AI 활용한 학습 사례 찾고 토론"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 2.0,
+        "reason": "The syllabus explicitly requires students to 'Respect Copyright', which promotes the rule of law (Target 16.3) regarding intellectual property rights.",
+        "evidence": [
+          "維護智慧財產權，務必使用正版書籍。",
+          "Respect Copyright."
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 3.0,
+        "reason": "As a 'Korean Studies' course at a non-Korean university, it inherently promotes international knowledge sharing and cultural understanding, aligning with the spirit of global partnership (Target 17.6).",
+        "evidence": [
+          "Course Name: Korean Studies Research Project (Linguistics & Education)",
+          "科目名稱：韓國學研究課題（語學與教育）"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is largely inaccurate as it scored 0 for all SDGs. My original analysis identified several strong links. However, I will revise one score where the inference was too weak.",
+    "revisions": {
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 3.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The link to specific SDG 17 targets (science, tech, innovation, global development partnerships) is too indirect for a Korean Studies course."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no explicit or implicit evidence in the course syllabus that relates to eradicating poverty or implementing social protection systems.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content, focused on Korean linguistics and education, does not provide any evidence related to food security, nutrition, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No information in the syllabus pertains to health services, disease prevention, or well-being initiatives.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course is a Master's level program ('M/1&2') in 'Korean Studies Research Project (Linguistics & Education)' aiming to develop '具備卓越之專業研究能力' (excellent professional research ability). This directly aligns with Target 4.3 (tertiary education) and 4.4 (relevant skills for employment).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not contain any specific content or objectives related to gender equality, women's empowerment, or eliminating discrimination.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no mention of water resources, sanitation, or hygiene in the course description or schedule.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course does not address energy access, renewable energy, or energy efficiency in any capacity.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course aims to develop '具備卓越之專業研究能力' (excellent professional research ability), which can contribute to higher economic productivity and decent jobs (Target 8.2, 8.5). The link is indirect but present.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course repeatedly requires students to engage in 'AI 활용한 학습 사례 찾고 토론' (Find and discuss learning cases utilizing AI). This directly supports enhancing scientific research and encouraging innovation (Target 9.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not contain any content or objectives related to reducing income inequality, promoting inclusion, or addressing discrimination.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the course material relates to urban planning, cultural heritage protection, or sustainable infrastructure in communities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course does not cover topics such as sustainable resource management, waste reduction, or sustainable consumption patterns.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no content in the syllabus related to climate change mitigation, adaptation, or awareness.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course, focused on linguistics, has no connection to marine ecosystems, ocean health, or sustainable fisheries.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the syllabus relates to terrestrial ecosystems, biodiversity, deforestation, or land degradation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The syllabus explicitly states 'Respect Copyright' and '務必使用正版書籍' (must use genuine books), which directly promotes the rule of law and intellectual property rights (Target 16.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "While 'Korean Studies' might foster cultural understanding, the course content does not explicitly or implicitly address specific SDG 17 targets such as financial resources, technology transfer, trade, or capacity building for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": 0.0
+      }
+    }
+  }
+}

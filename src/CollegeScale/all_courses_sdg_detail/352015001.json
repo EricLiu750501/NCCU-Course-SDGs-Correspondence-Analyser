@@ -1,0 +1,339 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.0,
+        "reason": "The course's focus on 'social responsibility' and finance could be inferred to support Target 1.4, which includes access to financial services like microfinance.",
+        "evidence": [
+          "social responsibility, and sustainability considerations of business situations"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 8.5,
+        "reason": "As a PhD-level course in 'Advanced Quantitative Methods', it directly provides quality tertiary education and professional skills, aligning with Targets 4.3 and 4.4.",
+        "evidence": [
+          "Advanced Quantitative Methods",
+          "acquire professional skills",
+          "金融博一"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 6.5,
+        "reason": "The course develops expertise in finance, which supports higher economic productivity and strengthens financial institutions, aligning with Targets 8.2 and 8.10.",
+        "evidence": [
+          "application of quantitative and numerical methods in Finance",
+          "expertise in financial fields"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 5.0,
+        "reason": "The course enhances research capabilities and financial expertise, which are crucial for increasing access to financial services and fostering innovation, supporting Targets 9.3 and 9.5.",
+        "evidence": [
+          "application of quantitative and numerical methods in Finance",
+          "develop the research capabilities"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 4.0,
+        "reason": "The methods taught are fundamental to the regulation and monitoring of global financial markets, as mentioned in Target 10.5.",
+        "evidence": [
+          "application of quantitative and numerical methods in Finance",
+          "dynamic asset pricing"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 4.5,
+        "reason": "Directly addresses Target 12.6 by teaching students to identify 'sustainability considerations of business situations', which is key for integrating sustainability into corporate practices.",
+        "evidence": [
+          "understand and be able to identify the ethics, social responsibility, and sustainability considerations of business situations"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 3.0,
+        "reason": "The quantitative methods can be applied to develop transparent financial institutions (Target 16.6) and potentially to detect illicit financial flows (Target 16.4).",
+        "evidence": [
+          "application of quantitative and numerical methods in Finance"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 3.5,
+        "reason": "The course's focus on 'dynamic asset pricing' and solving 'financial and economic problems' contributes to enhancing global macroeconomic stability, as per Target 17.13.",
+        "evidence": [
+          "dynamic asset pricing",
+          "application of ordinary differential equations to financial and economic problems"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is largely sound, but I find the inferences for SDG 1 and SDG 16 to be too indirect given the course content.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 0.0,
+        "reason": "The course's advanced quantitative focus in finance does not directly support financial inclusion or microfinance, making the link to Target 1.4 too weak."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 0.0,
+        "reason": "While quantitative methods can be applied, the course text does not explicitly link to developing transparent institutions or detecting illicit financial flows."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "revised_b",
+      "reasoning": "While the course involves finance and mentions social responsibility, the advanced quantitative methods do not directly address poverty eradication, microfinance, or economic resources for the poor, making the connection extremely tenuous.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct or indirect evidence in the course description or topics relates to hunger, food security, or agricultural practices.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct or indirect evidence in the course description or topics relates to health, well-being, or medical applications.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "As a PhD-level course, it directly provides quality tertiary education, advanced professional skills, and research capabilities, aligning strongly with Targets 4.3 and 4.4.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct or indirect evidence in the course description or topics relates to gender equality or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct or indirect evidence in the course description or topics relates to water, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct or indirect evidence in the course description or topics relates to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course develops expertise in finance and research capabilities, directly supporting higher economic productivity and strengthening financial institutions, aligning with Targets 8.2 and 8.10.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course enhances research capabilities and financial expertise, which are crucial for fostering innovation and increasing access to financial services, supporting Targets 9.3 and 9.5.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The advanced quantitative methods taught are fundamental for the regulation and monitoring of global financial markets, directly supporting Target 10.5 to reduce inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct or indirect evidence in the course description or topics relates to urban development, housing, or infrastructure for communities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly teaches students to identify 'sustainability considerations of business situations,' directly addressing Target 12.6 for integrating sustainability into corporate practices.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "While 'sustainability considerations' is mentioned, the course content lacks any specific focus on climate change mitigation, adaptation, or related financial instruments.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct or indirect evidence in the course description or topics relates to marine ecosystems, ocean health, or fisheries.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct or indirect evidence in the course description or topics relates to terrestrial ecosystems, biodiversity, or land management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Advanced quantitative methods in finance can contribute to developing transparent financial institutions (Target 16.6) and potentially detecting illicit financial flows (Target 16.4), making a low score plausible.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 3.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'dynamic asset pricing' and solving 'financial and economic problems' directly contributes to enhancing global macroeconomic stability, as per Target 17.13.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 3.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

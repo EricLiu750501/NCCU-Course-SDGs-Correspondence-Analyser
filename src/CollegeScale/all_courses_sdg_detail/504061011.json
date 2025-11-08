@@ -1,0 +1,337 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "The course provides tertiary education (Target 4.3) and develops vocational skills for employment (Target 4.4) through training in 'business communication skills' and 'economic and trade vocabulary'.",
+        "evidence": [
+          "Advanced Russian: Economic and Trade",
+          "提升商務情境交際能力",
+          "掌握經貿專業術語及句型"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 10.0,
+        "reason": "The course is centered on 'Economic and Trade' (經貿), directly fostering skills for international commerce, which supports economic growth and decent work (Targets 8.2, 8.3).",
+        "evidence": [
+          "進階俄語：經貿",
+          "Advanced Russian: Economic and Trade",
+          "商業談判"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 8.5,
+        "reason": "The course facilitates international trade and industry integration by teaching skills for 'international trade' (國際貿易), 'product presentation' (產品介紹), and reading 'trade contracts' (貿易合同), supporting Target 9.3.",
+        "evidence": [
+          "Краткое описание международной торговли",
+          "產品介紹",
+          "貿易合同的閱讀"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 4.5,
+        "reason": "By teaching the language of 'international trade' (國際貿易), the course facilitates economic relations between countries, which can be linked to financial flows and trade agreements (Targets 10.a, 10.b).",
+        "evidence": [
+          "Краткое описание международной торговли",
+          "具備人文素養及國際宏觀視野"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.001,
+        "reason": "A minimal link exists through topics like 'hotel booking' and 'transportation booking,' which are elements of urban infrastructure, but sustainability is not addressed.",
+        "evidence": [
+          "旅館訂房",
+          "交通訂票"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 5.5,
+        "reason": "The course supports rule-based international systems by teaching the reading of 'trade contracts' and proper procedures for 'Customs' (海關), aligning with strong institutions (Targets 16.3, 16.6).",
+        "evidence": [
+          "貿易合同的閱讀",
+          "海關",
+          "海關單之填寫"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 9.0,
+        "reason": "The course directly enables international partnerships by teaching the language of 'international trade' and 'business negotiations,' supporting a rules-based trading system (Targets 17.10, 17.16).",
+        "evidence": [
+          "Краткое описание международной торговли",
+          "商業談判",
+          "具備人文素養及國際宏觀視野"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is largely accurate and well-reasoned. I only found one area where a minor revision to the score is warranted due to a very indirect link.",
+    "revisions": {
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 4.5,
+        "model_b_score": 4.5,
+        "your_revised": 1.0,
+        "reason": "The course teaches general international trade skills, not specifically focused on reducing inequalities or supporting developing countries, making the link very indirect."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on economic trade and language skills, with no explicit or strong inferred connection to poverty eradication targets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is entirely focused on economic and trade language, with no connection to food production, access, or nutrition.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on economic and trade language, with no explicit or inferred connection to health, well-being, or related services.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course is a university-level offering (Target 4.3) and explicitly aims to develop vocational skills in business communication, economic terminology, and trade contract management for employment (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is focused on economic and trade language, with no explicit or inferred connection to gender equality or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on economic and trade language, with no explicit or inferred connection to clean water, sanitation, or water resource management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on economic and trade language, with no explicit or inferred connection to affordable, clean energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is explicitly focused on \"Economic and Trade,\" directly developing skills for international commerce, business communication, and contract management, which are fundamental to economic growth and decent job creation (Targets 8.2, 8.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course directly supports industrial activities and trade through topics like international trade, product presentation, trade contracts, and understanding major companies, facilitating industry integration and market access (Target 9.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 1.0,
+      "source": "revised_b",
+      "reasoning": "The course teaches general international trade skills. While trade can indirectly impact inequalities, the curriculum does not specifically focus on policies, financial flows, or mechanisms aimed at reducing inequalities or supporting developing countries (Targets 10.a, 10.b).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": 1.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course includes practical skills like hotel and transportation booking, which are minor elements of urban services. However, it does not address sustainable urbanization, community planning, or environmental aspects of cities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on economic and trade language, with no explicit or inferred connection to responsible consumption, sustainable production patterns, or resource efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on economic and trade language, with no explicit or inferred connection to climate action, mitigation, or adaptation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on economic and trade language, with no explicit or inferred connection to marine ecosystems or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on economic and trade language, with no explicit or inferred connection to terrestrial ecosystems, biodiversity, or land management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course teaches the reading of trade contracts and proper customs procedures, which directly supports adherence to the rule of law (Target 16.3) and interaction with effective, accountable institutions in international trade (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course directly fosters skills for international trade, business communication, and negotiations, which are crucial for building global partnerships and participating in a rules-based multilateral trading system (Targets 17.10, 17.16).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

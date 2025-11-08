@@ -1,0 +1,363 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 8.5,
+        "reason": "Course trains information professionals and covers 'information literacy services', directly supporting tertiary education and the acquisition of relevant skills for lifelong learning (Targets 4.3, 4.4).",
+        "evidence": [
+          "information literacy services",
+          "為其未來的學術研究和職業發展奠定基礎",
+          "cultivate... research and development capabilities"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 1.5,
+        "reason": "The principle of ensuring equal access to information for 'disadvantaged readers' can be inferred to include gender, but it is not an explicit focus (Target 5.b).",
+        "evidence": [
+          "disadvantaged readers",
+          "ensuring that they can access information equally"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 5.0,
+        "reason": "Prepares students for professional careers, covering 'Librarian professional competence' and 'ethics', contributing to decent work and skilled employment (Targets 8.2, 8.5).",
+        "evidence": [
+          "Librarian professional competence, ethics",
+          "為其未來的學術研究和職業發展奠定基礎"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 7.5,
+        "reason": "Focuses on knowledge infrastructure through 'scholarly communication', 'open data access', and 'digital curation', enhancing scientific research and access to information technology (Targets 9.5, 9.c).",
+        "evidence": [
+          "scholarly communication and open data access",
+          "digital humanities and digital curation"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 8.0,
+        "reason": "Explicitly addresses the 'information needs of... disadvantaged readers' and 'ensuring that they can access information equally', directly supporting social inclusion and equal opportunity (Target 10.2).",
+        "evidence": [
+          "information needs of... disadvantaged readers",
+          "ensuring that they can access information equally"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 6.0,
+        "reason": "Contributes to safeguarding cultural heritage through 'digital humanities and digital curation' and 'collection development', aligning with Target 11.4.",
+        "evidence": [
+          "digital humanities and digital curation",
+          "collection development and management"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.5,
+        "reason": "A minimal link exists through collection 'weeding' (淘汰), which can be inferred as a form of resource management, but the connection to sustainable consumption is very weak.",
+        "evidence": [
+          "淘汰"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 8.5,
+        "reason": "Directly supports Target 16.10 by focusing on public access to information through 'open data access' and services ensuring equal access, strengthening institutional accountability.",
+        "evidence": [
+          "open data access",
+          "ensuring that they can access information equally",
+          "professional ethics"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 6.5,
+        "reason": "Enhances knowledge sharing via 'scholarly communication' and 'open data access', which are crucial for science and technology cooperation and partnerships for the goals (Targets 17.6, 17.16).",
+        "evidence": [
+          "scholarly communication and open data access",
+          "knowledge organization"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is generally strong, but some scores could be refined based on the explicit wording in the course text, particularly regarding the strength of inferred connections.",
+    "revisions": {
+      "Gender Equality": {
+        "your_original": 1.5,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "While 'disadvantaged readers' could include gender, the course text doesn't explicitly mention it, making the link too weak for even a minimal score."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 5.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "The course explicitly covers 'Librarian professional competence' and 'ethics', directly preparing students for skilled employment and decent work, warranting a slightly higher score."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.5,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The term 'weeding' (淘汰) in collection management is about resource efficiency, not directly linked to sustainable consumption patterns as defined by SDG 12."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 8.5,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A's score is slightly high. While 'open data access' and 'equal access' are strong, the overall institutional strengthening is not as pervasive as to warrant an 8.5."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 6.5,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "The emphasis on 'scholarly communication', 'open data access', and 'cooperation' in collection development strongly supports knowledge sharing and partnerships, justifying a slightly higher score."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "There is no explicit or inferable evidence in the course syllabus that directly or indirectly relates to poverty eradication or its specific targets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course content does not include any topics related to hunger, food security, agriculture, or nutrition, aligning with Model B's assessment.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No course content or objectives are related to health, well-being, disease prevention, or healthcare services, supporting Model B's score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course, a graduate seminar, directly contributes to tertiary education (Target 4.3) and cultivates research, critical thinking, and information literacy skills for professional development (Target 4.4, 4.7). Model B's reasoning is well-supported.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "While 'disadvantaged readers' are mentioned, there is no explicit reference to gender or specific actions promoting gender equality, making the link too weak for a score. Model B's revised score is accurate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The syllabus contains no information pertaining to water resources, sanitation, or hygiene, justifying a minimal score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "There is no mention of energy, renewable energy, or energy efficiency within the course description or schedule, supporting a minimal score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly prepares students for professional careers in library and information science, covering 'Librarian professional competence' and 'ethics', directly contributing to skilled employment and decent work (Targets 8.2, 8.5). Model B's revised score is appropriate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course focuses on 'information science', 'scholarly communication', 'open data access', 'digital humanities', and 'digital curation', directly enhancing scientific research and access to information technology (Targets 9.5, 9.c). Model B's score is well-justified.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly addresses 'the information needs of... disadvantaged readers' and 'ensuring that they can access information equally', directly promoting social inclusion and equal opportunity (Target 10.2). Model B's score is accurate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "Through 'collection development and management' and 'digital curation', the course contributes to safeguarding cultural heritage, aligning with Target 11.4. Model B's score is reasonable.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The mention of 'weeding' (淘汰) in collection management is primarily about optimizing library resources, not directly linked to broader sustainable consumption patterns or waste reduction as defined by SDG 12. Model B's revised score is accurate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "There is no content in the syllabus related to climate change, its impacts, or mitigation/adaptation strategies, warranting a minimal score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course does not cover marine ecosystems, ocean health, or sustainable use of marine resources, justifying a minimal score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "No course topics are related to terrestrial ecosystems, biodiversity, forests, or land degradation, supporting a minimal score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course directly supports public access to information through 'open data access' and ensuring 'equal access' for all readers (Target 16.10). 'Professional ethics' also contributes to accountable institutions (Target 16.6). Model B's revised score is accurate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The emphasis on 'scholarly communication', 'open data access', and 'cooperation' in collection development directly fosters knowledge sharing and multi-stakeholder partnerships for sustainable development (Targets 17.6, 17.16). Model B's revised score is well-justified.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 6.5,
+        "model_b_revised": 7.0
+      }
+    }
+  }
+}

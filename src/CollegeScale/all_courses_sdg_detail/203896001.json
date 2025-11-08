@@ -1,0 +1,862 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 4.0,
+      "reason": "Course discusses social and economic issues related to sustainable development, linking to poverty reduction efforts.",
+      "evidence": [
+        "社會、經濟問題串連在一起",
+        "人類面對各種變遷所做的努力"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct mention of hunger or food security.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct mention of health or well-being.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 8.0,
+      "reason": "Focus on education for sustainable development and promoting understanding of SDGs.",
+      "evidence": [
+        "永續發展教育",
+        "加深同學對於永續發展之了解"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct mention of gender equality.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct mention of water or sanitation.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct mention of energy issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 4.0,
+      "reason": "Course addresses economic development and innovation, linking to decent work.",
+      "evidence": [
+        "經濟發展",
+        "創新創業思維及能力"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 5.0,
+      "reason": "Discusses innovation and entrepreneurship in sustainable development.",
+      "evidence": [
+        "創新創業思維及能力",
+        "發表創新創業構想"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct mention of inequality issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 5.0,
+      "reason": "Covers urban sustainability and environmental challenges.",
+      "evidence": [
+        "永續城市",
+        "永續發展的挑戰"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "score": 4.0,
+      "reason": "Addresses sustainable development concepts related to consumption.",
+      "evidence": [
+        "永續發展相關議題",
+        "環境變遷"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "score": 7.0,
+      "reason": "Focus on global environmental changes and sustainability efforts.",
+      "evidence": [
+        "全球環境變遷",
+        "達到永續發展的最終目標"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct mention of marine issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct mention of terrestrial ecosystems.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct mention of peace or justice.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 4.0,
+      "reason": "Course emphasizes collaboration for achieving SDGs.",
+      "evidence": [
+        "聯合國推動之永續發展目標",
+        "共同解決永續發展的挑戰"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "reason": "Discusses inequality and poverty in '貧富不均的世界' (A World of Inequality) and a reading on 'Extreme Poverty', linking to Targets 1.1 and 1.2.",
+        "score": 8.5,
+        "evidence": [
+          "貧富不均的世界",
+          "Global Profile of Extreme Poverty and Hunger"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Zero Hunger": {
+        "reason": "Directly addresses hunger via the reading 'Global Profile of Extreme Poverty and Hunger', linking to Target 2.1.",
+        "score": 7.0,
+        "evidence": [
+          "Global Profile of Extreme Poverty and Hunger",
+          "貧富不均的世界"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Good Health and Well-being": {
+        "reason": "Inferred from topics like '塑膠垃圾' (Plastic Waste) and '全球環境變遷' (Global environmental change), which impact health, linking to Target 3.9.",
+        "score": 5.0,
+        "evidence": [
+          "全球環境變遷",
+          "永續發展的挑戰：塑膠垃圾"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "reason": "The course is a direct implementation of education for sustainable development, aiming to '加深同學對於永續發展之了解' (deepen students' understanding), fulfilling Target 4.7.",
+        "score": 10.0,
+        "evidence": [
+          "科目名稱：永續發展導論",
+          "加深同學對於永續發展之了解",
+          "聯合國推動之永續發展目標(Sustainable Development Goals, SDGs)"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "reason": "Inferred from the course objective to address '社會包容性的問題' (problems of social inclusion), a key component of gender equality and Target 5.c.",
+        "score": 3.0,
+        "evidence": [
+          "社會包容性的問題"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "reason": "The topic '塑膠垃圾' (Plastic Waste) directly relates to water pollution, linking to Target 6.3 on improving water quality.",
+        "score": 4.5,
+        "evidence": [
+          "永續發展的挑戰：塑膠垃圾"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "reason": "The lecture '國際碳戰略分析' (Analysis of International Carbon Strategies) directly addresses the transition to cleaner energy systems, linking to Targets 7.2 and 7.a.",
+        "score": 7.5,
+        "evidence": [
+          "國際碳戰略分析"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Decent Work and Economic Growth": {
+        "reason": "Covers '經濟發展' (Economic Development) and '成長的極限' (Limits to Growth), addressing decoupling growth from environmental degradation, linking to Target 8.4.",
+        "score": 8.0,
+        "evidence": [
+          "經濟發展簡史",
+          "成長的極限",
+          "創新創業思維及能力融入永續發展教育中"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "reason": "Aims to integrate '創新創業思維' (innovative and entrepreneurial thinking) to solve sustainability challenges, directly supporting innovation as per Target 9.5.",
+        "score": 7.0,
+        "evidence": [
+          "創新創業思維及能力融入永續發展教育中",
+          "邀請業師分享創新創業經驗"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "reason": "Features a dedicated lecture on '貧富不均的世界' (A World of Inequality), directly addressing Targets 10.1 and 10.2.",
+        "score": 9.0,
+        "evidence": [
+          "貧富不均的世界",
+          "社會包容性的問題"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "reason": "Features a dedicated lecture on '永續城市與永續性評估' (Sustainable Cities and Sustainability Assessment), directly addressing Target 11.3.",
+        "score": 9.5,
+        "evidence": [
+          "永續城市與永續性評估",
+          "Urban Sustainability Assessment of Taiwan"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "reason": "Addresses consumption and production through topics like '成長的極限' (The Limits to Growth) and '塑膠垃圾' (Plastic Waste), linking to Targets 12.2 and 12.5.",
+        "score": 9.0,
+        "evidence": [
+          "成長的極限",
+          "永續發展的挑戰：塑膠垃圾"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "reason": "Features lectures on '全球環境變遷' (Global Environmental Change) and '國際碳戰略分析' (Analysis of International Carbon Strategies), directly addressing Targets 13.2 and 13.3.",
+        "score": 9.5,
+        "evidence": [
+          "全球環境變遷",
+          "國際碳戰略分析"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life Below Water": {
+        "reason": "The lecture on '塑膠垃圾' (Plastic Waste) is a major topic in marine pollution, directly linking to Target 14.1.",
+        "score": 8.0,
+        "evidence": [
+          "永續發展的挑戰：塑膠垃圾",
+          "A Pro-Environmental Value Construct to Deal With Plastic Pollution"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life on Land": {
+        "reason": "Discusses '全球環境變遷' (Global environmental change) and uses foundational environmental texts like '寂靜的春天' (Silent Spring), addressing ecosystem conservation per Target 15.1.",
+        "score": 7.0,
+        "evidence": [
+          "全球環境變遷",
+          "《寂靜的春天》",
+          "《蓋婭，大地之母》"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "reason": "Features a lecture on '永續發展和環境治理' (Sustainable Development and Environmental Governance), directly addressing institutional frameworks as per Target 16.6.",
+        "score": 8.0,
+        "evidence": [
+          "永續發展和環境治理",
+          "聯合國與永續發展"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "reason": "The course is framed around the UN's SDGs and discusses '聯合國與永續發展' (The UN and Sustainable Development), embodying the global partnership of Target 17.16.",
+        "score": 9.0,
+        "evidence": [
+          "聯合國推動之永續發展目標(Sustainable Development Goals, SDGs)",
+          "聯合國與永續發展",
+          "從千禧年發展目標到永續發展目標"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive evidence and aligns better with the course text, necessitating revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B highlights specific readings on poverty and inequality, which I overlooked."
+      },
+      "Zero Hunger": {
+        "your_original": 1.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B connects course content directly to hunger issues, which I missed."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B links health to environmental topics, providing a clearer connection."
+      },
+      "Gender Equality": {
+        "your_original": 1.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B identifies social inclusion as relevant to gender equality, which I did not consider."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 1.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B connects plastic waste to water quality, which I overlooked."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 1.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's focus on carbon strategies directly addresses energy issues."
+      },
+      "Reduced Inequalities": {
+        "your_original": 1.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B emphasizes inequality discussions that I did not account for."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 5.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B provides specific lectures on urban sustainability that I missed."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 4.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's analysis of consumption topics is more comprehensive."
+      },
+      "Climate Action": {
+        "your_original": 7.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B's focus on climate change lectures provides stronger evidence."
+      },
+      "Life Below Water": {
+        "your_original": 1.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B connects plastic waste to marine pollution, which I did not consider."
+      },
+      "Life on Land": {
+        "your_original": 1.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B discusses environmental texts relevant to land issues."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 1.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B highlights governance topics that I overlooked."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 4.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B emphasizes the course's alignment with UN SDGs more effectively."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis is significantly more thorough and accurate, identifying numerous explicit connections to SDGs that I initially missed or underestimated. My original scores were too conservative.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A correctly identified explicit mentions like '貧富不均的世界' and 'Global Profile of Extreme Poverty and Hunger'."
+      },
+      "Zero Hunger": {
+        "your_original": 1.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model A correctly highlighted the 'Global Profile of Extreme Poverty and Hunger' reading, which directly addresses hunger."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A's inference from '全球環境變遷' and '塑膠垃圾' impacting health is reasonable and better than 'none'."
+      },
+      "Quality Education": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "The course itself is education for sustainable development, making a perfect score appropriate, as Model A recognized."
+      },
+      "Gender Equality": {
+        "your_original": 1.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model A's inference from '社會包容性的問題' is a plausible, albeit weak, connection to gender equality."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 1.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A correctly inferred the link between '塑膠垃圾' and water pollution, which impacts clean water."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 1.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model A correctly identified '國際碳戰略分析' as an explicit topic related to clean energy."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A provided stronger explicit evidence with '經濟發展簡史' and '成長的極限', justifying a higher score."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 5.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model A's score better reflects the explicit emphasis on '創新創業思維' and '創新創業構想' in the course."
+      },
+      "Reduced Inequalities": {
+        "your_original": 1.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A correctly identified '貧富不均的世界' as a direct and explicit topic for this SDG."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 5.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model A correctly highlighted the explicit lecture '永續城市與永續性評估' and related reading."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 4.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A correctly identified '成長的極限' and '塑膠垃圾' as explicit topics for this SDG."
+      },
+      "Climate Action": {
+        "your_original": 7.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model A's higher score is justified by the explicit and strong evidence from '全球環境變遷' and '國際碳戰略分析'."
+      },
+      "Life Below Water": {
+        "your_original": 1.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A correctly identified '塑膠垃圾' and its associated reading as explicit evidence for marine pollution."
+      },
+      "Life on Land": {
+        "your_original": 1.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model A correctly linked '全球環境變遷' and foundational texts like '寂靜的春天' to terrestrial ecosystems."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 1.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A correctly identified '永續發展和環境治理' and '聯合國與永續發展' as explicit topics."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 4.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A correctly recognized the explicit focus on the UN's SDGs and related topics as strong evidence for partnerships."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified explicit references to poverty and inequality, with Model B providing a stronger connection to course readings. The score reflects comprehensive evidence from both analyses.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Model B's analysis directly connects course content to hunger issues, while Model A initially overlooked this. The score reflects the explicit mention of hunger in course readings.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models provide reasonable connections to health through environmental topics. The score reflects a moderate relevance based on inferred evidence.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the course's strong emphasis on education for sustainable development, justifying a perfect score.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Both models provide limited evidence for gender equality, with Model B slightly better connecting social inclusion to gender issues. The score reflects minimal relevance.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's connection of plastic waste to water quality is significant. The score reflects a moderate relevance based on inferred evidence.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on energy strategies, with Model B providing a clearer connection. The score reflects strong relevance.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize economic development and innovation, with Model B providing stronger explicit evidence. The score reflects significant relevance.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models address innovation and entrepreneurship, with Model B providing a clearer connection to course content. The score reflects strong relevance.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize inequality discussions, with Model B providing explicit references. The score reflects strong relevance.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight urban sustainability, with Model B providing specific lectures. The score reflects strong relevance.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models address consumption and production topics, with Model B providing comprehensive evidence. The score reflects strong relevance.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize climate change topics, with Model B providing strong explicit evidence. The score reflects high relevance.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect plastic waste to marine pollution, with Model B providing explicit references. The score reflects strong relevance.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models discuss environmental texts relevant to land issues, with Model B providing explicit references. The score reflects moderate relevance.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight governance topics, with Model B providing explicit references. The score reflects strong relevance.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's alignment with UN SDGs, with Model B providing explicit references. The score reflects strong relevance.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers '貧富不均的世界' and includes a reading 'Global Profile of Extreme Poverty and Hunger,' directly addressing poverty eradication (Targets 1.1, 1.2).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 7.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly includes the reading 'Global Profile of Extreme Poverty and Hunger,' directly addressing the issue of hunger (Target 2.1).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "Topics like '全球環境變遷' and '塑膠垃圾' directly relate to environmental pollution, which impacts human health and well-being (Target 3.9).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course itself is an 'Introduction to Sustainable Development,' explicitly aiming to deepen students' understanding of SDGs, directly fulfilling Target 4.7 on education for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 3.0,
+      "source": "revised_a",
+      "reasoning": "The course mentions '社會包容性的問題' (social inclusion), which broadly relates to addressing disparities, including gender equality, though the connection is indirect.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "The topic '塑膠垃圾' (plastic waste) directly relates to water pollution, which is a key aspect of ensuring clean water and sanitation (Target 6.3).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 7.5,
+      "source": "revised_a",
+      "reasoning": "The lecture '國際碳戰略分析' (International Carbon Strategy Analysis) directly addresses energy policies and the transition to clean energy, aligning with Targets 7.2 and 7.a.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers '經濟發展簡史,' '成長的極限,' and integrates '創新創業思維,' directly addressing economic growth, productivity, and sustainable development (Targets 8.1, 8.2, 8.4).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly integrates '創新創業思維及能力' and encourages '創新創業構想,' directly supporting innovation and technological upgrading (Target 9.5).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The course features a dedicated lecture on '貧富不均的世界' (A World of Inequality), directly addressing income and social inequalities (Targets 10.1, 10.2).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "The course includes a dedicated lecture on '永續城市與永續性評估' and a related academic paper, directly addressing sustainable urbanization (Target 11.3).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "Topics like '成長的極限' (Limits to Growth) and '塑膠垃圾' (Plastic Waste) directly address resource use, waste reduction, and sustainable consumption and production patterns (Targets 12.2, 12.5).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers '全球環境變遷' and '國際碳戰略分析,' directly addressing climate change measures and mitigation efforts (Targets 13.2, 13.3).",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "The lecture on '塑膠垃圾' (plastic waste) and its associated reading directly address marine pollution, a critical aspect of Life Below Water (Target 14.1).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 7.0,
+      "source": "revised_a",
+      "reasoning": "The course discusses '全球環境變遷' and includes '《寂靜的春天》,' a foundational text on environmental degradation, directly relating to terrestrial ecosystems and biodiversity (Targets 15.1, 15.5).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers '永續發展和環境治理' and '聯合國與永續發展,' directly addressing the role of institutions and governance in achieving sustainable development (Targets 16.6, 16.7).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The course is centered on the '聯合國推動之永續發展目標(SDGs)' and includes a lecture on '聯合國與永續發展,' inherently emphasizing global partnerships (Target 17.16).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    }
+  }
+}

@@ -1,0 +1,859 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 7.0,
+      "reason": "Links to Target 1.4 ('equal rights to economic resources') via 'ownership and control over land'.",
+      "evidence": [
+        "equal rights to economic resources",
+        "ownership and control over land"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "score": 4.0,
+      "reason": "Inferred link to Target 2.3 ('secure access to land') through land economics.",
+      "evidence": [
+        "land market operation",
+        "land control"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Good Health and Well-being": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 6.0,
+      "reason": "Inferred link to Target 4.7 ('knowledge for sustainable development') through economic analysis.",
+      "evidence": [
+        "economic theory analysis",
+        "land market operation"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 3.0,
+      "reason": "Low relevance; mentions of land ownership could relate to women's rights.",
+      "evidence": [
+        "ownership and control over land"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 5.0,
+      "reason": "Links to Target 8.3 ('support productive activities') via land market analysis.",
+      "evidence": [
+        "productive activities",
+        "land market operation"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 4.0,
+      "reason": "Inferred link to Target 9.2 ('sustainable industrialization') through land use discussions.",
+      "evidence": [
+        "land use",
+        "land market operation"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 2.0,
+      "reason": "Minimal relevance; mentions of land ownership could relate to inequality.",
+      "evidence": [
+        "ownership and control over land"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 6.0,
+      "reason": "Links to Target 11.3 ('sustainable urbanization') via land management topics.",
+      "evidence": [
+        "sustainable urbanization",
+        "land management"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 5.0,
+      "reason": "Links to Target 15.3 ('combat desertification') through land management discussions.",
+      "evidence": [
+        "land management",
+        "land use"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 2.0,
+      "reason": "Minimal relevance; mentions of land ownership relate to governance.",
+      "evidence": [
+        "land ownership",
+        "government intervention"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links found.",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 6.0,
+        "reason": "Analyzes 'Ownership and Control' over land, a key component of Target 1.4, which aims to give the poor equal rights to economic resources and property.",
+        "evidence": [
+          "土地產權意涵",
+          "The Ownership of Land",
+          "Ownership and Control"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 2.0,
+        "reason": "Briefly covers the 'Farmland Market', which relates to Target 2.3 concerning secure and equal access to land for food producers.",
+        "evidence": [
+          "Farmland Market"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 2.5,
+        "reason": "The study of '土地產權意涵' (The Ownership of Land) provides a framework for understanding equal property rights, relevant to Target 5.a, though gender is not explicitly mentioned.",
+        "evidence": [
+          "土地產權意涵",
+          "The Ownership of Land"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 0.5,
+        "reason": "A minimal inferred link exists through 'Zoning and Conservation', which could be a tool to protect water-related ecosystems under Target 6.6.",
+        "evidence": [
+          "Zoning and Conservation"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 5.0,
+        "reason": "Analyzes 'land market operation' and 'Market Inefficiency', which are fundamental to economic productivity and growth, supporting Target 8.2 and 8.3.",
+        "evidence": [
+          "土地市場運作",
+          "How Efficient is the Property Market",
+          "Market Inefficiency: Causes and Consequences"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 6.5,
+        "reason": "Directly addresses 'Site Assembly' and 'Compulsory Purchase', which are critical processes for developing the infrastructure mentioned in Target 9.1.",
+        "evidence": [
+          "Site Assembly",
+          "Compulsory Purchase",
+          "Land Assembly"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 6.0,
+        "reason": "Examines 'Monopoly Ownership' and 'Taxing Land and Buildings', key mechanisms that influence wealth distribution and inequality, linking to Target 10.3 and 10.4.",
+        "evidence": [
+          "Monopoly Ownership and Control",
+          "Taxing Land and Buildings",
+          "Land Ownership, Politics and Society"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 8.5,
+        "reason": "Core topics like 'Controlling the Density of Development' and 'Zoning' are fundamental to sustainable urbanization and settlement planning, as outlined in Target 11.3.",
+        "evidence": [
+          "Controlling the Density of Development",
+          "Zoning and Conservation",
+          "Site Assembly"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 5.5,
+        "reason": "Focuses on the efficient use of land, a key natural resource, through topics like 'How Efficient is the Property Market' and 'Conservation', aligning with Target 12.2.",
+        "evidence": [
+          "How Efficient is the Property Market",
+          "Zoning and Conservation",
+          "Market Inefficiency: Causes and Consequences"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 3.0,
+        "reason": "Discusses tools like 'Zoning' and 'Controlling the Density of Development', which are applicable to integrating climate change measures (Target 13.2) into planning.",
+        "evidence": [
+          "Controlling the Density of Development",
+          "Zoning and Conservation"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 6.0,
+        "reason": "Directly addresses land conservation through 'Zoning and Conservation', which supports the sustainable use of terrestrial ecosystems as per Target 15.1.",
+        "evidence": [
+          "Zoning and Conservation",
+          "Farmland Market"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 6.5,
+        "reason": "Analyzes 'government various干預效果' (government interventions) and '土地產權意涵' (property rights), which are central to the rule of law and strong institutions (Target 16.3, 16.6).",
+        "evidence": [
+          "政府各種干預效果",
+          "土地產權意涵",
+          "Compulsory Purchase"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 5.0,
+        "reason": "Includes the topic 'Taxing Land and Buildings', directly addressing domestic resource mobilization through taxation, a key component of Target 17.1.",
+        "evidence": [
+          "Taxing Land and Buildings"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations and evidence for several SDGs, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 7.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B's score reflects a more cautious interpretation of the evidence."
+      },
+      "Zero Hunger": {
+        "your_original": 4.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B's lower score aligns better with the limited evidence on land access for food producers."
+      },
+      "Quality Education": {
+        "your_original": 6.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Model B correctly identifies no direct links to education in the course text."
+      },
+      "Gender Equality": {
+        "your_original": 3.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B's score better reflects the limited relevance of gender in land ownership discussions."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model B identifies a minimal inferred link through zoning, which I overlooked."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 4.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B's score is justified by explicit references to infrastructure development."
+      },
+      "Reduced Inequalities": {
+        "your_original": 2.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B's score is supported by strong evidence regarding wealth distribution mechanisms."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's score is justified by explicit references to urban planning and zoning."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 1.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B's score reflects a more comprehensive analysis of land use efficiency."
+      },
+      "Climate Action": {
+        "your_original": 1.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B's score acknowledges relevant discussions on zoning and climate integration."
+      },
+      "Life on Land": {
+        "your_original": 5.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B's score is supported by explicit references to land conservation."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 2.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B's score is justified by strong evidence linking land ownership to governance."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's score reflects the importance of taxation in resource mobilization."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provided more precise and explicit links to specific SDG targets, particularly for land-related topics, leading to several upward revisions of my scores.",
+    "revisions": {
+      "Zero Hunger": {
+        "your_original": 4.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A correctly identifies 'Farmland Market' as explicit evidence for Target 2.3, making the link more direct than my general inference."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "No direct or inferable links to health and well-being are present in the course text."
+      },
+      "Quality Education": {
+        "your_original": 6.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The course focuses on land economics, not directly on educational content or access related to SDG 4 targets."
+      },
+      "Gender Equality": {
+        "your_original": 3.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "While gender isn't explicit, 'The Ownership of Land' provides a framework for discussing equal property rights, relevant to Target 5.a."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "'Zoning and Conservation' can indirectly contribute to protecting water-related ecosystems, aligning with Target 6.6."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 4.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Topics like 'Site Assembly' and 'Compulsory Purchase' are explicitly covered and directly support infrastructure development (Target 9.1)."
+      },
+      "Reduced Inequalities": {
+        "your_original": 2.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "'Monopoly Ownership' and 'Taxing Land and Buildings' are explicitly covered, directly addressing wealth distribution and inequality (Targets 10.3, 10.4)."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "'Controlling the Density of Development' and 'Zoning' are explicitly covered and are fundamental to sustainable urbanization and planning (Target 11.3)."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 1.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "The course's focus on 'efficient use of land' and 'conservation' directly aligns with Target 12.2 on sustainable resource management."
+      },
+      "Climate Action": {
+        "your_original": 1.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "'Zoning' and 'Controlling the Density of Development' are land-use tools applicable to integrating climate change measures into planning (Target 13.2)."
+      },
+      "Life on Land": {
+        "your_original": 5.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "'Zoning and Conservation' is explicitly covered, directly supporting the sustainable use of terrestrial ecosystems (Target 15.1)."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 2.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "'Government interventions' and 'property rights' are explicitly covered, directly relating to the rule of law and strong institutions (Targets 16.3, 16.6)."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "'Taxing Land and Buildings' is explicitly covered, directly addressing domestic resource mobilization through taxation (Target 17.1)."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the importance of land ownership in poverty alleviation, but Model B's cautious approach aligns better with the evidence provided in the course material.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's lower score reflects the limited evidence regarding land access for food producers, aligning with the course's focus on land economics.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the lack of evidence linking the course content to health and well-being.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models correctly identify no direct links to education in the course text, aligning with the course's focus on land economics.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the limited relevance of gender in land ownership discussions, supported by explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Model B identifies a minimal inferred link through zoning, which is a relevant consideration in land management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the lack of evidence linking the course content to energy access.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the importance of land market analysis in supporting economic productivity, aligning well with course content.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score is justified by explicit references to infrastructure development, which aligns with course discussions.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score is supported by strong evidence regarding wealth distribution mechanisms, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score is justified by explicit references to urban planning and zoning, which are critical to sustainable development.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "The course's focus on land use efficiency aligns well with Model B's comprehensive analysis of sustainable resource management.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score acknowledges relevant discussions on zoning and climate integration, which are pertinent to the course material.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the lack of evidence linking the course content to marine issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score is supported by explicit references to land conservation, aligning with the course's focus on land management.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Model B's score is justified by strong evidence linking land ownership to governance, aligning with course discussions.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's score reflects the importance of taxation in resource mobilization, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 7.0,
+      "source": "model_a",
+      "reasoning": "The course explicitly covers 'ownership and control over land' and '土地產權意涵', which directly aligns with Target 1.4's focus on equal rights to economic resources and property for the poor.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.0,
+      "source": "revised_a",
+      "reasoning": "The course briefly mentions 'Farmland Market', which is a direct but limited link to Target 2.3 concerning secure access to land for food producers.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no explicit or inferable evidence in the course syllabus that relates to good health and well-being targets.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.0,
+      "source": "revised_a",
+      "reasoning": "While the course is an educational offering, its content does not directly address the specific targets of SDG 4, such as access, equity, or learning outcomes.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 2.5,
+      "source": "revised_a",
+      "reasoning": "The course's discussion of 'The Ownership of Land' provides an inferred link to Target 5.a regarding women's equal rights to land, despite no explicit mention of gender.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.5,
+      "source": "revised_a",
+      "reasoning": "The topic 'Zoning and Conservation' offers a minimal, inferred link to Target 6.6, as zoning can be a tool for protecting water-related ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no explicit or inferable evidence in the course syllabus that relates to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "model_a",
+      "reasoning": "The course's core focus on 'land market operation' and 'Market Inefficiency' directly relates to economic productivity and growth, supporting Targets 8.2 and 8.3.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.5,
+      "source": "revised_a",
+      "reasoning": "Explicit topics like 'Site Assembly', 'Compulsory Purchase', and 'Land Assembly' are fundamental processes for developing quality infrastructure, aligning with Target 9.1.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers 'Monopoly Ownership' and 'Taxing Land and Buildings', which are key mechanisms influencing wealth distribution and inequality, directly supporting Targets 10.3 and 10.4.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "Core topics such as 'Controlling the Density of Development' and 'Zoning and Conservation' are explicitly covered and are fundamental to sustainable urbanization and settlement planning (Target 11.3).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.5,
+      "source": "revised_a",
+      "reasoning": "The course's focus on 'How Efficient is the Property Market' and 'Zoning and Conservation' directly aligns with Target 12.2 on the sustainable management and efficient use of natural resources (land).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 3.0,
+      "source": "revised_a",
+      "reasoning": "Land-use planning tools like 'Zoning' and 'Controlling the Density of Development' can be applied to integrate climate change measures into policies and planning (Target 13.2).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no explicit or inferable evidence in the course syllabus that relates to marine ecosystems or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 6.0,
+      "source": "revised_a",
+      "reasoning": "Explicit topics like 'Zoning and Conservation' and 'Farmland Market' directly support the sustainable use and management of terrestrial ecosystems, aligning with Target 15.1.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers '土地產權意涵' (property rights) and '政府各種干預效果' (government interventions), which are central to the rule of law and strong institutions (Targets 16.3, 16.6).",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "The explicit topic 'Taxing Land and Buildings' directly addresses domestic resource mobilization through taxation, a key component of Target 17.1.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    }
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "As a university course, it provides tertiary education (Target 4.3) and teaches relevant technical skills like 'data analysis' for employment (Target 4.4).",
+        "evidence": [
+          "Course Name: Communication Statistics",
+          "數據分析"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 5.0,
+        "reason": "The course develops 'data analysis' skills, which support technological upgrading and innovation for higher economic productivity and better employment prospects (Target 8.2).",
+        "evidence": [
+          "數據分析",
+          "發展分析策略"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 6.0,
+        "reason": "The course enhances technological capabilities by teaching 'R statistical software operation' and 'data analysis,' which supports scientific research and innovation (Target 9.5).",
+        "evidence": [
+          "R統計軟體操作",
+          "數據分析"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 1.0,
+        "reason": "The course teaches methods to 'analyze... social phenomena,' which could potentially be used to study inequalities (Target 10.2), but this is not a stated focus.",
+        "evidence": [
+          "分析傳播及社會現象"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 0.5,
+        "reason": "Skills to 'analyze... social phenomena' could be applied to promote institutional transparency (Target 16.6), but this is a potential application, not a course topic.",
+        "evidence": [
+          "分析傳播及社會現象"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 8.5,
+        "reason": "The course is centered on statistical capacity-building, teaching 'data analysis' and 'statistical methods,' directly supporting the need for reliable data and measurement (Targets 17.18, 17.19).",
+        "evidence": [
+          "數據分析",
+          "統計方法",
+          "發展分析策略"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is largely consistent with mine, particularly for direct links. I will revise one score for a more conservative assessment of an indirect link.",
+    "revisions": {
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 1.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model A's lower score is more appropriate for a very indirect and potential application of statistical skills, not a direct course focus."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content, focusing on communication statistics, has no direct or indirect relevance to poverty eradication.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content, focusing on communication statistics, has no direct or indirect relevance to hunger or food security.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content, focusing on communication statistics, has no direct or indirect relevance to health and well-being.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "As a university-level course, it directly provides tertiary education (Target 4.3) and equips students with technical skills in data analysis and R programming for employment (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content, focusing on communication statistics, has no direct or indirect relevance to gender equality.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content, focusing on communication statistics, has no direct or indirect relevance to water and sanitation.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content, focusing on communication statistics, has no direct or indirect relevance to energy.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "The course explicitly develops '指標能力' (key capabilities) in data analysis and R software, directly contributing to 'technological upgrading and innovation' for economic productivity (Target 8.2) and 'productive employment' (Target 8.5). Model B's score was too conservative.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "The course directly enhances 'technological capabilities' by teaching 'R統計軟體操作' and '數據分析,' which are fundamental for 'scientific research and innovation' (Target 9.5). Model B's score was slightly conservative.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course teaches methods to 'analyze communication and social phenomena,' which could potentially be applied to study inequalities (Target 10.2), but this is not a stated focus.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content, focusing on communication statistics, has no direct or indirect relevance to sustainable cities and communities.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content, focusing on communication statistics, has no direct or indirect relevance to responsible consumption and production.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content, focusing on communication statistics, has no direct or indirect relevance to climate action.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content, focusing on communication statistics, has no direct or indirect relevance to marine life.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content, focusing on communication statistics, has no direct or indirect relevance to terrestrial ecosystems.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "Skills to 'analyze communication and social phenomena' could be applied to promote institutional transparency (Target 16.6), but this is a potential application, not a direct course topic.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "The course is fundamentally centered on 'statistical capacity-building,' teaching 'data analysis' and 'statistical methods,' which directly supports the need for 'high-quality, timely and reliable data' and 'statistical capacity-building' (Targets 17.18, 17.19). Model B's score was slightly conservative.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

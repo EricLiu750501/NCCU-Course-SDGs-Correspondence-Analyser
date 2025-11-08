@@ -1,0 +1,370 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 9.0,
+        "reason": "As a university course, it provides quality tertiary education (Target 4.3) and develops technical skills in 'digital technology' for employment (Target 4.4).",
+        "evidence": [
+          "Course Name: Data Structures",
+          "理解自然科學與數位科技",
+          "瞭解資訊科技發展趨勢"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 6.0,
+        "reason": "The course develops skills in 'digital technology' and 'innovation', which are key for technological upgrading and achieving higher economic productivity, supporting Target 8.2.",
+        "evidence": [
+          "培養邏輯推理、獨立思考與創新能力",
+          "理解自然科學與數位科技"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 9.5,
+        "reason": "The course is fundamental to 'information technology development' and 'innovation' (Target 9.5), building the technological capabilities required for the modern digital industry.",
+        "evidence": [
+          "瞭解資訊科技發展趨勢",
+          "培養邏輯推理、獨立思考與創新能力",
+          "演算法"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 0.001,
+        "reason": "Dijkstra's algorithm is foundational for sustainable transport systems (Target 11.2), though this application is not explicitly mentioned in the course.",
+        "evidence": [
+          "Dijkstra's algorithm"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 4.0,
+        "reason": "The course focuses on 'efficiently operating data', which contributes to the efficient use of energy and material resources in digital infrastructure, supporting Target 12.2.",
+        "evidence": [
+          "有效率的操作資料"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 2.0,
+        "reason": "Promotes 'professional and ethical responsibility' and 'Respect Copyright', which are minor components supporting the rule of law and strong institutions (Target 16.3, 16.6).",
+        "evidence": [
+          "具有專業及道德責任的認知",
+          "維護智慧財產權"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 1.0,
+        "reason": "Aims to 'cultivate the ability of teamwork' and an 'international perspective,' foundational skills for the partnerships and cooperation mentioned in Targets 17.16 and 17.6.",
+        "evidence": [
+          "培養團隊合作的能力",
+          "具備國際視野"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Revisiting my initial analysis, I found two instances where the inferred connections to SDGs were too weak or not explicitly supported by the course text.",
+    "revisions": {
+      "Sustainable Cities and Communities": {
+        "your_original": 0.001,
+        "model_b_score": 0.001,
+        "your_revised": 0.0,
+        "reason": "The link between Dijkstra's algorithm and sustainable transport is not explicitly mentioned, making the inference too weak."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 0.0,
+        "reason": "Computational efficiency does not directly translate to sustainable management of natural resources (Target 12.2) without explicit context."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course syllabus connects to poverty eradication or related targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course syllabus connects to hunger, food security, or agriculture.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course syllabus connects to health, well-being, or related targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "As a university course, it directly provides tertiary education (Target 4.3) and develops technical skills in digital technology and problem-solving (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course syllabus connects to gender equality or related targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course syllabus connects to water, sanitation, or related targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course syllabus connects to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course fosters innovation and digital technology understanding, contributing to technological upgrading and higher economic productivity (Target 8.2) and decent job creation.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course is fundamental to information technology development, fostering innovation and upgrading technological capabilities in industrial sectors (Target 9.5, 9.c).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course syllabus connects to reducing inequalities or promoting inclusion.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "While Dijkstra's algorithm can apply to transport, the syllabus does not explicitly link it to sustainable transport systems or urban planning, making the inference too weak.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "Computational efficiency, while beneficial, does not directly translate to sustainable management of natural resources (Target 12.2) without explicit context in the syllabus.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course syllabus connects to climate change, adaptation, or mitigation.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course syllabus connects to marine ecosystems or ocean health.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or implicit evidence in the course syllabus connects to terrestrial ecosystems, biodiversity, or land management.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course promotes 'professional and ethical responsibility' and 'Respect Copyright,' which are minor contributions to the rule of law and strong institutions (Target 16.3, 16.6).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course aims to cultivate 'teamwork ability' and an 'international perspective,' foundational skills for global partnerships and cooperation (Target 17.6, 17.16).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

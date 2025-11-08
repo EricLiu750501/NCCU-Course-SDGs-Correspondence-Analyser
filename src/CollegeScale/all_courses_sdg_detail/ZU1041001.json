@@ -1,0 +1,814 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 7.5,
+      "reason": "Links to Target 4.7 ('knowledge and skills for sustainable development') via '科技與社會的互動過程'.",
+      "evidence": [
+        "科技與社會的互動過程",
+        "批判性思考能力"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 8.0,
+      "reason": "Links to Target 5.5 ('women's participation and leadership') via '科技內生的政治、文化與性別特性'.",
+      "evidence": [
+        "科技內生的政治、文化與性別特性",
+        "性別建構"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 7.0,
+      "reason": "Links to Target 7.2 ('increase share of renewable energy') via '光電與生態衝突'.",
+      "evidence": [
+        "光電與生態衝突",
+        "離岸風電"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 6.5,
+      "reason": "Links to Target 9.5 ('enhance scientific research') via '科技與社會的互動過程'.",
+      "evidence": [
+        "科技與社會的互動過程",
+        "技術的社會建構"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 8.5,
+      "reason": "Links to Target 13.2 ('integrate climate change measures') via '氣候變遷與太陽光電'.",
+      "evidence": [
+        "氣候變遷與太陽光電",
+        "離岸風電"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 1.0,
+        "reason": "Tangentially links to Target 2.4 via a reading on 'Solar Energy, Agriculture, and Shorebirds', which discusses land use involving agriculture.",
+        "evidence": [
+          "Assembling Solar Energy, Agriculture, and Shorebirds"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "Directly promotes knowledge for sustainable development (Target 4.7) by analyzing energy transition, climate change, and ecological issues, and lists 'global and regional sustainable development' as a core competence.",
+        "evidence": [
+          "氣候變遷與太陽光電、離岸風電",
+          "全球及區域永續發展之專業"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 8.5,
+        "reason": "Explicitly includes '女性主義科技研究' (feminist studies of technology) and aims to understand '性別建構' (gender construction) in technology, linking to Target 5.c.",
+        "evidence": [
+          "女性主義科技研究",
+          "技術物的設計與操作中的性別建構"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Clean Water and Sanitation": {
+        "score": 1.5,
+        "reason": "A reading mentions 'Wetlands', linking to Target 6.6 (protect water-related ecosystems), but the course's focus is on biodiversity conflict, not water management.",
+        "evidence": [
+          "Coexisting Energy Landscapes with Typhoons and Wetlands"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "score": 10.0,
+        "reason": "Core focus on energy transition, using '太陽光電' (solar photovoltaics) and '離岸風電' (offshore wind power) as key case studies, directly addressing Target 7.2.",
+        "evidence": [
+          "太陽光電、離岸風電",
+          "能源轉型上所面臨的最新議題",
+          "電網與儲能設施"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 0.5,
+        "reason": "Minimally infers a link by discussing the '工程師專業的形成' (formation of the engineering profession), but does not address decent work or economic growth policies.",
+        "evidence": [
+          "工程師專業的形成"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 9.0,
+        "reason": "Highly relevant to Target 9.1 and 9.4 by analyzing '大型技術系統' (large technical systems) like the '美國電網發展' and modern '電網與儲能設施'.",
+        "evidence": [
+          "大型技術系統",
+          "美國電網發展",
+          "電網與儲能設施"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 6.0,
+        "reason": "Addresses Target 10.3 by analyzing how technology embodies '權力關係' (power relations) and includes '女性主義科技研究' to critique gender-based inequalities.",
+        "evidence": [
+          "科技內生的政治、文化與性別特性",
+          "特定價值觀和權力關係的社會媒介",
+          "女性主義科技研究"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 4.5,
+        "reason": "Moderately links to Target 11.3 (sustainable planning) through a case study on '高度現代主義的城市（巴西利亞）' and discussion of urban infrastructure like power grids.",
+        "evidence": [
+          "高度現代主義的城市（巴西利亞）",
+          "美國的電氣化過程"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 4.0,
+        "reason": "Inferred link to Target 12.8 by fostering awareness of sustainable development through critical analysis of technology, energy systems, and their societal impacts.",
+        "evidence": [
+          "科技變遷與社會變動的共構關係",
+          "氣候變遷與太陽光電"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 9.5,
+        "reason": "Explicitly uses '氣候變遷' (climate change) as a key issue for applying course theories, directly supporting Target 13.3 (education and awareness-raising).",
+        "evidence": [
+          "氣候變遷與太陽光電、離岸風電"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life Below Water": {
+        "score": 7.5,
+        "reason": "Directly addresses Target 14.2 by examining the ecological impact of '離岸風電中的白海豚' (white dolphins in offshore wind power).",
+        "evidence": [
+          "離岸風電中的白海豚"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life on Land": {
+        "score": 9.0,
+        "reason": "Highly relevant to Target 15.1 and 15.5, explicitly studying '光電與生態衝突' and '候鳥的生態保育' (ecological conservation of migratory birds) with case studies.",
+        "evidence": [
+          "光電與生態衝突",
+          "候鳥的生態保育",
+          "當光電來到嘉義布袋的鳥世界"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 6.5,
+        "reason": "Links to Target 16.7 by analyzing '專家知識如何介入與操作技術性的公共議題' and the role of public authority, promoting inclusive decision-making.",
+        "evidence": [
+          "專家知識如何介入與操作技術性的公共議題",
+          "公民科學中的專家與常民知識"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 4.0,
+        "reason": "Links to Target 17.16 by discussing '公民科學中的專家與常民知識' (experts and lay knowledge in citizen science), a form of multi-stakeholder knowledge sharing partnership.",
+        "evidence": [
+          "公民科學中的專家與常民知識"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive links to SDGs, particularly in Zero Hunger and Climate Action, warranting revisions in my scores.",
+    "revisions": {
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B's link to agricultural land use is valid."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's emphasis on energy transition aligns better with course focus."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.5,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's analysis of large technical systems is more comprehensive."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B's connection to power relations and gender studies is relevant."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's link to urban planning is justified."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's inference on sustainable practices is valid."
+      },
+      "Climate Action": {
+        "your_original": 8.5,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B's focus on climate change education is more aligned."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's connection to ecological impacts is relevant."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's focus on ecological conservation is pertinent."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B's analysis of public authority involvement is relevant."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's link to citizen science partnerships is valid."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more comprehensive evidence and stronger reasoning for several SDGs, particularly those related to environmental and social justice aspects of technology. My revisions reflect a better alignment with the course text.",
+    "revisions": {
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 1.0,
+        "reason": "Model A correctly identified a tangential link through the 'Solar Energy, Agriculture, and Shorebirds' reading, which mentions agriculture."
+      },
+      "Quality Education": {
+        "your_original": 7.5,
+        "model_b_score": 7.5,
+        "your_revised": 8.0,
+        "reason": "Model A's inclusion of '全球及區域永續發展之專業' as a core competence provides stronger, explicit evidence for Target 4.7."
+      },
+      "Gender Equality": {
+        "your_original": 8.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.5,
+        "reason": "Model A's emphasis on '女性主義科技研究' and '性別建構' more fully captures the explicit focus on gender in the course."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 1.5,
+        "reason": "Model A's inference from 'Wetlands' in a reading, linking to water-related ecosystems, is a valid tangential connection."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 7.0,
+        "model_b_score": 7.0,
+        "your_revised": 10.0,
+        "reason": "Model A's score better reflects the course's explicit and central focus on energy transition, solar, wind power, and grid infrastructure."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.5,
+        "reason": "Model A's minimal inference from '工程師專業的形成' provides a very weak but present link, which I will adopt."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.5,
+        "model_b_score": 6.5,
+        "your_revised": 9.0,
+        "reason": "Model A's evidence, including '大型技術系統' and '電網與儲能設施', is more direct and comprehensive for this SDG."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 6.0,
+        "reason": "Model A correctly identified explicit mentions of '權力關係' and '女性主義科技研究' as strong evidence for addressing inequalities."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.5,
+        "reason": "Model A's use of '高度現代主義的城市（巴西利亞）' and '美國的電氣化過程' provides a moderate, explicit link to urban planning and infrastructure."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.0,
+        "reason": "Model A's inferred link, based on fostering awareness of technology's societal impacts, is reasonable for Target 12.8."
+      },
+      "Climate Action": {
+        "your_original": 8.5,
+        "model_b_score": 8.5,
+        "your_revised": 9.5,
+        "reason": "Model A's higher score better reflects the explicit and central role of '氣候變遷' as a key application area in the course."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 7.5,
+        "reason": "Model A correctly identified the explicit mention of '離岸風電中的白海豚' as direct evidence for marine life protection."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 9.0,
+        "reason": "Model A's evidence, including '光電與生態衝突' and '候鳥的生態保育', is explicit and central to this SDG."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 6.5,
+        "reason": "Model A's reasoning, linking to '專家知識如何介入與操作技術性的公共議題' and '公民科學', is a strong fit for inclusive decision-making."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.0,
+        "reason": "Model A's inference from '公民科學中的專家與常民知識' as a form of multi-stakeholder partnership is a valid connection."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence linking the course content to poverty alleviation, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Model A's revision acknowledges a valid link to agricultural land use, supported by Model B's inference, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence linking the course content to health and well-being, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models provide strong evidence linking the course to sustainable development knowledge, with Model B slightly enhancing the reasoning.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize gender studies and technology, with Model B providing a slightly stronger connection to gender construction.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model A's inference from wetlands is valid, and Model B's revision supports this connection, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's strong focus on energy transition, with Model B's score reflecting this emphasis accurately.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Model A's minimal inference is valid, and Model B's revision acknowledges this, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models provide strong evidence linking the course to infrastructure and innovation, with Model B's revision enhancing the reasoning.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on power relations and gender studies, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models provide valid links to urban planning and infrastructure, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models infer a connection to sustainable practices, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize climate change education as a key course focus, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models provide strong evidence linking the course to marine life protection, justifying a moderate to high score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on ecological conservation, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Both models provide valid links to public authority and decision-making, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models infer a connection to multi-stakeholder partnerships, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus directly addresses poverty eradication, social protection, or economic resources for the poor.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course includes a reading 'Assembling Solar Energy, Agriculture, and Shorebirds', which tangentially links to sustainable agricultural practices (Target 2.4) through its mention of agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence in the syllabus relates to health services, disease prevention, mortality rates, or substance abuse.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly lists '全球及區域永續發展之專業' (global and regional sustainable development expertise) as a core competence and aims to cultivate critical thinking for understanding technology's societal interactions, aligning with Target 4.7.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The syllabus explicitly includes '女性主義科技研究' (feminist technology studies) and aims to understand '性別建構' (gender construction) in technology, directly addressing gender characteristics and inequalities (Target 5.c).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "A course reading mentions 'Wetlands' in the context of energy landscapes, providing a tangential link to protecting water-related ecosystems (Target 6.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course's core focus is on '能源轉型' (energy transition), using '太陽光電' (solar PV) and '離岸風電' (offshore wind power) as central case studies, directly addressing renewable energy (Target 7.2) and sustainable energy infrastructure.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "A minimal inference can be made from the discussion of '工程師專業的形成' (formation of the engineering profession), but it does not directly address decent work, economic growth policies, or labor rights.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course extensively analyzes '大型技術系統' (large technical systems) like '美國電網發展' and modern '電網與儲能設施', directly relevant to resilient infrastructure (Target 9.1) and sustainable industrialization (Target 9.4).",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course examines how technology embodies '權力關係' (power relations) and includes '女性主義科技研究', directly addressing the critique of discriminatory practices and promoting equal opportunity (Target 10.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course includes case studies like '高度現代主義的城市（巴西利亞）' and discussions of '美國的電氣化過程', providing a moderate link to sustainable urbanization and infrastructure planning (Target 11.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "By fostering critical awareness of technology's societal and environmental impacts, the course indirectly contributes to understanding sustainable lifestyles and consumption patterns (Target 12.8).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly uses '氣候變遷' (climate change) as a key application area for STS theories, directly supporting education and awareness-raising on climate change mitigation and adaptation (Target 13.3).",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly examines the ecological impact of '離岸風電中的白海豚' (white dolphins in offshore wind power), directly addressing marine ecosystem protection (Target 14.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly studies '光電與生態衝突' (conflicts between solar power and ecology) and '候鳥的生態保育' (ecological conservation of migratory birds), directly relevant to terrestrial ecosystem conservation and biodiversity (Targets 15.1, 15.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course analyzes '專家知識如何介入與操作技術性的公共議題' and '公民科學中的專家與常民知識', promoting understanding of inclusive and participatory decision-making and accountable institutions (Targets 16.6, 16.7).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The discussion of '公民科學中的專家與常民知識' (experts and lay knowledge in citizen science) implies multi-stakeholder knowledge sharing and collaboration, aligning with Target 17.16.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    }
+  }
+}

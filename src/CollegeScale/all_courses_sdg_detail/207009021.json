@@ -1,0 +1,820 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 1.0,
+      "reason": "Course discusses urban planning's role in economic and social goals, indirectly linking to poverty reduction.",
+      "evidence": [
+        "理解經濟、社會、文化和環境目標",
+        "協助目標達成的工具"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 1.0,
+      "reason": "Course addresses urban environments and management, which can impact public health indirectly.",
+      "evidence": [
+        "都市內環境與管理",
+        "都市環境"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "score": 4.0,
+      "reason": "Course aims to provide knowledge on urban planning, contributing to education goals.",
+      "evidence": [
+        "課程目標主要讓學生瞭解都市的出現、成長與衰頹",
+        "理論與實務兼具的課程"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 1.0,
+      "reason": "Course mentions the need for inclusive urban planning, which can relate to gender equality.",
+      "evidence": [
+        "參與的實踐",
+        "誰是空間使用者?"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 5.0,
+      "reason": "Course discusses urban economic development, linking to decent work and economic growth.",
+      "evidence": [
+        "產業與都市發展",
+        "全球化與都市競爭"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 6.0,
+      "reason": "Course covers urban planning and infrastructure, relevant to industry and innovation.",
+      "evidence": [
+        "都市計畫制度",
+        "都市計畫類型"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 2.0,
+      "reason": "Course emphasizes inclusive urban planning, which can address inequalities.",
+      "evidence": [
+        "多元與土地空間的調和",
+        "參與的實踐"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 9.0,
+      "reason": "Course focuses on urban planning, directly supporting sustainable cities and communities.",
+      "evidence": [
+        "永續的都市思潮",
+        "都市應該扮演的功能"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 1.0,
+      "reason": "Course discusses urban management, which can relate to sustainable consumption.",
+      "evidence": [
+        "都市內環境與管理",
+        "成長的極限與管理"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "score": 7.0,
+      "reason": "Course addresses urban resilience and planning related to climate change.",
+      "evidence": [
+        "韌性規劃概念",
+        "計畫體系之應用"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 2.0,
+      "reason": "Course mentions decision-making processes, linking to governance and justice.",
+      "evidence": [
+        "決策過程",
+        "誰決定了空間使用?"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "score": 3.0,
+      "reason": "Course emphasizes collaboration in urban planning, relevant to partnerships.",
+      "evidence": [
+        "國際規劃思潮",
+        "本土都市計畫系統的整合"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 2.0,
+        "reason": "Inferred link to Target 1.5 (resilience of the poor) through 'Urban resilience and disaster prevention planning' and Target 1.4 (access to basic services) via public facilities planning.",
+        "evidence": [
+          "都市韌性與防災規劃",
+          "Urban resilience and disaster prevention planning",
+          "都市公共設施規劃"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 4.5,
+        "reason": "Connects to Target 3.6 (road safety) via 'Urban transportation planning' and Target 3.9 (reducing pollution) through 'green transportation' and managing the 'Urban environment'.",
+        "evidence": [
+          "都市交通計畫",
+          "綠色運輸課題",
+          "Urban environment"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 6.0,
+        "reason": "The course itself actualizes Target 4.7 by providing education on sustainable development, explicitly covering 'Sustainable cities' and the 'UN 2030 Sustainable Development Agenda'.",
+        "evidence": [
+          "永續都市",
+          "聯合國2030永續發展議程",
+          "Sustainable cities"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 1.0,
+        "reason": "Inferred link to Target 5.5 (participation) through 'Public participation', but gender is not explicitly mentioned as a focus.",
+        "evidence": [
+          "民眾參與",
+          "Public participation"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 2.5,
+        "reason": "Inferred connection as 'Urban public facilities planning' and 'Urban environment' management would typically include water and sanitation infrastructure, though not explicitly stated.",
+        "evidence": [
+          "都市公共設施規劃",
+          "Urban environment"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "score": 4.0,
+        "reason": "Relates to Target 7.3 (energy efficiency) through the topic of 'green transportation' and the broader concept of creating 'Sustainable cities'.",
+        "evidence": [
+          "綠色運輸課題",
+          "green transportation",
+          "永續都市"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 5.0,
+        "reason": "Directly discusses 'Urban economy' and 'Industry and urban development', which are foundational for economic growth and job creation (Targets 8.1, 8.2).",
+        "evidence": [
+          "都市經濟",
+          "產業與都市發展",
+          "Urban economy"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 8.5,
+        "reason": "Highly relevant to Target 9.1 (resilient infrastructure) through dedicated topics on 'Urban transportation planning', 'Urban public facilities planning', and 'Urban resilience'.",
+        "evidence": [
+          "都市交通計畫",
+          "都市公共設施規劃",
+          "都市韌性"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 6.5,
+        "reason": "Directly addresses Target 10.2 (social inclusion) by teaching 'Public participation' and planning for 'barrier-free spaces' to accommodate persons with disabilities.",
+        "evidence": [
+          "民眾參與",
+          "人行道設計與無障礙空間",
+          "Public participation"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about this goal, explicitly covering 'Sustainable cities', 'transportation', 'resilience', and 'participation', aligning with Targets 11.2, 11.3, 11.5, and 11.b.",
+        "evidence": [
+          "永續都市",
+          "都市交通計畫",
+          "都市韌性與防災規劃"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 5.5,
+        "reason": "Connects to Target 12.2 (efficient use of resources) through topics like 'Urban environment' management, 'growth management', and the overall goal of creating 'Sustainable cities'.",
+        "evidence": [
+          "Urban environment",
+          "成長的極限與管理",
+          "Sustainable cities"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 8.0,
+        "reason": "Directly supports Target 13.1 through 'Urban resilience and disaster prevention planning' and Target 13.2 by integrating climate-aware strategies like 'green transportation' into planning.",
+        "evidence": [
+          "都市韌性與防災規劃",
+          "Urban resilience and disaster prevention planning",
+          "綠色運輸課題"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 3.0,
+        "reason": "Connects to Target 15.9 (integrate ecosystem values into planning) through the study of 'Urban environment' and 'Urban land use planning', though not a primary focus.",
+        "evidence": [
+          "都市環境",
+          "Urban environment",
+          "都市土地使用規劃"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 6.0,
+        "reason": "Addresses Target 16.7 (participatory decision-making) through its focus on 'Public participation' and Target 16.6 by studying the 'Urban planning system' as an institution.",
+        "evidence": [
+          "民眾參與",
+          "Public participation",
+          "都市計畫體系"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 6.5,
+        "reason": "Links to Target 17.14 (policy coherence) by explicitly teaching the 'UN 2030 Sustainable Development Agenda' and integrating 'international planning trends' with local systems.",
+        "evidence": [
+          "聯合國2030永續發展議程",
+          "UN 2030 Sustainable Development Agenda",
+          "國際規劃思潮"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more nuanced connections to the course content, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 1.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B highlights urban resilience and public facilities planning, which directly relate to poverty reduction."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B connects urban transportation and pollution management to health outcomes more effectively."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B emphasizes the course's direct alignment with sustainable development education."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B identifies urban planning's implicit role in water and sanitation infrastructure."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B connects green transportation to energy efficiency, which I overlooked."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B identifies connections to ecosystem values in urban planning that I missed."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 2.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B emphasizes participatory decision-making and institutional study more effectively."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 3.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B highlights the integration of international trends with local systems more clearly."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provides more specific and well-supported connections to the course text and SDG targets. I will revise my scores and reasoning for several SDGs to align with Model A's more accurate interpretations.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 1.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A's reasoning is more specific, linking to resilience and public facilities, which can directly impact poverty reduction."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A explicitly links to 'green transportation' and 'urban transportation planning' for road safety and pollution reduction."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model A correctly identifies the course's direct contribution to Target 4.7 through teaching 'Sustainable cities' and the 'UN 2030 Agenda'."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A's inference is reasonable; 'Urban public facilities planning' and 'Urban environment' management typically include water and sanitation."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A correctly links 'green transportation' and 'Sustainable cities' to energy efficiency and clean energy, which I missed."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A provides more comprehensive evidence, directly linking to 'Urban transportation', 'public facilities', and 'resilience' for infrastructure."
+      },
+      "Reduced Inequalities": {
+        "your_original": 2.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model A's reasoning is stronger, citing 'Public participation' and 'barrier-free spaces' as explicit contributions to reducing inequalities."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 9.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "The course is fundamentally about this goal, and Model A's score of 10.0 better reflects its direct and comprehensive alignment."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 1.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model A's reasoning is more robust, linking 'growth management' and 'Sustainable cities' to efficient resource use (Target 12.2)."
+      },
+      "Climate Action": {
+        "your_original": 7.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A's reasoning is more specific, including 'green transportation' as a climate-aware strategy, strengthening the link."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model A makes a reasonable inference that 'Urban environment' and 'land use planning' involve integrating ecosystem values."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 2.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model A's reasoning is much stronger, directly linking to 'Public participation' (Target 16.7) and 'Urban planning system' (Target 16.6)."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 3.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model A's reasoning is more comprehensive, explicitly linking to the 'UN 2030 Agenda' and 'international planning trends' for policy coherence."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight urban resilience and public facilities planning as key factors in poverty reduction, aligning well with course content.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in course content supports any connection to hunger or food security.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models effectively connect urban planning to health outcomes through transportation and pollution management.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's direct contribution to education on sustainable development.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Both models infer connections to gender equality through public participation, but lack explicit focus in course content.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Both models identify urban planning's implicit role in water and sanitation, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect green transportation to energy efficiency, aligning with course themes.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models effectively link urban economic development to job creation and economic growth.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on urban infrastructure and resilience, aligning with SDG targets.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize public participation and barrier-free planning, aligning with course content on inclusivity.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's comprehensive focus on sustainable urban planning, directly aligning with this SDG.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Both models connect urban management to efficient resource use, aligning with course themes.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models effectively link urban resilience and planning to climate action, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in course content supports any connection to marine or aquatic issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Both models identify connections to ecosystem values in urban planning, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize participatory decision-making and institutional study, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the integration of international trends with local systems, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "revised_a",
+      "reasoning": "Model B's original reasoning, adopted by Model A, links urban resilience and public facilities planning to poverty reduction (Targets 1.4, 1.5).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or strong inferred evidence found in the course syllabus for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "Model B's original reasoning, adopted by Model A, effectively connects urban transportation (road safety, green transport) and urban environment management to health outcomes (Targets 3.6, 3.9).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.0,
+      "source": "revised_a",
+      "reasoning": "Model B's original reasoning, adopted by Model A, correctly identifies the course's direct contribution to Target 4.7 by teaching 'Sustainable cities' and the 'UN 2030 Agenda'.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 1.0,
+      "source": "model_a",
+      "reasoning": "Both models infer a weak link through 'public participation' without explicit mention of gender in the syllabus. A low score is appropriate.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 2.5,
+      "source": "revised_a",
+      "reasoning": "Model B's original inference, adopted by Model A, is reasonable, as 'Urban public facilities planning' inherently includes water and sanitation infrastructure.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 4.0,
+      "source": "revised_a",
+      "reasoning": "Model B's original reasoning, adopted by Model A, correctly links 'green transportation' and 'Sustainable cities' to energy efficiency and clean energy (Target 7.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "model_a",
+      "reasoning": "Both models explicitly link to 'Urban economy' and 'Industry and urban development', which are foundational for economic growth and job creation (Targets 8.1, 8.2).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "Model B's original reasoning is stronger, directly linking to 'Urban transportation', 'public facilities', and 'resilience' for infrastructure (Target 9.1). Model A did not revise its lower score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "Model B's original reasoning is stronger, citing 'Public participation' and 'barrier-free spaces' as explicit contributions to reducing inequalities (Target 10.2). Model A did not revise its lower score.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": null,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about this goal, with explicit coverage of 'Sustainable cities', 'transportation', 'resilience', and 'participation', aligning with multiple targets. Model A did not revise its lower score.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "Model B's original reasoning is more robust, linking 'growth management' and 'Sustainable cities' to efficient resource use (Target 12.2). Model A did not revise its lower score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "Model B's original reasoning is more specific, including 'green transportation' and 'urban resilience' as climate-aware strategies (Targets 13.1, 13.2). Model A did not revise its lower score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or strong inferred evidence found in the course syllabus for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 3.0,
+      "source": "revised_a",
+      "reasoning": "Model B's original inference, adopted by Model A, reasonably connects 'Urban environment' and 'land use planning' to integrating ecosystem values (Target 15.9).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.0,
+      "source": "revised_a",
+      "reasoning": "Model B's original reasoning, adopted by Model A, is much stronger, directly linking to 'Public participation' (Target 16.7) and 'Urban planning system' (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.5,
+      "source": "revised_a",
+      "reasoning": "Model B's original reasoning, adopted by Model A, is more comprehensive, explicitly linking to the 'UN 2030 Agenda' and 'international planning trends' for policy coherence (Target 17.14).",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    }
+  }
+}

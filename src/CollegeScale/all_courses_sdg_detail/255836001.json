@@ -1,0 +1,741 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 4.0,
+      "reason": "Discusses income distribution impacts of trade policies, linking to Target 1.4 on economic resources.",
+      "evidence": [
+        "income distribution",
+        "affect the social welfare"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "score": 1.0,
+      "reason": "Minimal relevance; trade policies may indirectly affect food security.",
+      "evidence": [
+        "trade policies"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Good Health and Well-being": {
+      "score": 1.0,
+      "reason": "Minimal relevance; trade policies may impact health indirectly through economic factors.",
+      "evidence": [
+        "affect the social welfare"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course content does not directly address education.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Gender Equality": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct mention of gender issues in trade policies.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 7.0,
+      "reason": "Links to Target 8.3 through discussion of trade policies affecting economic activities.",
+      "evidence": [
+        "trade policies",
+        "affect the prices and quantities of trade"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 4.0,
+      "reason": "Moderate relevance; discusses trade policies impacting industrial growth.",
+      "evidence": [
+        "trade policies",
+        "economic effects"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 4.0,
+      "reason": "Discusses income distribution and trade policies, linking to Target 10.4.",
+      "evidence": [
+        "income distribution",
+        "affect the social welfare"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 1.0,
+      "reason": "Minimal relevance; trade policies may influence consumption patterns.",
+      "evidence": [
+        "trade policies"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "score": 1.0,
+      "reason": "Minimal relevance; trade policies may indirectly affect climate through economic activities.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 1.0,
+      "reason": "Minimal relevance; trade policies may relate to governance issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 5.0,
+      "reason": "Moderate relevance; discusses WTO and international trade agreements.",
+      "evidence": [
+        "world trade organization",
+        "regional trade agreements"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 5.0,
+        "reason": "The course analyzes how trade policy affects \"income distribution\" and \"social welfare,\" which are central to creating pro-poor policy frameworks under Target 1.b.",
+        "evidence": [
+          "income distribution",
+          "social welfare",
+          "trade policies implemented by developing countries"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 4.5,
+        "reason": "The analysis of \"tariffs, quotas, export subsidies\" and the \"world trade system\" directly relates to correcting trade restrictions in agricultural markets, as per Target 2.b.",
+        "evidence": [
+          "tariffs, quotas, export subsidies",
+          "world trade system"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 0.5,
+        "reason": "A discussion of the \"world trade system\" might tangentially cover intellectual property rules (TRIPS) relevant to medicine access (Target 3.b), but this is not a focus.",
+        "evidence": [
+          "world trade system"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 8.5,
+        "reason": "The course fundamentally analyzes how trade policies impact \"domestic production\" and economic growth, directly supporting targets like 8.1 and 8.a (Aid for Trade).",
+        "evidence": [
+          "affect the prices and quantities of trade",
+          "domestic production",
+          "trade policies implemented by developing countries"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 7.5,
+        "reason": "The course examines tools like \"tariffs and quotas\" which are used to shape \"domestic production\" and industrialization strategies, linking to Target 9.2.",
+        "evidence": [
+          "domestic production",
+          "trade policies implemented by developing countries",
+          "Tariffs and Quotas"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 10.0,
+        "reason": "The course explicitly states it analyzes the effects of trade on \"income distribution\" and covers the \"world trade system,\" directly addressing Targets 10.1, 10.4, and 10.a.",
+        "evidence": [
+          "income distribution",
+          "trade policies implemented by developing countries",
+          "The world trade system"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 1.5,
+        "reason": "The course analyzes \"domestic consumption\" and \"domestic production,\" which are foundational to consumption/production patterns, but lacks an explicit link to sustainability (Target 12.a).",
+        "evidence": [
+          "domestic consumption",
+          "domestic production"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 4.0,
+        "reason": "The study of \"export subsidies\" and the \"world trade system\" (WTO) is directly relevant to ongoing negotiations on fisheries subsidies mentioned in Target 14.6.",
+        "evidence": [
+          "export subsidies",
+          "The world trade system"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 7.0,
+        "reason": "The course analyzes the \"world trade system\" and \"WTO,\" key institutions of global governance, and discusses participation of developing countries, linking to Targets 16.6 and 16.8.",
+        "evidence": [
+          "The world trade system",
+          "WTO",
+          "The political economy of trade policy"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about the \"world trade system\" and \"WTO,\" directly addressing Target 17.10 (multilateral trading system) and related trade and development targets.",
+        "evidence": [
+          "The world trade system",
+          "WTO",
+          "regional free trade agreement (FTA)"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides a more comprehensive understanding of trade policy impacts, particularly on poverty and inequalities.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B highlights the direct link to pro-poor policy frameworks, aligning better with course content."
+      },
+      "Zero Hunger": {
+        "your_original": 1.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B connects trade policies to agricultural market corrections, which is more relevant."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model B's lower score reflects the minimal relevance of trade policies to health."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 7.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B emphasizes the impact of trade on domestic production, justifying a higher score."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 4.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's focus on tariffs and quotas better captures the course's industrialization discussions."
+      },
+      "Reduced Inequalities": {
+        "your_original": 4.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B accurately reflects the course's emphasis on income distribution and trade's role."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 1.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B's score acknowledges the relevance of domestic consumption and production."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 1.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B's analysis of the WTO's role in governance aligns with course content."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 5.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's focus on the WTO and trade agreements is more aligned with course objectives."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "No revisions needed. Model B's analysis often underestimates the direct relevance of trade policy to specific SDG targets, particularly regarding income distribution, global institutions, and trade tools.",
+    "revisions": {}
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the link between trade policy and income distribution, but Model B's emphasis on pro-poor frameworks aligns better with course content.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's connection of trade policies to agricultural market corrections is more relevant, reflecting course discussions on tariffs and quotas.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Both models agree on minimal relevance; trade policies have limited direct impact on health outcomes.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence linking trade policy to education, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in course content linking trade policy to gender issues, as noted by both models.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence connecting trade policy to water and sanitation issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in course content linking trade policy to energy issues, as both models indicate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the impact of trade policies on economic growth, with Model B providing a stronger justification based on domestic production.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on tariffs and quotas aligns well with course discussions on industrialization, justifying a higher score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Model B accurately reflects the course's emphasis on income distribution and trade's role, justifying a perfect score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in course content linking trade policy to urban sustainability, as both models indicate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model B's acknowledgment of domestic consumption and production relevance justifies a higher score than Model A.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence connecting trade policy to climate action, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Model B's connection of trade policies to fisheries subsidies aligns with course discussions, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in course content linking trade policy to land issues, as both models indicate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the relevance of trade policy to governance, with Model B providing a stronger justification based on the WTO's role.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's focus on the WTO and trade agreements, justifying a perfect score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "The course explicitly discusses 'income distribution' and 'social welfare' impacts of trade policies, directly linking to Target 1.b on pro-poor policy frameworks and trade policies for developing countries.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "The course's focus on 'tariffs, quotas, export subsidies' and the 'world trade system' directly relates to Target 2.b concerning trade restrictions and distortions in world agricultural markets.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "The 'world trade system' and WTO rules, covered in the course, tangentially relate to intellectual property rights (TRIPS) and access to medicines (Target 3.b), but it's not a primary focus.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence in the course syllabus directly relates to quality education.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence in the course syllabus directly relates to gender equality.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "The course fundamentally analyzes how trade policies impact 'domestic production,' 'prices and quantities of trade,' and 'economic effects,' directly supporting economic growth (Target 8.1) and productive activities (Target 8.3).",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "The course examines trade policy tools like 'tariffs and quotas' and their impact on 'domestic production,' which are central to industrialization strategies and Target 9.2.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course explicitly states it will analyze the effects of trade on 'income distribution,' making it highly relevant to Targets 10.1 and 10.4. Discussion of the 'world trade system' also links to Target 10.a.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "The course analyzes 'domestic consumption' and 'domestic production,' which are foundational elements influencing consumption/production patterns, even without explicit mention of sustainability.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence in the course syllabus directly relates to climate action.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "The course's discussion of 'export subsidies' and the 'world trade system' (WTO) is directly relevant to Target 14.6 on prohibiting harmful fisheries subsidies.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "The course analyzes the 'world trade system' and 'WTO rules,' which are key institutions of global governance, directly linking to Targets 16.6 and 16.8 on effective institutions and participation in global governance.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course is fundamentally about the 'world trade system,' 'WTO rules,' and 'regional trade agreements,' directly addressing Target 17.10 on promoting a universal, rules-based multilateral trading system.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

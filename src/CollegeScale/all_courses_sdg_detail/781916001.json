@@ -1,0 +1,353 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 8.5,
+        "reason": "The course provides tertiary education (Target 4.3) and teaches technical skills like \"Arduino programming\" and \"3D printing\" for employment and entrepreneurship (Target 4.4).",
+        "evidence": [
+          "Implementation of Digital Content and Technologies",
+          "Arduino programming",
+          "3D printing"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 1.0,
+        "reason": "The course teaches \"Arduino programming\" and \"Unity,\" which can be considered enabling technologies under Target 5.b, but does not explicitly address gender equality.",
+        "evidence": [
+          "Arduino programming",
+          "Unity and XR"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 8.0,
+        "reason": "Promotes innovation and technological upgrading (Target 8.2) by teaching \"prototyping techniques,\" \"Arduino programming,\" and \"3D printing,\" fostering skills for entrepreneurship and decent jobs (Target 8.3).",
+        "evidence": [
+          "prototyping techniques in human-computer interaction (HCI)",
+          "Arduino programming",
+          "3D printing"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about fostering innovation and upgrading technological capabilities (Target 9.5) through \"prototyping techniques,\" \"Arduino programming,\" \"3D printing,\" and \"Unity and XR.\"",
+        "evidence": [
+          "prototyping techniques in human-computer interaction (HCI)",
+          "具備科技研發與系統開發能力",
+          "3D printing"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 2.0,
+        "reason": "Promotes inclusion by having students cooperate with \"team members from different academic backgrounds,\" which weakly relates to Target 10.2, but doesn't address broader societal inequalities.",
+        "evidence": [
+          "Cooperating, communicating and associating with team members from different academic backgrounds"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 4.0,
+        "reason": "Teaches \"3D printing\" and \"prototyping techniques,\" which can contribute to reducing waste generation (Target 12.5) and achieving more efficient use of resources in production (Target 12.2).",
+        "evidence": [
+          "prototyping techniques",
+          "3D printing"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Partnerships for the Goals": {
+        "score": 5.0,
+        "reason": "Enhances knowledge sharing in technology (Target 17.6) and promotes collaboration through \"team members from different academic backgrounds,\" reflecting partnership principles (Target 17.17).",
+        "evidence": [
+          "Cooperating, communicating and associating with team members from different academic backgrounds",
+          "具備團隊合作力",
+          "Implementation of Digital Content and Technologies"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Upon review, my initial analysis contained some overly inferred connections. I am revising scores for SDGs where the course text does not provide direct or strong enough evidence.",
+    "revisions": {
+      "SDG_5 (Gender Equality)": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 0.0,
+        "reason": "The course teaches technology but lacks explicit content on gender equality or empowering women/girls, making the previous inference too weak."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 2.0,
+        "model_b_score": 2.0,
+        "your_revised": 0.0,
+        "reason": "Teamwork across academic backgrounds is not sufficient evidence for addressing broader societal inequalities as defined by SDG 10."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 0.0,
+        "reason": "While 3D printing and prototyping can be used for efficiency, the course doesn't explicitly teach responsible consumption or production practices."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 5.0,
+        "model_b_score": 5.0,
+        "your_revised": 0.0,
+        "reason": "Internal team collaboration does not align with the broader, multi-stakeholder, and international partnerships envisioned by SDG 17."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus provides no explicit or implicit evidence related to poverty eradication, social protection, or economic resources for the poor.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no mention in the course content about food security, nutrition, sustainable agriculture, or ending hunger.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus does not contain any information related to health services, disease prevention, mental health, or well-being.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "As a university course, it directly provides tertiary education (Target 4.3). It also teaches technical skills like Arduino, 3D printing, and Unity, which are relevant for employment and entrepreneurship (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "While the course teaches technology, it lacks explicit content or framing related to gender equality, women's empowerment, or addressing discrimination, making the connection to SDG 5 too weak.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the syllabus pertains to water quality, sanitation, water management, or related infrastructure.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course does not cover topics related to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course promotes technological upgrading and innovation through prototyping, Arduino, and 3D printing (Target 8.2). Its project-oriented nature fosters creativity and skills for entrepreneurship and decent jobs (Target 8.3).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course's core focus on prototyping techniques, Arduino, 3D printing, Unity, and developing 'technology R&D and system development capabilities' directly aligns with enhancing scientific research and innovation (Target 9.5).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "While the course promotes teamwork across academic backgrounds, this internal collaboration does not address the broader societal, economic, or political inequalities defined by SDG 10.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus lacks content related to urban planning, housing, transport, heritage, or disaster resilience in cities.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "Although 3D printing and prototyping can be used for efficiency, the course does not explicitly teach responsible consumption, waste reduction, or sustainable production practices as defined by SDG 12.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the course description or topics that relates to climate change mitigation, adaptation, or awareness.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content does not address marine ecosystems, pollution, ocean health, or sustainable fisheries.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No information in the syllabus relates to terrestrial ecosystems, biodiversity, forests, or land degradation.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course does not cover topics related to peace, justice, rule of law, or institutional development.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "While the course emphasizes internal team collaboration, SDG 17 refers to global, multi-stakeholder, and international partnerships for sustainable development, which is not explicitly addressed by the course content.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": 0.0
+      }
+    }
+  }
+}

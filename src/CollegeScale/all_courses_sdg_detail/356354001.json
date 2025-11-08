@@ -1,0 +1,348 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 7.5,
+        "reason": "The course provides quality tertiary education and technical skills for employment, aligning with Targets 4.3 and 4.4. It also mentions securing 'remote teaching'.",
+        "evidence": [
+          "IT-related problem analysis, solving, and decision-making ability",
+          "遠距教學及辦公",
+          "Risk Management and Applications for Information Security"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 1.0,
+        "reason": "Inferred link to Target 5.b. Information security is a prerequisite for the safe use of ICT, which can be used to empower women.",
+        "evidence": [
+          "資訊安全的重要性在現今社會日益上升",
+          "數位科技安全風險治理與應用"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 6.5,
+        "reason": "The course provides skills for high-value jobs in information security, supporting technological upgrading and economic productivity as per Target 8.2.",
+        "evidence": [
+          "企業如何實踐資訊安全",
+          "資訊科技之整用與經營管理創新能力",
+          "IT-related problem analysis, solving, and decision-making ability"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 9.5,
+        "reason": "The course focuses on securing digital infrastructure, including 'industrial control systems' and cloud services, directly supporting Target 9.1's goal of resilient infrastructure.",
+        "evidence": [
+          "工業控制系統資安之挑戰",
+          "資安韌性及危機處理",
+          "雲端發展趨勢與資安控管"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 0.5,
+        "reason": "A secure digital environment, which this course promotes, is an inferred prerequisite for digital inclusion (Target 10.2), but the link is not directly addressed.",
+        "evidence": [
+          "數位科技安全風險治理與應用"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 4.5,
+        "reason": "The course's focus on 'information security resilience and crisis management' and 'industrial control system security' contributes to building resilient infrastructure against disasters (Target 11.b).",
+        "evidence": [
+          "資安韌性及危機處理",
+          "實作工作坊－資安危機應變演練",
+          "工業控制系統資安之挑戰"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Responsible Consumption and Production": {
+        "score": 2.0,
+        "reason": "The course lists 'Social responsibility' as a core competence, which can be linked to Target 12.6's call for companies to adopt sustainable practices.",
+        "evidence": [
+          "企業社會責任(Social responsibility)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 9.0,
+        "reason": "The course directly addresses Targets 16.3 and 16.10 by covering 'Information security laws and regulations' and 'Privacy protection management', crucial for justice and strong institutions.",
+        "evidence": [
+          "資訊安全法令法規與趨勢",
+          "隱私保護管理準則與實務探討",
+          "數位身分(Digital Identity)風險與挑戰"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 5.5,
+        "reason": "The course promotes knowledge sharing on 'international information security trends' (Target 17.6) and involves industry experts, fostering university-industry partnerships (Target 17.17).",
+        "evidence": [
+          "國際資安趨勢",
+          "了解現今企業如何實踐資訊安全",
+          "業師講授"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is largely accurate, but I find the inferred links for Gender Equality and Reduced Inequalities to be too indirect for scoring.",
+    "revisions": {
+      "SDG_5 (Gender Equality)": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The link between information security and gender equality is too indirect and not explicitly addressed in the course content."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 0.5,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The course's focus on security does not directly address digital inclusion or reducing inequalities in access to technology."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content focuses on digital technology and information security, with no explicit or implicit connection to poverty eradication or related targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus contains no information related to food security, agriculture, or ending hunger.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the course description or schedule that links to health services, disease prevention, or well-being.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course is a master's level program, directly contributing to tertiary education (Target 4.3) and developing technical skills for employment in IT security (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "While information security is vital for safe ICT use, the course does not explicitly address gender-specific issues, women's empowerment through technology, or gender disparities.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content does not relate to water quality, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no mention of energy access, renewable energy, or energy efficiency in the course materials.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course equips students with high-value information security skills, supporting technological upgrading and innovation in businesses, aligning with Target 8.2 for economic productivity.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course directly addresses securing digital infrastructure, including cloud services and industrial control systems, contributing to resilient infrastructure (Target 9.1) and technological capabilities (Target 9.5).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The course's focus on information security does not directly address digital inclusion, income inequality, or other forms of social, economic, or political inequalities.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course's emphasis on 'information security resilience and crisis management' and 'industrial control system security' contributes to building resilient infrastructure against disasters, relevant to Target 11.b.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course lists 'Social responsibility' as a core competence, which broadly aligns with encouraging companies to adopt sustainable practices (Target 12.6).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus does not contain any content related to climate change mitigation, adaptation, or awareness.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the course description or schedule that relates to marine ecosystems or ocean health.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content does not relate to terrestrial ecosystems, biodiversity, or sustainable land use.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course directly covers 'Information security laws and regulations' (Target 16.3) and 'Privacy protection management' and 'Digital Identity' (Target 16.10), which are crucial for rule of law and transparent institutions.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course promotes knowledge sharing on 'international information security trends' (Target 17.6) and involves 'industry experts' (業師講授), fostering university-industry partnerships (Target 17.17).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

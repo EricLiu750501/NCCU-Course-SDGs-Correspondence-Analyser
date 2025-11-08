@@ -1,0 +1,346 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 2.0,
+        "reason": "The course provides knowledge on financial systems and personal investment, which can improve access to financial services, indirectly supporting Target 1.4.",
+        "evidence": [
+          "金融制度與個人投資理財的基本概念",
+          "Financing, Portfolio choosing and Living"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "As a university course, it directly provides tertiary education (Target 4.3) and financial skills relevant for employment and entrepreneurship (Target 4.4).",
+        "evidence": [
+          "Course Name: Financing, Portfolio choosing and Living",
+          "Type of Credit: Elective",
+          "養成自主與終身學習的態度與策略"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 1.5,
+        "reason": "The course on financial literacy can empower all individuals, including women, to gain better access to and control over economic resources and financial services (Target 5.a).",
+        "evidence": [
+          "個人投資理財的基本概念",
+          "金融制度"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 9.0,
+        "reason": "The course is centered on 'Finance and Economy' and 'Financial Intermediaries,' crucial for economic growth and expanding access to financial services for all (Targets 8.1, 8.10).",
+        "evidence": [
+          "金融與經濟",
+          "金融中介機構",
+          "金融制度是否健全"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 8.5,
+        "reason": "The course covers capital markets (stocks, bonds) and financial intermediaries, which are the primary mechanisms for financing industry and infrastructure development (Targets 9.1, 9.3).",
+        "evidence": [
+          "資本市場(一) 股票市場",
+          "資本市場(二) 債券市場",
+          "金融中介機構"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 4.5,
+        "reason": "The course evaluates government financial systems and global financial markets, relating to the improved regulation and monitoring needed to achieve greater equality (Target 10.5).",
+        "evidence": [
+          "探討及評估政府的各項金融制度",
+          "認識政府所扮演的財金角色"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 5.0,
+        "reason": "The course's focus on a 'sound financial system' and government regulation directly supports the development of effective, accountable, and transparent institutions (Target 16.6).",
+        "evidence": [
+          "金融制度是否健全",
+          "探討及評估政府的各項金融制度",
+          "金融中介機構"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 6.0,
+        "reason": "The course enhances understanding of global macroeconomic stability (Target 17.13) by analyzing international financial markets, such as the 'Foreign Exchange Market' and central bank policies.",
+        "evidence": [
+          "外匯市場",
+          "美國及我國中央銀行今年已多次調升利率",
+          "增強自己財金的國際觀與判斷力"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model B's analysis largely aligns with the original, but some indirect links to specific SDGs were overscored without explicit textual support.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 2.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The course focuses on personal investment, not direct poverty eradication or access to basic services for the poor."
+      },
+      "SDG_5 (Gender Equality)": {
+        "your_original": 1.5,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "No explicit mention of gender or women's empowerment in the course text to support this link."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "The course provides financial literacy and understanding of financial systems, which can indirectly improve individuals' access to and management of economic resources, aligning with aspects of Target 1.4.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is entirely focused on finance and economics, with no mention of hunger, food security, agriculture, or related topics.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses exclusively on financial concepts and markets, with no discernible connection to health, well-being, or healthcare services.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "As a university course, it directly provides tertiary education (Target 4.3) and equips students with financial knowledge and analytical skills relevant for employment and entrepreneurship (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The course syllabus contains no explicit mention of gender, women's empowerment, or addressing gender disparities in financial access or economic resources.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is exclusively focused on finance and economics, with no connection to water resources, sanitation, or environmental quality.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on financial markets and economic principles, without any reference to energy, clean energy, or energy access.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course directly addresses financial systems, economic growth, and the role of financial institutions, which are crucial for sustaining economic growth and expanding access to financial services (Targets 8.1, 8.10).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course covers capital markets (stocks, bonds) and financial intermediaries, which are essential mechanisms for financing industry and infrastructure development and increasing access to financial services for enterprises (Targets 9.1, 9.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course examines government financial systems and market regulation, directly supporting Target 10.5 on improving the regulation and monitoring of global financial markets and institutions to reduce inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is focused on financial markets and personal investment, with no explicit or implicit connection to sustainable cities or communities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on financial mechanisms and personal investment, without addressing responsible consumption, production patterns, or resource management from an environmental perspective.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is centered on finance and economics, with no explicit or implicit discussion of climate change or climate action.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on financial markets and economic principles, with no connection to marine ecosystems or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is entirely focused on finance and economics, with no discernible connection to terrestrial ecosystems or biodiversity.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course's emphasis on a 'sound financial system' and government regulation directly supports the development of effective, accountable, and transparent institutions (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course enhances understanding of global macroeconomic stability (Target 17.13) by analyzing international financial markets and central bank policies, fostering an international financial perspective.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

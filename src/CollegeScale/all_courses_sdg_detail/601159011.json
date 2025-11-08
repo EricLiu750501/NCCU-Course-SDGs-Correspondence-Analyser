@@ -1,0 +1,739 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 4.0,
+      "reason": "Course focuses on legal education, relevant to Target 4.3 ('equal access to education').",
+      "evidence": [
+        "法律二甲、法律二乙、法律二丙",
+        "必修"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 6.0,
+      "reason": "Course covers legal principles, relevant to Target 16.3 ('promote the rule of law').",
+      "evidence": [
+        "法律上義務",
+        "侵權行為"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 4.0,
+        "reason": "The course covers legal protection for property rights, including \"所有權\" (ownership) and \"繼承權\" (inheritance rights), which are fundamental to Target 1.4 regarding equal rights to economic resources.",
+        "evidence": [
+          "所有權",
+          "繼承權",
+          "物權"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 5.0,
+        "reason": "The course explicitly discusses torts against \"身體權\" (right to physical integrity) and \"健康權\" (right to health), providing legal remedies for harm, which supports well-being.",
+        "evidence": [
+          "身體權",
+          "健康權",
+          "甲被乙毆傷，導致右手骨折"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Gender Equality": {
+        "score": 2.0,
+        "reason": "The legal principles of property and \"繼承權\" (inheritance rights) are foundational for Target 5.a (equal rights to economic resources), though gender is not an explicit focus.",
+        "evidence": [
+          "繼承權",
+          "配偶權",
+          "貞操權"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 3.0,
+        "reason": "The course's protection of \"營業權\" (business rights) and remedies for \"收入的損失\" (loss of income) support a stable economic environment for businesses and workers (Target 8.3).",
+        "evidence": [
+          "營業權",
+          "信用權",
+          "收入的損失"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 6.0,
+        "reason": "The course explicitly covers the protection of \"智慧財產權\" (Intellectual Property Rights), which is crucial for encouraging innovation as outlined in Target 9.b.",
+        "evidence": [
+          "智慧財產權",
+          "著作人格權",
+          "維護智慧財產權"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 5.0,
+        "reason": "The course teaches a core part of civil law, a framework designed to provide equal access to justice and remedy for all, directly supporting Target 10.3.",
+        "evidence": [
+          "侵權行為",
+          "不當得利",
+          "民法債編總論"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 1.0,
+        "reason": "The course provides a legal framework for protecting property, including \"房屋\" (houses), which is a basic component of housing mentioned in Target 11.1.",
+        "evidence": [
+          "甲之房屋被乙嚴重毀損",
+          "甲之自用轎車被乙撞傷"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about civil law, covering \"侵權行為\" (torts) and legal remedies. This directly teaches the mechanisms for rule of law and access to justice (Target 16.3).",
+        "evidence": [
+          "侵權行為",
+          "不當得利",
+          "違反保護他人之法律"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations based on course content, particularly in areas of legal rights and protections.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B highlights legal protections for property rights, aligning with Target 1.4."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B identifies explicit discussions on rights to health and physical integrity."
+      },
+      "Gender Equality": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B connects inheritance rights to gender equality, relevant to Target 5.a."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B's focus on business rights supports economic stability, relevant to Target 8.3."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B emphasizes intellectual property rights, crucial for innovation."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's interpretation of civil law's role in justice aligns with Target 10.3."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B connects property protection to housing rights, relevant to Target 11.1."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 6.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's comprehensive coverage of civil law supports Target 16.3 more effectively."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis is significantly more thorough, identifying numerous explicit and inferred links to SDGs that I initially missed. Its reasoning is consistently well-supported by the course text.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.0,
+        "reason": "Model A correctly identified the course's coverage of property and inheritance rights as relevant to economic resources (Target 1.4)."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 5.0,
+        "reason": "Model A accurately highlighted explicit mentions of '身體權' and '健康權' under torts, directly supporting well-being."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 0.0,
+        "reason": "My initial reasoning was weak; the course content doesn't directly address SDG 4 targets, making Model A's implicit 0.0 more accurate."
+      },
+      "Gender Equality": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 2.0,
+        "reason": "Model A's connection to '繼承權' and '配偶權' provides a valid, albeit indirect, link to equal rights (Target 5.a)."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 3.0,
+        "reason": "Model A correctly identified the protection of '營業權' and remedies for '收入的損失' as supporting economic stability (Target 8.3)."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 6.0,
+        "reason": "Model A explicitly pointed to '智慧財產權' and '著作人格權', which are crucial for innovation (Target 9.b)."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 5.0,
+        "reason": "Model A's reasoning that civil law provides a framework for equal access to justice and remedy aligns with Target 10.3."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 1.0,
+        "reason": "Model A's mention of property protection, including '房屋', offers a very indirect but present link to housing (Target 11.1)."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 10.0,
+        "reason": "Model A's higher score better reflects the course's fundamental role in teaching civil law, rule of law, and access to justice (Target 16.3)."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified legal protections for property rights, aligning with Target 1.4. The revised scores reflect a consensus on the importance of these rights in addressing poverty.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no relevant evidence in the course content related to hunger or food security.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized explicit discussions on health rights, particularly '身體權' and '健康權', which directly support well-being.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course content does not directly address SDG 4 targets, aligning with Model A's original assessment.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's reasoning about inheritance rights provides a valid link to gender equality, though not explicitly focused on gender.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no relevant evidence in the course content related to water and sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no relevant evidence in the course content related to energy.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified the course's focus on business rights and income loss, supporting economic stability.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the importance of intellectual property rights in fostering innovation, aligning with Target 9.b.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlighted the course's role in providing equal access to justice, aligning with Target 10.3.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified a very indirect link to housing rights through property protection.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no relevant evidence in the course content related to consumption and production.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no relevant evidence in the course content related to climate action.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no relevant evidence in the course content related to marine life.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no relevant evidence in the course content related to terrestrial ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the course's comprehensive coverage of civil law, directly supporting Target 16.3.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no relevant evidence in the course content related to partnerships.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course covers legal protections for property rights (ownership, real rights) and inheritance, which are fundamental to ensuring equal rights to economic resources, as per Target 1.4.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course content, focusing on civil law obligations, has no direct or indirect relevance to food security, nutrition, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers torts against '身體權' (physical integrity) and '健康權' (health), providing legal mechanisms for redress when these rights are violated, directly supporting well-being.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "While the course is part of an educational curriculum, its content does not directly address the targets of SDG 4, which focus on ensuring inclusive, equitable, and quality education for all.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course covers legal concepts like '繼承權' (inheritance rights) and '配偶權' (spousal rights), which are foundational for ensuring women's equal rights to economic resources and property, aligning with Target 5.a.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course content, focusing on civil law obligations, has no direct or indirect relevance to clean water, sanitation, or water resource management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course content, focusing on civil law obligations, has no direct or indirect relevance to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course covers legal protections for '營業權' (business rights) and provides remedies for '收入的損失' (loss of income) due to torts, which indirectly supports a stable economic environment for productive activities and decent work (Target 8.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers the protection of '智慧財產權' (Intellectual Property Rights) and '著作人格權', which are crucial legal frameworks for fostering innovation and technological upgrading, directly supporting Target 9.b.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course teaches fundamental civil law principles (torts, unjust enrichment) that provide a framework for equal access to justice and remedies, thereby contributing to reducing inequalities of outcome by protecting individual rights (Target 10.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course covers legal protections for property, including '房屋' (houses), which, while indirect, forms a foundational legal aspect related to secure housing within communities (Target 11.1).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course content, focusing on civil law obligations, has no direct or indirect relevance to responsible consumption and production patterns.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course content, focusing on civil law obligations, has no direct or indirect relevance to climate action.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course content, focusing on civil law obligations, has no direct or indirect relevance to marine life or ocean conservation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course content, focusing on civil law obligations, has no direct or indirect relevance to terrestrial ecosystems or biodiversity.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about civil law, covering torts, unjust enrichment, and management without mandate, which are core legal mechanisms for promoting the rule of law and ensuring access to justice for all (Target 16.3).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course content, focusing on domestic civil law, has no direct or indirect relevance to global partnerships, financing, or technology transfer for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 3.0,
+        "reason": "The course's focus on 'tax fairness' and 'ability-to-pay' principles relates to creating pro-poor fiscal policy frameworks, as mentioned in Target 1.b.",
+        "evidence": [
+          "量能課稅作為租稅公平原則之一",
+          "量能課稅作為租稅公平原則之二"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 2.0,
+        "reason": "As a university course, it provides tertiary education and skills for employment, contributing to Targets 4.3 and 4.4.",
+        "evidence": [
+          "培養學生運用租稅法之基本能力",
+          "未來從事法律專業工作也能有更多選擇"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 4.0,
+        "reason": "The course prepares students for 'legal professional work' and national exams, contributing to decent job creation and economic formalization (Targets 8.3, 8.5).",
+        "evidence": [
+          "對參加國家相關考試有所助益",
+          "未來從事法律專業工作也能有更多選擇"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Reduced Inequalities": {
+        "score": 8.5,
+        "reason": "Directly addresses Target 10.4 (fiscal policies for equality) through its focus on 'ability-to-pay principle as a principle of tax fairness'.",
+        "evidence": [
+          "量能課稅作為租稅公平原則之一",
+          "量能課稅作為租稅公平原則之二"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "Core to the course, which focuses on the rule of law ('租稅法律主義') and access to justice ('稅務救濟'), essential for strong institutions (Targets 16.3, 16.6).",
+        "evidence": [
+          "租稅法律主義之一",
+          "稅務救濟",
+          "對租稅法制建構及改革之認識與省思能力"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about the legal framework for taxation, which is the primary mechanism for domestic resource mobilization, directly supporting Target 17.1.",
+        "evidence": [
+          "科目名稱：租稅法",
+          "Course Name: Taxation Law",
+          "培養學生對租稅法體系之基本認識"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is largely accurate, with strong justifications for most SDGs. However, the connection to No Poverty is somewhat indirect.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 3.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "While tax fairness is foundational, the course doesn't explicitly link 'ability-to-pay' to pro-poor fiscal policy frameworks or poverty eradication."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "revised_b",
+      "reasoning": "While tax fairness can indirectly support pro-poor policies, the course syllabus does not explicitly link 'ability-to-pay' principles to poverty eradication or specific pro-poor fiscal frameworks.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to zero hunger.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to health and well-being.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "As a university course, it inherently provides tertiary education and skills for professional work, aligning with Targets 4.3 and 4.4.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to gender equality.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to clean water and sanitation.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly aims to prepare students for 'legal professional work' and national exams, directly contributing to decent job creation (Target 8.5).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to industry, innovation, or infrastructure.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'ability-to-pay as a principle of tax fairness' directly addresses fiscal policies for achieving greater equality (Target 10.4).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to sustainable cities and communities.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to responsible consumption and production.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to climate action.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to life below water.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course syllabus relates to life on land.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about 'Taxation Law,' covering 'rule of tax law' and 'tax relief,' which are core to promoting the rule of law and strong institutions (Targets 16.3, 16.6).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The entire course on 'Taxation Law' directly addresses domestic resource mobilization, which is the primary mechanism for achieving Target 17.1.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

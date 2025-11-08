@@ -1,0 +1,369 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.0,
+        "reason": "The course teaches 'estimation' and 'hypothesis testing', which are foundational tools for measuring poverty and evaluating pro-poor policies, though not explicitly mentioned. Inferred link to Target 1.2.",
+        "evidence": [
+          "estimation",
+          "hypothesis testing"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 1.0,
+        "reason": "Statistical methods like 'forecasting' and 'regression models' are essential for analyzing agricultural productivity (Target 2.3), but the course does not cover this specific application.",
+        "evidence": [
+          "forecasting",
+          "regression models"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 1.0,
+        "reason": "The course teaches 'hypothesis testing' and 'estimation', which are fundamental methods for public health research and clinical trials (Target 3.b), but no health applications are mentioned.",
+        "evidence": [
+          "hypothesis testing",
+          "estimation"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 4.5,
+        "reason": "As a university course, it provides quality tertiary education (Target 4.3) and develops relevant skills for employment, such as the 'ability to model and solve business problems' (Target 4.4).",
+        "evidence": [
+          "The ability to model and solve business problems using statistical methods",
+          "A good understanding of several commonly used statistical techniques in business"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 0.5,
+        "reason": "The technique to 'Compare Two Populations' could be used to analyze gender disparities (Target 5.5), but this application is not mentioned in the course.",
+        "evidence": [
+          "Compare Two Populations"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 7.5,
+        "reason": "The course explicitly focuses on modeling and solving 'business problems' for 'managers/decision makers,' directly contributing to economic productivity (Target 8.2) and job skills (Target 8.5).",
+        "evidence": [
+          "modeling and presenting solutions to business problems",
+          "audience of managers/decision makers",
+          "solve business problems using statistical methods"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 6.0,
+        "reason": "The course covers 'quality control,' a key industrial process, and provides data analysis skills that support technological upgrading and innovation in industrial sectors (Targets 9.4, 9.5).",
+        "evidence": [
+          "quality control",
+          "modeling and presenting solutions to business problems"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 1.0,
+        "reason": "The course teaches methods like 'Compare Two Populations' which are essential for analyzing inequality (Target 10.1), but it does not cover this specific application.",
+        "evidence": [
+          "Compare Two Populations",
+          "descriptive statistics"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 2.0,
+        "reason": "The topic of 'quality control' directly relates to improving production efficiency and reducing waste, which supports sustainable production patterns (Targets 12.2, 12.5).",
+        "evidence": [
+          "quality control"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 0.5,
+        "reason": "The taught methods of 'descriptive statistics' and 'questionnaire analysis' are tools for monitoring institutional performance (Target 16.6), but this application is not mentioned.",
+        "evidence": [
+          "descriptive statistics",
+          "basic questionnaire analysis"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 8.0,
+        "reason": "The course is a form of statistical capacity-building (Target 17.19), teaching methods like 'estimation' and 'hypothesis testing' essential for producing high-quality, reliable data (Target 17.18).",
+        "evidence": [
+          "descriptive statistics",
+          "estimation",
+          "hypothesis testing"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "No revisions needed. Model B's analysis aligns with Model A's for most SDGs, and where scores differ (SDG 5, SDG 16), Model B maintains its original assessment as more accurate based on the course text.",
+    "revisions": {}
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "While statistical methods can analyze poverty, the course explicitly focuses on 'business problems' and does not mention any application related to poverty, making the inference too weak.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course's statistical methods are general, but no specific application to agricultural productivity or food security is mentioned, nor is it implied by the 'business problems' focus.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "General statistical tools like estimation and hypothesis testing are taught, but the course does not mention any health-related applications or public health research.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "As a university course, it directly provides quality tertiary education (Target 4.3) and explicitly aims to develop relevant skills for employment in business (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The 'Compare Two Populations' technique is too general to infer a direct contribution to gender equality without any explicit mention or implied application in the course context.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence found in the course description or learning outcomes that relates to clean water and sanitation.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence found in the course description or learning outcomes that relates to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly focuses on 'modeling and presenting solutions to business problems' for 'managers/decision makers,' directly contributing to economic productivity and job skills.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course covers 'quality control,' a key industrial process, and provides data analysis skills that support technological upgrading and innovation in industrial sectors.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "While 'Compare Two Populations' can analyze disparities, the course does not mention or imply any application to social or economic inequality, focusing instead on business contexts.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence found in the course description or learning outcomes that relates to sustainable cities and communities.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The explicit inclusion of 'quality control' directly relates to improving production efficiency and reducing waste, supporting sustainable production patterns.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence found in the course description or learning outcomes that relates to climate action.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence found in the course description or learning outcomes that relates to life below water.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence found in the course description or learning outcomes that relates to life on land.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The use of descriptive statistics and questionnaire analysis for institutional monitoring is a very weak inference, as the course focuses on business applications, not governance.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course directly contributes to statistical capacity-building (Target 17.19) by teaching fundamental methods essential for producing high-quality, reliable data (Target 17.18).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

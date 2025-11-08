@@ -1,0 +1,742 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 1.0,
+      "reason": "Course indirectly relates to poverty through financial education but lacks direct evidence.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 8.0,
+      "reason": "Focus on ESG education and sustainable finance aligns with Target 4.7 ('knowledge for sustainable development').",
+      "evidence": [
+        "培育校園學子接軌全球最新ESG趨勢",
+        "系統化培育大學院校學子對永續金融資產管理實務之認識"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 1.0,
+      "reason": "Mentions social responsibility but lacks specific gender-focused content.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 7.0,
+      "reason": "Course promotes sustainable finance, linking to Target 8.3 ('decent job creation').",
+      "evidence": [
+        "永續經營及綠色金融專業資產管理人才",
+        "企業在永續投資與金融創新之發展現況"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 6.0,
+      "reason": "Focus on financial innovation aligns with Target 9.5 ('enhance scientific research').",
+      "evidence": [
+        "綠色金融科技創新",
+        "影響力投資市場之發展"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 1.0,
+      "reason": "Mentions social responsibility but lacks specific focus on inequality.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 8.0,
+      "reason": "Course addresses climate change and sustainable finance, linking to Target 13.2 ('integrate climate change measures').",
+      "evidence": [
+        "氣候變遷等環境問題與因應政策",
+        "國際淨零減碳與碳交易"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 5.0,
+      "reason": "Course mentions collaboration with institutions, linking to Target 17.16 ('enhance global partnership').",
+      "evidence": [
+        "擴大與政治大學及過往有合作經驗之學校共同合作"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.0,
+        "reason": "Inferred link through \"影響力投資市場\" (impact investing market), which can support financial services for the poor (Target 1.4), though not explicitly stated as a primary goal.",
+        "evidence": [
+          "影響力投資市場之發展",
+          "international impact investing trends"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "The course itself is a form of education for sustainable development (Target 4.7), cultivating \"永續經營及綠色金融專業資產管理人才\" (sustainable management and green finance professional asset management talent).",
+        "evidence": [
+          "培育校園學子接軌全球最新ESG趨勢",
+          "系統化培育大學院校學子對永續金融資產管理實務之認識",
+          "education for sustainable development"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 8.5,
+        "reason": "\"綠色與轉型金融\" (Green and Transition Finance) directly supports investment in clean energy technology and infrastructure, aligning with Targets 7.2 and 7.a.",
+        "evidence": [
+          "綠色與轉型金融行動方案",
+          "ESG永續金融商品",
+          "綠色金融科技創新"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 6.5,
+        "reason": "Promotes decoupling growth from environmental degradation (Target 8.4) via \"ESG永續投資\" and strengthens financial institutions for sustainable development (Target 8.10).",
+        "evidence": [
+          "ESG永續投資",
+          "培育資產管理永續金融人才",
+          "臺灣永續金融政策法規與市場發展趨勢"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 9.0,
+        "reason": "Directly addresses \"綠色金融科技創新\" (green financial technology innovation) and financing sustainable industries, aligning with Targets 9.4 and 9.5.",
+        "evidence": [
+          "綠色金融科技創新",
+          "企業永續數位轉型",
+          "Financial Innovation"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 1.0,
+        "reason": "A weak, inferred link via \"影響力投資市場\" (impact investing market), which can address social inclusion (Target 10.2), but the course lacks specific focus on inequality.",
+        "evidence": [
+          "影響力投資市場之發展",
+          "社會責任與永續議題"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 9.5,
+        "reason": "The course centers on ESG investment, which encourages companies to adopt sustainable practices and reporting (Target 12.6) through \"永續投資之盡職治理與議合\" (due diligence and engagement).",
+        "evidence": [
+          "ESG永續投資",
+          "永續投資之盡職治理與議合",
+          "企業在永續投資與金融創新之發展現況"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about financing climate action, with topics like \"氣候變遷\" and \"淨零減碳與碳交易\" directly supporting Targets 13.2 and 13.3.",
+        "evidence": [
+          "氣候變遷等環境問題與因應政策",
+          "國際淨零減碳與碳交易",
+          "綠色碳金融與 碳交易市場"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 6.0,
+        "reason": "Focuses on corporate governance via \"永續投資之盡職治理與議合\" (due diligence and engagement), contributing to more accountable institutions (Target 16.6).",
+        "evidence": [
+          "永續投資之盡職治理與議合",
+          "臺灣永續金融政策法規",
+          "理解與辨別道德、社會責任與永續議題"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 8.5,
+        "reason": "The course is a multi-stakeholder partnership and focuses on mobilizing financial resources (\"ESG永續投資\") for sustainable development, aligning with Targets 17.3, 17.16, and 17.17.",
+        "evidence": [
+          "與永續金融與影響力投資學院 (SFIIA)共同合作辦理",
+          "邀請學界業界知名學者專家",
+          "ESG Sustainable Investment"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations, particularly in areas of clean energy, industry innovation, and climate action.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "No change needed; both models agree."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B highlights course's focus on green finance supporting clean energy."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 7.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B's score reflects a more cautious interpretation of evidence."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B accurately emphasizes the course's focus on financial innovation."
+      },
+      "Climate Action": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's score reflects the course's strong emphasis on climate action."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B identifies relevant governance aspects in the course."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 5.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B better captures the course's collaborative nature."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provided more comprehensive and accurate interpretations for several SDGs, particularly regarding the explicit links to green finance, impact investing, and corporate governance within the course text.",
+    "revisions": {
+      "SDG_5 (Gender Equality)": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Model A's score is more accurate; the course lacks specific gender-focused content, making a 0.0 score appropriate."
+      },
+      "SDG_7 (Affordable and Clean Energy)": {
+        "your_original": 0.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A correctly identified strong links through '綠色與轉型金融' and '綠色金融科技創新' which support clean energy investments."
+      },
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 7.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model A's reasoning on decoupling growth from environmental degradation and strengthening financial institutions is more comprehensive for this SDG."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 6.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A's higher score is justified by explicit mentions of '綠色金融科技創新' and '企業永續數位轉型', directly aligning with innovation targets."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 0.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model A correctly highlighted 'ESG永續投資' and '盡職治理與議合' as direct contributions to sustainable practices and reporting."
+      },
+      "SDG_13 (Climate Action)": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A's perfect score is more accurate given the course's explicit and extensive focus on climate change, carbon trading, and net-zero."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model A correctly identified '盡職治理與議合' and '政策法規' as contributions to accountable and transparent institutions."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 5.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A's reasoning on multi-stakeholder collaboration and mobilizing financial resources for SDGs is more comprehensive and explicit."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the score, inferring links to impact investing. However, explicit evidence is lacking, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to hunger, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model regarding health and well-being.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models provide strong evidence linking the course to education for sustainable development, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the lack of specific gender-focused content, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model regarding clean water and sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on green finance supporting clean energy, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Model A's cautious interpretation aligns better with the evidence, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's focus on financial innovation, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the weak link to inequality, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model regarding sustainable cities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's emphasis on sustainable practices, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's strong focus on climate action, justifying a perfect score.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model regarding life below water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model regarding life on land.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models identify relevant governance aspects, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's collaborative nature, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course's mention of '影響力投資市場' (impact investing market) provides an inferred link to Target 1.4 (access to financial services for the poor), as impact investing often aims to address social issues including poverty. This is an indirect connection.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no explicit or inferred evidence in the course description or schedule that relates to hunger, food security, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence in the course content directly or indirectly addresses health, well-being, disease prevention, or healthcare access.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_a",
+      "reasoning": "The course explicitly aims to '培育校園學子接軌全球最新ESG趨勢' and '系統化培育大學院校學子對永續金融資產管理實務之認識', directly aligning with Target 4.7 on education for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "While 'social responsibility' is mentioned, there is no specific content or focus on gender equality, women's empowerment, or gender-sensitive strategies within the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence in the course content directly or indirectly addresses water resources, sanitation, or water quality management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The course's focus on '綠色與轉型金融行動方案', 'ESG永續金融商品', and '綠色金融科技創新' directly supports investment and innovation in clean energy technologies and infrastructure, aligning with Targets 7.2 and 7.a.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.5,
+      "source": "revised_a",
+      "reasoning": "The course aims to cultivate '永續金融人才' and discusses 'ESG永續投資', which promotes decoupling economic growth from environmental degradation (Target 8.4) and strengthens financial institutions (Target 8.10) for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers '綠色金融科技創新' and '企業永續數位轉型', directly addressing innovation and upgrading infrastructure for sustainability (Targets 9.4 and 9.5).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The mention of '影響力投資市場' (impact investing market) offers a weak, inferred link to addressing social inclusion (Target 10.2), but the course lacks a specific focus on reducing inequalities.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence in the course content directly or indirectly addresses urban development, housing, transport, or community planning.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course's core focus on 'ESG永續投資' and '永續投資之盡職治理與議合' directly encourages companies to adopt sustainable practices and integrate sustainability reporting (Target 12.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly and extensively covers '氣候變遷等環境問題與因應政策', '國際淨零減碳與碳交易', and '綠色碳金融與 碳交易市場', making climate action a central and direct theme (Targets 13.2, 13.3).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence in the course content directly or indirectly addresses marine ecosystems, ocean health, or sustainable fisheries.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence in the course content directly or indirectly addresses terrestrial ecosystems, biodiversity, forests, or land degradation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.0,
+      "source": "revised_a",
+      "reasoning": "The course's focus on '永續投資之盡職治理與議合' and '臺灣永續金融政策法規' contributes to developing accountable and transparent institutions, aligning with Target 16.6.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The course is a multi-stakeholder partnership ('與永續金融與影響力投資學院共同合作', '邀請學界業界知名學者專家') and focuses on mobilizing financial resources ('ESG永續投資') for sustainable development, aligning with Targets 17.3, 17.16, and 17.17.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    }
+  }
+}

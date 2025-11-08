@@ -1,0 +1,324 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 1.0,
+        "reason": "A minor example mentions determining if a mushroom is edible based on its appearance, which tangentially relates to food safety (Target 2.1).",
+        "evidence": [
+          "輸入蘑菇外觀、氣味，判別它是否可以食用"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 7.5,
+        "reason": "As a university course, it provides tertiary education (Target 4.3) and teaches relevant technical skills like 'Artificial Intelligence Programming' for employment (Target 4.4).",
+        "evidence": [
+          "Course Name: Artificial Intelligence Programming",
+          "科目名稱：人工智慧程式設計"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 7.0,
+        "reason": "The course teaches high-value skills in AI for technological upgrading and innovation (Target 8.2), supporting decent job creation and productive activities (Target 8.3).",
+        "evidence": [
+          "人工智慧程式設計",
+          "猜測未來趨勢",
+          "明日股票漲跌"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 9.5,
+        "reason": "The course is fundamentally about 'Artificial Intelligence Programming', directly enhancing technological capabilities, research, and innovation (Target 9.5) for industry.",
+        "evidence": [
+          "人工智慧程式設計",
+          "撰寫 AI 相關之應用軟體",
+          "跨領域創新與溝通能力"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.5,
+        "reason": "A minor example involves 'cat and dog image recognition', a technique that could be tangentially applied to biodiversity monitoring (Target 15.5).",
+        "evidence": [
+          "實作一個貓狗影像辨識程式"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 1.0,
+        "reason": "The course lists 'AI ethics' as a core competency, which is a low-relevance link to developing accountable institutions (Target 16.6).",
+        "evidence": [
+          "人工智慧倫理關懷"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 4.0,
+        "reason": "The course enhances capacity in enabling technology (Target 17.8) and uses global platforms like 'Google Colab' and 'ChatGPT', promoting knowledge sharing (Target 17.6).",
+        "evidence": [
+          "介紹 Google Colab",
+          "利用現有的 AI 模型（如：ChatGPT）"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "No revisions needed. Model A's analysis was not provided for comparison.",
+    "revisions": {}
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct or indirect evidence in the course description links AI programming to poverty eradication or related targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course includes an example of using AI for classification, specifically 'input mushroom appearance, smell, determine if it is edible,' which tangentially relates to food safety (Target 2.1).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content does not provide any direct or indirect evidence related to health, well-being, or medical applications of AI.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "As a university course, it directly provides quality tertiary education (Target 4.3) and equips students with advanced technical skills in AI for employment and entrepreneurship (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no explicit or implicit evidence within the course description that relates to gender equality or its specific targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content does not contain any information pertaining to clean water, sanitation, or related environmental targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the syllabus directly or indirectly relates to affordable and clean energy or its associated targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "The course provides high-value AI programming skills, fostering technological upgrading and innovation (Target 8.2). Predicting 'future trends' and 'stock prices' directly supports economic productivity and decent job creation (Target 8.3).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about Artificial Intelligence Programming, directly enhancing technological capabilities, scientific research, and innovation for industrial sectors (Target 9.5).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content does not provide any direct or indirect evidence related to reducing inequalities or promoting inclusion.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no explicit or implicit evidence in the syllabus connecting AI programming to sustainable cities or communities.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content does not provide any direct or indirect evidence related to responsible consumption and production.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the syllabus directly or indirectly relates to climate action or its associated targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content does not provide any direct or indirect evidence related to life below water.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "The course includes CNN for image recognition (e.g., cat and dog), a technique that could be tangentially applied to biodiversity monitoring or wildlife protection (Target 15.5).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "The core competency of 'AI ethics' (人工智慧倫理關懷) is relevant for ensuring responsible AI development, which indirectly supports the development of effective and accountable institutions (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "The course enhances capacity in enabling technology (Target 17.8) by utilizing global AI models (ChatGPT) and platforms (Google Colab), fostering knowledge sharing and understanding international AI development (Target 17.6).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

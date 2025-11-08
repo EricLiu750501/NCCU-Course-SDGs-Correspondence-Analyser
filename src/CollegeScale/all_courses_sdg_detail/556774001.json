@@ -1,0 +1,334 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 10.0,
+        "reason": "The course is a form of tertiary education providing specialized knowledge and research skills for master's students, directly fulfilling Target 4.3 and 4.4.",
+        "evidence": [
+          "為有志從事近現代文學研究之碩士班學生設計",
+          "學習並實際操作日本近現代文學研究方法",
+          "培養專業知能"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 8.5,
+        "reason": "The course explicitly includes 'Feminism' and 'sexuality' as a core topic, directly addressing gender analysis and equality, aligning with Target 5.1 and 5.c.",
+        "evidence": [
+          "フェミニズム・セクシュアリティ ・視角の多様性"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 4.5,
+        "reason": "Aims to cultivate 'innovation ability' and analyzes creative industries like 'media' and 'publishing culture,' linking to Target 9.5 on innovation.",
+        "evidence": [
+          "培養創新能力",
+          "メディア・出版文化論"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 9.0,
+        "reason": "Explicitly studies 'Postcolonialism' and 'Feminism,' which directly analyze and critique systemic inequalities based on origin and gender, aligning with Target 10.2 and 10.3.",
+        "evidence": [
+          "ポストコロニアリズム",
+          "フェミニズム・セクシュアリティ ・視角の多様性"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 5.0,
+        "reason": "The course explicitly covers 'Urban space theory,' which can involve studying cultural heritage within cities, linking to Target 11.4.",
+        "evidence": [
+          "都市空間論・詩学"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 1.0,
+        "reason": "The course promotes responsible use of intellectual property by stating 'Respect Copyright,' a practice related to sustainable production and consumption of information (Target 12.6).",
+        "evidence": [
+          "維護智慧財產權，務必使用正版書籍。",
+          "Respect Copyright."
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 4.0,
+        "reason": "The study of 'Postcolonialism' involves critiques of historical injustice, and the instruction to 'Respect Copyright' supports the rule of law, linking to Target 16.3 and 16.b.",
+        "evidence": [
+          "ポストコロニアリズム",
+          "維護智慧財產權"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 4.0,
+        "reason": "Promotes an 'international perspective' and includes 'Comparative literature,' fostering the cross-cultural knowledge sharing central to global partnerships (Target 17.6).",
+        "evidence": [
+          "國際觀",
+          "比較文学・比較文化"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Upon re-evaluation, I found one SDG where my initial scoring was too generous based on the provided course text.",
+    "revisions": {
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 0.0,
+        "reason": "The link between 'Respect Copyright' and Target 12.6 (sustainable production/consumption) is too weak; copyright relates to intellectual property, not resource sustainability."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content focuses on literary research and analysis, with no mention of economic resources, social protection, or poverty reduction strategies.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on Japanese literature and research methods, with no content related to food systems, nutrition, or agricultural productivity.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not contain any topics or objectives related to physical or mental health, disease, or well-being.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "As a master's level seminar, the course directly provides quality tertiary education and develops advanced professional and research skills, aligning perfectly with Targets 4.3 and 4.4.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Feminism' and 'Sexuality' in Week 16, directly engaging with issues of gender equality, discrimination, and diverse perspectives, aligning with Targets 5.1 and 5.c.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is entirely unrelated to water resources, sanitation, hygiene, or water quality.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not include any topics or objectives related to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on literary research and analysis, without addressing economic growth, employment policies, labor rights, or related targets of SDG 8.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly aims to cultivate 'innovation ability' and covers 'Media and Publishing Culture Theory,' which involves industries and their development, aligning with Target 9.5 on enhancing innovation.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Postcolonialism' and 'Feminism,' which are academic fields dedicated to analyzing and addressing systemic inequalities based on origin, gender, and other statuses, directly aligning with Targets 10.2 and 10.3.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course includes 'Urban Space Theory,' which can encompass the study of urban development, planning, and the preservation of cultural heritage within communities, thereby linking to Targets 11.3 and 11.4.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The instruction to 'Respect Copyright' pertains to intellectual property rights and ethical academic conduct, which is not directly related to the environmental and resource management aspects of responsible consumption and production as defined by SDG 12.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content does not address climate change, its impacts, mitigation, adaptation, or related policies.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus contains no topics related to marine ecosystems, ocean health, or sustainable use of marine resources.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "Despite a general mention of 'environmental care' in core competencies, the course topics do not specifically address terrestrial ecosystems, biodiversity, deforestation, or land degradation.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The study of 'Postcolonialism' inherently involves critiques of historical injustices and power structures, aligning with promoting the rule of law and non-discriminatory policies (Targets 16.3, 16.b). The emphasis on 'Respect Copyright' also supports legal frameworks.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course fosters an 'international perspective' and includes 'Comparative Literature/Culture' as a topic, directly promoting cross-cultural understanding and knowledge sharing, which are key aspects of global partnerships (Target 17.6).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

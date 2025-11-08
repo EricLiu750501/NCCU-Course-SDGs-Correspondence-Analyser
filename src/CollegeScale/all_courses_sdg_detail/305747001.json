@@ -1,0 +1,695 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 7.0,
+      "reason": "Links to Target 4.4 ('relevant skills for employment') via 'professional communication skills' and 'expertise in respective fields'.",
+      "evidence": [
+        "professional communication skills",
+        "expertise in their respective fields"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 6.0,
+      "reason": "Links to Target 8.5 ('decent work for all') via 'human resource management' and 'employment skills'.",
+      "evidence": [
+        "human resource management",
+        "employment skills"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.5,
+        "reason": "Inferred link through topics like \"薪資管理\" (Compensation management) and \"福利制度\" (Benefits system), which contribute to social protection and stable income, aligning with Target 1.3.",
+        "evidence": [
+          "薪資管理",
+          "福利制度與非財務誘因"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 2.5,
+        "reason": "Inferred link via \"福利制度\" (Benefits system), which often includes health and wellness programs, promoting employee well-being as mentioned in Target 3.4.",
+        "evidence": [
+          "福利制度與非財務誘因"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "The course explicitly covers \"人才訓練與發展\" (Talent training and development), which directly provides adults with relevant skills for employment, aligning with Target 4.4.",
+        "evidence": [
+          "人才訓練與發展"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 7.0,
+        "reason": "HRM principles of fair recruitment, selection, and compensation management are essential for ensuring equal opportunities and leadership roles for women, linking to Target 5.5.",
+        "evidence": [
+          "人才甄選",
+          "薪資管理",
+          "薪資公平與員工行為"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.5,
+        "reason": "A minimal inferred link exists through the \"ESG\" lecture, where the 'E' for Environmental could touch on corporate resource management, but this is not a course focus.",
+        "evidence": [
+          "ESG與綠色行銷人才培育"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.5,
+        "reason": "A minimal inferred link exists through the \"ESG\" lecture, where the 'E' for Environmental could touch on corporate energy policies, but this is not a course focus.",
+        "evidence": [
+          "ESG與綠色行銷人才培育"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about Human Resource Management (selection, training, compensation), which directly supports full, productive employment and decent work for all (Targets 8.5, 8.8).",
+        "evidence": [
+          "人力資源管理專業知識背景（包括選、訓、用、留等功能）",
+          "薪資管理",
+          "福利制度"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 4.5,
+        "reason": "Discusses \"策略性人力資源管理模式\" and talent development, which supports upgrading technological capabilities and innovation within industrial sectors, as per Target 9.5.",
+        "evidence": [
+          "策略性人力資源管理模式",
+          "上銀科技強化人才力 開創全球新格局"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 7.5,
+        "reason": "Core HRM functions like fair \"人才甄選\" (selection) and \"薪資管理\" (compensation) directly address workplace inequality, promoting inclusion and equal opportunity (Targets 10.2, 10.3).",
+        "evidence": [
+          "人才甄選",
+          "薪資管理",
+          "薪資公平與員工行為"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 6.0,
+        "reason": "The lecture \"ESG與綠色行銷人才培育\" directly encourages companies to adopt sustainable practices and integrate sustainability information, aligning with Target 12.6.",
+        "evidence": [
+          "ESG與綠色行銷人才培育",
+          "理解與辨別道德、社會責任與永續議題"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 3.0,
+        "reason": "The \"ESG\" lecture implies training talent to integrate climate change measures into corporate strategy, linking to Target 13.2, though it is not a primary course focus.",
+        "evidence": [
+          "ESG與綠色行銷人才培育"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 5.0,
+        "reason": "The core competency on \"ethics, social responsibility\" supports developing effective, accountable, and transparent corporate institutions, as per Target 16.6.",
+        "evidence": [
+          "理解與辨別道德、社會責任與永續議題",
+          "情法糾葛下的用人之道 !"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 1.0,
+        "reason": "The course uses cases from global companies (\"NIKE最佳夥伴\") that rely on partnerships, but does not focus on building multi-stakeholder partnerships for sustainable development.",
+        "evidence": [
+          "豐泰企業 NIKE最佳夥伴"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive links to SDGs, particularly in areas of social protection and employment, warranting revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B's evidence on compensation and benefits aligns with social protection measures."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B's link to benefits systems supports employee well-being."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's emphasis on talent training strengthens the link to relevant skills."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's comprehensive HRM focus aligns directly with decent work targets."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's evidence on fair selection and compensation addresses workplace inequality."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B's focus on ESG practices aligns with sustainable consumption targets."
+      },
+      "Climate Action": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B's link to ESG training implies integration of climate measures."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's focus on ethics supports the development of accountable institutions."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B's mention of global partnerships provides a minimal link."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "No revisions needed. Model B's analysis is overly conservative and misses several explicit and strong inferred links to SDGs that are well-supported by the course text, particularly regarding HRM's role in decent work, education, and social responsibility.",
+    "revisions": {}
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model B's evidence on compensation and benefits aligns with social protection measures, which is crucial for poverty alleviation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence linking the course content to this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Model B's link to benefits systems supports employee well-being, which is essential for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize talent training, aligning well with the SDG's focus on relevant skills for employment.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on fair recruitment and compensation aligns with the SDG's goals for gender equality.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Model B's minimal link through ESG discussions provides a basis for this score, despite being weak.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Similar to Clean Water, the ESG link provides a minimal basis for this score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's strong focus on HRM, directly supporting decent work targets.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's inference about talent development supporting industrial innovation aligns with the SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Model B's evidence on fair selection and compensation directly addresses workplace inequality.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence linking the course content to this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on ESG practices aligns well with sustainable consumption targets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Model B's link to ESG training implies integration of climate measures, though not a primary focus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence linking the course content to this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence linking the course content to this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on ethics supports the development of accountable institutions, aligning with the SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Model B's mention of global partnerships provides a minimal link, though not a primary focus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The course covers '薪資管理' (compensation management) and '福利制度' (benefits system), which contribute to employee economic security and social protection, aligning with Target 1.3.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No direct or inferred evidence related to food security, agriculture, or malnutrition was found in the course material.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The '福利制度與非財務誘因' (benefits system and non-financial incentives) topic often includes health and wellness programs, promoting employee well-being, which aligns with Target 3.4.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly focuses on '人才訓練與發展' (talent training and development) and providing '專業知識背景' (professional knowledge), directly contributing to adults acquiring relevant skills for employment (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "Core HRM functions like fair '人才甄選' (talent selection) and '薪資管理' (compensation management), including '薪資公平與員工行為' (compensation fairness), are essential for ensuring equal opportunities and participation for all genders (Target 5.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "While 'ESG' is mentioned, there is no specific course content or case study that directly or strongly infers a link to clean water and sanitation issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Similar to SDG 6, the 'ESG' lecture is too general to establish a direct or strong inferred link to affordable and clean energy without specific course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The entire course is dedicated to Human Resource Management, covering selection, training, compensation, and benefits, which directly supports full, productive employment, decent work, and labor rights (Targets 8.5, 8.8).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course discusses '策略性人力資源管理模式' (strategic HRM) and talent development, exemplified by the '上銀科技強化人才力' (Hiwin Technologies strengthens talent) case, which supports upgrading technological capabilities and innovation in industrial sectors (Target 9.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "Core HRM functions like fair '人才甄選' (talent selection) and '薪資管理' (compensation), including the '薪資公平與員工行為' case, directly address workplace inequality and promote inclusion and equal opportunity (Targets 10.2, 10.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course material that directly or indirectly relates to sustainable cities, housing, transport, or community planning.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The lecture 'ESG與綠色行銷人才培育' (ESG and Green Marketing Talent Cultivation) and the core competency on '永續議題' (sustainability issues) directly encourage companies to adopt sustainable practices and integrate sustainability information (Target 12.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The 'ESG與綠色行銷人才培育' lecture implies training talent to integrate environmental and climate change measures into corporate strategy, linking to Target 13.2.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course material that directly or indirectly relates to marine ecosystems, pollution, or sustainable use of ocean resources.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course material that directly or indirectly relates to terrestrial ecosystems, biodiversity, or land degradation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The core competency on '道德、社會責任與永續議題' (ethics, social responsibility, and sustainability issues) and the '情法糾葛下的用人之道' case support developing effective, accountable, and transparent corporate institutions (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The 'NIKE最佳夥伴' case refers to a business partnership, not the multi-stakeholder, global partnerships for sustainable development as defined by SDG 17. No other evidence supports this goal.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

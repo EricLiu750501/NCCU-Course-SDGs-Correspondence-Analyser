@@ -1,0 +1,348 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.0,
+        "reason": "The course mentions \"DeFi (decentralized finance)\", a technology that can potentially increase access to financial services for the poor, indirectly linking to Target 1.4.",
+        "evidence": [
+          "DeFi（去中心化金融）"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "The course provides tertiary education in modern technical skills like \"Javascript 程式語言\" and \"AI 來協助撰寫程式\", directly supporting Target 4.4 for employment and entrepreneurship.",
+        "evidence": [
+          "學會如何撰寫 Javascript 程式語言",
+          "學會如何使用 p5.js 來創作",
+          "了解如何利用 AI 來協助撰寫程式"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 1.5,
+        "reason": "The course teaches enabling information and communications technology, which can contribute to the empowerment of all individuals, indirectly supporting Target 5.b.",
+        "evidence": [
+          "區塊鏈應用",
+          "p5.js 程式基礎"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 9.0,
+        "reason": "The course promotes technological innovation (\"區塊鏈應用\"), creativity (\"生成式藝術的創作\"), and entrepreneurship (\"作品的發售與收藏\"), directly aligning with Targets 8.2 and 8.3.",
+        "evidence": [
+          "區塊鏈應用",
+          "生成式藝術」的創作",
+          "在區塊鏈上進行作品的發售與收藏"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 10.0,
+        "reason": "The course is centered on technological innovation (\"區塊鏈應用\"), upgrading technological capabilities, and building on new digital infrastructure, directly supporting Targets 9.5 and 9.c.",
+        "evidence": [
+          "區塊鏈應用",
+          "這項技術還非常新穎",
+          "具備科技研發與系統開發能力"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 4.5,
+        "reason": "The course explores technologies like \"DeFi\" and the \"理想與使命\" behind blockchain, which often aim for greater economic inclusion, linking to Target 10.2.",
+        "evidence": [
+          "DeFi（去中心化金融）",
+          "了解區塊鏈、加密貨幣、NFT 技術背後的理想與使命"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 4.0,
+        "reason": "The course focuses on creating and preserving \"數位藝術收藏\" on the blockchain and includes a visit to \"台北當代藝術館\", linking to safeguarding cultural heritage (Target 11.4).",
+        "evidence": [
+          "數位藝術收藏",
+          "生成式藝術",
+          "校外參訪 A：豪華朗機工個展 @ 台北當代藝術館"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 7.5,
+        "reason": "The course covers blockchain's core traits of being \"不易竄改、公開透明\" (tamper-proof, transparent), supporting transparent institutions (Target 16.6) and public access to information (Target 16.10).",
+        "evidence": [
+          "不易竄改、公開透明",
+          "DAO（去中心化自治組織）",
+          "了解如何查看區塊鏈上的合約和交易資料"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 6.0,
+        "reason": "The course promotes knowledge sharing about an enabling technology (\"區塊鏈\") and emphasizes understanding \"Web3 社群的運作方式\", aligning with Targets 17.6 and 17.8.",
+        "evidence": [
+          "最新的消息與知識多半流傳在社群之中",
+          "熟悉了解區塊鏈與 Web3 社群的運作方式"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis largely aligns with mine, especially for explicit links. However, I find some inferred connections to be overscored, requiring minor adjustments to my initial assessment.",
+    "revisions": {
+      "SDG_5 (Gender Equality)": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 0.0,
+        "reason": "Model A's link is too general. Teaching ICT skills alone doesn't directly address gender equality without specific course focus."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 2.0,
+        "model_b_score": 4.5,
+        "your_revised": 2.0,
+        "reason": "The course's inferred link to inclusion via DeFi/ideals is too indirect for Model A's score. My assessment is lower."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course mentions DeFi, which can expand access to financial services (Target 1.4). While indirect, it's a relevant technological application for poverty reduction.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no evidence in the course description, objectives, or schedule that relates to hunger, food production, or nutrition.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content does not include any topics related to health, well-being, disease prevention, or healthcare services.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course directly provides technical and vocational skills (Javascript, p5.js, AI for coding) crucial for employment and entrepreneurship, aligning with Target 4.4.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "While ICT skills can be enabling, the course lacks any specific focus or application related to gender equality or women's empowerment, making the link too indirect.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus contains no information or topics related to clean water, sanitation, or related environmental issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus contains no information or topics related to affordable, clean energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course directly fosters creativity, innovation (generative art, blockchain), and entrepreneurship (selling/collecting works on blockchain), strongly supporting Targets 8.2 and 8.3.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is entirely focused on blockchain technology, fostering innovation, upgrading technological capabilities, and utilizing new digital infrastructure, directly aligning with Targets 9.5 and 9.c.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 2.0,
+      "source": "revised_b",
+      "reasoning": "While blockchain and DeFi have potential for economic inclusion, the course's focus on these aspects is general, not specifically targeting the reduction of inequalities.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": 2.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on digital art collection and a visit to an art museum indirectly contributes to safeguarding cultural heritage, aligning with Target 11.4.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus does not contain any content related to responsible consumption, production patterns, or waste management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no explicit or implicit mention of climate action, climate change, or related environmental issues in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus does not include any topics related to marine life, ocean conservation, or water ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "There is no content in the course syllabus that addresses terrestrial ecosystems, biodiversity, or land management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "Blockchain's core features (tamper-proof, transparent) and the study of DAOs directly support transparent institutions and public access to information (Targets 16.6, 16.10).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course promotes knowledge sharing within Web3 communities and understanding blockchain as an enabling technology, aligning with Targets 17.6 and 17.8.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

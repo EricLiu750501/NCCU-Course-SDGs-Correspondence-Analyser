@@ -1,0 +1,762 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 1.0,
+      "reason": "Course mentions social responsibility, but no direct link to poverty alleviation targets.",
+      "evidence": [
+        "社會責任（Social），例如員工工作權、職場環境、社區計畫等"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 1.0,
+      "reason": "Mentions social responsibility, including workplace environment, but lacks specific health targets.",
+      "evidence": [
+        "社會責任（Social），例如員工工作權、職場環境"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "score": 4.0,
+      "reason": "Course aims to educate on ESG and sustainable development, linking to education targets.",
+      "evidence": [
+        "說明人類發展歷史與自然環境生態的互動",
+        "ESG在台灣的發展同質性與特殊性"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 1.0,
+      "reason": "Mentions workplace environment, but no specific gender equality targets.",
+      "evidence": [
+        "社會責任（Social），例如職場環境"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 4.0,
+      "reason": "Course discusses social responsibility and governance, linking to decent work.",
+      "evidence": [
+        "社會責任（Social），例如員工工作權",
+        "高層治理、股東權利、資訊透明等"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 1.0,
+      "reason": "Mentions governance and transparency, but lacks specific infrastructure targets.",
+      "evidence": [
+        "高層治理、股東權利、資訊透明等"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 1.0,
+      "reason": "Mentions social responsibility, but no specific targets on reducing inequalities.",
+      "evidence": [
+        "社會責任（Social），例如社區計畫等"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 4.0,
+      "reason": "Course covers sustainable development concepts, linking to responsible consumption.",
+      "evidence": [
+        "永續發展（Sustainable Development），例如SDGs、USR、GRI、ISO"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "score": 7.0,
+      "reason": "Course discusses climate change and environmental sustainability, linking to climate action targets.",
+      "evidence": [
+        "氣候變遷、生物多樣性、環境永續等"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 4.0,
+      "reason": "Mentions governance and transparency, linking to strong institutions.",
+      "evidence": [
+        "高層治理、股東權利、資訊透明等"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "score": 1.0,
+      "reason": "Mentions global governance, but lacks specific partnerships targets.",
+      "evidence": [
+        "全球治理下的ESG規範"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 2.0,
+        "reason": "Inferred link through \"Social responsibility (社會責任)\" and \"Global Social Entrepreneurship,\" which can address poverty, but it is not a primary focus of the course.",
+        "evidence": [
+          "Social responsibility (社會責任)",
+          "community projects (社區計畫)",
+          "Global Social Entrepreneurship"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 1.5,
+        "reason": "Inferred link to worker well-being via \"workplace environment (職場環境)\" and to Target 3.9 via general \"Environment (環境保護),\" but not a central theme.",
+        "evidence": [
+          "workplace environment (職場環境)",
+          "Environment (環境保護)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "Directly addresses Target 4.7 through a dedicated lecture on \"ESG與環境教育 (ESG and Environmental Education)\" and the course's overall goal of teaching sustainable development.",
+        "evidence": [
+          "ESG與環境教育 (ESG and Environmental Education)",
+          "Sustainable Development (永續發展)"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 4.5,
+        "reason": "Inferred through \"Social responsibility (社會責任)\" and \"Governance (公司治理),\" which typically include gender equality and equal opportunity policies (Target 5.5) as core ESG topics.",
+        "evidence": [
+          "Social responsibility (社會責任)",
+          "employee work rights (員工工作權)",
+          "Governance (公司治理)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 1.0,
+        "reason": "Tangentially related through the broad topic of \"Environment (環境保護),\" which would include water management, but no specific evidence is provided in the syllabus.",
+        "evidence": [
+          "Environment (環境保護)",
+          "environmental sustainability (環境永續)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "score": 7.5,
+        "reason": "Directly links to energy efficiency and renewables (Targets 7.2, 7.3) through topics like \"climate change (氣候變遷)\" and \"Greenhouse Gas Verification (溫室氣體查確)\".",
+        "evidence": [
+          "climate change (氣候變遷)",
+          "ESG與溫室氣體查確 (ESG and Greenhouse Gas Verification)"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 9.0,
+        "reason": "Core course content on \"Social responsibility (社會責任)\" explicitly includes \"employee work rights (員工工作權)\" and \"workplace environment (職場環境),\" directly supporting Target 8.8.",
+        "evidence": [
+          "Social responsibility (社會責任)",
+          "employee work rights (員工工作權)",
+          "workplace environment (職場環境)"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 6.0,
+        "reason": "Focus on ESG and GRI standards encourages companies to adopt clean technologies and sustainable industrial processes, aligning with Target 9.4 on retrofitting industries.",
+        "evidence": [
+          "environmental sustainability (環境永續)",
+          "GRI準則及實務應用 (GRI standards and practical application)",
+          "ISO"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 4.0,
+        "reason": "The \"Social responsibility (社會責任)\" component of ESG, including \"employee work rights,\" addresses workplace inequality, linking to Target 10.2 on social and economic inclusion.",
+        "evidence": [
+          "Social responsibility (社會責任)",
+          "employee work rights (員工工作權)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 1.0,
+        "reason": "A minor link exists through \"community projects (社區計畫),\" but the course does not focus on urban planning, housing, or other core aspects of this goal.",
+        "evidence": [
+          "community projects (社區計畫)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Responsible Consumption and Production": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about ESG, GRI standards, and corporate social responsibility, which directly supports Target 12.6 on adopting sustainable practices and reporting.",
+        "evidence": [
+          "ESG指標與企業社會責任 (ESG indicators and Corporate Social Responsibility)",
+          "GRI準則及實務應用 (GRI standards and practical application)",
+          "environmental sustainability (環境永續)"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about addressing climate change through corporate action, with explicit topics on \"climate change (氣候變遷)\" and \"Greenhouse Gas Verification,\" supporting Target 13.2.",
+        "evidence": [
+          "climate change (氣候變遷)",
+          "氣候變遷與永續發展 (Climate Change and Sustainable Development)",
+          "ESG與溫室氣體查確 (ESG and Greenhouse Gas Verification)"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life Below Water": {
+        "score": 0.5,
+        "reason": "A very tenuous link exists through the general mention of \"biodiversity (生物多樣性),\" which includes marine life, but there is no specific focus on oceans.",
+        "evidence": [
+          "biodiversity (生物多樣性)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life on Land": {
+        "score": 8.5,
+        "reason": "Explicitly covers \"biodiversity (生物多樣性)\" and \"environmental sustainability (環境永續)\" as core environmental topics, directly supporting targets like 15.5 on halting biodiversity loss.",
+        "evidence": [
+          "biodiversity (生物多樣性)",
+          "environmental sustainability (環境永續)",
+          "Environment (環境保護)"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 9.5,
+        "reason": "The \"Governance (公司治理)\" pillar is a core course topic, explicitly covering \"information transparency (資訊透明)\" and \"global governance,\" directly supporting Target 16.6 on accountable institutions.",
+        "evidence": [
+          "Governance (公司治理)",
+          "information transparency (資訊透明)",
+          "global governance (全球治理)"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 10.0,
+        "reason": "The course's premise is applying global frameworks like \"SDGs\" and \"global governance\" through multi-stakeholder action (ESG), directly embodying Targets 17.14, 17.16, and 17.17.",
+        "evidence": [
+          "Sustainable Development (永續發展)",
+          "SDGs",
+          "global governance (全球治理)"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more nuanced interpretations and aligns better with the course text, warranting revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 1.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B highlights inferred links through social responsibility and community projects."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B connects health to environmental topics, which I initially overlooked."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B emphasizes direct links to education through dedicated lectures."
+      },
+      "Gender Equality": {
+        "your_original": 1.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B identifies stronger connections to gender equality through governance."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B connects environmental topics to water management."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B provides explicit links to energy efficiency and renewables."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B emphasizes direct support for decent work through course content."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 1.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B connects ESG standards to sustainable industrial processes."
+      },
+      "Reduced Inequalities": {
+        "your_original": 1.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B highlights social responsibility's role in addressing inequalities."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 4.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B emphasizes the course's focus on sustainable practices."
+      },
+      "Climate Action": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B underscores the course's core focus on climate change."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B identifies explicit coverage of biodiversity and sustainability."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 4.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B connects governance topics directly to strong institutions."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 1.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B highlights the course's emphasis on global frameworks and partnerships."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "No revisions needed. Model B's analysis consistently assigns lower scores and often misses explicit textual evidence that directly supports higher scores for several SDGs.",
+    "revisions": {}
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight inferred links through social responsibility and community projects, but the course does not focus primarily on poverty alleviation.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree there is no evidence in the course material related to hunger or food security.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model A's revision aligns with Model B's reasoning, connecting health to environmental topics, which is supported by course content.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's direct focus on education through dedicated lectures and overall goals, aligning well with SDG targets.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models identify strong connections to gender equality through governance and social responsibility, supported by course content.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Model A's revision aligns with Model B's reasoning, connecting environmental topics to water management, albeit indirectly.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models provide explicit links to energy efficiency and renewables, supported by course content on climate change.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's focus on social responsibility and employee rights, directly supporting decent work targets.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect ESG standards to sustainable industrial processes, aligning with course content on governance.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight social responsibility's role in addressing inequalities, supported by course content.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on a minor link through community projects, but the course lacks a focus on urban planning.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's focus on sustainable practices and corporate responsibility, aligning directly with SDG targets.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models underscore the course's core focus on climate change, supported by explicit topics in the syllabus.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "A tenuous link exists through biodiversity, but there is no specific focus on marine life in the course.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models identify explicit coverage of biodiversity and sustainability, aligning well with SDG targets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Both models connect governance topics directly to strong institutions, supported by explicit course content.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's emphasis on global frameworks and partnerships, aligning directly with SDG targets.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "revised_a",
+      "reasoning": "The course's focus on social responsibility, community projects, and global social entrepreneurship provides an inferred, albeit indirect, link to poverty alleviation, aligning with Model B's assessment.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no explicit or inferred evidence in the course syllabus that relates to ending hunger, food security, nutrition, or sustainable agriculture practices.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.5,
+      "source": "revised_a",
+      "reasoning": "The course mentions 'workplace environment' under social responsibility, directly linking to worker well-being. The general 'Environment' topic also provides a minor inferred link to reducing pollution-related illnesses (Target 3.9).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "The course is inherently about education in sustainable development. The explicit lecture on 'ESG and Environmental Education' directly aligns with Target 4.7, making this a strong and central connection.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "The course's focus on Social responsibility and Governance within ESG frameworks strongly implies attention to equal opportunities and non-discrimination, which are core to gender equality (e.g., Target 5.5).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 1.0,
+      "source": "revised_a",
+      "reasoning": "The course's general coverage of 'Environment' and 'environmental sustainability' provides a tangential, inferred link to clean water and sanitation, as these are integral components of environmental protection.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 7.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly addresses 'climate change' and includes a lecture on 'ESG and Greenhouse Gas Verification,' which directly relates to reducing emissions and promoting clean energy (Targets 7.2, 7.a).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers 'employee work rights' and 'workplace environment' under social responsibility, directly aligning with SDG 8 targets on decent work, labor rights, and safe working conditions.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.0,
+      "source": "revised_a",
+      "reasoning": "The course's focus on 'environmental sustainability,' 'GRI standards,' and 'ISO' directly promotes sustainable industrialization, resource efficiency, and the adoption of clean technologies, aligning with Target 9.4.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.0,
+      "source": "revised_a",
+      "reasoning": "The course's emphasis on 'Social responsibility' and 'employee work rights' within ESG frameworks addresses aspects of workplace inequality and promotes social and economic inclusion, aligning with Target 10.2.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course mentions 'community projects' under social responsibility, providing a minor, inferred link to sustainable communities, though it lacks specific focus on urban planning or infrastructure.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course's fundamental focus on ESG, Corporate Social Responsibility, and GRI standards directly promotes sustainable practices and reporting (Target 12.6), making this a central and explicit theme.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "'Climate change' is a core and explicitly mentioned topic, including a dedicated lecture and a session on greenhouse gas verification, making it a central focus of the course directly supporting climate action.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "The course mentions 'biodiversity' generally, which includes marine life, but there is no specific focus on oceans, marine ecosystems, or related targets, making the link very tenuous.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers 'biodiversity' and 'environmental sustainability' as core environmental topics, directly supporting targets related to terrestrial ecosystems and halting biodiversity loss.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "The 'Governance' pillar, explicitly covering 'high-level governance,' 'shareholder rights,' and 'information transparency,' is a core course topic directly supporting the development of effective, accountable, and transparent institutions (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers 'SDGs' and 'global governance,' and the entire ESG framework inherently involves multi-stakeholder partnerships to achieve sustainable development goals, making this a central theme.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

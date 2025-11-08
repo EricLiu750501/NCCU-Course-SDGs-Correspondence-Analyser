@@ -1,0 +1,335 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 2.0,
+        "reason": "Inferred link to Target 1.b (pro-poor policies) through the study of '社會與共產主義' (Socialism and Communism) and '利益團體與社會運動' (interest groups and social movements).",
+        "evidence": [
+          "社會與共產主義",
+          "利益團體與社會運動"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Gender Equality": {
+        "score": 6.5,
+        "reason": "Explicitly covers '女性主義' (Feminism), which is fundamental to understanding and promoting gender equality, linking directly to Targets 5.5 and 5.c.",
+        "evidence": [
+          "女性主義"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 6.0,
+        "reason": "Links to Target 8.8 (protect labour rights) via a special lecture from '台灣勞工陣線' (Taiwan Labour Front) and the topic '利益團體與社會運動'.",
+        "evidence": [
+          "台灣勞工陣線秘書長孫友聯",
+          "利益團體與社會運動"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Reduced Inequalities": {
+        "score": 7.5,
+        "reason": "Addresses political inclusion and inequality (Target 10.2) through topics like '女性主義' (Feminism), '社會與共產主義' (Socialism), and '利益團體與社會運動' (social movements).",
+        "evidence": [
+          "女性主義",
+          "社會與共產主義",
+          "利益團體與社會運動"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "The course is a fundamental study of political systems, covering '立法、行政、與司法部門' and '政治參與', directly aligning with building strong institutions (Targets 16.6, 16.7).",
+        "evidence": [
+          "立法、行政、與司法部門",
+          "政治參與、選舉與投票",
+          "立憲政府的類型"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 0.5,
+        "reason": "The study of '國家與民族' (State and nation) provides a foundational understanding for international cooperation, but the course does not explicitly cover global partnerships.",
+        "evidence": [
+          "國家與民族"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's implicit zero scores prompted a re-evaluation of inferred links. I've revised down two SDGs where the connection was too indirect, while maintaining scores for explicitly covered topics.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 2.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The link to pro-poor policies is too inferred; the course focuses on political systems, not direct poverty alleviation strategies."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.5,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "While '國家與民族' is foundational, the course lacks explicit content on global partnerships for sustainable development goals."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "The course covers '社會與共產主義' and '利益團體與社會運動', which provide foundational understanding for policy frameworks and advocacy related to poverty reduction (Target 1.b). Model B's original score of 2.0 was a reasonable inference, while its revision to 0.0 was too strict.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course syllabus relates to hunger, food security, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course syllabus relates to health, well-being, or medical services.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "While the course is an educational offering, its content does not focus on the quality, access, or equity of education systems as an SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '女性主義' (Feminism) under political ideologies, directly addressing gender equality, women's political participation, and policy development (Targets 5.5, 5.c).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course syllabus relates to water, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course syllabus relates to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course includes a special lecture by the Secretary-General of '台灣勞工陣線' (Taiwan Labour Front) and covers '利益團體與社會運動', directly linking to the protection of labour rights (Target 8.8).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course syllabus relates to industrialization, innovation, or infrastructure development.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "Topics like '女性主義', '社會與共產主義', and '利益團體與社會運動' directly address various forms of inequality (gender, economic, social) and political inclusion (Targets 10.2, 10.3, 10.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course syllabus relates to urban planning, housing, or sustainable communities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course syllabus relates to consumption patterns, resource efficiency, or waste management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course syllabus relates to climate change, mitigation, or adaptation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course syllabus relates to marine ecosystems or ocean health.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course syllabus relates to terrestrial ecosystems, biodiversity, or deforestation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The entire course is a fundamental study of political science, covering state, government, political systems, institutions (legislative, executive, judicial), political participation, and rule of law, directly aligning with building strong, accountable, and inclusive institutions (Targets 16.3, 16.6, 16.7).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "The study of '國家與民族' (State and nation) provides a foundational understanding of the actors and structures involved in international relations and cooperation, which is a prerequisite for global partnerships. Model B's original score of 0.5 was a reasonable inference for this indirect relevance, while its revision to 0.0 was too strict.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.0
+      }
+    }
+  }
+}

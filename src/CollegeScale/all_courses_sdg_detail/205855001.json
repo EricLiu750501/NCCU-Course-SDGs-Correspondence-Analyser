@@ -1,0 +1,782 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 4.0,
+      "reason": "Course promotes sustainable development knowledge, linking to Target 4.7.",
+      "evidence": [
+        "knowledge and skills needed to promote sustainable development"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 4.0,
+      "reason": "Links to corporate sustainability and job creation, relevant to Target 8.3.",
+      "evidence": [
+        "corporate sustainability",
+        "decent job creation"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 7.0,
+      "reason": "Focus on circular business models supports sustainable industrial practices, linking to Target 9.4.",
+      "evidence": [
+        "circular business models",
+        "sustainable industrial practices"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 9.0,
+      "reason": "Strong focus on circular economy and waste management, directly linking to Target 12.5.",
+      "evidence": [
+        "circular economy",
+        "waste management"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "score": 10.0,
+      "reason": "Core focus on climate change and circular economy, directly addressing Target 13.2.",
+      "evidence": [
+        "circular economy business models",
+        "climate change"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 2.0,
+        "reason": "Inferred link to Target 3.9 (reduce illness from pollution) through topics like 'waste management' and 'industrial ecology' which aim to reduce environmental contamination.",
+        "evidence": [
+          "waste management",
+          "industrial ecology"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "Directly provides knowledge for sustainable development (Target 4.7) through core topics like 'sustainable development' and 'circular economy'.",
+        "evidence": [
+          "sustainable development",
+          "circular economy",
+          "corporate sustainability"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 5.0,
+        "reason": "Addresses Target 6.3 (improve water quality) and 6.4 (water-use efficiency) through the core topic of 'waste management' and circular economy principles.",
+        "evidence": [
+          "waste management",
+          "circular economy"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Affordable and Clean Energy": {
+        "score": 3.0,
+        "reason": "Indirectly addresses energy by identifying 'combustion of fossil fuels' as the cause of climate change, with circular models implying greater energy efficiency (Target 7.3).",
+        "evidence": [
+          "combustion of fossil fuels"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 9.0,
+        "reason": "Core focus on decoupling economic growth from environmental degradation (Target 8.4) through 'circular business models' and improving resource efficiency.",
+        "evidence": [
+          "circular business models",
+          "natural resource management"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 10.0,
+        "reason": "Fundamentally about retrofitting industries to be sustainable (Target 9.4) using 'circular business models', 'industrial ecology', and increased resource-use efficiency.",
+        "evidence": [
+          "circular business models",
+          "industrial ecology",
+          "corporate sustainability"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 1.0,
+        "reason": "A very weak link to Target 10.4 (fiscal policies for equality) is inferred from the topic 'green taxation', but the course does not focus on inequality.",
+        "evidence": [
+          "green taxation"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 7.5,
+        "reason": "Directly addresses Target 11.6 (reduce environmental impact of cities) through its focus on 'waste management' and creating circular systems for urban resource flows.",
+        "evidence": [
+          "waste management",
+          "circular economy"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 10.0,
+        "reason": "The course is a core exploration of this goal, focusing on 'circular economy' and 'waste management' to achieve sustainable consumption and production patterns (Targets 12.2, 12.5).",
+        "evidence": [
+          "circular economy",
+          "waste management",
+          "natural resource management"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 10.0,
+        "reason": "The course is framed as a response to 'climate change' (Target 13.2), with 'circular economy' presented as a key mitigation strategy.",
+        "evidence": [
+          "climate change",
+          "circular economy",
+          "sustainable development"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life Below Water": {
+        "score": 1.5,
+        "reason": "A tangential link to Target 14.1 (reduce marine pollution) can be inferred from 'waste management', but marine ecosystems are not a course topic.",
+        "evidence": [
+          "waste management"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life on Land": {
+        "score": 4.5,
+        "reason": "Addresses sustainable use of terrestrial resources (Target 15.1) through 'natural resource management', as circular models reduce extraction of virgin materials.",
+        "evidence": [
+          "natural resource management"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 4.0,
+        "reason": "Links to accountable institutions (Target 16.6) via 'corporate social responsibility' and the objective that companies should 'honestly file the tax returns'.",
+        "evidence": [
+          "corporate social responsibility",
+          "honestly file the tax returns"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 6.0,
+        "reason": "Promotes policy coherence and partnerships (Targets 17.14, 17.16) through topics like 'Global Sustainability Standards' and 'corporate social responsibility' in an international context.",
+        "evidence": [
+          "Global Sustainability Standards",
+          "corporate social responsibility"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B provides more nuanced insights, particularly in health, education, and environmental aspects, warranting revisions to my scores.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Inferred link to pollution reduction through waste management aligns with course content."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B emphasizes direct links to sustainable development knowledge, enhancing my score."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's connection to water quality improvement through waste management is valid."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's focus on decoupling growth from environmental degradation is more comprehensive."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's emphasis on sustainability in industrial practices aligns closely with course objectives."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's link to natural resource management is relevant and supported by course content."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's connection to corporate social responsibility aligns with course themes."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B's focus on policy coherence and partnerships is relevant to course discussions."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis is more comprehensive, identifying several indirect but plausible links to SDGs that my initial assessment missed. Its reasoning aligns better with the course text's broader implications.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 2.0,
+        "reason": "Model A correctly infers a link via 'waste management' and 'industrial ecology' to reducing pollution and illness (Target 3.9)."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 8.0,
+        "reason": "The course's explicit educational focus on 'sustainable development' and 'circular economy' warrants a higher score for Target 4.7."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 5.0,
+        "reason": "Model A's link from 'waste management' and circular economy to improving water quality and efficiency (Targets 6.3, 6.4) is valid."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 3.0,
+        "reason": "The course's mention of 'combustion of fossil fuels' and circular models implies energy efficiency (Target 7.3), as Model A noted."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 9.0,
+        "reason": "The course's core focus on 'circular business models' directly addresses decoupling economic growth from environmental degradation (Target 8.4)."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 7.0,
+        "model_b_score": 7.0,
+        "your_revised": 10.0,
+        "reason": "The course is fundamentally about transforming industries towards sustainability (Target 9.4) through 'circular business models' and 'industrial ecology'."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 1.0,
+        "reason": "Model A's weak inference from 'green taxation' to fiscal policies for equality (Target 10.4) is a plausible, albeit minor, link."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 7.5,
+        "reason": "Model A correctly links 'waste management' and circular economy principles to reducing the environmental impact of cities (Target 11.6)."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 9.0,
+        "model_b_score": 9.0,
+        "your_revised": 10.0,
+        "reason": "This SDG is central to the entire course, with 'circular economy' and 'waste management' directly addressing sustainable patterns (Targets 12.2, 12.5)."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 1.5,
+        "reason": "Model A's tangential link from 'waste management' to reducing marine pollution (Target 14.1) is a valid, though indirect, inference."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.5,
+        "reason": "Model A correctly identifies 'natural resource management' and circular models as contributing to sustainable terrestrial resource use (Target 15.1)."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.0,
+        "reason": "Model A's link from 'corporate social responsibility' and 'honestly file tax returns' to accountable institutions (Target 16.6) is reasonable."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 6.0,
+        "reason": "Model A correctly links 'Global Sustainability Standards' and 'corporate social responsibility' to enhancing partnerships and policy coherence (Targets 17.14, 17.16)."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model regarding hunger, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified a link to pollution reduction through waste management, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's focus on sustainable development knowledge, aligning with Target 4.7.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model regarding gender equality, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified a valid link between waste management and water quality improvement, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Both models inferred a link to energy efficiency through circular economy principles, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's focus on decoupling economic growth from environmental degradation, aligning with Target 8.4.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on sustainable industrial practices, aligning with Target 9.4.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified a weak link to fiscal policies for equality through green taxation, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified a direct link between waste management and reducing environmental impact in urban areas, aligning with Target 11.6.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's core focus on circular economy and waste management, aligning with Targets 12.2 and 12.5.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on climate change and circular economy, aligning with Target 13.2.",
+      "model_comparison": {
+        "model_a_original": 10.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified a tangential link to marine pollution reduction through waste management, aligning with Target 14.1.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified a link to sustainable terrestrial resource use through natural resource management, aligning with Target 15.1.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified a link to accountable institutions through corporate social responsibility, aligning with Target 16.6.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified a link to policy coherence and partnerships through sustainability standards, aligning with Targets 17.14 and 17.16.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or strong inferred evidence in the course description links to poverty eradication.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or strong inferred evidence in the course description links to hunger or food security.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'waste management' and 'industrial ecology' indirectly contributes to reducing pollution and related illnesses (Target 3.9).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly aims to provide students with knowledge and skills for 'sustainable development' and 'circular economy', directly aligning with Target 4.7.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or strong inferred evidence in the course description links to gender equality.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "Topics like 'waste management' and 'circular economy' implicitly address improving water quality and efficiency by reducing pollution (Targets 6.3, 6.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course identifies 'combustion of fossil fuels' as a climate change driver, implying circular models promote energy efficiency (Target 7.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course's core focus on 'circular business models' directly addresses decoupling economic growth from environmental degradation (Target 8.4).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about 'circular business models' and 'industrial ecology', directly supporting sustainable industrialization and resource efficiency (Target 9.4).",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The topic 'green taxation' offers a weak, inferred link to fiscal policies that could promote greater equality (Target 10.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course's emphasis on 'waste management' and 'circular economy' directly contributes to reducing the environmental impact of cities (Target 11.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "This SDG is central to the course, with 'circular economy', 'waste management', and 'natural resource management' directly addressing sustainable patterns (Targets 12.2, 12.5).",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "model_a",
+      "reasoning": "The course explicitly frames itself as a response to 'climate change' and its causes, with 'circular economy' as a key mitigation strategy (Target 13.2).",
+      "model_comparison": {
+        "model_a_original": 10.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "A tangential link exists from 'waste management' to reducing marine pollution (Target 14.1), though marine ecosystems are not a primary focus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course's 'natural resource management' topic and circular models contribute to the sustainable use of terrestrial ecosystems (Target 15.1).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course's emphasis on 'corporate social responsibility' and 'honestly file tax returns' aligns with promoting accountable institutions (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "Topics like 'Global Sustainability Standards' and 'corporate social responsibility' in an international context promote policy coherence and partnerships (Targets 17.14, 17.16).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    }
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "As a university course, it provides quality tertiary education (Target 4.3) and confers technical skills in digital technology for employment (Target 4.4).",
+        "evidence": [
+          "Course Department:Computer Science/B/3",
+          "Type of Credit: Required",
+          "理解自然科學與數位科技"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 6.5,
+        "reason": "The course explicitly covers \"Power consumption\" as a performance metric, directly supporting the goal of improving energy efficiency as stated in Target 7.3.",
+        "evidence": [
+          "Power consumption",
+          "Performance Metrics"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 4.0,
+        "reason": "The course fosters skills in \"digital technology\" and \"innovation\", which are crucial for technological upgrading and economic productivity as per Target 8.2.",
+        "evidence": [
+          "培養邏輯推理、獨立思考與創新能力",
+          "理解自然科學與數位科技",
+          "瞭解資訊科技發展趨勢"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 9.0,
+        "reason": "The course is foundational for ICT infrastructure and technological innovation, directly supporting research and upgrading industrial capabilities as per Targets 9.5 and 9.b.",
+        "evidence": [
+          "Computer Architecture and Organization",
+          "培養邏輯推理、獨立思考與創新能力",
+          "illustrate the history of computer development"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 4.5,
+        "reason": "The study of \"Power consumption\" in computer design contributes to the efficient use of natural resources (energy), a key aspect of sustainable production under Target 12.2.",
+        "evidence": [
+          "Power consumption",
+          "Performance Metrics"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 1.0,
+        "reason": "An inferred link exists. Optimizing \"Power consumption\" in computers can contribute to climate change mitigation by reducing energy demand from a major global sector.",
+        "evidence": [
+          "Power consumption"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 0.5,
+        "reason": "A minimal link exists through the core competency of \"professional and ethical responsibility\", which tenuously relates to building accountable institutions (Target 16.6).",
+        "evidence": [
+          "具有專業及道德責任的認知",
+          "Respect Copyright"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 3.0,
+        "reason": "The course builds capacity in information and communications technology, which is an \"enabling technology\" central to technology access and capacity-building under Targets 17.6 and 17.8.",
+        "evidence": [
+          "Computer Architecture and Organization",
+          "理解自然科學與數位科技"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Upon review, most of my initial assessments align with the course text. However, I found one instance where the link was too tenuous and required revision.",
+    "revisions": {
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 0.5,
+        "model_b_score": 0.5,
+        "your_revised": 0.0,
+        "reason": "The general mention of 'professional and ethical responsibility' is too tenuous to link to the specific targets of SDG 16, which focus on governance and justice."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is highly technical, focusing on computer hardware and organization. There is no direct or indirect evidence linking it to poverty eradication or related targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course is highly technical, focusing on computer hardware. There is no direct or indirect evidence linking it to hunger, food security, or agricultural practices.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on computer hardware and organization. There is no direct or indirect evidence linking it to health, well-being, or related medical/public health targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "As a university-level computer science course, it directly provides quality tertiary education (Target 4.3) and develops relevant technical skills for employment and innovation (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is technical and does not contain any direct or indirect evidence related to gender equality or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on computer hardware. There is no direct or indirect evidence linking it to clean water, sanitation, or water resource management.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers \"Power consumption\" as a performance metric, directly contributing to the understanding and improvement of energy efficiency (Target 7.3).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course fosters critical thinking, innovation, and digital technology skills, which are essential for technological upgrading, increased economic productivity, and decent job creation (Targets 8.2, 8.3).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course is foundational to understanding and developing ICT infrastructure, fostering innovation, and upgrading technological capabilities in industrial sectors (Targets 9.1, 9.5, 9.b, 9.c).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course content is technical and does not contain any direct or indirect evidence related to reducing inequalities based on income, gender, race, or other status.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on computer hardware. There is no direct or indirect evidence linking it to sustainable cities, urban planning, or community development.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on \"Power consumption\" in computer design directly contributes to understanding and promoting the efficient use of natural resources, aligning with Target 12.2.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on optimizing \"Power consumption\" in computer systems indirectly contributes to climate change mitigation by reducing energy demand and associated emissions.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on computer hardware. There is no direct or indirect evidence linking it to marine life, ocean health, or water-related ecosystems.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on computer hardware. There is no direct or indirect evidence linking it to terrestrial ecosystems, biodiversity, or land management.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The general mention of \"professional and ethical responsibility\" and copyright is too tenuous to establish a meaningful link to the specific targets of SDG 16, which focus on peace, justice, and strong institutions.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course builds foundational capacity in information and communications technology (ICT), which is identified as an enabling technology crucial for technology access, transfer, and capacity-building (Targets 17.6, 17.8).",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

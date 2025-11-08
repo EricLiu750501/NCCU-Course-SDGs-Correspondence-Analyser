@@ -1,0 +1,324 @@
+{
+  "gpt_answer": {},
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "As a university course, it provides tertiary education (Target 4.3) and fosters appreciation of cultural heritage through studying 'Chinese classical civilization' (Target 4.7).",
+        "evidence": [
+          "learning to read and analyze major texts",
+          "explore Chinese classical civilization",
+          "獲得關於中國哲學不同方法的方法論意識"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Reduced Inequalities": {
+        "score": 4.5,
+        "reason": "Inferred link to Target 10.2/10.3. The course reflects on 'thought and society,' which includes philosophical discussions on social structures, hierarchy, and justice in classical China.",
+        "evidence": [
+          "refless on the interaction between thought and society",
+          "反思思想與社會、哲學與歷史之間的相互影響"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 5.0,
+        "reason": "Directly supports Target 11.4 by studying and preserving 'Chinese classical civilization' and its 'most important classical texts,' which are key components of cultural heritage.",
+        "evidence": [
+          "explore Chinese classical civilization",
+          "介紹最重要的典籍"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 6.5,
+        "reason": "Inferred link to Target 16.3/16.6. The course analyzes philosophical schools (Confucianism, Mohism) that fundamentally address justice, social order, and governance, key themes for peace and institutions.",
+        "evidence": [
+          "refless on the interaction between thought and society",
+          "儒家學派、道家學派和墨家學派"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    }
+  ],
+  "gpt_critique": {},
+  "gemini_critique": {
+    "critique": "Model A's analysis is largely accurate, particularly for Quality Education, Sustainable Cities, and Peace, Justice and Strong Institutions. However, I find the link to Reduced Inequalities to be too indirect.",
+    "revisions": {
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 4.5,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "While the course reflects on 'thought and society,' it primarily studies historical concepts, not actively promoting the reduction of contemporary inequalities as per SDG 10 targets."
+      }
+    }
+  },
+  "gpt_judge_final": {},
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course description or objectives supports a link to eradicating poverty or related targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course description or objectives supports a link to ending hunger or improving nutrition.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course description or objectives supports a link to health and well-being targets.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "As a university course, it directly provides tertiary education (Target 4.3) and fosters cultural understanding and critical thinking, aligning with Target 4.7.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course description or objectives supports a link to gender equality.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course description or objectives supports a link to water and sanitation.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course description or objectives supports a link to energy.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course description or objectives supports a link to decent work or economic growth.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course description or objectives supports a link to industry, innovation, or infrastructure.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "While the course reflects on 'thought and society,' its historical focus does not actively promote reducing contemporary inequalities or empowering marginalized groups as per SDG 10 targets.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "The course directly supports Target 11.4 by studying and preserving 'Chinese classical civilization' and its 'most important classical texts,' which are key components of cultural heritage.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course description or objectives supports a link to responsible consumption and production.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course description or objectives supports a link to climate action.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course description or objectives supports a link to marine life.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course description or objectives supports a link to terrestrial ecosystems or biodiversity.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "The course analyzes philosophical schools (Confucianism, Mohism) that fundamentally address justice, social order, and governance, key themes for peace and institutions (Targets 16.3, 16.6).",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": null,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit or inferred evidence in the course description or objectives supports a link to global partnerships.",
+      "model_comparison": {
+        "model_a_original": null,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}
