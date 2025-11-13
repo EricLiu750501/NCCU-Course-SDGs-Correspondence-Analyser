@@ -1,1 +1,774 @@
-{}
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 4.0,
+      "reason": "Course discusses trade policies impacting economic growth, relevant to Target 1.2.",
+      "evidence": [
+        "貿易政策",
+        "經濟的成長"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 1.0,
+      "reason": "Minimal relevance; trade may indirectly affect food security.",
+      "evidence": [
+        "貿易"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Good Health and Well-being": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links to health topics.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 5.0,
+      "reason": "Course aims to enhance economic knowledge, linking to Target 4.4.",
+      "evidence": [
+        "專業知識之培養"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no specific mention of gender issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 8.0,
+      "reason": "Focus on trade policies and economic growth aligns with Target 8.1.",
+      "evidence": [
+        "貿易政策",
+        "經濟成長"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 6.0,
+      "reason": "Course discusses trade's role in economic structure, relevant to Target 9.2.",
+      "evidence": [
+        "國際分工的特色"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct mention of inequality.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 1.0,
+      "reason": "Minimal relevance; trade may relate to consumption patterns.",
+      "evidence": [
+        "貿易"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct mention of climate issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 1.0,
+      "reason": "Minimal relevance; trade policies may touch on governance.",
+      "evidence": [
+        "貿易政策"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "score": 2.0,
+      "reason": "Course may imply international cooperation through trade.",
+      "evidence": [
+        "國際貿易"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 4.5,
+        "reason": "The course discusses mechanisms like \"economic growth\" and \"income redistribution,\" which are key tools for poverty reduction, linking to Targets 1.a and 1.b.",
+        "evidence": [
+          "經濟的成長",
+          "貿易與所得重分配"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 5.0,
+        "reason": "Directly covers \"tariffs and quotas\" and \"non-tariff trade measures,\" which are central to Target 2.b on correcting trade distortions in agricultural markets.",
+        "evidence": [
+          "關稅與配額",
+          "非關稅貿易措施"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 1.0,
+        "reason": "The course itself provides tertiary education and builds \"International Perspective and Competitiveness,\" tangentially linking to Targets 4.3 and 4.4.",
+        "evidence": [
+          "International Perspective and Competitiveness"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 9.5,
+        "reason": "The course's core focus is on \"economic growth\" through trade, directly addressing Targets 8.1 (growth) and 8.2 (productivity) via concepts like \"international division of labor.\"",
+        "evidence": [
+          "經濟的成長",
+          "國際分工",
+          "貿易擴張"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 7.5,
+        "reason": "Discusses \"scale economies\" and \"imperfect competition,\" which are foundational to understanding industrialization (Target 9.2) and integration into global markets (Target 9.3).",
+        "evidence": [
+          "規模經濟、不完全競爭與國際貿易",
+          "工業時代"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 9.0,
+        "reason": "A specific topic is \"Trade and Income Redistribution.\" The study of trade policies also directly relates to inequality between countries (Target 10.a).",
+        "evidence": [
+          "貿易與所得重分配",
+          "貿易政策"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 4.0,
+        "reason": "The concept of \"effective resource utilization\" through trade is a key principle of resource efficiency, linking to Target 12.2.",
+        "evidence": [
+          "資源的有效運用"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 2.5,
+        "reason": "The study of \"non-tariff trade measures\" is relevant to the WTO fisheries subsidies negotiations mentioned in Target 14.6.",
+        "evidence": [
+          "非關稅貿易措施",
+          "貿易政策"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 7.0,
+        "reason": "The study of \"trade policies\" and \"regional economic integration\" inherently involves the international rules-based institutions (Targets 16.3, 16.8) that govern global trade.",
+        "evidence": [
+          "貿易政策",
+          "區域經濟整合"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about the multilateral trading system (Target 17.10) and policies like \"regional economic integration\" that define global partnerships for development.",
+        "evidence": [
+          "國際貿易",
+          "區域經濟整合",
+          "貿易政策"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations of the course content, particularly regarding trade's impact on poverty and food security.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B highlights income redistribution, which is relevant to poverty reduction."
+      },
+      "Zero Hunger": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B identifies direct links to trade policies affecting food security."
+      },
+      "Quality Education": {
+        "your_original": 5.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B correctly notes the course's focus on tertiary education, not directly on quality education targets."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 8.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B emphasizes the course's core focus on economic growth through trade."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's interpretation of trade's role in industrialization is more comprehensive."
+      },
+      "Reduced Inequalities": {
+        "your_original": 1.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B accurately connects trade policies to income redistribution and inequality."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 1.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B identifies effective resource utilization through trade as relevant."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 1.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B correctly links trade policies to governance and institutional frameworks."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 2.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B emphasizes the course's focus on multilateral trade systems and partnerships."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provided more explicit links to the course text, particularly regarding trade policies, income redistribution, and international cooperation, leading to several revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A highlighted 'income redistribution' from the text, which is a more direct link to poverty reduction than my initial reasoning."
+      },
+      "Zero Hunger": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly identified 'tariffs and quotas' and 'non-tariff trade measures' as directly relevant to agricultural trade distortions (Target 2.b)."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Model A correctly noted no direct evidence, whereas I assigned a minimal score without specific support."
+      },
+      "Gender Equality": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Model A correctly noted no direct evidence, whereas I assigned a minimal score without specific support."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 8.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model A's inclusion of 'international division of labor' and 'trade expansion' provides a more comprehensive and explicit link to this SDG."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model A's reference to 'scale economies' and 'imperfect competition' directly aligns with industrialization and integration into global markets."
+      },
+      "Reduced Inequalities": {
+        "your_original": 1.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A correctly highlighted 'Trade and Income Redistribution' as an explicit course topic, directly addressing inequality."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 1.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A's use of 'effective resource utilization' from the course description provides a stronger, inferred link to this SDG."
+      },
+      "Climate Action": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Model A correctly noted no direct evidence, whereas I assigned a minimal score without specific support."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A made a reasonable inference by linking 'non-tariff trade measures' to WTO fisheries subsidies, which is relevant to Target 14.6."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 1.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model A's reasoning on 'trade policies' and 'regional economic integration' directly involving international rules and institutions is much stronger."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 2.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A correctly identified the course's fundamental focus on the multilateral trading system and regional integration as central to global partnerships."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight economic growth and income redistribution as key factors for poverty reduction, aligning well with course content. The score reflects a balanced view of both analyses.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on tariffs and quotas directly relates to agricultural trade, aligning with course content. This score reflects a comprehensive understanding of trade's impact on food security.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models correctly identify a lack of evidence linking the course content to health topics, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Model B's critique correctly identifies the course's focus on tertiary education rather than quality education targets, leading to a lower score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the absence of evidence related to gender issues in the course content, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence linking the course content to water and sanitation issues, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence linking the course content to energy issues, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's focus on economic growth through trade, with Model B providing a stronger justification. This score reflects the course's core content.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's discussion on trade's role in industrialization, with Model B providing a more comprehensive view. This score reflects that understanding.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on trade and income redistribution aligns well with course content, justifying a high score. This reflects the course's relevance to inequality.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence linking the course content to sustainable cities, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on effective resource utilization through trade provides a stronger link to this SDG, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence linking the course content to climate issues, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Model A's inference linking trade measures to fisheries subsidies provides a reasonable basis for this score, reflecting some relevance.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence linking the course content to land issues, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the relevance of trade policies to governance, with Model B providing a stronger justification. This score reflects that understanding.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's focus on multilateral trade systems and partnerships, justifying a perfect score.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '貿易與所得重分配' (Trade and Income Redistribution) and '經濟的成長,' directly linking to poverty reduction targets (1.2, 1.a, 1.b) by addressing income distribution and economic opportunities.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '關稅與配額' and '非關稅貿易措施,' which are directly relevant to Target 2.b on correcting trade restrictions and distortions in world agricultural markets.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus contains no explicit or inferable content related to health, well-being, or any of the specific targets under SDG 3.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 5.0,
+      "source": "model_a",
+      "reasoning": "The course itself is a form of quality tertiary education (Target 4.3) and explicitly aims to cultivate '專業知識' (professional knowledge) and '國際視野與國際競爭力' (international perspective and competitiveness), directly supporting Target 4.4.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus contains no explicit or inferable content related to gender equality or any of the specific targets under SDG 5.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no explicit or inferable content related to clean water and sanitation or any of the specific targets under SDG 6.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no explicit or inferable content related to affordable and clean energy or any of the specific targets under SDG 7.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course's central theme is '經濟的成長' (economic growth) driven by '國際貿易' and '國際分工,' directly addressing Targets 8.1 (sustained economic growth) and 8.2 (higher productivity through diversification).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '規模經濟、不完全競爭與國際貿易,' which are key drivers for industrialization (Target 9.2) and integrating enterprises into value chains (Target 9.3). The historical context of '工業時代' also supports this.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '貿易與所得重分配' (Trade and Income Redistribution), which directly addresses income inequality (Targets 10.1, 10.3, 10.4). Trade policies also relate to inequalities between countries (Target 10.a).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no explicit or inferable content related to sustainable cities and communities or any of the specific targets under SDG 11.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course description highlights '資源的有效運用' (effective utilization of resources) through trade, which directly aligns with Target 12.2 on the sustainable management and efficient use of natural resources.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus contains no explicit or inferable content related to climate action or any of the specific targets under SDG 13.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The course's discussion of '非關稅貿易措施' and '貿易政策' can be reasonably inferred to include topics like fisheries subsidies, which are explicitly mentioned in Target 14.6 as part of WTO negotiations.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no explicit or inferable content related to life on land or any of the specific targets under SDG 15.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on '貿易政策' and '區域經濟整合' inherently involves the development and functioning of international rules-based institutions, directly linking to Targets 16.3 (rule of law) and 16.8 (participation in global governance).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about '國際貿易,' '貿易政策,' and '區域經濟整合,' directly aligning with Target 17.10 (multilateral trading system) and the broader concept of global partnerships for development.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    }
+  }
+}

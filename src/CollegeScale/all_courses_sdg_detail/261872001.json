@@ -1,1 +1,786 @@
-{}
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 4.0,
+      "reason": "Discusses labor's role in economic stability, linking to Target 1.3 on social protection systems.",
+      "evidence": [
+        "工作是一個無法迴避的議題",
+        "提供生活所需和家庭保障"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 7.0,
+      "reason": "Focuses on developing critical thinking and research skills, relevant to Target 4.4.",
+      "evidence": [
+        "培養學生對勞動研究相關議題的思考與研究能力",
+        "讓學生掌握國內外相關主題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 6.0,
+      "reason": "Addresses gender and labor dynamics, linking to Target 5.5 on women's participation.",
+      "evidence": [
+        "性別與交織性",
+        "女性社交直播主的數位勞動"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 9.0,
+      "reason": "Explores labor dynamics and economic systems, directly linking to Target 8.5.",
+      "evidence": [
+        "勞動與工作的概念",
+        "零工經濟、跨國企業、數位勞動及人工智慧"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 4.0,
+      "reason": "Discusses labor in the context of technological advancement, relevant to Target 9.2.",
+      "evidence": [
+        "科技的進步（如演算法與自動化）",
+        "數位勞動"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 5.0,
+      "reason": "Examines class consciousness and labor disparities, linking to Target 10.3.",
+      "evidence": [
+        "階級意識的形成與轉變",
+        "控制與抵抗"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 5.0,
+        "reason": "Discusses 'precarity' (不穩定性) and the 'precariat' (不穩定無產階級), conditions of economic vulnerability linked to poverty, which relates to Target 1.2 on reducing poverty.",
+        "evidence": [
+          "不穩定性 (precarity)",
+          "不穩定無產階級 (The Precariat)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 2.5,
+        "reason": "Discusses 'emotion work' (情緒勞動) and 'overwork' (過勞), which relate to mental health and well-being in the workplace, linking to Target 3.4.",
+        "evidence": [
+          "情緒勞動 (Emotion Work)",
+          "你的過勞 (your overwork)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 2.0,
+        "reason": "As a university course, it provides tertiary education (Target 4.3) and skills for employment (Target 4.4), though its content does not focus on education systems.",
+        "evidence": [
+          "培養學生對勞動研究相關議題的思考與研究能力 (Cultivate students' ability to think and research on labor-related issues)",
+          "有助於未來繼續深造或求職 (helpful for future advanced studies or job hunting)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Gender Equality": {
+        "score": 8.5,
+        "reason": "Explicitly covers 'Gender and Intersectionality' and 'gender politics' in digital labor, directly addressing economic opportunities and discrimination for women (Targets 5.1, 5.5).",
+        "evidence": [
+          "性別與交織性 (Gender and Intersectionality)",
+          "數位勞動與性別政治 (Digital Labor and Gender Politics)"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.5,
+        "reason": "A reading mentions 'energy transitions,' but the course focus is on labor within that context, not on energy policy or technology itself.",
+        "evidence": [
+          "energy transitions"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about 'Work and Labor,' directly addressing decent work (Target 8.5), labor rights, and precarious employment (Target 8.8).",
+        "evidence": [
+          "Work and Labor in the Global Economy",
+          "不穩定性 (precarity)",
+          "worker resistance in global supply chains"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 7.5,
+        "reason": "Explores the impact of 'artificial intelligence' and 'digital labor' on industry, linking to technological upgrading and innovation (Targets 8.2, 9.5).",
+        "evidence": [
+          "人工智慧 (artificial intelligence)",
+          "數位勞動 (digital labor)",
+          "global supply chains"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 9.0,
+        "reason": "Directly analyzes inequality through 'class consciousness,' 'ethnic relations,' and 'gender and intersectionality,' aligning with Targets 10.2, 10.3, and 10.4.",
+        "evidence": [
+          "階級意識的形成與轉變 (formation and transformation of class consciousness)",
+          "性別與交織性 (Gender and Intersectionality)",
+          "族群關係 (ethnic relations)"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 1.5,
+        "reason": "The theme 'Space and Place' tangentially relates to urban/rural labor dynamics but does not directly address core sustainable city targets like housing or transport.",
+        "evidence": [
+          "空間與地方 (Space and Place)",
+          "Labour Geography"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Responsible Consumption and Production": {
+        "score": 4.0,
+        "reason": "Analyzes labor within 'global supply chains' and 'multinational corporations,' which is relevant to the production side of sustainable practices (Target 12.6).",
+        "evidence": [
+          "global supply chains",
+          "跨國企業 (multinational corporations)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 0.5,
+        "reason": "A reading mentions 'energy transitions,' but the course focuses on labor impacts rather than climate change measures or policies (Target 13.2).",
+        "evidence": [
+          "energy transitions"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 5.5,
+        "reason": "Discusses 'labor law,' 'State Intervention,' and 'worker resistance,' relating to the rule of law and access to justice for workers (Targets 16.3, 16.6).",
+        "evidence": [
+          "國家干預與缺席 (State Intervention and Absence)",
+          "Anthropology and labour law",
+          "worker resistance"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 4.5,
+        "reason": "Analyzes the 'global economy' and 'multinational corporations,' which are central to global partnerships and policy coherence for development (Targets 17.14, 17.16).",
+        "evidence": [
+          "全球化經濟 (Global Economy)",
+          "跨國企業 (multinational corporations)",
+          "global supply chains"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more nuanced insights into poverty and health, prompting revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's focus on 'precarity' aligns better with course themes on economic vulnerability."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B's mention of 'emotion work' connects to mental health, which I initially overlooked."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B's lower score reflects the course's limited focus on formal education systems."
+      },
+      "Gender Equality": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's emphasis on gender dynamics in digital labor is more comprehensive."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 9.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's score reflects a stronger alignment with the course's focus on labor rights."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 4.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's insights on AI and digital labor better capture the course's technological themes."
+      },
+      "Reduced Inequalities": {
+        "your_original": 5.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's analysis of class consciousness and intersectionality is more thorough."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B's focus on labor law and worker resistance aligns with course discussions."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's insights on global partnerships are relevant to the course context."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis is more comprehensive, identifying several explicit and strongly inferred connections that I initially overlooked. Its reasoning is consistently better aligned with the course text.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 4.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly highlights 'precarity' and 'precariat' which directly address economic vulnerability and poverty."
+      },
+      "SDG_3 (Good Health and Well-being)": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A accurately identified 'emotion work' and 'overwork' as relevant to mental health and well-being."
+      },
+      "SDG_5 (Gender Equality)": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A's reasoning on 'gender politics' and 'intersectionality' provides a more complete picture of the SDG's relevance."
+      },
+      "SDG_7 (Affordable and Clean Energy)": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model A correctly noted the mention of 'energy transitions' in the readings, warranting a minimal score."
+      },
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 9.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "The course title and content are fundamentally about 'Work and Labor,' making it a direct and primary alignment with SDG 8."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 4.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model A's connection to 'artificial intelligence,' 'digital labor,' and 'global supply chains' is more robust for this SDG."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 5.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A's inclusion of 'ethnic relations' and 'gender and intersectionality' alongside 'class consciousness' provides a stronger alignment."
+      },
+      "SDG_11 (Sustainable Cities and Communities)": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model A correctly identified 'Space and Place' and 'Labour Geography' as tangentially relevant to community dynamics."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A's reasoning linking 'global supply chains' and 'multinational corporations' to production practices is accurate."
+      },
+      "SDG_13 (Climate Action)": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model A correctly noted the mention of 'energy transitions' in the readings, warranting a minimal score."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 0.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model A's identification of 'labor law,' 'State Intervention,' and 'worker resistance' directly relates to justice and institutions."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A's reasoning on 'global economy' and 'multinational corporations' aligns well with global partnerships."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight economic vulnerability and precarity, aligning with course themes. The score reflects a balanced view of poverty's complexities.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in course materials supports this SDG, consistent across both models.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the relevance of emotional labor to mental health, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on labor research skills aligns with a limited educational scope, justifying a lower score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models effectively address gender dynamics in labor, aligning well with course content.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No relevant evidence found in course materials, consistent across both models.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Minimal mention of energy transitions justifies a low score, reflecting both models' insights.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's primary focus on labor and economic systems aligns perfectly with this SDG.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight technological impacts on labor, justifying a strong score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models effectively analyze class consciousness and intersectionality, aligning well with course themes.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "The course's tangential references to urban dynamics justify a minimal score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on global supply chains supports a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Minimal references to energy transitions warrant a low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No relevant evidence found in course materials, consistent across both models.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No relevant evidence found in course materials, consistent across both models.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Both models effectively address labor law and worker resistance, aligning with course discussions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models analyze global partnerships and economic dynamics, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'precarity' and the 'precariat' (Week 10), directly addressing economic vulnerability and poverty reduction (Target 1.2, 1.5). Model B's original reasoning was more precise.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus relates to hunger, food security, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'emotion work' (Week 8) and 'overwork' (Week 9 reading), which directly relate to mental health and well-being in the workplace (Target 3.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course provides tertiary education and skills (Target 4.3, 4.4) but does not focus on the broader themes of education systems, access, or quality as defined by SDG 4.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly dedicates a week to 'Gender and Intersectionality' and discusses 'gender politics' in digital labor, directly addressing discrimination and women's economic participation (Targets 5.1, 5.5).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus relates to clean water, sanitation, or water resource management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "A reading mentions 'energy transitions' (Week 11), providing a minimal, indirect link, but the course focuses on labor impacts rather than energy policy or technology.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about 'Work and Labor in the Global Economy,' directly addressing decent work, labor rights, precarious employment, and job creation (Targets 8.3, 8.5, 8.8).",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explores the impact of 'artificial intelligence,' 'digital labor,' and 'technological advancement' on work, directly linking to industrial innovation and technological upgrading (Target 9.5).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course directly analyzes inequality through 'class consciousness,' 'ethnic relations,' and 'gender and intersectionality,' aligning strongly with targets for social, economic, and political inclusion (Targets 10.2, 10.3).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The theme 'Space and Place' and 'Labour Geography' (Week 11) tangentially relate to labor dynamics in different locales, but do not directly address core sustainable city targets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course analyzes labor within 'global supply chains' and 'multinational corporations,' which is relevant to the production side of sustainable practices (Target 12.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "A reading mentions 'energy transitions' (Week 11), providing a minimal, indirect link, but the course focuses on labor impacts rather than climate change measures or policies.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus relates to marine ecosystems, ocean health, or sustainable fisheries.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus relates to terrestrial ecosystems, biodiversity, or sustainable land management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course discusses 'labor law,' 'State Intervention,' and 'worker resistance,' directly relating to the rule of law, access to justice, and effective institutions for workers (Targets 16.3, 16.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course analyzes 'global economy,' 'multinational corporations,' and 'global supply chains,' which are central to international cooperation and policy coherence for development (Targets 17.14, 17.16).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

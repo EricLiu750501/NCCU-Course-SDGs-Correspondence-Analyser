@@ -1,1 +1,805 @@
-{}
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 4.0,
+      "reason": "Discusses social inequality and rural issues, linking to Target 1.2.",
+      "evidence": [
+        "社會不平等",
+        "農業與農村問題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "score": 4.0,
+      "reason": "Mentions agricultural issues, relevant to Target 2.1.",
+      "evidence": [
+        "農業與農村問題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "score": 1.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 7.0,
+      "reason": "Focus on higher education development, linking to Target 4.3.",
+      "evidence": [
+        "高等教育的制度與發展"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 1.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 1.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 1.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 6.0,
+      "reason": "Discusses economic development and market transformation, relevant to Target 8.2.",
+      "evidence": [
+        "經濟發展與結構調整",
+        "市場轉型"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 5.0,
+      "reason": "Mentions technology policy and innovation systems, linking to Target 9.5.",
+      "evidence": [
+        "科技政策與創新體系"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 4.0,
+      "reason": "Addresses social inequality, linking to Target 10.2.",
+      "evidence": [
+        "社會不平等"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 5.0,
+      "reason": "Covers urbanization and rural-urban relations, relevant to Target 11.3.",
+      "evidence": [
+        "城市化與城鄉關係"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 1.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 6.0,
+      "reason": "Discusses environmental governance, linking to Target 13.2.",
+      "evidence": [
+        "環境變遷與治理"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 1.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 1.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 7.0,
+      "reason": "Covers governance and political relations, linking to Target 16.6.",
+      "evidence": [
+        "治理體系",
+        "黨政關係"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 1.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 6.0,
+        "reason": "The course analyzes '農業與農村問題' (agriculture and rural issues) and '市場轉型與社會不平等' (market transition and social inequality), linking to pro-poor development strategies (Target 1.b).",
+        "evidence": [
+          "農業與農村問題",
+          "市場轉型與社會不平等",
+          "中國三農問題"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Zero Hunger": {
+        "score": 6.5,
+        "reason": "The course explicitly covers '農業與農村問題' (agriculture and rural issues) and '三農問題' (three rural issues), which directly relate to agricultural productivity and food systems (Targets 2.3, 2.4).",
+        "evidence": [
+          "農業與農村問題",
+          "TA幫助學生分組討論中國三農問題"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Good Health and Well-being": {
+        "score": 1.0,
+        "reason": "The topic '環境變遷與治理' (environmental change and governance) has a minimal inferred link to reducing illnesses from pollution (Target 3.9), but health is not a course focus.",
+        "evidence": [
+          "環境變遷與治理"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 5.0,
+        "reason": "The course explicitly includes '高等教育的制度與發展' (higher education's system and development) as a topic, directly addressing access to tertiary education (Target 4.3).",
+        "evidence": [
+          "高等教育的制度與發展"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 8.5,
+        "reason": "Core topics include '經濟發展與結構調整' (economic development and structural adjustment) and a lecture on '中國經濟與永續發展' (China's Economy and Sustainable Development), aligning with Target 8.2.",
+        "evidence": [
+          "經濟發展與結構調整",
+          "區域與城市經濟",
+          "中國經濟與永續發展"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 7.5,
+        "reason": "The course explicitly covers '科技政策與創新體系' (technology policy and innovation system), directly linking to enhancing scientific research and technological capabilities (Target 9.5).",
+        "evidence": [
+          "科技政策與創新體系"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 9.0,
+        "reason": "A core theme is '市場轉型與社會不平等' (market transition and social inequality), directly addressing the goal of reducing inequality within a country (Targets 10.2, 10.4).",
+        "evidence": [
+          "市場轉型與社會不平等",
+          "城鄉關係",
+          "城鄉基層治理"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 8.0,
+        "reason": "The course explicitly covers '城市化與城鄉關係' (urbanization and urban-rural relations) and discusses '中國城市化吸引力與問題' (China's urbanization's appeal and problems), linking to Target 11.3.",
+        "evidence": [
+          "城市化與城鄉關係",
+          "區域與城市經濟",
+          "TA幫助學生分組討論中國城市化吸引力與問題"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 8.0,
+        "reason": "Features an expert lecture on '中國經濟與永續發展' (China's Economy and Sustainable Development) and covers '環境變遷與治理', aligning with sustainable management of resources (Target 12.2).",
+        "evidence": [
+          "中國經濟與永續發展",
+          "環境變遷與治理",
+          "中國環境內政與綠色外交"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 6.0,
+        "reason": "The course addresses '環境變遷與治理' (environmental change and governance) and '綠色外交' (green diplomacy), which relates to integrating climate change measures into national policies (Target 13.2).",
+        "evidence": [
+          "環境變遷與治理",
+          "TA幫助學生分組討論中國環境內政與綠色外交"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 9.5,
+        "reason": "The course is fundamentally about China's '治理體系' (governance system), '黨政關係' (Party-state relations), and '國家與社會關係' (state-society relations), aligning with building effective institutions (Target 16.6).",
+        "evidence": [
+          "黨政關係與治理體系",
+          "國家與社會關係",
+          "中央與地方關係"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 8.0,
+        "reason": "Extensively covers '外交與兩岸互動' (foreign policy and cross-strait interactions) and '區域經濟' (regional economy), relating to international cooperation and policy coherence (Targets 17.6, 17.14).",
+        "evidence": [
+          "外交與兩岸互動",
+          "兩岸關係與區域經濟",
+          "美中戰略競爭"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B provides a more comprehensive analysis, particularly on poverty and hunger, warranting revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B highlights additional evidence linking to pro-poor strategies."
+      },
+      "Zero Hunger": {
+        "your_original": 4.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B includes more specific references to agricultural issues."
+      },
+      "Quality Education": {
+        "your_original": 7.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's score reflects a more cautious interpretation of the evidence."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B emphasizes additional relevant topics on economic development."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 5.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B provides a stronger link to technological capabilities."
+      },
+      "Reduced Inequalities": {
+        "your_original": 4.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's analysis captures the core theme of social inequality more effectively."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 5.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B includes more comprehensive evidence on urbanization."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 1.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B identifies relevant discussions on sustainable development."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 7.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B's score reflects a deeper analysis of governance."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 1.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B highlights significant discussions on international cooperation."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provided more comprehensive evidence and stronger links to specific SDG targets, leading to several upward revisions of my initial scores, especially for SDGs 1, 2, 8, 9, 10, 11, 12, 16, and 17.",
+    "revisions": {
+      "No Poverty (No Poverty)": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model A's inclusion of '中國三農問題' and explicit link to 'pro-poor development strategies' strengthens the connection, justifying a higher score."
+      },
+      "Zero Hunger (Zero Hunger)": {
+        "your_original": 4.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model A's explicit mention of '三農問題' and direct link to agricultural productivity and food systems provides stronger evidence."
+      },
+      "Gender Equality (Gender Equality)": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Aligning with Model A's score for no explicit evidence found in the course text."
+      },
+      "Clean Water and Sanitation (Clean Water and Sanitation)": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Aligning with Model A's score for no explicit evidence found in the course text."
+      },
+      "Affordable and Clean Energy (Affordable and Clean Energy)": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Aligning with Model A's score for no explicit evidence found in the course text."
+      },
+      "Decent Work and Economic Growth (Decent Work and Economic Growth)": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A correctly identified the expert lecture on '中國經濟與永續發展' as strong evidence, warranting a higher score."
+      },
+      "Industry, Innovation and Infrastructure (Industry, Innovation and Infrastructure)": {
+        "your_original": 5.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "The explicit mention of '科技政策與創新體系' justifies a higher score, as Model A indicated."
+      },
+      "Reduced Inequalities (Reduced Inequalities)": {
+        "your_original": 4.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A highlighted '市場轉型與社會不平等' as a core theme, along with '城鄉關係', providing more comprehensive evidence for a higher score."
+      },
+      "Sustainable Cities and Communities (Sustainable Cities and Communities)": {
+        "your_original": 5.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A's inclusion of '中國城市化吸引力與問題' and '區域與城市經濟' strengthens the link to sustainable urbanization."
+      },
+      "Responsible Consumption and Production (Responsible Consumption and Production)": {
+        "your_original": 1.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A correctly identified the expert lecture on '中國經濟與永續發展' and '環境變遷與治理' as strong evidence, which I initially missed."
+      },
+      "Life Below Water (Life Below Water)": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Aligning with Model A's score for no explicit evidence found in the course text."
+      },
+      "Life on Land (Life on Land)": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Aligning with Model A's score for no explicit evidence found in the course text."
+      },
+      "Peace, Justice and Strong Institutions (Peace, Justice and Strong Institutions)": {
+        "your_original": 7.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model A emphasized the fundamental nature of '治理體系', '黨政關係', and '國家與社會關係' to the course, justifying a higher score."
+      },
+      "Partnerships for the Goals (Partnerships for the Goals)": {
+        "your_original": 1.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A correctly identified extensive coverage of '外交與兩岸互動' and '區域經濟' as strong evidence, which I initially missed."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight agricultural and rural issues, but Model B's emphasis on pro-poor strategies strengthens the score. The revised score reflects a comprehensive understanding of poverty dimensions.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Model B's detailed references to agricultural productivity and rural issues provide a stronger basis for this score, aligning well with the SDG targets.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the lack of evidence related to health, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's cautious interpretation aligns with the evidence presented, reflecting a more accurate assessment of educational focus.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence for gender equality, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the absence of evidence, leading to a score of zero.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no relevant evidence, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight significant economic development topics, with Model B providing a stronger justification for a higher score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize technology and innovation, with Model B providing a clearer link to SDG targets.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on social inequality and market transition provides a robust basis for this high score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight urbanization issues, with Model B providing a more comprehensive view of the topic.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on sustainable development discussions justifies a higher score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models address environmental governance, with sufficient evidence to support this score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize governance and political relations, with Model B providing a stronger justification for a high score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's extensive coverage of international cooperation justifies a higher score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 6.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers '農業與農村問題,' '市場轉型與社會不平等,' and '中國三農問題,' directly addressing poverty and inequality in rural and urban contexts, aligning with Targets 1.2 and 1.b.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 6.5,
+      "source": "revised_a",
+      "reasoning": "Explicit discussion of '農業與農村問題' and '中國三農問題' directly addresses agricultural productivity, food systems, and rural livelihoods, aligning with Targets 2.1, 2.3, and 2.4.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course mentions '環境變遷與治理,' which has a minimal, inferred link to reducing illnesses from pollution (Target 3.9). However, health is not a primary focus.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "The course explicitly covers '高等教育的制度與發展,' directly addressing access to tertiary education (Target 4.3). This is a clear, dedicated topic, warranting a moderate-to-strong score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence related to gender equality, women's rights, or empowerment was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence related to clean water, sanitation, or hygiene was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence related to affordable and clean energy was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course extensively covers '經濟發展與結構調整,' '市場轉型,' '區域與城市經濟,' and features an expert lecture on '中國經濟與永續發展,' directly aligning with economic growth, productivity, and sustainable development (Targets 8.1, 8.2, 8.4).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '科技政策與創新體系,' directly linking to enhancing scientific research, technological capabilities, and innovation, aligning with Target 9.5.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly addresses '市場轉型與社會不平等,' '城鄉關係,' and '城鄉基層治理,' making it a core theme directly related to reducing inequalities within a country (Targets 10.2, 10.4).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '城市化與城鄉關係,' '中國城市化吸引力與問題,' and '區域與城市經濟,' directly addressing sustainable urbanization and human settlement planning (Target 11.3).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course includes an expert lecture on '中國經濟與永續發展' and covers '環境變遷與治理' and '綠色外交,' directly linking to sustainable resource management and consumption/production patterns (Targets 12.1, 12.2).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 6.0,
+      "source": "model_a",
+      "reasoning": "The course explicitly covers '環境變遷與治理' and '綠色外交,' directly relating to integrating climate change measures into national policies and strategies (Target 13.2).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence related to marine ecosystems, ocean health, or life below water was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No explicit evidence related to terrestrial ecosystems, forests, biodiversity, or land degradation was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about China's political system, explicitly covering '治理體系,' '黨政關係,' '國家與社會關係,' and '中央與地方關係,' directly aligning with building effective, accountable institutions (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course extensively covers '外交與兩岸互動,' '兩岸關係與區域經濟,' and '美中戰略競爭,' directly addressing international cooperation, regional partnerships, and policy coherence (Targets 17.6, 17.14).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    }
+  }
+}

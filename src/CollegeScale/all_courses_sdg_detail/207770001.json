@@ -1,1 +1,785 @@
-{}
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 8.0,
+      "reason": "Focus on programming skills and logical thinking aligns with Target 4.4 ('relevant skills for employment').",
+      "evidence": [
+        "具備邏輯思考能力，可以分析問題的解決方法",
+        "具備領導與團隊合作並進之精神與國際觀"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 7.0,
+      "reason": "Course on programming and technology aligns with Target 9.5 ('enhance scientific research and innovation').",
+      "evidence": [
+        "物件導向程式設計之基本概念",
+        "運用Python設計程式解決實務的問題"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.0,
+        "reason": "Inferred link to Target 1.4 (control over land) as 'geospatial programming' is a tool for land administration, a focus of the 'Land Economics' department.",
+        "evidence": [
+          "geospatial programming",
+          "Course Department:Land Economics/B/2"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 1.5,
+        "reason": "Inferred link to Target 2.4 (resilient agricultural practices) as 'geospatial programming' and 'image processing' are used for precision agriculture and land management.",
+        "evidence": [
+          "geospatial programming",
+          "Applications: image processing"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Good Health and Well-being": {
+        "score": 1.0,
+        "reason": "Inferred link to Target 3.d (management of health risks) as 'geospatial programming' can be used to map and analyze environmental health data.",
+        "evidence": [
+          "geospatial programming",
+          "spatial information domain"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "The course is a form of tertiary education providing technical skills for employment, directly supporting Target 4.3 and 4.4, and promotes 'lifelong learning'.",
+        "evidence": [
+          "Object-Oriented Programming",
+          "養成自主與終身學習的態度"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 2.0,
+        "reason": "Inferred link to Target 5.b, which promotes 'enabling technology' for women's empowerment. The course teaches programming and web development skills.",
+        "evidence": [
+          "Object-Oriented Programming",
+          "web programming"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 4.0,
+        "reason": "Inferred link to Target 6.5 and 6.6. 'Geospatial programming' is a key technology for integrated water resources management and monitoring water-related ecosystems.",
+        "evidence": [
+          "geospatial programming",
+          "spatial information domain"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "score": 2.5,
+        "reason": "Inferred link to Target 7.a and 7.b, as 'geospatial programming' is used to plan and manage energy infrastructure, including renewables.",
+        "evidence": [
+          "geospatial programming",
+          "spatial information domain"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 6.0,
+        "reason": "Directly supports Target 8.2 (technological upgrading) and 8.5 (productive employment) by teaching high-demand programming skills to 'solve practical problems'.",
+        "evidence": [
+          "Object-Oriented Programming",
+          "解決實務的問題"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 8.5,
+        "reason": "Directly supports Targets 9.1, 9.5 and 9.c by teaching 'geospatial programming' for infrastructure planning and upgrading technological capabilities with ICT skills.",
+        "evidence": [
+          "geospatial programming",
+          "web programming",
+          "Object-Oriented Programming"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 7.5,
+        "reason": "Strong inferred link to Target 11.3 (sustainable urbanization and planning). 'Geospatial programming' is a fundamental tool for urban planning and management.",
+        "evidence": [
+          "geospatial programming",
+          "spatial information domain"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Responsible Consumption and Production": {
+        "score": 2.0,
+        "reason": "Inferred link to Target 12.2 and 12.a. 'Geospatial programming' can monitor natural resources, and the course strengthens scientific and technological capacity.",
+        "evidence": [
+          "geospatial programming",
+          "solve practical problems"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 5.0,
+        "reason": "Inferred link to Target 13.1 and 13.2. 'Geospatial programming' is a critical tool for modeling climate impacts and planning adaptation measures.",
+        "evidence": [
+          "geospatial programming",
+          "spatial information domain"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life Below Water": {
+        "score": 3.0,
+        "reason": "Inferred link to Target 14.2. 'Geospatial programming' and 'image processing' are used to monitor and manage marine and coastal ecosystems.",
+        "evidence": [
+          "geospatial programming",
+          "Applications: image processing"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life on Land": {
+        "score": 7.5,
+        "reason": "Strong inferred link to Targets 15.1, 15.3, and 15.9. 'Geospatial programming' is essential for monitoring ecosystems, combating desertification, and land use planning.",
+        "evidence": [
+          "geospatial programming",
+          "spatial information domain",
+          "Applications: image processing"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Partnerships for the Goals": {
+        "score": 4.5,
+        "reason": "Inferred link to Targets 17.6, 17.8 and 17.18. The course builds capacity in enabling technology (ICT) and data analysis skills.",
+        "evidence": [
+          "Object-Oriented Programming",
+          "geospatial programming"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive connections to the SDGs based on course content, warranting revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Geospatial programming relates to land administration, aligning with Target 1.4."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Geospatial programming aids in precision agriculture, linking to Target 2.4."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Geospatial programming can analyze health data, connecting to Target 3.d."
+      },
+      "Gender Equality": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Programming skills promote women's empowerment, aligning with Target 5.b."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Geospatial programming is vital for water management, linking to Targets 6.5 and 6.6."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Geospatial programming aids in energy infrastructure planning, connecting to Targets 7.a and 7.b."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Programming skills support economic productivity, aligning with Targets 8.2 and 8.5."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Geospatial programming is essential for urban planning, linking to Target 11.3."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Geospatial programming aids in monitoring resources, connecting to Targets 12.2 and 12.a."
+      },
+      "Climate Action": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Geospatial programming is critical for climate impact modeling, linking to Targets 13.1 and 13.2."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Geospatial programming aids in marine ecosystem management, connecting to Target 14.2."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Geospatial programming is vital for ecosystem monitoring, linking to Targets 15.1 and 15.3."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Course builds capacity in ICT and data analysis, aligning with Targets 17.6 and 17.8."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's analysis highlighted areas where my inferences were too broad, lacking direct textual support. I've revised scores for SDGs where the connection was not sufficiently explicit.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The link to poverty reduction via geospatial programming is too indirect and not explicitly supported by the course text."
+      },
+      "SDG_2 (Zero Hunger)": {
+        "your_original": 1.5,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "While technologies can apply to agriculture, the course text does not mention food security or agricultural practices."
+      },
+      "SDG_3 (Good Health and Well-being)": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The course teaches general programming; health applications are not explicitly mentioned or strongly implied."
+      },
+      "SDG_5 (Gender Equality)": {
+        "your_original": 2.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The course is general programming; no specific content or objectives relate to gender equality or women's empowerment."
+      },
+      "SDG_6 (Clean Water and Sanitation)": {
+        "your_original": 4.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Water management is a potential application, but the course text does not mention water, sanitation, or related issues."
+      },
+      "SDG_7 (Affordable and Clean Energy)": {
+        "your_original": 2.5,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Energy infrastructure is a potential application, but not mentioned or implied in the course text."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 2.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The link to responsible consumption via resource monitoring is indirect and not a focus of the course content."
+      },
+      "SDG_13 (Climate Action)": {
+        "your_original": 5.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Climate modeling is an application, but the course text does not mention climate change, mitigation, or adaptation."
+      },
+      "SDG_14 (Life Below Water)": {
+        "your_original": 3.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "There is no mention of marine life or oceans in the course text; the application is too far removed."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Geospatial programming relates to land administration, aligning with Target 1.4. This connection is supported by course content, making the score justified.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "While geospatial programming can apply to agriculture, the course text does not mention food security or agricultural practices, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course does not explicitly mention health applications or related content, making the inferred connections too weak to support a score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course focuses on programming skills and logical thinking, directly supporting Targets 4.3 and 4.4, aligning well with the SDG definition.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course does not specifically address gender equality or women's empowerment, making the inferred connections insufficient.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "While geospatial programming can be applied to water management, the course text does not mention water or sanitation issues explicitly.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course does not mention energy infrastructure or related applications, making the inferred connections too weak.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "The course teaches high-demand programming skills that support economic productivity, aligning with Targets 8.2 and 8.5.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "The course directly supports Targets 9.1, 9.5, and 9.c by teaching geospatial programming for infrastructure planning and technological capabilities.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course text to support any connection to reducing inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Geospatial programming is essential for urban planning, linking well to Target 11.3, supported by course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course does not explicitly address responsible consumption or resource monitoring, making the inferred connections too weak.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course does not mention climate change or related applications, making the inferred connections insufficient.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "There is no mention of marine life or oceans in the course text; the application is too far removed.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Geospatial programming is vital for ecosystem monitoring, linking to Targets 15.1 and 15.3, supported by course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course text to support any connection to peace, justice, or strong institutions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "The course builds capacity in ICT and data analysis, aligning with Targets 17.6 and 17.8, supported by course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The course teaches general programming for spatial information. While land administration (Target 1.4) is a potential application, the syllabus lacks explicit content linking it to poverty eradication or ensuring land access for the poor.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "While geospatial programming and image processing can apply to agriculture (Target 2.4), the course syllabus does not mention food security, agricultural practices, or hunger-related applications.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "Geospatial programming can analyze health data (Target 3.d), but the course syllabus does not explicitly mention health, well-being, or related applications, making the link too indirect.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "The course is tertiary education providing technical skills for employment (Targets 4.3, 4.4). Learning outcome 9 explicitly promotes 'autonomous and lifelong learning attitude,' strongly aligning with quality education principles.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "While ICT can empower women (Target 5.b), the course is a general programming course with no specific content, examples, or objectives related to gender equality or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "The course's 'geospatial programming' and 'spatial information domain' focus (LO5) are foundational for integrated water resource management (Target 6.5) and ecosystem monitoring (Target 6.6), despite no explicit mention of water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Geospatial programming (weekly schedule) and spatial information domain (LO5) can be applied to planning and managing energy infrastructure (Targets 7.a, 7.b), though not explicitly mentioned in the syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "The course teaches high-demand programming skills to 'solve practical problems,' directly contributing to 'technological upgrading and innovation' (Target 8.2) and preparing students for 'productive employment' (Target 8.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "The course teaches OOP, web, and geospatial programming, directly enhancing 'technological capabilities' and 'innovation' (Target 9.5), supporting 'sustainable infrastructure' (Target 9.1), and increasing 'access to ICT' (Target 9.c).",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus links its content or objectives to reducing inequalities, social inclusion, or income growth.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on 'spatial information domain' and 'geospatial programming' (LO5, weekly schedule) is essential for 'sustainable urbanization and human settlement planning and management' (Target 11.3), reinforced by the 'Land Economics' department.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Geospatial programming and the 'spatial information domain' (LO5) can be applied to monitoring natural resources (Target 12.2). The course also strengthens 'scientific and technological capacity' (Target 12.a).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Geospatial programming and the 'spatial information domain' (LO5) are critical tools for modeling climate impacts, strengthening resilience (Target 13.1), and integrating climate measures into planning (Target 13.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Geospatial programming and image processing (weekly schedule) are directly applicable to monitoring and managing marine and coastal ecosystems (Target 14.2), given the broad 'spatial information domain' focus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "The course's focus on 'spatial information domain,' 'geospatial programming,' and 'image processing' (LO5, weekly schedule) is essential for ecosystem monitoring (Target 15.1), combating land degradation (Target 15.3), and land use planning (Target 15.9).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus links its content or objectives to peace, justice, governance, or institutional strength.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "The course builds capacity in 'enabling technology' (ICT) through programming and web development (Target 17.8), supporting 'science, technology and innovation' cooperation (Target 17.6) and data capacity (Target 17.18). Core competency C mentions 'international perspective'.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

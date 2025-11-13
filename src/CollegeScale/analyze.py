@@ -83,7 +83,7 @@ def calculate_average_scores_final(data):
     return gemini_avg, gpt_avg
 
 
-def plot_avg_score_final(data, model_name="", college_name="", num_courses=0):
+def plot_avg_score_final(data, model_name="", college_name="", num_courses=0, plots_dir="plots"):
     
     # Define SDG names with their numbers
     sdg_names = [
@@ -122,12 +122,14 @@ def plot_avg_score_final(data, model_name="", college_name="", num_courses=0):
     # Rotate x-axis labels for better readability
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
-    plt.savefig(f"plots/{model_name}_{college_name.replace(' ', '_')}_avg_scores.png")
+    save_path = os.path.join(plots_dir, "avg_scores")
+    os.makedirs(save_path, exist_ok=True)
+    plt.savefig(os.path.join(save_path, f"{model_name}_{college_name.replace(' ', '_')}_avg_scores.png"))
     plt.close()
 
 
 
-def analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-flash", threshold=5.0, context_name="University-wide"):
+def analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-flash", threshold=5.0, context_name="University-wide", plots_dir="plots"):
     # Filter for the chosen model
     model_judge_key = "gemini_judge_final" if model_name == "Gemini-2.5-flash" else "gpt_judge_final"
 
@@ -151,7 +153,9 @@ def analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-fla
     ax1.set_ylabel('Percentage (%)')
     ax1.set_title(f'{context_name} SDG Coverage ({model_name})')
     plt.tight_layout()
-    plt.savefig(f"plots/{context_name.replace(' ', '_')}_SDG_Coverage_{model_name.replace(' ', '_')}.png")
+    save_path = os.path.join(plots_dir, "sdg_coverage")
+    os.makedirs(save_path, exist_ok=True)
+    plt.savefig(os.path.join(save_path, f"{context_name.replace(' ', '_')}_SDG_Coverage_{model_name.replace(' ', '_')}.png"))
     plt.close()
 
     # Output 2: Courses related to each SDG
@@ -185,7 +189,7 @@ def analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-fla
     ax2.set_ylim(0, 100) # Set y-axis limit to 0-100 for percentages
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
-    plt.savefig(f"plots/{context_name.replace(' ', '_')}_Courses_per_SDG_Percentage_{model_name.replace(' ', '_')}.png")
+    plt.savefig(os.path.join(save_path, f"{context_name.replace(' ', '_')}_Courses_per_SDG_Percentage_{model_name.replace(' ', '_')}.png"))
     plt.close()
 
 def analyze_university_sdg_profile(all_courses_data, model_name="Gemini-2.5-flash"):
@@ -206,7 +210,7 @@ def analyze_university_sdg_profile(all_courses_data, model_name="Gemini-2.5-flas
 
     plot_radar_chart(ordered_avg_scores, model_name, f"University SDG Profile ({model_name})")
 
-def analyze_course_sdg_density(all_courses_data, model_name="Gemini-2.5-flash", threshold=5.0):
+def analyze_course_sdg_density(all_courses_data, model_name="Gemini-2.5-flash", threshold=5.0, plots_dir="plots"):
     print(f"\n--- Course SDG Density Analysis ({model_name}) ---")
     model_judge_key = "gemini_judge_final" if model_name == "Gemini-2.5-flash" else "gpt_judge_final"
 
@@ -226,7 +230,9 @@ def analyze_course_sdg_density(all_courses_data, model_name="Gemini-2.5-flash", 
     ax.set_title(f'Course SDG Density Distribution (University-wide, {model_name})')
     ax.set_xticks(range(max(sdg_counts_per_course) + 2))
     plt.tight_layout()
-    plt.savefig(f"plots/Course_SDG_Density_{model_name.replace(' ', '_')}.png")
+    save_path = os.path.join(plots_dir, "sdg_density")
+    os.makedirs(save_path, exist_ok=True)
+    plt.savefig(os.path.join(save_path, f"Course_SDG_Density_{model_name.replace(' ', '_')}.png"))
     plt.close()
 
 def add_department_info(all_courses_data, courses_df):
@@ -283,10 +289,11 @@ def find_top_courses_per_sdg(all_courses_data, model_name="Gemini-2.5-flash", ta
     print(f"|------|-----------|-------------|------------|-------|------------|")
     for i, course in enumerate(course_sdg_scores[:top_n]):
         # Ensure course_url is not empty before creating a link
+        print(course)
         url_display = f"[Link]({course["course_url"]})" if course["course_url"] else "N/A"
         print(f"| {i+1:<4} | {course["course_id"]:<9} | {course["course_name"]:<11} | {course["department"]:<10} | {course["score"]:.2f} | {url_display:<10} |")
 
-def analyze_evidence_type(all_courses_data, model_name="Gemini-2.5-flash", threshold=5.0):
+def analyze_evidence_type(all_courses_data, model_name="Gemini-2.5-flash", threshold=5.0, plots_dir="plots"):
     print(f"\n--- Evidence Type Analysis ({model_name}) ---")
     model_answer_key = "gemini_answer" if model_name == "Gemini-2.5-flash" else "gpt_answer"
     model_judge_key = "gemini_judge_final" if model_name == "Gemini-2.5-flash" else "gpt_judge_final"
@@ -303,11 +310,14 @@ def analyze_evidence_type(all_courses_data, model_name="Gemini-2.5-flash", thres
                     break
 
             if found_sdg_key and course_data[model_judge_key][found_sdg_key]["final_score"] > threshold:
-                evidence_type = course_data[model_answer_key][found_sdg_key]["evidence_type"]
-                if evidence_type in evidence_type_counts:
-                    evidence_type_counts[evidence_type] += 1
-                else:
-                    evidence_type_counts["none"] += 1 # Fallback for unexpected types
+                try: 
+                    evidence_type = course_data[model_answer_key][found_sdg_key]["evidence_type"]
+                    if evidence_type in evidence_type_counts:
+                        evidence_type_counts[evidence_type] += 1
+                    else:
+                        evidence_type_counts["none"] += 1 # Fallback for unexpected types
+                except KeyError:
+                    pass
 
     total_relevant_evidence = sum(evidence_type_counts.values())
     print(f"Total relevant evidence entries: {total_relevant_evidence}")
@@ -324,6 +334,9 @@ def analyze_evidence_type(all_courses_data, model_name="Gemini-2.5-flash", thres
     ax.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
     ax.set_title(f'Distribution of Evidence Types ({model_name})')
     plt.tight_layout()
+    save_path = os.path.join(plots_dir, "evidence_type")
+    os.makedirs(save_path, exist_ok=True)
+    plt.savefig(os.path.join(save_path, f"Evidence_Types_Distribution_{model_name.replace(' ', '_')}.png"))
     plt.close()
 
 def get_chinese_font_path():
@@ -340,7 +353,7 @@ def get_chinese_font_path():
             return path
     return None
 
-def analyze_keyword_wordcloud(all_courses_data, model_name="Gemini-2.5-flash", target_sdg="Responsible Consumption and Production", threshold=7.0):
+def analyze_keyword_wordcloud(all_courses_data, model_name="Gemini-2.5-flash", target_sdg="Responsible Consumption and Production", threshold=7.0, plots_dir="plots"):
     print(f"\n--- Keyword Analysis (Word Cloud) for SDG: {target_sdg} ({model_name}) ---")
     model_answer_key = "gemini_answer" if model_name == "Gemini-2.5-flash" else "gpt_answer"
     model_judge_key = "gemini_judge_final" if model_name == "Gemini-2.5-flash" else "gpt_judge_final"
@@ -376,10 +389,12 @@ def analyze_keyword_wordcloud(all_courses_data, model_name="Gemini-2.5-flash", t
     plt.axis('off')
     plt.title(f'Keyword Cloud for SDG {target_sdg} ({model_name}, Score > {threshold})')
     plt.tight_layout()
-    plt.savefig(f"plots/WordCloud_{target_sdg.replace(' ', '_')}_{model_name.replace(' ', '_')}.png")
+    save_path = os.path.join(plots_dir, "wordclouds")
+    os.makedirs(save_path, exist_ok=True)
+    plt.savefig(os.path.join(save_path, f"WordCloud_{target_sdg.replace(' ', '_')}_{model_name.replace(' ', '_')}.png"))
     plt.close()
 
-def analyze_model_consistency(all_courses_data):
+def analyze_model_consistency(all_courses_data, plots_dir="plots"):
     print(f"\n--- Model Consistency Analysis (Inter-Rater Reliability) ---")
     gemini_scores_flat = []
     gpt_scores_flat = []
@@ -427,10 +442,12 @@ def analyze_model_consistency(all_courses_data):
     plt.ylim(0, 10)
     plt.grid(True)
     plt.tight_layout()
-    plt.savefig(f"plots/Model_Consistency_Scatter.png")
+    save_path = os.path.join(plots_dir, "model_comparison")
+    os.makedirs(save_path, exist_ok=True)
+    plt.savefig(os.path.join(save_path, "Model_Consistency_Scatter.png"))
     plt.close()
 
-def analyze_model_bias(all_courses_data):
+def analyze_model_bias(all_courses_data, plots_dir="plots"):
     print(f"\n--- Model Bias Analysis ---")
     gemini_avg, gpt_avg = calculate_average_scores_final(all_courses_data)
 
@@ -475,9 +492,12 @@ def analyze_model_bias(all_courses_data):
     ax.set_ylim(0, 10)
 
     plt.tight_layout()
+    save_path = os.path.join(plots_dir, "model_comparison")
+    os.makedirs(save_path, exist_ok=True)
+    plt.savefig(os.path.join(save_path, "Model_Bias_Comparison.png"))
     plt.close()
 
-def analyze_critique_impact(all_courses_data):
+def analyze_critique_impact(all_courses_data, plots_dir="plots"):
     print(f"\n--- Impact of Critique Step Analysis ---")
 
     gemini_revisions_count = 0
@@ -532,7 +552,9 @@ def analyze_critique_impact(all_courses_data):
     ax.set_ylabel('Revision Rate (%)')
     ax.set_title('Impact of Critique Step: Revision Rates by Model')
     plt.tight_layout()
-    plt.savefig(f"plots/Critique_Impact_Revision_Rates.png")
+    save_path = os.path.join(plots_dir, "model_comparison")
+    os.makedirs(save_path, exist_ok=True)
+    plt.savefig(os.path.join(save_path, "Critique_Impact_Revision_Rates.png"))
     plt.close()
 
 
@@ -540,11 +562,11 @@ def analyze_critique_impact(all_courses_data):
 
 
 if __name__ == "__main__":
-    result_dir = "./all_courses/"
+    result_dir = "./all_courses_sdg_detail/"
     college_json_dir = "./" # Assuming college JSONs are in the current directory
 
     # Ensure plots directory exists
-    plots_dir = "./plots/"
+    plots_dir = "./plots_sdg_detail/"
     os.makedirs(plots_dir, exist_ok=True)
 
     # Load all courses data for university-wide analysis
@@ -557,11 +579,11 @@ if __name__ == "__main__":
     
     # A. Macro Descriptive Analysis (University Overview)
     # A-1. University SDG Coverage
-    analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-flash", context_name="University-wide", threshold=6.99)
+    analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-flash", context_name="University-wide", threshold=6.99, plots_dir=plots_dir)
     # analyze_university_sdg_coverage(all_courses_data, model_name="GPT-4o-mini", context_name="University-wide")
 
     # A-3. Course SDG Density Analysis
-    analyze_course_sdg_density(all_courses_data, model_name="Gemini-2.5-pro", threshold=6.99)
+    analyze_course_sdg_density(all_courses_data, model_name="Gemini-2.5-pro", threshold=6.99, plots_dir=plots_dir)
     # analyze_course_sdg_density(all_courses_data, model_name="GPT-4o-mini")
 
     # B. Comparative Analysis (College vs. Department)
@@ -575,22 +597,22 @@ if __name__ == "__main__":
     # C-1. Keyword Analysis (Word Cloud)
     for sdg_name_full in SDG_NAMES:
         sdg_name_base = sdg_name_full.split('. ', 1)[1]
-        analyze_keyword_wordcloud(all_courses_data, model_name="Gemini-2.5-pro", target_sdg=sdg_name_base)
+        analyze_keyword_wordcloud(all_courses_data, model_name="Gemini-2.5-pro", target_sdg=sdg_name_base, plots_dir=plots_dir)
         # analyze_keyword_wordcloud(all_courses_data, model_name="GPT-4o-mini", target_sdg=sdg_name_base)
 
     # C-2. Evidence Type Analysis
-    analyze_evidence_type(all_courses_data, model_name="Gemini-2.5-pro")
+    analyze_evidence_type(all_courses_data, model_name="Gemini-2.5-pro", plots_dir=plots_dir)
     # analyze_evidence_type(all_courses_data, model_name="GPT-4o-mini")
 
     # D. Methodology and Model Comparison Analysis
     # D-1. Model Consistency Analysis
-    analyze_model_consistency(all_courses_data)
+    analyze_model_consistency(all_courses_data, plots_dir=plots_dir)
 
     # D-2. Model Bias Analysis
-    analyze_model_bias(all_courses_data)
+    analyze_model_bias(all_courses_data, plots_dir=plots_dir)
 
     # D-3. Impact of Critique Step Analysis
-    analyze_critique_impact(all_courses_data)
+    analyze_critique_impact(all_courses_data, plots_dir=plots_dir)
 
     # List of college names to process (from CourseAnalyze.py)
     college_names = [
@@ -625,17 +647,17 @@ if __name__ == "__main__":
         gemini_avg, gpt_avg = calculate_average_scores_final(filtered_data)
 
         # Save average scores to JSON files
-        json.dump(gemini_avg, open(f"gemini_avg_{college_name}.json", "w"), indent=4)
-        json.dump(gpt_avg, open(f"gpt_avg_{college_name}.json", "w"), indent=4)
+        json.dump(gemini_avg, open(f"{plots_dir}/gemini_avg_{college_name}.json", "w"), indent=4)
+        json.dump(gpt_avg, open(f"{plots_dir}/gpt_avg_{college_name}.json", "w"), indent=4)
 
         # Plotting (using bar chart for college profiles)
-        plot_avg_score_final(gemini_avg, "Gemini-2.5-pro", college_name, num_filtered_courses)
+        plot_avg_score_final(gemini_avg, "Gemini-2.5-pro", college_name, num_filtered_courses, plots_dir=plots_dir)
         # plot_avg_score_final(gpt_avg, "GPT-4o-mini", college_name, num_filtered_courses)
 
         # College-specific SDG Coverage
         college_name_num = f'{college_name} ({len(filtered_data)} courses)'
-        analyze_university_sdg_coverage(filtered_data, model_name="Gemini-2.5-pro", context_name=college_name_num, threshold=6.99)
+        analyze_university_sdg_coverage(filtered_data, model_name="Gemini-2.5-pro", context_name=college_name_num, threshold=6.99, plots_dir=plots_dir)
         # analyze_university_sdg_coverage(filtered_data, model_name="GPT-4o-mini", context_name=college_name) 
 
 
-    print("Analysis complete. Plots saved to the 'plots/' directory.")
+    print(f"Analysis complete. Plots saved to the '{plots_dir}' directory.")
