@@ -131,12 +131,23 @@ def plot_avg_score_final(data, model_name="", college_name="", num_courses=0, pl
 
 def analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-flash", threshold=5.0, context_name="University-wide", plots_dir="plots"):
     # Filter for the chosen model
-    model_judge_key = "gemini_judge_final" if model_name == "Gemini-2.5-flash" else "gpt_judge_final"
+    model_judge_key = "gemini_judge_final" if "Gemini" in model_name else "gpt_judge_final"
 
     # Output 1: Courses related to at least one SDG
     courses_with_any_sdg = 0
     for course_data in all_courses_data:
-        if any(sdg_info["final_score"] > threshold for sdg_info in course_data[model_judge_key].values()):
+        is_sustainable = False
+        if model_judge_key in course_data and isinstance(course_data[model_judge_key], dict):
+            for sdg_name, sdg_info in course_data[model_judge_key].items():
+                score = sdg_info.get("final_score", 0)
+                if sdg_name.lower() == "quality education":
+                    if score == 10:
+                        is_sustainable = True
+                        break
+                elif score > threshold:
+                    is_sustainable = True
+                    break
+        if is_sustainable:
             courses_with_any_sdg += 1
 
     total_courses = len(all_courses_data)
@@ -603,11 +614,11 @@ if __name__ == "__main__":
     
     # A. Macro Descriptive Analysis (University Overview)
     # A-1. University SDG Coverage
-    analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-flash", context_name="University-wide", threshold=6.99, plots_dir=plots_dir)
+    analyze_university_sdg_coverage(all_courses_data, model_name="Gemini-2.5-flash", context_name="University-wide", threshold=9.0, plots_dir=plots_dir)
     # analyze_university_sdg_coverage(all_courses_data, model_name="GPT-4o-mini", context_name="University-wide")
 
     # A-3. Course SDG Density Analysis
-    analyze_course_sdg_density(all_courses_data, model_name="Gemini-2.5-pro", threshold=6.99, plots_dir=plots_dir)
+    analyze_course_sdg_density(all_courses_data, model_name="Gemini-2.5-pro", threshold=8.99, plots_dir=plots_dir)
     # analyze_course_sdg_density(all_courses_data, model_name="GPT-4o-mini")
 
     # B. Comparative Analysis (College vs. Department)
@@ -680,7 +691,7 @@ if __name__ == "__main__":
 
         # College-specific SDG Coverage
         college_name_num = f'{college_name} ({len(filtered_data)} courses)'
-        analyze_university_sdg_coverage(filtered_data, model_name="Gemini-2.5-pro", context_name=college_name_num, threshold=6.99, plots_dir=plots_dir)
+        analyze_university_sdg_coverage(filtered_data, model_name="Gemini-2.5-pro", context_name=college_name_num, threshold=8.99, plots_dir=plots_dir)
         # analyze_university_sdg_coverage(filtered_data, model_name="GPT-4o-mini", context_name=college_name) 
 
 
