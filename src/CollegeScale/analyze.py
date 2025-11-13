@@ -261,7 +261,8 @@ def add_department_info(all_courses_data, courses_df):
 
 def find_top_courses_per_sdg(all_courses_data, model_name="Gemini-2.5-flash", target_sdg="Quality Education", top_n=10):
     print(f"\n--- Top {top_n} Courses for SDG: {target_sdg} ({model_name}) ---")
-    model_judge_key = "gemini_judge_final" if model_name == "Gemini-2.5-flash" else "gpt_judge_final"
+    model_judge_key = "gemini_judge_final" if "Gemini" in model_name else "gpt_judge_final"
+    model_answer_key = "gemini_answer" if "Gemini" in model_name else "gpt_answer"
 
     course_sdg_scores = []
     for course_data in all_courses_data:
@@ -272,26 +273,49 @@ def find_top_courses_per_sdg(all_courses_data, model_name="Gemini-2.5-flash", ta
         
         # Find the correct SDG key (case-insensitive)
         found_sdg_key = None
-        for key in course_data[model_judge_key].keys():
-            if key.lower() == target_sdg.lower():
-                found_sdg_key = key
-                break
+        if model_judge_key in course_data and isinstance(course_data[model_judge_key], dict):
+            for key in course_data[model_judge_key].keys():
+                if key.lower() == target_sdg.lower():
+                    found_sdg_key = key
+                    break
 
         if found_sdg_key:
-            score = course_data[model_judge_key][found_sdg_key]["final_score"]
-            course_sdg_scores.append({"course_id": course_id, "department": department, "course_name": course_name, "course_url": course_url, "score": score})
+            score = course_data[model_judge_key][found_sdg_key].get("final_score", 0)
+            reasoning = course_data[model_judge_key][found_sdg_key].get("reasoning", "N/A")
+            
+            evidence = []
+            answer_data = course_data.get(model_answer_key)
+            if isinstance(answer_data, list) and answer_data:
+                answer_dict = answer_data[0]
+            elif isinstance(answer_data, dict):
+                answer_dict = answer_data
+            else:
+                answer_dict = {}
+
+            if found_sdg_key in answer_dict:
+                evidence = answer_dict[found_sdg_key].get("evidence", [])
+
+            course_sdg_scores.append({
+                "course_id": course_id, 
+                "department": department, 
+                "course_name": course_name, 
+                "course_url": course_url, 
+                "score": score,
+                "reasoning": reasoning,
+                "evidence": evidence
+            })
 
     # Sort by score in descending order
     course_sdg_scores.sort(key=lambda x: x["score"], reverse=True)
 
     # Print top N courses as a Markdown table
-    print(f"| Rank | Course ID | Course Name | Department | Score | Course URL |")
-    print(f"|------|-----------|-------------|------------|-------|------------|")
+    print(f"| Rank | Course ID | Course Name | Department | Score | Reasoning | Evidence | Course URL |")
+    print(f"|------|-----------|-------------|------------|-------|-----------|----------|------------|")
     for i, course in enumerate(course_sdg_scores[:top_n]):
         # Ensure course_url is not empty before creating a link
-        print(course)
-        url_display = f"[Link]({course["course_url"]})" if course["course_url"] else "N/A"
-        print(f"| {i+1:<4} | {course["course_id"]:<9} | {course["course_name"]:<11} | {course["department"]:<10} | {course["score"]:.2f} | {url_display:<10} |")
+        url_display = f"[Link]({course['course_url']})" if course['course_url'] else "N/A"
+        evidence_str = ', '.join(map(str, course['evidence'])) if course['evidence'] else "N/A"
+        print(f"| {i+1:<4} | {course['course_id']:<9} | {course['course_name']:<11} | {course['department']:<10} | {course['score']:.2f} | {course['reasoning']:<9} | {evidence_str:<8} | {url_display:<10} |")
 
 def analyze_evidence_type(all_courses_data, model_name="Gemini-2.5-flash", threshold=5.0, plots_dir="plots"):
     print(f"\n--- Evidence Type Analysis ({model_name}) ---")
