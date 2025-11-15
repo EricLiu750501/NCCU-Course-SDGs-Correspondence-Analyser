@@ -145,7 +145,7 @@ async def process_course(file_path, result_folder, semaphore):
             course_prompt = f.read()
 
         course_name = Path(file_path).stem
-        course_markdown_file = os.path.join(f"../courseCrawl/details/{course_name}.md")
+        course_markdown_file = os.path.join(f"../courseCrawl/details113/{course_name}.md")
         save_path = os.path.join(result_folder, f"{course_name}.json")
 
         with open(course_markdown_file, "r", encoding="utf-8") as f:
@@ -221,12 +221,12 @@ async def process_course(file_path, result_folder, semaphore):
 async def Disscussion():
     print("testing GPT 4o mini and Gemini pro 2.5 Discussion...")
     # 準備要跑的 prompts
-    prompt_files = getPrompt(prompt_folder = "../SDGcrawl/prompts/", course_code_list = "College_of_Social_Science.json")
+    prompt_files = getPrompt(prompt_folder = "../SDGcrawl/prompts113/", course_code_list = "./course113/1132_courselist.json")
     
-    result_folder = "./all_courses_sdg_detail"
+    result_folder = "./course113/all_courses_sdg_detail"
     os.makedirs(result_folder, exist_ok=True)
 
-    concurrency_limit = 8  # 您可以調整這個數值來決定要同步處理的課程數量
+    concurrency_limit = 1  # 您可以調整這個數值來決定要同步處理的課程數量
     semaphore = asyncio.Semaphore(concurrency_limit)
 
     tasks = [process_course(file_path, result_folder, semaphore) for file_path in prompt_files]

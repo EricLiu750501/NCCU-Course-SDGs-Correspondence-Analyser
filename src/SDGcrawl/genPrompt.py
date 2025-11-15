@@ -67,8 +67,8 @@ import json
 import os
 
 if __name__ == "__main__":
-    pick_folder = "../courseCrawl/details"
-    output_folder = "./prompts"
+    pick_folder = "../courseCrawl/details113"
+    output_folder = "./prompts113"
 
     os.makedirs(output_folder, exist_ok=True)
 

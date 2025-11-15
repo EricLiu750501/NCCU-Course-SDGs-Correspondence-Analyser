@@ -1,0 +1,804 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 6.0,
+      "reason": "Course provides foundational skills for future studies and industry, linking to Target 4.4 ('relevant skills for employment').",
+      "evidence": [
+        "能以此為基礎應用於爾後深造研究之課題",
+        "投入空間資訊產業界之基本技能"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 5.0,
+      "reason": "Course prepares students for the spatial information industry, linking to Target 8.3 ('decent job creation').",
+      "evidence": [
+        "投入空間資訊產業界之基本技能"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 7.0,
+      "reason": "Focus on GNSS technology and applications supports Target 9.5 ('enhance scientific research').",
+      "evidence": [
+        "GNSS技術及如何應用於導航定位",
+        "GNSS發展及新技術"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.5,
+        "reason": "The surveying skills taught can be applied to land administration, which supports property rights (Target 1.4), and disaster monitoring, which builds resilience for the vulnerable (Target 1.5).",
+        "evidence": [
+          "衛星定位測量",
+          "GPS Surveying",
+          "具備地政相關專業知能"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 2.0,
+        "reason": "GNSS technology is a key enabler for precision agriculture and resilient agricultural practices (Target 2.4), an important but unstated application of the course's skills.",
+        "evidence": [
+          "衛星定位測量",
+          "GPS Surveying",
+          "GPS各項應用"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Good Health and Well-being": {
+        "score": 0.5,
+        "reason": "A very indirect link exists as GNSS is used in emergency response logistics and vehicle navigation systems, which can contribute to safety (Targets 3.6, 3.d).",
+        "evidence": [
+          "導航定位基本原理"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "The course directly provides '基本技能' (basic skills) for the '空間資訊產業界' (spatial information industry), fulfilling Target 4.4 by providing technical skills for employment.",
+        "evidence": [
+          "成為投入空間資訊產業界之基本技能",
+          "具備地政相關實務應用與創新之能力"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 2.5,
+        "reason": "The surveying techniques taught are applicable to monitoring water-related ecosystems like rivers and aquifers (Target 6.6), although this specific application is not explicitly stated in the syllabus.",
+        "evidence": [
+          "衛星定位測量",
+          "GPS Surveying"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "score": 1.0,
+        "reason": "GNSS surveying is a necessary tool for the construction and site planning of energy infrastructure, an inferred application of the course's technical skills.",
+        "evidence": [
+          "衛星定位測量",
+          "GPS Surveying"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 6.0,
+        "reason": "The course provides '基本技能' (basic skills) for the '空間資訊產業界' (spatial information industry), supporting technological upgrading and job creation in a high-value sector (Target 8.2).",
+        "evidence": [
+          "成為投入空間資訊產業界之基本技能",
+          "Course Objectives & Learning Outcomes"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 10.0,
+        "reason": "The course on 'GPS Surveying' is fundamental to developing quality, reliable, and resilient infrastructure (Target 9.1) and upgrading national technological capabilities (Target 9.5).",
+        "evidence": [
+          "衛星定位測量",
+          "GPS Surveying",
+          "GNSS技術及如何應用於導航定位"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 9.0,
+        "reason": "GNSS is essential for 'sustainable human settlement planning' (Target 11.3) and building 'resilience to disasters' (Target 11.b), core applications of the surveying skills taught.",
+        "evidence": [
+          "衛星定位測量",
+          "GPS Surveying",
+          "具備地政相關專業知能"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 2.0,
+        "reason": "The technology enables efficient use of natural resources (Target 12.2) in sectors like precision agriculture and forestry, an inferred but unstated application of the course content.",
+        "evidence": [
+          "GPS各項應用"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 4.5,
+        "reason": "GNSS monitors climate impacts (e.g., sea-level rise) for resilience (Target 13.1). The course covers atmospheric studies like '電離層延遲' (Ionospheric delay), relevant to climate science.",
+        "evidence": [
+          "電離層延遲",
+          "對流層延遲"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life Below Water": {
+        "score": 1.5,
+        "reason": "While GNSS is used for marine navigation and monitoring coastal ecosystems, these specific applications are not mentioned in the syllabus. The link is inferred.",
+        "evidence": [
+          "導航定位基本原理"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life on Land": {
+        "score": 5.5,
+        "reason": "'GPS Surveying' is a fundamental tool for land management and monitoring terrestrial ecosystems, directly supporting the conservation and restoration of land and soil (Targets 15.1, 15.3).",
+        "evidence": [
+          "衛星定位測量",
+          "GPS Surveying",
+          "具備地政相關專業知能"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 0.5,
+        "reason": "A highly inferred link exists as accurate land surveying can support legal land tenure systems (related to Target 16.9), but this is not a topic of the course.",
+        "evidence": [
+          "具備地政相關專業知能"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 5.0,
+        "reason": "The course covers multiple international satellite systems ('GPS, GLONASS, Galileo'), reflecting global technology cooperation (Target 17.6) and enabling high-quality geographic data generation (Target 17.18).",
+        "evidence": [
+          "介紹全球導航衛星定位系統（Global Navigation Satellite System, GNSS）",
+          "包含美國的GPS、俄羅斯的GLONASS、歐盟的Galileo、中國Beido"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive connections to SDGs based on course content, warranting revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B highlights land administration applications, linking to property rights and resilience."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B connects GNSS to precision agriculture, an important application of the course."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model B identifies indirect links to emergency response and safety."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B connects surveying techniques to monitoring water ecosystems."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B identifies GNSS as essential for energy infrastructure planning."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B emphasizes GNSS's role in urban planning and disaster resilience."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B connects GNSS to efficient resource use in agriculture and forestry."
+      },
+      "Climate Action": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B highlights GNSS's role in climate monitoring and atmospheric studies."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B connects GNSS to marine navigation and ecosystem monitoring."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B emphasizes GNSS's importance in land management and ecosystem monitoring."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model B identifies potential links to legal land tenure systems."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B highlights international cooperation in satellite systems."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided a more comprehensive analysis, identifying several strong inferred links and explicit connections that I initially overlooked. Its reasoning for many SDGs better aligns with the course text.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 1.5,
+        "reason": "Model A's inference about land administration and disaster monitoring as applications of surveying is a reasonable link to Targets 1.4 and 1.5."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 2.0,
+        "reason": "Precision agriculture, a key application of GNSS, directly supports resilient agricultural practices (Target 2.4), as Model A noted."
+      },
+      "Quality Education": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 8.0,
+        "reason": "Model A's higher score better reflects the explicit mention of providing 'basic skills' for the spatial information industry (Target 4.4)."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 2.5,
+        "reason": "GNSS surveying is applicable to monitoring water-related ecosystems (Target 6.6), a valid inferred link identified by Model A."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 1.0,
+        "reason": "GNSS surveying is essential for site planning and construction of energy infrastructure, a reasonable inferred application."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 5.0,
+        "model_b_score": 5.0,
+        "your_revised": 6.0,
+        "reason": "Model A's slightly higher score is appropriate given the course's direct contribution to job creation in a high-value sector (Target 8.2)."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 7.0,
+        "model_b_score": 7.0,
+        "your_revised": 10.0,
+        "reason": "Model A correctly emphasized the course's fundamental role in developing resilient infrastructure (Target 9.1) and technological capabilities (Target 9.5)."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 9.0,
+        "reason": "GNSS is crucial for urban planning, land management, and disaster resilience (Targets 11.3, 11.b), a significant oversight in my initial assessment."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 2.0,
+        "reason": "GNSS applications in precision agriculture and forestry contribute to efficient resource use (Target 12.2), as Model A inferred."
+      },
+      "Climate Action": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.5,
+        "reason": "The course's coverage of '電離層延遲' and '對流層延遲' directly relates to atmospheric science, supporting climate monitoring (Target 13.1)."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 1.5,
+        "reason": "GNSS is vital for marine navigation and mapping, indirectly supporting sustainable use of marine resources, as Model A noted."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 5.5,
+        "reason": "GPS surveying is a fundamental tool for land management and ecosystem monitoring (Targets 15.1, 15.3), a clear connection I missed."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly identified the explicit mention of multiple international GNSS systems as evidence of global technology cooperation (Target 17.6)."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified land administration and disaster monitoring as relevant applications, aligning with Targets 1.4 and 1.5. This score reflects a reasonable inference based on course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized GNSS's role in precision agriculture, supporting Target 2.4. This application is a valid inference from the course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Both models noted indirect links to emergency response and safety, aligning with Targets 3.6 and 3.d. This score reflects a cautious inference.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasized the course's provision of foundational skills for the spatial information industry, directly linking to Target 4.4. This score reflects strong explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence linking the course to gender equality, consistent with the SDG's requirements.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified GNSS applications in monitoring water ecosystems, aligning with Target 6.6. This score reflects a valid inferred connection.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized GNSS's role in energy infrastructure planning, aligning with the relevant targets. This score reflects a reasonable inference.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlighted the course's contribution to job creation in the spatial information industry, linking to Target 8.2. This score reflects strong explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasized the course's fundamental role in developing resilient infrastructure and technological capabilities, aligning with Targets 9.1 and 9.5. This score reflects strong explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence linking the course to reduced inequalities, consistent with the SDG's requirements.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized GNSS's importance in urban planning and disaster resilience, aligning with Targets 11.3 and 11.b. This score reflects strong explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified GNSS applications in efficient resource use, aligning with Target 12.2. This score reflects a valid inferred connection.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlighted GNSS's role in climate monitoring and atmospheric studies, aligning with Target 13.1. This score reflects a valid inferred connection.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognized GNSS's role in marine navigation and ecosystem monitoring, aligning with relevant targets. This score reflects a valid inferred connection.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasized GPS surveying's importance in land management and ecosystem monitoring, aligning with Targets 15.1 and 15.3. This score reflects a valid inferred connection.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified potential links to legal land tenure systems, aligning with Target 16.9. This score reflects a cautious inference.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlighted international cooperation in satellite systems, aligning with Target 17.6. This score reflects strong explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "GNSS surveying supports land administration, crucial for property rights (Target 1.4), and aids disaster monitoring, building resilience for the vulnerable (Target 1.5). This aligns with '具備地政相關專業知能'.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "GNSS technology is fundamental for precision agriculture, which directly supports sustainable food production and resilient agricultural practices (Target 2.4), an application covered by 'GPS各項應用'.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "GNSS is used in navigation and emergency response logistics, indirectly contributing to safety (Target 3.6) and risk reduction (Target 3.d), as implied by '導航定位基本原理'.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly aims to provide '基本技能' for the '空間資訊產業界' and '深造研究', directly fulfilling Target 4.4 by offering relevant technical and vocational skills for employment and further education.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence related to gender equality or discrimination is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "GNSS surveying techniques are applicable to monitoring water-related ecosystems like rivers and aquifers (Target 6.6), an inferred but relevant application of the course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "GNSS surveying is a necessary tool for the precise site planning and construction of energy infrastructure (Target 7.b), an inferred application of the technical skills taught.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course provides '基本技能' for the '空間資訊產業界', directly supporting technological upgrading and job creation in a high-value sector (Target 8.2) and promoting decent work (Target 8.3).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course on 'GPS Surveying' is fundamental to developing quality, reliable, and resilient infrastructure (Target 9.1) and enhancing scientific research and technological capabilities (Target 9.5) through GNSS technology.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence related to income growth, social inclusion, or reducing discrimination is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "GNSS is essential for 'sustainable human settlement planning' (Target 11.3), land management, and building 'resilience to disasters' (Target 11.b), directly supported by '具備地政相關專業知能'.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "GNSS applications in precision agriculture and forestry enable more efficient use of natural resources (Target 12.2), an inferred but valid application of 'GPS各項應用'.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course covers '電離層延遲' and '對流層延遲', directly relating to atmospheric science and climate monitoring. GNSS also aids in monitoring climate impacts for resilience (Target 13.1).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "GNSS is vital for marine navigation and mapping, indirectly supporting the sustainable use and monitoring of marine resources and ecosystems (Targets 14.1, 14.2), as implied by '導航定位基本原理'.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "'GPS Surveying' is a fundamental tool for land management, mapping, and monitoring terrestrial ecosystems, directly supporting the conservation and restoration of land and soil (Targets 15.1, 15.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "Accurate land surveying, supported by GNSS, can indirectly contribute to clear land tenure systems and legal identity (Target 16.9), though this is a highly inferred link.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly introduces multiple international GNSS systems (GPS, GLONASS, Galileo, Beidou), demonstrating global technology cooperation (Target 17.6) and enabling high-quality data generation (Target 17.18).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    }
+  }
+}
