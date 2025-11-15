@@ -4,6 +4,7 @@ import asyncio
 from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, DefaultMarkdownGenerator, PruningContentFilter
 import pandas as pd
 import re
+import os
 
 # prune_filter = PruningContentFilter(
 #     threshold=0.5,
@@ -11,7 +12,7 @@ import re
 #     min_word_threshold=50
 # )
 
-def generate_course_url(ccode, year=114, semester=1):
+def generate_course_url(ccode, year=113, semester=2):
     """根據課程代碼生成對應的 URL"""
     if pd.isna(ccode) or len(str(ccode)) < 9:
         return ""  # 處理無效的課程代碼
@@ -110,30 +111,55 @@ def filter_markdown_content(markdown_text):
 #     # print(filter_markdown_content(md))
 
 
-data = asyncio.run(main("https://www.nccu.edu.tw/p/426-1000-55.php?Lang=zh-tw"))
-print(data)
-exit()
+# data = asyncio.run(main("https://www.nccu.edu.tw/p/426-1000-55.php?Lang=zh-tw"))
+# print(data)
+# exit()
+#
 
 
+
+######################################################## Course for 114 
 
 # 設定顯示選項
 pd.set_option("display.max_rows", None)
 pd.set_option("display.max_columns", None)
 
-# 讀取 CSV 檔案
-df = pd.read_csv("CoursesList.csv")
+if False:
+    # 讀取 CSV 檔案
+    df = pd.read_csv("CoursesList.csv")
 
-# 假設課程代碼在第一欄，你可能需要調整欄位名稱
-# 如果你知道確切的欄位名稱，請替換 df.iloc[:, 0]
-course_code_column = df.iloc[:, 0]  # 或者用 df['課程代碼'] 如果有欄位名稱
+    # 假設課程代碼在第一欄，你可能需要調整欄位名稱
+    # 如果你知道確切的欄位名稱，請替換 df.iloc[:, 0]
+    course_code_column = df.iloc[:, 0]  # 或者用 df['課程代碼'] 如果有欄位名稱
+
+    urls = course_code_column.apply(generate_course_url).tolist()
+
+    for i in range(len(urls)):
+        md = asyncio.run(main(urls[i]))
+        filepath = f"details/{course_code_column[i]}.md"
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write(md) 
+
+#########################################################
+
+
+
+######################################################### Course for 113 
+
+df = pd.read_csv("113-2.xlsx - 工作表1.csv")
+
+
+course_code_column = df['科目代號']  # 或者用 df['課程代碼'] 如果有欄位名稱
 
 urls = course_code_column.apply(generate_course_url).tolist()
 
 for i in range(len(urls)):
+    if os.path.exists(f"details113/{course_code_column[i]}.md"):
+        print(f"跳過已存在的檔案 details113/{course_code_column[i]}.md")
+        continue
+    
+
     md = asyncio.run(main(urls[i]))
-    filepath = f"details/{course_code_column[i]}.md"
+    filepath = f"details113/{course_code_column[i]}.md"
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(md) 
-
-
-
