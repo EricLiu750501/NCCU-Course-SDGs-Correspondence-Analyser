@@ -29,6 +29,9 @@ e.g.
 ![image](https://github.com/EricLiu750501/NCCU-Course-SDGs-Correspondence-Analyser/blob/c68a0291042dfdd16ace16d67ca8fdc028ab4c04/src/CollegeScale/plots/WordCloud_Industry%2C_Innovation_and_Infrastructure_Gemini-2.5-pro.png)
 file: WordCloud_*
 
+### Compare with the [teacher's score](https://github.com/EricLiu750501/NCCU-Course-SDGs-Correspondence-Analyser/blob/24cb7a9eb01926b170d211bf4881ffb044de4858/src/1132.csv)
+
+![image](https://github.com/EricLiu750501/NCCU-Course-SDGs-Correspondence-Analyser/blob/24cb7a9eb01926b170d211bf4881ffb044de4858/src/CollegeScale/comparison_Gemini-2.5-pro_vs_teacher.png)
 
 
 --- Top 10 Courses for SDG: No Poverty (Gemini-2.5-pro) ---
