@@ -143,7 +143,7 @@ def plot_comparison_results(results, model_name, llm_threshold):
     plt.tight_layout()
 
     # Save the plot
-    plot_filename = f"comparison_{model_name.replace(' ', '_')}_vs_teacher.png"
+    plot_filename = f"./course113/comparison_{model_name.replace(' ', '_')}_vs_teacher.png"
     plt.savefig(plot_filename)
     print(f"Plot saved as {plot_filename}")
 
@@ -152,8 +152,8 @@ if __name__ == "__main__":
     # --- Configuration ---
     MODEL_NAME = "Gemini-2.5-pro"  # Or "GPT-4o-mini"
     LLM_THRESHOLD = 9.0 # Threshold for LLM to agree
-    TEACHER_CSV_PATH = "../1141.csv"
-    LLM_DATA_DIR = "./all_courses_sdg_detail/"
+    TEACHER_CSV_PATH = "../1132.csv"
+    LLM_DATA_DIR = "./course113/all_courses_sdg_detail/"
     # --- End Configuration ---
 
     # Load teacher scores
