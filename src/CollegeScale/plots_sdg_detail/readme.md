@@ -33,6 +33,10 @@ file: WordCloud_*
 
 ![image](https://github.com/EricLiu750501/NCCU-Course-SDGs-Correspondence-Analyser/blob/24cb7a9eb01926b170d211bf4881ffb044de4858/src/CollegeScale/comparison_Gemini-2.5-pro_vs_teacher.png)
 
+### Overall Coverage
+
+![image](https://github.com/EricLiu750501/NCCU-Course-SDGs-Correspondence-Analyser/blob/4844877d2e8ea2d1abdaba62e0333e6259bbd030/src/CollegeScale/plots_sdg_detail/sdg_coverage/University-wide_SDG_Coverage_Gemini-2.5-flash.png)
+約 1700 課程
 
 --- Top 10 Courses for SDG: No Poverty (Gemini-2.5-pro) ---
 | Rank | Course ID | Course Name | Department | Score | Reasoning | Evidence | Course URL |
