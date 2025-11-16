@@ -246,14 +246,29 @@ def analyze_course_sdg_density(all_courses_data, model_name="Gemini-2.5-flash", 
     plt.savefig(os.path.join(save_path, f"Course_SDG_Density_{model_name.replace(' ', '_')}.png"))
     plt.close()
 
+def generate_course_url(ccode, year=113, semester=2):
+    """根據課程代碼生成對應的 URL"""
+    if pd.isna(ccode) or len(str(ccode)) < 9:
+        return ""  # 處理無效的課程代碼
+    
+    ccode = str(ccode)
+    ccode_1 = ccode[:6]
+    ccode_2 = ccode[6:8] 
+    ccode_3 = ccode[8]
+    
+    url = f"https://newdoc.nccu.edu.tw/teaschm/{year}{semester}/schmPrv.jsp-yy={year}&smt={semester}&num={ccode_1}&gop={ccode_2}&s={ccode_3}.html"
+    return url
+
+
+
 def add_department_info(all_courses_data, courses_df):
     course_info_map = {}
     for index, row in courses_df.iterrows():
-        course_id = str(row["科目代號\nCourse #"])
-        department = str(row["開課系級\nDepartment and Level / Course School/Department"])
+        course_id = str(row["科目代號"])
+        department = str(row["開課單位"])
         course_name = str(row["科目名稱"])
         # Assuming course_url is not directly in CoursesList.csv, setting a placeholder
-        course_url = str(row["course_url"]) 
+        course_url = generate_course_url(course_id)
         course_info_map[course_id] = {"department": department, "course_name": course_name, "course_url": course_url}
 
     for course_data in all_courses_data:
@@ -597,18 +612,18 @@ def analyze_critique_impact(all_courses_data, plots_dir="plots"):
 
 
 if __name__ == "__main__":
-    result_dir = "./all_courses_sdg_detail/"
-    college_json_dir = "./" # Assuming college JSONs are in the current directory
+    result_dir = "./course113/all_courses_sdg_detail/"
+    college_json_dir = "./course113/" # Assuming college JSONs are in the current directory
 
     # Ensure plots directory exists
-    plots_dir = "./plots_sdg_detail/"
+    plots_dir = "./course113/plots_sdg_detail/"
     os.makedirs(plots_dir, exist_ok=True)
 
     # Load all courses data for university-wide analysis
     all_courses_data = load_all_json_data(result_dir)
 
     # Load CoursesList.csv for department information
-    courses_list_df = pd.read_csv("CoursesList.csv")
+    courses_list_df = pd.read_csv("../113-2.xlsx - 工作表1.csv")
     all_courses_data = add_department_info(all_courses_data, courses_list_df)
 
     

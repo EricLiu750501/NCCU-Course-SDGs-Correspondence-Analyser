@@ -6,7 +6,7 @@ import json
 pd.set_option("display.max_rows", None)
 pd.set_option("display.max_columns", None)
 
-df = pd.read_csv("CoursesList.csv")
+df = pd.read_csv("../113-2.xlsx - 工作表1.csv")
 
 
 def all_department():
@@ -45,10 +45,10 @@ def select_department(filter_list=None):
     
     # 對每個過濾條件進行篩選，使用 OR 運算累加結果
     for filter_str in filter_list:
-        mask = mask | df["開課系級\nDepartment and Level / Course School/Department"].str.contains(filter_str, na=False)
+        mask = mask | df["開課單位"].str.contains(filter_str, na=False)
 
     # 取出符合條件的科目代號
-    result = df.loc[mask, "科目代號\nCourse #"]
+    result = df.loc[mask, "科目代號"]
     return result
 
 
@@ -87,10 +87,9 @@ else_course = ["國關通", ]
 
 if __name__ == "__main__":
 
-    all_courses = df["科目代號\nCourse #"].tolist()
-    json.dump(all_courses, open("All_Courses.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    all_courses = df["科目代號"].tolist()
+    json.dump(all_courses, open("course113/All_Courses.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
-    exit()
     colleges = {
         "College_of_Commerce": College_of_Commerce,
         "College_of_Law": College_of_Law,
@@ -112,7 +111,7 @@ if __name__ == "__main__":
 
     for college_name, filter_list in colleges.items():
         result = select_department(filter_list)
-        file_name = f"{college_name}.json"
+        file_name = f"course113/{college_name}.json"
         with open(file_name, "w", encoding="utf-8") as f:
             json.dump(result.tolist(), f, ensure_ascii=False, indent=2)
         print(f"Generated {file_name} with {len(result)} courses.")
