@@ -1,0 +1,782 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 4.0,
+      "reason": "Course teaches planning skills, relevant to Target 4.4 ('increase skills for employment').",
+      "evidence": [
+        "學習敷地計畫基本技能",
+        "理解敷地計畫的基本目的與意義"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 6.0,
+      "reason": "Course involves planning and infrastructure, relevant to Target 9.1 ('develop sustainable infrastructure').",
+      "evidence": [
+        "土地規劃",
+        "設施配置"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 8.0,
+      "reason": "Focus on urban planning aligns with Target 11.3 ('sustainable urbanization').",
+      "evidence": [
+        "城市規劃",
+        "整體作業下的小社區建設"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 5.0,
+      "reason": "Course addresses environmental planning, relevant to Target 13.2 ('integrate climate measures').",
+      "evidence": [
+        "環境規劃工程技術",
+        "微氣候"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 6.0,
+      "reason": "Focus on land use and planning relates to Target 15.3 ('combat desertification').",
+      "evidence": [
+        "土地使用",
+        "土地適宜性"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 4.5,
+        "reason": "Directly addresses health risks from 'environmental pollution' (環境污染) and 'noise' (噪音), linking to Target 3.9 on reducing illnesses from pollution.",
+        "evidence": [
+          "環境污染",
+          "噪音"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "score": 6.0,
+        "reason": "The course provides skills for sustainable development, such as 'environmental planning engineering technology' (環境規劃工程技術), directly supporting Target 4.7.",
+        "evidence": [
+          "環境規劃工程技術",
+          "敷地計畫基本技能",
+          "結合建築學、工程學、景園建築學與都市計畫學"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 7.5,
+        "reason": "Course covers 'Hydrology' (水文學) and 'drainage' (排水), essential for managing water resources and protecting water-related ecosystems, aligning with Targets 6.3 and 6.6.",
+        "evidence": [
+          "排水",
+          "水文學",
+          "環境污染"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 2.0,
+        "reason": "The course provides 'professional skills' (專業知能) for the land economics and planning sectors, which tangentially supports decent job creation (Target 8.3).",
+        "evidence": [
+          "具備地政相關專業知能"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 8.5,
+        "reason": "Focuses on 'facility configuration' (設施配置), 'transportation' (交通), and 'land planning' (土地規劃), which are fundamental to developing sustainable and resilient infrastructure (Target 9.1, 9.4).",
+        "evidence": [
+          "設施配置",
+          "土地規劃",
+          "交通"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about 'urban planning' (都市計畫學), covering 'land use', 'transportation', and 'community construction', aligning directly with Targets 11.3, 11.2, and 11.7.",
+        "evidence": [
+          "都市計畫學",
+          "小社區建設",
+          "土地使用"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 1.5,
+        "reason": "The topic 'land suitability' (土地適宜性) infers a connection to the efficient use of natural resources (Target 12.2), but the link is weak.",
+        "evidence": [
+          "土地適宜性"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 6.5,
+        "reason": "Directly addresses 'living environment climate' (生活環境氣候) and 'microclimate' (微氣候), key for planning resilience to climate-related hazards and adaptation (Targets 13.1, 13.2).",
+        "evidence": [
+          "生活環境氣候",
+          "微氣候"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life Below Water": {
+        "score": 1.0,
+        "reason": "Topics like 'Hydrology' and 'environmental pollution' have an indirect link to reducing land-based marine pollution (Target 14.1), but the course focus is terrestrial.",
+        "evidence": [
+          "水文學",
+          "環境污染"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life on Land": {
+        "score": 9.5,
+        "reason": "Core topics include 'Plants' (植物), 'Animals' (動物), and 'Geology and soil' (地質與土壤), directly supporting the conservation and sustainable use of terrestrial ecosystems (Targets 15.1, 15.5, 15.9).",
+        "evidence": [
+          "關係到所有的生物",
+          "植物",
+          "動物"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Partnerships for the Goals": {
+        "score": 2.5,
+        "reason": "The course's nature as a combination of 'architecture, engineering, landscape architecture and urban planning' infers the multi-stakeholder approach of Target 17.17.",
+        "evidence": [
+          "結合建築學、工程學、景園建築學與都市計畫學"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive evidence for several SDGs, leading to necessary revisions in my scores.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B highlights pollution-related health risks, aligning with course content."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B emphasizes skills for sustainable development, enhancing relevance to education targets."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B identifies hydrology and drainage topics, crucial for water management."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B connects professional skills to job creation, justifying a score."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's broader focus on infrastructure planning supports a higher score."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's comprehensive urban planning coverage justifies a perfect score."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B connects land suitability to resource efficiency, warranting a score."
+      },
+      "Climate Action": {
+        "your_original": 5.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B's emphasis on climate resilience aligns with course content."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B identifies indirect links to marine pollution, justifying a score."
+      },
+      "Life on Land": {
+        "your_original": 6.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B's focus on biodiversity and ecosystems supports a higher score."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B's multi-stakeholder approach aligns with course content."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provides more comprehensive evidence and stronger inferences for several SDGs, particularly regarding environmental and urban planning aspects. My original scores were too conservative in many areas.",
+    "revisions": {
+      "SDG_3 (Good Health and Well-being)": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A correctly identified 'environmental pollution' and 'noise' as direct links to health, which I overlooked."
+      },
+      "SDG_4 (Quality Education)": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model A's focus on 'environmental planning engineering technology' and interdisciplinary nature better supports Target 4.7."
+      },
+      "SDG_6 (Clean Water and Sanitation)": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model A correctly identified 'Hydrology' and 'drainage' as explicit evidence, which I missed."
+      },
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A's inference that 'professional skills' contribute to decent work is a reasonable, albeit indirect, link."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A included 'transportation' as additional explicit evidence, strengthening the link to infrastructure development."
+      },
+      "SDG_11 (Sustainable Cities and Communities)": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A's score is more accurate given the course's fundamental focus on 'urban planning' and 'community construction'."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model A's weak inference from 'land suitability' to efficient resource use is plausible for a low score."
+      },
+      "SDG_13 (Climate Action)": {
+        "your_original": 5.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model A's inclusion of 'living environment climate' provides a more direct and comprehensive link to climate action."
+      },
+      "SDG_14 (Life Below Water)": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model A's indirect link from 'Hydrology' and 'environmental pollution' to marine pollution is a valid, albeit weak, connection."
+      },
+      "SDG_15 (Life on Land)": {
+        "your_original": 6.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model A provided much stronger and more direct evidence with 'Plants', 'Animals', and 'Geology and soil'."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A's inference about the interdisciplinary nature of the course aligning with partnerships is reasonable."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding hunger, leading to a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified pollution as a health risk, aligning with course content and supporting a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the course's focus on skills for sustainable development, justifying a solid score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding gender equality, resulting in a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlighted hydrology and drainage as critical topics, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding clean energy, leading to a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models inferred a connection between professional skills and job creation, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasized infrastructure planning, supporting a high score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding reduced inequalities, resulting in a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the course's comprehensive focus on urban planning, justifying a perfect score.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Both models inferred a connection to resource efficiency, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasized climate resilience and environmental planning, supporting a solid score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified indirect links to marine pollution, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasized biodiversity and ecosystems, supporting a high score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding peace and justice, resulting in a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Both models inferred a connection to multi-stakeholder approaches, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course description, objectives, or weekly schedule relates to poverty eradication or economic empowerment for the poor.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course content does not address food security, sustainable agriculture, malnutrition, or any other targets related to ending hunger.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'environmental pollution' and 'noise,' which directly relate to Target 3.9 on reducing illnesses and deaths from pollution and contamination.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course teaches fundamental site planning skills and integrates knowledge from various disciplines, including 'environmental planning engineering technology,' directly contributing to skills for sustainable development (Target 4.7).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no explicit or implicit content in the syllabus that addresses gender equality or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Hydrology,' 'drainage,' and 'environmental pollution,' which are directly relevant to improving water quality, managing water resources, and protecting water-related ecosystems (Targets 6.3, 6.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course content does not include any topics related to energy, clean energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course provides 'professional skills' and 'basic site planning skills' relevant to the land economics and planning sectors, indirectly supporting decent job creation and economic productivity (Target 8.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course directly addresses 'land planning,' 'facility configuration,' and 'transportation,' which are fundamental elements in developing quality, reliable, and sustainable infrastructure (Target 9.1).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course content does not address issues of inequality, social inclusion, or non-discriminatory policies.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about 'Site Planning' and 'urban planning,' directly covering 'land use,' 'transportation,' and 'small community construction,' which are core to sustainable urbanization and creating inclusive, safe, and resilient human settlements (Targets 11.2, 11.3, 11.7).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The course topic 'land suitability' implies an assessment for optimal land use, which has a weak, indirect connection to the sustainable management and efficient use of natural resources (Target 12.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'living environment climate' and 'microclimate,' and 'environmental planning engineering technology,' which are crucial for strengthening resilience and integrating climate change measures into planning (Targets 13.1, 13.2).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course topics 'Hydrology' and 'environmental pollution' have an indirect, weak link to reducing land-based marine pollution, aligning with Target 14.1, despite the course's primary terrestrial focus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Plants,' 'Animals,' 'Geology and soil,' and 'land use,' directly supporting the conservation, restoration, and sustainable use of terrestrial ecosystems and biodiversity (Targets 15.1, 15.3, 15.5, 15.9).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course content does not address peace, justice, effective institutions, or related governance issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The course's interdisciplinary nature, combining architecture, engineering, landscape architecture, and urban planning, implicitly promotes a multi-stakeholder approach, aligning with Target 17.17 on partnerships.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    }
+  }
+}

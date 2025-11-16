@@ -1,0 +1,807 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 7.5,
+      "reason": "Links to Target 1.4 ('equal rights to economic resources') via '土地政策' and '基本人權的保障'.",
+      "evidence": [
+        "土地政策",
+        "基本人權的保障"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 6.0,
+      "reason": "Links to Target 4.7 ('knowledge for sustainable development') via '永續發展及基本人權保障的關係'.",
+      "evidence": [
+        "永續發展及基本人權保障的關係"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 5.0,
+      "reason": "Links to Target 5.a ('equal rights to economic resources') via '基本人權的保障'.",
+      "evidence": [
+        "基本人權的保障"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 4.5,
+      "reason": "Links to Target 8.3 ('support productive activities') via '經濟效率的提升'.",
+      "evidence": [
+        "經濟效率的提升"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 6.5,
+      "reason": "Links to Target 10.3 ('reduce inequalities of outcome') via '社會公義的實現'.",
+      "evidence": [
+        "社會公義的實現"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 7.0,
+      "reason": "Links to Target 11.3 ('sustainable urbanization') via '土地利用策略及方法'.",
+      "evidence": [
+        "土地利用策略及方法"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 5.0,
+      "reason": "Links to Target 13.2 ('integrate climate change measures') via '環境生態的永續發展'.",
+      "evidence": [
+        "環境生態的永續發展"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 8.0,
+      "reason": "Links to Target 15.3 ('combat desertification') via '土地政策'.",
+      "evidence": [
+        "土地政策"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 6.5,
+      "reason": "Links to Target 16.3 ('equal access to justice') via '公共政策的基本架構'.",
+      "evidence": [
+        "公共政策的基本架構"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 5.0,
+        "reason": "The course addresses social justice and human rights in land policy, linking to Target 1.4's focus on equal rights and control over land for the vulnerable.",
+        "evidence": [
+          "社會公義的實現",
+          "基本人權的保障",
+          "ownership and control over land"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 2.5,
+        "reason": "The course discusses land reform and 'farming households', which tangentially relates to Target 2.3's call for secure access to land for food producers.",
+        "evidence": [
+          "被操弄的農戶「分類」—以臺灣土地改革為例"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Good Health and Well-being": {
+        "score": 0.001,
+        "reason": "An inferred link exists between land policy and environmental sustainability (Target 3.9), but the course does not explicitly mention health, pollution, or contamination.",
+        "evidence": [
+          "環境生態的永續發展"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "The course directly aims to educate students on sustainable development and human rights in the context of land, aligning with the educational goals of Target 4.7.",
+        "evidence": [
+          "瞭解土地的社會基本元素，及它們與永續發展及基本人權保障的關係"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 1.0,
+        "reason": "While land policy is crucial for Target 5.a (women's control over land), the course material does not explicitly mention gender, making the connection inferred and weak.",
+        "evidence": [
+          "社會公義的實現",
+          "基本人權的保障"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 4.5,
+        "reason": "The course balances \"經濟效率的提升\" (economic efficiency) with \"環境生態的永續發展\" (environmental sustainability), directly addressing the core concept of Target 8.4.",
+        "evidence": [
+          "經濟效率的提升",
+          "環境生態的永續發展"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 6.0,
+        "reason": "The course covers \"台灣都會區土地政策\" and \"都市計畫\" (urban planning), which are the foundational policies for developing sustainable infrastructure as per Target 9.1.",
+        "evidence": [
+          "土地利用策略及方法",
+          "台灣都會區土地政策",
+          "都市計畫"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 8.5,
+        "reason": "The course's focus on \"社會公義的實現\" (realization of social justice) and \"基本人權的保障\" (protection of basic human rights) directly addresses Targets 10.2 and 10.3 on inclusion and equality.",
+        "evidence": [
+          "社會公義的實現",
+          "基本人權的保障",
+          "權力的解析"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about land policy, with a major focus on \"台灣都會區土地政策\" and \"都市計畫\" (urban planning), which are central to Target 11.3.",
+        "evidence": [
+          "台灣都會區土地政策",
+          "都市計畫",
+          "土地利用策略及方法"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 6.5,
+        "reason": "The course focuses on \"土地利用策略及方法\" (land use strategies) and \"環境生態的永續發展\" (environmental sustainability), addressing Target 12.2's goal of sustainable management of natural resources.",
+        "evidence": [
+          "土地利用策略及方法",
+          "環境生態的永續發展",
+          "土地是人類及萬物生存所必須的重要資源"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 2.0,
+        "reason": "While land policy is crucial for Target 13.2, the course focuses on \"環境生態的永續發展\" without explicitly mentioning climate change, making the link inferred.",
+        "evidence": [
+          "環境生態的永續發展"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 9.0,
+        "reason": "The course's focus on \"Land Policy\" and \"環境生態的永續發展\" (environmental sustainability) is fundamental to achieving the sustainable use of terrestrial ecosystems as outlined in Targets 15.1 and 15.9.",
+        "evidence": [
+          "Land Policy",
+          "環境生態的永續發展",
+          "土地是人類及萬物生存所必須的重要資源"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "The course is a critical analysis of public policy, focusing on \"社會公義的實現\" (social justice), \"權力\" (power), and institutional reform, directly aligning with Targets 16.3, 16.6, and 16.7.",
+        "evidence": [
+          "社會公義的實現",
+          "基本人權的保障",
+          "公共政策的基本架構"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 8.0,
+        "reason": "The course defines land policy as a joint operation of \"政府、資本及民間社會三部門\" (government, capital, and civil society), directly reflecting the multi-stakeholder partnership model of Target 17.17.",
+        "evidence": [
+          "政府、資本及民間社會三部門共同運作"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive connections to the course text, warranting revisions in several areas.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 7.5,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B highlights the importance of social justice and human rights, aligning better with the course text."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B identifies relevant discussions on land reform and food producers, which I initially overlooked."
+      },
+      "Quality Education": {
+        "your_original": 6.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B emphasizes the course's direct educational goals, which I underestimated."
+      },
+      "Gender Equality": {
+        "your_original": 5.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B correctly notes the weak connection to gender issues in the course material."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B identifies relevant urban planning discussions that I missed."
+      },
+      "Reduced Inequalities": {
+        "your_original": 6.5,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's focus on social justice aligns more closely with the course's themes."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B accurately reflects the course's emphasis on urban planning and land policy."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B connects land use strategies to sustainable resource management, which I overlooked."
+      },
+      "Climate Action": {
+        "your_original": 5.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B correctly indicates the inferred nature of the climate link in the course."
+      },
+      "Life on Land": {
+        "your_original": 8.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's emphasis on environmental sustainability aligns well with the course content."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 6.5,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's analysis of public policy and social justice is more comprehensive."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B identifies the collaborative nature of land policy, which I did not consider."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more comprehensive evidence and better aligned several SDGs with the course text, particularly regarding urban policy, social justice, and multi-stakeholder partnerships. My initial analysis missed several explicit connections.",
+    "revisions": {
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 2.5,
+        "reason": "Model A correctly identified '農戶' and '土地改革' as an inferred link to secure land access for food producers."
+      },
+      "Quality Education": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 8.0,
+        "reason": "Model A's explicit evidence from course objectives directly links to education for sustainable development and human rights."
+      },
+      "Gender Equality": {
+        "your_original": 5.0,
+        "model_b_score": 5.0,
+        "your_revised": 1.0,
+        "reason": "While '基本人權的保障' is broad, the course lacks explicit gender mention, making Model A's lower inferred score more appropriate."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.5,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A's reasoning for Target 8.4 (resource efficiency) better aligns with '經濟效率的提升' and '環境生態的永續發展'."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 6.0,
+        "reason": "Model A correctly identified '都市計畫' and '台灣都會區土地政策' as explicit evidence for sustainable infrastructure."
+      },
+      "Reduced Inequalities": {
+        "your_original": 6.5,
+        "model_b_score": 6.5,
+        "your_revised": 8.5,
+        "reason": "Model A's inclusion of '權力的解析' alongside social justice and human rights provides stronger, explicit evidence for reducing inequalities."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 7.0,
+        "model_b_score": 7.0,
+        "your_revised": 10.0,
+        "reason": "Model A's comprehensive evidence, including '台灣都會區土地政策' and '都市計畫', makes this SDG a core focus of the course."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 6.5,
+        "reason": "Model A correctly linked '土地利用策略及方法' and '環境生態的永續發展' to sustainable management of natural resources."
+      },
+      "Climate Action": {
+        "your_original": 5.0,
+        "model_b_score": 5.0,
+        "your_revised": 2.0,
+        "reason": "While '環境生態的永續發展' is present, the course doesn't explicitly mention climate change, making Model A's lower inferred score more accurate."
+      },
+      "Life on Land": {
+        "your_original": 8.0,
+        "model_b_score": 8.0,
+        "your_revised": 9.0,
+        "reason": "Model A's evidence, including '環境生態的永續發展' and '土地是人類及萬物生存所必須的重要資源', provides a more complete picture for this SDG."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 6.5,
+        "model_b_score": 6.5,
+        "your_revised": 10.0,
+        "reason": "Model A's explicit evidence, including '社會公義的實現' and '基本人權的保障', directly aligns with the core tenets of justice and strong institutions."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 8.0,
+        "reason": "Model A correctly identified the explicit mention of '政府、資本及民間社會三部門共同運作' as direct evidence for multi-stakeholder partnerships."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight social justice and human rights, but the evidence suggests a moderate connection to poverty eradication, aligning with Target 1.4.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Model B's revision acknowledges land reform's relevance to food security, aligning with Target 2.3, which is the strongest evidence available.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models infer a weak connection to health through environmental sustainability, but explicit health references are lacking.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's strong emphasis on education for sustainable development, aligning well with Target 4.7.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the weak connection to gender issues, with no explicit references in the course material.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model, confirming a lack of relevance to the course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no relevant evidence linking the course content to energy access or sustainability.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight economic efficiency and sustainability, aligning with Target 8.4, but lack stronger evidence for higher scores.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Model B's revision correctly identifies urban planning as relevant to infrastructure, aligning with Target 9.1.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize social justice and human rights, aligning strongly with Targets 10.2 and 10.3.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's core focus on urban planning and land policy, aligning perfectly with Target 11.3.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Both models connect land use strategies to sustainable resource management, aligning with Target 12.2.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models infer a weak connection to climate action through environmental sustainability, but explicit references are lacking.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model, confirming a lack of relevance to the course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the importance of land policy and environmental sustainability, aligning well with Targets 15.1 and 15.9.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on public policy and social justice, aligning perfectly with Targets 16.3, 16.6, and 16.7.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the collaborative nature of land policy, aligning well with Target 17.17.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on '基本人權的保障' and '社會公義的實現' within '土地政策' directly aligns with Target 1.4's emphasis on equal rights to land and economic resources for the vulnerable. This is a strong, explicit connection.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.5,
+      "source": "revised_a",
+      "reasoning": "The mention of '被操弄的農戶「分類」—以臺灣土地改革為例' provides an inferred but specific link to Target 2.3 regarding secure land access for food producers.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The link to '環境生態的永續發展' is too broad to strongly connect to specific health targets without explicit mention of health, pollution, or contamination.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "Course Objective 1 explicitly states '瞭解土地的社會基本元素，及它們與永續發展及基本人權保障的關係', directly aligning with Target 4.7 on education for sustainable development and human rights.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 1.0,
+      "source": "revised_a",
+      "reasoning": "Despite the relevance of land policy to women's rights (Target 5.a), the course syllabus lacks any explicit mention of gender, making the connection very weak and inferred.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence related to clean water, sanitation, or hygiene was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence related to energy, clean energy, or energy efficiency was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "model_a",
+      "reasoning": "The course's goal of '經濟效率的提升' combined with '環境生態的永續發展' aligns well with Target 8.4 on resource efficiency and decoupling economic growth from environmental degradation.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.0,
+      "source": "revised_a",
+      "reasoning": "The course's explicit focus on '台灣都會區土地政策' and '都市計畫' directly relates to developing sustainable and resilient infrastructure (Target 9.1).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The course's emphasis on '社會公義的實現', '基本人權的保障', and '權力的解析' directly addresses the core issues of inclusion, equality, and reducing inequalities (Targets 10.2, 10.3).",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course is fundamentally about '土地政策', with a major and explicit focus on '台灣都會區土地政策' and '都市計畫', making it central to sustainable urbanization and human settlement planning (Target 11.3).",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.5,
+      "source": "revised_a",
+      "reasoning": "The course's focus on '土地利用策略及方法' and '環境生態的永續發展', recognizing land as a vital resource, directly addresses Target 12.2 on sustainable management of natural resources.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 2.0,
+      "source": "revised_a",
+      "reasoning": "While '環境生態的永續發展' is mentioned, the syllabus does not explicitly discuss 'climate change' or related measures, making the link inferred and weak.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence related to marine ecosystems, oceans, or aquatic life was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The course's core subject is 'Land Policy', with explicit goals of '環境生態的永續發展' and recognizing land as an '重要資源', directly aligning with sustainable use and conservation of terrestrial ecosystems (Targets 15.1, 15.9).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course critically analyzes '公共政策', '社會公義的實現', '基本人權的保障', '權力', and '政策的改革', making it highly relevant to justice, rule of law, and effective institutions (Targets 16.3, 16.6, 16.7).",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly defines land policy as a '政府、資本及民間社會三部門共同運作' (joint operation of government, capital, and civil society), directly reflecting multi-stakeholder partnerships (Target 17.17).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    }
+  }
+}

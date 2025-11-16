@@ -1,0 +1,687 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 4.0,
+      "reason": "Course discusses education in the context of democracy and nationalism.",
+      "evidence": [
+        "민주주의",
+        "민족주의"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 6.0,
+      "reason": "Explores women's roles and family dynamics in Korean society.",
+      "evidence": [
+        "여성과 가정",
+        "가족과여성"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 5.0,
+      "reason": "Discusses economic growth and neoliberalism in Korea.",
+      "evidence": [
+        "한국경제성장",
+        "신자유주의화"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 4.0,
+      "reason": "Addresses nationalism and social issues in Korean society.",
+      "evidence": [
+        "민족주의",
+        "한국사회내민족주의의형성"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 5.0,
+      "reason": "Covers democracy and political processes in Korea.",
+      "evidence": [
+        "정치적민주화의과정",
+        "민주화"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.0,
+        "reason": "Indirectly relates to economic shocks via discussion of the '1997 East Asian economic crisis' (1997년동아시아경제위기), which can increase vulnerability for the poor. (Target 1.5)",
+        "evidence": [
+          "1997년동아시아경제위기"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 6.0,
+        "reason": "As a university course, it provides tertiary education and promotes knowledge for global citizenship and appreciation of cultural diversity through its content. (Target 4.7)",
+        "evidence": [
+          "Korean Society and Culture",
+          "한국 사회와 문화를 이해하는데 핵심적인 이슈들"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Gender Equality": {
+        "score": 8.5,
+        "reason": "Explicitly dedicates a topic to 'Family and Women' (가족과여성), examining their roles and status in society, which is central to gender equality. (Targets 5.1, 5.c)",
+        "evidence": [
+          "여성과 가정",
+          "가족과여성"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 7.5,
+        "reason": "Directly analyzes 'Korean economic growth' (한국경제성장) and the '1997 East Asian economic crisis', addressing national economic productivity and policies. (Targets 8.1, 8.2)",
+        "evidence": [
+          "1960-80년한국경제성장과특징",
+          "1997년동아시아경제위기"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 4.5,
+        "reason": "Discusses the 'modernization process' (근대화 과정) and 'internet expansion' (인터넷확산), relating to industrialization and access to information technology. (Targets 9.2, 9.c)",
+        "evidence": [
+          "근대화 과정",
+          "한국의인터넷확산및참여문화"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 9.5,
+        "reason": "A core focus is on inequality, examining 'Korean multiculturalism' (한국다문화주의), 'everyday racism' (일상적인인종주의), and 'hate sentiments' (혐오정서), directly addressing Target 10.2 and 10.3.",
+        "evidence": [
+          "한국다문화주의와세계속의다양한한국인",
+          "다양한혐오정서의출현일상적인인종주의",
+          "선량한 차별주의자"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "Fundamentally examines the 'process of political democratization' (정치적민주화의과정), 'colonial experience' (식민 경험), and national division, which are central to peace and strong institutions. (Targets 16.3, 16.6)",
+        "evidence": [
+          "식민 경험",
+          "정치적민주화의과정",
+          "남북분단그리고한국내반공정서의형성"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 3.5,
+        "reason": "Discusses 'globalization' (세계화) and the '1997 East Asian economic crisis', relating to global macroeconomic stability and international policy coherence. (Target 17.13)",
+        "evidence": [
+          "세계화",
+          "1997년동아시아경제위기"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B provides more nuanced insights, particularly on poverty and gender equality, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B highlights economic shocks affecting the poor, aligning with course content."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B emphasizes the course's focus on global citizenship and cultural diversity."
+      },
+      "Gender Equality": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's score reflects a deeper analysis of women's roles in society."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 5.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B connects economic growth to specific historical events, enhancing relevance."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B identifies key discussions on modernization and technology access."
+      },
+      "Reduced Inequalities": {
+        "your_original": 4.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B's focus on multiculturalism and racism provides a stronger basis for this score."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 5.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's comprehensive analysis of political processes aligns closely with course themes."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model B connects globalization and economic crises to international cooperation."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "No revisions needed. Model B's analysis aligns with mine, but my original scores are more accurately supported by explicit evidence and stronger inferences from the course text.",
+    "revisions": {}
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Model B's inference about economic shocks aligns with course content, but the score should reflect the limited explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to hunger, confirming the score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model regarding health and well-being.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight education's role in promoting global citizenship, but Model B's emphasis on cultural diversity strengthens the score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Model B's explicit focus on women's roles in society is well-supported, making this score the most accurate.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model regarding water and sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to energy access.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Model B's connection of economic growth to historical events enhances the score, reflecting course content accurately.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's discussion of modernization and technology access is well-supported, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on multiculturalism and racism provides a strong basis for this high score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model regarding sustainable cities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to responsible consumption.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model regarding climate action.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model regarding marine life.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model regarding terrestrial ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Model B's comprehensive analysis of political processes aligns closely with course themes, justifying the highest score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 3.5,
+      "source": "synthesized",
+      "reasoning": "Model B's connection of globalization and economic crises to international cooperation supports this score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course discusses the '1997 East Asian economic crisis' (Week 11), which directly relates to Target 1.5 by increasing vulnerability to economic shocks for the poor.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to hunger, food security, or sustainable agriculture was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to health, well-being, disease prevention, or healthcare was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "As a university course, it provides tertiary education. Its focus on understanding Korean society and culture promotes knowledge for global citizenship and cultural diversity (Target 4.7).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "Week 8 explicitly focuses on 'Family and Women' (가족과여성), examining their roles and status in society, directly addressing gender equality (Targets 5.1, 5.c).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to water, sanitation, hygiene, or water quality was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to energy access, renewable energy, or energy efficiency was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course directly analyzes 'Korean economic growth' (Week 6) and the '1997 East Asian economic crisis' (Week 11), addressing national economic productivity and policies (Targets 8.1, 8.2).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course examines Korea's 'modernization process' and 'internet expansion' (Week 13), relating to industrialization (Target 9.2) and access to information technology (Target 9.c).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Korean multiculturalism' (Week 14), 'everyday racism' and 'hate sentiments' (Week 15), directly addressing social inclusion and eliminating discrimination (Targets 10.2, 10.3).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to urban development, housing, transport, or cultural heritage was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to sustainable consumption, waste management, or resource efficiency was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to climate change, mitigation, adaptation, or disaster resilience was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to marine ecosystems, ocean health, or sustainable fisheries was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit or implicit evidence related to terrestrial ecosystems, biodiversity, forests, or land degradation was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course fundamentally examines 'colonial experience', 'political democratization' (Week 7), and 'national division' (Week 5), which are central to peace, justice, and institutional development (Targets 16.3, 16.6).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 3.5,
+      "source": "model_b",
+      "reasoning": "The course discusses 'globalization' and the '1997 East Asian economic crisis' (Week 11), which relate to global macroeconomic stability and international policy coherence (Target 17.13).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

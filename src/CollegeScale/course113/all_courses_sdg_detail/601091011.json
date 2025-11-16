@@ -1,0 +1,761 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 8.0,
+      "reason": "Focus on civic virtue and constitutionalism supports Target 4.7 ('knowledge and skills for sustainable development').",
+      "evidence": [
+        "公民美德",
+        "憲政主義"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 9.0,
+      "reason": "Course emphasizes rule of law and civic engagement, linking to Target 16.3 ('promote the rule of law').",
+      "evidence": [
+        "法治國家的基礎",
+        "公民警覺"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 4.5,
+        "reason": "Links to Target 1.3 via the concept of a \"Welfare state\" (福利國家) and Target 1.4 via the \"right to survival\" (生存權), establishing constitutional social protections.",
+        "evidence": [
+          "福利國家",
+          "生存權"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 0.5,
+        "reason": "A very tenuous link to Target 2.1 is inferred from the \"right to survival\" (生存權), a basic prerequisite for food access, but not explicitly discussed.",
+        "evidence": [
+          "生存權"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 2.0,
+        "reason": "Inferred link to Target 3.8 (health coverage) via \"Welfare state\" (福利國家) and Target 3.d (health risk management) via procedures like \"isolation\" (隔離).",
+        "evidence": [
+          "福利國家",
+          "隔離",
+          "生存權"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 3.0,
+        "reason": "Links to Target 4.7 (education for human rights/citizenship) through its aim to build \"civic alertness\" (公民警覺) and \"civic virtue\" (公民 美德).",
+        "evidence": [
+          "公民警覺",
+          "公民 美德"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 8.0,
+        "reason": "Directly addresses Target 5.1 and 5.c through the core constitutional principle of \"Right to equality\" (平等權) and \"Equal political participation rights\" (平等參政權).",
+        "evidence": [
+          "平等權",
+          "平等參政權相關案例"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 6.0,
+        "reason": "Explicitly covers the \"right to work\" (工作權), a fundamental right directly supporting Target 8.5 (decent work) and Target 8.8 (protect labour rights).",
+        "evidence": [
+          "工作權"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 9.0,
+        "reason": "Core focus on reducing inequality via Target 10.3 (\"Right to equality\") and Target 10.2 (\"Equal political participation rights\" and \"active participation in public affairs\").",
+        "evidence": [
+          "平等權",
+          "平等參政權",
+          "積極參與公共事務"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 0.1,
+        "reason": "A minimal inferred link to Target 11.1 (housing) through the discussion of \"property rights\" (財產權), but no focus on urban issues.",
+        "evidence": [
+          "財產權"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "The course is a fundamental study of this goal, covering Target 16.3 (\"rule-of-law state\"), 16.6 (\"limiting state power\"), and 16.10 (\"Fundamental rights\").",
+        "evidence": [
+          "法治國家",
+          "限制國家權力",
+          "基本權利"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B provides more comprehensive links to several SDGs, particularly in areas of social protection and rights, warranting revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's reference to 'Welfare state' and 'right to survival' aligns with course content."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model B's link to 'right to survival' provides a basis for a minimal score."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B's connection to 'Welfare state' and health coverage is relevant."
+      },
+      "Quality Education": {
+        "your_original": 8.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B's focus on civic education aligns better with course objectives."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B's emphasis on 'right to work' directly supports this goal."
+      },
+      "Gender Equality": {
+        "your_original": 0.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's references to 'Right to equality' and political participation are strong."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's focus on equality rights is well-supported by course content."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 9.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's comprehensive coverage of rule of law and rights is compelling."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more comprehensive evidence for several SDGs, particularly regarding fundamental rights and welfare state concepts, leading to revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.5,
+        "reason": "Model A correctly identified '福利國家' and '生存權' as explicit links to social protection and economic resources."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.5,
+        "reason": "Model A's inferred link via '生存權' (right to survival) is a plausible, albeit weak, connection to basic needs."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 2.0,
+        "reason": "Model A's reasoning for '福利國家' and '隔離' provides valid inferred links to health coverage and risk management."
+      },
+      "Gender Equality": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 8.0,
+        "reason": "Model A correctly highlighted '平等權' and '平等參政權' as explicit and strong links to gender equality principles."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 6.0,
+        "reason": "Model A accurately identified '工作權' as an explicit constitutional right directly supporting decent work."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 9.0,
+        "reason": "Model A's evidence ('平等權', '平等參政權', '積極參與公共事務') explicitly addresses the core tenets of reducing inequalities."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.1,
+        "reason": "Model A's very low score for '財產權' as a tenuous link to housing is a reasonable, minimal inference."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 9.0,
+        "model_b_score": 9.0,
+        "your_revised": 10.0,
+        "reason": "Model A's reasoning, including '限制國家權力' and '基本權利', more fully captures the course's central and explicit focus on this SDG."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified 'Welfare state' and 'right to survival' as key concepts, aligning well with course content on social protections.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "The link to 'right to survival' provides a minimal but valid connection to food access, as noted in both models.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect health coverage to the 'Welfare state', providing a reasonable basis for this score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "The emphasis on civic education and skills for sustainable development aligns with course objectives, as noted in both models.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models effectively highlight 'Right to equality' and political participation, strongly supported by course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support a score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support a score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the 'right to work', aligning well with course content on economic rights.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support a score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models effectively address equality rights, strongly supported by course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.1,
+      "source": "synthesized",
+      "reasoning": "A minimal link to housing rights is noted, though weak, justifying a very low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.1,
+        "model_b_revised": 0.1
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support a score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support a score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support a score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support a score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models comprehensively cover the rule of law and fundamental rights, aligning perfectly with course objectives.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support a score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly mentions '福利國家' (Welfare state) and '生存權' (right to survival), which directly relate to social protection systems (Target 1.3) and equal rights to economic resources (Target 1.4). Model B correctly identified these links.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "The '生存權' (right to survival) can be tenuously linked to ensuring access to sufficient food (Target 2.1) as a basic human need. Model B's low score reflects this weak, inferred connection.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The concept of a '福利國家' (Welfare state) implies social services, including health (Target 3.8). '隔離' (isolation) procedures, mentioned under personal liberty, relate to public health risk management (Target 3.d). Model B's score is appropriate for these inferred links.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course aims to build '公民警覺' (civic alertness) and '公民 美德' (civic virtue) and apply '憲政主義' (constitutionalism). This directly aligns with Target 4.7, which emphasizes knowledge and skills for sustainable development, human rights, and global citizenship. Model A's original score of 8.0 was more accurate than Model B's 3.0, as the course's contribution is substantial.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '平等權' (equality rights) and '平等參政權相關案例' (cases related to equal political participation rights). These are fundamental to ending discrimination (Target 5.1) and ensuring equal opportunities (Target 5.5). Model B's high score is well-justified.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct or inferred evidence related to clean water, sanitation, or hygiene was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct or inferred evidence related to energy access, renewable energy, or energy efficiency was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly lists '工作權' (right to work) as a basic right. This directly supports Target 8.5 (decent work) and Target 8.8 (protect labour rights). Model B's score is accurate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct or inferred evidence related to infrastructure development, industrialization, or innovation was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course's strong emphasis on '平等權' (equality rights), '平等參政權' (equal political participation rights), and '積極參與公共事務' (active participation in public affairs) directly addresses empowering inclusion and reducing inequalities (Targets 10.2, 10.3). Model B's high score is well-supported.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "While '財產權' (property rights) is mentioned, the course does not focus on urban planning, housing, or community development. The link to SDG 11 targets like affordable housing (Target 11.1) is too indirect and tenuous to warrant a score above minimal.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.1,
+        "model_b_revised": 0.1
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct or inferred evidence related to sustainable consumption, production patterns, or resource efficiency was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct or inferred evidence related to climate change, resilience, or adaptation was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct or inferred evidence related to marine ecosystems, ocean health, or sustainable fisheries was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct or inferred evidence related to terrestrial ecosystems, biodiversity, or deforestation was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "This SDG is the core focus of the 'Constitution' course. It explicitly covers '法治國家' (rule of law), '限制國家權力' (limiting state power), '保障權利' (protecting rights), '權力分立' (separation of powers), and '司法制度與違憲審查' (judicial review). This directly addresses Targets 16.3, 16.6, and 16.10. Model B's comprehensive reasoning and perfect score are fully justified.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No direct or inferred evidence related to global partnerships, resource mobilization, or international cooperation for sustainable development was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

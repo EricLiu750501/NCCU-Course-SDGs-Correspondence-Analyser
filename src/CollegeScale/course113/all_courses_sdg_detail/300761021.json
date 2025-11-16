@@ -1,0 +1,834 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 3.0,
+      "reason": "Course discusses social responsibility and sustainability, linking to poverty reduction indirectly.",
+      "evidence": [
+        "社會責任與永續議題",
+        "social responsibility and sustainability"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 8.0,
+      "reason": "Focus on understanding ESG concepts and sustainable development education.",
+      "evidence": [
+        "認識ESG概念",
+        "understanding ESG concepts"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 4.0,
+      "reason": "Course addresses social issues, including gender equality indirectly.",
+      "evidence": [
+        "社會創新工作坊",
+        "social innovation workshops"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 5.0,
+      "reason": "Course discusses sustainable business practices impacting economic growth.",
+      "evidence": [
+        "企業經營的影響",
+        "impact on business operations"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 4.0,
+      "reason": "Course includes discussions on social responsibility and inclusion.",
+      "evidence": [
+        "社會責任",
+        "social responsibility"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 6.0,
+      "reason": "Focus on sustainable practices and social innovation.",
+      "evidence": [
+        "實踐永續的創新方案",
+        "innovative solutions for sustainability"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "score": 5.0,
+      "reason": "Course addresses global trends and challenges related to sustainability.",
+      "evidence": [
+        "永續發展的全球趨勢",
+        "global trends in sustainable development"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 7.0,
+      "reason": "Course includes international collaboration and partnerships.",
+      "evidence": [
+        "國際學校的交流",
+        "exchange with international schools"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.0,
+        "reason": "The course's focus on \"solving social problems\" and the \"Social\" aspect of ESG could indirectly address poverty issues, linking to Target 1.b.",
+        "evidence": [
+          "社會 (Social)",
+          "發展解決社會問題和實踐永續的創新方案"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 1.5,
+        "reason": "The \"Environment\" aspect of ESG is inferred to cover pollution, which links to health (Target 3.9). The \"Social\" aspect can cover well-being.",
+        "evidence": [
+          "環境 (Environment)",
+          "社會 (Social)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about education for sustainable development, directly fulfilling Target 4.7 by providing knowledge on \"永續發展的全球趨勢、機會與挑戰\" (sustainable development trends).",
+        "evidence": [
+          "提供學生有關永續的多元觀點",
+          "學生將了解永續發展的全球趨勢、機會與挑戰"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 4.0,
+        "reason": "The \"Social\" pillar of ESG, a core course topic, typically includes gender equality issues, linking to targets like 5.5 on equal opportunities in economic life.",
+        "evidence": [
+          "社會 (Social)",
+          "發展解決社會問題和實踐永續的創新方案"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 5.0,
+        "reason": "The \"Environment\" (環境) aspect of ESG, a core course theme, strongly implies coverage of water management and pollution (Target 6.3) in corporate operations.",
+        "evidence": [
+          "環境 (Environment)",
+          "企業永續經營的決策與考量"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "score": 7.0,
+        "reason": "The \"Environment\" (環境) pillar of ESG directly involves corporate energy use, linking strongly to targets on renewable energy (7.2) and energy efficiency (7.3).",
+        "evidence": [
+          "環境 (Environment)",
+          "企業永續經營的決策與考量"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 8.0,
+        "reason": "The course explicitly covers \"social responsibility\" and \"corporate sustainable operations,\" directly addressing decent work (Target 8.8) and sustainable economic practices (Target 8.4).",
+        "evidence": [
+          "社會 (Social)",
+          "企業永續經營的決策與考量",
+          "社會責任與永續議題"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 8.5,
+        "reason": "The course focuses on \"corporate sustainable operations\" and developing \"innovative solutions,\" directly aligning with upgrading industries for sustainability and innovation (Targets 9.4, 9.5).",
+        "evidence": [
+          "發展解決社會問題和實踐永續的創新方案",
+          "企業永續經營的決策與考量"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 6.0,
+        "reason": "The \"Social\" (社會) pillar of ESG and the goal of \"solving social problems\" directly infer a focus on promoting social inclusion and reducing inequalities (Target 10.2).",
+        "evidence": [
+          "社會 (Social)",
+          "發展解決社會問題和實踐永續的創新方案"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 2.0,
+        "reason": "The \"Environment\" aspect of ESG can be inferred to cover corporate impacts on cities, such as waste and air quality, which has a tangential link to Target 11.6.",
+        "evidence": [
+          "環境 (Environment)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Responsible Consumption and Production": {
+        "score": 10.0,
+        "reason": "The course is centered on \"corporate sustainable operations\" and \"ESG,\" which directly aligns with Target 12.6, encouraging companies to adopt sustainable practices.",
+        "evidence": [
+          "企業永續經營的決策與考量",
+          "ESG概念及各面向的關鍵議題",
+          "社會責任與永續議題"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 9.0,
+        "reason": "The \"Environment\" (環境) pillar of ESG, a core course topic, is fundamentally linked to integrating climate change measures into corporate strategy, aligning with Target 13.2.",
+        "evidence": [
+          "環境 (Environment)",
+          "永續發展的全球趨勢"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life Below Water": {
+        "score": 4.0,
+        "reason": "The \"Environment\" (環境) aspect of ESG can be inferred to cover corporate impacts on marine pollution from land-based activities, linking to Target 14.1.",
+        "evidence": [
+          "環境 (Environment)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life on Land": {
+        "score": 5.0,
+        "reason": "The \"Environment\" (環境) pillar of ESG implies coverage of corporate impacts on land use and ecosystems, linking to sustainable management of terrestrial ecosystems (Targets 15.1, 15.2).",
+        "evidence": [
+          "環境 (Environment)",
+          "企業永續經營的決策與考量"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 9.0,
+        "reason": "The \"Governance\" (治理) pillar of ESG is a core course topic, directly addressing corporate accountability, transparency, and ethics, which aligns with Targets 16.5 and 16.6.",
+        "evidence": [
+          "治理（Governance）",
+          "理解與辨別道德、社會責任與永續議題"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 8.0,
+        "reason": "The course structure, involving \"exchanges with international schools\" and \"cross-cultural communication and cooperation,\" directly embodies the partnership and knowledge-sharing principles of Target 17.16.",
+        "evidence": [
+          "與國際學校的交流",
+          "學習瞭解不同國家對於永續思維的看法與跨文化溝通和合作"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more nuanced interpretations, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 3.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B's focus on social problem-solving aligns better with course content."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B's connection to environmental aspects and health is valid."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's inference on water management aligns with course themes."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B's emphasis on energy use in corporate sustainability is relevant."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 5.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's explicit mention of social responsibility enhances the score."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's focus on innovation in corporate operations is well-supported."
+      },
+      "Reduced Inequalities": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B's interpretation of social inclusion is more comprehensive."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B's inference on urban impacts is a valid consideration."
+      },
+      "Climate Action": {
+        "your_original": 5.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's connection to climate measures in corporate strategy is strong."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's inference on marine pollution aligns with environmental themes."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's focus on land use impacts is relevant to course content."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's emphasis on governance aligns with course discussions."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provides a more comprehensive and accurate interpretation of the course text, particularly regarding the inferred links from ESG pillars to various SDGs. My initial assessment was too conservative.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 3.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model A's score of 1.0 is more appropriate for an indirect inference from 'Social' ESG and 'solving social problems'."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model A correctly infers links from 'Environment' (pollution) and 'Social' (well-being) aspects of ESG."
+      },
+      "Quality Education": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A correctly identifies the explicit and strong alignment with education for sustainable development (Target 4.7)."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A's inference from the 'Environment' pillar of ESG, covering water management and pollution, is valid."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model A's inference from the 'Environment' pillar of ESG, covering corporate energy use, is valid."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 5.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A's reasoning explicitly links 'social responsibility' and 'corporate sustainable operations' to decent work and economic growth."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A correctly identifies the explicit focus on 'innovative solutions' and 'corporate sustainable operations' aligning with SDG 9."
+      },
+      "Reduced Inequalities": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model A's reasoning, including 'solving social problems' and the 'Social' pillar, provides a stronger inference."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A's inference from 'Environment' (corporate impacts on cities like waste/air quality) is plausible."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 6.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A correctly identifies the course's core focus on 'corporate sustainable operations' and 'ESG' as a direct alignment with SDG 12."
+      },
+      "Climate Action": {
+        "your_original": 5.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A's reasoning strongly links the 'Environment' pillar of ESG to integrating climate change measures into corporate strategy."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A's inference from 'Environment' (corporate impacts on marine pollution) is plausible."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A's inference from 'Environment' (corporate impacts on land use and ecosystems) is plausible."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A correctly identifies the explicit link between the 'Governance' pillar of ESG and corporate accountability, transparency, and ethics."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 7.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A's reasoning is more comprehensive by including 'cross-cultural communication and cooperation' as evidence for partnerships."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Both models infer links to poverty through social responsibility, but the evidence is weak. A score of 1.0 reflects the indirect nature of the connection.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to hunger, justifying a score of 0.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognize environmental links to health, but Model B's score is slightly higher due to its broader interpretation of well-being.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the strong alignment of the course with education for sustainable development, justifying a perfect score.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models infer gender equality through social responsibility, but the evidence remains indirect, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on water management aligns well with course themes, and the revised score reflects this valid inference.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the relevance of energy use in corporate sustainability, with Model B providing a stronger rationale.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on social responsibility and sustainable practices, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize innovation in corporate operations, with Model B providing a stronger rationale for the score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models infer social inclusion through the course's focus on social responsibility, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models infer urban impacts through environmental aspects, justifying a low score due to indirect evidence.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the course's strong alignment with sustainable practices, justifying a perfect score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the strong link between the course's environmental focus and climate action, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models infer marine pollution impacts through environmental aspects, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models infer land use impacts through environmental aspects, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize governance and accountability, justifying a high score based on course discussions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's focus on international collaboration, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course's 'Social' ESG pillar and focus on 'solving social problems' indirectly align with poverty reduction strategies (Target 1.b). Model B's original reasoning is more specific.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus directly relates to ending hunger or food security.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The 'Environment' aspect of ESG implies addressing pollution (Target 3.9), which impacts health. The 'Social' aspect broadly covers well-being. Model B's original inference is valid.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about 'education for sustainable development,' explicitly covering ESG concepts and global sustainability trends, directly fulfilling Target 4.7.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 4.0,
+      "source": "model_a",
+      "reasoning": "The 'Social' pillar of ESG and the focus on 'social problems' can indirectly encompass gender equality, particularly in economic opportunities (Target 5.5). Both models agree.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The 'Environment' pillar of ESG and 'corporate sustainable operations' strongly imply coverage of water management and pollution reduction (Target 6.3). Model B's original inference is strong.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The 'Environment' pillar of ESG directly involves corporate energy use, linking strongly to renewable energy (Target 7.2) and energy efficiency (Target 7.3). Model B's original inference is robust.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'social responsibility' and 'corporate sustainable operations,' directly addressing decent work (Target 8.8) and sustainable economic practices (Target 8.4).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'innovative solutions for sustainability' and 'corporate sustainable operations' directly aligns with upgrading industries and fostering innovation (Targets 9.4, 9.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The 'Social' pillar of ESG and the goal of 'solving social problems' directly infer a focus on promoting social inclusion and reducing inequalities (Target 10.2). Model B's original reasoning is comprehensive.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The 'Environment' aspect of ESG can be inferred to cover corporate impacts on cities, such as waste and air quality, linking tangentially to Target 11.6. Model B's original inference is plausible.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is centered on 'corporate sustainable operations' and 'ESG,' which directly aligns with encouraging companies to adopt sustainable practices (Target 12.6). This is a core theme.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The 'Environment' pillar of ESG is fundamentally linked to integrating climate change measures into corporate strategy (Target 13.2), a key 'sustainable development trend'. Model B's original reasoning is strong.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The 'Environment' aspect of ESG can be inferred to cover corporate impacts on marine pollution from land-based activities (Target 14.1). Model B's original inference is plausible.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The 'Environment' pillar of ESG implies coverage of corporate impacts on land use, biodiversity, and ecosystems (Targets 15.1, 15.2). Model B's original inference is plausible.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The 'Governance' pillar of ESG is a core course topic, directly addressing corporate accountability, transparency, and ethics (Targets 16.5, 16.6). Model B's original reasoning is explicit and strong.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly involves 'international school exchanges' and 'cross-cultural communication and cooperation,' directly embodying partnership and knowledge-sharing principles (Target 17.16).",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    }
+  }
+}

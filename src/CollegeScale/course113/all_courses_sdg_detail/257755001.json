@@ -1,0 +1,741 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 7.5,
+      "reason": "Course enhances skills in real estate valuation, linking to Target 4.4 ('relevant skills for employment').",
+      "evidence": [
+        "具備實務論證與理論分析之能力",
+        "具備地政學理之專業能力與國際觀"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 6.0,
+      "reason": "Course supports economic analysis in real estate, relevant to Target 8.3 ('decent job creation').",
+      "evidence": [
+        "不動產價格統計分析",
+        "大量估價理論"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 5.0,
+      "reason": "Focus on mass appraisal methods relates to Target 9.2 ('sustainable industrialization').",
+      "evidence": [
+        "大量估價理論",
+        "不動產估價"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 6.5,
+      "reason": "Course discusses real estate valuation, linking to Target 11.1 ('affordable housing').",
+      "evidence": [
+        "不動產價格分析",
+        "不動產估價"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.5,
+        "reason": "Indirectly supports Target 1.4 (control over land) and 1.b (pro-poor policy) by providing methods for fair \"不動產稅基評估\" (real estate tax base assessment).",
+        "evidence": [
+          "不動產稅基評估",
+          "台北市地價稅公平性之研究"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 4.5,
+        "reason": "As a university course, it provides tertiary education (Target 4.3) and technical skills in data analysis, GIS, and valuation for employment (Target 4.4).",
+        "evidence": [
+          "科目名稱：電腦輔助大量估價專題研究",
+          "結合大量估價理論方法與地理資訊系統(GIS)進行實做"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Gender Equality": {
+        "score": 0.5,
+        "reason": "A tenuous link to Target 5.a (equal rights to property) as the course provides tools for property valuation, a component of managing property rights.",
+        "evidence": [
+          "大量估價(Mass Appraisal)是以不動產估價理論為基礎"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 6.0,
+        "reason": "Supports technological upgrading in appraisal (Target 8.2) and strengthens financial institutions via \"金融機構擔保品價格評估\" (collateral price assessment), linking to Target 8.10.",
+        "evidence": [
+          "電腦輔助大量估價專題研究",
+          "金融機構擔保品價格評估"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 8.0,
+        "reason": "Focuses on innovation in the appraisal sector by using \"OPEN DATA\" and \"地理資訊系統(GIS)\" to upgrade technological capabilities, aligning with Target 9.5.",
+        "evidence": [
+          "結合開放資料庫 GIS 資料運用於不動產價格分析",
+          "政府部門也大量提供開放資料(OPEN DATA)"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 9.0,
+        "reason": "Directly addresses fiscal policy for equality (Target 10.4) through readings on \"地價稅公平性之研究\" (research on the fairness of land value tax).",
+        "evidence": [
+          "台北市地價稅公平性之研究",
+          "公部門不動產估價成效評估－公平性之觀點"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 9.5,
+        "reason": "Core topics support sustainable planning (Target 11.3) and assess disaster impacts (\"土壤液化潛勢區\") on housing, linking to Target 11.5 on disaster resilience.",
+        "evidence": [
+          "土壤液化潛勢區公布對房價之影響",
+          "The Impact of Urban Renewal on Neighborhood Housing Prices",
+          "高雄氣爆後的房價被市場暴棄了?"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 2.0,
+        "reason": "Indirectly links to Target 13.1 (resilience to disasters) by analyzing the economic impact of hazards like \"土壤液化\" (soil liquefaction) on property prices.",
+        "evidence": [
+          "土壤液化潛勢區公布對房價之影響"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.5,
+        "reason": "A tenuous link to Target 15.9 (integrating values into planning) through a reading on \"land consolidation schemes,\" though the focus is economic, not ecological.",
+        "evidence": [
+          "The assessment of land valuation in land consolidation schemes"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 9.5,
+        "reason": "Directly supports developing transparent and accountable institutions (Target 16.6) through systematic \"不動產稅基評估\" (real estate tax base assessment) and studies on fairness.",
+        "evidence": [
+          "不動產稅基評估",
+          "公部門不動產估價成效評估－公平性之觀點",
+          "利用標準化程序與統計檢定對一群不動產進行系統性的估價"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 8.5,
+        "reason": "Directly supports domestic resource mobilization (Target 17.1) via \"不動產稅基評估\" (tax base assessment) and builds statistical capacity using \"OPEN DATA\" (Target 17.18).",
+        "evidence": [
+          "不動產稅基評估",
+          "政府部門也大量提供開放資料(OPEN DATA)",
+          "運用大量數據進行敘述統計分析"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B provides more comprehensive evidence for several SDGs, warranting revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B's evidence on real estate tax base assessment aligns with course content."
+      },
+      "Quality Education": {
+        "your_original": 7.5,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's focus on tertiary education and technical skills is more accurate."
+      },
+      "Gender Equality": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model B's link to property rights provides a valid connection."
+      },
+      "Climate Action": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B's analysis of economic impacts of hazards is relevant."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model B's reference to land valuation integrates ecological values."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B's emphasis on transparency and accountability is well-supported."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's focus on resource mobilization and statistical capacity is accurate."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more comprehensive and explicitly evidenced connections for several SDGs, particularly regarding fairness in taxation, disaster resilience, and technological innovation.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 1.5,
+        "reason": "Model A's link to fair real estate tax assessment and land control (Target 1.4, 1.b) is a valid, albeit indirect, contribution."
+      },
+      "Gender Equality": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.5,
+        "reason": "Model A's tenuous link to property valuation as a component of managing property rights (Target 5.a) is acceptable."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 5.0,
+        "model_b_score": 5.0,
+        "your_revised": 8.0,
+        "reason": "Model A's reasoning, highlighting 'OPEN DATA' and 'GIS' for technological upgrading (Target 9.5), is more explicit and strongly evidenced."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 9.0,
+        "reason": "Model A's explicit evidence on '地價稅公平性之研究' directly supports fiscal policy for equality (Target 10.4)."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 6.5,
+        "model_b_score": 6.5,
+        "your_revised": 9.5,
+        "reason": "Model A's evidence on disaster impact ('土壤液化') and urban renewal (Target 11.5, 11.3) is more comprehensive and explicit."
+      },
+      "Climate Action": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 2.0,
+        "reason": "Model A's link to disaster resilience (Target 13.1) through analyzing '土壤液化' impacts on property is valid."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.5,
+        "reason": "Model A's tenuous link to 'land consolidation schemes' and integrating values into planning (Target 15.9) is acceptable."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 9.5,
+        "reason": "Model A's explicit evidence on '不動產稅基評估' and '公平性之觀點' strongly supports transparent institutions (Target 16.6)."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 8.5,
+        "reason": "Model A's explicit evidence on '不動產稅基評估' (Target 17.1) and 'OPEN DATA' for statistical capacity (Target 17.18) is strong."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Both models provide valid links to property rights and fair tax assessments, but Model A's emphasis on indirect contributions aligns better with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to this SDG, confirming a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence was found in either model, supporting a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on tertiary education and technical skills is more accurate, aligning with course objectives.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Both models provide a tenuous link to property rights, but Model B's reasoning is slightly more aligned with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence was found in either model, confirming a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence was found in either model, confirming a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's relevance to economic analysis, but Model B's explicit evidence strengthens the score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on technological upgrading through GIS and open data aligns well with course content.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Model A's explicit evidence on land value tax fairness directly supports fiscal policy for equality.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Model A's comprehensive evidence on disaster impacts and urban renewal aligns strongly with course objectives.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence was found in either model, confirming a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models link to disaster resilience, but Model A's analysis of economic impacts is more relevant.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence was found in either model, confirming a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Both models provide a tenuous link to land valuation, but Model A's reasoning is slightly more aligned.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize transparency and accountability, but Model A's explicit evidence is stronger.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models support resource mobilization, but Model A's explicit evidence on statistical capacity is stronger.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on '不動產稅基評估' (real estate tax base assessment) and '地價稅公平性之研究' (fairness of land value tax) indirectly supports Target 1.4 (access to land/property) and 1.b (pro-poor policy frameworks) by promoting equitable fiscal policies.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to food security, agriculture, or nutrition.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to health, well-being, disease prevention, or healthcare access.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "As a master's level university course, it provides tertiary education (Target 4.3) and equips students with technical skills in data analysis, GIS, and real estate valuation for employment (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on property valuation, while tenuous, can indirectly support Target 5.a by providing tools for fair assessment, which is a component of managing property rights for all.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to water quality, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course supports technological upgrading in appraisal ('電腦輔助大量估價') (Target 8.2) and strengthens financial institutions through '金融機構擔保品價格評估' (collateral assessment), linking to Target 8.10.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly focuses on innovation in appraisal using 'OPEN DATA' and '地理資訊系統(GIS)' to upgrade technological capabilities, directly aligning with Target 9.5 (enhance scientific research, upgrade technological capabilities, encourage innovation).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course directly addresses fiscal policy for equality (Target 10.4) through readings like '台北市地價稅公平性之研究' and '公部門不動產估價成效評估－公平性之觀點', focusing on fair land value taxation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "Core topics support sustainable planning (Target 11.3) and assess disaster impacts ('土壤液化潛勢區公布對房價之影響', '高雄氣爆後的房價被市場暴棄了?') on housing, linking to Target 11.5 on disaster resilience.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": null,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to sustainable consumption, production patterns, waste reduction, or resource efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course indirectly links to Target 13.1 (resilience to disasters) by analyzing the economic impact of hazards like '土壤液化' (soil liquefaction) on property prices, which can be climate-related.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to marine ecosystems, ocean health, or aquatic resources.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "A tenuous link to Target 15.9 (integrating values into planning) exists through a reading on 'The assessment of land valuation in land consolidation schemes,' which involves land use planning.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course directly supports developing transparent and accountable institutions (Target 16.6) through systematic '不動產稅基評估' and studies on '公平性之觀點' in public sector appraisal.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course directly supports domestic resource mobilization (Target 17.1) via '不動產稅基評估' and builds statistical capacity using 'OPEN DATA' and '運用大量數據進行敘述統計分析' (Target 17.18).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

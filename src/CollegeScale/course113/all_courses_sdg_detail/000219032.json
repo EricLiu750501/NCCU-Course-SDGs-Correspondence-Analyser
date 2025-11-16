@@ -1,0 +1,874 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 4.0,
+      "reason": "Course discusses economic behavior, relevant to poverty reduction strategies (Target 1.2).",
+      "evidence": [
+        "economic behavior",
+        "poverty reduction strategies"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not directly address hunger or nutrition.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not focus on health or well-being.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 8.0,
+      "reason": "Course aims to familiarize students with economics, supporting educational access (Target 4.3).",
+      "evidence": [
+        "familiar with the fundamental analytical tools of economics",
+        "interested in studies of economics"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not address gender issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not discuss water or sanitation.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not cover energy topics.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 7.0,
+      "reason": "Course covers labor markets and economic growth, linking to decent work (Target 8.5).",
+      "evidence": [
+        "Labor Markets, Unemployment, and Inflation",
+        "Economic Growth"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 4.0,
+      "reason": "Course discusses economic productivity, relevant to industrial growth (Target 9.2).",
+      "evidence": [
+        "economic productivity",
+        "industrial growth"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not address inequality issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not focus on urban sustainability.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not discuss consumption or production.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not address climate change.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not cover marine issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not discuss land issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not address justice or governance.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not discuss partnerships.",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 6.0,
+        "reason": "Course covers fundamental tools like \"Fiscal Policy\" and \"Economic Growth\" used to create pro-poor policy frameworks (Target 1.b) and reduce poverty (Target 1.2).",
+        "evidence": [
+          "Economic Growth",
+          "Fiscal Policy",
+          "GDP: Measuring Total Production and Income"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 3.5,
+        "reason": "The study of \"Market Failure, Externalities, and Public Goods\" provides analytical tools for health policy, such as managing externalities affecting health (Target 3.9).",
+        "evidence": [
+          "Market Failure, Externalities, and Public Goods"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 2.0,
+        "reason": "The study of \"Labor Markets\" provides the framework for analyzing gender-based economic disparities (Target 5.5), though this specific application is not explicitly mentioned.",
+        "evidence": [
+          "Labor Markets, Unemployment, and Inflation"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 4.5,
+        "reason": "Links to Target 6.3 via \"Market Failure, Externalities, and Public Goods,\" which addresses pollution and the management of common resources like water.",
+        "evidence": [
+          "Market Failure, Externalities, and Public Goods"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 4.0,
+        "reason": "The topic \"Market Failure, Externalities, and Public Goods\" is fundamental to analyzing energy markets, pollution, and policies for clean energy (Targets 7.2, 7.a).",
+        "evidence": [
+          "Market Failure, Externalities, and Public Goods",
+          "Fiscal Policy"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 10.0,
+        "reason": "Core course topics like \"Economic Growth\" and \"Labor Markets, Unemployment, and Inflation\" directly address Targets 8.1 and 8.5 on sustained growth and full employment.",
+        "evidence": [
+          "Economic Growth",
+          "Labor Markets, Unemployment, and Inflation",
+          "The Business Cycle, Inflation, and Deflation"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 8.0,
+        "reason": "Topics like \"Economic Growth\" and \"Finance, Savings, and Investment\" are central to understanding industrial development, innovation, and infrastructure funding (Targets 9.1, 9.2).",
+        "evidence": [
+          "Economic Growth",
+          "Finance, Savings, and Investment",
+          "Fiscal Policy"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 7.5,
+        "reason": "The course covers \"Fiscal Policy\" and \"Labor Markets,\" which are primary tools for analyzing and addressing income inequality through redistribution and wage policies (Target 10.4).",
+        "evidence": [
+          "Fiscal Policy",
+          "Labor Markets, Unemployment, and Inflation",
+          "GDP: Measuring Total Production and Income"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 3.0,
+        "reason": "The topic \"Market Failure, Externalities, and Public Goods\" applies to urban challenges like pollution and public transport (Targets 11.2, 11.6), though not an explicit focus.",
+        "evidence": [
+          "Market Failure, Externalities, and Public Goods"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 5.5,
+        "reason": "The course analyzes consumer/producer behavior and \"Market Failure, Externalities, and Public Goods,\" which are key to managing resource use and pollution (Target 12.2).",
+        "evidence": [
+          "Market Failure, Externalities, and Public Goods",
+          "behavior of individual decision makers, households (consumers), and firms (producers)"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 5.0,
+        "reason": "The concept of \"Market Failure, Externalities, and Public Goods\" is the standard economic framework for analyzing climate change and designing policy responses (Target 13.2).",
+        "evidence": [
+          "Market Failure, Externalities, and Public Goods",
+          "Fiscal Policy"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 2.5,
+        "reason": "The topic \"Market Failure, Externalities, and Public Goods\" covers the \"tragedy of the commons,\" directly applicable to overfishing and marine resource management (Target 14.4).",
+        "evidence": [
+          "Market Failure, Externalities, and Public Goods"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 2.5,
+        "reason": "The topic \"Market Failure, Externalities, and Public Goods\" provides the framework for analyzing issues like deforestation and biodiversity loss as market failures.",
+        "evidence": [
+          "Market Failure, Externalities, and Public Goods"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 3.5,
+        "reason": "The course covers \"Fiscal Policy\" and \"Monetary Policy,\" which are functions of the strong, effective, and accountable institutions central to Target 16.6.",
+        "evidence": [
+          "Fiscal Policy",
+          "Monetary Policy"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 7.0,
+        "reason": "Macroeconomic topics like \"Fiscal Policy\" (taxation, Target 17.1) and \"Monetary Policy\" (macroeconomic stability, Target 17.13) are central to international economic cooperation.",
+        "evidence": [
+          "Fiscal Policy",
+          "Monetary Policy",
+          "Aggregate Demand and Aggregate Supply"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides a more comprehensive understanding of the course content, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B highlights relevant topics like Fiscal Policy and Economic Growth, which I initially overlooked."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model B connects health policy to course topics, which I did not recognize."
+      },
+      "Gender Equality": {
+        "your_original": 1.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B identifies relevant discussions on Labor Markets that relate to gender disparities."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 1.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B connects course content on externalities to water management, which I missed."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 1.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's analysis of energy markets through externalities is more aligned with course content."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B emphasizes direct connections to economic growth and employment, justifying a higher score."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's focus on economic growth and finance aligns better with industrial development."
+      },
+      "Reduced Inequalities": {
+        "your_original": 1.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B identifies relevant fiscal policies that address income inequality, which I overlooked."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 1.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B connects urban challenges to course topics, which I did not consider."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 1.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B's analysis of consumer behavior and externalities is more relevant to the course."
+      },
+      "Climate Action": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's connection of climate change to externalities is a significant aspect of the course."
+      },
+      "Life Below Water": {
+        "your_original": 1.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B's focus on marine resource management through externalities is relevant to the course."
+      },
+      "Life on Land": {
+        "your_original": 1.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B's analysis of land issues through externalities aligns with course content."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 1.0,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model B connects fiscal and monetary policy to institutional effectiveness, which I missed."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 1.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B's emphasis on fiscal policy and international cooperation is more aligned with course content."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provides a more comprehensive and accurate interpretation of how core economic concepts, such as market failures and fiscal policy, relate to various SDGs. My initial assessment was too conservative.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model A correctly links 'Fiscal Policy' and 'Economic Growth' to poverty reduction strategies (Target 1.2, 1.b)."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model A's use of 'Market Failure, Externalities, and Public Goods' is a valid framework for health policy and environmental health (Target 3.9)."
+      },
+      "Quality Education": {
+        "your_original": 8.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "My original score was too high. While the course provides education, it does not explicitly address SDG 4 targets related to education systems or access."
+      },
+      "Gender Equality": {
+        "your_original": 1.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A plausibly infers that 'Labor Markets' can be used to analyze gender-based economic disparities (Target 5.5)."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 1.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A correctly identifies 'Market Failure, Externalities, and Public Goods' as relevant to water pollution and resource management (Target 6.3)."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 1.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A's reasoning linking 'Market Failure, Externalities, and Public Goods' and 'Fiscal Policy' to energy markets and clean energy policies is accurate (Targets 7.2, 7.a)."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A's higher score is justified, as 'Economic Growth' and 'Labor Markets' are core to this SDG (Targets 8.1, 8.5)."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A's reasoning, including 'Finance, Savings, and Investment' and 'Economic Growth', is more directly relevant to industrial development and infrastructure (Targets 9.1, 9.2)."
+      },
+      "Reduced Inequalities": {
+        "your_original": 1.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model A correctly highlights 'Fiscal Policy' and 'Labor Markets' as key tools for addressing income inequality (Target 10.4)."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 1.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model A's application of 'Market Failure, Externalities, and Public Goods' to urban challenges like pollution and public transport is valid (Targets 11.2, 11.6)."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 1.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model A accurately connects 'Market Failure, Externalities, and Public Goods' and consumer/producer behavior to sustainable resource use (Target 12.2)."
+      },
+      "Climate Action": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly identifies 'Market Failure, Externalities, and Public Goods' as the primary economic framework for climate change analysis and policy (Target 13.2)."
+      },
+      "Life Below Water": {
+        "your_original": 1.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A's link to 'Market Failure, Externalities, and Public Goods' (tragedy of the commons) is directly applicable to marine resource management (Target 14.4)."
+      },
+      "Life on Land": {
+        "your_original": 1.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A's reasoning, applying 'Market Failure, Externalities, and Public Goods' to issues like deforestation and biodiversity, is appropriate."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 1.0,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model A plausibly links 'Fiscal Policy' and 'Monetary Policy' to the functions of strong and accountable institutions (Target 16.6)."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 1.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model A correctly identifies 'Fiscal Policy' and 'Monetary Policy' as central to international economic cooperation and partnerships (Targets 17.1, 17.13)."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the relevance of fiscal policy and economic growth to poverty reduction. The score reflects a balanced view of course content and its implications for poverty alleviation.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the lack of relevance to hunger or nutrition in the course content, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 3.5,
+      "source": "synthesized",
+      "reasoning": "Both models identify the relevance of market failures and externalities to health policy, supporting a moderate score reflecting course content.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Model B's critique of Model A's high score is valid; the course does not explicitly address SDG 4 targets related to education systems.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the relevance of labor markets to gender disparities, justifying a low score that reflects limited course content.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models effectively link course content on market failures to water management, supporting a moderate score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect course topics to energy markets and policies, justifying a moderate score reflecting course relevance.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's strong focus on economic growth and labor markets, justifying the highest score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the relevance of economic growth and finance to industrial development, supporting a high score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the importance of fiscal policy and labor markets in addressing income inequality, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect urban challenges to course topics, justifying a moderate score reflecting limited focus.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Both models effectively link consumer behavior and externalities to sustainable resource use, supporting a moderate score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect climate change analysis to market failures, justifying a moderate score reflecting course relevance.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the relevance of market failures to marine resource management, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Both models apply market failures to land issues, justifying a low score reflecting course content.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 3.5,
+      "source": "synthesized",
+      "reasoning": "Both models connect fiscal and monetary policy to institutional effectiveness, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize fiscal policy and international cooperation, justifying a high score reflecting course relevance.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "Course topics like 'Economic Growth' and 'Fiscal Policy' are fundamental to understanding and implementing pro-poor policies and poverty reduction strategies (Targets 1.2, 1.b).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.0,
+      "source": "model_a",
+      "reasoning": "The course syllabus does not contain explicit content related to hunger, food security, or agricultural productivity, indicating minimal direct relevance.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 3.5,
+      "source": "model_b",
+      "reasoning": "The topic 'Market Failure, Externalities, and Public Goods' provides analytical tools for understanding health policy and environmental health impacts (e.g., pollution, Target 3.9).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "While the course provides tertiary education (Target 4.3), it does not explicitly address broader SDG 4 targets related to education systems, access, or sustainable development education.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The 'Labor Markets' topic offers a framework to analyze gender-based economic disparities and equal opportunities in economic life (Target 5.5).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The 'Market Failure, Externalities, and Public Goods' topic is directly applicable to water pollution and the management of water resources (Target 6.3).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The 'Market Failure, Externalities, and Public Goods' topic is crucial for analyzing energy markets, pollution, and policies for clean energy (Targets 7.2, 7.a).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "Core course topics like 'Economic Growth' and 'Labor Markets, Unemployment, and Inflation' directly address sustained economic growth and full, productive employment (Targets 8.1, 8.5).",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "Topics such as 'Economic Growth' and 'Finance, Savings, and Investment' are central to understanding industrial development, innovation, and infrastructure funding (Targets 9.1, 9.2).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course covers 'Fiscal Policy' and 'Labor Markets,' which are primary economic tools for analyzing and addressing income inequality and promoting social inclusion (Target 10.4).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The 'Market Failure, Externalities, and Public Goods' topic applies to urban challenges like pollution and public transport systems (Targets 11.2, 11.6).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course analyzes consumer/producer behavior and 'Market Failure, Externalities, and Public Goods,' which are key to managing resource use and pollution (Target 12.2).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The 'Market Failure, Externalities, and Public Goods' topic provides the standard economic framework for analyzing climate change and designing policy responses (Target 13.2).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The 'Market Failure, Externalities, and Public Goods' topic, including the 'tragedy of the commons,' is applicable to marine resource management and overfishing (Target 14.4).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The 'Market Failure, Externalities, and Public Goods' topic provides a framework for analyzing issues like deforestation and biodiversity loss as market failures.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 3.5,
+      "source": "model_b",
+      "reasoning": "The course covers 'Fiscal Policy' and 'Monetary Policy,' which are functions of strong, effective, and accountable institutions (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "Macroeconomic topics like 'Fiscal Policy' and 'Monetary Policy' are central to international economic cooperation, resource mobilization, and macroeconomic stability (Targets 17.1, 17.13).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    }
+  }
+}

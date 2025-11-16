@@ -1,0 +1,823 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 4.0,
+      "reason": "Course discusses land rights, linking to Target 1.4 on access to land and resources.",
+      "evidence": [
+        "equal rights to economic resources",
+        "access to land"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "score": 1.0,
+      "reason": "Minimal relevance; land administration may indirectly affect agricultural productivity.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not directly address health issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 4.0,
+      "reason": "Course aims to provide foundational knowledge for land administration careers, linking to Target 4.4.",
+      "evidence": [
+        "土地行政之基本課題及內涵",
+        "土地相關行政工作"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 3.0,
+      "reason": "Course mentions rights and responsibilities of land administration personnel, hinting at gender issues.",
+      "evidence": [
+        "公務人員之權利義務"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not address water or sanitation directly.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 5.0,
+      "reason": "Course discusses land administration's role in economic policies, linking to Target 8.3.",
+      "evidence": [
+        "土地政策及土地立法之關係"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 2.0,
+      "reason": "Course touches on administrative processes relevant to infrastructure but lacks depth.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 3.0,
+      "reason": "Course addresses land rights, which can relate to reducing inequalities.",
+      "evidence": [
+        "土地行政人員之概念"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 6.0,
+      "reason": "Course covers land use and urban planning, linking to Target 11.3.",
+      "evidence": [
+        "都市計畫審查程序"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not focus on consumption or production.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 2.0,
+      "reason": "Course may indirectly relate to land use policies affecting climate but lacks direct focus.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 5.0,
+      "reason": "Course discusses land management, linking to Target 15.3 on land restoration.",
+      "evidence": [
+        "土地徵收",
+        "國土利用管制"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 7.0,
+      "reason": "Course covers legal principles and administrative law, linking to Target 16.3.",
+      "evidence": [
+        "行政法之一般法律原則"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 1.0,
+      "reason": "Minimal relevance; course does not address partnerships directly.",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 6.0,
+        "reason": "The course covers '土地登記行政' (land registration) and '國土利用管制' (land use control), which are fundamental to securing control over land, a key component of Target 1.4.",
+        "evidence": [
+          "土地登記行政",
+          "國土利用管制",
+          "土地徵收"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 1.5,
+        "reason": "The principles of 'Land Administration' can be inferred to support Target 2.3 (secure access to land), but the course does not specifically mention agriculture or food production.",
+        "evidence": [
+          "土地行政之意涵",
+          "國土利用管制"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "As a university course, it provides tertiary education (Target 4.3) and knowledge for future '土地相關行政工作' (land-related administrative work), aligning with Target 4.4.",
+        "evidence": [
+          "使同學瞭解土地行政之基本課題及內涵",
+          "以為將來從事土地相關行政工作時，所應具備之有關土地行政法制知識奠定基礎"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 2.5,
+        "reason": "The study of '行政法之一般法律原則' (general principles of administrative law) infers a foundation for equal rights to land (Target 5.a), though gender is not explicitly mentioned.",
+        "evidence": [
+          "行政法之一般法律原則",
+          "土地登記行政"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 5.0,
+        "reason": "The course prepares students for '土地相關行政工作' (land-related administrative work) and covers the role of '公務人員' (civil servants), contributing to decent job creation (Target 8.3).",
+        "evidence": [
+          "以為將來從事土地相關行政工作時",
+          "土地行政人員（公務人員）之概念"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 6.5,
+        "reason": "Topics like '土地徵收' (land expropriation) and '建築管理' (building management) are essential administrative frameworks for developing infrastructure, as per Target 9.1.",
+        "evidence": [
+          "土地徵收",
+          "建築管理",
+          "國土利用管制"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 5.5,
+        "reason": "The course's focus on '行政救濟' (administrative remedies) and '行政法之一般法律原則' directly supports ensuring equal opportunity and access to justice in land matters (Target 10.3).",
+        "evidence": [
+          "行政法之一般法律原則",
+          "行政救濟（訴願、行政訴訟...）"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 9.0,
+        "reason": "Directly addresses Target 11.3 through core topics like '都市計畫審查程序' (urban planning review), '國土利用管制' (national land use control), and '建築管理' (building management).",
+        "evidence": [
+          "都市計畫審查程序",
+          "國土利用管制",
+          "建築管理"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 4.5,
+        "reason": "The course covers '國土利用管制' (national land use control), a key mechanism for the sustainable management and efficient use of land as a natural resource (Target 12.2).",
+        "evidence": [
+          "國土利用管制",
+          "土地行政"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 1.0,
+        "reason": "The tools taught, such as '國土利用管制' (national land use control), are relevant for integrating climate measures (Target 13.2), but climate change is not explicitly mentioned.",
+        "evidence": [
+          "國土利用管制",
+          "都市計畫審查程序"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 4.0,
+        "reason": "The mechanisms of '國土利用管制' (national land use control) are essential for integrating ecosystem values into planning (Target 15.9), though ecosystems are not explicitly mentioned.",
+        "evidence": [
+          "國土利用管制",
+          "都市計畫審查程序"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about building effective and accountable institutions ('土地行政機關') and ensuring access to justice ('行政救濟'), directly addressing Targets 16.3 and 16.6.",
+        "evidence": [
+          "行政法之一般法律原則",
+          "行政救濟（訴願、行政訴訟...）",
+          "土地行政機關（地政機關）之組織及職掌"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive insights, particularly on No Poverty and Quality Education, warranting revisions to align with their reasoning.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B highlights land registration and use control, directly linking to Target 1.4."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B emphasizes the course's role in tertiary education and foundational knowledge for land administration."
+      },
+      "Gender Equality": {
+        "your_original": 3.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B's score reflects a more cautious interpretation of gender relevance in the course."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 2.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B connects land expropriation and building management to infrastructure development, aligning with Target 9.1."
+      },
+      "Reduced Inequalities": {
+        "your_original": 3.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B's focus on administrative remedies and legal principles better supports the link to reducing inequalities."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 6.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's analysis emphasizes urban planning and land use control, directly addressing Target 11.3."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 1.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B connects land use control to sustainable management, aligning with Target 12.2."
+      },
+      "Climate Action": {
+        "your_original": 2.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B's lower score reflects the course's limited direct focus on climate change."
+      },
+      "Life on Land": {
+        "your_original": 5.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's score reflects a more cautious interpretation of the course's impact on ecosystem integration."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B emphasizes the course's focus on effective institutions and access to justice, aligning with Targets 16.3 and 16.6."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provided more explicit evidence and stronger reasoning for several SDGs, particularly those directly impacted by land administration, leading to multiple revisions of my initial scores.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 6.0,
+        "reason": "Model A's explicit evidence like '土地登記行政' and '國土利用管制' directly supports securing land rights (Target 1.4), which is a stronger link."
+      },
+      "SDG_3 (Good Health and Well-being)": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 0.0,
+        "reason": "Model A correctly identified no direct or indirect relevance. My initial score was too generous without supporting evidence."
+      },
+      "SDG_4 (Quality Education)": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 8.0,
+        "reason": "Model A's higher score better reflects the course's explicit aim to provide foundational knowledge for future land administration careers (Target 4.3, 4.4)."
+      },
+      "SDG_5 (Gender Equality)": {
+        "your_original": 3.0,
+        "model_b_score": 3.0,
+        "your_revised": 2.5,
+        "reason": "Model A's inference from '行政法之一般法律原則' and '土地登記行政' for equal land rights (Target 5.a) is slightly more precise than my general '公務人員之權利義務'."
+      },
+      "SDG_6 (Clean Water and Sanitation)": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 0.0,
+        "reason": "Model A correctly identified no direct or indirect relevance. My initial score was too generous without supporting evidence."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 2.0,
+        "model_b_score": 2.0,
+        "your_revised": 6.5,
+        "reason": "Model A's explicit evidence ('土地徵收', '建築管理', '國土利用管制') directly supports infrastructure development (Target 9.1), making its score more accurate."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 3.0,
+        "model_b_score": 3.0,
+        "your_revised": 5.5,
+        "reason": "Model A's explicit evidence ('行政法之一般法律原則', '行政救濟') directly supports equal opportunity and access to justice in land matters (Target 10.3)."
+      },
+      "SDG_11 (Sustainable Cities and Communities)": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 9.0,
+        "reason": "Model A's comprehensive evidence ('都市計畫審查程序', '國土利用管制', '建築管理') strongly aligns with sustainable urbanization (Target 11.3)."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 4.5,
+        "reason": "Model A's explicit link to '國土利用管制' for sustainable management of natural resources (Target 12.2) is much stronger than my minimal relevance."
+      },
+      "SDG_13 (Climate Action)": {
+        "your_original": 2.0,
+        "model_b_score": 2.0,
+        "your_revised": 1.0,
+        "reason": "Model A's more conservative score is appropriate given the lack of explicit mention of climate change, despite indirect relevance of land use control."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 7.0,
+        "model_b_score": 7.0,
+        "your_revised": 10.0,
+        "reason": "Model A's comprehensive evidence ('行政法之一般法律原則', '行政救濟', '土地行政機關') directly addresses access to justice and effective institutions (Targets 16.3, 16.6)."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 0.0,
+        "reason": "Model A correctly identified no direct or indirect relevance. My initial score was too generous without supporting evidence."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight land registration and use control as critical for securing land rights, directly linking to Target 1.4. The revised scores reflect a consensus on the importance of these elements.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognize minimal direct relevance to hunger, but Model B's inference about land access supporting agricultural productivity is valid.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the lack of relevance to health issues, with no evidence supporting a connection.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's role in providing foundational knowledge for land administration careers, aligning with Targets 4.3 and 4.4.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Model B's cautious interpretation aligns better with the course's limited direct references to gender issues, while Model A's score is slightly optimistic.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the lack of relevance to water and sanitation, with no supporting evidence.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence linking the course to energy issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's relevance to land administration's role in economic policies, linking to Target 8.3.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on land expropriation and building management aligns well with infrastructure development, supported by explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on administrative remedies and legal principles, supporting equal opportunity and access to justice.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's direct relevance to urban planning and land use control, strongly aligning with Target 11.3.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's connection of land use control to sustainable management is valid, supported by explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize limited direct relevance to climate change, with Model A's conservative score being appropriate.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no evidence linking the course to marine issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Model B's cautious interpretation aligns with the course's limited direct references to ecosystem integration.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's focus on effective institutions and access to justice, directly addressing Targets 16.3 and 16.6.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the lack of relevance to partnerships, with no supporting evidence.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '土地登記行政' and '國土利用管制', which are fundamental to securing land ownership and control, directly aligning with Target 1.4.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "While not explicit, '國土利用管制' and land administration principles can indirectly support secure land access for food producers (Target 2.3).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus contains no direct or indirect evidence related to health, well-being, or medical services.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "As a university course, it provides tertiary education and foundational knowledge for '土地相關行政工作', directly supporting Targets 4.3 and 4.4.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on '行政法之一般法律原則' and '土地登記行政' infers a foundation for equal land rights (Target 5.a), though gender is not explicitly mentioned.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus contains no direct or indirect evidence related to water, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course syllabus related to energy, clean energy, or energy infrastructure.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course prepares students for '土地相關行政工作' and covers '公務人員' roles, directly contributing to decent job creation (Target 8.3).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "Topics like '土地徵收' and '建築管理' are essential administrative frameworks for developing and managing infrastructure (Target 9.1).",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on '行政法之一般法律原則' and '行政救濟' directly supports equal opportunity and access to justice in land matters (Target 10.3).",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "Core topics like '都市計畫審查程序', '國土利用管制', and '建築管理' directly address sustainable urbanization and human settlement planning (Target 11.3).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course covers '國土利用管制', a key mechanism for the sustainable management and efficient use of land as a natural resource (Target 12.2).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "While '國土利用管制' can indirectly support climate measures, the course does not explicitly mention climate change, warranting a low score.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course syllabus related to marine ecosystems, oceans, or aquatic life.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 5.0,
+      "source": "model_a",
+      "reasoning": "The course discusses '國土利用管制' and '土地徵收', which are direct mechanisms for land management and can relate to land restoration and sustainable use (Target 15.3).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about '行政法之一般法律原則', '行政救濟', and '土地行政機關' organization, directly addressing rule of law, access to justice, and effective institutions (Targets 16.3, 16.6).",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence found in the course syllabus related to global partnerships, international cooperation, or resource mobilization for SDGs.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    }
+  }
+}

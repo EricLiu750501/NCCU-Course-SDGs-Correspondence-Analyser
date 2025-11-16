@@ -1,0 +1,720 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 3.0,
+      "reason": "Course discusses economic impacts of AI, linking to poverty reduction indirectly.",
+      "evidence": [
+        "AI與自動化設備之技術革命帶來之整體利益，是否能公平分配"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct mention of hunger or food security.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 2.0,
+      "reason": "Mentions healthcare management by AI, but lacks depth.",
+      "evidence": [
+        "健康照護與保險交由AI與自動化設備安排與執行"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "score": 8.0,
+      "reason": "Focus on equipping students with skills for AI governance aligns with education goals.",
+      "evidence": [
+        "增進學生到外國進修或就業的動力",
+        "本課程目標在介紹AI技術對公、私部門治理"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 2.0,
+      "reason": "Mentions gender in context of AI's impact, but lacks specific focus.",
+      "evidence": [
+        "是否能公平分配"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "score": 1.0,
+      "reason": "No relevance; no mention of water or sanitation issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 1.0,
+      "reason": "No relevance; no mention of energy issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 7.0,
+      "reason": "Discusses AI's impact on jobs and economic structures, relevant to decent work.",
+      "evidence": [
+        "AI與自動化設備取代白領與藍領勞工的工作機會的社會衝擊"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 6.0,
+      "reason": "Course covers AI's role in infrastructure and innovation.",
+      "evidence": [
+        "AI與自動化設備之技術革命"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 5.0,
+      "reason": "Addresses distribution of AI benefits, linking to inequality reduction.",
+      "evidence": [
+        "整體利益，是否能公平分配"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 1.0,
+      "reason": "No relevance; no mention of urban issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 1.0,
+      "reason": "No relevance; no mention of consumption or production.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 3.0,
+      "reason": "Mentions ethical implications of AI in environmental contexts.",
+      "evidence": [
+        "AI與自動化設備進行自動決策時，確保道德原則"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "score": 1.0,
+      "reason": "No relevance; no mention of marine issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 1.0,
+      "reason": "No relevance; no mention of terrestrial issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 6.0,
+      "reason": "Discusses governance and legal implications of AI, relevant to justice.",
+      "evidence": [
+        "法律制度、社會網絡及政治生態的衝擊"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 4.0,
+      "reason": "Course promotes international collaboration on AI governance.",
+      "evidence": [
+        "營造國際化學習環境"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 4.5,
+        "reason": "Discusses AI's role in managing 'food production' and '食物生產與分配' (food production and distribution), linking to Target 2.4 on sustainable food production systems.",
+        "evidence": [
+          "food production",
+          "食物生產與分配"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Good Health and Well-being": {
+        "score": 5.0,
+        "reason": "Explicitly mentions AI's role in managing 'healthcare' and '健康照護與保險' (healthcare and insurance), which relates to governance of health systems under Target 3.8.",
+        "evidence": [
+          "healthcare",
+          "健康照護與保險"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "score": 4.0,
+        "reason": "Aims to 'equip students with the intellectual tools' for future employment, linking to Target 4.4 (relevant skills for employment).",
+        "evidence": [
+          "equip students with the intellectual tools, ethical foundation, and psychological framework to successfully navigate the coming age of intelligent machines"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 8.5,
+        "reason": "Directly addresses job displacement by 'robots and machine-learning systems' and '取代白領與藍領勞工的工作機會' (replacing white- and blue-collar jobs), linking to Target 8.5.",
+        "evidence": [
+          "displace an ever-expanding spectrum of blue- and white-collar workers",
+          "AI與自動化設備取代白領與藍領勞工的工作機會的社會衝擊評估與對應"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 10.0,
+        "reason": "Core focus on AI, a key innovation, and its management of 'infrastructure' and '基礎設備', directly aligning with Target 9.5 (scientific research) and 9.b (technology development).",
+        "evidence": [
+          "AI & Governance",
+          "infrastructure",
+          "基礎設備"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 9.0,
+        "reason": "Directly questions if benefits will be 'broadly distributed or accrue to a lucky few' and '公平分配' (fairly distributed), linking to Target 10.3 on equal opportunity.",
+        "evidence": [
+          "Will the benefits of this technological revolution be broadly distributed or accrue to a lucky few?",
+          "是否能公平分配？"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.001,
+        "reason": "A minimal inferred link through the general mention of AI managing the 'environment', but no specific connection to climate change targets.",
+        "evidence": [
+          "environment"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "Core focus on 'AI & Governance', 'legal rights and responsibilities', and '法律制度' (legal systems), directly addressing Target 16.3 (rule of law) and 16.6 (effective institutions).",
+        "evidence": [
+          "AI & Governance",
+          "legal rights and responsibilities",
+          "法律制度"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 7.5,
+        "reason": "Involves international collaboration with a US professor to '開展國際學術互動與合作' (develop international academic interaction and cooperation), linking to Target 17.6 on knowledge sharing.",
+        "evidence": [
+          "邀請美國華盛頓大學傳播暨資訊學院助理教授蕭遠， 一同參與線上課程",
+          "開展國際學術互動與合作的契機"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations of the course text, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 3.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "No direct evidence of poverty reduction in the course text."
+      },
+      "Zero Hunger": {
+        "your_original": 1.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B correctly identifies AI's role in food production and distribution."
+      },
+      "Good Health and Well-being": {
+        "your_original": 2.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B highlights AI's explicit role in healthcare management."
+      },
+      "Quality Education": {
+        "your_original": 8.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Revised to align with Model B's focus on relevant skills for employment."
+      },
+      "Gender Equality": {
+        "your_original": 2.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "No substantial evidence of gender equality discussions in the course text."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 7.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B emphasizes job displacement, aligning with economic growth discussions."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B accurately captures AI's central role in innovation and infrastructure."
+      },
+      "Reduced Inequalities": {
+        "your_original": 5.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B effectively links AI benefits to inequality reduction."
+      },
+      "Climate Action": {
+        "your_original": 3.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Minimal relevance to climate action in the course text."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 6.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's score reflects the course's focus on governance and legal implications."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 4.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B highlights international collaboration more effectively."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's analysis for Quality Education better reflects the course's explicit learning outcomes and preparation for future skills.",
+    "revisions": {
+      "SDG_4 (Quality Education)": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "The course explicitly aims to equip students with intellectual tools and skills for the AI age, aligning strongly with Target 4.4."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the lack of evidence for poverty reduction in the course text, confirming no relevance.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "Model B accurately identifies AI's role in food production and distribution, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight AI's explicit role in healthcare management, aligning with course objectives.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_a",
+      "reasoning": "Model A's original score reflects the course's explicit focus on equipping students with relevant skills for the AI age.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the lack of substantial evidence regarding gender equality discussions in the course text.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models confirm no relevance to water or sanitation issues in the course content.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models indicate no mention of energy issues in the course text.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "Model B effectively captures the course's focus on job displacement and economic impacts of AI.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "Model B accurately reflects AI's central role in innovation and infrastructure, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "Model B effectively links AI benefits to inequality reduction, aligning with course discussions.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models confirm no relevance to urban issues in the course content.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models indicate no mention of consumption or production issues in the course text.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Minimal relevance to climate action is acknowledged, aligning with Model B's assessment.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models confirm no relevance to marine issues in the course content.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models indicate no mention of terrestrial issues in the course text.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "Model B's score reflects the course's focus on governance and legal implications, aligning with SDG targets.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "Model B highlights international collaboration effectively, aligning with course objectives.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "While the course discusses fair distribution of AI benefits, it does not directly address poverty eradication or specific targets under SDG 1. Both models initially had 0.0 or low inferred scores, which is adjusted to the minimum allowed.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "Model B accurately identifies the explicit mention of AI managing 'food production' and '食物生產與分配' (food production and distribution) in the course description, directly linking to SDG 2 targets.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "Model B correctly highlights the explicit mention of AI managing 'healthcare' and '健康照護與保險' (healthcare and insurance), which directly relates to health systems under SDG 3.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "revised_b",
+      "reasoning": "The course explicitly aims to equip students with intellectual tools and skills for the AI age and enhance their motivation for further study or employment abroad, strongly aligning with SDG 4, particularly Target 4.4.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "There is no direct or substantial indirect evidence in the course text specifically addressing gender equality or its targets. Both models converged to 0.0, adjusted to the minimum allowed.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course description related to clean water, sanitation, or hygiene. Scores are adjusted to the minimum allowed.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course description related to energy access, renewable energy, or energy efficiency. Scores are adjusted to the minimum allowed.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly discusses AI's impact on job displacement for 'blue- and white-collar workers' and the '社會衝擊評估與對應' (social impact assessment and response), directly aligning with SDG 8, particularly Target 8.5.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about 'AI & Governance', highlighting AI as a technological revolution and explicitly mentioning AI's role in managing 'infrastructure' and '基礎設備'. This is a core theme, directly aligning with SDG 9.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course directly poses the question: 'Will the benefits of this technological revolution be broadly distributed or accrue to a lucky few?' and '是否能公平分配？' (fairly distributed), explicitly addressing economic inequality, aligning with SDG 10.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course description related to urban development, housing, transport, or heritage. Scores are adjusted to the minimum allowed.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course description related to sustainable consumption, waste reduction, or resource efficiency. Scores are adjusted to the minimum allowed.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The course only generally mentions AI managing the 'environment' without specific links to climate change mitigation, adaptation, or resilience. A minimal score is appropriate.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course description related to marine ecosystems, pollution, or sustainable fisheries. Scores are adjusted to the minimum allowed.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course description related to terrestrial ecosystems, biodiversity, or deforestation. Scores are adjusted to the minimum allowed.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course title 'AI & Governance' and explicit discussions of 'legal rights and responsibilities', '法律制度' (legal systems), and '公、私部門治理' (public and private sector governance) make this SDG a central theme.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly mentions inviting a US professor to participate in online classes to '營造國際化學習環境' (create an international learning environment) and '開展國際學術互動與合作' (develop international academic interaction and cooperation), directly aligning with SDG 17.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

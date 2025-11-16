@@ -1,0 +1,763 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 8.5,
+      "reason": "Focus on legal education and skills development aligns with Target 4.4 ('increase relevant skills for employment').",
+      "evidence": [
+        "提升學生解答民事訴訟實例題之能力",
+        "學習如何分析案例事實"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 9.0,
+      "reason": "Course on civil procedure law directly supports Target 16.3 ('ensure equal access to justice').",
+      "evidence": [
+        "民事訴訟法相關重要實例題的演練",
+        "提升同學關於民事訴訟實例題解答之能力"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 4.5,
+        "reason": "The course covers legal mechanisms to enforce rights to property and financial support, such as '裁判分割共有物訴訟' (partition of co-owned property), linking to Target 1.4.",
+        "evidence": [
+          "裁判分割共有物訴訟型態",
+          "扶養費請求之聲明拘束性"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 7.5,
+        "reason": "Directly addresses legal remedies for health impacts from pollution via '公害事件' (public nuisance cases) (Target 3.9) and accountability in healthcare via '醫療訴訟' (medical malpractice litigation).",
+        "evidence": [
+          "醫療訴訟舉證責任分配與舉證減輕",
+          "公害事件舉證責任分配與舉證減輕"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "score": 2.0,
+        "reason": "The study of civil procedure provides knowledge and skills for peaceful dispute resolution, indirectly supporting Target 4.7's goal of promoting a culture of peace.",
+        "evidence": [
+          "民事訴訟法實例研習",
+          "Study on Civil Procedure Law Cases"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Gender Equality": {
+        "score": 1.5,
+        "reason": "The legal procedures taught provide a gender-neutral mechanism for women to claim equal rights to economic resources and property, as per Target 5.a.",
+        "evidence": [
+          "裁判分割共有物訴訟型態",
+          "扶養費請求"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 1.0,
+        "reason": "The topic '公害事件' (public nuisance cases) could potentially involve water pollution litigation, which would tangentially relate to improving water quality under Target 6.3.",
+        "evidence": [
+          "公害事件舉證責任分配與舉證減輕"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 1.0,
+        "reason": "The study of '契約債務不履行' (breach of contract) underpins the stable commercial transactions necessary for economic growth, but lacks a direct link to specific targets.",
+        "evidence": [
+          "契約債務不履行事件歸責事由舉證責任分配與轉換"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 1.0,
+        "reason": "Discusses '商品瑕疵事件' (product defect cases), which provides a legal framework that can indirectly incentivize industries to produce safer products, related to sustainable industrialization (Target 9.2).",
+        "evidence": [
+          "商品瑕疵事件舉證責任分配與舉證減輕"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 6.0,
+        "reason": "The course focuses on civil procedure, the primary legal mechanism for ensuring equal access to justice for all, which is fundamental to Target 10.3 (ensure equal opportunity).",
+        "evidence": [
+          "民事訴訟法實例研習",
+          "提升同學關於民事訴訟實例題解答之能力"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 4.0,
+        "reason": "Addresses '公害事件' (public nuisance cases), linking to Target 11.6 (reduce urban environmental impact), and '袋地通行權訴訟' (right of way litigation), relating to land use planning.",
+        "evidence": [
+          "公害事件舉證責任分配與舉證減輕",
+          "袋地通行權訴訟類型"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 5.0,
+        "reason": "Directly addresses producer accountability through '商品瑕疵事件' (product defect cases) and remedies for industrial pollution through '公害事件' (public nuisance cases), linking to Target 12.4.",
+        "evidence": [
+          "商品瑕疵事件舉證責任分配與舉證減輕",
+          "公害事件舉證責任分配與舉證減輕"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about civil procedure law, the core mechanism to 'ensure equal access to justice for all' (Target 16.3) and develop effective, accountable institutions (Target 16.6).",
+        "evidence": [
+          "民事訴訟法實例研習",
+          "Study on Civil Procedure Law Cases",
+          "法院闡明義務之類型"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive evidence for several SDGs, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's evidence on legal mechanisms for property rights aligns with Target 1.4."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's focus on legal remedies for health impacts aligns with Target 3.9."
+      },
+      "Quality Education": {
+        "your_original": 8.5,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B's interpretation of education's indirect support for peace aligns better with Target 4.7."
+      },
+      "Gender Equality": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B's evidence on gender-neutral legal mechanisms aligns with Target 5.a."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B's connection to public nuisance cases aligns with Target 6.3."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B's focus on breach of contract supports economic stability."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B's evidence on product defect cases supports sustainable industrialization."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B's focus on civil procedure aligns with Target 10.3."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's evidence on public nuisance cases aligns with Target 11.6."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's evidence on accountability for pollution aligns with Target 12.4."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 9.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's comprehensive evidence strengthens the alignment with Targets 16.3 and 16.6."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provides more comprehensive and accurate links to several SDGs, particularly regarding the practical applications of civil procedure in addressing various societal issues. I will revise my scores accordingly.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.5,
+        "reason": "Model A correctly identifies that civil procedure for property division and support payments directly relates to economic resources and property rights (Target 1.4)."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 7.5,
+        "reason": "Model A's reasoning for '醫療訴訟' and '公害事件' directly aligns with reducing illness from pollution and ensuring accountability in health (Target 3.9)."
+      },
+      "Gender Equality": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 1.5,
+        "reason": "Model A's link to civil procedures enabling women to claim equal rights to economic resources and property (Target 5.a) is a valid inference."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 1.0,
+        "reason": "Model A's inference that '公害事件' can involve water pollution litigation, supporting water quality improvement (Target 6.3), is reasonable."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 1.0,
+        "reason": "Model A's point that '契約債務不履行' underpins stable commercial transactions, essential for economic growth, is a valid indirect link."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 1.0,
+        "reason": "Model A correctly links '商品瑕疵事件' to incentivizing safer products, contributing to sustainable industrialization (Target 9.2)."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 6.0,
+        "reason": "Model A accurately highlights civil procedure as a fundamental mechanism for ensuring equal access to justice, crucial for reducing inequalities (Target 10.3)."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.0,
+        "reason": "Model A's reasoning for '公害事件' (Target 11.6) and '袋地通行權訴訟' (land use) directly relates to sustainable communities."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly identifies '商品瑕疵事件' and '公害事件' as directly addressing producer accountability and environmental impact (Target 12.4)."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 9.0,
+        "model_b_score": 9.0,
+        "your_revised": 10.0,
+        "reason": "Model A's higher score and comprehensive reasoning better reflect the course's fundamental role in ensuring access to justice and strong institutions (Targets 16.3, 16.6)."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "The course discusses legal mechanisms for property rights and financial support, aligning with Target 1.4. This score reflects a balance between Model A's original and Model B's revised insights.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course material supports any connection to hunger or food security, consistent across both models.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight legal remedies for health impacts from pollution, aligning with Target 3.9. This score reflects a consensus on the importance of health-related legal issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on civil procedure indirectly supports education goals, aligning with Target 4.7. This score reflects a more cautious interpretation of educational impact.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "The course provides mechanisms for women to claim rights, aligning with Target 5.a. This score reflects a moderate acknowledgment of gender issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "The course's discussion of public nuisance cases suggests a connection to water quality, aligning with Target 6.3. This score reflects a cautious inference.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course material supports any connection to energy access or sustainability.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "The course discusses breach of contract, which supports economic stability, aligning with decent work targets. This score reflects a cautious acknowledgment of economic issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on product defect cases supports sustainable industrialization, aligning with Target 9.2. This score reflects a cautious acknowledgment of industrial issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "The course emphasizes civil procedure as a mechanism for ensuring equal access to justice, aligning with Target 10.3. This score reflects a strong acknowledgment of inequality issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "The course addresses public nuisance cases and land use, linking to urban sustainability targets. This score reflects a moderate acknowledgment of urban issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "The course discusses accountability for pollution and product defects, aligning with Target 12.4. This score reflects a moderate acknowledgment of consumption issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course material supports any connection to climate action.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course material supports any connection to marine life or ocean health.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course material supports any connection to terrestrial ecosystems or biodiversity.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course fundamentally addresses civil procedure law, ensuring access to justice and strong institutions, aligning with Targets 16.3 and 16.6. This score reflects a strong acknowledgment of justice issues.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course material supports any connection to partnerships or collaborative efforts.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course covers legal procedures for property division and support payments, aligning with Target 1.4 on equal rights to economic resources and property, particularly for vulnerable individuals.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course content, focused on civil procedure law, does not contain any explicit or inferable links to food security, agricultural practices, or hunger eradication.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '醫療訴訟' (medical malpractice) and '公害事件' (public nuisance), directly addressing legal accountability in healthcare and remedies for illnesses caused by pollution, aligning with Targets 3.8 and 3.9.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "model_a",
+      "reasoning": "The course's explicit objective to enhance students' ability to analyze legal facts and solve civil procedure cases directly contributes to developing relevant skills for employment, aligning strongly with Target 4.4.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on civil procedures for property division and support claims provides a gender-neutral legal framework for asserting rights to economic resources and property, aligning with Target 5.a.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course's inclusion of '公害事件' (public nuisance cases) implies addressing environmental pollution, which can encompass water pollution, thereby tangentially supporting Target 6.3 on improving water quality.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course content, focused on civil procedure law, does not contain any explicit or inferable links to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course's coverage of '契約債務不履行' (breach of contract) provides a legal framework essential for stable commercial transactions, which indirectly supports economic growth.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course's inclusion of '商品瑕疵事件' (product defect cases) provides a legal mechanism for accountability, indirectly incentivizing industries to produce safer products, contributing to sustainable industrialization (Target 9.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course's core focus on civil procedure law provides the essential legal framework for individuals to seek justice and enforce their rights, directly supporting Target 10.3 by promoting equal opportunity.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course addresses '公害事件' (public nuisance) relating to urban environmental impact (Target 11.6), and '袋地通行權訴訟' (right of way) impacting land use and access within communities, supporting sustainable urbanization.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers '商品瑕疵事件' (product defects) and '公害事件' (public nuisance), directly addressing producer accountability and remedies for environmental pollution, aligning with Target 12.4.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course content, focused on civil procedure law, does not contain any explicit or inferable links to climate action, climate change mitigation, or adaptation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course content, focused on civil procedure law, does not contain any explicit or inferable links to marine ecosystems or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course content, focused on civil procedure law, does not contain any explicit or inferable links to terrestrial ecosystems, biodiversity, or life on land.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course is fundamentally dedicated to civil procedure law, which is the primary mechanism for ensuring equal access to justice (Target 16.3) and developing effective, accountable legal institutions (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course content, focused on domestic civil procedure law, does not contain any explicit or inferable links to international partnerships or global cooperation for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

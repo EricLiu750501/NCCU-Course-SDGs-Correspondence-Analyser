@@ -1,0 +1,796 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 8.5,
+      "reason": "Links to Target 1.2 ('reduce poverty') via 'poverty issues' and 'differences in incomes between countries'.",
+      "evidence": [
+        "poverty issues",
+        "differences in incomes between countries"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "score": 4.0,
+      "reason": "Moderate relevance through discussions on economic development affecting food security.",
+      "evidence": [
+        "economic development",
+        "food security"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Good Health and Well-being": {
+      "score": 4.0,
+      "reason": "Moderate relevance through 'health in economic development' discussions.",
+      "evidence": [
+        "health in economic development"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "score": 7.5,
+      "reason": "Links to Target 4.4 ('skills for employment') via 'education and health in economic development'.",
+      "evidence": [
+        "education and health in economic development"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 3.0,
+      "reason": "Low relevance; mentions of gender in economic contexts.",
+      "evidence": [
+        "gender in economic contexts"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "score": 1.0,
+      "reason": "Minimal relevance; tangential mention of environmental issues.",
+      "evidence": [
+        "environmental issues"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 9.0,
+      "reason": "Strong links to Target 8.3 ('decent job creation') via 'economic development theories'.",
+      "evidence": [
+        "economic development theories"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 5.0,
+      "reason": "Moderate relevance through discussions on economic infrastructure.",
+      "evidence": [
+        "economic infrastructure"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 6.0,
+      "reason": "Moderate relevance through income disparity discussions.",
+      "evidence": [
+        "income disparity"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 2.0,
+      "reason": "Low relevance; mentions of urbanization in economic contexts.",
+      "evidence": [
+        "urbanization in economic contexts"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "score": 1.0,
+      "reason": "Minimal relevance; tangential mention of resource use.",
+      "evidence": [
+        "resource use"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "score": 3.0,
+      "reason": "Low relevance; mentions of environmental impacts on development.",
+      "evidence": [
+        "environmental impacts on development"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 2.0,
+      "reason": "Low relevance; mentions of governance in economic contexts.",
+      "evidence": [
+        "governance in economic contexts"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "score": 4.0,
+      "reason": "Moderate relevance through discussions on international cooperation.",
+      "evidence": [
+        "international cooperation"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about development and explicitly covers \"Poverty, Inequality, and Development\" and \"poverty issues,\" directly addressing Targets 1.1, 1.2, and 1.b.",
+        "evidence": [
+          "Poverty, Inequality, and Development",
+          "development and poverty issues"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 8.0,
+        "reason": "A full week is dedicated to \"Agricultural Transformation and Rural Development,\" which directly relates to improving food production systems and rural incomes (Targets 2.3, 2.4).",
+        "evidence": [
+          "Ch 9 Agricultural Transformation and Rural Development"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 8.5,
+        "reason": "The course explicitly covers \"Health in Economic Development\" as a key component of human capital, linking directly to targets on health systems and outcomes (e.g., 3.8, 3.c).",
+        "evidence": [
+          "Ch 8 Human Capital: Education and Health in Economic Development"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 8.5,
+        "reason": "The course explicitly covers \"Education... in Economic Development\" as a key component of human capital, directly addressing targets on education for development (e.g., 4.1, 4.3, 4.4).",
+        "evidence": [
+          "Ch 8 Human Capital: Education and Health in Economic Development"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 5.0,
+        "reason": "While not explicitly titled, topics like \"Poverty, Inequality, and Development\" and \"Human Capital\" invariably involve gender analysis, linking to targets like 5.a on economic resources.",
+        "evidence": [
+          "Poverty, Inequality, and Development",
+          "Human Capital: Education and Health in Economic Development"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 4.5,
+        "reason": "The topic is likely covered under \"The Environment and Development,\" which would address water resources and scarcity as a key development challenge (Targets 6.4, 6.5).",
+        "evidence": [
+          "Ch 10 The Environment and Development"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 4.5,
+        "reason": "The topic of energy access and its environmental impact is a standard component of \"The Environment and Development,\" linking to Targets 7.1 and 7.a.",
+        "evidence": [
+          "Ch 10 The Environment and Development"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about \"Economic Growth and Development,\" with multiple chapters dedicated to theories and strategies for growth, directly addressing Target 8.1.",
+        "evidence": [
+          "Classic Theories of Economic Growth and Development",
+          "Development Studies: Economics Approach",
+          "Contemporary Models of Development and Underdevelopment"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 7.5,
+        "reason": "Theories of \"Economic Growth and Development\" inherently cover industrialization, technological upgrading, and infrastructure, which are central to Targets 9.1 and 9.2.",
+        "evidence": [
+          "Classic Theories of Economic Growth and Development",
+          "Contemporary Models of Development and Underdevelopment"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 10.0,
+        "reason": "The course has a dedicated chapter on \"Poverty, Inequality, and Development\" and aims to understand \"differences in incomes between countries,\" directly addressing Targets 10.1 and 10.2.",
+        "evidence": [
+          "Poverty, Inequality, and Development",
+          "differences in incomes between countries and peoples of the world",
+          "Comparative Development"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 8.0,
+        "reason": "A full week is dedicated to \"Urbanization and Rural-Rural Migration: Theory and Policy,\" directly addressing Target 11.3 on sustainable urbanization and planning.",
+        "evidence": [
+          "Ch 7 Urbanization and Rural-Rural Migration: Theory and Policy"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 5.0,
+        "reason": "The chapter on \"The Environment and Development\" would cover sustainable management of natural resources and decoupling growth from degradation, linking to Targets 12.2 and 8.4.",
+        "evidence": [
+          "Ch 10 The Environment and Development"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 5.0,
+        "reason": "The chapter \"The Environment and Development\" is the logical place to discuss climate change policies and their integration into development strategies, as per Target 13.2.",
+        "evidence": [
+          "Ch 10 The Environment and Development"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 0.5,
+        "reason": "A general chapter on \"The Environment and Development\" might tangentially mention marine ecosystems, but there is no specific evidence of a focus on this SDG.",
+        "evidence": [
+          "Ch 10 The Environment and Development"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 5.5,
+        "reason": "The chapters on \"Agricultural Transformation\" and \"The Environment and Development\" connect to land use, deforestation, and ecosystem services, linking to Targets 15.1, 15.2, and 15.9.",
+        "evidence": [
+          "Agricultural Transformation and Rural Development",
+          "The Environment and Development"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 7.0,
+        "reason": "Theories of \"Economic Growth and Development\" and \"Underdevelopment\" heavily rely on the role of effective and accountable institutions, directly linking to Target 16.6.",
+        "evidence": [
+          "Classic Theories of Economic Growth and Development",
+          "Contemporary Models of Development and Underdevelopment"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 10.0,
+        "reason": "Multiple chapters explicitly cover \"International Trade,\" \"Foreign Finance, Investment and Aid,\" and \"Fiscal Policy,\" which are core mechanisms addressed in this goal (Targets 17.1-17.5, 17.10).",
+        "evidence": [
+          "International Trade Theory and Development Strategy",
+          "Foreign Finance, Investment and Aid",
+          "Finance and Fiscal Policy for Development"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive connections to course content, warranting revisions to my scores for several SDGs.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 8.5,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B highlights explicit course content on poverty, aligning closely with SDG targets."
+      },
+      "Zero Hunger": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B emphasizes a dedicated week on agricultural transformation, directly linking to relevant targets."
+      },
+      "Good Health and Well-being": {
+        "your_original": 4.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B connects health discussions directly to key targets, enhancing relevance."
+      },
+      "Quality Education": {
+        "your_original": 7.5,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's focus on education's role in economic development aligns better with SDG targets."
+      },
+      "Gender Equality": {
+        "your_original": 3.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B identifies gender analysis within broader economic discussions, justifying a higher score."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 1.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B connects environmental issues to water resources, enhancing relevance."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B links energy access to environmental discussions, justifying a score."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 5.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's emphasis on industrialization and infrastructure aligns with relevant targets."
+      },
+      "Reduced Inequalities": {
+        "your_original": 6.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's focus on income disparity and dedicated chapters justifies a higher score."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 2.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's dedicated week on urbanization directly addresses relevant targets."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B connects resource management to environmental discussions, justifying a higher score."
+      },
+      "Climate Action": {
+        "your_original": 3.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B links climate policies to development strategies, enhancing relevance."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B connects agricultural transformation to land use, justifying a score."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 2.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B emphasizes the role of institutions in economic development, aligning with targets."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 4.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's focus on international cooperation aligns closely with relevant targets."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "No revisions needed. Model B's analysis frequently undervalues explicit course content and makes weaker inferences, leading to significantly lower scores compared to my more accurate assessment.",
+    "revisions": {}
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's explicit focus on poverty, but Model B's score aligns better with the comprehensive coverage of poverty issues in the syllabus.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on a dedicated week for agricultural transformation justifies a higher score, reflecting explicit course content.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight health's role in economic development, but Model B's direct link to health targets is more compelling.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on education's role in economic development aligns well with course content, justifying a higher score.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's recognition of gender analysis within economic discussions justifies a higher score than Model A's original assessment.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's connection of environmental issues to water resources is more relevant, justifying a higher score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's link of energy access to environmental discussions provides a stronger basis for this score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's strong focus on economic growth, but Model B's explicit connections to relevant targets justify a perfect score.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on industrialization and infrastructure aligns well with course content, justifying a higher score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on income disparity, but Model B's explicit references to relevant chapters justify a perfect score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's dedicated week on urbanization directly addresses relevant targets, justifying a higher score.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's connection of resource management to environmental discussions justifies a higher score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's link of climate policies to development strategies enhances relevance, justifying this score.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Both models lack strong evidence for this SDG, but Model B's mention of marine ecosystems provides minimal justification.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Model B's connections to agricultural transformation and land use justify a higher score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on the role of institutions in economic development aligns well with course content.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on international cooperation aligns closely with relevant targets, justifying a perfect score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly dedicates a week to 'Poverty, Inequality, and Development' (Ch 5) and lists 'poverty issues' in its learning outcomes, directly aligning with SDG 1 targets.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "A full week is dedicated to 'Agricultural Transformation and Rural Development' (Ch 9), which directly addresses improving food production, rural incomes, and sustainable agriculture, core to SDG 2.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Health in Economic Development' as part of 'Human Capital' (Ch 8), directly linking to health systems and outcomes relevant to SDG 3.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Education... in Economic Development' as part of 'Human Capital' (Ch 8), directly addressing education's role in development, aligning with SDG 4 targets.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "While not explicitly titled, topics like 'Poverty, Inequality, and Development' and 'Human Capital' in a development economics course invariably involve gender analysis, linking to SDG 5 targets.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The chapter 'The Environment and Development' (Ch 10) is highly likely to cover water resources and scarcity as key development challenges, linking to SDG 6.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The topic of energy access and its environmental impact is a standard component of 'The Environment and Development' (Ch 10), linking to SDG 7 targets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about 'Economic Growth and Development,' with multiple chapters dedicated to theories and strategies for growth, directly addressing SDG 8.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "Theories of 'Economic Growth and Development' (Ch 3, 4) inherently cover industrialization, technological upgrading, and infrastructure, which are central to SDG 9.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course has a dedicated chapter on 'Poverty, Inequality, and Development' (Ch 5) and aims to understand 'differences in incomes between countries,' directly addressing SDG 10.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "A full week is dedicated to 'Urbanization and Rural-Rural Migration: Theory and Policy' (Ch 7), directly addressing sustainable urbanization and planning, a core aspect of SDG 11.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The chapter 'The Environment and Development' (Ch 10) would cover sustainable management of natural resources and decoupling growth from degradation, linking to SDG 12.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The chapter 'The Environment and Development' (Ch 10) is the logical place to discuss climate change policies and their integration into development strategies, as per SDG 13.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "While 'The Environment and Development' (Ch 10) is covered, there is no specific evidence of a focus on marine ecosystems or ocean health, indicating minimal tangential relevance.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The chapters on 'Agricultural Transformation' (Ch 9) and 'The Environment and Development' (Ch 10) connect to land use, deforestation, and ecosystem services, linking to SDG 15.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "Theories of 'Economic Growth and Development' and 'Underdevelopment' (Ch 3, 4) heavily rely on the role of effective and accountable institutions, directly linking to SDG 16.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "Multiple chapters explicitly cover 'International Trade,' 'Foreign Finance, Investment and Aid,' and 'Fiscal Policy' (Ch 12-15), which are core mechanisms addressed in SDG 17.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

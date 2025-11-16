@@ -1,0 +1,775 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 4.5,
+      "reason": "Links to Target 4.7 ('knowledge and skills for sustainable development') through legal education and interdisciplinary studies.",
+      "evidence": [
+        "法律規範",
+        "經濟法",
+        "數位科技與經濟法"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 6.5,
+      "reason": "Links to Target 8.3 ('support productive activities') through competition law and economic regulation.",
+      "evidence": [
+        "競爭法",
+        "產業管制",
+        "經濟活動"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 7.5,
+      "reason": "Links to Target 9.5 ('enhance scientific research') through discussions on digital platforms and economic law.",
+      "evidence": [
+        "數位經濟",
+        "產業管制",
+        "科技發展"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 8.0,
+      "reason": "Links to Target 16.3 ('promote the rule of law') through legal frameworks and competition law.",
+      "evidence": [
+        "法律規範",
+        "競爭法",
+        "社會經濟福祉"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 1.0,
+        "reason": "Tangentially mentions regulation of 'food' (食品), which could relate to food commodity markets (Target 2.c), but the connection is very weak and not a course focus.",
+        "evidence": [
+          "食品與藥品"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Good Health and Well-being": {
+        "score": 2.0,
+        "reason": "The course covers regulation of 'drugs' (藥品), which relates to Target 3.8 regarding access to quality and affordable essential medicines.",
+        "evidence": [
+          "食品與藥品"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "score": 4.0,
+        "reason": "As a university course, it provides tertiary education (Target 4.3) and aims to build 'employability skills' (就業知能), aligning with Target 4.4.",
+        "evidence": [
+          "就業知能—別於傳統之多元就業知能",
+          "法科碩一、法科碩二"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 4.0,
+        "reason": "The course explicitly covers the regulation of public utilities including 'water' (自來水), which is fundamental to managing water services under Target 6.1.",
+        "evidence": [
+          "自來水"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Affordable and Clean Energy": {
+        "score": 5.0,
+        "reason": "The course covers regulation of 'electricity, oil and natural gas' (電業、石油與天然氣), directly relating to the energy infrastructure and services mentioned in Target 7.1.",
+        "evidence": [
+          "電業、自來水、石油與天然氣等公用事業"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 8.0,
+        "reason": "The course core, competition law, aims for 'economic efficiency' and 'industrial innovation' (產業創新), directly supporting higher economic productivity as per Target 8.2.",
+        "evidence": [
+          "使得社會上的資源分配與生產活動得以達到較具經濟效率之狀態",
+          "產業創新",
+          "維護社會整體經濟福祉"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 9.5,
+        "reason": "Core focus on 'industry regulation law' (產業管制法) and 'competition law' to 'protect innovation' (保護創新), directly aligning with Targets 9.1, 9.2, 9.5, and 9.b.",
+        "evidence": [
+          "競爭法與產業管制法",
+          "數位科技與經濟法",
+          "探討競爭法如何保護創新"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 3.0,
+        "reason": "Competition law prevents anti-competitive behaviors, which can reduce economic concentration and promote equal opportunity, an inferred link to Target 10.3. 'Consumer protection' also supports this.",
+        "evidence": [
+          "防止市場上可能出現的各種限制競爭行為",
+          "消費者保護"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 4.0,
+        "reason": "Covers regulation of essential urban infrastructure like 'transportation' (交通運輸), 'water' (自來水), and 'electricity' (電業), which relates to Targets 11.1 and 11.2.",
+        "evidence": [
+          "交通運輸",
+          "通訊、電業、自來水"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 6.0,
+        "reason": "The goal to achieve an 'economically efficient state' in 'resource allocation and production activities' directly supports Target 12.2 on the efficient use of natural resources.",
+        "evidence": [
+          "資源分配與生產活動得以達到較具經濟效率之狀態"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 9.0,
+        "reason": "As a law course, it is fundamentally about creating legal frameworks ('Economic Law', 'Competition Law') which builds effective institutions and promotes the rule of law (Targets 16.3, 16.6).",
+        "evidence": [
+          "經濟法乃是規範人類經濟活動之法律規範",
+          "競爭法與產業管制法乃是經濟管制兩種主要手段",
+          "法制發展概況"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 2.0,
+        "reason": "The course aims to develop values of 'global citizenship' (國際公民), inferring a connection to global policy coherence and cooperation (Targets 17.13, 17.14), but this is not a focus.",
+        "evidence": [
+          "現代與國際公民之價值"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive connections to the course content, warranting revisions in my scores for several SDGs.",
+    "revisions": {
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B identifies a weak but relevant connection to food regulation."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B highlights the relevance of drug regulation to health targets."
+      },
+      "Quality Education": {
+        "your_original": 4.5,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's focus on tertiary education aligns better with course objectives."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B identifies explicit coverage of water regulation."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B connects energy regulation to relevant targets."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B establishes a link between competition law and inequality reduction."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B connects urban infrastructure regulation to relevant targets."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B links economic efficiency to resource management targets."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 8.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's emphasis on legal frameworks strengthens the score."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B identifies a connection to global citizenship values."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis is significantly more comprehensive and accurate, identifying numerous explicit links to SDGs that my original analysis overlooked. I will revise my scores accordingly.",
+    "revisions": {
+      "SDG_3 (Good Health and Well-being)": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 2.0,
+        "reason": "Model A correctly identified the regulation of 'drugs' (藥品) as relevant to Target 3.8 on access to essential medicines."
+      },
+      "SDG_4 (Quality Education)": {
+        "your_original": 4.5,
+        "model_b_score": 4.5,
+        "your_revised": 4.0,
+        "reason": "Model A's reasoning for tertiary education and employability skills (Targets 4.3, 4.4) is more directly evidenced than my inference to sustainable development."
+      },
+      "SDG_6 (Clean Water and Sanitation)": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.0,
+        "reason": "Model A correctly identified the explicit mention of 'water' (自來水) regulation, directly linking to Target 6.1 on water services."
+      },
+      "SDG_7 (Affordable and Clean Energy)": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly identified the explicit mention of 'electricity, oil, and natural gas' (電業、石油與天然氣) regulation, directly linking to Target 7.1."
+      },
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 6.5,
+        "model_b_score": 6.5,
+        "your_revised": 8.0,
+        "reason": "Model A's reasoning on 'economic efficiency', 'industrial innovation', and 'overall social economic welfare' provides stronger, more explicit links to SDG 8 targets."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 7.5,
+        "model_b_score": 7.5,
+        "your_revised": 9.5,
+        "reason": "Model A's reasoning explicitly covers 'industry regulation', 'digital technology', and 'protecting innovation', aligning with multiple targets of SDG 9."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 3.0,
+        "reason": "Model A's inference that competition law and consumer protection can reduce economic concentration and promote equal opportunity (Target 10.3) is reasonable."
+      },
+      "SDG_11 (Sustainable Cities and Communities)": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.0,
+        "reason": "Model A correctly identified the regulation of 'transportation', 'water', and 'electricity' as essential urban infrastructure, linking to Targets 11.1 and 11.2."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 6.0,
+        "reason": "Model A correctly identified the explicit mention of achieving 'economic efficiency' in 'resource allocation and production activities', directly supporting Target 12.2."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 8.0,
+        "model_b_score": 8.0,
+        "your_revised": 9.0,
+        "reason": "Model A's reasoning is slightly more comprehensive, explicitly linking the course to building 'effective institutions' (Target 16.6) in addition to the 'rule of law'."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 2.0,
+        "reason": "Model A correctly identified the mention of 'global citizenship' (國際公民), which, though weak, can be tangentially linked to global cooperation."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Model A revised to 1.000 based on weak but relevant connections to food regulation, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified drug regulation as relevant to health targets, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models provide strong links to education targets, but Model B's focus on tertiary education aligns better with course objectives.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified explicit coverage of water regulation, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified relevant connections to energy regulation, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models provide strong connections to economic efficiency and productivity, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize industry regulation and innovation, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Both models establish a link between competition law and inequality reduction, justifying a low to moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models connect urban infrastructure regulation to relevant targets, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models link economic efficiency to resource management targets, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize legal frameworks and the rule of law, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models identify a weak connection to global citizenship values, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course description links to poverty eradication or related targets.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.0,
+      "source": "revised_a",
+      "reasoning": "The course mentions '食品' (food) as an industry subject to regulation, providing a weak but direct link to food commodity markets (Target 2.c).",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers regulation of '藥品' (drugs), which relates to Target 3.8 on access to quality and affordable essential medicines.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.0,
+      "source": "revised_a",
+      "reasoning": "As a university course for graduate students, it provides tertiary education (Target 4.3) and aims to build 'employability skills' (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course description links to gender equality or related targets.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 4.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers regulation of '自來水' (tap water) as a public utility, directly linking to Target 6.1 on water services.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers regulation of '電業、石油與天然氣' (electricity, oil, and natural gas), directly linking to Target 7.1 on energy services.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "The course's core focus on competition law aims for '經濟效率' and '產業創新' to '維護社會整體經濟福祉', directly supporting Target 8.2 on economic productivity and innovation.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "The course's central themes of '產業管制法', '數位科技與經濟法', and '保護創新' directly align with multiple targets of SDG 9, including infrastructure, industrialization, and innovation.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": null,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 3.0,
+      "source": "revised_a",
+      "reasoning": "Competition law and consumer protection, covered in the course, can indirectly reduce economic concentration and promote equal opportunity (Target 10.3).",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.0,
+      "source": "revised_a",
+      "reasoning": "The course covers regulation of essential urban infrastructure like '交通運輸', '電業', and '自來水', linking to Targets 11.1 and 11.2.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.0,
+      "source": "revised_a",
+      "reasoning": "The course aims for '資源分配與生產活動得以達到較具經濟效率之狀態', directly supporting Target 12.2 on efficient resource use.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course description links to climate action or related targets.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course description links to marine ecosystems or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course description links to terrestrial ecosystems or life on land.",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "As a law course, its fundamental focus on '經濟法' and '法制發展概況' directly contributes to promoting the rule of law (Target 16.3) and building effective institutions (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 2.0,
+      "source": "revised_a",
+      "reasoning": "The course aims to develop '國際公民之價值', which, though weak, can be tangentially linked to global cooperation and partnerships (Targets 17.16, 17.17).",
+      "model_comparison": {
+        "model_a_original": 0.001,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    }
+  }
+}

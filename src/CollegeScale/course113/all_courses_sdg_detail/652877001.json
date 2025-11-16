@@ -1,0 +1,713 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 7.5,
+      "reason": "Focus on legal education and skills development for students, linking to Target 4.4.",
+      "evidence": [
+        "提高學生對於我國法院重要判決之閱讀與評釋能力",
+        "建立勞動領域的法學知識"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 6.0,
+      "reason": "Addresses gender equality in the workplace, relevant to Target 5.5.",
+      "evidence": [
+        "兩性工作平等與母性保護"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 9.0,
+      "reason": "Course focuses on labor law and rights, directly linking to Target 8.8.",
+      "evidence": [
+        "勞動契約之重大爭議問題",
+        "雇主安衛責任與職災補償、賠償"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 5.0,
+      "reason": "Discusses labor rights and equality, relevant to Target 10.3.",
+      "evidence": [
+        "勞動者，與勞動的法之關聯"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 8.0,
+      "reason": "Focus on legal justice and rights, linking to Target 16.3.",
+      "evidence": [
+        "法律應如何運用，效果如何",
+        "促進法律的科學性"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 2.0,
+        "reason": "Inferred link to Target 1.3 (social protection) through topics like wages ('工資') and occupational accident compensation ('職災補償'), which help prevent workers from falling into poverty.",
+        "evidence": [
+          "工資:經常性給與、延長工時工資、責任制工資",
+          "雇主安衛責任與職災補償、賠償"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 5.0,
+        "reason": "Directly addresses workplace health and safety (Target 3.9) through its focus on '雇主安衛責任與職災補償、賠償' (employer's health and safety responsibility and occupational accident compensation).",
+        "evidence": [
+          "雇主安衛責任與職災補償、賠償"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "score": 4.0,
+        "reason": "Provides professional legal skills for employment (Target 4.4) and knowledge on '勞動人權保障' (labor human rights protection), supporting education for sustainable development (Target 4.7).",
+        "evidence": [
+          "爭議解決之法律專業能力",
+          "相關勞動基準規範與行政管制，以及勞動人權保障之核心課題"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 8.5,
+        "reason": "Explicitly covers '兩性工作平等與母性保護' (Gender equality in the workplace and maternity protection), directly supporting Target 5.1 on ending discrimination and 5.c on enforceable legislation.",
+        "evidence": [
+          "兩性工作平等與母性保護"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about labor law, the primary mechanism for Target 8.8 (protect labour rights) and Target 8.5 (decent work), covering rights, safety, and precarious work.",
+        "evidence": [
+          "勞動人權保障",
+          "雇主安衛責任",
+          "派遣勞動關係、部分工時勞動"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Reduced Inequalities": {
+        "score": 7.5,
+        "reason": "Labor law is a key tool for reducing inequality (Target 10.4). The course covers wage policies ('工資') and non-discrimination through '兩性工作平等' (gender equality) (Target 10.3).",
+        "evidence": [
+          "工資",
+          "兩性工作平等與母性保護",
+          "勞動人權保障之核心課題"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "Core focus is on Target 16.3 (rule of law, access to justice) by analyzing '我國法院勞動判決' (court labor judgments) and how to '救濟被侵害的權利' (remedy violated rights).",
+        "evidence": [
+          "我國法院勞動判決的分析與評釋",
+          "如何救濟被侵害的權利",
+          "法律論證的思維如何形成"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive evidence for several SDGs, particularly in areas of poverty, health, and education.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B highlights links to social protection through wages and compensation."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B connects health and safety responsibilities directly to workplace health."
+      },
+      "Quality Education": {
+        "your_original": 7.5,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B emphasizes professional skills over general education."
+      },
+      "Gender Equality": {
+        "your_original": 6.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B provides stronger evidence for gender equality in the workplace."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 9.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's score reflects a more comprehensive view of labor rights."
+      },
+      "Reduced Inequalities": {
+        "your_original": 5.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B includes more explicit references to wage policies and non-discrimination."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's analysis better captures the course's focus on legal justice."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more precise and comprehensive reasoning for several SDGs, particularly regarding explicit textual evidence and target alignment. My revisions reflect these stronger connections.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 2.0,
+        "reason": "Model A correctly identified '工資' and '職災補償' as links to social protection, which helps prevent poverty (Target 1.3)."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly highlighted '雇主安衛責任與職災補償、賠償', which directly addresses workplace health and safety (Target 3.9)."
+      },
+      "Gender Equality": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 8.5,
+        "reason": "Model A's reasoning linking '兩性工作平等與母性保護' to Targets 5.1 and 5.c is more precise and warrants a higher score."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 9.0,
+        "model_b_score": 9.0,
+        "your_revised": 10.0,
+        "reason": "Model A's reasoning is more comprehensive, explicitly covering Target 8.5 (decent work) and 8.8 (labour rights), which is central to the course."
+      },
+      "Reduced Inequalities": {
+        "your_original": 5.0,
+        "model_b_score": 5.0,
+        "your_revised": 7.5,
+        "reason": "Model A provided stronger evidence, linking '工資' to income inequality (Target 10.4) and '兩性工作平等' to non-discrimination (Target 10.3)."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 8.0,
+        "model_b_score": 8.0,
+        "your_revised": 10.0,
+        "reason": "Model A's reasoning better captures the course's core focus on '法院勞動判決' and '救濟被侵害的權利', directly aligning with Target 16.3."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified links to social protection through wages and compensation, but Model B's score is more justified based on explicit evidence.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to hunger, maintaining a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified workplace health and safety as relevant, but the score reflects a balance between explicit and inferred evidence.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on professional skills aligns better with the course's focus, justifying a lower score than Model A's original.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Model B's evidence on workplace equality is strong and aligns well with the course content, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to clean water and sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the course's strong focus on labor law, but Model B's score reflects a more comprehensive view of labor rights.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to industry, innovation, and infrastructure.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models provided strong evidence linking labor rights to reduced inequalities, but Model B's score reflects a more explicit connection.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to sustainable cities and communities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to responsible consumption and production.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to climate action.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to life below water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to life on land.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the course's focus on legal justice, but Model B's score reflects a more comprehensive understanding of the course content.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "Both models found no evidence related to partnerships for the goals.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course covers 'wages' and 'occupational accident compensation,' which are direct mechanisms for social protection and ensuring economic security for workers, aligning with Target 1.3 and 1.4 to reduce poverty.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course content, focusing on labor law, has no discernible connection to food production, access, or nutrition.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'employer safety and health responsibility and occupational accident compensation/reparation,' directly contributing to workplace health and safety, aligning with Target 3.9.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "model_a",
+      "reasoning": "The course directly aims to enhance students' legal professional skills for dispute resolution and critical analysis of labor law, aligning strongly with Target 4.4 (skills for employment) and Target 4.7 (human rights education).",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'gender equality in the workplace and maternity protection,' directly addressing discrimination (Target 5.1) and promoting enforceable legislation (Target 5.c).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course content, focusing on labor law, has no discernible connection to clean water or sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course content, focusing on labor law, has no discernible connection to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about labor law, directly addressing the protection of labor rights (Target 8.8), ensuring decent work (Target 8.5), and covering various employment relationships and conditions.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course mentions the 'AI era' in the context of legal learning methodology, not in relation to industrial development, innovation, or infrastructure.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course addresses wage policies and gender equality in the workplace, which are direct mechanisms for reducing income inequalities (Target 10.4) and eliminating discrimination (Target 10.3).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course content, focusing on labor law, has no discernible connection to sustainable cities and communities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course content, focusing on labor law, has no discernible connection to responsible consumption and production.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course content, focusing on labor law, has no discernible connection to climate action.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course content, focusing on labor law, has no discernible connection to life below water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course content, focusing on labor law, has no discernible connection to life on land.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course's core focus on analyzing court judgments, legal argumentation, and remedying violated rights directly promotes the rule of law and ensures access to justice (Target 16.3).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "The course content, focusing on labor law, has no discernible connection to global partnerships for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

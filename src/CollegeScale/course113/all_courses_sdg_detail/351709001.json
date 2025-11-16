@@ -1,0 +1,812 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 4.5,
+      "reason": "Course promotes understanding of WTO mechanisms, relevant to Target 4.7 on sustainable development education.",
+      "evidence": [
+        "familiarize students with the unique WTO mechanism",
+        "solution of trade disputes"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 5.0,
+      "reason": "Course addresses trade disputes, linking to Target 8.3 on promoting productive activities.",
+      "evidence": [
+        "solving international trade disputes",
+        "settling trade disputes based on substantive trade rules"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 6.0,
+      "reason": "Course focuses on WTO dispute resolution, relevant to Target 16.3 on promoting rule of law.",
+      "evidence": [
+        "WTO dispute settlement system",
+        "rule-based approach for the solution of trade disputes"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "score": 7.5,
+      "reason": "Course emphasizes multilateral cooperation in trade, linking to Target 17.10 on a rules-based trading system.",
+      "evidence": [
+        "WTO Members use such multilateral dispute settlement system",
+        "solution of trade disputes among WTO Members"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.0,
+        "reason": "International trade rules can indirectly support pro-poor development strategies (Target 1.b), but the course focuses on legal procedures, not poverty eradication policies.",
+        "evidence": [
+          "Settlement of International Trade and Commercial Disputes",
+          "procedural issues in the WTO dispute settlement"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 5.0,
+        "reason": "Directly addresses Target 2.b ('prevent trade restrictions... in world agricultural markets') through case studies on agricultural products like dairy, sugar, and cotton.",
+        "evidence": [
+          "Canada – Dairy (WT/DS103, 113)",
+          "EC – Sugar (WT/DS265, 266, 283)",
+          "US – Cotton (WT/DS267)"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 2.0,
+        "reason": "As a graduate-level university course, it provides quality tertiary education (Target 4.3) and develops specialized professional knowledge, but does not focus on improving educational systems.",
+        "evidence": [
+          "Course Department:International Business/G/1&2",
+          "Theoretical foundations of professional knowledge"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 6.0,
+        "reason": "Analyzes the WTO framework (GATT, GATS), the rules-based system for global trade which is a key driver of economic growth and productivity (Target 8.1, 8.2).",
+        "evidence": [
+          "General Agreement on Tariffs and Trade (GATT)",
+          "General Agreement on Trade in Services (GATS)",
+          "solving international trade disputes"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 3.0,
+        "reason": "The study of trade rules under GATT relates to industrial policy and market integration (Target 9.2, 9.3), but the course focuses on disputes, not industrial promotion.",
+        "evidence": [
+          "General Agreement on Tariffs and Trade (GATT)"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 8.5,
+        "reason": "Directly relates to Target 10.a, which explicitly mentions implementing special treatment for developing countries in accordance with 'World Trade Organization agreements'.",
+        "evidence": [
+          "Introduction to WTO Dispute Settlement System",
+          "World Trade Organization"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 4.5,
+        "reason": "The 'Diamonds Case' study on the 'Kimberley Process Certification Scheme' directly addresses the sustainable management and trade of natural resources (Target 12.2).",
+        "evidence": [
+          "Case Study (III): Diamonds Case/3h",
+          "Kimberley Process Certification Scheme"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 3.5,
+        "reason": "Target 14.6 explicitly mentions the 'World Trade Organization fisheries subsidies negotiation'. The course covers the WTO dispute system, which is the venue for such issues.",
+        "evidence": [
+          "World Trade Organization",
+          "WTO Dispute Settlement System"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 2.5,
+        "reason": "The 'Diamonds Case' and 'Kimberley Process' relate to combating illicit trade in natural resources, thematically linked to preventing trafficking and protecting ecosystems (Target 15.7, 15.c).",
+        "evidence": [
+          "Diamonds Case",
+          "Kimberley Process Certification Scheme"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about promoting the rule of law internationally (Target 16.3) through an effective, accountable global institution (WTO) (Target 16.6, 16.8).",
+        "evidence": [
+          "rule-based approach for the solution of trade disputes",
+          "WTO dispute settlement system",
+          "Promote the rule of law at the national and international levels"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 10.0,
+        "reason": "The course is a deep analysis of the WTO, the key institution for the 'rules-based... multilateral trading system' mentioned in Target 17.10, a cornerstone of global partnership.",
+        "evidence": [
+          "multilateral dispute settlement system",
+          "World Trade Organization",
+          "The dispute settlement system in the WTO has played a crucial role"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations based on course content, particularly regarding SDGs related to poverty, hunger, and partnerships.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B highlights indirect support for pro-poor strategies through trade rules."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's evidence on agricultural case studies directly addresses trade restrictions."
+      },
+      "Quality Education": {
+        "your_original": 4.5,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B emphasizes the course's focus on tertiary education rather than systemic improvements."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 5.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B's analysis better connects WTO rules to economic growth and productivity."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B identifies relevance of GATT to industrial policy, which I initially overlooked."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B directly links WTO agreements to special treatment for developing countries."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's evidence on the Diamonds Case directly addresses sustainable resource management."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model B connects WTO negotiations to fisheries subsidies, which I did not consider."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B's analysis of the Diamonds Case relates to combating illicit trade and ecosystem protection."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 6.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B accurately emphasizes the course's focus on promoting the rule of law."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 7.5,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's emphasis on WTO's role in multilateral trading systems aligns with course objectives."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provided more specific and accurate links to SDG targets, particularly where the WTO or related concepts are explicitly mentioned in the targets or course content. My revisions reflect these stronger connections.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model A correctly identified an indirect link to Target 1.b through the course's focus on international trade policy frameworks."
+      },
+      "SDG_2 (Zero Hunger)": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly highlighted explicit case studies on agricultural products (dairy, sugar, cotton), directly linking to Target 2.b on agricultural trade restrictions."
+      },
+      "SDG_4 (Quality Education)": {
+        "your_original": 4.5,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A's lower score is more accurate; the course provides specialized tertiary education (Target 4.3) but doesn't focus on broader sustainable development education (Target 4.7)."
+      },
+      "SDG_8 (Decent Work and Economic Growth)": {
+        "your_original": 5.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model A's reasoning is more comprehensive, linking the WTO framework to overall economic growth and productivity (Targets 8.1, 8.2), not just productive activities."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model A correctly identified an indirect link through GATT rules governing industrial policy and market integration (Targets 9.2, 9.3)."
+      },
+      "SDG_10 (Reduced Inequalities)": {
+        "your_original": 0.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A correctly identified the explicit mention of 'World Trade Organization agreements' in Target 10.a regarding special treatment for developing countries."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A correctly linked the 'Diamonds Case' and 'Kimberley Process' to Target 12.2 on sustainable management and trade of natural resources."
+      },
+      "SDG_14 (Life Below Water)": {
+        "your_original": 0.0,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model A correctly identified the explicit mention of 'World Trade Organization fisheries subsidies negotiation' in Target 14.6."
+      },
+      "SDG_15 (Life on Land)": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A correctly linked the 'Diamonds Case' and 'Kimberley Process' to combating illicit trade in natural resources (Targets 15.7, 15.c)."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 6.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A's higher score is justified; the course's fundamental focus on a 'rule-based approach' in the WTO strongly aligns with Targets 16.3, 16.6, and 16.8."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 7.5,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A's higher score is justified; the course's deep analysis of the WTO directly embodies the 'rules-based multilateral trading system' of Target 17.10."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "The course indirectly supports pro-poor strategies through international trade rules, aligning with Target 1.b. Both models recognized this link, but the synthesized score reflects a cautious acknowledgment of the course's focus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "The course includes explicit case studies on agricultural products that directly address trade restrictions, aligning with Target 2.b. Both models provided strong evidence, but the synthesized score reflects a balanced view.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course content supports this SDG, as both models found no relevant information.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "The course provides specialized tertiary education but does not focus on broader sustainable development education, aligning with Target 4.3. The revised scores from both models reflect this understanding.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course content supports this SDG, as both models found no relevant information.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course content supports this SDG, as both models found no relevant information.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course content supports this SDG, as both models found no relevant information.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "The course addresses trade disputes and links to economic growth and productivity, aligning with Targets 8.1 and 8.2. Both models provided strong evidence, but the synthesized score reflects a balanced view.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on GATT relates to industrial policy and market integration, aligning with Targets 9.2 and 9.3. Both models recognized this link, but the synthesized score reflects a cautious acknowledgment.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "The course directly relates to Target 10.a regarding special treatment for developing countries in WTO agreements. Both models provided strong evidence, but the synthesized score reflects a balanced view.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course content supports this SDG, as both models found no relevant information.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "The Diamonds Case study directly addresses sustainable management and trade of natural resources, aligning with Target 12.2. Both models provided strong evidence, but the synthesized score reflects a balanced view.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence in the course content supports this SDG, as both models found no relevant information.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 3.5,
+      "source": "synthesized",
+      "reasoning": "The course connects WTO negotiations to fisheries subsidies, aligning with Target 14.6. Both models provided strong evidence, but the synthesized score reflects a balanced view.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "The Diamonds Case and Kimberley Process relate to combating illicit trade and protecting ecosystems, aligning with Targets 15.7 and 15.c. Both models provided strong evidence, but the synthesized score reflects a balanced view.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course fundamentally promotes the rule of law through the WTO, aligning with Targets 16.3, 16.6, and 16.8. Both models provided strong evidence, but the synthesized score reflects a balanced view.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's deep analysis of the WTO embodies the rules-based multilateral trading system, aligning with Target 17.10. Both models provided strong evidence, but the synthesized score reflects a balanced view.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "revised_a",
+      "reasoning": "The course on international trade dispute settlement indirectly relates to Target 1.b by influencing policy frameworks for pro-poor development strategies, even if not a direct focus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly includes case studies on agricultural products (dairy, sugar, cotton) which directly relate to Target 2.b concerning trade restrictions and distortions in world agricultural markets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus connects to good health and well-being.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 2.0,
+      "source": "revised_a",
+      "reasoning": "The course provides quality tertiary education and specialized professional knowledge for graduate students (Target 4.3, 4.4), but does not focus on broader sustainable development education or improving educational systems.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus connects to gender equality.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus connects to clean water and sanitation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus connects to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "revised_a",
+      "reasoning": "The course analyzes the WTO framework and its dispute settlement system, which are crucial for a stable, rules-based global trade environment, directly supporting economic growth and productivity (Targets 8.1, 8.2).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 3.0,
+      "source": "revised_a",
+      "reasoning": "The course examines trade rules under GATT, which indirectly relates to industrial policy, market integration, and access for enterprises (Targets 9.2, 9.3), despite focusing on dispute resolution.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "Target 10.a explicitly mentions 'special and differential treatment for developing countries... in accordance with World Trade Organization agreements,' which is the core subject of this course.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus connects to sustainable cities and communities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "The 'Diamonds Case' and 'Kimberley Process Certification Scheme' directly address the sustainable management and responsible trade of natural resources, aligning with Target 12.2.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred evidence in the course syllabus connects to climate action.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 3.5,
+      "source": "revised_a",
+      "reasoning": "Target 14.6 explicitly mentions 'World Trade Organization fisheries subsidies negotiation,' directly linking the course's focus on WTO dispute settlement to life below water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 2.5,
+      "source": "revised_a",
+      "reasoning": "The 'Diamonds Case' and 'Kimberley Process' relate to combating illicit trade in natural resources, which aligns with preventing trafficking and protecting ecosystems (Targets 15.7, 15.c).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course fundamentally focuses on the WTO's rule-based dispute settlement system, directly promoting the rule of law internationally and strengthening global governance institutions (Targets 16.3, 16.6, 16.8).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course provides a deep analysis of the WTO dispute settlement system, which is central to promoting a 'rules-based, multilateral trading system' as explicitly stated in Target 17.10.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    }
+  }
+}

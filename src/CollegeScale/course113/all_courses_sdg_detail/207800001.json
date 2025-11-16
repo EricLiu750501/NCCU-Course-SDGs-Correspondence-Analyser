@@ -1,0 +1,817 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 7.0,
+      "reason": "Course enhances skills relevant to education and training in photogrammetry and GIS.",
+      "evidence": [
+        "具備土地空間資訊資料蒐集及分析之能力",
+        "具備應用3S（GIS、GPS、RS）技術進行土地之管理、分析與決策之能力"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 4.0,
+      "reason": "Course prepares students for careers in land management and spatial data analysis.",
+      "evidence": [
+        "具備規劃與執行測量專案之能力",
+        "具備地政相關實務應用與創新之能力"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 8.0,
+      "reason": "Focus on digital photogrammetry supports infrastructure development and innovation.",
+      "evidence": [
+        "數值攝影測量系統",
+        "新型航空攝影測量感測器"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 6.0,
+      "reason": "Course contributes to urban planning and management through GIS applications.",
+      "evidence": [
+        "利用程式撰寫相關基礎數值影像處理之方法",
+        "數值攝影測量之原理"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 4.5,
+        "reason": "The technology supports Target 1.4 by enabling land surveying and mapping, which are fundamental for securing land tenure and property rights, especially for the vulnerable.",
+        "evidence": [
+          "survey primarily facilitates the production of maps",
+          "具備土地空間資訊資料蒐集及分析之能力",
+          "進行土地之管理"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 4.2,
+        "reason": "Supports Target 2.4. Aerial imagery and GIS data are used in precision agriculture to monitor land and improve productivity, contributing to sustainable food production systems.",
+        "evidence": [
+          "production of maps and geographic database from aerial images",
+          "進行土地之管理、分析與決策之能力"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 1.5,
+        "reason": "The technology can be inferred to support Target 3.9 by mapping environmental pollution sources and disaster-prone areas, which have public health implications.",
+        "evidence": [
+          "production of maps and geographic database",
+          "LiDAR"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 5.5,
+        "reason": "Supports Target 6.6. Photogrammetry is used to map and monitor water-related ecosystems like rivers and wetlands, which is essential for their protection and restoration.",
+        "evidence": [
+          "production of maps and geographic database from aerial images",
+          "景觀圖之製作原理"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 1.2,
+        "reason": "The technology can be inferred to support energy infrastructure planning, such as site selection for renewable energy projects by analyzing terrain from aerial images.",
+        "evidence": [
+          "production of maps and geographic database from aerial images",
+          "survey"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 1.1,
+        "reason": "The course teaches advanced technological skills (Target 8.2) in surveying and spatial analysis, which are relevant for employment in specialized, high-value sectors.",
+        "evidence": [
+          "具備測量及空間資訊基礎理論之能力",
+          "具備程式設計與各種測量計算之能力"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 8.8,
+        "reason": "Directly supports Target 9.1. Photogrammetry is a core technology for surveying, mapping, and data generation, essential for planning and developing sustainable and resilient infrastructure.",
+        "evidence": [
+          "use of digital images for survey",
+          "production of maps and geographic database",
+          "應用3S（GIS、GPS、RS）技術"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 9.0,
+        "reason": "Directly supports Target 11.3 and 11.a. The course provides core skills for urban and regional planning, land management, and disaster risk assessment through mapping and GIS.",
+        "evidence": [
+          "production of maps and geographic database",
+          "進行土地之管理、分析與決策之能力",
+          "GIS"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 4.0,
+        "reason": "Supports Target 12.2. The taught methods are used for monitoring natural resources from aerial images, which is fundamental for their sustainable management and efficient use.",
+        "evidence": [
+          "production of maps and geographic database from aerial images",
+          "進行土地之管理、分析與決策之能力"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 6.5,
+        "reason": "Supports Target 13.1. The technology is crucial for monitoring climate-related hazards like floods and land degradation, strengthening resilience and adaptive capacity.",
+        "evidence": [
+          "aerial images",
+          "LiDAR",
+          "DSM產製"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 1.8,
+        "reason": "Inferred link to Target 14.2. Aerial photogrammetry is used for mapping and monitoring coastal ecosystems, which is important for their protection and management.",
+        "evidence": [
+          "production of maps and geographic database from aerial images"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 8.5,
+        "reason": "Directly supports Targets 15.1-15.4. The course teaches core methods for mapping and monitoring terrestrial ecosystems, deforestation, and land degradation from aerial images.",
+        "evidence": [
+          "production of maps and geographic database from aerial images",
+          "進行土地之管理、分析與決策之能力",
+          "新型航空攝影測量感測器"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 1.3,
+        "reason": "Indirectly supports strong institutions (related to Target 16.6) by providing the technical basis for land administration and property registration systems, which can reduce land disputes.",
+        "evidence": [
+          "survey primarily facilitates the production of maps",
+          "進行土地之管理"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 6.0,
+        "reason": "Directly supports Target 17.18 by building capacity to generate high-quality, reliable geographic data, which is essential for monitoring progress on many SDGs.",
+        "evidence": [
+          "generate data for GIS",
+          "具備土地空間資訊資料蒐集及分析之能力",
+          "數值影像獲取與再取樣"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive insights into the course's contributions to various SDGs, prompting necessary revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B highlights the course's role in land tenure and property rights."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 4.2,
+        "your_revised": 4.2,
+        "reason": "Model B connects aerial imagery to sustainable food production."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B identifies links to environmental health through mapping."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B emphasizes the course's role in mapping water ecosystems."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 1.2,
+        "your_revised": 1.2,
+        "reason": "Model B connects photogrammetry to energy infrastructure planning."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.0,
+        "model_b_score": 1.1,
+        "your_revised": 1.1,
+        "reason": "Model B provides a more accurate assessment of employment relevance."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 6.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B highlights the course's strong support for urban planning."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B connects aerial imagery to sustainable resource management."
+      },
+      "Climate Action": {
+        "your_original": 0.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B identifies the course's role in monitoring climate hazards."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B emphasizes the course's contribution to ecosystem monitoring."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 1.3,
+        "your_revised": 1.3,
+        "reason": "Model B connects mapping to land administration and dispute reduction."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B highlights the importance of data generation for SDGs."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided stronger inferences and explicit links for several SDGs, particularly those related to land management, environmental monitoring, and data capacity building.",
+    "revisions": {
+      "SDG_1 (No Poverty)": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.5,
+        "reason": "Model A's inference regarding land tenure and property rights through mapping is a valid application of the course content."
+      },
+      "SDG_2 (Zero Hunger)": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.2,
+        "reason": "Model A correctly infers the application of photogrammetry in precision agriculture for sustainable food production."
+      },
+      "SDG_6 (Clean Water and Sanitation)": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 5.5,
+        "reason": "Model A's reasoning for mapping and monitoring water-related ecosystems is a strong and direct application of the technology."
+      },
+      "SDG_9 (Industry, Innovation and Infrastructure)": {
+        "your_original": 8.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.8,
+        "reason": "Model A's slightly higher score better reflects the very strong and explicit connection to infrastructure development and innovation."
+      },
+      "SDG_11 (Sustainable Cities and Communities)": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 9.0,
+        "reason": "Model A's reasoning and evidence for urban planning, land management, and GIS applications are much more explicit and accurate."
+      },
+      "SDG_12 (Responsible Consumption and Production)": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.0,
+        "reason": "Model A's inference about monitoring natural resources for sustainable management aligns well with the course's mapping capabilities."
+      },
+      "SDG_13 (Climate Action)": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 6.5,
+        "reason": "Model A correctly identifies the use of photogrammetry and LiDAR for monitoring climate-related hazards and strengthening resilience."
+      },
+      "SDG_15 (Life on Land)": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 8.5,
+        "reason": "Model A's strong and explicit link to mapping and monitoring terrestrial ecosystems, deforestation, and land degradation is highly accurate."
+      },
+      "SDG_17 (Partnerships for the Goals)": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 6.0,
+        "reason": "Model A's explicit connection to building capacity for high-quality geographic data, essential for SDG monitoring, is very accurate."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's role in land tenure and property rights through mapping, aligning well with SDG definitions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 4.2,
+      "source": "synthesized",
+      "reasoning": "The course's application of aerial imagery in precision agriculture supports sustainable food production, aligning with SDG targets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.2,
+        "model_b_original": 4.2,
+        "model_b_revised": 4.2
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "The course's mapping capabilities can help identify environmental health risks, supporting public health initiatives.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "model_a",
+      "reasoning": "The course explicitly enhances skills relevant to education and training in photogrammetry and GIS.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in course materials to support contributions to gender equality.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "The course's mapping techniques are crucial for monitoring and managing water-related ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 1.2,
+      "source": "synthesized",
+      "reasoning": "The course's application in energy infrastructure planning is relevant but limited in scope.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.2,
+        "model_b_original": 1.2,
+        "model_b_revised": 1.2
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 1.1,
+      "source": "synthesized",
+      "reasoning": "The course prepares students for specialized roles, but the direct impact on economic growth is less pronounced.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 1.1,
+        "model_b_original": 1.1,
+        "model_b_revised": 1.1
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.8,
+      "source": "synthesized",
+      "reasoning": "The course's focus on digital photogrammetry directly supports infrastructure development and innovation.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 8.8,
+        "model_b_original": 8.8,
+        "model_b_revised": 8.8
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in course materials to support contributions to reducing inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "The course provides essential skills for urban planning and management through GIS applications.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "The course's methods for monitoring natural resources align well with sustainable management goals.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "The course's technology is crucial for monitoring climate-related hazards and enhancing resilience.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 1.8,
+      "source": "synthesized",
+      "reasoning": "The course's application in mapping coastal ecosystems supports their protection and management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.8,
+        "model_b_original": 1.8,
+        "model_b_revised": 1.8
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "The course teaches methods for mapping and monitoring terrestrial ecosystems, aligning with SDG targets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 1.3,
+      "source": "synthesized",
+      "reasoning": "The course indirectly supports strong institutions through land administration and property registration.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.3,
+        "model_b_original": 1.3,
+        "model_b_revised": 1.3
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "The course builds capacity for generating high-quality geographic data, essential for monitoring SDG progress.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "Photogrammetry and GIS facilitate land surveying and mapping, crucial for securing land tenure and property rights (Target 1.4), especially for vulnerable populations.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 4.2,
+      "source": "model_b",
+      "reasoning": "Aerial imagery and GIS data from photogrammetry are vital for precision agriculture, monitoring land, and improving productivity for sustainable food systems (Target 2.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.2,
+        "model_b_original": 4.2,
+        "model_b_revised": 4.2
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "Mapping environmental pollution sources and disaster-prone areas using photogrammetry and LiDAR can indirectly inform public health interventions (Target 3.9).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "model_a",
+      "reasoning": "The course directly provides specialized technical and vocational skills in photogrammetry and GIS, contributing to quality tertiary education and relevant skills for employment (Targets 4.3, 4.4).",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit or strong inferred evidence in the course syllabus links to gender equality targets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "Photogrammetry and GIS are used to map and monitor water-related ecosystems (e.g., rivers, wetlands), essential for their protection and restoration (Target 6.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 1.2,
+      "source": "model_b",
+      "reasoning": "The technology supports energy infrastructure planning, such as site selection for renewable energy projects, by analyzing terrain from aerial images.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.2,
+        "model_b_original": 1.2,
+        "model_b_revised": 1.2
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "model_a",
+      "reasoning": "The course develops advanced technical skills in surveying, spatial analysis, and project management, preparing students for specialized, high-value employment (Targets 8.2, 8.5).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 1.1,
+        "model_b_original": 1.1,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.8,
+      "source": "model_b",
+      "reasoning": "Digital photogrammetry is a core technology for surveying, mapping, and data generation, directly supporting the planning and development of resilient infrastructure and technological innovation (Targets 9.1, 9.5).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 8.8,
+        "model_b_revised": 8.8
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit or strong inferred evidence in the course syllabus links to reduced inequalities targets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course provides fundamental skills for urban and regional planning, land management, and disaster risk assessment through mapping and GIS, directly supporting sustainable urbanization (Targets 11.3, 11.b).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The methods taught are used for monitoring natural resources from aerial images, which is fundamental for their sustainable management and efficient use (Target 12.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The technology (aerial images, LiDAR, DSM production) is crucial for monitoring climate-related hazards like floods and land degradation, strengthening resilience and adaptive capacity (Target 13.1).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 1.8,
+      "source": "model_b",
+      "reasoning": "Aerial photogrammetry can be used for mapping and monitoring coastal ecosystems, which is important for their protection and management (Target 14.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.8,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course teaches core methods for mapping and monitoring terrestrial ecosystems, deforestation, and land degradation from aerial images, directly supporting conservation and sustainable use (Targets 15.1-15.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 1.3,
+      "source": "model_b",
+      "reasoning": "Accurate land mapping and property registration, facilitated by photogrammetry, contribute to transparent land administration and can reduce disputes, supporting strong institutions (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.3,
+        "model_b_original": 1.3,
+        "model_b_revised": 1.3
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course builds capacity to generate high-quality, reliable geographic data, which is essential for monitoring and reporting progress on many SDGs (Target 17.18).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    }
+  }
+}

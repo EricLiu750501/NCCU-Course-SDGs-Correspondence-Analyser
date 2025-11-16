@@ -1,0 +1,796 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 1.0,
+      "reason": "Course discusses 'social responsibility' which relates to poverty alleviation.",
+      "evidence": [
+        "social responsibility"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 1.0,
+      "reason": "Course includes 'health care' applications in management science.",
+      "evidence": [
+        "health care"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "score": 8.0,
+      "reason": "Focus on 'education' and 'skills' development aligns with multiple targets.",
+      "evidence": [
+        "understand and be able to identify ethics, social responsibility and sustainability issues",
+        "acquire problem solving skills"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 1.0,
+      "reason": "Mentions 'social responsibility' which can include gender issues.",
+      "evidence": [
+        "social responsibility"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 7.0,
+      "reason": "Focus on 'managerial decision-making' supports economic growth targets.",
+      "evidence": [
+        "managerial decision-making"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 6.0,
+      "reason": "Course covers 'transportation' and 'optimization' relevant to infrastructure.",
+      "evidence": [
+        "Transportation/Assignment",
+        "Network Optimization"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 1.0,
+      "reason": "Mentions 'social responsibility' which can relate to reducing inequalities.",
+      "evidence": [
+        "social responsibility"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 1.0,
+      "reason": "Mentions 'ethics' which relates to justice and strong institutions.",
+      "evidence": [
+        "understand and be able to identify ethics"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.001,
+        "reason": "A highly inferred link. The course's focus on 'social responsibility' could be applied to poverty reduction strategies, but this is not a stated topic.",
+        "evidence": [
+          "social responsibility"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 2.0,
+        "reason": "Inferred link. Models like 'Transportation' and 'Network Optimization' are applicable to optimizing food supply chains, but this specific application is not mentioned.",
+        "evidence": [
+          "Transportation/Assignment",
+          "Network Optimization"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Good Health and Well-being": {
+        "score": 8.0,
+        "reason": "Explicitly lists 'health care' as an application area. Models like 'Queueing Models' and 'Simulations' directly support optimizing health services, aligning with Target 3.d.",
+        "evidence": [
+          "health care",
+          "Queueing Models",
+          "Simulations"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "score": 7.0,
+        "reason": "As a university course, it provides tertiary education (Target 4.3) and teaches 'problem solving skills' and 'quantitative tool' for employment (Target 4.4).",
+        "evidence": [
+          "problem solving skills",
+          "quantitative tool to solve business questions"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 1.5,
+        "reason": "Inferred link. 'Network Optimization' models could be applied to water resource management (Target 6.4), but this is not mentioned in the course description.",
+        "evidence": [
+          "Network Optimization"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "score": 1.5,
+        "reason": "Inferred link. Optimization models could be applied to energy efficiency and grid management (Target 7.3), but this is not mentioned in the course description.",
+        "evidence": [
+          "Linear Programming",
+          "Network Optimization"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 7.5,
+        "reason": "Teaches 'managerial decision-making' for 'industry', directly supporting higher economic productivity (Target 8.2) and providing skills for employment (Target 8.5).",
+        "evidence": [
+          "managerial decision-making",
+          "industry",
+          "problem solving skills"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 9.0,
+        "reason": "Core focus. Teaches 'Transportation/Assignment, Network Optimization' for infrastructure (Target 9.1) and applies scientific methods to 'industry' problems, fostering innovation and efficiency (Targets 9.4, 9.5).",
+        "evidence": [
+          "Transportation/Assignment",
+          "Network Optimization",
+          "industry"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 7.0,
+        "reason": "Explicitly covers 'Transportation' and 'Network Optimization,' key tools for developing sustainable transport systems (Target 11.2) and urban infrastructure planning.",
+        "evidence": [
+          "Transportation/Assignment",
+          "Network Optimization"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 8.5,
+        "reason": "The course's optimization models (e.g., 'Linear Programming') are fundamental to achieving efficient resource use (Target 12.2), supported by the core competence on 'sustainability issues'.",
+        "evidence": [
+          "Linear Programming",
+          "Network Optimization",
+          "sustainability issues"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 0.001,
+        "reason": "Highly inferred. Optimization models could be used for climate mitigation planning, but there is no mention of this. The 'sustainability issues' competence provides a minimal link.",
+        "evidence": [
+          "sustainability issues"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 4.0,
+        "reason": "Mentions 'government' as an application area. The decision-making models support the development of effective and accountable institutions (Target 16.6).",
+        "evidence": [
+          "government",
+          "managerial decision-making"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 1.0,
+        "reason": "The course teaches 'quantitative models' and 'problem solving skills' that are essential for partnerships to solve complex problems, indirectly linking to Target 17.16.",
+        "evidence": [
+          "quantitative models",
+          "problem solving skills"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more nuanced interpretations and aligns better with the course text, particularly in areas of health, education, and infrastructure.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 1.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model B's reasoning highlights the lack of explicit mention of poverty reduction."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B identifies potential links to food supply chain optimization."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's score reflects explicit applications in health care optimization."
+      },
+      "Quality Education": {
+        "your_original": 8.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B's score is more aligned with the course's focus on problem-solving skills."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B identifies potential applications in water resource management."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B highlights optimization models applicable to energy efficiency."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B emphasizes the course's core focus on infrastructure and innovation."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 1.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's score reflects the course's mention of government and decision-making."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B identifies indirect links to problem-solving skills relevant for partnerships."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more comprehensive reasoning, especially for inferred links and direct applications of management science topics. My original analysis was too conservative in several areas.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 1.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model A's assessment of a 'highly inferred link' from 'social responsibility' is more accurate given the lack of direct mention."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A correctly infers that 'Transportation' and 'Network Optimization' models are applicable to food supply chains."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A's detailed reasoning, linking 'health care' with 'Queueing Models' and 'Simulations', provides a much stronger justification."
+      },
+      "Gender Equality": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Model A's 'no evidence found' is more accurate; the link from 'social responsibility' to gender equality is too indirect."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model A's inference that 'Network Optimization' can apply to water resource management is a valid application."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model A's inference that optimization models apply to energy efficiency and grid management is valid."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 7.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model A's reasoning is more comprehensive, including 'industry' and 'problem solving skills' for economic productivity."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 6.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A's reasoning is much stronger, explicitly linking 'Transportation/Network Optimization' to infrastructure and 'industry' to innovation."
+      },
+      "Reduced Inequalities": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Model A's 'no evidence found' is more accurate; the link from 'social responsibility' to reducing inequalities is too indirect."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model A correctly identifies 'Transportation' and 'Network Optimization' as key tools for sustainable transport and urban planning."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A's strong link between optimization models (e.g., 'Linear Programming') and 'sustainability issues' for efficient resource use is accurate."
+      },
+      "Climate Action": {
+        "your_original": 0.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model A's minimal score for a 'highly inferred' link via 'sustainability issues' is a more nuanced assessment."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 1.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A's link to 'government' as an application area and 'managerial decision-making' for institutions is stronger than just 'ethics'."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model A's inference that 'quantitative models' and 'problem solving skills' are essential for partnerships is plausible."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models agree on a minimal score due to the lack of explicit mention of poverty reduction, with inferred links being too weak.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's reasoning about food supply chain optimization aligns with course content, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight explicit applications in health care, with Model B providing a stronger justification.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize skills development, but Model B's focus on problem-solving aligns better with course objectives.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no explicit evidence linking the course content to gender equality.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model B's inference about water resource management aligns with course content on optimization, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model B's reasoning about optimization models for energy efficiency is valid, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize managerial decision-making, but Model B's score reflects a stronger alignment with economic productivity.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on infrastructure and innovation, with Model B providing a stronger justification.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no explicit evidence linking the course content to reducing inequalities.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize transportation and optimization as key tools for urban planning, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight optimization models' relevance to sustainability, with Model B providing a stronger justification.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Both models agree on a minimal score due to the lack of explicit mention of climate action, with inferred links being too weak.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no explicit evidence linking the course content to marine issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no explicit evidence linking the course content to terrestrial issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's mention of government and decision-making, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Both models identify indirect links to problem-solving skills relevant for partnerships, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The link via 'social responsibility' is too general and indirect to poverty eradication. No explicit course content supports this goal.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 0.001,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "Management science models like 'Transportation' and 'Network Optimization' are applicable to optimizing food supply chains, providing a plausible inferred link.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly mentions 'health care' as an application area. Quantitative models like 'Queueing' and 'Simulations' are directly applicable to optimizing health services.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "As a university course, it provides tertiary education (Target 4.3) and develops 'problem solving skills' and 'quantitative tools' essential for employment (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct or reasonably inferred evidence in the syllabus supports a link to gender equality. The 'social responsibility' link is too tenuous.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "'Network Optimization' models can be applied to water distribution and resource management, providing an inferred but plausible link to this goal.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "Optimization models like 'Linear Programming' and 'Network Optimization' are applicable to improving energy efficiency and managing energy systems, providing an inferred link.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course focuses on quantitative models for managerial decision-making in 'industry,' directly supporting economic productivity (Target 8.2) and providing skills for employment (Target 8.5).",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Transportation/Assignment' and 'Network Optimization', directly supporting infrastructure development (Target 9.1). Applying scientific methods to 'industry' fosters innovation (Target 9.5).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No direct or reasonably inferred evidence in the syllabus supports a link to reduced inequalities. The 'social responsibility' link is too tenuous.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'Transportation/Assignment' and 'Network Optimization', which are key tools for developing sustainable transport systems (Target 11.2) and urban planning.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course teaches optimization models (e.g., Linear Programming) for efficient resource use, directly supported by the core competence on 'sustainability issues' (Target 12.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "model_b",
+      "reasoning": "The link via 'sustainability issues' is too general and indirect to climate action. No explicit or strong inferred connection to climate change measures.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course description that directly or indirectly relates to life below water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course description that directly or indirectly relates to life on land.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course mentions 'government' as an application area. Managerial decision-making models can contribute to developing effective and accountable institutions (Target 16.6), supported by 'ethics'.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course emphasizes 'problem solving skills' and includes a 'final team project,' which are foundational for effective collaboration and partnerships (Target 17.16).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,789 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 4.0,
+      "reason": "Course discusses local revitalization, which can indirectly support poverty reduction efforts.",
+      "evidence": [
+        "地方創生",
+        "鄉間持續可以運作措施"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 4.0,
+      "reason": "Course touches on rural development and agriculture, linking to food security.",
+      "evidence": [
+        "鄉間發展中農業",
+        "特殊面向的考量"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Good Health and Well-being": {
+      "score": 3.0,
+      "reason": "Indirectly related through discussions on human-environment balance.",
+      "evidence": [
+        "人居環境與自然生態間的平衡"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "score": 8.0,
+      "reason": "Focus on enhancing understanding of local revitalization policies supports education goals.",
+      "evidence": [
+        "提升學生對於地方創生的認識",
+        "建立評論、分析個案的能力"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 2.0,
+      "reason": "Minimal mention of gender issues in local revitalization context.",
+      "evidence": [
+        "無明確提及性別平等"
+      ],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 2.0,
+      "reason": "No direct references to water or sanitation issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 1.0,
+      "reason": "No relevant content related to energy access or sustainability.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 5.0,
+      "reason": "Course discusses rural planning which can relate to job creation.",
+      "evidence": [
+        "鄉間規劃"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 4.0,
+      "reason": "Focus on local case studies may touch on infrastructure development.",
+      "evidence": [
+        "地方創生推動政策"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 3.0,
+      "reason": "Indirectly related through discussions on inclusive local policies.",
+      "evidence": [
+        "不同需求與觀點"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 9.0,
+      "reason": "Strong focus on sustainable urbanization and community planning.",
+      "evidence": [
+        "提升學生對於地方創生的認識",
+        "鄉村規劃"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 3.0,
+      "reason": "Indirectly related through discussions on sustainable practices.",
+      "evidence": [
+        "可持續運作措施"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "score": 4.0,
+      "reason": "Course discusses balance between human activities and nature.",
+      "evidence": [
+        "人居環境與自然生態間的平衡"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "score": 1.0,
+      "reason": "No relevant content related to marine issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 3.0,
+      "reason": "Minimal references to land use and ecosystem management.",
+      "evidence": [
+        "土地文化"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 2.0,
+      "reason": "No direct references to justice or governance.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 3.0,
+      "reason": "Course may involve collaboration with local communities.",
+      "evidence": [
+        "鼓勵親赴學期樣區進行調研"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 4.5,
+        "reason": "The course's focus on \"地方創生\" (Place Making) and \"鄉間發展\" (rural development) aims to revitalize local economies, which indirectly addresses poverty reduction in rural areas (Target 1.2).",
+        "evidence": [
+          "地方創生",
+          "鄉間發展中農業與畜牧所涉及特殊面向的考量與處理",
+          "經濟發展"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 5.5,
+        "reason": "The course explicitly covers \"農業與畜牧特殊課題\" (Special topics in agriculture and animal husbandry), linking directly to sustainable food production systems and rural development (Targets 2.3, 2.4).",
+        "evidence": [
+          "農業與畜牧特殊課題",
+          "鄉間發展中農業與畜牧所涉及特殊面向的考量與處理"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 6.0,
+        "reason": "The course itself provides education on sustainable development by teaching students to analyze \"地方創生\" (Place Making) cases, directly aligning with the knowledge and skills promoted in Target 4.7.",
+        "evidence": [
+          "提升學生對於地方創生的認識",
+          "建立評論、分析個案的能力",
+          "習得對於地方創生政策背後所牽涉面向與思維模式"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 8.0,
+        "reason": "The curriculum explicitly includes \"流域綜合治理\" (integrated watershed management), which is a core component of Target 6.5 on implementing integrated water resources management.",
+        "evidence": [
+          "在地知識與流域綜合治理",
+          "里海"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 8.5,
+        "reason": "The core concept of \"地方創生\" (Place Making) is centered on local \"經濟發展\" (economic development) and creating productive activities, aligning with Targets 8.3 and 8.9.",
+        "evidence": [
+          "地方創生",
+          "經濟發展",
+          "產業的需求"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 5.0,
+        "reason": "The course's focus on \"鄉間規劃\" (rural planning) and \"空間計畫\" (spatial planning) relates to developing sustainable infrastructure and supporting local enterprises (Targets 9.1, 9.3).",
+        "evidence": [
+          "地方創生與鄉村規劃",
+          "地方創生與空間計畫"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 8.5,
+        "reason": "The course dedicates a specific topic to \"原住民族地區特殊議題\" (Special issues in indigenous areas), directly addressing the inclusion and needs of indigenous peoples as per Target 10.2.",
+        "evidence": [
+          "原住民族地區特殊議題",
+          "特殊土地利用慣習與需求"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about \"地方創生\" (Place Making), focusing on \"鄉間規劃\" (rural planning) and \"人居環境\" (human settlements), which is central to Target 11.3 and 11.a.",
+        "evidence": [
+          "地方創生個案分析",
+          "鄉間規劃",
+          "人居環境與自然生態間的平衡"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 6.5,
+        "reason": "The discussion of \"里山、里海\" (Satoyama, Satoumi) and the \"平衡\" (balance) between human activity and ecology directly addresses the sustainable management of natural resources (Target 12.2).",
+        "evidence": [
+          "地方創生與里山、里海",
+          "人居環境與自然生態間的平衡"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 5.0,
+        "reason": "The curriculum includes \"里海\" (Satoumi), a concept focused on the sustainable management and protection of coastal marine ecosystems, directly relevant to Target 14.2.",
+        "evidence": [
+          "地方創生與里山、里海"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 9.0,
+        "reason": "The course strongly focuses on terrestrial ecosystems through topics like \"里山\" (Satoyama), \"人與自然生態\" (People and natural ecology), and \"地景維護\" (Landscape maintenance), aligning with Targets 15.1 and 15.9.",
+        "evidence": [
+          "地方創生與里山、里海",
+          "人與自然生態",
+          "地景維護與經濟發展"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 4.0,
+        "reason": "The course analyzes \"地方創生推動政策\" (Place Making promotion policy) and indigenous issues, relating to inclusive decision-making and non-discriminatory policies (Targets 16.7, 16.b).",
+        "evidence": [
+          "地方創生推動政策與鄉間規劃",
+          "原住民族地區特殊議題"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 4.5,
+        "reason": "The entire concept of \"地方創生\" (Place Making) is predicated on multi-stakeholder partnerships, which is the core of Target 17.17. The case study approach analyzes these partnerships.",
+        "evidence": [
+          "地方創生個案分析",
+          "個案演講"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations for several SDGs, particularly in areas of food security and clean water.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B highlights specific aspects of rural development that directly address poverty reduction."
+      },
+      "Zero Hunger": {
+        "your_original": 4.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B emphasizes explicit coverage of agricultural topics, directly linking to food security."
+      },
+      "Good Health and Well-being": {
+        "your_original": 3.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Model B correctly identifies no relevant content related to health."
+      },
+      "Quality Education": {
+        "your_original": 8.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B's score reflects a more cautious interpretation of educational outcomes."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 2.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B accurately identifies explicit references to integrated water management."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 5.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's score reflects a stronger emphasis on economic development aspects."
+      },
+      "Reduced Inequalities": {
+        "your_original": 3.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B highlights specific topics addressing inequalities, justifying a higher score."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 9.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's score reflects the course's comprehensive focus on sustainable urbanization."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 3.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B emphasizes sustainable practices more effectively."
+      },
+      "Life Below Water": {
+        "your_original": 1.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B identifies relevant content on marine ecosystem management."
+      },
+      "Life on Land": {
+        "your_original": 3.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's score reflects a stronger focus on terrestrial ecosystems."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 2.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B highlights relevant discussions on governance and inclusivity."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 3.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B emphasizes the importance of partnerships in the course context."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's analysis for SDG 4 better reflects the course's explicit educational goals. For other SDGs, my original analysis provides stronger, more direct evidence from the course text.",
+    "revisions": {
+      "SDG_4 (Quality Education)": {
+        "your_original": 6.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "The course's explicit goal is to educate students on place making, directly aligning with Target 4.7's focus on knowledge for sustainable development."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight rural development's role in poverty reduction, but Model B's emphasis on specific agricultural aspects strengthens the argument.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Model B's explicit references to agricultural topics directly link to food security, aligning well with course content.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models correctly identify a lack of relevant content related to health, confirming no evidence supports this SDG.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course's explicit focus on educating students about place making aligns well with SDG 4, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the absence of relevant content regarding gender equality, confirming no evidence supports this SDG.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's identification of integrated water management aligns with explicit course content, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models correctly identify a lack of relevant content related to energy, confirming no evidence supports this SDG.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "The course's focus on economic development through place making aligns well with SDG 8, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on rural planning, which relates to infrastructure development, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on indigenous issues aligns well with course content, justifying a high score for addressing inequalities.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's comprehensive focus on place making and sustainable urbanization justifies a perfect score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on sustainable practices aligns well with course content, justifying a higher score.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models correctly identify a lack of relevant content related to climate action, confirming no evidence supports this SDG.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's identification of relevant content on marine ecosystem management justifies a moderate score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "The course's strong focus on terrestrial ecosystems aligns well with SDG 15, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight relevant discussions on governance and inclusivity, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "The course's emphasis on multi-stakeholder partnerships aligns well with SDG 17, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "The course's focus on '地方創生' (Place Making) and rural development aims to revitalize local economies, indirectly addressing poverty reduction in rural areas (Target 1.2).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 5.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers '農業與畜牧特殊課題' (Special topics in agriculture and animal husbandry), directly linking to sustainable food production systems (Targets 2.3, 2.4).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "revised_a",
+      "reasoning": "There is no explicit or strong implicit evidence in the course syllabus related to health services, disease prevention, or specific well-being targets.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course explicitly aims to enhance students' understanding and analytical skills in '地方創生', directly aligning with Target 4.7 on knowledge for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence related to gender equality or specific gender issues is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "The curriculum explicitly includes '流域綜合治理' (integrated watershed management) in Week 14, which is a core component of Target 6.5.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence related to energy access, renewable energy, or energy efficiency is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The core concept of '地方創生' (Place Making) is centered on local '經濟發展' (economic development) and creating productive activities, aligning with Targets 8.3 and 8.9.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on '鄉間規劃' (rural planning) and '空間計畫' (spatial planning) relates to developing sustainable infrastructure and supporting local enterprises (Targets 9.1, 9.3).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The course dedicates a specific topic to '原住民族地區特殊議題' (Special issues in indigenous areas), directly addressing the inclusion and needs of indigenous peoples as per Target 10.2.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course is fundamentally about '地方創生' (Place Making), focusing on '鄉間規劃' (rural planning) and '人居環境' (human settlements), which is central to Target 11.3 and 11.a.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.5,
+      "source": "revised_a",
+      "reasoning": "The discussion of '里山、里海' (Satoyama, Satoumi) and the '平衡' (balance) between human activity and ecology directly addresses the sustainable management of natural resources (Target 12.2).",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "While '人居環境與自然生態間的平衡' is mentioned, there is no explicit or strong implicit content related to climate change, mitigation, or adaptation.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "The curriculum includes '里海' (Satoumi), a concept focused on the sustainable management and protection of coastal marine ecosystems, directly relevant to Target 14.2.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The course strongly focuses on terrestrial ecosystems through topics like '里山' (Satoyama), '人與自然生態', and '地景維護', aligning with Targets 15.1 and 15.9.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.0,
+      "source": "revised_a",
+      "reasoning": "The course analyzes '地方創生推動政策' and indigenous issues, relating to inclusive decision-making and non-discriminatory policies (Targets 16.7, 16.b).",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "The concept of '地方創生' (Place Making) inherently involves multi-stakeholder partnerships, which are analyzed through case studies, aligning with Target 17.17.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

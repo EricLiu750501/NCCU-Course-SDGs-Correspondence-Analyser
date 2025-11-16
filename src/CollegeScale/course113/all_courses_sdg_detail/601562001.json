@@ -1,0 +1,786 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 4.0,
+      "reason": "Course promotes critical thinking in law, linking to Target 4.7 ('knowledge for sustainable development').",
+      "evidence": [
+        "正確的法律經濟分析思維",
+        "批判與重構我國的侵權法"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 6.0,
+      "reason": "Course discusses liability and economic models, relevant to Target 8.3 ('decent job creation').",
+      "evidence": [
+        "損害賠償法的經濟分析",
+        "賠償模型"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 8.0,
+      "reason": "Focus on legal analysis supports Target 16.3 ('equal access to justice').",
+      "evidence": [
+        "法學方法",
+        "賠償模型"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 8.0,
+        "reason": "Explicitly covers 'medical liability' (醫療責任) and 'environmental liability' (環境責任), linking to quality healthcare (Target 3.8) and reducing illnesses from pollution (Target 3.9).",
+        "evidence": [
+          "medical liability",
+          "environmental liability",
+          "醫療責任"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "score": 4.5,
+        "reason": "As a university course, it provides tertiary education (Target 4.3) and aims to develop specialized skills in 'economic analysis of law' (Target 4.4).",
+        "evidence": [
+          "Economic Analysis of Law",
+          "法律經濟分析"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 5.0,
+        "reason": "The topic of 'environmental liability' (環境責任) infers a focus on legal accountability for pollution, which is central to improving water quality (Target 6.3).",
+        "evidence": [
+          "environmental liability",
+          "環境責任"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 5.5,
+        "reason": "Analyzes 'product liability' (產品責任) and 'manufacturer liability' (廠商責任), promoting corporate accountability and higher levels of economic productivity through risk management (Targets 8.2, 8.4).",
+        "evidence": [
+          "product liability",
+          "廠商責任"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 5.0,
+        "reason": "Discusses 'product liability' and 'manufacturer liability', which influence sustainable industrial processes by internalizing the costs of harm and encouraging innovation in safety (Targets 9.2, 9.4).",
+        "evidence": [
+          "product liability",
+          "廠商責任"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 4.0,
+        "reason": "The study of tort law and compensation models provides mechanisms to reduce inequalities of outcome by ensuring access to justice for those harmed (Target 10.3).",
+        "evidence": [
+          "損害賠償法的經濟分析",
+          "侵權法"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 3.0,
+        "reason": "The concept of 'environmental liability' (環境責任) can be applied to reduce the adverse environmental impact of cities, such as industrial pollution (Target 11.6).",
+        "evidence": [
+          "environmental liability",
+          "環境責任"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Responsible Consumption and Production": {
+        "score": 7.5,
+        "reason": "Directly addresses corporate accountability through 'product liability' (產品責任) and 'environmental liability' (環境責任), encouraging sustainable production and management of waste (Targets 12.4, 12.6).",
+        "evidence": [
+          "product liability",
+          "environmental liability",
+          "產品責任"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 4.0,
+        "reason": "The framework of 'environmental liability' (環境責任) is a key policy instrument for addressing climate-related damages and integrating climate change measures into national policy (Target 13.2).",
+        "evidence": [
+          "environmental liability",
+          "環境責任"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life Below Water": {
+        "score": 3.0,
+        "reason": "Through 'environmental liability' (環境責任), the course can address legal accountability for marine pollution from land-based activities, linking to Target 14.1.",
+        "evidence": [
+          "environmental liability",
+          "環境責任"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life on Land": {
+        "score": 4.0,
+        "reason": "The study of 'environmental liability' (環境責任) provides a legal basis for addressing the degradation of natural habitats and ecosystems on land (Target 15.5).",
+        "evidence": [
+          "environmental liability",
+          "環境責任"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about law, justice, and liability, directly supporting the rule of law, access to justice (Target 16.3), and developing accountable institutions (Target 16.6).",
+        "evidence": [
+          "Economic Analysis of Law",
+          "state liability",
+          "國家責任"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive evidence for several SDGs, particularly in health and environmental liability.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's focus on medical and environmental liability aligns with course content."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's emphasis on environmental liability connects to water quality issues."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B's analysis of liability is more aligned with economic productivity."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's insights on liability support sustainable industrial processes."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's focus on tort law aligns with reducing inequalities."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B's connection of environmental liability to urban impacts is valid."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's focus on corporate accountability aligns with sustainable practices."
+      },
+      "Climate Action": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's emphasis on environmental liability supports climate action."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B's insights on marine pollution liability are relevant."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's focus on environmental liability supports land conservation."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's comprehensive approach to law and justice is more accurate."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis is significantly more comprehensive, identifying numerous explicit and strong inferred links, particularly regarding various forms of liability. My initial assessment was too conservative.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A correctly identified 'medical liability' and 'environmental liability' as direct links to health outcomes."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A's reasoning for tertiary education and specialized skills (Targets 4.3, 4.4) is more direct for a university course."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly linked 'environmental liability' to legal accountability for water pollution (Target 6.3)."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model A's reasoning on 'product liability' and 'manufacturer liability' is more specific to corporate accountability and productivity (Targets 8.2, 8.4)."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly identified 'product liability' and 'manufacturer liability' as drivers for sustainable industrial processes and safety innovation (Targets 9.2, 9.4)."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A correctly identified tort law and compensation models as mechanisms for access to justice and reducing inequalities (Target 10.3)."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model A correctly linked 'environmental liability' to reducing adverse environmental impacts in cities (Target 11.6)."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model A correctly identified 'product liability' and 'environmental liability' as directly addressing corporate accountability and sustainable production (Targets 12.4, 12.6)."
+      },
+      "Climate Action": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A correctly linked 'environmental liability' as a policy instrument for addressing climate-related damages (Target 13.2)."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model A correctly linked 'environmental liability' to addressing marine pollution from land-based activities (Target 14.1)."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A correctly linked 'environmental liability' to addressing degradation of natural habitats and ecosystems on land (Target 15.5)."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A's reasoning is more comprehensive, including 'state liability' and accountable institutions (Target 16.6), warranting a higher score."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified strong links to health through liability discussions, particularly in medical and environmental contexts.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the course's focus on legal education, but Model B's score reflects a slightly stronger alignment with educational targets.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified environmental liability as a key factor in water quality, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Both models discussed liability in economic contexts, but Model A's revision aligns better with productivity targets.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified liability as a driver for sustainable industrial practices, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the role of tort law in reducing inequalities, with Model B providing a slightly stronger rationale.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Both models linked environmental liability to urban impacts, with consistent reasoning across analyses.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasized corporate accountability through liability, aligning well with sustainable production targets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified environmental liability as a key policy instrument for climate action, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Both models linked environmental liability to marine pollution, providing consistent reasoning.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the role of environmental liability in land conservation, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasized the course's focus on law and justice, with Model B providing a more comprehensive rationale.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred connection to poverty eradication, social protection, or economic resources for the poor.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred connection to ending hunger, food security, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'medical liability' and 'environmental liability', directly linking to ensuring quality healthcare (Target 3.8) and reducing illnesses from pollution (Target 3.9).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "As a university course, it directly provides quality tertiary education (Target 4.3) and aims to develop specialized professional knowledge and practical skills in legal economic analysis (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred connection to gender equality, women's empowerment, or discrimination.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'environmental liability', which provides legal mechanisms to address pollution and improve water quality (Target 6.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred connection to affordable and clean energy, energy efficiency, or renewable energy.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course analyzes 'product liability' and 'manufacturer liability', which promote corporate accountability and can contribute to higher economic productivity and resource efficiency (Targets 8.2, 8.4).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course discusses 'product liability' and 'manufacturer liability', which can incentivize industries to adopt sustainable processes and foster innovation in safety and technology (Targets 9.2, 9.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on tort law and compensation models provides mechanisms to address harm and ensure access to justice, thereby contributing to reducing inequalities of outcome (Target 10.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course's discussion of 'environmental liability' can be applied to reduce adverse environmental impacts in cities, such as pollution from industrial activities (Target 11.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course directly addresses corporate accountability through 'product liability' and 'environmental liability', which are key mechanisms for encouraging sustainable production and waste management (Targets 12.4, 12.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'environmental liability' provides a legal framework for addressing climate-related damages and integrating climate change measures into national policies (Target 13.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course's discussion of 'environmental liability' can be applied to address legal accountability for marine pollution, particularly from land-based activities (Target 14.1).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'environmental liability' provides a legal basis for addressing the degradation of natural habitats and ecosystems on land (Target 15.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about legal analysis, tort law, and various forms of liability, including 'state liability', directly supporting the rule of law, equal access to justice (Target 16.3), and effective, accountable institutions (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or inferred connection to global partnerships, international cooperation, or resource mobilization for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

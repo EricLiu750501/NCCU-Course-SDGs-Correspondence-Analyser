@@ -1,0 +1,722 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 4.0,
+      "reason": "Links to Target 3.6 ('halve deaths from road traffic accidents') via 'improve交通問題'.",
+      "evidence": [
+        "改善交通問題",
+        "提升運輸系統的安全"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "score": 6.0,
+      "reason": "Supports Target 4.4 ('increase relevant skills') through '跨域結合資通訊技術'.",
+      "evidence": [
+        "跨域結合資通訊技術",
+        "具備發掘問題、分析歸納、與解決問題能力"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 4.0,
+      "reason": "Links to Target 8.3 ('support decent job creation') via '提升運輸系統的效率'.",
+      "evidence": [
+        "提升運輸系統的效率",
+        "改善交通問題"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 9.0,
+      "reason": "Core concept via '智慧運輸系統' and '整合人、車、路管理策略'.",
+      "evidence": [
+        "智慧運輸系統",
+        "整合人、車、路管理策略"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 8.0,
+      "reason": "Links to Target 11.2 ('provide access to sustainable transport') via '改善交通問題'.",
+      "evidence": [
+        "改善交通問題",
+        "提升運輸系統的安全"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 8.5,
+        "reason": "Directly addresses Target 3.6 by focusing on improving \"運輸系統的安全\" (transportation system safety) through topics like \"先進車輛安全與控制系統\" (Advanced Vehicle Safety and Control Systems).",
+        "evidence": [
+          "提升運輸系統的安全",
+          "AVCSS先進車輛安全與控制系統",
+          "EMS緊急救援管理系統"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 4.5,
+        "reason": "Aims to improve transport \"效率\" (efficiency), which can be inferred to reduce fuel consumption and contribute to energy efficiency, aligning with Target 7.3.",
+        "evidence": [
+          "提升運輸系統的...效率"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 4.0,
+        "reason": "Focuses on technological upgrading in the transport sector, such as \"先進商用車輛營運系統\" (Advanced Commercial Vehicle Operations), contributing to economic productivity (Target 8.2).",
+        "evidence": [
+          "先進的資訊、通信、電子、控制、感測與管理等技術",
+          "CVO先進商用車輛營運系統"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about developing resilient and sustainable transport infrastructure (Target 9.1) using advanced information, communication, and control technologies, a core theme.",
+        "evidence": [
+          "智慧運輸系統(Intelligent Transportation System，ITS)",
+          "整合人、車、路管理策略",
+          "ITS系統架構與發展"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 5.0,
+        "reason": "Explicitly addresses the needs of vulnerable groups through \"VIPS弱勢使用者保護服務\" (Vulnerable User Protection Services), promoting social inclusion in transportation (Target 10.2).",
+        "evidence": [
+          "VIPS弱勢使用者保護服務"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 10.0,
+        "reason": "The course is central to Target 11.2, focusing on sustainable transport systems through topics like \"APTS先進大眾運輸系統\" (Advanced Public Transportation Systems) and improving safety.",
+        "evidence": [
+          "智慧運輸系統",
+          "APTS先進大眾運輸系統",
+          "智慧城市展"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 3.0,
+        "reason": "Improving transport \"效率\" (efficiency) can be inferred to promote more efficient use of resources like fuel, contributing to Target 12.2.",
+        "evidence": [
+          "提升運輸系統的...效率"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 5.5,
+        "reason": "Improving transport \"效率\" (efficiency) is a key strategy for mitigating climate change by reducing fuel consumption and emissions, aligning with Target 13.2.",
+        "evidence": [
+          "提升運輸系統的...效率",
+          "改善交通問題"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 1.0,
+        "reason": "The use of \"TDX運輸資料流通服務\" (TDX transportation data circulation service) can be inferred as promoting transparent institutions through open data, a tenuous link to Target 16.6.",
+        "evidence": [
+          "TDX運輸資料流通服務"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 4.0,
+        "reason": "The course enhances knowledge sharing on technology (Target 17.6) by studying national (\"台灣既有ITS子系統\") and international (\"USDOT ITS ePrimer\") systems.",
+        "evidence": [
+          "研析國內外智慧運輸服務及應用案例與趨勢",
+          "參考美國運輸部USDOT ITS ePrimer相關主題"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive evidence and reasoning for several SDGs, leading to necessary revisions in my scores.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 4.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B highlights advanced vehicle safety systems, directly linking to Target 3.6."
+      },
+      "Quality Education": {
+        "your_original": 6.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "No evidence supports a strong link to education; Model B's score is more accurate."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B connects transport efficiency to energy efficiency, aligning with Target 7.3."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's reasoning aligns with my score; no revision needed."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 9.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B emphasizes the course's focus on sustainable transport infrastructure."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B identifies vulnerable user protection services, linking to Target 10.2."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's evidence on sustainable transport systems aligns with Target 11.2."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B connects transport efficiency to resource use, aligning with Target 12.2."
+      },
+      "Climate Action": {
+        "your_original": 0.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B links transport efficiency to climate change mitigation, aligning with Target 13.2."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B's inference on open data promotes transparency, linking to Target 16.6."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B emphasizes knowledge sharing, aligning with Target 17.6."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B provided valuable insights for SDG 4, which I initially overlooked. I also agree with Model B's assessment for SDG 16, as my original link was tenuous.",
+    "revisions": {
+      "SDG_4 (Quality Education)": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B correctly identified explicit evidence for skill development and problem-solving, aligning with Target 4.4, which I missed."
+      },
+      "SDG_16 (Peace, Justice and Strong Institutions)": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "My original link to open data for transparency was tenuous. Model B's assessment of no direct evidence is more accurate."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence supporting this SDG, aligning with the course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on advanced vehicle safety systems directly links to Target 3.6, supported by course content.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Model A's score reflects explicit evidence for skill development, aligning with Target 4.4.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's connection of transport efficiency to energy efficiency aligns with Target 7.3, supported by course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models align on this score, reflecting the course's focus on improving transport efficiency.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on sustainable transport infrastructure aligns perfectly with course content.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Model B's identification of vulnerable user protection services aligns with Target 10.2, supported by course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on sustainable transport systems aligns with Target 11.2, supported by course content.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Model B's connection of transport efficiency to resource use aligns with Target 12.2, supported by course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Model B's link of transport efficiency to climate change mitigation aligns with Target 13.2, supported by course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Model B's assessment of no direct evidence is more accurate, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on knowledge sharing aligns with Target 17.6, supported by course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course content focuses on transportation systems and technology, with no explicit or inferable connection to poverty eradication or economic resources for the poor.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course focuses on intelligent transportation systems, which has no direct or indirect relevance to ending hunger, food security, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly aims to \"提升運輸系統的安全\" and covers \"AVCSS先進車輛安全與控制系統\" and \"EMS緊急救援管理系統,\" directly contributing to reducing road traffic accidents (Target 3.6).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.0,
+      "source": "revised_b",
+      "reasoning": "The course aims to develop \"跨域結合資通訊技術\" and \"具備發掘問題、分析歸納、與解決問題能力,\" directly enhancing relevant skills for employment and entrepreneurship (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course content focuses on intelligent transportation systems and technology, with no explicit or inferable connection to gender equality or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course focuses on intelligent transportation systems, which has no direct or indirect relevance to water quality, sanitation, or water resource management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "The course aims to \"提升運輸系統的效率,\" which implies reducing fuel consumption and improving energy efficiency in transportation, aligning with Target 7.3.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on technological upgrading in transportation, including \"CVO先進商用車輛營運系統,\" which enhances economic productivity and can foster job creation (Target 8.2, 8.3).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course is fundamentally about \"智慧運輸系統\" (ITS), which involves developing quality, reliable, sustainable, and resilient infrastructure using advanced technologies, directly aligning with Target 9.1 and 9.5.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "The course includes \"VIPS弱勢使用者保護服務,\" which directly promotes the social inclusion of vulnerable groups in transportation, aligning with Target 10.2.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course is central to developing \"智慧運輸系統\" and \"APTS先進大眾運輸系統,\" directly contributing to safe, affordable, accessible, and sustainable transport systems for all in cities (Target 11.2).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 3.0,
+      "source": "revised_a",
+      "reasoning": "Improving \"運輸系統的效率\" can lead to more efficient use of natural resources, such as fuel, contributing indirectly to sustainable management and efficient use of resources (Target 12.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 5.5,
+      "source": "revised_a",
+      "reasoning": "Enhancing \"運輸系統的效率\" and \"改善交通問題\" can lead to reduced fuel consumption and emissions, contributing to climate change mitigation efforts (Target 13.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course focuses on terrestrial and urban transportation systems, with no explicit or inferable connection to marine ecosystems or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course focuses on intelligent transportation systems, with no explicit or inferable connection to terrestrial ecosystems, biodiversity, or land degradation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "While \"TDX運輸資料流通服務\" involves data sharing, the course focuses on its technical application, not on strengthening institutions, promoting justice, or reducing corruption (Target 16.6). The link is too tenuous.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.0,
+      "source": "revised_a",
+      "reasoning": "The course involves \"研析國內外智慧運輸服務及應用案例與趨勢\" and referencing \"USDOT ITS ePrimer,\" demonstrating international cooperation and knowledge sharing on technology (Target 17.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

@@ -1,0 +1,820 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 7.5,
+      "reason": "Course promotes skills in databases and modeling, relevant to Target 4.4 ('increase relevant skills').",
+      "evidence": [
+        "relevant skills",
+        "modeling complex settings"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 8.0,
+      "reason": "Focus on GIS and database systems supports Target 9.5 ('enhance scientific research').",
+      "evidence": [
+        "Geographic Information Systems (GIS)",
+        "database systems"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 6.0,
+      "reason": "Spatial modeling can aid urban planning, linking to Target 11.3 ('enhance sustainable urbanization').",
+      "evidence": [
+        "sustainable urbanization",
+        "spatial models"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 2.0,
+        "reason": "The course teaches skills to build a \"land management system of a country,\" a tool applicable to Target 1.4 concerning ownership and control over land.",
+        "evidence": [
+          "land management system of a country"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 0.5,
+        "reason": "The skills in spatial modeling and land management could be applied to sustainable food production systems (Target 2.4), but this is not mentioned in the course.",
+        "evidence": [
+          "land management system of a country"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 2.5,
+        "reason": "Spatial modeling skills are used for health risk management (Target 3.d). The example \"hydrants in a residential neighborhood\" relates to emergency services infrastructure.",
+        "evidence": [
+          "hydrants in a residential neighborhood",
+          "manage, analyze, and visualize related processes"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 6.0,
+        "reason": "As a university course, it provides tertiary education (Target 4.3) and technical skills in GIS and databases for employment (Target 4.4).",
+        "evidence": [
+          "Spatial Modeling",
+          "Type of Credit: Required",
+          "students will be able to set up their spatial model project"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 4.5,
+        "reason": "The course teaches modeling skills applicable to water infrastructure, explicitly mentioning \"hydrants in a residential neighborhood,\" relevant to water management (Targets 6.1, 6.5).",
+        "evidence": [
+          "hydrants in a residential neighborhood",
+          "manage, analyze, and visualize related processes"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 1.0,
+        "reason": "The taught skills in \"Spatial Modeling\" are applicable to planning and managing energy infrastructure (Target 7.b), though not explicitly mentioned in the course description.",
+        "evidence": [
+          "Spatial Modeling",
+          "manage, analyze, and visualize related processes"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 4.0,
+        "reason": "The course teaches \"state-of-the-art information system technology,\" contributing to technological upgrading and innovation for economic productivity (Target 8.2).",
+        "evidence": [
+          "state-of-the-art information system technology",
+          "Geographic Information Systems (GIS) and database systems"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 8.5,
+        "reason": "The course is fundamentally about using GIS and databases to model and manage infrastructure (Target 9.1), using examples like \"hydrants\" and \"land management system.\"",
+        "evidence": [
+          "building, managing, and querying spatial models",
+          "hydrants in a residential neighborhood",
+          "land management system of a country"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 9.0,
+        "reason": "The course teaches core skills for sustainable human settlement planning (Target 11.3), using examples like \"hydrants in a residential neighborhood\" and \"land management system.\"",
+        "evidence": [
+          "hydrants in a residential neighborhood",
+          "land management system of a country",
+          "Course Department:Land Economics"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 3.0,
+        "reason": "Skills in spatial modeling are essential for the sustainable management of natural resources (Target 12.2), a key application of the described \"land management system.\"",
+        "evidence": [
+          "land management system of a country",
+          "manage, analyze, and visualize related processes"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 4.0,
+        "reason": "The course teaches spatial modeling, a critical tool for strengthening resilience and adaptive capacity to climate-related hazards and natural disasters (Target 13.1).",
+        "evidence": [
+          "Spatial Models are simplified abstractions of the real world",
+          "manage, analyze, and visualize related processes"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 0.1,
+        "reason": "The spatial modeling techniques could be applied to marine ecosystems (Target 14.2), but the course examples and context are exclusively land-based.",
+        "evidence": [
+          "Spatial Modeling"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 7.5,
+        "reason": "The focus on a \"land management system of a country\" directly supports integrating ecosystem values into national and local planning (Target 15.9).",
+        "evidence": [
+          "land management system of a country",
+          "Course Department:Land Economics",
+          "modeling complex settings by abstraction"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 5.0,
+        "reason": "Creating a \"land management system of a country\" is a tool for developing effective and transparent institutions (Target 16.6) for land administration and property rights.",
+        "evidence": [
+          "land management system of a country",
+          "manage, analyze, and visualize related processes"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 6.5,
+        "reason": "The course teaches enabling technology (GIS) (Target 17.8) and data management methods, which supports increasing high-quality data availability for planning (Target 17.18).",
+        "evidence": [
+          "state-of-the-art information system technology",
+          "Geographic Information Systems (GIS) and database systems",
+          "ingest data, manage, update, and query their databases"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive insights into the course's relevance to various SDGs, prompting necessary revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Course content on land management aligns with Target 1.4 regarding ownership and control over land."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Spatial modeling skills can support sustainable food production systems, as inferred from course content."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Course examples like hydrants relate to health risk management, supporting Target 3.d."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Modeling skills for water infrastructure are explicitly mentioned, relevant to Targets 6.1 and 6.5."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Skills in spatial modeling can apply to energy infrastructure planning, as inferred from course content."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Course content on information systems supports economic productivity, aligning with Target 8.2."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Spatial modeling is essential for sustainable resource management, as inferred from course content."
+      },
+      "Climate Action": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Course content on spatial modeling supports resilience to climate-related hazards, relevant to Target 13.1."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Focus on land management directly supports integrating ecosystem values into planning, aligning with Target 15.9."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Land management systems support effective institutions, relevant to Target 16.6."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Course content on GIS supports data management and availability, aligning with Targets 17.8 and 17.18."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided a more comprehensive analysis, identifying several strong inferences from the course text that I initially overlooked, particularly regarding the applications of spatial modeling and land management systems.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A correctly inferred that land management systems support property rights (Target 1.4), a key aspect of poverty reduction."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model A's link between 'hydrants in a residential neighborhood' and emergency services/health risk management (Target 3.d) is a valid inference."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A correctly identified 'hydrants in a residential neighborhood' as direct evidence for water infrastructure management (Targets 6.1, 6.5)."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model A's inference that spatial modeling skills are applicable to energy infrastructure planning (Target 7.b) is reasonable."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A correctly linked 'state-of-the-art information system technology' to technological upgrading and economic productivity (Target 8.2)."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 6.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A provided stronger evidence, explicitly linking 'land management system' and 'hydrants' to sustainable urban planning (Target 11.3)."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model A's inference that spatial modeling for 'land management system' supports sustainable natural resource management (Target 12.2) is valid."
+      },
+      "Climate Action": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A correctly inferred that spatial modeling is a critical tool for climate resilience and adaptation to hazards (Target 13.1)."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model A provided stronger evidence, directly linking 'land management system' and 'Land Economics' to integrating ecosystem values (Target 15.9)."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly inferred that a 'land management system' is a tool for developing effective and transparent institutions (Target 16.6)."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model A correctly identified GIS and data management as enabling technologies for data availability and monitoring (Targets 17.8, 17.18)."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified the relevance of land management systems to Target 1.4, supporting property rights. The score reflects a consensus on its importance in poverty reduction.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Model B's inference about spatial modeling supporting sustainable food production aligns with course content, though evidence is limited.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Both models effectively link course examples to health risk management, particularly through the mention of hydrants, supporting Target 3.d.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.75,
+      "source": "synthesized",
+      "reasoning": "The course's focus on GIS and database skills aligns well with Targets 4.3 and 4.4, emphasizing education and skill development.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no relevant evidence in the course content related to gender equality.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the relevance of spatial modeling to water infrastructure, particularly through the example of hydrants, supporting Targets 6.1 and 6.5.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Both models inferred that spatial modeling skills could apply to energy infrastructure planning, though evidence is not explicitly mentioned.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models effectively link the course content on information systems to economic productivity, aligning with Target 8.2.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.25,
+      "source": "synthesized",
+      "reasoning": "The course's focus on GIS and databases strongly supports infrastructure development, aligning with Target 9.1 and enhancing scientific research.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no relevant evidence in the course content related to reducing inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.25,
+      "source": "synthesized",
+      "reasoning": "The course's emphasis on spatial modeling for urban planning aligns well with Target 11.3, supported by strong evidence from both models.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognized the importance of spatial modeling for sustainable resource management, aligning with Target 12.2.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models effectively link spatial modeling to climate resilience and adaptation, supporting Target 13.1.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.1,
+      "source": "synthesized",
+      "reasoning": "Both models acknowledge limited relevance of spatial modeling to marine ecosystems, with minimal evidence.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.1,
+        "model_b_revised": 0.1
+      }
+    },
+    "Life on Land": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models effectively link land management systems to ecosystem integration, supporting Target 15.9.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the role of land management systems in developing effective institutions, aligning with Target 16.6.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Both models effectively link GIS and data management to enhancing data availability, supporting Targets 17.8 and 17.18.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on building 'land management systems' directly supports Target 1.4 by enabling better access to ownership and control over land, which is crucial for poverty reduction.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "While spatial modeling and land management could potentially apply to sustainable food production (Target 2.4), the syllabus offers no explicit mention or examples, making the link very indirect.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "The course's example of modeling 'hydrants in a residential neighborhood' implies application to public infrastructure and emergency services, indirectly supporting health risk management (Target 3.d).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "model_a",
+      "reasoning": "As a university course, it explicitly provides tertiary education (Target 4.3) and equips students with 'relevant skills' in GIS and databases for employment and entrepreneurship (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "There is no explicit or implicit evidence in the course syllabus that relates to gender equality or women's empowerment.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "The course's example of modeling 'hydrants in a residential neighborhood' directly relates to water infrastructure management, supporting targets for water access and management (Targets 6.1, 6.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Spatial modeling skills could be applied to energy infrastructure planning (Target 7.b), but the course syllabus does not explicitly mention energy-related applications, making the link weak.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "The course teaches 'state-of-the-art information system technology' including GIS and databases, which contributes to technological upgrading and innovation for economic productivity (Target 8.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about 'building, managing, and querying spatial models' using GIS and databases, directly supporting the development of resilient infrastructure (Target 9.1) and enhancing technological capabilities (Target 9.5).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "There is no explicit or implicit evidence in the course syllabus that directly addresses reducing inequalities based on income, age, sex, disability, race, or other status.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'land management system of a country' and 'hydrants in a residential neighborhood' from the 'Land Economics' department directly supports sustainable human settlement planning and management (Target 11.3).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Skills in spatial modeling and 'land management systems' are applicable to the sustainable management and efficient use of natural resources (Target 12.2), though not explicitly detailed.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Spatial modeling is a critical tool for analyzing and managing climate-related hazards and natural disasters, thus supporting resilience and adaptive capacity (Target 13.1).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.1,
+      "source": "model_b",
+      "reasoning": "While spatial modeling techniques are broadly applicable, the course's context and examples are exclusively land-based, offering only a minimal, indirect connection to marine ecosystems (Target 14.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.1,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'land management system of a country' and its origin in 'Land Economics' directly supports integrating ecosystem and biodiversity values into planning (Target 15.9).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Developing a 'land management system of a country' provides tools for transparent land administration and property rights, contributing to effective and accountable institutions (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course teaches 'state-of-the-art information system technology,' GIS, and database management, which are enabling technologies (Target 17.8) and crucial for high-quality data availability (Target 17.18).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    }
+  }
+}

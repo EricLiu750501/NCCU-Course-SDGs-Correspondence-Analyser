@@ -1,0 +1,866 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 6.0,
+      "reason": "Links to Target 2.4 ('sustainable food production') via 'AI in agriculture' and 'resource management'.",
+      "evidence": [
+        "AI is being applied to address environmental challenges",
+        "optimizing resource management",
+        "improving efficiency in sectors such as energy and agriculture"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "score": 4.0,
+      "reason": "Links to Target 3.9 ('reduce pollution') through discussions on AI's role in health and privacy.",
+      "evidence": [
+        "AI's implications for human rights",
+        "privacy concerns associated with AI",
+        "ethical issues surrounding data collection"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "score": 8.5,
+      "reason": "Directly addresses Target 4.7 ('knowledge for sustainable development') through AI's role in education.",
+      "evidence": [
+        "impact of AI on educational systems",
+        "personalized learning",
+        "AI is reshaping the future of education"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 5.0,
+      "reason": "Links to Target 5.b ('promote women's empowerment') via AI's impact on minority communities.",
+      "evidence": [
+        "AI affects minority communities",
+        "bias in algorithms",
+        "unequal access to AI technologies"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 5.0,
+      "reason": "Links to Target 7.2 ('increase renewable energy') through AI's role in optimizing energy sectors.",
+      "evidence": [
+        "AI's role in optimizing resource management",
+        "improving efficiency in sectors such as energy"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 7.0,
+      "reason": "Links to Target 8.2 ('higher levels of economic productivity') via AI's role in industry.",
+      "evidence": [
+        "AI's role in automation",
+        "productivity enhancement",
+        "innovation within these sectors"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 9.0,
+      "reason": "Directly addresses Target 9.5 ('enhance scientific research') through AI's technological capabilities.",
+      "evidence": [
+        "enhance scientific research",
+        "upgrade the technological capabilities of industrial sectors",
+        "encouraging innovation"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 6.0,
+      "reason": "Links to Target 10.2 ('empower social inclusion') through AI's impact on marginalized populations.",
+      "evidence": [
+        "AI affects minority communities",
+        "real-world effects of AI on marginalized populations"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 6.0,
+      "reason": "Links to Target 13.3 ('education on climate change') through AI's role in sustainability.",
+      "evidence": [
+        "AI in sustainability",
+        "address environmental challenges"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 7.0,
+      "reason": "Links to Target 16.10 ('public access to information') through AI's implications for legal systems.",
+      "evidence": [
+        "AI's implications for human rights",
+        "legal systems",
+        "policy development"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "reason": "Inferred link to Target 1.4 via \"international development\" and addressing \"global challenges,\" as AI can create new economic opportunities, but this is not a primary course focus.",
+        "score": 1.0,
+        "evidence": [
+          "international development",
+          "address global challenges"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "reason": "Explicitly discusses AI's role in \"improving efficiency in sectors such as... agriculture,\" linking to Target 2.4 on resilient agricultural practices and productivity.",
+        "score": 4.5,
+        "evidence": [
+          "improving efficiency in sectors such as energy and agriculture"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "reason": "Mentions AI application in \"healthcare,\" which can be inferred to support targets like 3.8 (health coverage) and 3.d (health risk management).",
+        "score": 2.5,
+        "evidence": [
+          "application of AI in various industries, such as manufacturing, healthcare, and finance"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Quality Education": {
+        "reason": "A dedicated week on \"AI & Education\" covers \"personalized learning\" and \"curriculum development,\" directly supporting targets for improving educational quality and access (Targets 4.1, 4.3).",
+        "score": 8.5,
+        "evidence": [
+          "AI & Education",
+          "personalized learning, assessment methods, and the use of AI in curriculum development"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Gender Equality": {
+        "reason": "Discusses \"bias in algorithms\" and \"AI and Minorities,\" which are critical for addressing discrimination and ensuring equal opportunity, linking to Targets 5.1 and 5.c.",
+        "score": 4.0,
+        "evidence": [
+          "AI and Minorities",
+          "bias in algorithms and unequal access to AI technologies"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "reason": "A very weak link can be inferred from \"optimizing resource management\" in the \"AI and Sustainability\" topic, potentially relating to water-use efficiency (Target 6.4).",
+        "score": 0.5,
+        "evidence": [
+          "optimizing resource management"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "reason": "Explicitly discusses AI's role in \"improving efficiency in sectors such as energy,\" directly supporting Target 7.3 on energy efficiency and potentially Target 7.2 on renewables.",
+        "score": 5.5,
+        "evidence": [
+          "improving efficiency in sectors such as energy"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "reason": "Focuses on \"automation, productivity enhancement, and innovation\" in industry, directly linking to Target 8.2 on achieving higher levels of economic productivity through technological upgrading.",
+        "score": 7.5,
+        "evidence": [
+          "AI and Industry",
+          "automation, productivity enhancement, and innovation"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "reason": "The course is centered on AI's role in industry and its capacity to \"drive innovation,\" directly aligning with Target 9.5 (enhance research, upgrade technology) and 9.b.",
+        "score": 10.0,
+        "evidence": [
+          "AI and Industry",
+          "drive innovation",
+          "automation, productivity enhancement, and innovation"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "reason": "Directly addresses inequality through dedicated weeks on \"AI and Minorities\" and \"AI and Power Relations,\" linking to Targets 10.2 (inclusion) and 10.3 (equal opportunity).",
+        "score": 9.0,
+        "evidence": [
+          "AI and Minorities",
+          "bias in algorithms and unequal access",
+          "AI and Power Relations"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "reason": "An inferred link exists through \"optimizing resource management,\" which could apply to sustainable transport (Target 11.2) or resource efficiency in cities (Target 11.b), but is not specified.",
+        "score": 1.5,
+        "evidence": [
+          "AI and Sustainability",
+          "optimizing resource management"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "reason": "The topic \"AI and Sustainability\" includes \"optimizing resource management and improving efficiency,\" which directly supports Target 12.2 on the efficient use of natural resources.",
+        "score": 5.0,
+        "evidence": [
+          "AI and Sustainability",
+          "optimizing resource management and improving efficiency"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Climate Action": {
+        "reason": "The topic \"AI and Sustainability\" aims to \"address environmental challenges,\" strongly inferring a link to climate action (Targets 13.2, 13.3) through technology and policy.",
+        "score": 6.0,
+        "evidence": [
+          "AI and Sustainability",
+          "address environmental challenges"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life Below Water": {
+        "reason": "No evidence found",
+        "score": 0.0,
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life on Land": {
+        "reason": "A weak, inferred link exists through \"address environmental challenges,\" which could potentially involve terrestrial ecosystems (e.g., Target 15.2), but this is not specified in the course.",
+        "score": 1.0,
+        "evidence": [
+          "address environmental challenges"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "reason": "Core topics include \"AI & Courts,\" \"Human Rights,\" and \"AI and State,\" directly addressing Targets 16.3 (access to justice), 16.6 (accountable institutions), and 16.10 (freedoms).",
+        "score": 10.0,
+        "evidence": [
+          "AI & Courts",
+          "Human Rights",
+          "AI and State"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "reason": "The course analyzes AI's role in \"international development\" and \"policy development,\" aligning with targets on technology transfer (17.7), capacity-building (17.9), and policy coherence (17.14).",
+        "score": 8.0,
+        "evidence": [
+          "international development",
+          "policy development",
+          "AI & Policy"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more nuanced interpretations and aligns better with course content, necessitating revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B identifies AI's potential in creating economic opportunities."
+      },
+      "Zero Hunger": {
+        "your_original": 6.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's score reflects a more cautious interpretation of AI's role."
+      },
+      "Good Health and Well-being": {
+        "your_original": 4.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B emphasizes AI's limited direct impact on health targets."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model B identifies a weak link to resource management."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 5.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B's score better reflects AI's role in energy efficiency."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 7.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's score captures the emphasis on productivity enhancement."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 9.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B accurately highlights AI's central role in driving innovation."
+      },
+      "Reduced Inequalities": {
+        "your_original": 6.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's score reflects a stronger focus on inclusion and equality."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B identifies a potential link through resource management."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B connects AI's role in sustainability to resource efficiency."
+      },
+      "Climate Action": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "No change; both analyses align on AI's role in climate action."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B identifies a weak link to environmental challenges."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's score accurately reflects AI's implications for justice."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B connects AI's role in development and policy coherence."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more accurate classifications (explicit vs. inferred) and better justified scores for several SDGs, particularly those with dedicated course topics. My revisions reflect these stronger alignments with the course text.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 1.0,
+        "reason": "Model A's inference from 'international development' and 'global challenges' is a reasonable, albeit weak, link."
+      },
+      "Good Health and Well-being": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 2.5,
+        "reason": "Model A's direct inference from 'AI in healthcare' is more precise for this SDG."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.5,
+        "reason": "Model A's weak inference from 'optimizing resource management' is a valid, though indirect, link."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 5.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.5,
+        "reason": "Model A correctly identified 'improving efficiency in sectors such as energy' as explicit evidence."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 9.0,
+        "model_b_score": 9.0,
+        "your_revised": 10.0,
+        "reason": "This SDG is central to the course; Model A's 10.000 better reflects the strong explicit alignment."
+      },
+      "Reduced Inequalities": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 9.0,
+        "reason": "Model A correctly identified 'AI and Minorities' and 'AI and Power Relations' as explicit, justifying a higher score."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 1.5,
+        "reason": "Model A's weak inference from 'optimizing resource management' is a valid, though indirect, link."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly identified 'optimizing resource management and improving efficiency' under 'AI and Sustainability' as explicit evidence."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 1.0,
+        "reason": "Model A's weak inference from 'address environmental challenges' is a valid, though indirect, link."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 7.0,
+        "model_b_score": 7.0,
+        "your_revised": 10.0,
+        "reason": "Model A correctly identified 'AI & Courts', 'Human Rights', and 'AI and State' as explicit, justifying a higher score."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 8.0,
+        "reason": "Model A correctly identified 'international development', 'policy development', and 'AI & Policy' as explicit evidence."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Both models provide weak links to economic opportunities through AI, but Model A's inference aligns better with course content on international development.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "Model B's cautious interpretation of AI's role in agriculture aligns better with course evidence, while Model A overestimates its impact.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "Model B accurately reflects the limited direct impact of AI on health targets, aligning with course content on ethical issues.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "model_a",
+      "reasoning": "Both models agree on the strong alignment of AI's role in education with course objectives, but Model A's explicit evidence is more compelling.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "Model B's focus on bias in algorithms and its implications for minority communities provides a clearer link to gender equality targets.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Model A's weak inference is valid, but Model B's acknowledgment of resource management provides a slightly stronger link.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "Model B's score better reflects AI's role in energy efficiency, aligning with course content on optimizing energy sectors.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "Model B captures the emphasis on productivity enhancement and innovation in industry, aligning well with course objectives.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "Model B accurately highlights AI's central role in driving innovation, aligning strongly with course content.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "Model B's focus on inclusion and equality through AI's impact on marginalized populations justifies a higher score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Both models provide weak links, but Model B's acknowledgment of resource management offers a slightly stronger connection.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "Model B connects AI's role in sustainability to resource efficiency, aligning well with course objectives.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 6.0,
+      "source": "model_a",
+      "reasoning": "Both models align on AI's role in climate action, but Model A's explicit evidence is more compelling.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model, confirming a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Both models provide weak links, but Model B's acknowledgment of environmental challenges offers a slightly stronger connection.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "Model B's score accurately reflects AI's implications for justice, aligning strongly with course content.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "Model B connects AI's role in development and policy coherence, aligning well with course objectives.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "revised_a",
+      "reasoning": "The course mentions 'international development' and 'address global challenges,' which can indirectly relate to poverty eradication through AI's applications, though it's not a primary focus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly mentions AI's role in 'improving efficiency in sectors such as agriculture,' directly supporting sustainable food production and productivity (Target 2.4).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly mentions AI's application in 'healthcare' (Week 11), providing an inferred link to health targets, but it's not a primary focus.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "model_a",
+      "reasoning": "The course dedicates a full week to 'AI & Education,' explicitly covering personalized learning and curriculum development, directly aligning with improving educational quality and access.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 5.0,
+      "source": "model_a",
+      "reasoning": "The course addresses 'bias in algorithms' and 'AI and Minorities,' which are crucial for understanding and mitigating discrimination, indirectly supporting gender equality and women's empowerment through technology.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.5,
+      "source": "revised_a",
+      "reasoning": "A very weak, inferred link exists through 'optimizing resource management' in the context of AI and sustainability, which could indirectly relate to water-use efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 5.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly mentions AI's role in 'improving efficiency in sectors such as energy,' directly supporting targets related to energy efficiency and potentially renewable energy.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 7.5,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers AI's role in 'automation, productivity enhancement, and innovation' within industries, directly supporting higher economic productivity and technological upgrading (Target 8.2).",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly and extensively covers AI's role in industry, innovation, technological upgrading, and productivity enhancement, making it a central theme directly aligning with SDG 9.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The course dedicates weeks to 'AI and Power Relations' and 'AI and Minorities,' explicitly addressing bias, unequal access, and power asymmetries, directly linking to reducing inequalities and promoting inclusion.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 1.5,
+      "source": "revised_a",
+      "reasoning": "A weak, inferred link exists through 'optimizing resource management' within AI and sustainability, which could indirectly apply to resource efficiency in urban contexts, though not explicitly mentioned.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly discusses AI's role in 'optimizing resource management and improving efficiency' under sustainability, directly supporting the sustainable use of natural resources (Target 12.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 6.0,
+      "source": "model_a",
+      "reasoning": "The course explicitly covers 'AI in sustainability' and its role in 'addressing environmental challenges,' which directly relates to climate action and mitigation efforts.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course syllabus provides no explicit or inferable evidence related to marine ecosystems, ocean health, or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 1.0,
+      "source": "revised_a",
+      "reasoning": "A weak, inferred link exists through AI's role in 'addressing environmental challenges,' which could broadly encompass terrestrial ecosystems, though no specific mention is made.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly dedicates multiple weeks to 'AI and State,' 'Human Rights,' 'AI & Courts,' and 'policy development,' directly addressing justice, governance, and institutional strength.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers 'international development,' 'policy development,' and 'AI & Policy,' directly aligning with strengthening global partnerships, policy coherence, and capacity building for SDG implementation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    }
+  }
+}

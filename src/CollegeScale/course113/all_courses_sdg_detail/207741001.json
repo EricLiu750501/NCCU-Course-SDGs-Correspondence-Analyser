@@ -1,0 +1,751 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 7.5,
+      "reason": "Focus on AI literacy and skills development aligns with Target 4.4 ('increase relevant skills').",
+      "evidence": [
+        "建立學生的AI素養",
+        "具備領導與團隊合作並進之精神與國際觀"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 8.0,
+      "reason": "Course emphasizes AI application in urban planning, linking to Target 9.2 ('sustainable industrialization').",
+      "evidence": [
+        "設計出更智慧、便利、環境永續、安全且宜居的未來城市",
+        "應用AI進行創新城市規劃設計"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 9.0,
+      "reason": "Directly addresses urban sustainability and planning, relevant to Target 11.3 ('sustainable urbanization').",
+      "evidence": [
+        "城市永續生活設計的原則",
+        "永續城市設計"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 8.5,
+      "reason": "Course discusses climate change in urban design, linking to Target 13.2 ('integrate climate change measures').",
+      "evidence": [
+        "氣候變遷與永續 SDGs",
+        "城市面臨永續挑戰與減碳調適"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 1.0,
+        "reason": "Inferred from the goal to design \"safe and livable future cities,\" which could reduce health risks from pollution, a minor link to Target 3.9.",
+        "evidence": [
+          "safe, and livable future cities",
+          "安全且宜居的未來城市"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "The course provides tertiary education on AI skills (Target 4.4) and explicitly teaches about \"sustainable development\" and \"SDGs\" (Target 4.7).",
+        "evidence": [
+          "氣候變遷與永續 SDGs",
+          "Acquire advanced AI application skills",
+          "build students' foundational literacy in AI"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 9.0,
+        "reason": "Directly addresses clean energy via \"Green Building and Mirco-Grid of building electricity energy,\" linking to energy efficiency (Target 7.3) and clean technology (Target 7.a).",
+        "evidence": [
+          "綠建築與零碳建築微電網設計",
+          "Green Building and Mirco-Grid of building electricity energy"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 4.5,
+        "reason": "Teaches high-value AI skills for technological upgrading (Target 8.2) and covers \"corporate ESG documents,\" relating to decoupling growth from environmental degradation (Target 8.4).",
+        "evidence": [
+          "corporate ESG documents",
+          "企業永續治理",
+          "AI application research"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 10.0,
+        "reason": "Core focus on applying AI innovation to design sustainable urban infrastructure, directly aligning with upgrading infrastructure (Target 9.4) and enhancing technological capabilities (Target 9.5).",
+        "evidence": [
+          "The AI Application to Urban Eco-sustainable Design",
+          "innovative urban planning designs",
+          "AI technology"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 10.0,
+        "reason": "The course's central theme is \"Urban Eco-sustainable Design\" to create \"livable future cities,\" directly addressing sustainable urbanization (Target 11.3) and planning (Target 11.b).",
+        "evidence": [
+          "應用AI於城市永續生態設計",
+          "Urban Sustainable Design",
+          "sustainable urban living design"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 7.5,
+        "reason": "Focuses on \"eco-sustainable design\" and \"plan resource allocation,\" linking to efficient resource use (Target 12.2). Covers \"corporate ESG documents,\" promoting sustainable corporate practices (Target 12.6).",
+        "evidence": [
+          "plan resource allocation",
+          "corporate ESG documents",
+          "企業永續治理"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 10.0,
+        "reason": "A core topic with lectures on \"Climate Change and Sustainability SDGs\" and \"Urban Sustainable Challenge and Adaption,\" directly addressing climate planning (Target 13.2) and education (Target 13.3).",
+        "evidence": [
+          "氣候變遷與永續 SDGs",
+          "Climate Change and Sustainability SDGs",
+          "城市面臨永續挑戰與減碳調適"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 4.0,
+        "reason": "\"Urban Eco-sustainable Design\" and \"land planning\" infer the integration of ecosystem values into local planning (Target 15.9) to manage urban impact on terrestrial ecosystems.",
+        "evidence": [
+          "城市永續生態設計",
+          "land planning case applications"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Partnerships for the Goals": {
+        "score": 5.0,
+        "reason": "Emphasizes \"team collaboration\" to solve complex problems, reflecting partnership principles (Target 17.17). Focuses on sharing knowledge and expertise in AI technology (Target 17.6).",
+        "evidence": [
+          "team collaboration",
+          "組隊合作",
+          "teamwork"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive insights, particularly in health, energy, and climate action, leading to necessary revisions in my scores.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B's inference on health risks aligns with urban planning goals."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's emphasis on clean energy in urban design is well-supported."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's connection to AI skills and ESG documents is valid."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's focus on eco-sustainable design aligns with resource efficiency."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's inference on ecosystem integration is relevant."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's emphasis on teamwork reflects partnership principles."
+      },
+      "Climate Action": {
+        "your_original": 8.5,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's comprehensive coverage of climate topics is more accurate."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more comprehensive analysis, identifying explicit evidence and making plausible inferences that I initially overlooked. Revisions are made to align with these insights.",
+    "revisions": {
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 1.0,
+        "reason": "Model A's inference from 'safe and livable future cities' to reduced health risks is a plausible, minor link."
+      },
+      "Quality Education": {
+        "your_original": 7.5,
+        "model_b_score": 7.5,
+        "your_revised": 8.0,
+        "reason": "Model A correctly highlighted the explicit mention of 'SDGs' in the curriculum, strengthening the link to Target 4.7."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 9.0,
+        "reason": "Model A correctly identified explicit evidence in 'Green Building and Mirco-Grid of building electricity energy'."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.5,
+        "reason": "Model A's inference from AI skills for technological upgrading and 'corporate ESG documents' is valid."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 8.0,
+        "model_b_score": 8.0,
+        "your_revised": 10.0,
+        "reason": "Model A's higher score better reflects the course's central theme of AI innovation for urban infrastructure."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 9.0,
+        "model_b_score": 9.0,
+        "your_revised": 10.0,
+        "reason": "Model A's higher score is more appropriate given this SDG is the course's explicit central theme."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 7.5,
+        "reason": "Model A correctly identified explicit evidence in 'plan resource allocation' and 'corporate ESG documents'."
+      },
+      "Climate Action": {
+        "your_original": 8.5,
+        "model_b_score": 8.5,
+        "your_revised": 10.0,
+        "reason": "Model A's higher score is more appropriate given the explicit and central focus on climate change topics."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.0,
+        "reason": "Model A's inference from 'Urban Eco-sustainable Design' and 'land planning' to ecosystem integration is plausible."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 5.0,
+        "reason": "Model A correctly identified 'team collaboration' and knowledge sharing as relevant to partnership principles."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty, confirming the absence of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding hunger, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Model A's inference about health risks from urban design aligns with course goals, supported by Model B's revision.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on AI skills and sustainable development, with Model B's revision strengthening the link to Target 4.7.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding gender equality, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to clean water and sanitation, confirming the absence of relevant course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on clean energy in urban design is well-supported, and Model A's revision aligns with this evidence.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models connect AI skills to economic growth, with Model B's revision providing a valid link to corporate ESG documents.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's core focus on AI innovation for urban infrastructure aligns with both models' high scores.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding reduced inequalities, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's central theme of urban sustainability aligns with both models' high scores.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight eco-sustainable design and resource allocation, with Model B's revision reinforcing this link.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's explicit focus on climate change topics aligns with both models' high scores.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding life below water, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Model B's inference about ecosystem integration is plausible, supported by Model A's revision.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model regarding peace and justice, consistent with course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize teamwork and knowledge sharing, with Model B's revision reinforcing this link.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus supports a connection to eradicating poverty.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus supports a connection to ending hunger or improving food security.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.0,
+      "source": "revised_a",
+      "reasoning": "The course aims to design 'safe and livable future cities,' which has a minor, inferred link to reducing health risks from pollution (Target 3.9).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly builds AI literacy and skills (Target 4.4) and covers 'Sustainability SDGs' (Target 4.7), directly promoting knowledge for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus supports a connection to gender equality.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus supports a connection to water and sanitation management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers 'Green Building and Micro-Grid of building electricity energy,' directly addressing clean energy and energy efficiency (Targets 7.3, 7.a).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "The course provides AI skills for technological upgrading (Target 8.2) and covers 'corporate ESG documents,' inferring a link to sustainable economic practices (Target 8.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course's core theme is applying AI innovation to design sustainable urban infrastructure, directly aligning with Targets 9.1, 9.4, and 9.5.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus supports a connection to reducing inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "This SDG is the central theme, explicitly mentioned in the course title and description ('Urban Eco-sustainable Design,' 'livable future cities'), directly addressing Targets 11.3 and 11.b.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 7.5,
+      "source": "revised_a",
+      "reasoning": "The course mentions 'plan resource allocation' and 'corporate ESG documents,' linking to efficient resource use (Target 12.2) and sustainable corporate practices (Target 12.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly covers 'Climate Change and Sustainability SDGs' and 'Urban Sustainable Challenge and Adaption,' demonstrating a strong, direct focus on climate action (Targets 13.1, 13.2, 13.3).",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus supports a connection to marine ecosystems or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 4.0,
+      "source": "revised_a",
+      "reasoning": "The course's focus on 'Urban Eco-sustainable Design' and 'land planning' implies integrating ecosystem values into planning (Target 15.9) to manage urban impact on terrestrial ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit or implicit evidence in the course syllabus supports a connection to peace, justice, or institutional strength.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "The course emphasizes 'team collaboration' and 'teamwork' for projects, reflecting principles of multi-stakeholder partnerships and knowledge sharing (Targets 17.6, 17.17).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    }
+  }
+}

@@ -226,7 +226,7 @@ async def Disscussion():
     result_folder = "./course113/all_courses_sdg_detail"
     os.makedirs(result_folder, exist_ok=True)
 
-    concurrency_limit = 1  # 您可以調整這個數值來決定要同步處理的課程數量
+    concurrency_limit = 5  # 您可以調整這個數值來決定要同步處理的課程數量
     semaphore = asyncio.Semaphore(concurrency_limit)
 
     tasks = [process_course(file_path, result_folder, semaphore) for file_path in prompt_files]

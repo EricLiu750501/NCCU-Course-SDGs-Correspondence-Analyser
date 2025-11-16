@@ -1,0 +1,810 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 7.5,
+      "reason": "Links to Target 4.7 ('knowledge and skills for sustainable development') through '科技的政治性與社會性意涵'.",
+      "evidence": [
+        "科技的政治性與社會性意涵"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 6.0,
+      "reason": "Links to Target 6.3 ('improve water quality') via '污染管制'.",
+      "evidence": [
+        "污染管制"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Affordable and Clean Energy": {
+      "score": 8.0,
+      "reason": "Links to Target 7.2 ('increase share of renewable energy') through '離岸風電是臺灣未來幾十年的重要建設'.",
+      "evidence": [
+        "離岸風電是臺灣未來幾十年的重要建設"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 5.0,
+      "reason": "Links to Target 8.3 ('support productive activities') through '企業的利益考量'.",
+      "evidence": [
+        "企業的利益考量"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 7.0,
+      "reason": "Links to Target 9.5 ('enhance scientific research') through '新技術的研發與知識教育的推廣'.",
+      "evidence": [
+        "新技術的研發與知識教育的推廣"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 6.5,
+      "reason": "Links to Target 12.4 ('environmentally sound management of chemicals') through '環境及工作人員的傷害更不容忽視'.",
+      "evidence": [
+        "環境及工作人員的傷害更不容忽視"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "score": 8.5,
+      "reason": "Links to Target 13.2 ('integrate climate change measures') through '科技的內生未知、風險與不確定性'.",
+      "evidence": [
+        "科技的內生未知、風險與不確定性"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 7.0,
+      "reason": "Links to Target 16.3 ('promote the rule of law') through '科學研究及法院審判都有其共通性'.",
+      "evidence": [
+        "科學研究及法院審判都有其共通性"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Zero Hunger": {
+        "score": 4.5,
+        "reason": "Discusses conflicts between energy projects and food production, such as how 'wind power can coexist with fisheries' and 'agrivoltaics/fishery-solar symbiosis'. This relates to Target 2.3 and 2.4.",
+        "evidence": [
+          "風電如何與漁業共存？",
+          "農漁電共生",
+          "和農業與漁業共生是解決土地有限的最佳方法"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Good Health and Well-being": {
+        "score": 8.5,
+        "reason": "Directly analyzes health impacts of industrial pollution and occupational hazards in cases like the 'RCA incident' and 'e-waste urban mining'. This links to Target 3.9.",
+        "evidence": [
+          "RCA事件",
+          "對於環境及工作人員的傷害更不容忽視",
+          "六輕健康風險評估爭議"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "score": 7.5,
+        "reason": "As a university course, it aims to provide knowledge for sustainable development by fostering 'critical awareness of the relationship between technology and society'. This aligns with Target 4.7.",
+        "evidence": [
+          "培養科技社會關係的批判意識",
+          "明白科學、技術與社會之間的共構、相互形塑關係",
+          "以個案議題的方式來探討科技與社會人文的牽連與交錯關係"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.5,
+        "reason": "A supplementary reading mentions 'female workers in electronics factories', but gender is not a central theme of the course.",
+        "evidence": [
+          "死了幾位電子廠女工之後"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 6.0,
+        "reason": "Analyzes cases of industrial pollution, such as the 'RCA incident' which involved groundwater contamination, linking to Target 6.3 on reducing pollution from hazardous chemicals.",
+        "evidence": [
+          "RCA事件",
+          "六輕石化管制",
+          "遲來的正義—RCA事件"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "score": 9.5,
+        "reason": "Core focus on energy controversies, with multiple case studies on 'offshore wind power', 'agrivoltaics/fishery-solar symbiosis', and 'nuclear disaster', directly addressing Target 7.2 on renewable energy.",
+        "evidence": [
+          "離岸風電進行式（I, II）",
+          "農漁電共生",
+          "核能災難"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 6.5,
+        "reason": "Examines occupational safety and health through cases like the 'RCA incident' and 'JR Fukuchiyama line accident', linking to Target 8.8 on safe working environments.",
+        "evidence": [
+          "對於環境及工作人員的傷害更不容忽視",
+          "第一線的司機在訓練與行車現場卻遭遇非常大的壓力",
+          "RCA事件"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 9.0,
+        "reason": "Critically analyzes industrial and infrastructural systems through cases like 'Formosa Plastics petrochemical regulation', 'JR Fukuchiyama line accident', and 'Kaohsiung gas explosion', linking to Target 9.1 and 9.4.",
+        "evidence": [
+          "六輕石化管制",
+          "JR福知山線事故",
+          "高雄氣爆"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 5.0,
+        "reason": "The course implicitly addresses inequality by examining how technological risks disproportionately affect certain groups, such as workers in the 'RCA incident' or fishers near wind farms. (Target 10.3)",
+        "evidence": [
+          "RCA事件",
+          "離岸風電與沿岸漁業的衝突"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 8.0,
+        "reason": "Directly addresses urban industrial disasters and infrastructure failures with the 'Kaohsiung gas explosion' case and waste management with 'e-waste urban mining'. This links to Target 11.5 and 11.6.",
+        "evidence": [
+          "高雄氣爆",
+          "廢五金城市礦山",
+          "地底一窺地下管線縱橫交錯的真正面目"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 8.5,
+        "reason": "A core theme, focusing on industrial pollution ('Formosa Plastics petrochemical regulation') and waste management ('e-waste urban mining'), directly addressing Target 12.4 and 12.5.",
+        "evidence": [
+          "廢五金城市礦山",
+          "六輕石化管制",
+          "企業的利益考量與嚴格的污染管制"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 7.0,
+        "reason": "Discusses key climate mitigation strategies through case studies on 'offshore wind power' and 'agrivoltaics', framed within Taiwan's 'energy transition'. This aligns with Target 13.2.",
+        "evidence": [
+          "離岸風電進行式",
+          "能源轉型",
+          "太陽光電是臺灣能源轉型的重要角色"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life Below Water": {
+        "score": 7.5,
+        "reason": "Explicitly covers the impacts of offshore wind on marine life, including 'ecological monitoring' and how 'wind power can coexist with fisheries'. This links directly to Target 14.2.",
+        "evidence": [
+          "離岸風電進行式II (生態與漁業)",
+          "海域中的生態監測與施工衝擊減緩問題",
+          "風電如何與漁業共存？"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life on Land": {
+        "score": 5.5,
+        "reason": "Analyzes land use conflicts between solar energy and agriculture in the 'agrivoltaics/fishery-solar symbiosis' case, including impacts on bird habitats. This relates to Target 15.1 and 15.5.",
+        "evidence": [
+          "農漁電共生",
+          "大規模的安裝需要大量的土地",
+          "當光電遇上候鳥"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 8.0,
+        "reason": "Focuses on governance, regulation, and justice, analyzing 'court trials' in the 'RCA incident' and the politics of setting 'pollution control' standards. This links to Target 16.3 and 16.6.",
+        "evidence": [
+          "RCA事件",
+          "法院審判",
+          "科技的管制標準之制訂",
+          "正視科學知識建構的政治過程"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 5.0,
+        "reason": "Analyzes multi-stakeholder conflicts (industry vs. regulation) and uses materials from an 'industry-academia cooperation project', touching on the dynamics of partnerships. This relates to Target 17.16 and 17.17.",
+        "evidence": [
+          "國科會科普傳播產學合作計畫",
+          "企業的利益考量與嚴格的污染管制",
+          "風電如何與漁業共存？"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B provides more comprehensive evidence and reasoning for several SDGs, leading to necessary revisions in my scores.",
+    "revisions": {
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B highlights conflicts between energy projects and food production, which I overlooked."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's analysis of health impacts from pollution is well-supported by course content."
+      },
+      "Gender Equality": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model B identifies relevant evidence regarding female workers that I missed."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 5.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B's focus on occupational safety provides a stronger link to the SDG."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's evidence on offshore wind impacts on marine life is compelling."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B's analysis of land use conflicts is relevant and well-supported."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 7.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's insights into governance and regulation are more comprehensive."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's discussion of industry-academia cooperation is relevant."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provides more comprehensive evidence and stronger reasoning for several SDGs, particularly those related to environmental impacts, social justice, and specific case studies. I am revising my scores to better reflect the course text.",
+    "revisions": {
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.5,
+        "reason": "Model A correctly identified explicit discussions on 'agrivoltaics/fishery-solar symbiosis' and 'wind power coexistence with fisheries', directly linking to sustainable food production."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 8.5,
+        "reason": "Model A highlighted direct evidence of health impacts from industrial pollution and occupational hazards in cases like RCA and e-waste, aligning with Target 3.9."
+      },
+      "Gender Equality": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.5,
+        "reason": "Model A noted a minor mention of 'female workers in electronics factories' in a supplementary reading, which is a valid, albeit small, connection."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 8.0,
+        "model_b_score": 8.0,
+        "your_revised": 9.5,
+        "reason": "Model A's reasoning was more comprehensive, citing multiple core case studies (offshore wind, agrivoltaics, nuclear) that make this a central theme."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 5.0,
+        "model_b_score": 5.0,
+        "your_revised": 6.5,
+        "reason": "Model A's focus on occupational safety and health in cases like RCA and JR Fukuchiyama line accident is a more direct link to Target 8.8."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 7.0,
+        "model_b_score": 7.0,
+        "your_revised": 9.0,
+        "reason": "Model A provided stronger evidence by linking multiple case studies (petrochemical, JR accident, Kaohsiung gas explosion) to industrial and infrastructural systems."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 5.0,
+        "reason": "Model A's inference about disproportionate impacts of technological risks on certain groups (e.g., RCA workers, fishers) is a reasonable link to Target 10.3."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 8.0,
+        "reason": "Model A correctly identified the 'Kaohsiung gas explosion' and 'e-waste urban mining' as direct evidence for urban disasters and waste management."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 6.5,
+        "model_b_score": 6.5,
+        "your_revised": 8.5,
+        "reason": "Model A's reasoning was more comprehensive, highlighting industrial pollution and waste management as core themes, aligning with Targets 12.4 and 12.5."
+      },
+      "Climate Action": {
+        "your_original": 8.5,
+        "model_b_score": 8.5,
+        "your_revised": 7.0,
+        "reason": "Model A's reasoning is more precise, focusing on specific climate mitigation strategies like 'offshore wind power' and 'agrivoltaics' within 'energy transition'."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 7.5,
+        "reason": "Model A correctly identified explicit discussions on offshore wind impacts on marine life, ecological monitoring, and fisheries coexistence."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 5.5,
+        "reason": "Model A pointed to the 'agrivoltaics/fishery-solar symbiosis' case and its impact on land use and bird habitats, directly linking to terrestrial ecosystems."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 7.0,
+        "model_b_score": 7.0,
+        "your_revised": 8.0,
+        "reason": "Model A's reasoning was more comprehensive, emphasizing governance, regulation, and the political process of standard-setting, aligning with Targets 16.3 and 16.6."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 5.0,
+        "reason": "Model A's inference about 'industry-academia cooperation' and multi-stakeholder conflicts is a valid connection to the dynamics of partnerships."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to poverty, thus the score remains unchanged.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models revised their scores to reflect evidence of conflicts between energy projects and food production, aligning with SDG targets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models provided strong evidence linking health impacts from pollution to SDG targets, particularly from industrial cases.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified the course's focus on critical awareness of technology and society, aligning with SDG targets.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Both models acknowledged limited evidence regarding gender issues, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models linked pollution cases to SDG targets, providing sufficient evidence for a moderate score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Model B's comprehensive evidence on energy projects aligns closely with SDG targets, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Both models provided evidence linking occupational safety to SDG targets, supporting a moderate score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlighted significant case studies linking industrial systems to SDG targets, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models inferred inequality issues related to technological risks, supporting a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models provided evidence linking urban disasters to SDG targets, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models emphasized industrial pollution and waste management, aligning well with SDG targets.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models discussed climate strategies, but Model A's focus on specific mitigation measures aligns better with SDG targets.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models provided strong evidence on marine impacts from energy projects, justifying a moderate to high score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Both models identified land use conflicts, providing sufficient evidence for a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasized governance and regulation, aligning well with SDG targets.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models discussed multi-stakeholder dynamics, providing a reasonable basis for a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No explicit or strong implicit evidence in the course syllabus directly addresses poverty eradication or related targets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly discusses '農漁電共生' (agrivoltaics/fishery-solar symbiosis) and '風電如何與漁業共存', directly linking to sustainable food production and small-scale producers (Targets 2.3, 2.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "Strong evidence from 'RCA事件', '六輕健康風險評估爭議', and '廢五金城市礦山' (harm to workers) directly addresses health impacts from pollution and occupational hazards (Target 3.9).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "As a university course, its objectives to foster 'critical awareness' and understanding of 'technoscience, society & controversy' directly align with Target 4.7 on education for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "A supplementary reading for the RCA event mentions '死了幾位電子廠女工之後' (female electronics factory workers), providing a minor but explicit link to gender in occupational health.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Cases like 'RCA事件' (groundwater contamination) and '六輕石化管制' (pollution control) directly relate to improving water quality and reducing hazardous chemical release (Target 6.3).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course has a core focus on energy controversies, with multiple case studies on '離岸風電', '農漁電共生', and '核能災難', directly addressing renewable energy and energy systems (Target 7.2).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course examines occupational safety and health through cases like 'RCA事件' and 'JR福知山線事故' (driver pressure), and '廢五金城市礦山' (harm to workers), linking to safe working environments (Target 8.8).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "Multiple case studies ('六輕石化管制', 'JR福知山線事故', '高雄氣爆', '離岸風電') critically analyze industrial and infrastructural systems, their development, safety, and sustainability (Targets 9.1, 9.4).",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The STS perspective implicitly addresses how technological risks and controversies disproportionately affect certain groups, such as workers in 'RCA事件' or fishers in '離岸風電與沿岸漁業的衝突' (Target 10.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The '高雄氣爆' case directly addresses urban industrial disasters and infrastructure failures (Target 11.5), while '廢五金城市礦山' relates to waste management in communities (Target 11.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "A core theme, with '六輕石化管制' focusing on industrial pollution and '廢五金城市礦山' on waste management and green processes, directly addressing environmentally sound management and waste reduction (Targets 12.4, 12.5).",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": null,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course discusses '能源轉型' and features '離岸風電' and '太陽光電' as key climate mitigation strategies, aligning with integrating climate change measures into policies (Target 13.2).",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The '離岸風電進行式II (生態與漁業)' module explicitly covers marine ecological monitoring, impact mitigation, and coexistence with fisheries, directly linking to marine ecosystem protection (Target 14.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The '農漁電共生' case study analyzes land use conflicts and impacts on bird habitats ('當光電遇上候鳥'), relating to terrestrial ecosystem conservation and biodiversity loss (Targets 15.1, 15.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on governance, regulation, and justice, analyzing 'RCA事件' (court trials), '科技的管制標準之制訂', and '科學知識建構的政治過程', aligning with rule of law and effective institutions (Targets 16.3, 16.6).",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course utilizes materials from a '國科會科普傳播產學合作計畫' (industry-academia cooperation) and examines multi-stakeholder conflicts (e.g., industry vs. regulation, wind power vs. fisheries), reflecting partnership dynamics (Targets 17.16, 17.17).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

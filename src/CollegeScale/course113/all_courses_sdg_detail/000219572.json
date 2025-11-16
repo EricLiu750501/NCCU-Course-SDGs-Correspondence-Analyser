@@ -1,0 +1,801 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 4.0,
+      "reason": "Course covers economic principles relevant to poverty reduction strategies.",
+      "evidence": [
+        "經濟學之基本知識",
+        "財政政策與貨幣政策"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links to hunger or nutrition.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links to health topics.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 8.0,
+      "reason": "Course provides foundational knowledge for business education, linking to educational quality.",
+      "evidence": [
+        "為後續商管相關課程奠定基礎",
+        "經濟之基本知識"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links to gender equality.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links to water or sanitation.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links to energy topics.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 9.0,
+      "reason": "Course covers economic growth and labor markets, linking to decent work.",
+      "evidence": [
+        "總體經濟與總體指標",
+        "財政政策與貨幣政策"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 4.0,
+      "reason": "Moderate relevance through economic principles related to industry.",
+      "evidence": [
+        "總體經濟與總體指標",
+        "國際貿易"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links to inequality issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links to urban sustainability.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links to consumption or production.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links to climate action.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links to marine issues.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links to terrestrial ecosystems.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links to peace or justice.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links to partnerships.",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 6.0,
+        "reason": "Covers \"Fiscal policy\" and \"Production and Growth,\" which are essential for creating policy frameworks (Target 1.b) and economic conditions to reduce poverty.",
+        "evidence": [
+          "財政政策與貨幣政策",
+          "Production and Growth",
+          "Measuring a nation's income"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 1.5,
+        "reason": "General principles of \"International trade\" and \"Aggregate demand and supply\" can be applied to food markets and trade distortions (Targets 2.b, 2.c), but lack specific focus.",
+        "evidence": [
+          "國際貿易",
+          "總合供需模型"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 1.0,
+        "reason": "The study of \"Unemployment\" provides a framework to analyze gender disparities in economic life (Target 5.5), but this is not an explicit topic.",
+        "evidence": [
+          "Unemployment"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about economic growth, covering \"Production and Growth\" (Target 8.1), \"Unemployment\" (Target 8.5), and financial systems (Target 8.10).",
+        "evidence": [
+          "Production and Growth",
+          "Unemployment",
+          "The Monetary System"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 8.0,
+        "reason": "Covers \"Production and Growth\" and \"Fiscal policy,\" which are fundamental to industrialization (Target 9.2), innovation (Target 9.5), and infrastructure development (Target 9.1).",
+        "evidence": [
+          "Production and Growth",
+          "財政政策與貨幣政策",
+          "The Basic Tools of Finance"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 7.5,
+        "reason": "Teaches about \"Fiscal policy\" (Target 10.4) and \"Measuring a nation's income\" (Target 10.1), key tools for analyzing and addressing economic inequality.",
+        "evidence": [
+          "財政政策與貨幣政策",
+          "Measuring a nation's income",
+          "Measuring the cost of living"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 0.001,
+        "reason": "The topic \"Production and Growth\" provides a basis for understanding production, but lacks any mention of sustainability or resource efficiency (Target 12.2).",
+        "evidence": [
+          "Production and Growth"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 4.5,
+        "reason": "\"International finance\" and \"The Monetary System\" are foundational for understanding illicit financial flows and strengthening economic institutions (Targets 16.4, 16.6).",
+        "evidence": [
+          "國際金融",
+          "The Monetary System",
+          "財政政策與貨幣政策"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 8.5,
+        "reason": "Focuses on \"International trade,\" \"International finance,\" and macroeconomics, which are central to global macroeconomic stability and trade systems (Targets 17.10, 17.13).",
+        "evidence": [
+          "國際貿易",
+          "國際金融",
+          "Open-economy macroeconomics"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides a more nuanced understanding of several SDGs, particularly No Poverty and Decent Work, warranting revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B highlights specific economic principles directly linked to poverty reduction."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 9.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B emphasizes the course's comprehensive focus on economic growth and labor markets."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B connects course content to industrialization and infrastructure development more effectively."
+      },
+      "Reduced Inequalities": {
+        "your_original": 1.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B identifies relevant economic concepts that address inequality issues."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 1.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's analysis aligns course content with global economic stability and trade systems."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more specific and accurate linkages to SDG targets, particularly for economic and institutional goals, leading to several score adjustments.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model A's reasoning explicitly links 'Fiscal policy' and 'Production and Growth' to poverty reduction, which is more precise."
+      },
+      "Zero Hunger": {
+        "your_original": 1.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model A's inference regarding 'International trade' and 'Aggregate demand and supply' for food markets is a reasonable, albeit minimal, link."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Aligning with Model A, there is no direct or inferable evidence for this SDG in the course text."
+      },
+      "Gender Equality": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Adopting Model A's reasoning that 'Unemployment' can provide a framework for analyzing gender disparities."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Aligning with Model A, there is no direct or inferable evidence for this SDG in the course text."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Aligning with Model A, there is no direct or inferable evidence for this SDG in the course text."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 9.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A's reasoning more comprehensively covers core economic growth, employment, and financial systems, warranting a perfect score."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 4.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A's reasoning provides stronger links between 'Production and Growth,' 'Fiscal policy,' and 'Finance' to industrialization and infrastructure."
+      },
+      "Reduced Inequalities": {
+        "your_original": 1.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model A correctly identifies 'Fiscal policy' and 'Measuring a nation's income' as key tools for addressing economic inequality."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Aligning with Model A, there is no direct or inferable evidence for this SDG in the course text."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 1.0,
+        "model_b_score": 0.001,
+        "your_revised": 0.001,
+        "reason": "Model A's reasoning correctly notes that while production is covered, sustainability aspects are absent, making the link minimal."
+      },
+      "Climate Action": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Aligning with Model A, there is no direct or inferable evidence for this SDG in the course text."
+      },
+      "Life Below Water": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Aligning with Model A, there is no direct or inferable evidence for this SDG in the course text."
+      },
+      "Life on Land": {
+        "your_original": 1.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Aligning with Model A, there is no direct or inferable evidence for this SDG in the course text."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 1.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A's reasoning correctly infers links between 'International finance,' 'Monetary System,' and strengthening economic institutions."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 1.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A's reasoning strongly connects 'International trade,' 'International finance,' and macroeconomics to global partnerships and stability."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight fiscal policy and economic growth as key to poverty reduction. The score reflects a balanced view of course content linking to poverty alleviation.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model B's reasoning connects economic principles to food markets, providing a minimal but valid link to hunger issues.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the lack of relevant content in the course related to health and well-being.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model A's explicit connections to foundational knowledge for business education align well with SDG 4's objectives.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize minimal relevance, with Model B inferring some connection through unemployment, but overall evidence remains weak.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no relevant content in the course related to water and sanitation.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the absence of relevant content regarding energy topics.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Both models emphasize the course's comprehensive focus on economic growth and labor markets, justifying a perfect score.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on industrialization and infrastructure aligns well with course content, supported by Model A's revisions.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models identify relevant economic concepts that address inequality, with Model B providing a stronger rationale.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no relevant content in the course related to urban sustainability.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Model A's reasoning highlights minimal relevance, while Model B acknowledges some connection through production topics.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the lack of relevant content in the course related to climate action.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models find no relevant content in the course related to marine issues.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the absence of relevant content regarding terrestrial ecosystems.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's reasoning effectively connects course content to institutional frameworks, supported by Model A's insights.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's relevance to global partnerships and economic stability, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "The course covers macroeconomics, fiscal policy, production, and national income measurement, which are foundational for understanding and addressing poverty and creating relevant policy frameworks (Target 1.b).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.5,
+      "source": "model_b",
+      "reasoning": "Topics like 'International trade' and 'Aggregate demand and supply' offer a very general framework that could be applied to food commodity markets and trade distortions (Targets 2.b, 2.c), but lack specific focus.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "There is no direct or inferable evidence in the course syllabus related to health, well-being, or associated topics.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_a",
+      "reasoning": "The course explicitly aims to provide basic economic knowledge and lay the foundation for subsequent business management courses, directly contributing to quality tertiary education and skill development (Targets 4.3, 4.4).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "While economic topics like unemployment could theoretically be used to analyze gender disparities, the syllabus provides no explicit or strong inferential link to gender equality.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "There is no direct or inferable evidence in the course syllabus related to water, sanitation, or associated environmental topics.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "There is no direct or inferable evidence in the course syllabus related to energy, clean energy, or associated topics.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course is fundamentally about macroeconomics, covering key drivers of economic growth, employment, and financial systems, directly aligning with multiple targets under SDG 8.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Topics like 'Production and Growth,' 'Fiscal policy,' and 'The Basic Tools of Finance' provide foundational economic understanding for industrialization, infrastructure development, and fostering innovation.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "The course covers 'Fiscal policy,' 'Measuring a nation's income,' and 'Measuring the cost of living,' which are fundamental for analyzing and implementing policies to reduce economic inequalities (Targets 10.1, 10.4).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "There is no direct or inferable evidence in the course syllabus related to urban planning, housing, transport, or community development.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "While the course covers 'Production and Growth' and 'Aggregate demand and supply,' which are economic aspects of consumption and production, there is no explicit or inferable focus on the responsible or sustainable dimensions of these activities as defined by SDG 12.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "There is no direct or inferable evidence in the course syllabus related to climate change, environmental hazards, or associated policies.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "There is no direct or inferable evidence in the course syllabus related to marine life, oceans, or water ecosystems.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "There is no direct or inferable evidence in the course syllabus related to terrestrial ecosystems, biodiversity, forests, or land degradation.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course covers 'The Monetary System,' 'International Finance,' and 'Fiscal Policy,' which are foundational for understanding and strengthening economic institutions and governance (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "The course's focus on 'International trade,' 'International finance,' and 'Open-economy macroeconomics' directly addresses key aspects of global partnerships for development, including trade systems and macroeconomic stability (Targets 17.10, 17.13).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    }
+  }
+}

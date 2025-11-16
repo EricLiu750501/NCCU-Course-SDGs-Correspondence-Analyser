@@ -1,0 +1,811 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 4.5,
+      "reason": "Course promotes understanding of environmental changes, linking to Target 4.7 ('knowledge for sustainable development').",
+      "evidence": [
+        "understanding the relationship between human history and environmental changes",
+        "knowledge and skills needed to promote sustainable development"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 5.0,
+      "reason": "Course discusses scientific advancements and modeling, linking to Target 9.5 ('enhance scientific research').",
+      "evidence": [
+        "advance in science development for reconstructing the past land-use",
+        "modeling local LULCC"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 6.5,
+      "reason": "Explores land-use changes impacting urban environments, relevant to Target 11.3 ('sustainable urbanization').",
+      "evidence": [
+        "impact of local land-use changes on the global environment",
+        "enhance inclusive and sustainable urbanization"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 7.5,
+      "reason": "Links to Target 13.2 ('integrate climate change measures') through discussions on climate impacts.",
+      "evidence": [
+        "impact of LULCC on Climate Change",
+        "integrate climate change measures"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 8.0,
+      "reason": "Focus on land-use changes and their impacts aligns with Target 15.3 ('combat desertification').",
+      "evidence": [
+        "land-use and land-cover changes",
+        "combat desertification"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.0,
+        "reason": "Discusses land economic theory, inferring a link to Target 1.4 regarding control over land as an economic resource, but does not focus on poverty.",
+        "evidence": [
+          "邱念(von Thunen)土地經濟理論",
+          "land-use and land-cover changes"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 5.5,
+        "reason": "Analyzes historical land use, including farmland reconstruction, which is foundational to understanding sustainable food production systems and land quality (Target 2.4).",
+        "evidence": [
+          "Reconstruction of farmland dataset of Taiwan province",
+          "Historical Farmland in China",
+          "progressively improve land and soil quality"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 0.5,
+        "reason": "An inferred link exists as land use change impacts the global environment (Target 3.9), but the course does not explicitly discuss pollution or health outcomes.",
+        "evidence": [
+          "impact of land-use and land-cover changes on the global environment"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "The course directly provides education on sustainable development topics like environmental change and climate change, aligning with the goals of Target 4.7.",
+        "evidence": [
+          "understanding the relationship between human history and environmental changes",
+          "Impact of LULCC on Climate Change",
+          "IPCC Special report on Climate Change and Land"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 4.5,
+        "reason": "The study of land cover change, including vegetation and forests, is directly linked to the health of water-related ecosystems as mentioned in Target 6.6.",
+        "evidence": [
+          "land-use and land-cover changes",
+          "Vegetation Growth and Climate"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 4.0,
+        "reason": "Analyzes the historical link between human activity and environmental degradation, which is foundational knowledge for Target 8.4 (decoupling growth from environmental degradation).",
+        "evidence": [
+          "understanding the relationship between human history and environmental changes",
+          "impact of land-use and land-cover changes on the global environment",
+          "邱念(von Thunen)土地經濟理論"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 7.5,
+        "reason": "Focuses on enhancing scientific research (Target 9.5) by teaching modeling and the use of satellite and remote sensing technology for environmental monitoring.",
+        "evidence": [
+          "運用衛星資料反演地表的覆蓋狀況 (use of remote sensing techniques to retrieve land use and land cover data from the satellite observations)",
+          "建構一個試驗性的土地使用變化模式 (construct an experimental land use change model)",
+          "scientific research"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 6.0,
+        "reason": "The focus on modeling and reconstructing land use change is fundamental to sustainable urbanization and human settlement planning as described in Target 11.3.",
+        "evidence": [
+          "局地土地利用改變 (local land-use changes)",
+          "Reconstructing Taiwan’s land cover changes",
+          "sustainable human settlement planning"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 7.0,
+        "reason": "The course is fundamentally about understanding the use of land, a key natural resource, providing the basis for its sustainable management as per Target 12.2.",
+        "evidence": [
+          "Land-Use and Land-Cover Change: Local Processes and Global Impacts",
+          "Exploring Sustainable Land Use in Monsoon Asia",
+          "efficient use of natural resources"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 10.0,
+        "reason": "A core concept for this SDG, with explicit weekly topics on 'Impact of LULCC on Climate Change' and the 'IPCC Special report,' directly supporting Target 13.3.",
+        "evidence": [
+          "Impact of LULCC on Climate Change",
+          "IPCC Special report on Climate Change and Land",
+          "Vegetation Growth and Climate"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 10.0,
+        "reason": "A core concept for this SDG, as it fundamentally analyzes land cover change, deforestation, and the human impact on terrestrial ecosystems (Targets 15.1, 15.2, 15.3).",
+        "evidence": [
+          "以歷史的角度看地表變遷 (Taking the historical perspective to reveal drivers for land cover change)",
+          "Vegetation Growth and Climate",
+          "restore degraded forests"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 6.5,
+        "reason": "Builds capacity in data analysis (Target 17.18) and utilizes outputs from international scientific cooperation like the IPCC and global datasets (Target 17.6).",
+        "evidence": [
+          "Global LULCC Reconstruction Projects",
+          "IPCC Special report on Climate Change and Land",
+          "運用衛星資料反演地表的覆蓋狀況 (use of remote sensing techniques... from satellite observations)"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive insights, leading to necessary revisions in my scores for several SDGs.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B's link to land economic theory aligns with course content."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B's focus on historical land use aligns with sustainable food production."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model B's inferred link to environmental impacts is valid."
+      },
+      "Quality Education": {
+        "your_original": 4.5,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B emphasizes direct education on sustainable development."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's connection to water-related ecosystems is relevant."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's analysis of environmental degradation links to economic growth."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 6.5,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B's score reflects a more cautious interpretation of urbanization."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B's focus on sustainable land use aligns with responsible consumption."
+      },
+      "Climate Action": {
+        "your_original": 7.5,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's emphasis on climate change topics is well-supported."
+      },
+      "Life on Land": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's comprehensive analysis of land cover change is accurate."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B's focus on data analysis and international cooperation is relevant."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provided stronger evidence and more accurate interpretations for several SDGs, particularly those related to land use, climate, and scientific capacity building. My original scores were too conservative in these areas.",
+    "revisions": {
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model A correctly identified the relevance of historical farmland reconstruction to sustainable food systems (Target 2.4), which I overlooked."
+      },
+      "Quality Education": {
+        "your_original": 4.5,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model A's higher score better reflects the course's explicit focus on environmental change and climate change education (Target 4.7)."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A's reasoning linking land cover, vegetation, and forests to water-related ecosystems (Target 6.6) is a valid inference I missed."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A's connection between understanding historical human impact on the environment and decoupling economic growth from degradation (Target 8.4) is sound."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 5.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model A's higher score better reflects the course's explicit focus on scientific advancement, modeling, and remote sensing technology (Target 9.5)."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model A correctly highlighted the course's fundamental focus on land use and its sustainable management (Target 12.2), which I initially overlooked."
+      },
+      "Climate Action": {
+        "your_original": 7.5,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A's perfect score is justified by the explicit weekly topics on LULCC's impact on climate change and the IPCC report (Target 13.3)."
+      },
+      "Life on Land": {
+        "your_original": 8.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model A's perfect score is accurate, as the course's core subject is land cover change and human impact on terrestrial ecosystems (Targets 15.1, 15.2, 15.3)."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model A correctly identified the course's use of global datasets and IPCC reports, aligning with international cooperation and data capacity building (Targets 17.6, 17.18)."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "The course discusses land economic theory, which aligns with Target 1.4 regarding control over land as an economic resource, but lacks a direct focus on poverty alleviation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "The course's analysis of historical land use and farmland reconstruction aligns with sustainable food production systems (Target 2.4), as noted in both models.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Both models infer a link between land use change and environmental impacts on health, but the course does not explicitly address health outcomes.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course explicitly focuses on education related to environmental change and sustainable development, aligning with Target 4.7.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material to support any score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "The course discusses land cover changes and their implications for water-related ecosystems, aligning with Target 6.6.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material to support any score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "The course discusses the historical link between human activity and environmental degradation, relevant to Target 8.4.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "The course emphasizes scientific advancements and modeling, aligning with Target 9.5 on enhancing scientific research.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material to support any score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on land-use changes is relevant to sustainable urbanization and human settlement planning (Target 11.3).",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "The course's emphasis on land use and sustainable management aligns with Target 12.2.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's explicit focus on climate change topics and their impacts aligns perfectly with Target 13.3.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material to support any score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's core focus on land cover change aligns perfectly with Targets 15.1, 15.2, and 15.3.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material to support any score for this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "The course's focus on data analysis and international cooperation aligns with Targets 17.6 and 17.18.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course mentions land economic theory but does not explicitly or implicitly link it to poverty eradication, land access for the poor, or any other target of SDG 1. The connection is too tenuous.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers historical farmland reconstruction and land use changes, which are foundational to understanding sustainable food production systems and land quality (Target 2.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "The course discusses the impact of land-use changes on the global environment, which can indirectly relate to reducing illnesses from pollution (Target 3.9), though health outcomes are not explicitly covered.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course directly provides education on critical sustainable development topics, including environmental change, climate change, and land use, aligning strongly with Target 4.7.",
+      "model_comparison": {
+        "model_a_original": 4.5,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no explicit or implicit evidence in the course description, learning outcomes, or weekly topics that relates to gender equality.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on land cover change, vegetation, and climate provides foundational knowledge for understanding and protecting water-related ecosystems (Target 6.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no explicit or implicit evidence in the course content that relates to affordable and clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course analyzes the historical relationship between human activity, land use, and environmental degradation, providing foundational knowledge for decoupling economic growth from environmental degradation (Target 8.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly focuses on scientific advancements, LULCC modeling, and remote sensing techniques, directly contributing to enhancing scientific research and technological capabilities (Target 9.5).",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no explicit or implicit evidence in the course content that relates to reducing inequalities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 6.5,
+      "source": "model_a",
+      "reasoning": "The course explores land-use changes and their impact on human life and the global environment, providing foundational knowledge for understanding sustainable urbanization and human settlement planning (Target 11.3).",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course fundamentally focuses on land-use and land-cover change, providing essential knowledge for the sustainable management and efficient use of land as a natural resource (Target 12.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly dedicates weekly topics to 'Impact of LULCC on Climate Change' and the 'IPCC Special report on Climate Change and Land,' making it a core focus directly supporting climate action education (Target 13.3).",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course focuses exclusively on terrestrial land cover change and its impacts, with no explicit or implicit mention of marine or aquatic ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course's central theme is land cover change, its historical drivers, and impacts on terrestrial ecosystems, directly aligning with the conservation, restoration, and sustainable use of land (Targets 15.1, 15.2, 15.3).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no explicit or implicit evidence in the course content that relates to peace, justice, or strong institutions.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course utilizes outputs from international scientific cooperation (IPCC report, global LULCC projects) and builds capacity in data analysis and remote sensing, aligning with Targets 17.6 and 17.18.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

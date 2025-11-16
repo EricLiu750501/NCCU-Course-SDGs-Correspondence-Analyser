@@ -1,0 +1,761 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 7.5,
+      "reason": "Course enhances legal education and skills, linking to Target 4.4 ('increase relevant skills for employment').",
+      "evidence": [
+        "培養讓學生的分析與整體能力",
+        "具備進行基本分析保險法相關法制"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 4.0,
+      "reason": "Course prepares students for legal practice, supporting Target 8.5 ('decent work for all').",
+      "evidence": [
+        "對學生未來繼續升學或從事法律實務工作將能有所助益"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 8.0,
+      "reason": "Course focuses on legal principles, linking to Target 16.3 ('promote rule of law').",
+      "evidence": [
+        "介紹保險法的原理、基礎架構與重要概念",
+        "保險法與民法、消費者保護法"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 4.5,
+        "reason": "The course covers insurance types like property and health insurance, which are financial services that build resilience for the vulnerable against shocks, aligning with Targets 1.4 and 1.5.",
+        "evidence": [
+          "財產保險",
+          "健康保險",
+          "金融消費者保護法"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.001,
+        "reason": "A very weak link can be inferred as \"Property insurance\" could potentially cover agricultural assets, supporting Target 2.3, but this is not explicitly mentioned in the course.",
+        "evidence": [
+          "財產保險"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Good Health and Well-being": {
+        "score": 8.0,
+        "reason": "The course explicitly covers \"Health insurance\" and \"accident insurance,\" which are fundamental to achieving universal health coverage and financial risk protection (Target 3.8).",
+        "evidence": [
+          "健康保險、傷害保險",
+          "強制汽車責任保險法"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "score": 6.5,
+        "reason": "As a university course, it provides tertiary education (Target 4.3) and skills for employment. It explicitly lists \"the values of global citizenship\" as a core competence (Target 4.7).",
+        "evidence": [
+          "Course Department:Graduate Institute of Law and Interdisciplinary Studies",
+          "從事法律實務工作",
+          "現代與國際公民之價值"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 1.5,
+        "reason": "The study of insurance and consumer protection law implies principles of non-discrimination, which supports equal access to financial services for women (Target 5.a), though not explicitly stated.",
+        "evidence": [
+          "保險法",
+          "消費者保護法"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 6.0,
+        "reason": "The course on insurance law is fundamental to strengthening domestic financial institutions (Target 8.10) and expanding access to insurance and financial services for all (Target 8.3).",
+        "evidence": [
+          "保險法",
+          "財產保險",
+          "責任保險"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 5.5,
+        "reason": "The course covers \"Property insurance\" and \"Liability insurance,\" which are critical financial services for developing resilient infrastructure and supporting industrial enterprises (Targets 9.1, 9.3).",
+        "evidence": [
+          "財產保險",
+          "責任保險"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 4.0,
+        "reason": "The course covers \"Consumer Protection Law\" and \"Financial Consumer Protection Law,\" which aim to ensure equal opportunity and reduce inequalities in financial markets (Targets 10.2, 10.3).",
+        "evidence": [
+          "消費者保護法",
+          "金融消費者保護法"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 4.5,
+        "reason": "The study of \"Property insurance\" is crucial for reducing economic losses from disasters and building community resilience, directly supporting Targets 11.5 and 11.b.",
+        "evidence": [
+          "財產保險",
+          "責任保險",
+          "強制汽車責任保險法"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 2.5,
+        "reason": "\"Property insurance\" is a key mechanism for strengthening financial resilience and adaptive capacity to climate-related hazards and natural disasters, as per Target 13.1.",
+        "evidence": [
+          "財產保險"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 7.5,
+        "reason": "As a law course, it directly promotes the rule of law and access to justice (Target 16.3) and contributes to developing effective, accountable institutions (Target 16.6).",
+        "evidence": [
+          "保險法",
+          "分析保險法相關法制以及實務案例之能力",
+          "消費者保護法"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 0.5,
+        "reason": "The mention of \"comparative law\" and \"global citizenship\" suggests an international perspective, but there is no direct evidence related to partnerships, finance, or technology transfer.",
+        "evidence": [
+          "比較法的介紹",
+          "現代與國際公民之價值"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive evidence for several SDGs, prompting necessary revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B highlights insurance's role in building resilience for the vulnerable, aligning with course content."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B correctly identifies health insurance as a key component of the course, supporting universal health coverage."
+      },
+      "Quality Education": {
+        "your_original": 7.5,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B's emphasis on tertiary education aligns better with the course's focus on legal education."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B provides stronger links to financial services and employment opportunities through insurance."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B connects insurance to infrastructure resilience, which is supported by course content."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's focus on consumer protection law aligns with the course's implications for reducing inequalities."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's connection between property insurance and community resilience is supported by course content."
+      },
+      "Climate Action": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B accurately links property insurance to climate resilience, reflecting course themes."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 8.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's score reflects a more nuanced understanding of the course's focus on legal principles."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model B's mention of global citizenship suggests a relevant, albeit weak, connection to partnerships."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more comprehensive reasoning, particularly in identifying the broader societal impacts of insurance law on resilience, health, and economic development. I will revise several scores based on these insights.",
+    "revisions": {
+      "No Poverty (No Poverty)": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Insurance, especially health and property, builds financial resilience for vulnerable groups, directly aligning with Targets 1.4 and 1.5."
+      },
+      "Good Health and Well-being (Good Health and Well-being)": {
+        "your_original": 0.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "The course explicitly covers 'Health insurance' and 'accident insurance,' directly supporting universal health coverage and financial risk protection (Target 3.8)."
+      },
+      "Gender Equality (Gender Equality)": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Consumer protection laws imply non-discrimination, supporting equal access to financial services for all, including women (Target 5.a)."
+      },
+      "Decent Work and Economic Growth (Decent Work and Economic Growth)": {
+        "your_original": 4.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Insurance law strengthens financial institutions (Target 8.10) and expands access to financial services (Target 8.3), contributing to economic growth."
+      },
+      "Industry, Innovation and Infrastructure (Industry, Innovation and Infrastructure)": {
+        "your_original": 0.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Property and liability insurance are crucial for resilient infrastructure and supporting industrial enterprises (Targets 9.1, 9.3)."
+      },
+      "Reduced Inequalities (Reduced Inequalities)": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Consumer and financial consumer protection laws aim to ensure equal opportunity and reduce inequalities in financial markets (Targets 10.2, 10.3)."
+      },
+      "Sustainable Cities and Communities (Sustainable Cities and Communities)": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Property and liability insurance reduce economic losses from disasters and build community resilience (Targets 11.5, 11.b)."
+      },
+      "Climate Action (Climate Action)": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Property insurance strengthens financial resilience and adaptive capacity to climate-related hazards and natural disasters (Target 13.1)."
+      },
+      "Partnerships for the Goals (Partnerships for the Goals)": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "The mention of 'comparative law' and 'global citizenship' suggests an international perspective, a weak link to global partnerships."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the role of insurance in building resilience for vulnerable populations, aligning with Targets 1.4 and 1.5. The evidence supports this connection effectively.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.001,
+      "source": "synthesized",
+      "reasoning": "Model B's inference about property insurance covering agricultural assets is weak but the only link available, justifying a minimal score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": 0.001
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models accurately identify health insurance as a key component of the course, directly supporting universal health coverage (Target 3.8).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Model A's original score was higher, but Model B's emphasis on tertiary education aligns better with the course's focus on legal education.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Model B's reasoning about consumer protection laws implying non-discrimination aligns with the course content, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support any score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support any score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's role in strengthening financial institutions and expanding access to financial services, aligning with Targets 8.3 and 8.10.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Both models connect insurance to infrastructure resilience, supported by course content, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight consumer protection laws' role in reducing inequalities, aligning with Targets 10.2 and 10.3.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models connect property insurance to community resilience, supported by course content, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support any score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "Both models link property insurance to climate resilience, reflecting course themes, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support any score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in either model to support any score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models effectively promote the rule of law and access to justice, aligning with Targets 16.3 and 16.6.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Both models suggest a weak connection to partnerships through mentions of global citizenship, justifying a minimal score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "Insurance law, covering health and property insurance, provides financial protection and builds resilience for vulnerable populations against economic shocks, aligning with Targets 1.4 and 1.5.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "The course syllabus provides no direct or indirect evidence related to food security, agricultural productivity, or sustainable food systems. The link to property insurance is too speculative.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.001,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers health insurance, accident insurance, and compulsory automobile liability insurance, directly contributing to universal health coverage and financial risk protection (Target 3.8).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "As a university-level law course, it provides quality tertiary education (Target 4.3), develops analytical skills for employment (Target 4.4), and explicitly fosters global citizenship values (Target 4.7).",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "While consumer protection laws generally promote fairness, the syllabus lacks explicit mention of gender equality or specific measures to ensure women's equal access to financial services (Target 5.a). The link is highly indirect.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no direct or indirect evidence related to clean water, sanitation, or water resource management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no direct or indirect evidence related to energy, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course strengthens domestic financial institutions and expands access to insurance services (Target 8.10), while also preparing students for decent work in legal practice (Target 8.5).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "Property and liability insurance, covered in the course, are crucial financial services for developing resilient infrastructure and supporting industrial enterprises by mitigating risks (Targets 9.1, 9.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course covers Consumer Protection Law and Financial Consumer Protection Law, which are designed to ensure equal opportunity and reduce inequalities in financial markets (Targets 10.2, 10.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "Property and liability insurance, including compulsory automobile liability insurance, help reduce economic losses from disasters and build community resilience, aligning with Targets 11.5 and 11.b.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no direct or indirect evidence related to responsible consumption, production patterns, or resource efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "Property insurance, a core topic, strengthens financial resilience and adaptive capacity against climate-related hazards and natural disasters, aligning with Target 13.1.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no direct or indirect evidence related to marine ecosystems, ocean health, or life below water.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no direct or indirect evidence related to terrestrial ecosystems, biodiversity, or sustainable land use.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "model_a",
+      "reasoning": "The course is foundational in insurance law, promoting the rule of law and legal frameworks (Target 16.3) and contributing to the development of effective, accountable institutions (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "The course's inclusion of comparative law and fostering 'global citizenship values' suggests a very indirect and weak link to international cooperation and partnerships (Target 17.6, 17.16).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    }
+  }
+}

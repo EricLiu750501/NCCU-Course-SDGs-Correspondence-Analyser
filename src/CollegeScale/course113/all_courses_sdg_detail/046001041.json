@@ -1,0 +1,689 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 8.5,
+      "reason": "Course aims to provide programming skills, linking to Target 4.4 ('increase relevant skills for employment').",
+      "evidence": [
+        "幫助尚未具備程式設計基礎的學生",
+        "讓學生能實際運用程式語言來撰寫程式"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 7.0,
+      "reason": "Course content on programming supports innovation and technology, linking to Target 9.5 ('enhance scientific research').",
+      "evidence": [
+        "程式設計的核心概念",
+        "運用pandas進行資料科學"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.0,
+        "reason": "Programming skills can indirectly support access to economic resources (Target 1.4), as it is an 'indispensable basic ability' for many jobs.",
+        "evidence": [
+          "不可或缺的基本能力 (indispensable basic ability)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Good Health and Well-being": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "As a university course, it provides tertiary education (Target 4.3) and teaches 'programming' skills relevant for employment (Target 4.4).",
+        "evidence": [
+          "程式設計概論 (Programming 101)",
+          "幫助尚未具備程式設計基礎的學生 (help students who do not yet have a basic knowledge of programming)"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 2.0,
+        "reason": "Inferred link to Target 5.b by teaching 'information technology' skills, which is an enabling technology that can be used to promote the empowerment of women.",
+        "evidence": [
+          "資訊科技的日新月異 (rapid changes in information technology)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 8.5,
+        "reason": "Directly supports Target 8.2 and 8.3 by teaching 'programming', an 'indispensable basic ability' for technological upgrading, innovation, and decent job creation.",
+        "evidence": [
+          "程式設計儼然成為各行各業不可或缺的基本能力 (programming has become an indispensable basic ability in all walks of life)"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 9.0,
+        "reason": "Core to Target 9.5 and 9.b by teaching 'programming' and 'data science', which upgrade technological capabilities and support innovation.",
+        "evidence": [
+          "程式設計概論 (Programming 101)",
+          "運用pandas進行資料科學 (Using pandas for data science)"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 4.0,
+        "reason": "Promotes economic inclusion (Target 10.2) by providing access to programming skills for students from 'different fields', potentially reducing inequalities.",
+        "evidence": [
+          "針對不同領域的學生設計不同內容的專題內容 (design project content for students in different fields)"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Partnerships for the Goals": {
+        "score": 4.5,
+        "reason": "Contributes to Target 17.8 by enhancing the use of 'information technology' and serves as capacity-building (Target 17.9) in a key enabling technology.",
+        "evidence": [
+          "資訊科技的日新月異 (rapid changes in information technology)",
+          "處理資料進而解決問題 (processing data and solving problems)"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive reasoning and aligns better with the course text, warranting revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Programming skills are essential for many jobs, supporting economic access."
+      },
+      "Quality Education": {
+        "your_original": 8.5,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's score reflects the course's focus on tertiary education more accurately."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Programming skills directly support job creation and economic growth."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 7.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Course content strongly supports innovation and technological capabilities."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Access to programming skills can promote economic inclusion."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Course enhances the use of technology, supporting capacity-building."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A provided more comprehensive reasoning, particularly for indirect links to economic and technological SDGs, which I initially overlooked or scored too conservatively.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model A's inference is reasonable; programming as an 'indispensable basic ability' can indirectly support access to economic resources."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model A correctly identified the direct link: programming is an 'indispensable basic ability' for decent jobs and economic growth."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 7.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A's higher score is justified; the course explicitly covers 'data science' and 'information technology', strongly supporting innovation."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model A's inference is valid; tailoring content for 'different fields' promotes economic inclusion by broadening access to skills."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model A's reasoning is sound; enhancing 'information technology' skills contributes to capacity-building and enabling technology use."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Programming skills are essential for many jobs, supporting economic access, aligning with Target 1.4.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in course materials to support this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in course materials to support this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course provides programming skills relevant for employment, aligning with Targets 4.3 and 4.4.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Inferred link to empowering women through technology skills, aligning with Target 5.b.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in course materials to support this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in course materials to support this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Programming skills directly support job creation and economic growth, aligning with Targets 8.2 and 8.3.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Course content strongly supports innovation and technological capabilities, aligning with Targets 9.5 and 9.b.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Access to programming skills can promote economic inclusion, aligning with Target 10.2.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in course materials to support this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in course materials to support this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in course materials to support this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in course materials to support this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in course materials to support this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in course materials to support this SDG.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Course enhances the use of technology, supporting capacity-building, aligning with Target 17.8.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Programming skills are an 'indispensable basic ability' for various jobs, indirectly supporting economic access and opportunities (Target 1.4), which can help reduce poverty.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to hunger, food security, or sustainable agriculture.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to health, well-being, disease prevention, or healthcare services.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "As a university course, it provides tertiary education (Target 4.3) and explicitly aims to equip students with 'programming skills' for problem-solving and professional application (Target 4.4).",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "While programming is an enabling technology, the syllabus contains no explicit mention of gender, women's empowerment, or addressing gender disparities in technology.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to water resources, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to energy access, renewable energy, or energy efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "revised_b",
+      "reasoning": "The course explicitly states programming is an 'indispensable basic ability' for all sectors, directly supporting technological upgrading, innovation, and decent job creation (Targets 8.2, 8.3, 8.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 9.0,
+      "source": "revised_b",
+      "reasoning": "The course focuses on 'programming' and 'data science' ('pandas'), directly enhancing technological capabilities, scientific research, and innovation in various sectors (Targets 9.5, 9.b).",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "By designing project content for 'students in different fields,' the course promotes broader access to valuable programming skills, indirectly fostering economic inclusion (Target 10.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to urban development, housing, transport, or community resilience.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to sustainable consumption, resource efficiency, or waste management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to climate change mitigation, adaptation, or awareness.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to marine ecosystems, ocean health, or aquatic resources.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to terrestrial ecosystems, biodiversity, or land degradation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence in the course syllabus directly or indirectly relates to peace, justice, governance, or institutional strength.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "The course enhances 'information technology' skills, which is an enabling technology (Target 17.8) and contributes to capacity-building for problem-solving, relevant to achieving the SDGs (Target 17.9).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    }
+  }
+}

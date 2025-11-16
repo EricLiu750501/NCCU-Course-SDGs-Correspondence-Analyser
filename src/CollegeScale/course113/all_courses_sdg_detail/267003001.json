@@ -1,0 +1,840 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 4.0,
+      "reason": "Course discusses land rights and economic resources, linking to Target 1.4 on access to land.",
+      "evidence": [
+        "equal rights to economic resources",
+        "ownership and control over land"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "score": 6.5,
+      "reason": "Explores agricultural policies and land use, relevant to Targets 2.3 and 2.4 on food production.",
+      "evidence": [
+        "農地利用政策之經濟分析",
+        "可持續的農業生產系統"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links to health-related targets found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 5.0,
+      "reason": "Course promotes understanding of land economics, linking to Target 4.7 on sustainable development education.",
+      "evidence": [
+        "經濟學的分析工具",
+        "理解人類生活之各項土地問題"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 2.0,
+      "reason": "Mentions land ownership, relevant to Target 5.a on women's rights to land.",
+      "evidence": [
+        "女性的土地權益"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "score": 1.0,
+      "reason": "No evidence found linking course content to water and sanitation targets.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 6.0,
+      "reason": "Discusses land use policies impacting economic growth, relevant to Target 8.3.",
+      "evidence": [
+        "土地開發決策之經濟分析",
+        "促進生產性活動"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 3.0,
+      "reason": "Mentions land planning and development, linking to infrastructure targets.",
+      "evidence": [
+        "土地的規劃",
+        "土地的開發"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 3.5,
+      "reason": "Addresses land rights and access, relevant to Target 10.3 on equal opportunity.",
+      "evidence": [
+        "地權的歸屬",
+        "土地問題的影響"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 5.5,
+      "reason": "Explores urban land use and planning, linking to Target 11.3.",
+      "evidence": [
+        "可持續的城市化",
+        "土地的規劃"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 2.0,
+      "reason": "Mentions land use efficiency, relevant to sustainable resource management.",
+      "evidence": [
+        "土地的有效利用",
+        "可持續的土地管理"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "score": 4.0,
+      "reason": "Discusses land use impacts on climate, linking to Target 13.2.",
+      "evidence": [
+        "土地利用政策",
+        "氣候變化的影響"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 6.0,
+      "reason": "Focuses on land management and conservation, linking to Target 15.3.",
+      "evidence": [
+        "土地的可持續利用",
+        "土地的開發"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 2.5,
+      "reason": "Mentions land rights and governance, relevant to Target 16.3.",
+      "evidence": [
+        "土地問題的影響",
+        "土地的規劃"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "score": 1.0,
+      "reason": "Minimal relevance; no direct links to partnerships found.",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 8.5,
+        "reason": "Focuses on land rights ('地權'), control over land, and economic resources for vulnerable indigenous communities, directly linking to Target 1.4. Also discusses resilience to disasters (Target 1.5).",
+        "evidence": [
+          "地利的歸屬（地權）",
+          "原鄉土地為何會有賣給外地人的情形?有何好的解決對策?",
+          "災害韌性部落"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Zero Hunger": {
+        "score": 10.0,
+        "reason": "A core focus on agricultural land use, sustainable food systems, and resilient agriculture for indigenous peoples, directly addressing Targets 2.3 and 2.4.",
+        "evidence": [
+          "解釋農地利用政策之經濟分析",
+          "如何使農業，糧食系統和原鄉地區更具韌性，可持續和公平?",
+          "有機農業多功能性"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Good Health and Well-being": {
+        "score": 0.5,
+        "reason": "An inferred link to Target 3.9, as the promotion of 'organic agriculture' (有機農業) implies reduced chemical use, which can lessen soil and water pollution.",
+        "evidence": [
+          "有機農業",
+          "友善農業"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 6.5,
+        "reason": "The course itself provides knowledge and skills for sustainable development (Target 4.7) and is specifically designed for indigenous peoples, a vulnerable group (Target 4.5).",
+        "evidence": [
+          "Masters Program in Land Policy and Environmental Planning for Indigenous Peoples",
+          "應用經濟學的分析工具，瞭解人類生活之各項土地問題",
+          "可持續和公平"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 6.0,
+        "reason": "Analyzes agricultural development pathways, diversification, and rural prosperity for indigenous communities, supporting productive activities and economic growth (Targets 8.2, 8.3).",
+        "evidence": [
+          "專業化和規模經濟或多樣化和範圍經濟為何?",
+          "重新思考農業變革與原鄉部落繁榮之間的聯繫為何?",
+          "鄉村發展"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 3.0,
+        "reason": "Briefly touches on infrastructure via the 'impact of improving transport conditions' and discusses rural development, which relates to Target 9.1, but it is not a central theme.",
+        "evidence": [
+          "交通條件改進影響",
+          "鄉村發展和韌性"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Reduced Inequalities": {
+        "score": 9.0,
+        "reason": "The course is fundamentally aimed at the economic empowerment of indigenous peoples through land rights and policy analysis, directly addressing inequality (Targets 10.2, 10.3).",
+        "evidence": [
+          "Masters Program in Land Policy and Environmental Planning for Indigenous Peoples",
+          "如何使農業，糧食系統和原鄉地區更具韌性，可持續和公平?",
+          "地利的歸屬（地權）"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 8.0,
+        "reason": "Explicitly covers urban land use ('Urban Expansion Theory'), rural development, and disaster resilience ('災害韌性部落') for communities, linking to Targets 11.3, 11.5, and 11.a.",
+        "evidence": [
+          "都市擴張理論(Urban Expansion Theory)",
+          "災害韌性部落",
+          "鄉村發展和韌性"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 6.5,
+        "reason": "Focuses on the sustainable management of land and common resources ('共用資源永續治理機制'), a key natural resource, directly aligning with Target 12.2.",
+        "evidence": [
+          "共用資源永續治理機制之設計原則",
+          "地利的規劃（地用）",
+          "sustainable and equitable"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 5.5,
+        "reason": "Directly addresses strengthening resilience to climate-related hazards (Target 13.1) by discussing 'disaster resilient tribes' and resilience to 'typhoons, floods' (風災、水災).",
+        "evidence": [
+          "災害韌性部落",
+          "原鄉歷經風災、水災等劇變或挑戰"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 6.0,
+        "reason": "Focuses on sustainable use of agricultural land, 'agricultural multifunctionality' (which includes ecosystem services), and governance of common resources, linking to Targets 15.1 and 15.9.",
+        "evidence": [
+          "農業多功能與範疇經濟",
+          "共用資源永續治理機制",
+          "農地利用"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 5.0,
+        "reason": "Discusses 'collective action' and 'sustainable governance mechanisms for common resources', which are key to participatory decision-making and strong institutions for indigenous communities (Target 16.7).",
+        "evidence": [
+          "集體行動",
+          "共用資源永續治理機制之設計原則",
+          "土地政策"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 3.5,
+        "reason": "Promotes knowledge sharing by 'integrating informal and formal knowledge' and discusses 'collective action' as a form of civil society partnership, linking to Targets 17.6 and 17.17.",
+        "evidence": [
+          "integrating informal and formal knowledge",
+          "Local and farmers' knowledge matters!",
+          "集體行動"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides a more comprehensive understanding of land-related issues, leading to significant score revisions for several SDGs.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B highlights land rights and resilience, aligning closely with course content."
+      },
+      "Zero Hunger": {
+        "your_original": 6.5,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B emphasizes sustainable food systems and resilience, which are central to the course."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model B's score reflects minimal relevance, consistent with course content."
+      },
+      "Quality Education": {
+        "your_original": 5.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B emphasizes the course's focus on indigenous education, enhancing relevance."
+      },
+      "Gender Equality": {
+        "your_original": 2.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Model B correctly identifies lack of evidence in course content."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "No change needed; both analyses align."
+      },
+      "Reduced Inequalities": {
+        "your_original": 3.5,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B captures the course's focus on economic empowerment of indigenous peoples."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 5.5,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's emphasis on urban land use and resilience aligns with course themes."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 2.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B highlights sustainable land management, which is central to the course."
+      },
+      "Climate Action": {
+        "your_original": 4.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B's focus on resilience to climate hazards aligns with course content."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 2.5,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B emphasizes governance and collective action, relevant to course themes."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 1.0,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model B's focus on knowledge sharing and collective action aligns with course content."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis is more accurate, providing stronger textual evidence and a more comprehensive interpretation of the course content, especially regarding indigenous communities and resilience. My original analysis contained some generic evidence and missed key explicit mentions.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 8.5,
+        "reason": "Model A correctly highlights the strong link to indigenous land rights ('地權') and disaster resilience ('災害韌性部落'), which I overlooked."
+      },
+      "Zero Hunger": {
+        "your_original": 6.5,
+        "model_b_score": 6.5,
+        "your_revised": 10.0,
+        "reason": "Model A's score is justified by the course's explicit and extensive focus on agricultural land use, sustainable food systems, and resilient agriculture for indigenous peoples."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 0.5,
+        "reason": "Model A's inferred link to reduced chemical use from '有機農業' (organic agriculture) is a plausible, albeit weak, connection to health, which I missed."
+      },
+      "Quality Education": {
+        "your_original": 5.0,
+        "model_b_score": 5.0,
+        "your_revised": 6.5,
+        "reason": "Model A correctly emphasizes the course's specific design for 'Indigenous Peoples', linking it to Target 4.5 on vulnerable groups, which strengthens the relevance."
+      },
+      "Gender Equality": {
+        "your_original": 2.0,
+        "model_b_score": 2.0,
+        "your_revised": 0.0,
+        "reason": "My original evidence ('女性的土地權益') was not present in the course text. Model A's assessment of no evidence is correct."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "While my score was the same, Model A's evidence ('專業化和規模經濟或多樣化和範圍經濟為何?', '鄉村發展') is more specific and directly from the text."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 3.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "My score was the same, but Model A's evidence ('交通條件改進影響') is more direct for infrastructure than my original generic evidence."
+      },
+      "Reduced Inequalities": {
+        "your_original": 3.5,
+        "model_b_score": 3.5,
+        "your_revised": 9.0,
+        "reason": "Model A correctly identifies the course's fundamental aim at empowering 'Indigenous Peoples' through land rights, directly addressing inequality (Targets 10.2, 10.3)."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 5.5,
+        "model_b_score": 5.5,
+        "your_revised": 8.0,
+        "reason": "Model A's evidence is more comprehensive, explicitly citing '都市擴張理論' and '災害韌性部落', which directly align with community resilience and urban planning."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 2.0,
+        "model_b_score": 2.0,
+        "your_revised": 6.5,
+        "reason": "Model A's evidence, particularly '共用資源永續治理機制', strongly links to Target 12.2 on sustainable management of natural resources, which I underestimated."
+      },
+      "Climate Action": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 5.5,
+        "reason": "Model A's evidence is more specific, directly linking to strengthening resilience to climate-related hazards ('災害韌性部落', '風災、水災'), aligning with Target 13.1."
+      },
+      "Life on Land": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "My score was the same, but Model A's evidence ('農業多功能與範疇經濟', '共用資源永續治理機制') is more specific and directly from the text, justifying the score better."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 2.5,
+        "model_b_score": 2.5,
+        "your_revised": 5.0,
+        "reason": "Model A's evidence, especially '集體行動' and '共用資源永續治理機制', strongly supports participatory decision-making and strong institutions for indigenous communities (Target 16.7)."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 1.0,
+        "model_b_score": 1.0,
+        "your_revised": 3.5,
+        "reason": "Model A's evidence, highlighting 'integrating informal and formal knowledge' and '集體行動', clearly demonstrates aspects of knowledge sharing and civil society partnerships (Targets 17.6, 17.17)."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight land rights and resilience, aligning closely with course content. The emphasis on indigenous communities strengthens the score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on sustainable food systems and agricultural resilience is explicitly supported by both models, justifying a perfect score.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Minimal relevance to health-related targets is evident in both models, with weak connections to organic agriculture.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "The course's design for indigenous peoples and focus on sustainable development education aligns well with the targets.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models correctly identify the lack of evidence in course content regarding gender equality.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in course content linking to water and sanitation targets, as noted by both models.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence linking course content to energy targets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models effectively capture the course's focus on land use policies impacting economic growth.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Both models mention infrastructure but lack strong emphasis; the score reflects this limited focus.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "The course's emphasis on economic empowerment of indigenous peoples through land rights is well-supported by both models.",
+      "model_comparison": {
+        "model_a_original": 3.5,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on urban land use and resilience aligns well with the targets, as noted by both models.",
+      "model_comparison": {
+        "model_a_original": 5.5,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "The course's focus on sustainable land management aligns with the targets, supported by both models.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "The course's discussion on resilience to climate-related hazards aligns with the targets, as noted by both models.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in course content linking to marine targets, as noted by both models.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on sustainable land use and governance aligns well with the targets, supported by both models.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "The course's emphasis on governance and collective action aligns with the targets, as noted by both models.",
+      "model_comparison": {
+        "model_a_original": 2.5,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 3.5,
+      "source": "synthesized",
+      "reasoning": "The course's focus on knowledge sharing and collective action aligns with the targets, supported by both models.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 8.5,
+      "source": "revised_b",
+      "reasoning": "Course focuses on land rights ('地權'), economic resources, and disaster resilience ('災害韌性部落') for indigenous peoples, directly aligning with Targets 1.4 and 1.5.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 10.0,
+      "source": "revised_b",
+      "reasoning": "Extensive course content on agricultural land use, sustainable food systems, organic agriculture, and resilience for indigenous peoples directly addresses Targets 2.3 and 2.4.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.5,
+      "source": "revised_b",
+      "reasoning": "A very weak, inferred link through '有機農業' (organic agriculture) potentially reducing chemical use, thus lessening soil/water pollution and indirectly benefiting health (Target 3.9).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.5,
+      "source": "revised_b",
+      "reasoning": "The course is for 'Indigenous Peoples', directly addressing Target 4.5. It also provides knowledge and skills for sustainable development, aligning with Target 4.7.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "No explicit mention of gender or women's rights in the course syllabus, despite the focus on land rights.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No direct or strong indirect evidence found in the course syllabus related to water or sanitation targets.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course syllabus related to affordable or clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 6.0,
+      "source": "revised_b",
+      "reasoning": "Course discusses land development, rural prosperity, agricultural development pathways, and industry for indigenous communities, supporting economic growth and productive activities (Targets 8.2, 8.3, 8.9).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 3.0,
+      "source": "revised_b",
+      "reasoning": "Mentions '交通條件改進影響' (transport conditions) and '土地的規劃' (land planning), which relate to infrastructure development (Target 9.1).",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": null,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 9.0,
+      "source": "revised_b",
+      "reasoning": "The course's focus on 'Indigenous Peoples' and their land rights ('地權') directly addresses social, economic, and political inclusion and equal opportunity (Targets 10.2, 10.3).",
+      "model_comparison": {
+        "model_a_original": 3.5,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.0,
+      "source": "revised_b",
+      "reasoning": "Explicitly covers '都市擴張理論', '市地利用政策', '鄉村發展', and '災害韌性部落', directly linking to sustainable urbanization, rural-urban links, and disaster resilience (Targets 11.3, 11.5, 11.a).",
+      "model_comparison": {
+        "model_a_original": 5.5,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 6.5,
+      "source": "revised_b",
+      "reasoning": "Focuses on '共用資源永續治理機制' and '地利的規劃', directly aligning with sustainable management and efficient use of natural resources (Target 12.2).",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 5.5,
+      "source": "revised_b",
+      "reasoning": "Directly addresses strengthening resilience to climate-related hazards through discussions of '災害韌性部落' and resilience to '風災、水災' (typhoons, floods) (Target 13.1).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course syllabus related to marine or aquatic ecosystems.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 6.0,
+      "source": "revised_b",
+      "reasoning": "Extensive coverage of '農地利用', '農業多功能', and '共用資源永續治理機制' directly relates to sustainable use of terrestrial ecosystems and land management (Targets 15.1, 15.3, 15.9).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.0,
+      "source": "revised_b",
+      "reasoning": "Discusses '地權', '土地政策', '共用資源永續治理機制', and '集體行動', supporting land rights, effective governance, and participatory decision-making for indigenous communities (Targets 16.3, 16.6, 16.7).",
+      "model_comparison": {
+        "model_a_original": 2.5,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 3.5,
+      "source": "revised_b",
+      "reasoning": "Mentions '共同討論', '同儕學習', '訓練學生表達能力', '整合非正規和正規知識', and '集體行動', indicating aspects of knowledge sharing and multi-stakeholder partnerships (Targets 17.6, 17.17).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    }
+  }
+}

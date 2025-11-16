@@ -1,0 +1,749 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 3.0,
+      "reason": "Course discusses vulnerabilities of food systems to climate change, linking to Target 1.5 on resilience.",
+      "evidence": [
+        "vulnerabilities of food systems to climate change",
+        "resilience of the poor"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Zero Hunger": {
+      "score": 9.0,
+      "reason": "Focus on food systems' role in climate change and sustainable practices aligns with Targets 2.1 and 2.4.",
+      "evidence": [
+        "global food system",
+        "sustainable practices",
+        "food production"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "score": 4.0,
+      "reason": "Indirectly addresses health through food security and climate impacts, relevant to Target 3.9.",
+      "evidence": [
+        "impacts of climate change on the global food system",
+        "food production"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "score": 6.0,
+      "reason": "Course promotes understanding of climate and food systems, relevant to Target 4.7 on sustainable development education.",
+      "evidence": [
+        "comprehensive understanding of the complex relationship",
+        "sustainable practices"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 1.0,
+      "reason": "Minimal mention of gender issues in food systems, only tangentially relevant.",
+      "evidence": [
+        "vulnerabilities of food systems"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "score": 1.0,
+      "reason": "Course does not explicitly address water issues, only indirectly through food systems.",
+      "evidence": [
+        "global food system"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 4.0,
+      "reason": "Discusses agricultural practices and their economic implications, linking to Target 8.3.",
+      "evidence": [
+        "innovative agricultural systems",
+        "economic implications"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 5.0,
+      "reason": "Focus on agricultural technology and innovation aligns with Target 9.5.",
+      "evidence": [
+        "innovative agricultural systems",
+        "technologies"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 2.0,
+      "reason": "Mentions vulnerable communities in food systems, linking to Target 10.2.",
+      "evidence": [
+        "vulnerabilities of food systems",
+        "local communities"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 3.0,
+      "reason": "Indirectly relates to urban food systems and climate resilience, relevant to Target 11.b.",
+      "evidence": [
+        "adaptation and mitigation of climate change",
+        "urban food systems"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "score": 6.0,
+      "reason": "Focus on sustainable practices in food systems aligns with Target 12.2.",
+      "evidence": [
+        "sustainable practices",
+        "food systems"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Climate Action": {
+      "score": 10.0,
+      "reason": "Course fundamentally addresses climate change and its relation to food systems, directly linking to multiple targets.",
+      "evidence": [
+        "global warming",
+        "climate policy",
+        "carbon emissions"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 1.0,
+      "reason": "Minimal relevance, only tangentially related through food systems.",
+      "evidence": [
+        "global food system"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life on Land": {
+      "score": 5.0,
+      "reason": "Discusses agricultural practices and their environmental impact, linking to Target 15.3.",
+      "evidence": [
+        "sustainable practices",
+        "agricultural technology"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 1.0,
+      "reason": "Very minimal mention of governance, only indirectly related.",
+      "evidence": [
+        "climate governance"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "score": 2.0,
+      "reason": "Mentions collaboration in climate governance, linking to Target 17.16.",
+      "evidence": [
+        "collaboration in climate governance"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 6.5,
+        "reason": "Discusses climate change impacts on 'Vulnerable Regions and Communities' and 'socio-economic consequences,' linking to building resilience for the poor against climate shocks (Target 1.5).",
+        "evidence": [
+          "Vulnerable Regions and Communities",
+          "evaluate the vulnerabilities of food systems to climate change and their socio-economic consequences.",
+          "impacts of climate change on ... local communities"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Zero Hunger": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about the 'Global Food System,' its stability, and implementing 'resilient agricultural practices' and 'sustainable food production systems' under climate change (Targets 2.1, 2.4).",
+        "evidence": [
+          "Climate Change and Global Food System",
+          "threaten the stability of food production",
+          "ensure sustainable food production systems and implement resilient agricultural practices"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Good Health and Well-being": {
+        "score": 4.0,
+        "reason": "Connects to food safety under climate change and sustainable diets, which can impact health outcomes, linking to Target 3.9 (illnesses from contamination) and 3.4.",
+        "evidence": [
+          "Climate change: Unpacking the burden on food safety.",
+          "“Plant(meat-alternative)”-Based Diets and Sustainable Food Consumption"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "score": 6.0,
+        "reason": "The course itself is education for sustainable development, providing learners with knowledge on climate change and food systems to promote sustainable solutions, fulfilling Target 4.7.",
+        "evidence": [
+          "This course seeks to provide a comprehensive understanding of the complex relationship between climate change and the global food system.",
+          "synthesize interdisciplinary perspectives to propose sustainable solutions to food system challenges."
+        ],
+        "evidence_type": "inferred"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 2.5,
+        "reason": "Inferred link through the discussion of 'Industrial Agriculture' and 'environmental degradation,' which impacts water quality and pollution, relevant to Target 6.3.",
+        "evidence": [
+          "Industrial Agriculture and Climate Change",
+          "environmental degradation"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "score": 2.0,
+        "reason": "The course discusses the 'net-zero transition' and the food system's 'carbon emissions,' which implicitly involves energy use, but it is not a primary focus.",
+        "evidence": [
+          "The rising policy trend of the net-zero transition",
+          "food system accounts for approximately 30% of global carbon emissions"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 4.5,
+        "reason": "Analyzes 'Industrial Agriculture' and its 'environmental degradation,' directly addressing the challenge of decoupling economic activity from environmental harm as per Target 8.4.",
+        "evidence": [
+          "Industrial Agriculture and Climate Change",
+          "environmental degradation",
+          "socio-economic consequences"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 8.0,
+        "reason": "Explores 'innovative agricultural systems, technologies, and sustainable practices' like 'Climate-Smart Agriculture,' directly aligning with upgrading industries for sustainability and adopting clean technologies (Target 9.4).",
+        "evidence": [
+          "innovative agricultural systems, technologies, and sustainable practices",
+          "Climate-Smart Agriculture",
+          "Circular Food Systems & Regenerative Agriculture"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 5.5,
+        "reason": "Focuses on the unequal impacts of climate change by studying 'Vulnerable Regions and Communities' and their 'socio-economic consequences,' addressing the core of Target 10.2.",
+        "evidence": [
+          "Vulnerable Regions and Communities",
+          "socio-economic consequences",
+          "impacts of climate change on ... local communities"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 0.5,
+        "reason": "A very weak link exists through the discussion of 'Vulnerable... Communities' and resilience to climate events, but the course focus is not on urban or settlement planning.",
+        "evidence": [
+          "Vulnerable Regions and Communities"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Responsible Consumption and Production": {
+        "score": 9.5,
+        "reason": "The course is centered on sustainable production and consumption, analyzing 'Industrial Agriculture' and promoting 'Sustainable Food Consumption' and 'Circular Food Systems' (Targets 12.2, 12.8).",
+        "evidence": [
+          "Sustainable Food Consumption",
+          "Circular Food Systems & Regenerative Agriculture",
+          "Industrial Agriculture and Climate Change"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about 'Climate Change and Global Food System,' covering 'climate mitigation and adaptation goals' and strengthening resilience, directly addressing Targets 13.1, 13.2, and 13.3.",
+        "evidence": [
+          "Climate Change and Global Food System",
+          "climate mitigation and adaptation goals",
+          "extreme weather events"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life Below Water": {
+        "score": 2.0,
+        "reason": "Inferred link via 'environmental degradation' from 'Industrial Agriculture,' as agricultural runoff is a major source of marine pollution from land-based activities (Target 14.1).",
+        "evidence": [
+          "environmental degradation",
+          "Industrial Agriculture and Climate Change"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life on Land": {
+        "score": 8.5,
+        "reason": "Critically examines 'Industrial Agriculture's' impact on 'environmental degradation' and explores solutions like 'Regenerative Agriculture' to restore land and soil (Targets 15.3, 15.5).",
+        "evidence": [
+          "Regenerative Agriculture",
+          "sustainable practices in ecological farming",
+          "environmental degradation"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 4.0,
+        "reason": "The course analyzes 'climate policy' and trains students to 'write policy-oriented reports,' contributing to the development of effective institutions for sustainable development (Target 16.6).",
+        "evidence": [
+          "climate policy",
+          "practice how to write policy-oriented reports",
+          "national governments have actively promoted a variety of response measures"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 4.5,
+        "reason": "The course's focus on the 'global food system' and the 'international community' inherently addresses the need for global partnerships and policy coherence for sustainable development (Targets 17.14, 17.16).",
+        "evidence": [
+          "global food system",
+          "international community",
+          "Global food commodity chain"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations of the course text, particularly regarding the impacts of climate change on vulnerable communities and the role of food systems.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 3.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B highlights explicit connections to socio-economic consequences and resilience for the poor."
+      },
+      "Zero Hunger": {
+        "your_original": 9.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B emphasizes the course's focus on sustainable food production systems under climate change."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 1.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B identifies links between industrial agriculture and water quality, which I overlooked."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 5.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's score reflects a stronger emphasis on innovative agricultural systems and sustainability."
+      },
+      "Reduced Inequalities": {
+        "your_original": 2.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B provides a clearer connection to the impacts of climate change on vulnerable communities."
+      },
+      "Life on Land": {
+        "your_original": 5.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's analysis better captures the course's focus on environmental degradation and solutions."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 1.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B highlights the course's emphasis on climate policy and institutional development."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 2.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's interpretation of global partnerships in the context of the food system is more comprehensive."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "No revisions needed. Model B's analysis frequently uses weaker inferences or introduces terms not explicitly present in the course text, making my original analysis more accurate and better supported by evidence.",
+    "revisions": {}
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "The score reflects explicit connections to socio-economic consequences and resilience for the poor, as highlighted by both models. This aligns well with course content on vulnerabilities of food systems.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on sustainable food production systems under climate change is well-supported by both models, particularly in addressing food security and resilience.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the indirect connection between food systems and health outcomes, particularly through climate impacts, aligning with course content.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "The course promotes understanding of climate and food systems, relevant to education for sustainable development, as noted in both models.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models indicate a lack of evidence regarding gender issues in the course content, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 2.5,
+      "source": "synthesized",
+      "reasoning": "The score reflects the inferred links between industrial agriculture and water quality, as identified in Model B, which aligns with course discussions.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 2.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "The course discusses energy use in the context of climate change and food systems, but it is not a primary focus, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models address the economic implications of agricultural practices, with Model B providing a stronger emphasis on environmental degradation.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on innovative agricultural systems aligns well with sustainability goals, as noted in both models.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the impacts of climate change on vulnerable communities, aligning with course content on socio-economic consequences.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "The course has minimal focus on urban planning, with only weak links to climate resilience, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "The course's emphasis on sustainable practices in food systems aligns strongly with the targets for responsible consumption.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "The course fundamentally addresses climate change and its relation to food systems, directly linking to multiple targets.",
+      "model_comparison": {
+        "model_a_original": 10.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "The score reflects inferred links to marine pollution through agricultural practices, as noted in both models.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "The course critically examines the impact of agriculture on land and explores solutions, aligning with environmental targets.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "The course's focus on climate policy and governance aligns with the need for strong institutions, as noted in both models.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "The course's emphasis on global partnerships in the context of food systems aligns with the targets for effective collaboration.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 6.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly addresses the vulnerabilities of 'local communities' and 'socio-economic consequences' of climate change on food systems, directly aligning with SDG 1, Target 1.5 on building resilience for the poor and vulnerable.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is explicitly and fundamentally centered on the 'Global Food System,' its stability, and the implementation of 'resilient agricultural practices' and 'sustainable food production systems' in the face of climate change, directly addressing Targets 2.1 and 2.4.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly includes a reading on 'Climate change: Unpacking the burden on food safety,' directly linking to Target 3.9 regarding illnesses from contamination. Sustainable diets also have indirect health benefits.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 6.0,
+      "source": "model_a",
+      "reasoning": "The course's core objective is to provide a 'comprehensive understanding' of climate change and food systems and to 'propose sustainable solutions,' directly fulfilling Target 4.7 on education for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus contains no explicit mention or focus on gender equality, women's empowerment, or gender-specific vulnerabilities within the context of climate change and food systems.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 2.5,
+      "source": "model_b",
+      "reasoning": "The course examines 'Industrial Agriculture' and its contribution to 'environmental degradation,' which implicitly includes impacts on water quality and pollution, aligning with Target 6.3.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course addresses the food system's 'carbon emissions' and the 'net-zero transition,' which implicitly involves the adoption of cleaner energy and improved energy efficiency within the food system, linking to Targets 7.2 and 7.3.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course analyzes the 'socio-economic consequences' and 'environmental degradation' associated with 'Industrial Agriculture,' directly addressing the need to decouple economic growth from environmental harm (Target 8.4).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course extensively explores 'innovative agricultural systems, technologies, and sustainable practices' such as 'Climate-Smart Agriculture' and 'Circular Food Systems,' directly aligning with Target 9.4 on upgrading industries for sustainability and adopting clean technologies.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly focuses on 'Vulnerable Regions and Communities' and the 'socio-economic consequences' of climate change on food systems, directly addressing the unequal impacts and promoting inclusion as per Target 10.2.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "While the course discusses 'Vulnerable Regions and Communities' and climate resilience, there is no explicit focus on urban food systems, city planning, or sustainable human settlements, making the link to SDG 11 very weak.",
+      "model_comparison": {
+        "model_a_original": 3.0,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 9.5,
+      "source": "model_b",
+      "reasoning": "The course is explicitly centered on sustainable production and consumption, analyzing 'Industrial Agriculture' and promoting 'Sustainable Food Consumption' and 'Circular Food Systems,' directly aligning with Targets 12.2 and 12.8.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "model_a",
+      "reasoning": "The course is fundamentally and explicitly about 'Climate Change and Global Food System,' covering 'climate mitigation and adaptation goals,' 'carbon emissions,' and 'extreme weather events,' directly addressing multiple targets of SDG 13.",
+      "model_comparison": {
+        "model_a_original": 10.0,
+        "model_a_revised": null,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course's discussion of 'environmental degradation' caused by 'Industrial Agriculture' implicitly links to marine pollution from land-based activities, particularly agricultural runoff, which is relevant to Target 14.1.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course critically examines 'Industrial Agriculture's' impact on 'environmental degradation' and explores solutions like 'Regenerative Agriculture' and 'ecological farming' to restore land and soil, directly aligning with Targets 15.1 and 15.3.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course analyzes 'climate policy' and 'climate governance' and trains students to 'write policy-oriented reports,' directly contributing to the development of effective and transparent institutions for sustainable development (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on the 'global food system' and the 'international community' inherently addresses the need for global partnerships and policy coherence for sustainable development, aligning with Targets 17.14 and 17.16.",
+      "model_comparison": {
+        "model_a_original": 2.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}

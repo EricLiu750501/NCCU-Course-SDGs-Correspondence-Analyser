@@ -1,0 +1,840 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 8.0,
+      "reason": "Course promotes skills and knowledge for sustainable development, linking to Target 4.7.",
+      "evidence": [
+        "ensure that all learners acquire the knowledge and skills needed to promote sustainable development"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 7.0,
+      "reason": "Course covers GIS technologies, relevant to Target 9.5 on enhancing scientific research.",
+      "evidence": [
+        "technologies and applications of GIS",
+        "GIS技術之應用"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 6.0,
+      "reason": "GIS applications can support urban planning, linking to Target 11.3.",
+      "evidence": [
+        "如何應用地理資訊系統解決實務的問題"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.5,
+        "reason": "The course teaches \"Terrain Mapping\" and \"Watershed Analysis,\" foundational skills for modeling vulnerability to disasters, which links to building resilience for the poor (Target 1.5).",
+        "evidence": [
+          "Terrain Mapping and Analysis",
+          "Watershed Analysis",
+          "應用地理資訊系統解決實務的問題"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 1.0,
+        "reason": "GIS skills like \"Raster Data Analysis\" are applicable to ensuring sustainable food production systems (Target 2.4), but the course does not mention food or agriculture.",
+        "evidence": [
+          "Raster Data Analysis",
+          "應用地理資訊系統解決實務的問題"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 1.5,
+        "reason": "The course teaches \"Spatial Interpolation,\" a key technique for mapping pollution and managing health risks, relevant to reducing illnesses from contamination (Target 3.9).",
+        "evidence": [
+          "Spatial Interpolation",
+          "Vector Data Analysis",
+          "Raster Data Analysis"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 7.5,
+        "reason": "As a university course, it provides quality tertiary education (Target 4.3) and technical skills for employment, such as operating GIS software and programming (Target 4.4).",
+        "evidence": [
+          "能操作GIS軟體 ，及撰寫程式處理地理資料",
+          "具備地政相關專業知能",
+          "Type of Credit: Required"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 8.0,
+        "reason": "The course explicitly teaches \"Watershed Analysis (集水區分析),\" a core component of integrated water resource management and ecosystem protection (Targets 6.5, 6.6).",
+        "evidence": [
+          "Viewsheds and Watershed Analysis",
+          "集水區分析"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 4.5,
+        "reason": "Skills taught, such as \"Terrain Mapping and Analysis\" and \"Viewsheds...Analysis,\" are directly applicable to planning and siting renewable energy infrastructure (Targets 7.a, 7.b).",
+        "evidence": [
+          "Terrain Mapping and Analysis",
+          "Viewsheds and Watershed Analysis"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 3.0,
+        "reason": "The course equips students with technical skills in GIS, an innovative technology, which supports technological upgrading and productive employment (Targets 8.2, 8.5).",
+        "evidence": [
+          "能操作GIS軟體 ，及撰寫程式處理地理資料",
+          "具備地政相關實務應用與創新之能力"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 7.0,
+        "reason": "The course focuses on GIS, a key technology for planning infrastructure (Target 9.1), and explicitly mentions \"國土資訊系統\" (National Land Information System).",
+        "evidence": [
+          "國土資訊系統與GIS之應用",
+          "technologies and applications of GIS",
+          "相關技術之發展、原理與應用"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 9.0,
+        "reason": "GIS is a core tool for urban planning. The course covers \"國土資訊系統\" (Target 11.a) and analysis for disaster resilience like \"Watershed Analysis\" (Target 11.b).",
+        "evidence": [
+          "國土資訊系統與GIS之應用",
+          "Terrain Mapping and Analysis",
+          "Watershed Analysis"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 4.0,
+        "reason": "The course teaches data analysis skills (\"Raster Data Analysis\") that are fundamental for the sustainable management and efficient use of natural resources (Target 12.2).",
+        "evidence": [
+          "Raster Data Analysis",
+          "GIS Data Acquisition",
+          "Attribute Data Management"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 7.5,
+        "reason": "The course teaches \"Terrain Mapping and Analysis\" and \"Watershed Analysis,\" which are essential for modeling climate hazards and strengthening resilience and adaptive capacity (Target 13.1).",
+        "evidence": [
+          "Terrain Mapping and Analysis",
+          "Watershed Analysis"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 0.5,
+        "reason": "\"Watershed Analysis\" can be indirectly linked to modeling land-based pollution sources that affect marine environments (Target 14.1), but the course focus is not on marine systems.",
+        "evidence": [
+          "Watershed Analysis"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 9.5,
+        "reason": "GIS is a core tool for ecosystem management. \"Terrain Mapping\" (Target 15.4), \"Watershed Analysis\" (Target 15.1), and \"Raster Data Analysis\" (Target 15.2) are directly applicable.",
+        "evidence": [
+          "Terrain Mapping and Analysis",
+          "Viewsheds and Watershed Analysis",
+          "Raster Data Model"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 5.0,
+        "reason": "The course covers \"國土資訊系統\" (National Land Information System), supporting transparent institutions (Target 16.6), and using \"開放資料\" (open data) for public access to information (Target 16.10).",
+        "evidence": [
+          "國土資訊系統與GIS之應用",
+          "能使用既有地圖、影像和開放資料"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 6.5,
+        "reason": "The course builds capacity in GIS technology (Target 17.9) and teaches the use of \"開放資料\" (open data), which is critical for data monitoring and availability (Target 17.18).",
+        "evidence": [
+          "能使用既有地圖、影像和開放資料",
+          "technologies and applications of GIS"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive insights into the course's relevance to various SDGs, prompting necessary revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B highlights GIS applications for disaster resilience, linking to poverty reduction."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B connects GIS skills to sustainable food production, which I initially overlooked."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Model B identifies GIS techniques relevant to health risk management, which I missed."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B emphasizes the course's focus on watershed analysis, crucial for water management."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B connects GIS skills to renewable energy planning, which I did not consider."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B highlights the course's role in equipping students with technical skills for employment."
+      },
+      "Climate Action": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B identifies GIS applications for climate resilience, which I initially overlooked."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B emphasizes GIS's role in ecosystem management, which aligns with course content."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B connects GIS to transparency and public access, which I did not recognize."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B highlights the importance of open data in capacity building, which I missed."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "My initial analysis was overly conservative, often missing reasonable inferences. Model A's broader interpretation of GIS applications, especially for environmental and societal challenges, aligns better with the course text.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "GIS for disaster vulnerability (Terrain Mapping, Watershed Analysis) supports resilience for the poor (Target 1.5)."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Raster Data Analysis can be applied to sustainable food production systems (Target 2.4)."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 1.5,
+        "your_revised": 1.5,
+        "reason": "Spatial Interpolation is key for mapping pollution and managing health risks (Target 3.9)."
+      },
+      "Quality Education": {
+        "your_original": 8.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "My original reasoning was flawed. The course provides tertiary education (4.3) and technical skills for employment (4.4)."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Explicitly teaches \"Watershed Analysis\" for integrated water resource management (Targets 6.5, 6.6)."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "GIS skills (Terrain Mapping, Viewsheds) are applicable to planning renewable energy infrastructure (Targets 7.a, 7.b)."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Equips students with technical GIS skills, supporting technological upgrading and productive employment (Targets 8.2, 8.5)."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 7.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "GIS is key for infrastructure planning (9.1) and explicitly mentions \"國土資訊系統\" (National Land Information System)."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 6.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "GIS is core for urban planning, \"國土資訊系統\" (11.a), and disaster resilience (Watershed Analysis) (11.b)."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Data analysis skills (Raster Data Analysis) are fundamental for sustainable resource management (Target 12.2)."
+      },
+      "Climate Action": {
+        "your_original": 0.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Terrain Mapping and Watershed Analysis are essential for modeling climate hazards and strengthening resilience (Target 13.1)."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Watershed Analysis can indirectly link to modeling land-based pollution affecting marine environments (Target 14.1)."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "GIS is a core tool for ecosystem management, including Terrain Mapping (15.4) and Watershed Analysis (15.1)."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Covers \"國土資訊系統\" (16.6) and \"開放資料\" (open data) for public access to information (16.10)."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Builds capacity in GIS technology (17.9) and teaches use of \"開放資料\" for data monitoring (17.18)."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Both models recognize GIS applications for disaster resilience, linking to poverty reduction. This aligns with course content on Terrain Mapping and Watershed Analysis.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Model B's inference about GIS skills for sustainable food production aligns with course content, despite limited explicit references.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight GIS techniques relevant to health risk management, which is supported by course content on Spatial Interpolation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "The course provides quality education and technical skills, aligning with Targets 4.3 and 4.4, as noted in both models.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to gender equality in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course explicitly teaches Watershed Analysis, crucial for integrated water resource management, aligning with Targets 6.5 and 6.6.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Both models connect GIS skills to renewable energy planning, which is supported by course content on Terrain Mapping.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "The course equips students with technical GIS skills, supporting employment and innovation, as noted in both models.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "The course focuses on GIS, a key technology for infrastructure planning, aligning with Target 9.1, as noted in both models.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to reduced inequalities in the course content.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "GIS is core for urban planning, with explicit references to relevant course content, aligning with Targets 11.a and 11.b.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "The course teaches data analysis skills fundamental for sustainable resource management, as noted in both models.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "The course teaches GIS applications for climate resilience, aligning with Target 13.1, as noted in both models.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Watershed Analysis can indirectly link to modeling land-based pollution affecting marine environments, as noted in both models.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "GIS is a core tool for ecosystem management, with explicit references to relevant course content, aligning with Targets 15.1 and 15.4.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "The course connects GIS to transparency and public access, aligning with Targets 16.6 and 16.10, as noted in both models.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "The course builds capacity in GIS technology and emphasizes the importance of open data, aligning with Targets 17.9 and 17.18.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.5,
+      "source": "revised_a",
+      "reasoning": "GIS skills like Terrain Mapping and Watershed Analysis are applicable to disaster vulnerability modeling, which supports building resilience for the poor (Target 1.5). Model B's inference is reasonable and adopted by Model A.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 1.0,
+      "source": "revised_a",
+      "reasoning": "While the course doesn't mention agriculture, GIS skills like Raster Data Analysis can be theoretically applied to sustainable food production systems (Target 2.4). This is a weak, indirect link.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 1.5,
+      "source": "revised_a",
+      "reasoning": "The course teaches Spatial Interpolation and data analysis, which are key GIS techniques for mapping pollution and managing health risks, relevant to Target 3.9.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.5,
+        "model_b_original": 1.5,
+        "model_b_revised": 1.5
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "revised_b",
+      "reasoning": "As a university course, it provides quality tertiary education (Target 4.3) and equips students with technical GIS skills for employment (Target 4.4). Model A's original reasoning misquoted an SDG target as evidence.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence related to gender equality, discrimination, or women's empowerment is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "The course explicitly teaches 'Watershed Analysis' (集水區分析), which is a core component of integrated water resource management and ecosystem protection (Targets 6.5, 6.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 4.5,
+      "source": "revised_a",
+      "reasoning": "GIS skills like Terrain Mapping and Viewsheds Analysis are directly applicable to planning and siting renewable energy infrastructure (Targets 7.a, 7.b).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 3.0,
+      "source": "revised_a",
+      "reasoning": "The course equips students with technical GIS skills and practical application abilities, supporting technological upgrading and productive employment (Targets 8.2, 8.5).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course focuses on GIS technologies and applications, explicitly mentioning '國土資訊系統' (National Land Information System), which is key for infrastructure planning (Target 9.1) and technological capabilities (Target 9.5).",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence related to income growth, social inclusion, or reducing discriminatory practices is found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "GIS is a core tool for urban planning. The course covers '國土資訊系統' (Target 11.a) and analysis for disaster resilience like 'Watershed Analysis' (Target 11.b), directly supporting sustainable human settlements.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": null,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 4.0,
+      "source": "revised_a",
+      "reasoning": "The course teaches GIS data acquisition and analysis skills (e.g., Raster Data Analysis) that are fundamental for the sustainable management and efficient use of natural resources (Target 12.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 7.5,
+      "source": "revised_a",
+      "reasoning": "The course teaches 'Terrain Mapping and Analysis' and 'Watershed Analysis,' which are essential for modeling climate hazards and strengthening resilience and adaptive capacity (Target 13.1).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.5,
+      "source": "revised_a",
+      "reasoning": "While not directly focused on marine systems, 'Watershed Analysis' can indirectly link to modeling land-based pollution sources that affect marine environments (Target 14.1).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Life on Land": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "GIS is a core tool for ecosystem management. 'Terrain Mapping' (Target 15.4), 'Watershed Analysis' (Target 15.1), and 'Raster Data Analysis' (Target 15.2) are directly applicable to land conservation and management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "The course covers '國土資訊系統' (National Land Information System), supporting transparent institutions (Target 16.6), and using '開放資料' (open data) for public access to information (Target 16.10).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 6.5,
+      "source": "revised_a",
+      "reasoning": "The course builds capacity in GIS technology (Target 17.9) and teaches the use of '開放資料' (open data), which is critical for data monitoring and availability (Target 17.18) for SDG implementation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    }
+  }
+}

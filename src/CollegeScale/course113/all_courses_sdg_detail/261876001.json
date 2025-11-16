@@ -1,0 +1,776 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 6.5,
+      "reason": "Links to Target 2.4 ('sustainable food production systems') via 'food security governance' and 'agricultural practices'.",
+      "evidence": [
+        "food security governance",
+        "sustainable food production systems"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 7.5,
+      "reason": "Links to Target 4.7 ('knowledge for sustainable development') through 'environmental governance education'.",
+      "evidence": [
+        "knowledge and theory about the environmental challenges",
+        "education for sustainable development"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 5.0,
+      "reason": "Links to Target 6.3 ('improve water quality') through discussions on environmental policies.",
+      "evidence": [
+        "environmental policies",
+        "water quality"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 4.0,
+      "reason": "Links to Target 8.3 ('decent job creation') through 'market/business systems'.",
+      "evidence": [
+        "market/business systems",
+        "decent job creation"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 6.0,
+      "reason": "Links to Target 11.3 ('sustainable urbanization') through 'environmental governance mechanisms'.",
+      "evidence": [
+        "sustainable urbanization",
+        "environmental governance mechanisms"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Responsible Consumption and Production": {
+      "score": 5.5,
+      "reason": "Links to Target 12.2 ('efficient use of natural resources') through 'sustainable practices'.",
+      "evidence": [
+        "sustainable practices",
+        "efficient use of natural resources"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Climate Action": {
+      "score": 8.0,
+      "reason": "Links to Target 13.2 ('integrate climate change measures') through 'environmental governance'.",
+      "evidence": [
+        "integrate climate change measures",
+        "environmental governance"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 7.0,
+      "reason": "Links to Target 17.16 ('Global Partnership') through 'cooperative assistance from governance mechanisms'.",
+      "evidence": [
+        "cooperative assistance from governance mechanisms",
+        "Global Partnership"
+      ],
+      "evidence_type": "explicit"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "reason": "An inferred link to Target 1.5 (build resilience of the vulnerable) exists through a reading on 'Socioeconomic Vulnerability in China’s Hydropower Development', but poverty is not a central theme.",
+        "score": 2.0,
+        "evidence": [
+          "Socioeconomic Vulnerability in China’s Hydropower Development"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "reason": "Directly addresses Target 2.4 (sustainable food production) with a dedicated week on 'Land and Food' and readings on 'China’s Food Security Governance' and 'agribusiness'.",
+        "score": 8.0,
+        "evidence": [
+          "Class Topic:Land and Food",
+          "China’s Food Security Governance",
+          "China’s Agribusiness and the Global Soybean Commodity Chain"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Good Health and Well-being": {
+        "reason": "Addresses Target 3.9 (reduce illnesses from pollution) through topics on 'Energy (Air)', 'Water', and readings like 'Citizen Action against Pollution in China'.",
+        "score": 6.0,
+        "evidence": [
+          "Class Topic:Energy (Air)",
+          "Class Topic:Water",
+          "Citizen Action against Pollution in China"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "reason": "As a university course on environmental governance, it directly provides knowledge for sustainable development, aligning with the core principle of Target 4.7.",
+        "score": 5.5,
+        "evidence": [
+          "Course Name: Environmental Governance",
+          "to provide building-blocks of both knowledge and theory about the environmental challenges"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Gender Equality": {
+        "reason": "No evidence found",
+        "score": 0.0,
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "reason": "A core topic with a dedicated week on 'Water', covering hydropower, dam projects, and hydrosocial governance, linking to Targets 6.4, 6.5, and 6.6.",
+        "score": 8.8,
+        "evidence": [
+          "Class Topic:Water",
+          "Socioeconomic Vulnerability in China’s Hydropower Development",
+          "Agricultural Hydrosocial Governance in Semi-arid Northwest China"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Affordable and Clean Energy": {
+        "reason": "A core topic with a week on 'Energy (Air)', a lecture on '再生能源委員會' (Renewable Energy Committee), and a site visit discussing '生質能源' (Biomass Energy), supporting Target 7.2.",
+        "score": 8.5,
+        "evidence": [
+          "Class Topic:Energy (Air)",
+          "英僑商務再生能源委員會",
+          "木柵焚化廠與生質能源"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Decent Work and Economic Growth": {
+        "reason": "Addresses Target 8.4 (decouple growth from environmental degradation) by examining 'neoliberal developmental experiences' and promoting sustainable corporate practices through 'ESG' lectures.",
+        "score": 5.0,
+        "evidence": [
+          "neoliberal developmental experiences",
+          "challenges in sustainable development",
+          "ESG與GRI 準則及實務應用"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "reason": "Relates to Target 9.4 (sustainable industries) by discussing hydropower infrastructure, and a site visit to the '木柵焚化廠' (Muzha Incineration Plant) for waste management.",
+        "score": 6.5,
+        "evidence": [
+          "China’s Hydropower Development",
+          "木柵焚化廠參訪",
+          "upgrade infrastructure and retrofit industries to make them sustainable"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "reason": "Touches on Target 10.b (financial flows to developing countries) through the topic 'International Aid for Environment Governance' and North-South dynamics in agribusiness.",
+        "score": 3.0,
+        "evidence": [
+          "International Aid for Environment Governance",
+          "The Rise of Asia-Pacific Agribusiness in the Global South"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "reason": "Highly relevant with a topic on 'Environmental Governance for Rural/Urban Areas' and a visit to an incineration plant, addressing Target 11.6 (waste management).",
+        "score": 8.2,
+        "evidence": [
+          "Environmental Governance for Rural/Urban Areas",
+          "Integrating Global Environmental Concerns into Urban Management",
+          "木柵焚化廠參訪"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "reason": "A core theme, addressing Target 12.6 via 'ESG' lectures, Target 12.5 via waste management ('木柵焚化廠'), and Target 12.8 via 'Low-carbon Consumption Practices'.",
+        "score": 9.5,
+        "evidence": [
+          "ESG與GRI 準則及實務應用",
+          "China’s Low-carbon Consumption Practices",
+          "木柵焚化廠參訪"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Climate Action": {
+        "reason": "A core theme, explicitly addressing Target 13.2 with readings on 'Global Warming', 'Local Government Response to Climate Change', and a lecture on 'ESG與碳盤查' (Carbon Inventory).",
+        "score": 9.2,
+        "evidence": [
+          "Global Warming and China’s Environmental Diplomacy",
+          "China’s Local Government Response to Climate Change",
+          "ESG與碳盤查"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Life Below Water": {
+        "reason": "No evidence found",
+        "score": 0.0,
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "reason": "Highly relevant, with a dedicated topic on 'Land and Food' and readings on 'Resource Management' and 'Mao’s War against Nature', supporting Targets 15.1, 15.2, and 15.3.",
+        "score": 7.8,
+        "evidence": [
+          "Class Topic:Land and Food",
+          "Bringing Resource Management back into the Environmental Governance Agenda",
+          "Mao’s War against Nature"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "reason": "The course's central theme is 'Environmental Governance', directly addressing Target 16.6 (effective institutions) and 16.7 (participatory decision-making) through its focus on governance mechanisms and civil society.",
+        "score": 10.0,
+        "evidence": [
+          "Course Name: Environmental Governance",
+          "better environmental governance mechanisms",
+          "Environmental Civil Society"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "reason": "A core concept, focusing on 'global, regional, national, and local governance mechanisms' and 'International Aid', directly supporting Targets 17.16 and 17.17.",
+        "score": 9.0,
+        "evidence": [
+          "International Aid for Environment Governance",
+          "Global Environmental Regimes",
+          "cooperative assistance from the global, regional, national, and local governance mechanisms"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive evidence and reasoning for several SDGs, leading to necessary revisions in my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B identifies an inferred link to Target 1.5 through socioeconomic vulnerability."
+      },
+      "Zero Hunger": {
+        "your_original": 6.5,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B directly addresses Target 2.4 with explicit course content on food security."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B connects health issues to pollution and environmental topics, aligning with Target 3.9."
+      },
+      "Quality Education": {
+        "your_original": 7.5,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B's score reflects a more cautious interpretation of educational impact on sustainable development."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 5.0,
+        "model_b_score": 8.8,
+        "your_revised": 8.8,
+        "reason": "Model B emphasizes dedicated course content on water governance, linking to multiple targets."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B highlights significant course content on renewable energy, aligning with Target 7.2."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B provides a clearer connection to sustainable corporate practices and Target 8.4."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.0,
+        "model_b_score": 6.5,
+        "your_revised": 6.5,
+        "reason": "Model B connects infrastructure discussions to Target 9.4 through course content."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B identifies relevant topics that touch on financial flows and inequalities."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 6.0,
+        "model_b_score": 8.2,
+        "your_revised": 8.2,
+        "reason": "Model B's analysis includes explicit course content on urban governance and sustainability."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 5.5,
+        "model_b_score": 9.5,
+        "your_revised": 9.5,
+        "reason": "Model B emphasizes multiple targets related to sustainable practices and waste management."
+      },
+      "Climate Action": {
+        "your_original": 8.0,
+        "model_b_score": 9.2,
+        "your_revised": 9.2,
+        "reason": "Model B provides stronger connections to climate change topics and relevant targets."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 7.8,
+        "your_revised": 7.8,
+        "reason": "Model B identifies relevant course content on land management and sustainability."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's focus on governance mechanisms aligns directly with multiple targets."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 7.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B emphasizes the importance of governance mechanisms and international aid."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's analysis for Quality Education (SDG 4) provides a more direct and appropriate scoring for a course focused on knowledge for sustainable development. For other SDGs, Model A's evidence and reasoning are more comprehensive and accurate.",
+    "revisions": {
+      "Quality Education": {
+        "your_original": 5.5,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's higher score better reflects that the course itself directly provides knowledge for sustainable development, aligning with Target 4.7."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's inferred link to Target 1.5 through socioeconomic vulnerability is the most relevant evidence available, despite being weak.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's explicit connections to Target 2.4 through dedicated course content on food security governance provide a strong basis for this score.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Model B's connections to pollution and health issues align well with Target 3.9, providing a solid basis for this score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Model A's original score reflects the course's focus on knowledge for sustainable development, aligning with Target 4.7 effectively.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to gender equality, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 8.8,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on dedicated course content on water governance and multiple relevant targets provides a strong basis for this score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.8,
+        "model_b_original": 8.8,
+        "model_b_revised": 8.8
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Model B's explicit connections to renewable energy topics align well with Target 7.2, justifying this high score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models provide reasonable connections to sustainable corporate practices and Target 8.4, supporting this score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.5,
+      "source": "synthesized",
+      "reasoning": "Model B's connections to infrastructure discussions and Target 9.4 provide a solid basis for this score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": 6.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Model B's identification of relevant topics touching on financial flows and inequalities supports this score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.2,
+      "source": "synthesized",
+      "reasoning": "Model B's explicit course content on urban governance and sustainability aligns well with Target 11.6.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.2,
+        "model_b_original": 8.2,
+        "model_b_revised": 8.2
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 9.5,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on multiple targets related to sustainable practices and waste management justifies this high score.",
+      "model_comparison": {
+        "model_a_original": 5.5,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": 9.5
+      }
+    },
+    "Climate Action": {
+      "final_score": 9.2,
+      "source": "synthesized",
+      "reasoning": "Model B's strong connections to climate change topics and relevant targets provide a solid basis for this score.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.2,
+        "model_b_original": 9.2,
+        "model_b_revised": 9.2
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to life below water, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 7.8,
+      "source": "synthesized",
+      "reasoning": "Model B's identification of relevant course content on land management and sustainability supports this score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.8,
+        "model_b_original": 7.8,
+        "model_b_revised": 7.8
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on governance mechanisms aligns directly with multiple targets, justifying a perfect score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on governance mechanisms and international aid aligns well with relevant targets.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "revised_a",
+      "reasoning": "Model B identified an inferred link to Target 1.5 through 'Socioeconomic Vulnerability in China’s Hydropower Development', which Model A adopted. This provides a plausible, though not central, connection to poverty reduction.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 8.0,
+      "source": "revised_a",
+      "reasoning": "Model B's original score and reasoning are more accurate, highlighting a dedicated 'Land and Food' week and multiple readings on 'food security governance' and 'agribusiness', directly aligning with Target 2.4. Model A correctly revised to this score.",
+      "model_comparison": {
+        "model_a_original": 6.5,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 6.0,
+      "source": "revised_a",
+      "reasoning": "Model B accurately links the course's focus on 'Energy (Air)', 'Water', and 'pollution' to Target 3.9 (reducing illnesses from pollution). This is a strong, explicit connection. Model A correctly revised to this score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "revised_b",
+      "reasoning": "The course itself, 'Environmental Governance', directly provides knowledge and theory about environmental challenges, aligning with Target 4.7 (education for sustainable development). Model A's original score of 7.5 was more appropriate, and Model B revised to match it.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit evidence or mention of gender equality, women's rights, or related issues was found in the course syllabus or readings.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 8.8,
+      "source": "revised_a",
+      "reasoning": "Model B's original score is highly accurate due to a dedicated 'Water' topic, readings on hydropower, dam projects, and hydrosocial governance, explicitly linking to multiple targets under SDG 6. Model A correctly revised to this score.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.8,
+        "model_b_original": 8.8,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 8.5,
+      "source": "revised_a",
+      "reasoning": "Model B's original score is highly accurate, citing a dedicated 'Energy (Air)' week, a 'Renewable Energy Committee' lecture, and a 'Biomass Energy' site visit, directly supporting Target 7.2. Model A correctly revised to this score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "revised_a",
+      "reasoning": "Model B's original score is more robust, connecting 'neoliberal developmental experiences' and 'ESG' lectures to Target 8.4 (decoupling growth from environmental degradation). Model A correctly revised to this score.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 6.5,
+      "source": "revised_a",
+      "reasoning": "Model B accurately links discussions on hydropower infrastructure and the 'Muzha Incineration Plant' visit to Target 9.4 (sustainable industries and infrastructure). Model A correctly revised to this score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.5,
+        "model_b_original": 6.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 3.0,
+      "source": "revised_a",
+      "reasoning": "Model B identified relevant topics like 'International Aid for Environment Governance' and 'Agribusiness in the Global South' which infer links to financial flows and development disparities (Target 10.b). Model A correctly revised to this score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.2,
+      "source": "revised_a",
+      "reasoning": "Model B's original score is highly accurate, citing a dedicated topic on 'Environmental Governance for Rural/Urban Areas', urban management readings, and the incineration plant visit, directly addressing Target 11.6. Model A correctly revised to this score.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 8.2,
+        "model_b_original": 8.2,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 9.5,
+      "source": "revised_a",
+      "reasoning": "Model B's original score is highly accurate, identifying multiple explicit links through 'ESG' lectures, 'Low-carbon Consumption Practices', and the 'Muzha Incineration Plant' visit, covering several targets under SDG 12. Model A correctly revised to this score.",
+      "model_comparison": {
+        "model_a_original": 5.5,
+        "model_a_revised": 9.5,
+        "model_b_original": 9.5,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 9.2,
+      "source": "revised_a",
+      "reasoning": "Model B's original score is highly accurate, citing explicit mentions of 'Global Warming', 'Local Government Response to Climate Change', and 'Carbon Inventory', directly supporting Target 13.2. Model A correctly revised to this score.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 9.2,
+        "model_b_original": 9.2,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit evidence or mention of marine environments, oceans, or life below water was found in the course syllabus or readings.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 7.8,
+      "source": "revised_a",
+      "reasoning": "Model B's original score is highly accurate, citing a dedicated 'Land and Food' topic and readings on 'Resource Management' and 'Mao’s War against Nature', directly supporting multiple targets under SDG 15. Model A correctly revised to this score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.8,
+        "model_b_original": 7.8,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "revised_a",
+      "reasoning": "Model B's original score is perfectly accurate. 'Environmental Governance' is the course title and central theme, directly aligning with developing effective, accountable, and participatory institutions (Targets 16.6, 16.7). Model A correctly revised to this score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 9.0,
+      "source": "revised_a",
+      "reasoning": "Model B's original score is highly accurate, citing the course's focus on 'global, regional, national, and local governance mechanisms' and 'International Aid', directly supporting Targets 17.16 and 17.17. Model A correctly revised to this score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

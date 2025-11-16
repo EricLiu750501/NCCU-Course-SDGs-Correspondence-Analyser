@@ -1,0 +1,851 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 4.0,
+      "reason": "Course promotes skills for economic analysis, relevant to Target 4.7 ('knowledge for sustainable development').",
+      "evidence": [
+        "訓練學生成為應用經濟分析師",
+        "具備環境資源經濟分析理論與方法的研究能力"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 6.0,
+      "reason": "Discusses pollution and environmental issues, linking to Target 6.3 ('improve water quality').",
+      "evidence": [
+        "各種汙染",
+        "環境保護政策"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 5.0,
+      "reason": "Analyzes economic policies, relevant to Target 8.3 ('support productive activities').",
+      "evidence": [
+        "環境經濟學的主要內容",
+        "提出解決環境問題的可行方案"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 9.0,
+      "reason": "Focuses on climate change and environmental policies, linking to Target 13.2 ('integrate climate change measures').",
+      "evidence": [
+        "氣候變遷與危機",
+        "環境政策與制度之設計與執行"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "reason": "Inferred link to Target 1.5 by addressing vulnerability to environmental shocks through the study of 'climate change and crisis' and 'sustainable development'.",
+        "score": 2.0,
+        "evidence": [
+          "climate change and crisis",
+          "sustainable development",
+          "氣候變遷與危機"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "reason": "No evidence found",
+        "score": 0.0,
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "reason": "Directly addresses Target 3.9, which aims to reduce illnesses from pollution, by discussing 'various types of pollution' (各種汙染) within its environmental topics.",
+        "score": 7.0,
+        "evidence": [
+          "various types of pollution",
+          "各種汙染"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Quality Education": {
+        "reason": "The course itself is a form of education for 'sustainable development' (永續發展), directly aligning with the knowledge and skills promotion outlined in Target 4.7.",
+        "score": 8.5,
+        "evidence": [
+          "sustainable development",
+          "永續發展",
+          "propose feasible solutions to environmental problems"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Gender Equality": {
+        "reason": "No evidence found",
+        "score": 0.0,
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "reason": "Addresses Target 6.3 by analyzing 'environmental protection policies' for 'various types of pollution' (各種汙染), which includes water pollution.",
+        "score": 7.5,
+        "evidence": [
+          "environmental protection policies",
+          "various types of pollution",
+          "各種汙染"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "reason": "No evidence found",
+        "score": 0.0,
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "reason": "Directly relates to Target 8.4 by analyzing 'macroeconomic development policies' under 'environmental resource constraints', aiming to decouple growth from environmental degradation.",
+        "score": 8.5,
+        "evidence": [
+          "macroeconomic development policies",
+          "environmental resource constraints",
+          "總體經濟發展政策"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "reason": "Supports Target 9.4 by analyzing policies for sustainable industries, considering 'environmental resource constraints' and 'technological progress constraints'.",
+        "score": 7.0,
+        "evidence": [
+          "environmental resource constraints",
+          "technological progress constraints",
+          "environmental protection policies"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "reason": "No evidence found",
+        "score": 0.0,
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "reason": "Relates to Target 11.6 by analyzing policies to manage 'various types of pollution' (各種汙染), a key issue for reducing the environmental impact of cities.",
+        "score": 5.5,
+        "evidence": [
+          "various types of pollution",
+          "environmental protection policies",
+          "各種汙染"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "reason": "This is a core course concept, directly addressing Target 12.2 through its focus on 'environmental resource constraints' and 'sustainable development' (永續發展).",
+        "score": 10.0,
+        "evidence": [
+          "environmental resource constraints",
+          "sustainable development",
+          "永續發展"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Climate Action": {
+        "reason": "A core focus, explicitly listing 'climate change and crisis' (氣候變遷與危機) as a key topic, directly supporting Target 13.2 on integrating climate measures into policy.",
+        "score": 10.0,
+        "evidence": [
+          "climate change and crisis",
+          "氣候變遷與危機",
+          "environmental protection policies"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Life Below Water": {
+        "reason": "Addresses Target 14.1 by analyzing policies to manage 'various types of pollution' (各種汙染), which includes marine pollution from land-based sources.",
+        "score": 6.0,
+        "evidence": [
+          "various types of pollution",
+          "各種汙染",
+          "environmental protection policies"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Life on Land": {
+        "reason": "Highly relevant to Target 15.1 and 15.9 by discussing 'environmental resource constraints', 'planetary boundaries', and 'sustainable development' in relation to terrestrial ecosystems.",
+        "score": 8.0,
+        "evidence": [
+          "environmental resource constraints",
+          "planetary boundaries",
+          "sustainable development"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "reason": "Directly supports Target 16.6 and 16.b through the 'Economic Analysis of Environmental Laws' and the 'design and implementation of environmental policy'.",
+        "score": 8.0,
+        "evidence": [
+          "Economic Analysis of Environmental Laws",
+          "design and implementation of environmental policy",
+          "環境法律的經濟分析"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "reason": "Relates to Target 17.14 (policy coherence) by analyzing 'macroeconomic development policies' in the context of 'global change', which requires international cooperation.",
+        "score": 4.5,
+        "evidence": [
+          "global change",
+          "macroeconomic development policies",
+          "全球變遷"
+        ],
+        "evidence_type": "inferred"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more accurate interpretations based on the course text, particularly regarding environmental impacts and education.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B's link to vulnerability from environmental shocks aligns with course content."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B's focus on pollution directly relates to health impacts discussed in the course."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B emphasizes education for sustainable development, which is strongly supported by course objectives."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 6.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's analysis of pollution and environmental policies provides a stronger link to water quality."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 5.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's connection to macroeconomic policies aligns better with course content on economic growth."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B's focus on sustainable industries is relevant to the course's discussion on environmental constraints."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B's analysis of pollution management relates to urban environmental impacts discussed in the course."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's emphasis on sustainable development is a core theme in the course."
+      },
+      "Climate Action": {
+        "your_original": 9.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's focus on climate change aligns with the course's emphasis on environmental policies."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B's analysis of marine pollution is relevant to the course's environmental topics."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's focus on terrestrial ecosystems aligns with discussions on environmental resource constraints."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's connection to environmental laws is supported by the course's focus on policy analysis."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's analysis of policy coherence aligns with the course's discussion on global change."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis is more comprehensive and better supported by explicit mentions and strong inferences from the course text, particularly regarding pollution, sustainable development, and policy analysis.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 2.0,
+        "reason": "Model A correctly infers a link to Target 1.5 through 'climate change and crisis' and 'sustainable development', addressing vulnerability to environmental shocks."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 7.0,
+        "reason": "Model A explicitly links 'various types of pollution' (各種汙染) to Target 3.9, which aims to reduce illnesses from pollution."
+      },
+      "Quality Education": {
+        "your_original": 4.0,
+        "model_b_score": 4.0,
+        "your_revised": 8.5,
+        "reason": "Model A's reasoning is stronger, explicitly connecting 'sustainable development' and 'propose feasible solutions' to Target 4.7's knowledge and skills promotion."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 6.0,
+        "model_b_score": 6.0,
+        "your_revised": 7.5,
+        "reason": "Model A's reasoning is more explicit, linking 'environmental protection policies' for 'various types of pollution' to Target 6.3's goal of improving water quality."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 5.0,
+        "model_b_score": 5.0,
+        "your_revised": 8.5,
+        "reason": "Model A correctly identifies the explicit link between 'macroeconomic development policies' under 'environmental resource constraints' and Target 8.4."
+      },
+      "Industry, Innovation and Infrastructure": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 7.0,
+        "reason": "Model A's inference is valid, connecting 'environmental resource constraints' and 'technological progress constraints' to Target 9.4 for sustainable industries."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 5.5,
+        "reason": "Model A reasonably infers a link to Target 11.6 through the analysis of 'various types of pollution' and 'environmental protection policies'."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 10.0,
+        "reason": "Model A correctly identifies this as a core concept, explicitly linking 'environmental resource constraints' and 'sustainable development' to Target 12.2."
+      },
+      "Climate Action": {
+        "your_original": 9.0,
+        "model_b_score": 9.0,
+        "your_revised": 10.0,
+        "reason": "Model A's score of 10.0 is more accurate given the explicit mention of 'climate change and crisis' as a central topic."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 6.0,
+        "reason": "Model A's inference is reasonable, as 'various types of pollution' includes marine pollution, aligning with Target 14.1."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 8.0,
+        "reason": "Model A correctly identifies explicit links through 'environmental resource constraints', 'planetary boundaries', and 'sustainable development' to Target 15.1 and 15.9."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 8.0,
+        "reason": "Model A correctly identifies the explicit link through 'Economic Analysis of Environmental Laws' and 'design and implementation of environmental policy' to Target 16.6 and 16.b."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 0.0,
+        "your_revised": 4.5,
+        "reason": "Model A reasonably infers a link to Target 17.14 (policy coherence) through 'global change' and 'macroeconomic development policies'."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's inference about vulnerability to environmental shocks aligns with course content on climate change, justifying a score of 2.0.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to hunger, confirming a score of 0.0.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Model B's explicit link to pollution and health aligns well with course content, justifying a score of 7.0.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on education for sustainable development is strongly supported by course objectives, justifying a score of 8.5.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to gender equality, confirming a score of 0.0.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Model B's analysis of pollution and environmental policies provides a stronger link to water quality, justifying a score of 7.5.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to clean energy, confirming a score of 0.0.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Model B's connection to macroeconomic policies aligns better with course content on economic growth, justifying a score of 8.5.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on sustainable industries is relevant to the course's discussion on environmental constraints, justifying a score of 7.0.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Both models found no evidence related to reduced inequalities, confirming a score of 0.0.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Model B's analysis of pollution management relates to urban environmental impacts discussed in the course, justifying a score of 5.5.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on sustainable development is a core theme in the course, justifying a score of 10.0.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on climate change aligns with the course's emphasis on environmental policies, justifying a score of 10.0.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Model B's analysis of marine pollution is relevant to the course's environmental topics, justifying a score of 6.0.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on terrestrial ecosystems aligns with discussions on environmental resource constraints, justifying a score of 8.0.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's connection to environmental laws is supported by the course's focus on policy analysis, justifying a score of 8.0.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's analysis of policy coherence aligns with the course's discussion on global change, justifying a score of 4.5.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course's discussion of 'climate change and crisis' and 'sustainable development' provides an inferred link to Target 1.5, which focuses on building resilience for the poor against environmental shocks.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit evidence related to hunger, food production, or malnutrition was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly discusses 'various types of pollution' (各種汙染) and 'environmental protection policies,' directly addressing Target 3.9, which aims to reduce illnesses from pollution.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course objectives explicitly aim to train students to analyze environmental economic issues and propose solutions, and 'sustainable development' is a key topic, directly aligning with Target 4.7's focus on knowledge and skills for sustainable development.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit evidence related to gender equality, women's empowerment, or discrimination was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'various types of pollution' (各種汙染) and 'environmental protection policies' directly addresses improving water quality, aligning with Target 6.3.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit evidence related to energy, clean energy, or energy efficiency was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 8.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'macroeconomic development policies considering environmental resource constraints,' which directly aligns with Target 8.4's goal of decoupling economic growth from environmental degradation.",
+      "model_comparison": {
+        "model_a_original": 5.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course's analysis of 'sectoral development policies' under 'environmental resource constraints' and 'technological progress constraints' directly supports Target 9.4 for sustainable industries and resource efficiency.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No explicit evidence related to income inequality, social inclusion, or specific policies to reduce inequalities was found in the course syllabus.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'various types of pollution' (各種汙染) and 'environmental protection policies' is directly applicable to reducing the environmental impact of cities, aligning with Target 11.6.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course title 'Environmental and Resources Economics' and explicit mentions of 'environmental resource constraints' and 'sustainable development' make this a core theme, directly aligning with Target 12.2 on sustainable resource management.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "'Climate change and crisis' (氣候變遷與危機) is explicitly listed as a key environmental topic, and the course focuses on the 'design and implementation of environmental policy,' directly supporting Target 13.2.",
+      "model_comparison": {
+        "model_a_original": 9.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course's focus on 'various types of pollution' (各種汙染) and 'environmental protection policies' can be inferred to include marine pollution, aligning with Target 14.1.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course's explicit mention of 'planetary boundaries,' 'environmental resource constraints,' and 'sustainable development' directly relates to the conservation and sustainable use of terrestrial ecosystems (Target 15.1) and integrating their values (Target 15.9).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course's explicit focus on 'Economic Analysis of Environmental Laws' and the 'design and implementation of environmental policy and institutions' directly supports strengthening institutions and laws for sustainable development, aligning with Targets 16.6 and 16.b.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course's discussion of 'global change' and 'macroeconomic development policies' implies the need for policy coherence and potentially international cooperation, aligning with Target 17.14.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    }
+  }
+}

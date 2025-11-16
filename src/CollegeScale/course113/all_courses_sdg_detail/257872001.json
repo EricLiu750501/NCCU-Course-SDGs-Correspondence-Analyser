@@ -1,0 +1,806 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Quality Education": {
+      "score": 7.5,
+      "reason": "Course promotes skills and knowledge relevant to education and technology (Target 4.4).",
+      "evidence": [
+        "具備實務論證與理論分析之能力",
+        "了解GIS之應用",
+        "能操作GIS軟體"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 8.0,
+      "reason": "Focus on GIS technology and spatial data management supports innovation (Target 9.5).",
+      "evidence": [
+        "空間資料之處理與空間分析的方法",
+        "能自行開發軟體工具",
+        "了解空間資料庫之建立"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 2.0,
+        "reason": "GIS skills like 'spatial analysis methods' are used to map disaster vulnerability and land resources, which is relevant to building resilience for the poor (Target 1.5).",
+        "evidence": [
+          "空間分析的方法",
+          "地理資料之處理",
+          "將GIS技術應用於實際案例"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 4.5,
+        "reason": "The course teaches 'Satellite image processing' and 'LANDSAT影像處理', which are key technologies for monitoring land/soil quality and creating resilient agricultural practices (Target 2.4).",
+        "evidence": [
+          "衛星影像處理",
+          "LANDSAT影像處理",
+          "網格資料分析"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Good Health and Well-being": {
+        "score": 2.5,
+        "reason": "The 'spatial analysis methods' taught are foundational for epidemiological mapping and tracking environmental pollution, which relates to health risk management (Targets 3.9, 3.d).",
+        "evidence": [
+          "空間分析的方法",
+          "地理資料之處理與空間分析的方法",
+          "將GIS技術應用於實際案例"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Quality Education": {
+        "score": 7.5,
+        "reason": "The course directly provides advanced technical skills for employment (Target 4.4) by teaching students to 'operate GIS software' and 'develop software tools'.",
+        "evidence": [
+          "能操作GIS軟體",
+          "能自行開發軟體工具",
+          "了解GIS之應用"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Clean Water and Sanitation": {
+        "score": 4.5,
+        "reason": "Skills in 'Satellite image processing' and 'Raster Data Analysis' are essential for managing water resources and protecting water-related ecosystems (Targets 6.5, 6.6).",
+        "evidence": [
+          "衛星影像處理",
+          "網格資料分析",
+          "空間分析的方法"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Affordable and Clean Energy": {
+        "score": 2.0,
+        "reason": "The 'spatial analysis methods' taught are applicable to planning energy infrastructure and identifying optimal sites for renewable energy generation (Targets 7.2, 7.a).",
+        "evidence": [
+          "空間分析的方法",
+          "將GIS技術應用於實際案例"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 5.0,
+        "reason": "The course promotes 'technological upgrading and innovation' (Target 8.2) by teaching advanced skills like 'Python 程式設計' and 'Automated Geoprocessing' for high-value jobs.",
+        "evidence": [
+          "Python 程式設計",
+          "Automated Geoprocessing",
+          "能自行開發軟體工具"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 8.0,
+        "reason": "The course is centered on upgrading 'technological capabilities' (Target 9.5) and provides 'spatial analysis methods' essential for planning sustainable infrastructure (Target 9.1).",
+        "evidence": [
+          "空間分析的方法",
+          "Automated Geoprocessing",
+          "能自行開發軟體工具"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Reduced Inequalities": {
+        "score": 0.5,
+        "reason": "The 'spatial analysis methods' taught could be used to map social and economic inequalities, but this application is not mentioned and the link is very tenuous.",
+        "evidence": [
+          "空間分析的方法"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 8.5,
+        "reason": "GIS is a core tool for urban planning. The course teaches 'spatial analysis methods' and use of 'maps' and 'images', directly supporting sustainable settlement planning (Target 11.3).",
+        "evidence": [
+          "空間分析的方法",
+          "能使用既有地圖、影像和開放資料",
+          "將GIS技術應用於實際案例"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Responsible Consumption and Production": {
+        "score": 4.0,
+        "reason": "The course's focus on 'Satellite image processing' and 'spatial analysis methods' provides tools for the sustainable management and efficient use of natural resources (Target 12.2).",
+        "evidence": [
+          "衛星影像處理",
+          "空間分析的方法",
+          "網格資料分析"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Climate Action": {
+        "score": 6.0,
+        "reason": "GIS skills like 'Satellite image processing' and 'Raster Data Analysis' are crucial for modeling climate hazards and integrating climate measures into planning (Targets 13.1, 13.2).",
+        "evidence": [
+          "衛星影像處理",
+          "網格資料分析",
+          "空間分析的方法"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life Below Water": {
+        "score": 3.0,
+        "reason": "The taught 'spatial analysis methods' and 'Satellite image processing' skills are applicable to managing and protecting marine and coastal ecosystems (Target 14.2).",
+        "evidence": [
+          "空間分析的方法",
+          "衛星影像處理"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Life on Land": {
+        "score": 8.0,
+        "reason": "The course teaches 'Satellite image processing' and 'LANDSAT影像處理', which are fundamental tools for monitoring deforestation and restoring terrestrial ecosystems (Targets 15.1, 15.2, 15.3).",
+        "evidence": [
+          "衛星影像處理",
+          "LANDSAT影像處理",
+          "網格資料分析"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 3.5,
+        "reason": "The course teaches management of 'open data' and 'spatial databases', which supports public access to information and transparent institutions (Targets 16.10, 16.6).",
+        "evidence": [
+          "能使用既有地圖、影像和開放資料",
+          "空間資料庫之建立、管理的方法",
+          "具備搜尋網路上開放資料與軟體資源的能力"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Partnerships for the Goals": {
+        "score": 7.0,
+        "reason": "The course enhances the use of enabling technology (Target 17.8) and promotes knowledge sharing through 'open source tools' and 'open data', supporting data availability (Target 17.18).",
+        "evidence": [
+          "Geoprocessing with open source tools",
+          "具備搜尋網路上開放資料與軟體資源的能力",
+          "空間資料處理及程式設計"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides more comprehensive evidence for several SDGs, prompting revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B's evidence links GIS skills to poverty resilience effectively."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's reasoning connects GIS to agricultural practices and land monitoring."
+      },
+      "Good Health and Well-being": {
+        "your_original": 0.0,
+        "model_b_score": 2.5,
+        "your_revised": 2.5,
+        "reason": "Model B's analysis shows relevance of GIS to health risk management."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 0.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B's evidence links GIS skills to water resource management."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B's reasoning connects GIS to energy infrastructure planning."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 5.0,
+        "your_revised": 5.0,
+        "reason": "Model B's evidence shows GIS skills promote job creation and innovation."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model B's analysis suggests GIS can map inequalities, albeit weakly."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 8.5,
+        "your_revised": 8.5,
+        "reason": "Model B's evidence strongly supports GIS's role in urban planning."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 0.0,
+        "model_b_score": 4.0,
+        "your_revised": 4.0,
+        "reason": "Model B's reasoning connects GIS to sustainable resource management."
+      },
+      "Climate Action": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B's evidence links GIS skills to climate hazard modeling."
+      },
+      "Life Below Water": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B's analysis connects GIS to marine ecosystem management."
+      },
+      "Life on Land": {
+        "your_original": 0.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B's evidence shows GIS's role in monitoring land use."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 0.0,
+        "model_b_score": 3.5,
+        "your_revised": 3.5,
+        "reason": "Model B's reasoning connects GIS to transparency and access to information."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B's evidence supports GIS's role in knowledge sharing."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model B's analysis is overly conservative, scoring 0.0 for many SDGs where strong inferences or explicit links exist. However, for several SDGs, Model B's strict interpretation of 'no explicit mention' is more aligned with the instruction to base decisions ONLY on provided course text, leading me to revise down my inferred scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 2.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "While GIS can apply, the course text lacks explicit mention of poverty-related applications. Model B's strictness is appropriate here."
+      },
+      "Zero Hunger": {
+        "your_original": 4.5,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Satellite imagery is used in agriculture, but the course text doesn't explicitly link it to food security or hunger. Model B's score is more accurate."
+      },
+      "Good Health and Well-being": {
+        "your_original": 2.5,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "GIS can be used for health mapping, but the syllabus does not mention health-related applications. Model B's 0.0 is more accurate."
+      },
+      "Clean Water and Sanitation": {
+        "your_original": 4.5,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "GIS and remote sensing are relevant to water management, but the course text does not explicitly state these applications. Model B's 0.0 is more accurate."
+      },
+      "Affordable and Clean Energy": {
+        "your_original": 2.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Spatial analysis can aid energy planning, but the course text does not mention energy. Model B's strict interpretation is more appropriate."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.5,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "The link between spatial analysis and reducing inequalities is tenuous and not explicitly mentioned. Model B's 0.0 is more accurate."
+      },
+      "Responsible Consumption and Production": {
+        "your_original": 4.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "While GIS can support resource management, the course text does not explicitly link to consumption or production patterns. Model B's 0.0 is more accurate."
+      },
+      "Climate Action": {
+        "your_original": 6.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "GIS is crucial for climate action, but the syllabus does not explicitly mention climate change or related applications. Model B's 0.0 is more accurate."
+      },
+      "Life Below Water": {
+        "your_original": 3.0,
+        "model_b_score": 0.0,
+        "your_revised": 0.0,
+        "reason": "Spatial analysis and satellite imagery can apply to marine ecosystems, but the course text does not mention aquatic environments. Model B's 0.0 is more accurate."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course text does not explicitly mention applications of GIS related to poverty, aligning with Model B's strict interpretation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "While GIS can aid agricultural practices, the course does not explicitly link it to hunger or food security, supporting Model B's score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus lacks explicit references to health applications of GIS, making Model B's score more accurate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the strong relevance of GIS skills to education, particularly in technology and employment.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "No evidence in the course text supports any link to gender equality, aligning with Model B's score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course does not explicitly mention water management applications of GIS, supporting Model B's score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus lacks explicit references to energy applications of GIS, making Model B's score more accurate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's emphasis on technological skills that promote job creation, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": 5.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the course's focus on GIS technology and spatial data management, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course does not explicitly mention applications of GIS related to reducing inequalities, aligning with Model B's score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the strong relevance of GIS to urban planning, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": 8.5
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course does not explicitly link GIS to consumption or production patterns, supporting Model B's score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not explicitly mention climate change applications of GIS, making Model B's score more accurate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course does not explicitly mention aquatic environments, supporting Model B's score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Both models recognize the course's emphasis on GIS skills for monitoring land use, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 3.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the relevance of GIS to transparency and access to information, justifying a moderate score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": 3.5
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models agree on the course's role in promoting knowledge sharing and technology, justifying a high score.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The course text lacks explicit mention of poverty-related applications. While GIS can be applied, the syllabus does not specify this, making Model B's revised score of 0.0 most accurate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "Despite satellite imagery's relevance to agriculture, the syllabus does not explicitly link course content to food security or hunger. Model B's revised score of 0.0 is most accurate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The syllabus does not mention health-related applications for GIS, such as epidemiological mapping or pollution tracking. Model B's revised score of 0.0 is most accurate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.5,
+        "model_b_original": 2.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 7.5,
+      "source": "model_a",
+      "reasoning": "The course explicitly provides advanced technical skills (GIS software, software development) for employment, directly aligning with Target 4.4. Both models agree on this strong link.",
+      "model_comparison": {
+        "model_a_original": 7.5,
+        "model_a_revised": null,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "There is no evidence in the course syllabus that relates to gender equality. Both models correctly assigned a score of 0.0.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "While GIS is relevant to water management, the syllabus does not explicitly mention water, sanitation, or related applications. Model B's revised score of 0.0 is most accurate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The course text does not mention energy planning or infrastructure, despite GIS's potential applications. Model B's revised score of 0.0, based on strict evidence, is most accurate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly teaches advanced technical skills like Python programming and automated geoprocessing, which promote technological upgrading and innovation for high-value jobs (Target 8.2).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 5.0,
+        "model_b_original": 5.0,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 8.0,
+      "source": "model_a",
+      "reasoning": "The course's core focus on GIS technology, spatial data management, and software development directly supports innovation and the planning of resilient infrastructure (Targets 9.1, 9.5).",
+      "model_comparison": {
+        "model_a_original": 8.0,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The link between spatial analysis and reducing inequalities is tenuous and not explicitly mentioned in the syllabus. Model B's revised score of 0.0 is most accurate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 8.5,
+      "source": "synthesized",
+      "reasoning": "GIS is a fundamental tool for urban planning. The course teaches spatial analysis, use of maps/images, and application to actual cases, directly supporting sustainable settlement planning (Target 11.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.5,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The syllabus does not explicitly link GIS skills to consumption or production patterns, or sustainable resource management in this context. Model B's revised score of 0.0 is most accurate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "While GIS is crucial for climate action, the syllabus does not explicitly mention climate change, hazards, or related applications. Model B's revised score of 0.0 is most accurate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "revised_b",
+      "reasoning": "The course text does not mention aquatic or marine environments, despite GIS's potential applications in this area. Model B's revised score of 0.0 is most accurate.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "The course explicitly teaches satellite image processing (LANDSAT) and raster data analysis, which are fundamental tools for monitoring land use, deforestation, and ecosystem restoration (Targets 15.1, 15.2, 15.3).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 3.5,
+      "source": "model_b",
+      "reasoning": "The course emphasizes 'open data' and 'open source tools,' supporting public access to information (Target 16.10) and indirectly fostering transparent institutions (Target 16.6).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.5,
+        "model_b_original": 3.5,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly promotes 'open source tools' and 'open data,' enhancing technology use (Target 17.8) and supporting data availability for capacity building (Target 17.18).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    }
+  }
+}

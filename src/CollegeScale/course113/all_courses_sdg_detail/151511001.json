@@ -1,0 +1,729 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Zero Hunger": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Good Health and Well-being": {
+      "score": 7.0,
+      "reason": "Links to Target 3.8 ('universal health coverage') via '醫療與病假申請' and '醫療方式'.",
+      "evidence": [
+        "醫療與病假申請",
+        "醫療方式"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Quality Education": {
+      "score": 8.5,
+      "reason": "Course promotes historical analysis skills, linking to Target 4.7 ('knowledge for sustainable development').",
+      "evidence": [
+        "分析秦漢時期的社會生活",
+        "掌握簡牘解讀與古文書學的基礎方法"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Gender Equality": {
+      "score": 4.0,
+      "reason": "Mentions '婚姻與家庭' structures, relevant to gender roles (Target 5.5).",
+      "evidence": [
+        "婚姻與家庭",
+        "家庭結構"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Reduced Inequalities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 6.0,
+      "reason": "Explores governance structures, linking to Target 16.3 ('equal access to justice').",
+      "evidence": [
+        "國家治理",
+        "社會的治理結構"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Partnerships for the Goals": {
+      "score": 0.0,
+      "reason": "No evidence found",
+      "evidence": [],
+      "evidence_type": "none"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 1.0,
+        "reason": "Inferred link to historical economic structures via study of 'land tax collection' and 'household registration management', relevant to understanding historical poverty (Target 1.4).",
+        "evidence": [
+          "田租徵收",
+          "戶籍管理"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Zero Hunger": {
+        "score": 0.5,
+        "reason": "Minimal inferred link to historical food systems through the study of 'land tax collection' (田租徵收), which relates to agricultural production (Target 2.4).",
+        "evidence": [
+          "田租徵收"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Good Health and Well-being": {
+        "score": 7.0,
+        "reason": "Explicitly studies historical health systems through 'disease and medical care' and 'medical care and sick leave applications', aligning with the goal's theme.",
+        "evidence": [
+          "疾病醫療",
+          "邊疆吏卒的醫療與病假申請",
+          "祝由方的醫療方式"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Quality Education": {
+        "score": 8.0,
+        "reason": "As a university course, it provides tertiary education (Target 4.3) and promotes appreciation of cultural heritage, a key skill for sustainable development (Target 4.7).",
+        "evidence": [
+          "Course Objectives & Learning Outcomes",
+          "提升分析歷史文獻的能力",
+          "深入探討當時的社會生活與國家運作"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Gender Equality": {
+        "score": 4.0,
+        "reason": "Directly examines historical gender roles by analyzing texts on 'marriage and family structure', relevant to understanding the roots of gender equality (Target 5.3).",
+        "evidence": [
+          "婚姻家庭",
+          "從簡牘看早期中國的婚姻與家庭"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Decent Work and Economic Growth": {
+        "score": 2.0,
+        "reason": "Provides historical context on labor and economy by studying the 'economic system' and lives of 'frontier officials/soldiers', an inferred link to work environments (Target 8.8).",
+        "evidence": [
+          "經濟體系",
+          "邊疆吏卒"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Industry, Innovation and Infrastructure": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Reduced Inequalities": {
+        "score": 3.0,
+        "reason": "Inferred relevance by examining historical systems like 'household registration management' and 'punishment execution', which are mechanisms that can reflect or create social inequalities (Target 10.3).",
+        "evidence": [
+          "戶籍管理",
+          "刑罰執行"
+        ],
+        "evidence_type": "inferred"
+      },
+      "Sustainable Cities and Communities": {
+        "score": 6.0,
+        "reason": "Directly contributes to Target 11.4 by studying and interpreting 'unearthed bamboo and wooden strips', which are a crucial part of the world's cultural heritage.",
+        "evidence": [
+          "出土簡牘",
+          "The Unearthed Bamboo and Wooden Strips"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      },
+      "Peace, Justice and Strong Institutions": {
+        "score": 9.0,
+        "reason": "Core focus on 'state operations', 'governance structure', and 'legal' systems, directly aligning with building understanding of justice and strong institutions (Targets 16.3, 16.6).",
+        "evidence": [
+          "國家運作",
+          "法律",
+          "治理結構",
+          "刑罰執行"
+        ],
+        "evidence_type": "explicit"
+      },
+      "Partnerships for the Goals": {
+        "score": 7.0,
+        "reason": "Embodies partnership (Target 17.6) through its teaching schedule, which includes international collaboration with a '日本岩手大學教授' (Professor from Iwate University, Japan) for knowledge sharing.",
+        "evidence": [
+          "廣瀨薰雄 | 日本岩手大學教授",
+          "顏世鉉 | 中研院史語所副研究員"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B provides more comprehensive evidence for several SDGs, prompting revisions to my scores.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model B's evidence on 'land tax collection' and 'household registration management' aligns with historical poverty understanding."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model B's link to 'land tax collection' provides a minimal connection to historical food systems."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B's reference to 'economic system' and 'frontier officials' offers relevant historical context."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model B's evidence on 'household registration management' and 'punishment execution' reflects social inequalities."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B's focus on 'unearthed bamboo and wooden strips' directly relates to cultural heritage."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 6.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model B's emphasis on governance structures and legal systems aligns more closely with the SDG."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model B's mention of international collaboration supports the partnership aspect."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "Model A's analysis provided more comprehensive interpretations for several SDGs, particularly regarding historical context and explicit evidence of collaboration and cultural heritage.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 0.0,
+        "model_b_score": 1.0,
+        "your_revised": 1.0,
+        "reason": "Model A correctly inferred a link to historical poverty via 'land tax collection' and 'household registration management' (Target 1.4)."
+      },
+      "Zero Hunger": {
+        "your_original": 0.0,
+        "model_b_score": 0.5,
+        "your_revised": 0.5,
+        "reason": "Model A's inference from 'land tax collection' to historical food systems and agricultural production (Target 2.4) is plausible."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 0.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model A's inference from 'economic system' and 'frontier officials/soldiers' to historical labor and work environments (Target 8.8) is valid."
+      },
+      "Reduced Inequalities": {
+        "your_original": 0.0,
+        "model_b_score": 3.0,
+        "your_revised": 3.0,
+        "reason": "Model A correctly inferred relevance from 'household registration management' and 'punishment execution' to historical inequalities (Target 10.3)."
+      },
+      "Sustainable Cities and Communities": {
+        "your_original": 0.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model A explicitly linked the study of 'unearthed bamboo and wooden strips' to safeguarding cultural heritage (Target 11.4)."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 6.0,
+        "model_b_score": 9.0,
+        "your_revised": 9.0,
+        "reason": "Model A's reasoning was more comprehensive, explicitly citing 'legal systems' and 'state operations' for a stronger alignment (Targets 16.3, 16.6)."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 0.0,
+        "model_b_score": 7.0,
+        "your_revised": 7.0,
+        "reason": "Model A correctly identified international and national collaboration through guest lecturers (Target 17.6)."
+      }
+    }
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "synthesized",
+      "reasoning": "Both models identified historical economic structures relevant to poverty, but the evidence from 'land tax collection' and 'household registration management' provides a clear link to understanding poverty.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "The connection to historical food systems through 'land tax collection' is minimal but valid, aligning with agricultural production targets.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models provide strong evidence linking historical health systems to the SDG, particularly through explicit references to medical care.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.25,
+      "source": "synthesized",
+      "reasoning": "The course promotes critical analysis and historical understanding, aligning well with educational targets. The revised scores reflect a more comprehensive view.",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": 8.5,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 4.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the examination of historical gender roles, providing a consistent score based on relevant evidence.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 4.0,
+        "model_b_original": 4.0,
+        "model_b_revised": 4.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model, confirming the absence of relevant content in the course.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Similar to Clean Water, there is no evidence supporting this SDG in the course material.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Both models provide a historical context for labor and economic systems, justifying a score that reflects this understanding.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model, confirming the absence of relevant content in the course.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 3.0,
+      "source": "synthesized",
+      "reasoning": "Both models infer relevance from historical systems, providing a consistent score based on the evidence presented.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the importance of cultural heritage, justifying a score that reflects this understanding.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model, confirming the absence of relevant content in the course.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model, confirming the absence of relevant content in the course.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model, confirming the absence of relevant content in the course.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence was found in either model, confirming the absence of relevant content in the course.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "synthesized",
+      "reasoning": "Both models provide strong evidence linking governance structures to the SDG, particularly through explicit references to legal systems.",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.0,
+      "source": "synthesized",
+      "reasoning": "Both models highlight the importance of international collaboration, justifying a score that reflects this understanding.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 1.0,
+      "source": "model_b",
+      "reasoning": "The course examines 'land tax collection' and 'household registration management,' which are historical mechanisms directly related to economic resources and social structures impacting poverty (Target 1.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 1.0,
+        "model_b_revised": 1.0
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 0.5,
+      "source": "model_b",
+      "reasoning": "The study of 'land tax collection' (田租徵收) provides an indirect, historical context for agricultural production and resource distribution, minimally relating to food systems (Target 2.4).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.5,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 7.0,
+      "source": "model_a",
+      "reasoning": "The course explicitly covers 'disease medical care,' 'medical care and sick leave applications,' and 'Zhuyoufang medical methods,' directly aligning with understanding historical health systems and well-being.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": null,
+        "model_b_original": 7.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 8.5,
+      "source": "model_a",
+      "reasoning": "As a university course, it provides tertiary education (Target 4.3) and explicitly aims to enhance historical document analysis skills and build historical understanding, contributing to knowledge for sustainable development (Target 4.7).",
+      "model_comparison": {
+        "model_a_original": 8.5,
+        "model_a_revised": null,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 4.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly examines 'marriage and family' structures in Qin-Han society, providing direct insight into historical gender roles and societal norms relevant to gender equality (e.g., Target 5.3, 5.4, 5.5).",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 4.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course description or syllabus that relates to clean water, sanitation, or hygiene.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course description or syllabus that relates to affordable or clean energy.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course examines the 'economic system' and the lives of 'frontier officials/soldiers,' providing historical context for work environments and economic activities, an inferred link to decent work (Target 8.8).",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course description or syllabus that relates to modern industry, innovation, or infrastructure.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 3.0,
+      "source": "model_b",
+      "reasoning": "The course examines historical 'household registration management' and 'criminal punishment execution,' which are systems that reflect and can perpetuate social inequalities, providing context for Target 10.3.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 3.0,
+        "model_b_original": 3.0,
+        "model_b_revised": 3.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course's central focus on 'unearthed bamboo and wooden strips' directly contributes to safeguarding and understanding cultural heritage, aligning explicitly with Target 11.4.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course description or syllabus that relates to responsible consumption or production patterns.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course description or syllabus that relates to climate change or climate action.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course description or syllabus that relates to marine life or oceans.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "No evidence found in the course description or syllabus that relates to terrestrial ecosystems or biodiversity.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 9.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly focuses on 'state operations,' 'laws,' 'governance structure,' and 'criminal punishment execution,' directly aligning with the principles of justice and strong, accountable institutions (Targets 16.3, 16.6).",
+      "model_comparison": {
+        "model_a_original": 6.0,
+        "model_a_revised": 9.0,
+        "model_b_original": 9.0,
+        "model_b_revised": 9.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly features guest lecturers from international (Iwate University, Japan) and national (Academia Sinica) institutions, demonstrating academic collaboration and knowledge sharing, directly supporting Target 17.6.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 7.0,
+        "model_b_original": 7.0,
+        "model_b_revised": 7.0
+      }
+    }
+  }
+}

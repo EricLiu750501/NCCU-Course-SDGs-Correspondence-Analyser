@@ -1,0 +1,722 @@
+{
+  "gpt_answer": {
+    "No Poverty": {
+      "score": 1.0,
+      "reason": "Mentions '饑荒與脫北者' (famine and defectors), indicating poverty issues.",
+      "evidence": [
+        "饑荒與脫北者"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Zero Hunger": {
+      "score": 1.0,
+      "reason": "References '饑荒' (famine), linking to hunger issues.",
+      "evidence": [
+        "饑荒"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Good Health and Well-being": {
+      "score": 1.0,
+      "reason": "Discusses '人民處境' (people's situation), implying health and well-being concerns.",
+      "evidence": [
+        "人民處境"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Quality Education": {
+      "score": 4.0,
+      "reason": "Focus on understanding North Korea's political and economic systems relates to education.",
+      "evidence": [
+        "深入理解"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Gender Equality": {
+      "score": 1.0,
+      "reason": "Mentions '脫北者人權' (defector's rights), hinting at gender issues.",
+      "evidence": [
+        "脫北者人權"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Clean Water and Sanitation": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Affordable and Clean Energy": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Decent Work and Economic Growth": {
+      "score": 4.0,
+      "reason": "Discusses '經濟發展的挫敗與變化' (economic development failures), linking to economic growth.",
+      "evidence": [
+        "經濟發展的挫敗與變化"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Industry, Innovation and Infrastructure": {
+      "score": 1.0,
+      "reason": "Mentions North Korea's economic system, hinting at industrial aspects.",
+      "evidence": [
+        "政經體制"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Reduced Inequalities": {
+      "score": 1.0,
+      "reason": "Discusses '人民處境' (people's situation), implying social inequalities.",
+      "evidence": [
+        "人民處境"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Sustainable Cities and Communities": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Responsible Consumption and Production": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Climate Action": {
+      "score": 1.0,
+      "reason": "Mentions '核武危機' (nuclear crisis), linking to climate and security issues.",
+      "evidence": [
+        "核武危機"
+      ],
+      "evidence_type": "inferred"
+    },
+    "Life Below Water": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Life on Land": {
+      "score": 0.0,
+      "reason": "No evidence found.",
+      "evidence": [],
+      "evidence_type": "none"
+    },
+    "Peace, Justice and Strong Institutions": {
+      "score": 7.0,
+      "reason": "Focus on North Korea's political dynamics relates to peace and justice.",
+      "evidence": [
+        "和平橄欖枝"
+      ],
+      "evidence_type": "explicit"
+    },
+    "Partnerships for the Goals": {
+      "score": 1.0,
+      "reason": "Mentions international relations, hinting at partnerships.",
+      "evidence": [
+        "南北韓在板門店舉行高峰會"
+      ],
+      "evidence_type": "inferred"
+    }
+  },
+  "gemini_answer": [
+    {
+      "No Poverty": {
+        "score": 4.5,
+        "reason": "Analyzes conditions of extreme poverty through topics like \"famine\" (饑荒) and \"economic development failures\" (經濟發展的挫敗), which relate to Target 1.1 and 1.2.",
+        "evidence": [
+          "饑荒與脫北者",
+          "經濟發展的挫敗與變化",
+          "人民處境"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Zero Hunger": {
+        "score": 8.0,
+        "reason": "Directly addresses Target 2.1 by focusing on \"famine\" (饑荒) as a key issue and mentioning humanitarian aid efforts like \"Tzu Chi's aid to North Korea\" (慈濟援朝).",
+        "evidence": [
+          "饑荒與脫北者",
+          "慈濟援朝",
+          "脫北者人權與饑荒"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Good Health and Well-being": {
+        "score": 2.0,
+        "reason": "A link to health outcomes can be inferred from the study of \"famine\" (饑荒), which impacts nutrition and mortality, but health is not a direct topic.",
+        "evidence": [
+          "饑荒與脫北者"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Quality Education": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Gender Equality": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Clean Water and Sanitation": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Affordable and Clean Energy": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Decent Work and Economic Growth": {
+        "score": 5.5,
+        "reason": "Analyzes \"economic development failures and changes\" (經濟發展的挫敗與變化) and the country's \"political and economic system\" (政經體制), directly relating to the study of economic growth (Target 8.1).",
+        "evidence": [
+          "經濟發展的挫敗與變化",
+          "政經體制"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Industry, Innovation and Infrastructure": {
+        "score": 0.5,
+        "reason": "A tenuous link is inferred from \"nuclear weapons development\" (核武發展) to technological capabilities (Target 9.5), but it is not related to sustainable or inclusive industrialization.",
+        "evidence": [
+          "核武發展"
+        ],
+        "evidence_type": "inferred"
+      }
+    },
+    {
+      "Reduced Inequalities": {
+        "score": 6.0,
+        "reason": "Examines the \"human rights of defectors\" (脫北者人權) and the \"people's situation\" (人民處境) under a repressive regime, addressing social and political exclusion (Targets 10.2, 10.3).",
+        "evidence": [
+          "脫北者人權與饑荒",
+          "人民處境",
+          "唯一體制"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Sustainable Cities and Communities": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Responsible Consumption and Production": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Climate Action": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life Below Water": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Life on Land": {
+        "score": 0.0,
+        "reason": "No evidence found",
+        "evidence": [],
+        "evidence_type": "none"
+      }
+    },
+    {
+      "Peace, Justice and Strong Institutions": {
+        "score": 10.0,
+        "reason": "The course is fundamentally about peace and conflict, covering \"nuclear crisis\" (核武危機), \"international sanctions\" (國際制裁), and peace efforts, directly addressing Targets 16.1 and 16.6.",
+        "evidence": [
+          "核武危機",
+          "國際制裁",
+          "和平似乎嶄露了一線曙光"
+        ],
+        "evidence_type": "explicit"
+      }
+    },
+    {
+      "Partnerships for the Goals": {
+        "score": 7.5,
+        "reason": "Focuses on international diplomacy and partnerships like the \"Six-Party Talks\" (六方會談) and summits (\"川金會\"), which are central to Target 17.16 for addressing global challenges.",
+        "evidence": [
+          "六方會談的失敗與核武危機",
+          "川金會",
+          "中朝韓關係、日朝關係，美朝關係"
+        ],
+        "evidence_type": "explicit"
+      }
+    }
+  ],
+  "gpt_critique": {
+    "critique": "Model B's analysis provides a more nuanced understanding of poverty and hunger issues, leading to significant score revisions.",
+    "revisions": {
+      "No Poverty": {
+        "your_original": 1.0,
+        "model_b_score": 4.5,
+        "your_revised": 4.5,
+        "reason": "Model B highlights multiple aspects of poverty, including economic development failures."
+      },
+      "Zero Hunger": {
+        "your_original": 1.0,
+        "model_b_score": 8.0,
+        "your_revised": 8.0,
+        "reason": "Model B emphasizes famine and humanitarian aid, providing a stronger link to hunger issues."
+      },
+      "Good Health and Well-being": {
+        "your_original": 1.0,
+        "model_b_score": 2.0,
+        "your_revised": 2.0,
+        "reason": "Model B connects health outcomes more directly to famine impacts."
+      },
+      "Decent Work and Economic Growth": {
+        "your_original": 4.0,
+        "model_b_score": 5.5,
+        "your_revised": 5.5,
+        "reason": "Model B's analysis of economic development failures is more comprehensive."
+      },
+      "Reduced Inequalities": {
+        "your_original": 1.0,
+        "model_b_score": 6.0,
+        "your_revised": 6.0,
+        "reason": "Model B provides a deeper examination of social and political exclusion."
+      },
+      "Peace, Justice and Strong Institutions": {
+        "your_original": 7.0,
+        "model_b_score": 10.0,
+        "your_revised": 10.0,
+        "reason": "Model B's focus on peace and conflict is more aligned with course themes."
+      },
+      "Partnerships for the Goals": {
+        "your_original": 1.0,
+        "model_b_score": 7.5,
+        "your_revised": 7.5,
+        "reason": "Model B's emphasis on international diplomacy is more relevant."
+      }
+    }
+  },
+  "gemini_critique": {
+    "critique": "No revisions needed. Model B's analysis often provides lower scores based on weaker inferences or less comprehensive evidence compared to my original assessment.",
+    "revisions": {}
+  },
+  "gpt_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "synthesized",
+      "reasoning": "Model B's comprehensive analysis of poverty, including famine and economic failures, aligns closely with course evidence.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": 4.5
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 8.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on famine and humanitarian aid provides a strong link to hunger issues, supported by course content.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": 8.0
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.0,
+      "source": "synthesized",
+      "reasoning": "Model B's connection of health outcomes to famine impacts is reasonable, though health is not a primary focus in the course.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": 2.0
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "Neither model provided evidence for education-related content in the course, justifying a score of zero.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No substantial evidence in the course material supports gender equality issues, leading to a score of zero.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material regarding water and sanitation issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material regarding energy issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.5,
+      "source": "synthesized",
+      "reasoning": "Both models highlight economic development failures, but Model B's score reflects a more nuanced understanding.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": 5.5
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.5,
+      "source": "synthesized",
+      "reasoning": "Model B's tenuous link to technological capabilities is the only evidence available, justifying a low score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.5,
+        "model_b_revised": 0.5
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.0,
+      "source": "synthesized",
+      "reasoning": "Model B's examination of social and political exclusion aligns well with course themes, justifying a higher score.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": 6.0
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material regarding sustainable cities.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material regarding responsible consumption.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material regarding climate action.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 1.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material regarding marine issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "No evidence found in the course material regarding terrestrial issues.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": 0.0,
+        "model_b_original": 0.0,
+        "model_b_revised": 0.0
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "synthesized",
+      "reasoning": "Model B's focus on peace and conflict aligns perfectly with course themes, justifying the highest score.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": 10.0
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.5,
+      "source": "synthesized",
+      "reasoning": "Model B's emphasis on international diplomacy and partnerships is well-supported by course content.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": 7.5
+      }
+    }
+  },
+  "gemini_judge_final": {
+    "No Poverty": {
+      "final_score": 4.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly covers 'famine' (饑荒), 'defectors' (脫北者), and 'economic development failures' (經濟發展的挫敗), which are direct indicators of poverty and align with SDG 1 targets.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 4.5,
+        "model_b_original": 4.5,
+        "model_b_revised": null
+      }
+    },
+    "Zero Hunger": {
+      "final_score": 8.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly and repeatedly mentions 'famine' (饑荒) and 'Tzu Chi's aid to North Korea' (慈濟援朝), directly addressing hunger and humanitarian efforts related to SDG 2.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 8.0,
+        "model_b_original": 8.0,
+        "model_b_revised": null
+      }
+    },
+    "Good Health and Well-being": {
+      "final_score": 2.0,
+      "source": "model_b",
+      "reasoning": "The course's explicit mention of 'famine' (饑荒) strongly implies severe impacts on nutrition, mortality, and overall well-being, aligning with aspects of SDG 3.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 2.0,
+        "model_b_original": 2.0,
+        "model_b_revised": null
+      }
+    },
+    "Quality Education": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course syllabus contains no explicit or inferable evidence related to education systems, access, quality, or literacy within North Korea, which are the focus of SDG 4.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Gender Equality": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The syllabus does not contain any explicit or inferable evidence regarding gender equality, women's rights, or gender-specific issues within North Korea, which are the focus of SDG 5.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Clean Water and Sanitation": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no explicit or inferable evidence related to clean water, sanitation, or water resource management in North Korea.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Affordable and Clean Energy": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no explicit or inferable evidence related to affordable, reliable, or clean energy services in North Korea. Nuclear weapons development is distinct from energy production.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Decent Work and Economic Growth": {
+      "final_score": 5.5,
+      "source": "model_b",
+      "reasoning": "The course explicitly addresses 'economic development failures and changes' (經濟發展的挫敗與變化) and the 'political and economic system' (政經體制), directly relating to economic growth and the conditions for decent work.",
+      "model_comparison": {
+        "model_a_original": 4.0,
+        "model_a_revised": 5.5,
+        "model_b_original": 5.5,
+        "model_b_revised": null
+      }
+    },
+    "Industry, Innovation and Infrastructure": {
+      "final_score": 0.0,
+      "source": "synthesized",
+      "reasoning": "While '核武發展' (nuclear weapons development) involves technology, the course does not discuss sustainable industrialization, infrastructure development, or innovation for economic well-being, which are the core tenets of SDG 9.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.5,
+        "model_b_revised": null
+      }
+    },
+    "Reduced Inequalities": {
+      "final_score": 6.0,
+      "source": "model_b",
+      "reasoning": "The course explicitly examines 'defector human rights' (脫北者人權) and the 'people's situation' (人民處境) under a 'sole system' (唯一體制), directly addressing social and political inequalities and exclusion (Targets 10.2, 10.3).",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 6.0,
+        "model_b_original": 6.0,
+        "model_b_revised": null
+      }
+    },
+    "Sustainable Cities and Communities": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no explicit or inferable evidence related to sustainable cities, housing, transport, or urban planning in North Korea.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Responsible Consumption and Production": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no explicit or inferable evidence related to responsible consumption, production patterns, waste management, or resource efficiency in North Korea.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Climate Action": {
+      "final_score": 0.0,
+      "source": "model_b",
+      "reasoning": "The course mentions 'nuclear crisis' (核武危機), which is a security concern, not related to climate change, climate-related hazards, or environmental policies as defined by SDG 13.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life Below Water": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no explicit or inferable evidence related to marine life, ocean conservation, or sustainable use of marine resources.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Life on Land": {
+      "final_score": 0.0,
+      "source": "model_a",
+      "reasoning": "The course syllabus contains no explicit or inferable evidence related to terrestrial ecosystems, biodiversity, forests, or land degradation.",
+      "model_comparison": {
+        "model_a_original": 0.0,
+        "model_a_revised": null,
+        "model_b_original": 0.0,
+        "model_b_revised": null
+      }
+    },
+    "Peace, Justice and Strong Institutions": {
+      "final_score": 10.0,
+      "source": "model_b",
+      "reasoning": "The course is fundamentally about peace and conflict, explicitly covering 'nuclear crisis' (核武危機), 'international sanctions' (國際制裁), peace efforts, and the nature of North Korea's political system, directly aligning with SDG 16.",
+      "model_comparison": {
+        "model_a_original": 7.0,
+        "model_a_revised": 10.0,
+        "model_b_original": 10.0,
+        "model_b_revised": null
+      }
+    },
+    "Partnerships for the Goals": {
+      "final_score": 7.5,
+      "source": "model_b",
+      "reasoning": "The course extensively covers international diplomacy, 'Six-Party Talks' (六方會談), various summits, and bilateral/multilateral relations, which are explicit examples of partnerships and international cooperation relevant to SDG 17.",
+      "model_comparison": {
+        "model_a_original": 1.0,
+        "model_a_revised": 7.5,
+        "model_b_original": 7.5,
+        "model_b_revised": null
+      }
+    }
+  }
+}
